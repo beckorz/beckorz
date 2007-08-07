@@ -6,24 +6,27 @@ Option Explicit
 '
 '   << 注意 >>
 '   本家 : http://www.ideamans.com/tool/wikisupportaddin.php
-'   上記サイトからインストール後、Wikiモジュールへソースを入れ替え
+'   上記サイトからインストール後、これのソースを入れ替え
 '   多分、インストーラー形式からWikiSupport.xlaだけ抜いてソース入れ替えて使うのもあり?
 '   Documents and Settings\[ユーザー名]\Application Data\Microsoft\AddIns\WikiSupport.xla
 '
 '   << 変更履歴 >>
 '   2007/08/07  beck    本家 v0.81を元にソース最適化+表内の | 文字のエスケープ処理対応
+'                       左揃え(LEFT:)をデフォルトとして無効化
 '
 '_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 '---定数宣言
-Private Const csEditPopup   As String = "編集(&E)"      '---編集メニューポップアップ
-Private Const csWikiPopup   As String = "Wiki(&K)"      '---Wikiメニューポップアップ
+Private Const csTableSplitEscapeChar  As String = "&#x7c;"  ' テーブルの表組みのエスケープ文字
 
-Private Const csCopyForWikiWithFormat       As String = "書式付きWiki形式でコピー"  '---メニュー項目名
-Private Const csCopyForWikiWithFormatDesc   As String = "選択した範囲を書式付きWikiフォーマットに変換してコピーします"  '---メニュー項目の解説
+Private Const csEditPopup   As String = "編集(&E)"          ' 編集メニューポップアップ
+Private Const csWikiPopup   As String = "Wiki(&K)"          ' Wikiメニューポップアップ
 
-Private Const csCopyForWikiWithoutFormat        As String = "書式無しWiki形式でコピー"  '---メニュー項目名
-Private Const csCopyForWikiWithoutFormatDesc    As String = "選択した範囲を書式無しWikiフォーマットに変換してコピーします"  '---メニュー項目の解説
+Private Const csCopyForWikiWithFormat       As String = "書式付きWiki形式でコピー"  ' メニュー項目名
+Private Const csCopyForWikiWithFormatDesc   As String = "選択した範囲を書式付きWikiフォーマットに変換してコピーします"  ' メニュー項目の解説
+
+Private Const csCopyForWikiWithoutFormat        As String = "書式無しWiki形式でコピー"  ' メニュー項目名
+Private Const csCopyForWikiWithoutFormatDesc    As String = "選択した範囲を書式無しWikiフォーマットに変換してコピーします"  ' メニュー項目の解説
 
 '********************************************************************************
 '   内部関数
@@ -60,7 +63,8 @@ Private Sub CopyForWiki(Optional ByVal bWithFormat As Boolean = True)
             If matrix(r, c) <> ">" And matrix(r, c) <> "~" Then
                 Set rng = selection.Cells(r, c)
                 '---値の設定
-                matrix(r, c) = Replace(Trim(rng.Text), vbLf, "&br;")
+                matrix(r, c) = Replace$(Trim$(rng.Text), vbLf, "&br;")      '
+                matrix(r, c) = Replace$(matrix(r, c), "|", csTableSplitEscapeChar)  ' | 文字のエスケープ
                 
                 '---書式情報
                 If bWithFormat Then
@@ -85,7 +89,9 @@ Private Sub CopyForWiki(Optional ByVal bWithFormat As Boolean = True)
                     ElseIf rng.HorizontalAlignment = xlCenter Then
                         align = "CENTER:"
                     Else
-                        align = "LEFT:"
+                        ' Leftをデフォルトとして無効化
+                        'align = "LEFT:"
+                        align = ""
                     End If
                     matrix(r, c) = align & matrix(r, c)
                     
