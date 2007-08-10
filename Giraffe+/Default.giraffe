@@ -1,0 +1,778 @@
+﻿require(
+	(Virtual)
+  (WinDef)
+	(WinUser)
+  (WinUser\WM)
+  (WinUser\SC)
+  (WinUser\HWND)
+  (WinUser\SWP)
+  (WinUser\RDW)
+  (WinUser\CSIDL)
+  (WinUser\MOD)
+	(WinUser\IDI)
+	(WinUser\ID)
+	(WinUser\TPM)
+  (WinGdi)
+  (file)
+  (path)
+  (format)
+  (memory)
+  (system)
+  (explorer)
+  (restore-edit)
+  (Giraffe)
+  (mode)
+  (color))
+
+SetEvent(
+  (Load)
+  (
+    LOCALE& 'japanese', '表示の初期化', 'Initialize visibility'
+    ChangeColor(1)
+    OnEditChange())
+  (Unload)
+  (
+    LOCALE& 'japanese', '設定を保存', 'Save configuration'
+    SaveConfig())
+  (Activate)
+  (
+    LOCALE& 'japanese', 'ウインドウの色をアクティブに', 'Make colors of the Giraffe+ windows active'
+    ChangeColor(1))
+  (Deactivate)
+  (
+    LOCALE& 'japanese', 'ウインドウの色をインアクティブに, timer/deactive_hideが設定されていればそれを実行', 'Make colors of the Giraffe+ windows inactive, and invoke timer/deactive_hide if any'
+    If(
+      GetEvent((timer/deactive_hide))
+      (
+        Eval(GetEvent((timer/deactive_hide)))))
+    ChangeColor(0))
+  (GetIcon)
+  [
+    LOCALE& 'japanese', 'スクリプトが指定するアイコンを返す', 'Return the icon specified by a script'
+		arg.[0].empty.&& [arg.[2].not].? [$Giraffe:Path.return]
+		arg.[1].&& [arg.[0].iends_with('.giraffe')].&& [Interpreter.openable?(arg.[0])].? [
+			icon_path: GetFuncDescription('@'.+ (arg.[0]) 1)
+			icon_path.empty.! (
+				[icon_path]
+				[$Giraffe:Path]
+			).return
+		]
+		arg.[0]
+	]
+  (GetFrameColor)
+  (
+    LOCALE& 'japanese', '与えられたウインドウフレームの色を$color変数に保存し、それを返す', 'Save the given colors of window frame into $color variable, and return it'
+    var((color)a(param(0)param(1)param(2))))
+  (GetIconColor)
+  (
+    LOCALE& 'japanese', '与えられたアイコンの背景色を$color変数に保存し、それを返す。リストアイテムにマークがあれば、暗くする', 'Save the given background color of the icon into $color variable, and return it. Make the color dark when the Listbox item is marked'
+    var(
+      (color)
+      if(&&(!=(param-count()1)Giraffe.GetListItemMark(param(1)))
+        (color:dec(param(0)))
+        (param(0)))))
+  (GetTextColor)
+  (
+    LOCALE& 'japanese', '与えられたテキストの背景色を$color変数に保存し、それを返す。リストアイテムにマークがあれば、暗くする', 'Save the given text color of the icon into $color variable, and return it. Make the color dark when the Listbox item is marked'
+    var(
+      (color)
+      if(&&(!=(param-count()3)Giraffe.GetListItemMark(param(2)))
+        (a(color:dec(param(0))color:dec(param(1))))
+        (a(param(0)param(1))))))
+  (GetSortMode)
+  (
+    LOCALE& 'japanese', 'オートコンプリートのソート仕様を変更せずに返す', 'Return the sort specifications of the autocomplete without modifying'
+    return(a(param(0) param(1) param(2))))
+  (EditChange)
+  [
+    LOCALE& 'japanese', 'オートコンプリートして、候補が無ければ履歴をリストに', 'Autocomplete, and fill the Listbox with history when the result is empty'
+    history: false.copy
+
+    var((sel_start)GetSelStart())
+    var((text_part)GetTextPart())
+    var((text_len)len($text_part))
+
+	  Giraffe.Config.AutoComplete.Enable.?(
+      [
+        $sel_start.<= $text_len.? [
+          AutoCompleteSetList($text_part).?(
+            [AutoCompleteSetText($sel_start $text_len $text_part)]
+						[
+							history.= true
+              ShowList(0)
+						]
+					)
+			  ]
+      ]
+      [history.= true]
+		)
+    history.?[Giraffe:List:SetHistory]
+    Giraffe.Config.AutoResize.Enable.?[OptimizeWidth]
+		history.not.&&[[Giraffe.Config.List.OpenMode].&&[$sel_start.<= $text_len]].?[ShowListAfterAutoComplete]
+		Giraffe.Edit.RedrawText //You can see why this is necessary with typing F9 without this.
+  ]
+  (PaintFrame)
+  (
+    LOCALE& 'japanese', 'フレームウインドウのデフォルト描画', 'Draw the frame window as default'
+    Giraffe.DefaultPaintFrame(param(0)param(1)param(2)param(3)param(4)))
+  (Drag)
+  (
+    LOCALE& 'japanese', 'ファイル実行と同じ後処理', 'Invoke the same post-process as the file execution'
+    BeforeExecute()
+    AfterExecute(1))
+  (drop/)
+  (
+    LOCALE& 'japanese', 'ドロップされたファイルを登録アイテムに追加', 'Add the dropped file to the registered items'
+    for-each((file) param() (AddData($file)))) //TODO: 複数追加を美しく
+  (drop/c)
+  (
+    LOCALE& 'japanese', 'ドロップされたファイルのパスを入力テキストに追加', 'Add the dropped file path to the input text'
+    var((path)Shell.GetPathFromIDList(param(0))) //TODO: Also multiple files.
+    if(
+      is-empty($path)
+      ($path(param(0))))
+    SetTextUndoable(GetText() $path)
+    SetSel(0()1000)
+    OptimizeWidth())
+	'drop/r'
+	`*[
+		@drop_menu(arg)
+	]
+  
+  (mouse/tasktray-lu)
+  (
+    LOCALE& 'japanese', 'Giraffe+の表示', 'Show Giraffe+'
+    ShowGiraffe())
+  (mouse/tasktray-ru)
+  (
+    LOCALE& 'japanese', 'タスクトレイメニューの表示', 'Show the tasktray menu'
+    @TaskTrayMenu())
+  (mouse/list-ld)
+  (
+    LOCALE& 'japanese', 'リストアイテム選択', 'Select the Listbox item'
+    var((i)()(bottom)()(x)()(y)()(index)-1)
+    $i(GetListTopIndex())
+    $bottom(GetListBottomIndex())
+    $x(Window.ScreenToClient(GetGiraffeHandle((list)) Mouse.GetLeft() (x)))
+    $y(Window.ScreenToClient(GetGiraffeHandle((list)) Mouse.GetTop() (y)))
+
+    for(
+      (i)0()(<=($i()$bottom))(++($i))
+      (
+        if(
+          &&(
+            >=($x() GetListItemRect($i() (left)))
+            <=($x() GetListItemRect($i() (right)))
+            >=($y() GetListItemRect($i() (top)))
+            <=($y() GetListItemRect($i() (bottom))))
+          (
+            $index($i)
+            break-for()))))
+
+    if(Keyboard.GetState((ctrl))
+      (ToggleListItemMark($index) RedrawList($index))
+      (SetListCurSel($index))))
+  (mouse/list-lw)
+  (
+    LOCALE& 'japanese', 'ディレクトリを進む、またはファイル実行', 'Enter a directory, or execute a file'
+    var((path)GetNormalFile(Giraffe:GetExecutee))
+    if(
+      Shell.IsDir($path)
+      (
+        SetText($path()(\))
+        Move((End))
+        OnEditChange())
+      (
+        BeforeExecute()
+        AfterExecute(NormalExecute(Giraffe:GetExecutees)))))
+  (mouse/list-rd)
+  (
+    LOCALE& 'japanese', 'リストアイテムの選択', 'Select the Listbox item'
+    Eval(GetEvent((mouse/list-ld))))
+  (mouse/list-ru)
+  (
+    LOCALE& 'japanese', '入力ファイルのシェルコンテキストメニューの表示', 'Show the shell context menu of the input file'
+    BeforeExecute()
+    AfterExecute(NormalShellMenu(Giraffe:GetExecutees())))
+  (mouse/edit-lw)
+  (
+    LOCALE& 'japanese', 'ディレクトリを進む、またはファイル実行', 'Enter a directory, or executes a file'
+    Eval(GetEvent((mouse/list-lw))))
+  (mouse/edit-ru)
+  (
+    LOCALE& 'japanese', '入力ファイルのシェルコンテキストメニュー、またはタスクトレイメニューの表示', 'Show the shell context menu of the input file or the task tray menu'
+    if(is-empty(GetText())
+      (@TaskTrayMenu()return))
+    Eval(GetEvent((mouse/list-ru)))))
+    
+
+GlobalFunc(
+  (ShowListAfterAutoComplete)
+  (
+    ShowList(1))
+  (BeforeExecute)
+  (
+    AddHistory(GetText()))
+  (AfterExecute)
+  (
+    If(
+      param0()
+      (
+        SetEvent(
+          (timer/deactive_hide-1000)
+          (
+            SetEvent((timer/deactive_hide))
+            HideGiraffe()
+            ClearText())))))
+  (BeforeTextChange)
+  (
+    )
+  (AfterTextChange)
+  (
+		LOCALE& 'japanese', '数値ITEMIDLISTを表示ITEMIDLISTに変換', 'Convert a numeric ITEMIDLIST into a display ITEMIDLIST'
+    var((target) Giraffe:Edit:GetText:Target())
+    if(
+      ==s(left($target()3) (::-))
+      (
+        if(
+          ==s(right($target()1) (\))
+          (
+            Giraffe:Edit:SetText:Target(
+              cat(
+                Shell.GetDisplayIDList(left($target() sub(len($target())1)))
+                (\))))
+          (
+            Giraffe:Edit:SetText:Target(Shell.GetDisplayIDList($target))))))
+    Giraffe:Edit:MoveCaretToTargetEnd()
+    OnEditChange())
+  (BeforeFileManipulation)
+  (
+    AddHistory(GetText()))
+  (AfterFileManipulation)
+  (
+    If(
+      GetParam(0)
+      (
+        var((path) GetNormalFile(GetText()))
+        if(
+          path:is-data($path)
+          (ClearText()return()))
+        unless(
+          Shell.IsDir($path)
+          ($path(Shell.GetDir($path))))
+        SetText($path() (\))
+        Move((end))
+        OnEditChange())))
+  (BeforeCopyPath)
+  (
+    )
+  (AfterCopyPath)
+  (
+    if(param0()
+      (HideGiraffe()ClearText())))
+  (NormalExecute)
+  (
+    for-each(
+      (file)
+      param(0)
+      (
+        var((data_path) GetDataPath(GetParamPart($file()(Target))))
+        if(
+          ==si(Shell.GetExt($data_path)(.giraffe))
+          (return(eval-f($data_path()GetParamPart($file()(Parameter))))))
+        
+        Shell.Execute(
+          GetNormalFile($file())
+          GetNormalParam($file())
+          GetNormalDir($file())
+          GetNormalVerb($file())
+          GetNormalShow($file())))))
+  (NormalOpenDir)
+  (
+    for-each(
+      (file)
+      param(0)
+      (
+        Shell.Execute(
+          Shell.GetDir(GetNormalFile($file))))))
+  (NormalExplorerDir)
+  (
+    for-each(
+      (file)
+      param(0)
+      (
+        Shell.Execute(
+          (explorer.exe)
+          Concat(
+            (/e, )
+            Shell.GetDir(GetNormalFile($file)))))))
+  (NormalProperty)
+  (
+    Shell.Execute(
+      array:collect(param(0)(GetNormalFile(param(0))))
+      ()
+      ()
+      (properties)
+      ()
+      ()
+      $Giraffe:Handle))
+  (DataProperty)
+  (
+    Shell.Execute(
+      array:collect(
+        param(0)
+        (
+          first(
+            GetDataPath(GetParamPart(param(0)(Target)))
+            GetParamPart(param(0)(Target)))))
+      ()
+      ()
+      (properties)
+      ()
+      ()
+      $Giraffe:Handle))
+  (NormalShellMenu)
+  [
+    loc: c.setlocale(0 0).to_Pointer(Char).to_String.c_str_a
+    ret: array:collect(param(0) (GetNormalFile(param(0)))).shell_menu(
+      IniFile.Get($Giraffe_ini() (Shell) (ShowContextMenu.X) Window.GetPos(GetGiraffeHandle()(right))).to_Int
+      IniFile.Get($Giraffe_ini() (Shell) (ShowContextMenu.Y) Window.GetPos(GetGiraffeHandle()(top))).to_Int
+			TPM_RIGHTBUTTON.| (IniFile.Get($Giraffe_ini 'Shell' 'ShowContextMenu.HorizontalAlign' 0).to_Int).|
+												(IniFile.Get($Giraffe_ini 'Shell' 'ShowContextMenu.VerticalAlign' 0).to_Int))
+    c.setlocale(0 loc) //Some DLLs change the current locale.
+    ret
+	]
+  (GetDataPart)
+  (
+    If(
+      is-empty(GetParam(0))
+      (Return()))
+    
+    Shell.GetShortcut(
+      GetDataPath(
+        GetParamPart(
+          GetParam(0)
+          (Target)))
+      GetParam(1)))
+  (GetParamPart)
+  (
+    split(
+      param(0)
+      GetConfig((General.Separator))
+      switch-i(
+        param(1)
+        (Target) (0)
+        (Parameter) (1)
+        (Directory) (2)
+        (Verb) (3)
+        (Show) (4))))
+  #BEGIN_OBSOLETE:GetNormal:Use Giraffe:Edit:GetText and Giraffe:ComposeExecutee.
+  (GetNormalFile)
+  (
+    if(
+      path:is-path(var((param_part) GetParamPart(param(0)(Target))))
+      (return($param_part)))
+    
+    first(
+      GetDataPart(param(0) (Target))
+      GetDataPath(param(0))
+      $param_part()))
+  (GetNormalParam)
+  (
+    var(
+      (param_data)
+      GetDataPart(
+        param(0)
+        (Parameter)))
+    var(
+      (param_param)
+      GetParamPart(
+        GetParam(0)
+        (Parameter)))
+    var(
+      (param)
+      $param_data)
+    if(
+      &&(
+        !(is-empty($param_data()))
+        !(is-empty($param_param())))
+      (
+        $param($param() ( ))))
+    return(cat($param()$param_param)))
+  (GetNormalDir)
+  (
+    var((target) GetParamPart(param(0) (Target)))
+    First(
+      GetParamPart(
+        param(0)
+        (Directory))
+      GetDataPart(
+        param(0)
+        (Directory))
+      if(
+        path:is-path($target)
+        (
+          Shell.GetDir($target)))))
+  (GetNormalVerb)
+  (
+    first(
+      GetParamPart(
+        param(0)
+        (Verb))
+      GetDataPart(
+        param(0)
+        (Verb))))
+  (GetNormalShow)
+  (
+    first(
+      GetParamPart(
+        param(0)
+        (Show))
+      GetDataPart(
+        param(0)
+        (Show))
+      (1)))
+  (GetNormalFileDir)
+  (
+    first(
+      Shell.GetDir(
+        GetDataPart(
+          param(0)
+          (Target)))
+      Shell.GetDir(
+        GetParamPart(
+          param(0)
+          (Target)))))
+  (FirstDataOrParam)
+  (
+    First(
+      GetDataPath(
+        GetParamPart(
+          param(0)
+          (Target)))
+      GetParamPart(
+        param(0)
+        (Target))))
+  #END_OBSOLETE:GetNormal
+  #BEGIN_OBSOLETE:TextChange:Use Giraffe:ComposeExecutee and Giraffe:Edit:SetText:Target instead of TextChange* functions.
+  (TextChangeLinkDir)
+  (
+    SetText(
+      cat(
+        Shell.GetDir(GetNormalFile(param(0)))
+        (\))))
+  (TextChangeFileDir)
+  (
+    SetText(
+      Shell.GetDir(
+          GetNormalFile(param(0)))))
+  (TextChangeLinkFile)
+  (
+    var((path) GetNormalFile(param(0)))
+    if(==($path()param(0))
+      (return(false)))
+    
+    SetText(
+      if(Shell.IsDir($path)
+        (cat($path()(\)GetParamPart(param(0)(Parameter))))
+        ($path)))
+    true())
+  #END_OBSOLETE:TextChange
+  (NormalAddData)
+  (
+    for-each(
+      (file)
+      param(0)
+      (
+        AddData(
+          GetNormalFile($file)
+          GetNormalParam($file)
+          GetNormalDir($file)
+          GetNormalVerb($file)
+          GetNormalShow($file)))))
+  (AddData)
+  (
+    Shell.CreateShortcut(
+      IniFile.Get($Giraffe_ini() (Shell) (CreateShortcut.Left) Window.GetPos(GetGiraffeHandle()(left)))
+      IniFile.Get($Giraffe_ini() (Shell) (CreateShortcut.Top) Window.GetPos(GetGiraffeHandle()(bottom)))
+      GetFirstDataDir()
+      GetParam(0()) #target
+      GetParam(1()) #parameter
+      GetParam(2()) #directory
+      GetParam(3()) #verb
+      GetParam(4()) #show
+      IniFile.Get($Giraffe_ini() (Shell) (CreateShortcut.Comment) ())
+      IniFile.Get($Giraffe_ini() (Shell) (CreateShortcut.Type) ())
+      IniFile.Get($Giraffe_ini() (Shell) (Font.Name) (MS Shell Dlg))
+      IniFile.Get($Giraffe_ini() (Shell) (Font.Height) 13())
+      IniFile.Get($Giraffe_ini() (Shell) (CreateShortcut.SetDlgPos) 0())))
+  (RenameDataOrFile)
+  (
+    for-each(
+      (file)
+      param(0)
+      (
+        Shell.Rename(
+          IniFile.Get($Giraffe_ini() (Shell) (Rename.ShowExt) 1())
+          IniFile.Get($Giraffe_ini() (Shell) (Rename.Left) Window.GetPos(GetGiraffeHandle()(left)))
+          IniFile.Get($Giraffe_ini() (Shell) (Rename.Top) Window.GetPos(GetGiraffeHandle()(bottom)))
+          FirstDataOrParam($file)
+          GetParamPart($file() (Parameter))
+          IniFile.Get($Giraffe_ini() (Shell) (Font.Name) (MS Shell Dlg))
+          IniFile.Get($Giraffe_ini() (Shell) (Font.Height) 13())
+          IniFile.Get($Giraffe_ini() (Shell) (Rename.SetDlgPos) 0())))))
+  (DeleteDataOrFile)
+  (
+    Shell.Execute(
+      array:collect(param(0)(FirstDataOrParam(param(0()))))
+      ()
+      ()
+      (delete)
+      ()
+      ()
+      $Giraffe:Handle))
+  (CopyFile)
+  (
+    Shell.Execute(
+      array:collect(param(0)(GetNormalFile(param(0))))
+      ()
+      ()
+      (copy)
+      ()
+      ()
+      $Giraffe:Handle))
+  (CutFile)
+  (
+    Shell.Execute(
+      array:collect(param(0)(GetNormalFile(param(0))))
+      ()
+      ()
+      (cut)
+      ()
+      ()
+      $Giraffe:Handle))
+  (PasteFile)
+  (
+    Shell.Execute(
+      array:collect(param(0)(GetNormalFile(param(0))))
+      ()
+      ()
+      (paste)
+      ()
+      ()
+      $Giraffe:Handle))
+  (FindFile)
+  (
+    Shell.Execute(
+      GetNormalFile(param(0()))
+      ()
+      ()
+      (find)
+      ()
+      ()
+      $Giraffe:Handle))
+  (CloseWindow)
+  (
+    Window.PostMessage(
+      param(0())
+      WM_SYSCOMMAND()
+      $SC_CLOSE))
+  (MaximizeWindow)
+  (
+    Window.PostMessage(
+      param(0())
+      (0x112)
+      $SC_MAXIMIZE))
+  (MinimizeWindow)
+  (
+    Window.PostMessage(
+      param(0())
+      WM_SYSCOMMAND()
+      $SC_MINIMIZE))
+  (RestoreWindow)
+  (
+    Window.PostMessage(
+      param(0())
+      WM_SYSCOMMAND()
+      $SC_RESTORE))
+  (MoveWindow)
+  (
+    Window.PostMessage(
+      param(0())
+      WM_SYSCOMMAND()
+      $SC_MOVE))
+  (ResizeWindow)
+  (
+    Window.PostMessage(
+      param(0())
+      WM_SYSCOMMAND()
+      $SC_SIZE))
+  (HideWindow)
+  (
+    MinimizeWindow(param(0()))
+    Window.SetVisible(param(0())))
+  (ReloadSettings)
+  (
+    Giraffe.Reinitialize())
+  (ChangeColor)
+  (
+    var((color_name))
+    if(
+      if(
+        param-count()
+        (param(0()))
+        (
+          ==n(
+            GetGiraffeHandle()
+            Window.GetForeground())))
+      (
+        if(
+          GetConfig((Autocomplete.Enable))
+          ($color_name((ActiveAutocomplete)))
+          ($color_name((Active)))))
+      (
+        if(
+          GetConfig((Autocomplete.Enable))
+          ($color_name((DeactiveAutocomplete)))
+          ($color_name((Deactive))))))
+
+    call-a((SetColor)IniFile.Get($Color_ini()$color_name)))
+  (LoadConfig)
+  (
+    call-a((SetConfig)IniFile.Get($Giraffe_ini()(config))))
+  (SaveConfig)
+  (
+    mode:return-completely()
+    IniFile.call_with_array_as_argument((Set) cat(a($Giraffe_ini() (Config)) GetConfig())))
+  (EvalMode)
+  (
+    If(
+      ==($mode:current()(eval))
+      (
+        mode:return()
+        ChangeColor()
+        RedrawGiraffe())
+      (
+        mode:enter((eval))
+        mode:set-config((AutoComplete.Enable)0)
+        mode:set-event(
+          (GetIcon)
+          (
+            $Giraffe:Path)
+          (key/enter)
+          (
+            AddHistory(GetText())
+            Eval(GetText()))
+          (key/f1)
+          (
+            BeforeExecute()
+            AfterExecute(NormalExecute(GetText()))))
+        mode:set-func-g((ChangeColor)())
+
+        call-a((SetColor)IniFile.Get($Color_ini()(EvalMode))))))
+  (NormalGetInput)
+  (
+    Dialog.GetInput(
+        param(0)
+        param(1)
+        IniFile.Get($Giraffe_ini() (Dialog) (Input.Left) Window.GetPos(GetGiraffeHandle()(left)))
+        IniFile.Get($Giraffe_ini() (Dialog) (Input.Top) Window.GetPos(GetGiraffeHandle()(bottom)))
+        param(2)
+        IniFile.Get($Giraffe_ini() (Dialog) (Font.Name) (MS Shell Dlg))
+        IniFile.Get($Giraffe_ini() (Dialog) (Font.Height) 13())
+        IniFile.Get($Giraffe_ini() (Dialog) (Input.SetDlgPos) 0())
+        param(3)))
+  (CreateNewFile)
+  [
+    var((dir) param(0()))
+    if(
+      ==s($dir()())
+      (
+        $dir(Shell.GetSpecialFolderPath($CSIDL_DESKTOP))))
+    
+    unless(
+      Shell.IsDir($dir)
+      ($dir(Shell.GetDir($dir))))
+    unless(
+      ==s(right($dir() 1()) (\))
+      ($dir($dir() (\))))
+
+		dir_or_not: arg.size.> 1.&& [arg.[1].to_Bool]
+    var((new-name) NormalGetInput(dir_or_not.? LOCALE('japanese' '新しいフォルダ名を入力してください。' 'Enter the new folder name.'), LOCALE('japanese' '新しいファイル名を入力してください。' 'Enter the new file name.')
+                                  "Create #{dir_or_not.? 'Folder', 'File'} Dialog"
+                                  IniFile.Get($Giraffe_ini() (Dialog) (Input.Default.CreateNewFile) (new))))
+    if(
+      ==s($new-name()())
+      (return))
+
+    var((new) cat($dir()$new-name))
+
+    if(
+      Shell.IsExist($new)
+      (
+        require((WinUser/MB))
+        msg(LOCALE& 'japanese', '指定されたファイル名はすでに存在します。別のファイル名を指定してください。', 'A file with the name you specified already exists. Specify a different filename.' 'Giraffe+ CreateNewFile' $MB_ICONERROR)
+        return(CreateNewFile(arg.@))))
+  
+    unless(Shell.CreateNewFile($new() param(1())) (Return()))
+
+    SetText($new)
+    Move((end))
+    OnEditChange()
+    return(1)
+	]
+  (StartShell)
+  (
+    var-arg-default((dir) Shell.GetSpecialFolderPath($CSIDL_DESKTOP) (shell) (cmd))
+    if(is-empty($dir)($dir(Shell.GetSpecialFolderPath($CSIDL_DESKTOP))))
+    $dir(path:if-not-dir-get-dir-path(GetNormalFile($dir)))
+    Shell.Execute($shell() () $dir))
+  (WebSearch)
+  (
+    Giraffe.web_search(param(0)param(1)))
+  (EmulatePasteKey)
+  (
+    switch-w(
+      Window.GetClass(Window.GetForeground())
+      (　)         #xyzzy
+      (Keyboard.Stroke((s-insert)))
+      (ConsoleWindowClass)
+      (Window.SendMessage(Window.GetForeground() 274() 65521() 0()))
+      (*)
+      (Keyboard.Stroke((c-v))))))
+
+//web_search
+Giraffe.before_web_search: `query key_mod[
+	BeforeExecute
+]
+
+Giraffe.after_web_search: `success query key_mod[
+	AfterExecute(success)
+]
+
+Giraffe.web_search_make_url: `query jp[
+	require('www')
+	encoded_query: www:url-encode-as-utf8*(query)
+	utf8: :encoded_query.null?.not
+	utf8.not.? [encoded_query@ www:url-encode(query)]
+	url: null?(self.GOOGLE_URL*).?(['http://www.google.co.jp/search?'] [self.GOOGLE_URL]).copy
+	url.+= 'q='.+= encoded_query.+= (utf8.not.?('&ie=sjis' '')).+= (jp.?('&lr=lang_ja' '')).+= '&num=50'
+]
+
+Giraffe.web_search: `query key_mod[
+	self.before_web_search(query key_mod)
+	self.after_web_search(switch(key_mod
+															 0 [self.web_search_make_url(query false).shell_execute]
+															 MOD_SHIFT [self.web_search_make_url(query true).shell_execute]
+															 MOD_CONTROL [@web-search-menu(query)])
+												query
+												key_mod)
+].|`query[recur(query 0)]
+//web_search
+
+global.c: Dll.new('MSVCR71')
+global.Gc: Dll.new('gc')
+
+LoadConfig()
+ApplyConfig()
+LoadPriority()
