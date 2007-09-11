@@ -1,0 +1,9 @@
+body {
+	color: black;
+}
+/* エラーメッセージ */
+div.attention {
+	color: red;
+	font-weight: bold;
+	white-space: nowrap;
+}
