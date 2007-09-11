@@ -26,15 +26,17 @@ define('SESSION_USERNAME_KEY', 'session_user');
 define('SESSION_IP_KEY', 'session_ip');
 // ログインユーザーの状態キー
 define('SESSION_STATE_KEY', 'session_state');
-// ログインユーザーのダイス目キー
-define('SESSION_DICES_KEY', 'session_dices');
+// ログインユーザーのスコア状態キー
+define('SESSION_SCORE_KEY', 'session_score');
+// ログインユーザーのサイコロ状態キー
+define('SESSION_DICE_KEY', 'session_dice');
 
 // ログインユーザーの状態
-// ダイスを振っていない
+// サイコロを振っていない
 define('STATE_NOTROLLED', 'state_notrolled');
-// ダイス1回目終了
+// サイコロ1回目終了
 define('STATE_FIRST', 'state_first');
-// ダイス2回目終了
+// サイコロ2回目終了
 define('STATE_SECOND', 'state_second');
 // 全スコア終了
 define('STATE_ALLSCORED', 'state_allscored');

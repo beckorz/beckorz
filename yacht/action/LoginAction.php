@@ -1,5 +1,7 @@
 <?php
 require_once('Action.php');
+require_once('model/Score.php');
+require_once('model/Dice.php');
 
 /**
  * ログイン処理のアクションクラス
@@ -21,7 +23,10 @@ class LoginAction extends Action {
 		$ses->set(SESSION_USERNAME_KEY, $req->get('user'));
 		$ses->set(SESSION_IP_KEY, $_SERVER['REMOTE_ADDR']);
 		$ses->set(SESSION_STATE_KEY, STATE_NOTROLLED);
-		$ses->set(SESSION_DICES_KEY, 123456);
+		$score = new Score();
+		$ses->set(SESSION_SCORE_KEY, $score);
+		$dice = new Dice();
+		$ses->set(SESSION_DICE_KEY, $dice);
 
 		return PAGE_SUCCESS;
 	}

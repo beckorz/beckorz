@@ -16,6 +16,8 @@ class LoginValidator extends Validator {
 
 		if (trim($req->get('user')) == '') {
 			array_push($this->errors, '名前を入力してください。');
+		} elseif (30 < mb_strlen($req->get('user'))) {
+			array_push($this->errors, '名前は30文字以内で入力してください。');
 		}
 		return $this->errors;
 	}

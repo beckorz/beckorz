@@ -19,7 +19,7 @@
 		<tr>
 			<th align="right">名前：</th>
 			<td>
-				<input type="text" name="user" width="20" value="<?= htmlspecialchars($req->get('user')) ?>">
+				<input type="text" name="user" width="20" maxlength="30" value="<?= htmlspecialchars($req->get('user')) ?>">
 			</td>
 		</tr>
 		<tr>
