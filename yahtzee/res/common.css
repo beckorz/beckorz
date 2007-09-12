@@ -1,0 +1,49 @@
+body {
+	color: black;
+}
+/* エラーメッセージ */
+div.attention {
+	color: red;
+	font-weight: bold;
+	white-space: nowrap;
+}
+/* 操作メッセージ */
+div#txtMessage {
+	color: blue;
+	font-weight: bold;
+}
+/* 表基本 */
+table th {
+	white-space: nowrap;
+}
+table td {
+	white-space: nowrap;
+}
+table.grid caption {
+	background: #C6F;
+	color: black;
+	font-weight: bold;
+}
+table.grid th {
+	background: #CFF;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	white-space: nowrap;
+}
+table.grid td {
+	background: #CFF;
+	color: black;
+	white-space: nowrap;
+}
+/* 行ヘッダ */
+table.grid th.header {
+	background: #0FC;
+	color: black;
+	text-align: center;
+}
+/* 集計行 */
+table.grid tr.total th, table.grid tr.total td {
+	background: #9CF;
+	color: black;
+}
