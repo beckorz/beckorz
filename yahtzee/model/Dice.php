@@ -12,7 +12,7 @@ define('RE_SIXES', '/(6+)/');
 define('RE_THREEOFAKIND', '/([1-6])\1{2}/');
 define('RE_FOUROFAKIND', '/([1-6])\1{3}/');
 define('RE_FULLHOUSE', '/(([1-6])\2([1-6])\3{2}|([1-6])\4{2}([1-6])\5)/');
-define('RE_SMALLSTRAIGHT', '/(1234|2345|3456)/');
+define('RE_SMALLSTRAIGHT', '/(1+2+3+4+|2+3+4+5+|3+4+5+6+)/');
 define('RE_LARGESTRAIGHT', '/^1?23456?$/');
 define('RE_YAHTZEE', '/^([1-6])\1{4}$/');
 
@@ -77,6 +77,46 @@ class Dice {
 		$work = array_values($this->dice);
 		sort($work);
 		return join('', $work);
+	}
+
+	/**
+	 * 点数を取得
+	 *
+	 * @param $index 役のインデックス
+	 *
+	 * @return 役が成立していればその点数、成立していなければ0を返す
+	 */
+	function getPoint($index) {
+		switch ($index) {
+			case TABLE_ACES:
+				return $this->isAces();
+			case TABLE_TWOS:
+				return $this->isTwos();
+			case TABLE_THREES:
+				return $this->isThrees();
+			case TABLE_FOURS:
+				return $this->isFours();
+			case TABLE_FIVES:
+				return $this->isFives();
+			case TABLE_SIXES:
+				return $this->isSixes();
+			case TABLE_THREEOFAKIND:
+				return $this->isThreeOfAKind();
+			case TABLE_FOUROFAKIND:
+				return $this->isFourOfAKind();
+			case TABLE_FULLHOUSE:
+				return $this->isFullHouse();
+			case TABLE_SMALLSTRAIGHT:
+				return $this->isSmallStraight();
+			case TABLE_LARGESTRAIGHT:
+				return $this->isLargeStraight();
+			case TABLE_YAHTZEE:
+				return $this->isYahtzee();
+			case TABLE_CHANCE:
+				return $this->isChance();
+			default:
+				return 0;
+		}
 	}
 
 	/**

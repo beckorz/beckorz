@@ -25,7 +25,7 @@ class Action {
 		// セッション(ログイン)チェック
 		if ($this->requireSession()) {
 			if (!$this->session->get(SESSION_SESSIONID_KEY)) {
-				return PAGE_FAILURE;
+				return PAGE_TIMEOUT;
 			}
 		}
 		return $this->doExecute();

@@ -11,6 +11,7 @@ div.attention {
 div#txtMessage {
 	color: blue;
 	font-weight: bold;
+	white-space: nowrap;
 }
 /* 表基本 */
 table th {

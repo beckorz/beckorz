@@ -1,23 +1,40 @@
 <?php
+	$url = $_SERVER['SCRIPT_NAME'];
 	$ses =& $this->session;
 	$dice = $ses->get(SESSION_DICE_KEY);
 ?>
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
 <title>Yahtzee</title>
 <link rel="stylesheet" type="text/css" href="res/common.css">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
+<script type="text/javascript"><!--
+// 疑似定数宣言
+REQUEST_URL = "<?= $url ?>";
+STATE_NOTROLLED = "<?= STATE_NOTROLLED ?>";
+STATE_FIRST = "<?= STATE_FIRST ?>";
+STATE_SECOND = "<?= STATE_SECOND ?>";
+STATE_ALLSCORED = "<?= STATE_ALLSCORED ?>";
+// --></script>
 <script type="text/javascript" src="res/MainPage.js"></script>
 </head>
 
-<body>
-<form id="MainForm">
+<body onload="resetScreen([<?= join(',', $dice->getDice()) ?>])">
+<form id="MainForm" action="<?= $url ?>">
 	<input type="hidden" name="action" id="action" value="">
+	<input type="hidden" name="hand" id="hand" value="">
+	<input type="hidden" name="register" id="register" value="">
+	<input type="hidden" name="comment" id="comment" value="">
 
-	<table>
+	<table summary="情報">
 		<tr>
 			<th style="text-align:right">名前：</th>
 			<td colspan="6"><?= htmlspecialchars($ses->get(SESSION_USERNAME_KEY)) ?></td>
@@ -27,7 +44,7 @@
 <?php
 	for ($i = 0; $i < 5; $i++) {
 		echo "\t\t\t<td align=\"center\">\n";
-		echo "\t\t\t\t<div id=\"txtDie".$i."\">".$dice->getDie($i)."</div>\n";
+		echo "\t\t\t\t<tt id=\"txtDie".$i."\">&nbsp;</tt>\n";
 		echo "\t\t\t</td>\n";
 	}
 ?>
@@ -38,28 +55,26 @@
 <?php
 	for ($i = 0; $i < 5; $i++) {
 		echo "\t\t\t<td align=\"center\">\n";
-		echo "\t\t\t\t<input type=\"checkbox\" name=\"chkDie".$i."\" id=\"chkDie".$i."\">\n";
+		echo "\t\t\t\t<input type=\"checkbox\" name=\"chkDie".$i."\" id=\"chkDie".$i."\" value=\"1\">\n";
 		echo "\t\t\t</td>\n";
 	}
 ?>
 			<td align="right" colspan="6">
-				<input type="button" id="btnRoll" value="振り直し">
-			</td>
-		</tr>
-		<tr>
-			<td colspan="7">
-				<div id="txtMessage">サイコロを選んで振り直すか記録してください。</div>
+				<input type="button" id="btnRoll" value="振り直し1" onclick="rollDice()">
 			</td>
 		</tr>
 	</table>
+	<div id="txtMessage">サイコロを選んで振り直すか記録してください。</div>
+	<div id="txtError" class="attention">&nbsp;</div>
 
-	<table class="grid">
+	<table class="grid" summary="スコアシート">
 		<caption>スコアシート</caption>
 		<tr>
 			<th class="header">役名<br>成立条件</th>
 			<th class="header">獲得点数</th>
 			<th class="header">記録出目</th>
 			<th class="header">記録点数</th>
+			<th class="header">記録順</th>
 			<th class="header">&nbsp;</th>
 		</tr>
 		<tr>
@@ -71,13 +86,16 @@
 				1の目の合計
 			</th>
 			<td align="center">
-				<tt><div id="txtDice0"></div></tt>
+				<tt id="txtDice0">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint0">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn0">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore0" value="記録">
+				<input type="button" id="btnScore0" value="記録" onclick="checkHand(0)">
 			</td>
 		</tr>
 		<tr>
@@ -89,13 +107,16 @@
 				2の目の合計
 			</th>
 			<td align="center">
-				<tt><div id="txtDice1"></div></tt>
+				<tt id="txtDice1">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint1">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn1">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore1" value="記録">
+				<input type="button" id="btnScore1" value="記録" onclick="checkHand(1)">
 			</td>
 		</tr>
 		<tr>
@@ -107,13 +128,16 @@
 				3の目の合計
 			</th>
 			<td align="center">
-				<tt><div id="txtDice2"></div></tt>
+				<tt id="txtDice2">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint2">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn2">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore2" value="記録">
+				<input type="button" id="btnScore2" value="記録" onclick="checkHand(2)">
 			</td>
 		</tr>
 		<tr>
@@ -125,13 +149,16 @@
 				4の目の合計
 			</th>
 			<td align="center">
-				<tt><div id="txtDice3"></div></tt>
+				<tt id="txtDice3">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint3">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn3">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore3" value="記録">
+				<input type="button" id="btnScore3" value="記録" onclick="checkHand(3)">
 			</td>
 		</tr>
 		<tr>
@@ -143,13 +170,16 @@
 				5の目の合計
 			</th>
 			<td align="center">
-				<tt><div id="txtDice4"></div></tt>
+				<tt id="txtDice4">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint4">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn4">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore4" value="記録">
+				<input type="button" id="btnScore4" value="記録" onclick="checkHand(4)">
 			</td>
 		</tr>
 		<tr>
@@ -161,13 +191,16 @@
 				6の目の合計
 			</th>
 			<td align="center">
-				<tt><div id="txtDice5"></div></tt>
+				<tt id="txtDice5">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint5">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn5">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore5" value="記録">
+				<input type="button" id="btnScore5" value="記録" onclick="checkHand(5)">
 			</td>
 		</tr>
 		<tr class="total">
@@ -175,7 +208,7 @@
 			<td align="right">
 				<div id="txtUpperTotal">0</div>
 			</td>
-			<td>&nbsp;</td>
+			<td colspan="2">&nbsp;</td>
 		</tr>
 		<tr class="total">
 			<th>
@@ -186,12 +219,15 @@
 				35
 			</th>
 			<td align="center">
-				<tt>------</tt>
+				<tt id="txtDice6">&nbsp;</tt>
 			</td>
 			<td align="right">
-				<div id="txtBonus">0</div>
+				<div id="txtPoint6">0</div>
 			</td>
-			<td>&nbsp;</td>
+			<td colspan="2">
+				<div id="txtTurn6">&nbsp;</div>
+				<input type="button" id="btnScore6" value="記録" style="display:none">
+			</td>
 		</tr>
 		<tr>
 			<th>
@@ -202,13 +238,16 @@
 				5つの目の合計
 			</th>
 			<td align="center">
-				<tt><div id="txtDice7"></div></tt>
+				<tt id="txtDice7">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint7">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn7">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore7" value="記録">
+				<input type="button" id="btnScore7" value="記録" onclick="checkHand(7)">
 			</td>
 		</tr>
 		<tr>
@@ -220,13 +259,16 @@
 				5つの目の合計
 			</th>
 			<td align="center">
-				<tt><div id="txtDice8"></div></tt>
+				<tt id="txtDice8">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint8">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn8">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore8" value="記録">
+				<input type="button" id="btnScore8" value="記録" onclick="checkHand(8)">
 			</td>
 		</tr>
 		<tr>
@@ -238,13 +280,16 @@
 				25
 			</th>
 			<td align="center">
-				<tt><div id="txtDice9"></div></tt>
+				<tt id="txtDice9">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint9">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn9">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore9" value="記録">
+				<input type="button" id="btnScore9" value="記録" onclick="checkHand(9)">
 			</td>
 		</tr>
 		<tr>
@@ -256,13 +301,16 @@
 				30
 			</th>
 			<td align="center">
-				<tt><div id="txtDice10"></div></tt>
+				<tt id="txtDice10">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint10">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn10">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore10" value="記録">
+				<input type="button" id="btnScore10" value="記録" onclick="checkHand(10)">
 			</td>
 		</tr>
 		<tr>
@@ -274,13 +322,16 @@
 				40
 			</th>
 			<td align="center">
-				<tt><div id="txtDice11"></div></tt>
+				<tt id="txtDice11">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint11">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn11">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore11" value="記録">
+				<input type="button" id="btnScore11" value="記録" onclick="checkHand(11)">
 			</td>
 		</tr>
 		<tr>
@@ -292,13 +343,16 @@
 				50
 			</th>
 			<td align="center">
-				<tt><div id="txtDice12"></div></tt>
+				<tt id="txtDice12">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint12">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn12">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore12" value="記録">
+				<input type="button" id="btnScore12" value="記録" onclick="checkHand(12)">
 			</td>
 		</tr>
 		<tr>
@@ -310,13 +364,16 @@
 				5つの目の合計
 			</th>
 			<td align="center">
-				<tt><div id="txtDice13"></div></tt>
+				<tt id="txtDice13">&nbsp;</tt>
 			</td>
 			<td align="right">
 				<div id="txtPoint13">0</div>
 			</td>
+			<td align="right">
+				<div id="txtTurn13">&nbsp;</div>
+			</td>
 			<td>
-				<input type="button" id="btnScore13" value="記録">
+				<input type="button" id="btnScore13" value="記録" onclick="checkHand(13)">
 			</td>
 		</tr>
 		<tr class="total">
@@ -324,24 +381,17 @@
 			<td align="right">
 				<div id="txtLowerTotal">0</div>
 			</td>
-			<td>&nbsp;</td>
+			<td colspan="2">&nbsp;</td>
 		</tr>
 		<tr class="total">
 			<th colspan="3">合計(上段＋ボーナス＋下段)</th>
 			<td align="right">
 				<div id="txtGrandTotal">0</div>
 			</td>
-			<td>&nbsp;</td>
+			<td colspan="2">&nbsp;</td>
 		</tr>
 	</table>
 </form>
-<?php
-// 以下、デバッグ用
-echo "<pre>\n";
-echo "−デバッグ情報−\n";
-var_dump($_SESSION);
-echo "</pre>\n";
-?>
 </body>
 
 </html>

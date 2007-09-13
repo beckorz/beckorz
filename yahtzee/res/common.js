@@ -18,10 +18,14 @@ function addEventHandler(element, eventName, handler) {
  * 
  * @param formName 対象フォーム名
  * @param elementName 対象エレメント名
+ * @param isSelect 対象エレメントがテキストボックスの場合、選択状態にするか？
  */
-function focusElement(formName, elementName) {
+function focusElement(formName, elementName, isSelect) {
 	var elm = document.forms[formName].elements[elementName];
 	if (elm.type != "hidden" && !elm.disabled) {
 		elm.focus();
+		if (elm.type == "text" && isSelect) {
+			elm.select();
+		}
 	}
 }

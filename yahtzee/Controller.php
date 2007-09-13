@@ -29,6 +29,7 @@ class Controller {
 		$action = null;
 		$validator = null;
 		$pages = array();
+		$pages[PAGE_TIMEOUT] = 'view/Timeout.php';
 		switch ($this->request->get('action')) {
 			case 'Login':
 				// ログイン
@@ -39,6 +40,30 @@ class Controller {
 				$pages[PAGE_SUCCESS] = 'view/MainPage.php';
 				$pages[PAGE_FAILURE] = 'view/TopPage.php';
 				break;
+			case 'RollDice':
+				// サイコロを振り直す
+				require_once('action/RollDiceAction.php');
+				$action = new RollDiceAction($req, $ses, $res);
+				$pages[PAGE_SUCCESS] = 'view/RollDice.php';
+				break;
+			case 'CheckHand':
+				// 役の成立判定
+				require_once('action/CheckHandAction.php');
+				$action = new CheckHandAction($req, $ses, $res);
+				$pages[PAGE_SUCCESS] = 'view/CheckHand.php';
+				break;
+			case 'RecordScore':
+				// スコアを記録
+				require_once('action/RecordScoreAction.php');
+				$action = new RecordScoreAction($req, $ses, $res);
+				$pages[PAGE_SUCCESS] = 'view/RecordScore.php';
+				break;
+			case 'RegisterRanking':
+				// ランキング登録＆状態リセット
+				require_once('action/RegisterRankingAction.php');
+				$action = new RegisterRankingAction($req, $ses, $res);
+				$pages[PAGE_SUCCESS] = 'view/RegisterRanking.php';
+				$pages[PAGE_FAILURE] = 'view/TopPage.php';
 			default:
 				// トップページ
 				$this->page = 'view/TopPage.php';

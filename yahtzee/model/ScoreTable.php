@@ -2,27 +2,11 @@
 /**
  * スコア状態管理クラス
  */
-// 役のインデックス
-define('TABLE_ACES', 0);
-define('TABLE_TWOS', 1);
-define('TABLE_THREES', 2);
-define('TABLE_FOURS', 3);
-define('TABLE_FIVES', 4);
-define('TABLE_SIXES', 5);
-define('TABLE_BONUS', 6);
-define('TABLE_THREEOFAKIND', 7);
-define('TABLE_FOUROFAKIND', 8);
-define('TABLE_FULLHOUSE', 9);
-define('TABLE_SMALLSTRAIGHT', 10);
-define('TABLE_LARGESTRAIGHT', 11);
-define('TABLE_YAHTZEE', 12);
-define('TABLE_CHANCE', 13);
-define('TABLE_MAX', 14);
-
 class ScoreTable {
 	var $isScored = array();
 	var $point = array();
 	var $dice = array();
+	var $turn = array();
 
 	/** コンストラクタ */
 	function ScoreTable() {
@@ -35,6 +19,7 @@ class ScoreTable {
 				// ボーナスは特殊役
 				$this->isScored[$i] = true;
 			}
+			$this->turn[$i] = 0;
 		}
 	}
 
@@ -104,4 +89,13 @@ class ScoreTable {
 		}
 	}
 
+	/** 役毎の記録順のgetter/setter */
+	function getTurn($index) {
+		return $this->turn[$index];
+	}
+	function setTurn($index, $turn) {
+		if (TABLE_ACES <= $index && $index < TABLE_MAX) {
+			$this->turn[$index] = $turn;
+		}
+	}
 }

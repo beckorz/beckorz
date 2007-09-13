@@ -1,7 +1,5 @@
 <?php
 require_once('Action.php');
-require_once('model/ScoreTable.php');
-require_once('model/Dice.php');
 
 /**
  * ログイン処理のアクションクラス
@@ -16,17 +14,23 @@ class LoginAction extends Action {
 	function doExecute() {
 		$req =& $this->request;
 		$ses =& $this->session;
-		$res =& $this->response;
 		
 		// ログイン情報をセッションに格納
 		$ses->set(SESSION_SESSIONID_KEY, session_id());
-		$ses->set(SESSION_USERNAME_KEY, $req->get('user'));
+		$user = $req->get('user');
+		$ses->set(SESSION_USERNAME_KEY, $user);
 		$ses->set(SESSION_IP_KEY, $_SERVER['REMOTE_ADDR']);
 		$ses->set(SESSION_STATE_KEY, STATE_NOTROLLED);
 		$score = new ScoreTable();
 		$ses->set(SESSION_SCORE_KEY, $score);
+		$ses->set(SESSION_TURN_KEY, 0);
 		$dice = new Dice();
 		$ses->set(SESSION_DICE_KEY, $dice);
+
+		// クッキーに保存
+		if ($req->get('saveUser')) {
+			setcookie('user', $user, time() + 60*60*24*30);
+		}
 
 		return PAGE_SUCCESS;
 	}
