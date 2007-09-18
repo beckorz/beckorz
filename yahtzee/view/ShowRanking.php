@@ -88,6 +88,7 @@ function showDetail($ranking) {
 <meta http-equiv="Pragma" content="no-cache">
 <title>Yahtzee ランキング</title>
 <link rel="stylesheet" type="text/css" href="res/default.css">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo RANKING_URL ?>">
 <script type="text/javascript" src="res/prototype.js"></script>
 <script type="text/javascript"><!--
 function toggleDetail(id) {
