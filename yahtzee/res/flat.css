@@ -1,0 +1,159 @@
+body {
+	font-size: 100%;
+	color: #353535;
+	scrollbar-face-color: #ffffff;
+	scrollbar-highlight-color: #969696;
+	scrollbar-shadow-color: #969696;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-arrow-color: #969696;
+	scrollbar-track-color: #ffffff;
+	scrollbar-darkshadow-color: #ffffff;
+	font-family: "メイリオ", "Meiryo", "MS UI Gothic", "ＭＳ ゴシック", "Osaka", "Verdana", "Arial", "Tahoma", "sans-serif";
+	background-image: url('./none.png');
+	background-repeat: no-repeat;
+}
+
+/* 操作メッセージ */
+div#txtMessage {
+	color: black;
+	font-weight: bold;
+	white-space: nowrap;
+	width: 400px;
+	border: 2px solid gray;
+	padding: 7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #f0f0f0;
+}
+
+/* エラーメッセージ */ 
+/*div.attention {
+	color: red;
+	font-weight: bold;
+	white-space: nowrap;
+	width: 400px;
+	border: 2px solid red;
+	padding: 10px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	background-color: #f0f0f0;
+}
+*/
+/* フォーム入力系 */
+input {
+	background-color: #e0e0e0;
+	color:            #404040;
+	border-color:     #404040;
+	border-left:   1px solid #505050;
+	border-right:  1px solid #505050;
+	border-top:    1px solid #505050;
+	border-bottom: 1px solid #505050;
+	cursor		    : hand;
+}
+
+/* 表基本 */
+table
+{
+	border-right: gray 1px solid;
+	border-top: gray 1px solid;
+	border-left: gray 1px solid;
+	border-bottom: gray 1px solid;
+	border-collapse: collapse;
+}
+th
+{
+	border-right: gray 1px solid;
+	border-top: gray 1px solid;
+	border-left: gray 1px solid;
+	border-bottom: gray 1px solid;
+	border-collapse: collapse;
+}
+td
+{
+	border-right: gray 1px solid;
+	border-top: gray 1px solid;
+	border-left: gray 1px solid;
+	border-bottom: gray 1px solid;
+	border-collapse: collapse;
+	padding: 6px 6px 6px 6px;
+}
+table.grid th {
+	background: #f0f0f0;
+	font-weight: bold;
+	text-align: left;
+	white-space: nowrap;
+}
+
+table.grid caption {
+	background: #e0e0e0;
+	color: black;
+	font-weight: bold;
+	border-left:   1px solid #505050;
+	border-right:  1px solid #505050;
+	border-top:    1px solid #505050;
+	border-bottom: 1px solid #505050;
+}
+
+table.grid td {
+	background: #ffffff;
+	color: black;
+	white-space: nowrap;
+}
+
+/* 行ヘッダ */
+table.grid th.header {
+	background: #f0f0f0;
+	color: black;
+	text-align: center;
+}
+
+/* 集計行 */
+table.grid tr.total th, table.grid tr.total td {
+	background: #e0e0e0;
+	color: black;
+}
+
+/*
+ * ランキングページ用
+ */
+/* 基本 */
+table.ranking caption {
+	border: 1px dotted black;
+	background: #b0b0b0;
+	color: black;
+	font-weight: bold;
+}
+table.ranking th.header {
+	background: #c0c0c0;
+	color: black;
+	text-align: center;
+}
+/* 奇数行 */
+table.ranking tr.odd th, table.ranking tr.odd td {
+	background: #ffffff;
+	color: black;
+}
+/* 偶数行 */
+table.ranking tr.even th, table.ranking tr.even td {
+	background: #e0e0e0;
+	color: black;
+}
+/* 明細 */
+table.detail th {
+	text-align: left;
+}
+table.detail th.header {
+	background: #CC6;
+	color: black;
+	text-align: center;
+}
+/* 奇数行 */
+table.detail tr.odd th, table.detail tr.odd td {
+	background: #e0e0e0;
+	color: black;
+}
+/* 偶数行 */
+table.detail tr.even th, table.detail tr.even td {
+	background: #c0c0c0;
+	color: black;
+}

@@ -13,7 +13,9 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <title>Yahtzee ログイン</title>
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="?action=Rss">
 <link rel="stylesheet" type="text/css" href="res/default.css">
+
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 </head>

@@ -13,7 +13,8 @@
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
 <title>Yahtzee</title>
-<link rel="stylesheet" type="text/css" href="res/default.css">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="?action=Rss">
+<link id="changecss" rel="stylesheet" type="text/css" href="res/default.css">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 <script type="text/javascript"><!--
@@ -29,6 +30,10 @@ STATE_ALLSCORED = "<?php echo STATE_ALLSCORED ?>";
 </head>
 
 <body onload="resetScreen([<?php echo join(',', $dice->getDice()) ?>])">
+<div id="csschange">
+<a id="css1" title="default" onclick="replace_css('1', 'changecss', 'res/default.css'); ">■</a>
+<a id="css2" title="flat" onclick="replace_css('2', 'changecss', 'res/flat.css');">□</a>
+</div>
 <form id="MainForm" action="<?php echo $url ?>">
 	<input type="hidden" name="action" id="action" value="">
 	<input type="hidden" name="hand" id="hand" value="">

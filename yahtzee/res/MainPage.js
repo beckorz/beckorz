@@ -229,3 +229,28 @@ function registerRanking() {
 	}
 	main();
 }
+
+/**
+ * CSS動的切り替え処理
+ *
+ * @param index index
+ * @param cssid cssid名
+ * @param url cssファイル名
+ */
+function replace_css(index, cssid, url){
+	// CSS切り替え
+	if(!document.getElementById) return false;
+	var element = document.getElementById(cssid);
+	if(!element || !element.cloneNode) return false;
+	var new_node = element.cloneNode(true);
+	new_node.href = url;
+	element.parentNode.replaceChild(new_node,element);
+	
+	// 選択CSSへの画面適用
+	for (i = 1; i <= 2 ; i++) {
+		obj = document.getElementById("css" + i);
+		obj.innerHTML = '□';
+	}
+	obj = document.getElementById("css" + index);
+	obj.innerHTML = '■'
+}
