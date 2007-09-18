@@ -13,7 +13,7 @@
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
 <title>Yahtzee</title>
-<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="?action=Rss">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo RANKING_URL ?>">
 <link id="changecss" rel="stylesheet" type="text/css" href="res/default.css">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
