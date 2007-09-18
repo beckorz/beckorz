@@ -1,4 +1,5 @@
 <?php
+	$url = $_SERVER['SCRIPT_NAME'];
 	$req =& $this->request;
 	$res =& $this->response;
 	$user = ($_COOKIE['user']) ? $_COOKIE['user'] : $req->get('user');
@@ -12,7 +13,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <title>Yahtzee ログイン</title>
-<link rel="stylesheet" type="text/css" href="res/common.css">
+<link rel="stylesheet" type="text/css" href="res/default.css">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 </head>
@@ -26,15 +27,15 @@
 <img src="res/die5.gif" width="0" height="0" alt="5"  style="display:none">
 <img src="res/die6.gif" width="0" height="0" alt="6"  style="display:none">
 <!-- サイコロ画像プリロードここまで -->
-<form name="LoginForm" action="index.php" method="post">
+<form name="LoginForm" action="<?php echo $url ?>" method="post">
 	<input type="hidden" name="action" value="Login">
 
-	<?= $res->get(ERROR_MSG) ?>
+	<?php echo $res->get(ERROR_MSG) ?>
 	<table summary="ログイン">
 		<tr>
 			<th align="right">名前：</th>
 			<td>
-				<input type="text" name="user" maxlength="30" value="<?= $user ?>" style="width:150px">
+				<input type="text" name="user" maxlength="30" value="<?php echo $user ?>" style="width:150px">
 			</td>
 		</tr>
 		<tr>
@@ -49,6 +50,10 @@
 		</tr>
 	</table>
 </form>
+<ul>
+	<li><a href="http://gugurekasu.com/" target="_blank">遊び方</a></li>
+	<li><a href="<?php echo $url ?>?action=ShowRanking" target="_blank">ランキング</a></li>
+</ul>
 </body>
 
 </html>

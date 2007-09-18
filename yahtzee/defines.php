@@ -10,12 +10,18 @@ define('SESSION_CACHE_EXPIRE', 30);
 define('RANKING_SAVE_PATH', './ranking/ranking.dat');
 // ランキングファイルのロック用ファイルパス
 define('RANKING_LOCK_PATH', './ranking/lock');
+// ランキング保持件数
+define('RANKING_MAX', 100);
+// ランキングコメント最大長(文字数)
+define('RANKING_COMMENT_MAXLENGTH', 100);
+// ランキングページURL(RSS用)
+define('RANKING_URL', 'http://example.jp/yahtzee/?action=Rss');
 
 // 正常ページ遷移ID
 define('PAGE_SUCCESS', 'success');
 // 失敗ページ遷移ID
 define('PAGE_FAILURE', 'failure');
-// タイムアウト遷移ID
+// タイムアウトページ遷移ID
 define('PAGE_TIMEOUT', 'timeout');
 // エラーページファイル
 define('PAGE_ERROR', './Error.php');

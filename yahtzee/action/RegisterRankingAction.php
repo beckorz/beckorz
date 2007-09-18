@@ -20,19 +20,33 @@ class RegisterRankingAction extends Action {
 		if (!$score->isScoredAll()) {
 			return PAGE_FAILURE;
 		}
+
+		// ランキング登録
 		$isRegister = (bool)$req->get('register');
-		// TODO ランキング登録＆状態リセット処理を記述
 		if ($isRegister) {
-			RankingDAO::setRankings($score);
-			$res->set('message', 'ランキング登録したぉ(　＾ω＾)' . $req->get('comment'));
-			$res->set('result', 1);
-		} else {
-			$res->set('message', 'ランキング登録しなかったぉ(´･ω･｀)' . $req->get('comment'));
-			$sc = RankingDAO::getRankings();
-			$res->set('message', $sc->getGrandTotalPoint());
-			$res->set('result', 0);
+			$ranking = new Ranking();
+			$ranking->setUser($ses->get(SESSION_USERNAME_KEY));
+			$ranking->setPoint($score->getGrandTotalPoint());
+			$ranking->setDice($score->getAllDice());
+			$ranking->setTurn($score->getAllTurn());
+			$comment = mb_substr($req->get('comment'), 0, RANKING_COMMENT_MAXLENGTH);
+			$ranking->setComment($comment);
+
+			$dao = new RankingDAO();
+			if ($dao->addRanking($ranking)) {
+				$res->set('message', 'ランクインしました♪(｀･ω･´)');
+			} else {
+				$res->set('message', 'ランクインしなかったようです…(´･ω･｀)');
+			}
 		}
-		//$res->set('result', true);
+
+		// 初期化処理
+		$ses->set(SESSION_STATE_KEY, STATE_NOTROLLED);
+		$score = new ScoreTable();
+		$ses->set(SESSION_SCORE_KEY, $score);
+		$ses->set(SESSION_TURN_KEY, 0);
+		$dice = new Dice();
+		$ses->set(SESSION_DICE_KEY, $dice);
 
 		return PAGE_SUCCESS;
 	}

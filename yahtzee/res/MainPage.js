@@ -31,13 +31,13 @@ function onTimeoutAction(httpObj) {
  * @return 加工された文字列
  */
 function convertDie(die) {
-	//*
-	// テキスト版
-	return die;
+	/*
+		// テキスト版
+		return die;
 	/*/
-	// 画像版
-	// トップページ等でプリロード推奨
-	return '<img src="res/die' + die + '.gif" width="17" height="17" alt="' + die + '">';
+		// 画像版
+		// トップページ等でプリロード推奨
+		return '<img src="res/die' + die + '.gif" width="20" height="20" alt="' + die + '">';
 	//*/
 }
 
@@ -109,6 +109,7 @@ function checkHand(index) {
 		$("btnScore" + index).disabled = false;
 	}
 	var main = function () {
+		$("btnRoll").disabled = true;
 		$("btnScore" + index).disabled = true;
 		$("action").value = "CheckHand";
 		$("hand").value = index;
@@ -195,21 +196,30 @@ function actionState(state, dice) {
  * ランキング登録処理
  */
 function registerRanking() {
+	var isRegister = 0;
+
 	var onSuccessAction = function (httpObj) {
-		alert(httpObj.responseText);
 		var json = eval("(" + httpObj.responseText + ")");
+		if (isRegister) {
+			alert(json.message);
+		}
+		resetScreen(json.dice);
 	}
 	var onFailureAction = function (httpObj) {
+		if (isRegister) {
+			alert("ランキング登録に失敗しました。ごめんなさい(´･ω･｀)");
+		}
 	}
 	var main = function () {
 		$("action").value = "RegisterRanking";
 		if (confirm("ランキングに登録しますか？")) {
-			$("register").value = 1;
-			var comment = prompt("コメントをどうぞ。", "");
+			isRegister = 1;
+			var comment = prompt("コメントをどうぞ。(" + RANKING_COMMENT_MAXLENGTH  + "文字まで)", "");
 			$("comment").value = (comment != null) ? comment : "";
 		} else {
-			$("register").value = 0;
+			isRegister = 0;
 		}
+		$("register").value = isRegister;
 		new Ajax.Request(REQUEST_URL, {
 			  parameters: Form.serialize("MainForm")
 			, onSuccess: onSuccessAction

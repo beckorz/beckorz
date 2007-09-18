@@ -4,6 +4,6 @@
 	$dice = $ses->get(SESSION_DICE_KEY);
 ?>
 {
-	  "state": "<?= $state ?>"
-	, "dice": [<?= join(',', $dice->getDice()) ?>]
+	  "state": "<?php echo $state ?>"
+	, "dice": [<?php echo join(',', $dice->getDice()) ?>]
 }

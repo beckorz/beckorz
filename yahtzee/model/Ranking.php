@@ -8,9 +8,12 @@ class Ranking {
 	var $date = 0;
 	var $dice = array();
 	var $turn = array();
+	var $comment = "";
 
 	/** コンストラクタ */
-	function Ranking() {}
+	function Ranking() {
+		$this->date = time();
+	}
 
 	/** 名前のgetter/setter */
 	function getUser() {
@@ -50,5 +53,13 @@ class Ranking {
 	}
 	function setTurn($turn) {
 		$this->turn = $turn;
+	}
+
+	/** コメントのgetter/setter */
+	function getComment() {
+		return $this->comment;
+	}
+	function setComment($comment) {
+		$this->comment = $comment;
 	}
 }

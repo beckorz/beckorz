@@ -13,22 +13,23 @@
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
 <title>Yahtzee</title>
-<link rel="stylesheet" type="text/css" href="res/common.css">
+<link rel="stylesheet" type="text/css" href="res/default.css">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 <script type="text/javascript"><!--
 // 疑似定数宣言
-REQUEST_URL = "<?= $url ?>";
-STATE_NOTROLLED = "<?= STATE_NOTROLLED ?>";
-STATE_FIRST = "<?= STATE_FIRST ?>";
-STATE_SECOND = "<?= STATE_SECOND ?>";
-STATE_ALLSCORED = "<?= STATE_ALLSCORED ?>";
+RANKING_COMMENT_MAXLENGTH = <?php echo RANKING_COMMENT_MAXLENGTH ?>;
+REQUEST_URL = "<?php echo $url ?>";
+STATE_NOTROLLED = "<?php echo STATE_NOTROLLED ?>";
+STATE_FIRST = "<?php echo STATE_FIRST ?>";
+STATE_SECOND = "<?php echo STATE_SECOND ?>";
+STATE_ALLSCORED = "<?php echo STATE_ALLSCORED ?>";
 // --></script>
 <script type="text/javascript" src="res/MainPage.js"></script>
 </head>
 
-<body onload="resetScreen([<?= join(',', $dice->getDice()) ?>])">
-<form id="MainForm" action="<?= $url ?>">
+<body onload="resetScreen([<?php echo join(',', $dice->getDice()) ?>])">
+<form id="MainForm" action="<?php echo $url ?>">
 	<input type="hidden" name="action" id="action" value="">
 	<input type="hidden" name="hand" id="hand" value="">
 	<input type="hidden" name="register" id="register" value="">
@@ -37,7 +38,7 @@ STATE_ALLSCORED = "<?= STATE_ALLSCORED ?>";
 	<table summary="情報">
 		<tr>
 			<th style="text-align:right">名前：</th>
-			<td colspan="6"><?= htmlspecialchars($ses->get(SESSION_USERNAME_KEY)) ?></td>
+			<td colspan="6"><?php echo htmlspecialchars($ses->get(SESSION_USERNAME_KEY)) ?></td>
 		</tr>
 		<tr>
 			<th style="text-align:right">サイコロ：</th>
@@ -59,7 +60,7 @@ STATE_ALLSCORED = "<?= STATE_ALLSCORED ?>";
 		echo "\t\t\t</td>\n";
 	}
 ?>
-			<td align="right" colspan="6">
+			<td align="right">
 				<input type="button" id="btnRoll" value="振り直し1" onclick="rollDice()">
 			</td>
 		</tr>
@@ -392,6 +393,10 @@ STATE_ALLSCORED = "<?= STATE_ALLSCORED ?>";
 		</tr>
 	</table>
 </form>
+<ul>
+	<li><a href="http://gugurekasu.com/" target="_blank">遊び方</a></li>
+	<li><a href="<?php echo $url ?>?action=ShowRanking" target="_blank">ランキング</a></li>
+</ul>
 </body>
 
 </html>

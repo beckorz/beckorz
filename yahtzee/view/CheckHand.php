@@ -2,5 +2,5 @@
 	$res =& $this->response;
 ?>
 {
-	  "point": <?= $res->get('point') ?>
+	  "point": <?php echo $res->get('point') ?>
 }

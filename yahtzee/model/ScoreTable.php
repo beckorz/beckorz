@@ -80,6 +80,9 @@ class ScoreTable {
 	}
 
 	/** 役毎のサイコロのgetter/setter */
+	function getAllDice() {
+		return $this->dice;
+	}
 	function getDice($index) {
 		return $this->dice[$index];
 	}
@@ -90,6 +93,9 @@ class ScoreTable {
 	}
 
 	/** 役毎の記録順のgetter/setter */
+	function getAllTurn() {
+		return $this->turn;
+	}
 	function getTurn($index) {
 		return $this->turn[$index];
 	}

@@ -64,6 +64,21 @@ class Controller {
 				$action = new RegisterRankingAction($req, $ses, $res);
 				$pages[PAGE_SUCCESS] = 'view/RegisterRanking.php';
 				$pages[PAGE_FAILURE] = 'view/TopPage.php';
+				break;
+			case 'ShowRanking':
+				// ランキング表示
+				require_once('action/ShowRankingAction.php');
+				$action = new ShowRankingAction($req, $ses, $res);
+				$pages[PAGE_SUCCESS] = 'view/ShowRanking.php';
+				$pages[PAGE_FAILURE] = 'view/TopPage.php';
+				break;
+			case 'Rss':
+				// ランキングRSS出力
+				require_once('action/ShowRssAction.php');
+				$action = new ShowRssAction($req, $ses, $res);
+				$pages[PAGE_SUCCESS] = 'view/ShowRss.php';
+				$pages[PAGE_FAILURE] = 'view/ShowRss.php';
+				break;
 			default:
 				// トップページ
 				$this->page = 'view/TopPage.php';

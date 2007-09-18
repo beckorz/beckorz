@@ -5,13 +5,13 @@
 	$dice = $ses->get(SESSION_DICE_KEY);
 ?>
 {
-	  "state": "<?= $ses->get(SESSION_STATE_KEY) ?>"
-	, "turn": <?= $ses->get(SESSION_TURN_KEY) ?>
-	, "point": <?= $res->get('point') ?>
-	, "upperTotalPoint": <?= $score->getUpperTotalPoint() ?>
-	, "bonusPoint": <?= $score->getBonusPoint() ?>
-	, "lowerTotalPoint": <?= $score->getLowerTotalPoint() ?>
-	, "grandTotalPoint": <?= $score->getGrandTotalPoint() ?>
-	, "scoreDice": [<?= join(',', $res->get('dice')) ?>]
-	, "dice": [<?= join(',', $dice->getDice()) ?>]
+	  "state": "<?php echo $ses->get(SESSION_STATE_KEY) ?>"
+	, "turn": <?php echo $ses->get(SESSION_TURN_KEY) ?>
+	, "point": <?php echo $res->get('point') ?>
+	, "upperTotalPoint": <?php echo $score->getUpperTotalPoint() ?>
+	, "bonusPoint": <?php echo $score->getBonusPoint() ?>
+	, "lowerTotalPoint": <?php echo $score->getLowerTotalPoint() ?>
+	, "grandTotalPoint": <?php echo $score->getGrandTotalPoint() ?>
+	, "scoreDice": [<?php echo join(',', $res->get('dice')) ?>]
+	, "dice": [<?php echo join(',', $dice->getDice()) ?>]
 }

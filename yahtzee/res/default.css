@@ -1,0 +1,95 @@
+body {
+	color: black;
+}
+/* エラーメッセージ */
+div.attention {
+	color: red;
+	font-weight: bold;
+	white-space: nowrap;
+}
+/* 操作メッセージ */
+div#txtMessage {
+	color: blue;
+	font-weight: bold;
+	white-space: nowrap;
+}
+/* 表基本 */
+table th {
+	white-space: nowrap;
+}
+table td {
+	white-space: nowrap;
+}
+table.grid caption {
+	background: #C6F;
+	color: black;
+	font-weight: bold;
+}
+table.grid th {
+	background: #CFF;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	white-space: nowrap;
+}
+table.grid td {
+	background: #CFF;
+	color: black;
+	white-space: nowrap;
+}
+/* 行ヘッダ */
+table.grid th.header {
+	background: #0FC;
+	color: black;
+	text-align: center;
+}
+/* 集計行 */
+table.grid tr.total th, table.grid tr.total td {
+	background: #9CF;
+	color: black;
+}
+
+/*
+ * ランキングページ用
+ */
+/* 基本 */
+table.ranking caption {
+	border: 1px dotted black;
+	background: #FE0;
+	color: black;
+	font-weight: bold;
+}
+table.ranking th.header {
+	background: #6F9;
+	color: black;
+	text-align: center;
+}
+/* 奇数行 */
+table.ranking tr.odd th, table.ranking tr.odd td {
+	background: #CFF;
+	color: black;
+}
+/* 偶数行 */
+table.ranking tr.even th, table.ranking tr.even td {
+	background: #9CF;
+	color: black;
+}
+/* 明細 */
+table.detail th {
+	text-align: left;
+}
+table.detail th.header {
+	background: #CC6;
+	color: black;
+	text-align: center;
+}
+/* 奇数行 */
+table.detail tr.odd th, table.detail tr.odd td {
+	background: #CFC
+	color: black;
+}
+/* 偶数行 */
+table.detail tr.even th, table.detail tr.even td {
+	background: #9C9;
+	color: black;
+}
