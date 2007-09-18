@@ -15,7 +15,6 @@
 <title>Yahtzee ログイン</title>
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo RANKING_URL ?>">
 <link rel="stylesheet" type="text/css" href="res/default.css">
-
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 </head>
