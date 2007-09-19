@@ -4,6 +4,7 @@
 	$res =& $this->response;
 	$user = ($_COOKIE['user']) ? $_COOKIE['user'] : $req->get('user');
 	$user = htmlspecialchars($user);
+	$css = ($_COOKIE['css']) ? $_COOKIE['css'] : DEFAULT_CSS_PATH;
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="ja">
@@ -13,13 +14,19 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <title>Yahtzee ログイン</title>
+<link id="changecss" rel="stylesheet" type="text/css" href="<?php echo $css ?>">
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo RANKING_URL ?>">
-<link rel="stylesheet" type="text/css" href="res/default.css">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
+<script type="text/javascript"><!--
+addEventHandler(window, "load", function () {
+	addCssLinks();
+	focusElement('LoginForm', 'user', true);
+});
+// --></script>
 </head>
 
-<body onload="focusElement('LoginForm', 'user', true)">
+<body>
 <!-- サイコロ画像プリロードここから -->
 <img src="res/die1.gif" width="0" height="0" alt="1" style="display:none">
 <img src="res/die2.gif" width="0" height="0" alt="2"  style="display:none">
@@ -51,6 +58,7 @@
 		</tr>
 	</table>
 </form>
+<div id="cssLinks">□</div>
 <ul>
 	<li><a href="http://gugurekasu.com/" target="_blank">遊び方</a></li>
 	<li><a href="<?php echo $url ?>?action=ShowRanking" target="_blank">ランキング</a></li>

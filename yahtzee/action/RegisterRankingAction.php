@@ -29,7 +29,7 @@ class RegisterRankingAction extends Action {
 			$ranking->setPoint($score->getGrandTotalPoint());
 			$ranking->setDice($score->getAllDice());
 			$ranking->setTurn($score->getAllTurn());
-			$comment = mb_substr($req->get('comment'), 0, RANKING_COMMENT_MAXLENGTH);
+			$comment = mb_substr($req->get('comment'), 0, RANKING_COMMENT_MAXLENGTH, 'utf-8');
 			$ranking->setComment($comment);
 
 			$dao = new RankingDAO();

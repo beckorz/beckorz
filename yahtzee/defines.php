@@ -6,6 +6,8 @@
 define('SESSION_SAVE_PATH', './session');
 // セッションタイムアウト時間(分単位)
 define('SESSION_CACHE_EXPIRE', 30);
+// デフォルトスタイルシートパス
+define('DEFAULT_CSS_PATH', 'res/default.css');
 // ランキングファイルの保存パス
 define('RANKING_SAVE_PATH', './ranking/ranking.dat');
 // ランキングファイルのロック用ファイルパス
@@ -15,7 +17,7 @@ define('RANKING_MAX', 100);
 // ランキングコメント最大長(文字数)
 define('RANKING_COMMENT_MAXLENGTH', 100);
 // ランキングページURL(RSS用)
-define('RANKING_URL', 'http://example.jp/yahtzee/?action=Rss');
+define('RANKING_URL', 'http://star.uiui.net/yahtzee/?action=Rss');
 
 // 正常ページ遷移ID
 define('PAGE_SUCCESS', 'success');

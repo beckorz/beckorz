@@ -2,6 +2,7 @@
 	$url = $_SERVER['SCRIPT_NAME'];
 	$ses =& $this->session;
 	$dice = $ses->get(SESSION_DICE_KEY);
+	$css = ($_COOKIE['css']) ? $_COOKIE['css'] : DEFAULT_CSS_PATH;
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="ja">
@@ -13,8 +14,8 @@
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
 <title>Yahtzee</title>
+<link id="changecss" rel="stylesheet" type="text/css" href="<?php echo $css ?>">
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo RANKING_URL ?>">
-<link id="changecss" rel="stylesheet" type="text/css" href="res/default.css">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 <script type="text/javascript"><!--
@@ -25,15 +26,16 @@ STATE_NOTROLLED = "<?php echo STATE_NOTROLLED ?>";
 STATE_FIRST = "<?php echo STATE_FIRST ?>";
 STATE_SECOND = "<?php echo STATE_SECOND ?>";
 STATE_ALLSCORED = "<?php echo STATE_ALLSCORED ?>";
+
+addEventHandler(window, "load", function () {
+	addCssLinks();
+	resetScreen([<?php echo join(',', $dice->getDice()) ?>]);
+});
 // --></script>
 <script type="text/javascript" src="res/MainPage.js"></script>
 </head>
 
-<body onload="resetScreen([<?php echo join(',', $dice->getDice()) ?>])">
-<div id="csschange">
-<a id="css1" title="default" onclick="replace_css('1', 'changecss', 'res/default.css'); ">■</a>
-<a id="css2" title="flat" onclick="replace_css('2', 'changecss', 'res/flat.css');">□</a>
-</div>
+<body>
 <form id="MainForm" action="<?php echo $url ?>">
 	<input type="hidden" name="action" id="action" value="">
 	<input type="hidden" name="hand" id="hand" value="">
@@ -398,6 +400,7 @@ STATE_ALLSCORED = "<?php echo STATE_ALLSCORED ?>";
 		</tr>
 	</table>
 </form>
+<div id="cssLinks">□</div>
 <ul>
 	<li><a href="http://gugurekasu.com/" target="_blank">遊び方</a></li>
 	<li><a href="<?php echo $url ?>?action=ShowRanking" target="_blank">ランキング</a></li>

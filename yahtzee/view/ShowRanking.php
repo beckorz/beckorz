@@ -1,6 +1,7 @@
 <?php
 	$res =& $this->response;
 	$rankings = $res->get('rankings');
+	$css = ($_COOKIE['css']) ? $_COOKIE['css'] : DEFAULT_CSS_PATH;
 
 /**
  * 明細表示
@@ -87,13 +88,15 @@ function showDetail($ranking) {
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
 <title>Yahtzee ランキング</title>
-<link rel="stylesheet" type="text/css" href="res/default.css">
+<link id="changecss" rel="stylesheet" type="text/css" href="<?php echo $css ?>">
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo RANKING_URL ?>">
+<script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 <script type="text/javascript"><!--
 function toggleDetail(id) {
 	$(id).style.display = ($(id).style.display == "none") ? "" : "none";
 }
+addEventHandler(window, "load", addCssLinks);
 // --></script>
 </head>
 
@@ -116,7 +119,7 @@ function toggleDetail(id) {
 		$rowClass = (($row % 2) == 0) ? 'odd' : 'even';
 		$ranking = $rankings[$row];
 ?>
-	<tr style="cursor:hand" class="<?php echo $rowClass ?>" onclick="toggleDetail('no<?php echo $row ?>')">
+	<tr style="cursor:pointer" class="<?php echo $rowClass ?>" onclick="toggleDetail('no<?php echo $row ?>')">
 		<th rowspan="2" style="text-align:right">
 			<?php echo $row + 1 ?>
 		</th>
@@ -130,7 +133,7 @@ function toggleDetail(id) {
 			<tt><?php echo date('Y/m/d H:i:s', $ranking->getDate()) ?></tt>
 		</td>
 	</tr>
-	<tr style="cursor:hand" class="<?php echo $rowClass ?>" onclick="toggleDetail('no<?php echo $row ?>')">
+	<tr style="cursor:pointer" class="<?php echo $rowClass ?>" onclick="toggleDetail('no<?php echo $row ?>')">
 		<td colspan="3">
 			<?php echo htmlspecialchars($ranking->getComment()) ?>&nbsp;
 		</td>
@@ -152,6 +155,7 @@ function toggleDetail(id) {
 	}
 ?>
 </table>
+<div id="cssLinks">□</div>
 </body>
 
 </html>

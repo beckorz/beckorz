@@ -20,12 +20,14 @@
 		$user = htmlspecialchars($ranking->getUser());
 		$comment = htmlspecialchars($ranking->getComment());
 		$date = date('r', $ranking->getDate());
+		$md5 = md5($user . "\t" . $point . "\t" . $date);
 		echo '
 		<item rank="' . $rank . '" point="' . $point . '" user="' . $user . '">
 			<title>' . $rank . '位 - ' . $point . ' - ' . $user . '</title>
 			<description>' . $comment . '</description>
 			<pubDate>' . $date . '</pubDate>
 			<link>' . RANKING_URL . '</link>
+			<guid isPermaLink="false">' . $md5 . '</guid>
 		</item>';
 	}
 ?>
