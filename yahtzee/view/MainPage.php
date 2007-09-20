@@ -82,7 +82,7 @@ addEventHandler(window, "load", function () {
 		<tr>
 			<th class="header">役名<br>成立条件</th>
 			<th class="header">獲得点数</th>
-			<th class="header"><div class="dice">記録出目</div></th>
+			<th class="header">記録出目</th>
 			<th class="header">記録点数</th>
 			<th class="header">記録順</th>
 			<th class="header">&nbsp;</th>

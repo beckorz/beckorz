@@ -13,7 +13,7 @@ span.die1 {
 	width:20px;
 	height:20px;
 	overflow: hidden;
-	background: url(default/die1.gif);
+	background: url(default/die1.gif) no-repeat center center;
 }
 span.die2 {
 	position: relative;
@@ -22,7 +22,7 @@ span.die2 {
 	width:20px;
 	height:20px;
 	overflow: hidden;
-	background: url(default/die2.gif);
+	background: url(default/die2.gif) no-repeat center center;
 }
 span.die3 {
 	position: relative;
@@ -31,7 +31,7 @@ span.die3 {
 	width:20px;
 	height:20px;
 	overflow: hidden;
-	background: url(default/die3.gif);
+	background: url(default/die3.gif) no-repeat center center;
 }
 span.die4 {
 	position: relative;
@@ -40,7 +40,7 @@ span.die4 {
 	width:20px;
 	height:20px;
 	overflow: hidden;
-	background: url(default/die4.gif);
+	background: url(default/die4.gif) no-repeat center center;
 }
 span.die5 {
 	position: relative;
@@ -49,7 +49,7 @@ span.die5 {
 	width:20px;
 	height:20px;
 	overflow: hidden;
-	background: url(default/die5.gif);
+	background: url(default/die5.gif) no-repeat center center;
 }
 span.die6 {
 	position: relative;
@@ -58,7 +58,7 @@ span.die6 {
 	width:20px;
 	height:20px;
 	overflow: hidden;
-	background: url(default/die6.gif);
+	background: url(default/die6.gif) no-repeat center center;
 }
 /* エラーメッセージ */
 div.attention {

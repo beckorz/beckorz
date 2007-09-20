@@ -135,7 +135,7 @@ function recordScore(index) {
 		for (var i = 0; i < 5; i++) {
 			txtDice += convertDie(json.scoreDice[i]);
 		}
-		$("txtDice" + index).innerHTML = txtDice;
+		$("txtDice" + index).innerHTML = '<div class="dice">' + txtDice + '</div>';
 		$("txtPoint" + index).innerHTML = json.point;
 		$("txtTurn" + index).innerHTML = json.turn;
 		$("txtUpperTotal").innerHTML = json.upperTotalPoint;
