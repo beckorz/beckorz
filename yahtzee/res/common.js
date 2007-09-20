@@ -34,6 +34,7 @@ function focusElement(formName, elementName, isSelect) {
 var cssHash =  {
 	  "default": { "url": "res/default.css", "title": "デフォルト" }
 	, "flat": { "url": "res/flat.css", "title": "フラット" }
+	, "midnight": { "url": "res/midnight.css", "title": "深夜" }
 };
 
 /**

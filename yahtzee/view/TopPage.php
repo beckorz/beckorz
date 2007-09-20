@@ -16,6 +16,8 @@
 <title>Yahtzee ログイン</title>
 <link id="changecss" rel="stylesheet" type="text/css" href="<?php echo $css ?>">
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo RANKING_URL ?>">
+<link rel="shortcut icon" href="res/favicon.ico">
+<link rel="icon" href="res/anim_favicon.gif" type="image/gif">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 <script type="text/javascript"><!--

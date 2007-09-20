@@ -12,6 +12,13 @@
 		<link><?php echo RANKING_URL ?></link>
 		<description>Yahtzee ランキング 上位15件</description>
 		<pubDate><?php echo $pubDate ?></pubDate>
+		<image>
+			<url>res/anim_favicon.gif</url>
+			<title>Yahtzee ランキング</title>
+			<link><?php echo RANKING_URL ?></link>
+			<width>16</width>
+			<height>16</height>
+		</image>
 <?php
 	for ($row = 0; $row < count($rankings) && $row < 15; $row++) {
 		$ranking = $rankings[$row];

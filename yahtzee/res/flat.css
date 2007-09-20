@@ -12,6 +12,65 @@ body {
 	background-image: url('./none.png');
 	background-repeat: no-repeat;
 }
+/* サイコロ画像群 */
+div.dice {
+	/* サイコロの幅×５＋１以上を指定 */
+	width: 161px;
+}
+span.die1 {
+	position: relative;
+	display: block;
+	float: left;
+	width:32px;
+	height:32px;
+	overflow: hidden;
+	background: url(flat/die1.gif);
+}
+span.die2 {
+	position: relative;
+	display: block;
+	float: left;
+	width:32px;
+	height:32px;
+	overflow: hidden;
+	background: url(flat/die2.gif);
+}
+span.die3 {
+	position: relative;
+	display: block;
+	float: left;
+	width:32px;
+	height:32px;
+	overflow: hidden;
+	background: url(flat/die3.gif);
+}
+span.die4 {
+	position: relative;
+	display: block;
+	float: left;
+	width:32px;
+	height:32px;
+	overflow: hidden;
+	background: url(flat/die4.gif);
+}
+span.die5 {
+	position: relative;
+	display: block;
+	float: left;
+	width:32px;
+	height:32px;
+	overflow: hidden;
+	background: url(flat/die5.gif);
+}
+span.die6 {
+	position: relative;
+	display: block;
+	float: left;
+	width:32px;
+	height:32px;
+	overflow: hidden;
+	background: url(flat/die6.gif);
+}
 
 /* 操作メッセージ */
 div#txtMessage {

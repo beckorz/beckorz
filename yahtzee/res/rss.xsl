@@ -14,6 +14,8 @@
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <title><xsl:value-of select="title" /></title>
 <link rel="stylesheet" type="text/css" href="res/default.css" />
+<link rel="shortcut icon" href="res/favicon.ico" />
+<link rel="icon" href="res/anim_favicon.gif" type="image/gif" />
 </head>
 
 <body>

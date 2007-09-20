@@ -36,8 +36,7 @@ function convertDie(die) {
 		return die;
 	/*/
 		// 画像版
-		// トップページ等でプリロード推奨
-		return '<img src="res/die' + die + '.gif" width="20" height="20" alt="' + die + '">';
+		return '<span class="die' + die + '" title="' + die + '"></span>';
 	//*/
 }
 
@@ -98,6 +97,7 @@ function checkHand(index) {
 	var onSuccessAction = function (httpObj) {
 		var json = eval("(" + httpObj.responseText + ")");
 		if (json.point == 0) {
+			$("txtMessage").innerHTML = "間違って記録ボタンを押してしまっても振り直しはできません。";
 			if (!confirm("役が成立していませんが記録していいですか？")) {
 				$("btnScore" + index).disabled = false;
 				return;
@@ -212,7 +212,8 @@ function registerRanking() {
 	}
 	var main = function () {
 		$("action").value = "RegisterRanking";
-		if (confirm("ランキングに登録しますか？")) {
+		var totalPoint = $("txtGrandTotal").innerHTML
+		if (confirm("合計得点：" + totalPoint + "\nランキングに登録しますか？")) {
 			isRegister = 1;
 			var comment = prompt("コメントをどうぞ。(" + RANKING_COMMENT_MAXLENGTH  + "文字まで)", "");
 			$("comment").value = (comment != null) ? comment : "";

@@ -16,6 +16,8 @@
 <title>Yahtzee</title>
 <link id="changecss" rel="stylesheet" type="text/css" href="<?php echo $css ?>">
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo RANKING_URL ?>">
+<link rel="shortcut icon" href="res/favicon.ico">
+<link rel="icon" href="res/anim_favicon.gif" type="image/gif">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 <script type="text/javascript"><!--
@@ -80,7 +82,7 @@ addEventHandler(window, "load", function () {
 		<tr>
 			<th class="header">役名<br>成立条件</th>
 			<th class="header">獲得点数</th>
-			<th class="header">記録出目</th>
+			<th class="header"><div class="dice">記録出目</div></th>
 			<th class="header">記録点数</th>
 			<th class="header">記録順</th>
 			<th class="header">&nbsp;</th>
@@ -212,7 +214,7 @@ addEventHandler(window, "load", function () {
 			</td>
 		</tr>
 		<tr class="total">
-			<th colspan="3">上段(エース〜シックス)合計</th>
+			<th colspan="3">上段(エースからシックスまで)合計</th>
 			<td align="right">
 				<div id="txtUpperTotal">0</div>
 			</td>
@@ -385,7 +387,7 @@ addEventHandler(window, "load", function () {
 			</td>
 		</tr>
 		<tr class="total">
-			<th colspan="3">下段(スリーダイス〜チャンス)合計</th>
+			<th colspan="3">下段(スリーダイスからチャンスまで)合計</th>
 			<td align="right">
 				<div id="txtLowerTotal">0</div>
 			</td>

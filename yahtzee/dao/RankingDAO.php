@@ -64,36 +64,31 @@ class RankingDAO {
 	 */
 	function addRanking($ranking) {
 		$ret = false;
-		$rankings = array();
 
 		// ロック用ファイルオープン
 		$lockfp = fopen(RANKING_LOCK_PATH, 'w');
 		flock($lockfp, LOCK_EX);
 
-		if (file_exists(RANKING_SAVE_PATH)) {
-			// ランキングファイルオープン
-			$fp = fopen(RANKING_SAVE_PATH, 'r');
-			flock($fp, LOCK_SH);
+		// 読み込み
+		$fp = null;
+		$rankings = array();
+		if (!file_exists(RANKING_SAVE_PATH)) {
+			$fp = fopen(RANKING_SAVE_PATH, 'w');
+			flock($fp, LOCK_EX);
+		} else {
+			$fp = fopen(RANKING_SAVE_PATH, 'r+');
+			flock($fp, LOCK_EX);
 
-			// 読み込み
 			$data = '';
 			while (!feof($fp)) {
 				$data .= fgets($fp);
 			}
 			$rankings = unserialize($data);
-
-			// ランキングファイルクローズ
-			flock($fp, LOCK_UN);
-			fclose($fp);
 		}
 
 		// ランキング登録
 		$ret = $this->isRankin($rankings, $ranking);
 		$newRankings = $this->addRankingAndSlice($rankings, $ranking);
-
-		// ランキングファイルオープン
-		$fp = fopen(RANKING_SAVE_PATH, 'w+');
-		flock($fp, LOCK_EX);
 
 		// 書き込み
 		rewind($fp);

@@ -65,13 +65,13 @@ function showDetail($ranking) {
 		$dice = $diceArray[$row];
 		for ($i = 0; $i < 5; $i++) {
 			$die = $dice[$i];
-			$diceStr .= '<img width="20" height="20" src="res/die' . $die . '.gif" alt="' . $die . '">';
+			$diceStr .= '<span class="die' . $die . '" title="' . $die . '"></span>';
 		}
 		$turnStr = $turnArray[$row];
 		echo '
 <tr class="' . $rowClass . '">
 	<th>' . $hand . '</th>
-	<td align="center"><tt>' . $diceStr . '&nbsp;</tt></td>
+	<td align="center"><div class="dice">' . $diceStr . '</dice></td>
 	<td align="right">' . $turnStr . '&nbsp;</td>
 </tr>
 ';
@@ -90,6 +90,8 @@ function showDetail($ranking) {
 <title>Yahtzee ランキング</title>
 <link id="changecss" rel="stylesheet" type="text/css" href="<?php echo $css ?>">
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo RANKING_URL ?>">
+<link rel="shortcut icon" href="res/favicon.ico">
+<link rel="icon" href="res/anim_favicon.gif" type="image/gif">
 <script type="text/javascript" src="res/common.js"></script>
 <script type="text/javascript" src="res/prototype.js"></script>
 <script type="text/javascript"><!--
@@ -144,7 +146,7 @@ addEventHandler(window, "load", addCssLinks);
 			<table class="detail" summary="明細" width="100%">
 				<tr>
 					<th class="header">役名</th>
-					<th class="header">記録出目</th>
+					<th class="header"><div class="dice">記録出目</div></th>
 					<th class="header">記録順</th>
 				</tr>
 				<?php showDetail($ranking) ?>
