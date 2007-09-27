@@ -14,7 +14,7 @@ body {
 }
 /* サイコロ画像群 */
 div.dice {
-	/* サイコロの幅×５＋１以上を指定 */
+	/* サイコロの幅×5＋1以上を指定 */
 	width: 161px;
 }
 span.die1 {
@@ -77,8 +77,8 @@ div#txtMessage {
 	color: black;
 	font-weight: bold;
 	white-space: nowrap;
-	width: 400px;
 	border: 2px solid gray;
+	width: 0px;
 	padding: 7px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -113,28 +113,27 @@ input {
 /* 表基本 */
 table
 {
-	border-right: gray 1px solid;
-	border-top: gray 1px solid;
-	border-left: gray 1px solid;
+	border-right:  gray 1px solid;
+	border-top:    gray 1px solid;
+	border-left:   gray 1px solid;
 	border-bottom: gray 1px solid;
 	border-collapse: collapse;
 }
 th
 {
-	border-right: gray 1px solid;
-	border-top: gray 1px solid;
-	border-left: gray 1px solid;
+	border-right:  gray 1px solid;
+	border-top:    gray 1px solid;
+	border-left:   gray 1px solid;
 	border-bottom: gray 1px solid;
 	border-collapse: collapse;
 }
 td
 {
-	border-right: gray 1px solid;
-	border-top: gray 1px solid;
-	border-left: gray 1px solid;
+	border-right:  gray 1px solid;
+	border-top:    gray 1px solid;
+	border-left:   gray 1px solid;
 	border-bottom: gray 1px solid;
 	border-collapse: collapse;
-	padding: 6px 6px 6px 6px;
 }
 table.grid th {
 	background: #f0f0f0;
