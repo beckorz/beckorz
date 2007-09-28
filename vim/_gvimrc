@@ -1,3 +1,7 @@
+"---------------------------------------------------------------------------
+" Vim 7.1-20070915 香り屋版向け
+"---------------------------------------------------------------------------
+
 " 新しい行を開始したときに、新しい行のインデントを現在行と同じ量にする(autoindent)
 set ai
 
@@ -9,6 +13,7 @@ set bs=indent,eol,start
 
 " ファイルを上書きする前にバックアップファイルを作る(backup)
 "set bk
+set nobk
 
 " バックアップファイルの作成方法を決定する(backupcopy)
 "set bkc=no
@@ -21,6 +26,9 @@ set bex=.backup
 
 " ファイルブラウザにどのディレクトリを使うかを指定する(Windows版等のGUI用)(browsedir)
 set bsdir=buffer
+
+" クリップボードの動作設定(clipboard)
+set cb=unnamed
 
 " コマンドラインに使われるスクリーン上の行数(cmdheight)
 "set ch=2
@@ -43,6 +51,10 @@ set noea
 " 改行コードの指定(fileformat)
 "set ff=dos
 
+" GUI用のオプション(guioptions)
+" 水平スクロールバー表示
+set go+=b
+
 " 保存しないで他のファイルを表示することが出来るようにする(hidden)
 "set hid
 
@@ -59,13 +71,13 @@ set is
 set ls=2
 
 " タブ文字、行末など不可視文字を表示する
-" set list
+"set list
 
 " listで表示される文字のフォーマットを指定する(listchars)
 set lcs=tab:>-,eol:$,extends:>
 
 " 行番号を表示する(number)
-" set nu
+"set nu
 
 " ペースト時に一時的にautoindent等を無効にするペーストモードの切替キー(pastetoggle)
 set pt=<F11>
@@ -89,7 +101,7 @@ set scs
 set si
 
 " ウィンドウの横分割で新しいウィンドウをカレントウィンドウの下に開く(splitbelow)
-"set sb
+set sb
 
 " ウィンドウの縦分割で新しいウィンドウをカレントウィンドウの右に開く(splitright)
 set spr
@@ -106,59 +118,62 @@ set ts=4
 " ウィンドウの幅を超える行の折り返し設定
 set nowrap
 
-" 文字コードの自動認識
-if &encoding !=# 'utf-8'
-	set encoding=japan
-	set fileencoding=japan
+"---------------------------------------------------------------------------
+" カラー設定:
+colorscheme ron
+
+"---------------------------------------------------------------------------
+" フォント設定:
+"
+if has('win32')
+  " Windows用
+  set guifont=MS_Gothic:h9:cSHIFTJIS
+  "set guifont=MS_Mincho:h12:cSHIFTJIS
+  " 行間隔の設定
+  set linespace=1
+  " 一部のUCS文字の幅を自動計測して決める
+  if has('kaoriya')
+    set ambiwidth=auto
+  endif
+elseif has('mac')
+  set guifont=Osaka－等幅:h14
+elseif has('xfontset')
+  " UNIX用 (xfontsetを使用)
+  set guifontset=a14,r14,k14
 endif
-if has('iconv')
-	let s:enc_euc = 'euc-jp'
-	let s:enc_jis = 'iso-2022-jp'
-	" iconvがeucJP-msに対応しているかをチェック
-	if iconv("\x87\x64\x87\x6a", 'cp932', 'eucjp-ms') ==# "\xad\xc5\xad\xcb"
-		let s:enc_euc = 'eucjp-ms'
-		let s:enc_jis = 'iso-2022-jp-3'
-	" iconvがJISX0213に対応しているかをチェック
-	elseif iconv("\x87\x64\x87\x6a", 'cp932', 'euc-jisx0213') ==# "\xad\xc5\xad\xcb"
-		let s:enc_euc = 'euc-jisx0213'
-		let s:enc_jis = 'iso-2022-jp-3'
-	endif
-	" fileencodingsを構築
-	if &encoding ==# 'utf-8'
-		let s:fileencodings_default = &fileencodings
-		let &fileencodings = s:enc_jis .','. s:enc_euc .',cp932'
-		let &fileencodings = &fileencodings .','. s:fileencodings_default
-		unlet s:fileencodings_default
-	else
-		let &fileencodings = &fileencodings .','. s:enc_jis
-		set fileencodings+=utf-8,ucs-2le,ucs-2
-		if &encoding =~# '^\(euc-jp\|euc-jisx0213\|eucjp-ms\)$'
-			set fileencodings+=cp932
-			set fileencodings-=euc-jp
-			set fileencodings-=euc-jisx0213
-			set fileencodings-=eucjp-ms
-			let &encoding = s:enc_euc
-			let &fileencoding = s:enc_euc
-		else
-			let &fileencodings = &fileencodings .','. s:enc_euc
-		endif
-	endif
-	" 定数を処分
-	unlet s:enc_euc
-	unlet s:enc_jis
-endif
-" 日本語を含まない場合は fileencoding に encoding を使うようにする
-if has('autocmd')
-	function! AU_ReCheck_FENC()
-		if &fileencoding =~# 'iso-2022-jp' && search("[^\x01-\x7e]", 'n') == 0
-			let &fileencoding=&encoding
-		endif
-	endfunction
-	autocmd BufReadPost * call AU_ReCheck_FENC()
-endif
-" 改行コードの自動認識
-set fileformats=unix,dos,mac
-" □とか○の文字があってもカーソル位置がずれないようにする
-if exists('&ambiwidth')
-	set ambiwidth=double
+
+"---------------------------------------------------------------------------
+" ウインドウに関する設定:
+"
+" ウインドウの幅
+set columns=145
+" ウインドウの高さ
+set lines=71
+" コマンドラインの高さ(GUI使用時)
+set cmdheight=2
+" 画面を黒地に白にする (次行の先頭の " を削除すれば有効になる)
+"colorscheme evening " (GUI使用時)
+" ウインドウ位置
+winpos 190 0
+
+"---------------------------------------------------------------------------
+" 印刷に関する設定:
+"
+" 注釈:
+" 印刷はGUIでなくてもできるのでvimrcで設定したほうが良いかもしれない。この辺
+" りはWindowsではかなり曖昧。一般的に印刷には明朝、と言われることがあるらし
+" いのでデフォルトフォントは明朝にしておく。ゴシックを使いたい場合はコメント
+" アウトしてあるprintfontを参考に。
+"
+" 参考:
+"   :hardcopy
+"   :help 'printfont'
+"   :help printing
+"
+" 印刷用フォント
+if has('printer')
+  if has('win32')
+    "set printfont=MS_Mincho:h12:cSHIFTJIS
+    set printfont=MS_Gothic:h9:cSHIFTJIS
+  endif
 endif
