@@ -70,6 +70,9 @@ set lcs=tab:>-,eol:$,extends:>
 " ペースト時に一時的にautoindent等を無効にするペーストモードの切替キー(pastetoggle)
 set pt=<F11>
 
+" オムニ補完を有効にする(omnifunc) なぜかftpluginに書かれてない？
+autocmd FileType php setlocal ofu=phpcomplete#CompletePHP
+
 " 自動インデントの各段階に使われる空白の数(shiftwidth)
 set sw=4
 
