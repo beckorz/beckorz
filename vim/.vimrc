@@ -64,6 +64,9 @@ set ls=2
 " listで表示される文字のフォーマットを指定する(listchars)
 set lcs=tab:>-,eol:$,extends:>
 
+" モードラインの有効無効(modeline)
+set ml
+
 " 行番号を表示する(number)
 " set nu
 
