@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-char SaveName[16];
-UWORD HighScore;
-UWORD ExecCount;
+// セーブデータ群
+char SaveName[16];	// セーブデータ存在確認用
+UWORD HighScore;	// ハイスコア

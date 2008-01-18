@@ -14,7 +14,7 @@ typedef struct _E_T {
 
 #define TBL_BANK 5
 #define TBL_ADDR (E_T *)0x6000
-#define FONT_W 9
+#define FONT_W 8
 #define WAIT_BUTTON_MASK 0xff
 
 extern UBYTE e_sx, e_sy, e_width, e_height, e_x, e_y;

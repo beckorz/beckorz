@@ -24,11 +24,23 @@ if "%LCC%"=="" set PATH=%PATH%;%LCCPATH%
 
 rem nmakeでコンパイル
 nmake /nologo
-rem ついでにzip圧縮しちゃぅ
-nmake /nologo zip
+if errorlevel 1 goto :END
+rem ついでにzip圧縮しちゃぅ？
+set YESNO=N
+set /p YESNO=zip圧縮しますか？(y/N)：
+set YESNO=%YESNO: =%
+if /i "%YESNO:~0,1%"=="y" (
+	nmake /nologo zip
+) else (
+	rem set /pで未入力時にERRORLEVELが1になるのをリセットするために適当なコマンド実行
+	ver > nul
+)
 
-echo 何かキーを押すと終了します。
-pause > nul
+:END
+if errorlevel 1 (
+	echo 何かキーを押すと終了します。
+	pause > nul
+)
 
 endlocal
 echo on
