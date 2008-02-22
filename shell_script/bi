@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# パラメータで渡されたファイル群を.backup拡張子を付けてコピー後、
+# vimに渡して実行します。
+# *.backupが既に存在していれば上書きコピーはしません。
+# コピーに失敗したファイルがあればvimに渡さずに終了します。
+
+EDITOR=${EDITOR:=vim}
+SUFFIX=.backup
+
+if [ $# -eq 0 ]; then
+	$EDITOR
+else
+	for FILE; do
+		BACKUP=${FILE}${SUFFIX}
+		if [ -f "$FILE" -a ! -f "$BACKUP" ]; then
+			cp -p "$FILE" "$BACKUP"
+			if [ ! $? -eq 0 ]; then
+				exit
+			fi
+		fi
+	done
+	$EDITOR "$@"
+fi

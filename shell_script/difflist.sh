@@ -1,32 +1,51 @@
 #!/bin/sh
 #
-# .default & original file copy/output diff
+# .backupと最新のファイルのコピーと差分をとります。
 
-# Create save dir
+# 保存ディレクトリを生成
 #
-SAVEDIR=$HOME'/tmp'
+SAVEDIR=$HOME/difflist
 if [ -d $SAVEDIR ]; then
-	rm -fr $SAVEDIR
+	echo -n "$SAVEDIR already exists! Remove now? (y/N): "
+	read YESNO
+	case $YESNO in
+		[Yy]|[Yy][Ee][Ss])
+			rm -fr $SAVEDIR
+			;;
+		*)
+			exit 1
+			;;
+	esac
 fi
 mkdir $SAVEDIR
 
-# Find .default & copy
+# .backupファイルを検索してリスト生成
 #
 TMPFILE=$SAVEDIR/difflist.txt
-find / -name "*.default" -or -name ".*.default" > $TMPFILE 2>/dev/null
+find / -name "*.backup" -or -name ".*.backup" > $TMPFILE 2>/dev/null
+
+# リストからファイルをコピーして差分出力
+#
 while read BAKFILE; do
 	BAKDIR=`dirname $BAKFILE`
+	TMPDIR=$SAVEDIR/$BAKDIR
 	BAKFILE=`basename $BAKFILE`
-	ORGFILE=`basename $BAKFILE .default`
+	ORGFILE=`basename $BAKFILE .backup`
 	DIFFILE=$ORGFILE.diff
 	if [ -f "$BAKDIR/$ORGFILE" ]; then
-		cp -fp $BAKDIR/$BAKFILE $SAVEDIR
-		cp -fp $BAKDIR/$ORGFILE $SAVEDIR
-		diff -u $BAKDIR/$BAKFILE $BAKDIR/$ORGFILE > $SAVEDIR/$DIFFILE
-		if [ ! -s $SAVEDIR/$DIFFILE ]; then
-			rm -f $SAVEDIR/$DIFFILE
-			rm -f $SAVEDIR/$ORGFILE
-			rm -f $SAVEDIR/$DIFFILE
+		# 保存ディレクトリ以下に同じディレクトリ構造を構築
+		if [ ! -d "$TMPDIR" ]; then
+			mkdir -p "$TMPDIR"
+		fi
+		# .backupと最新ファイルをコピーして差分出力
+		cp -fp $BAKDIR/$BAKFILE $TMPDIR
+		cp -fp $BAKDIR/$ORGFILE $TMPDIR
+		diff -u $BAKDIR/$BAKFILE $BAKDIR/$ORGFILE > $TMPDIR/$DIFFILE
+		# 差分が空なら削除
+		if [ ! -s $TMPDIR/$DIFFILE ]; then
+			rm -f $TMPDIR/$DIFFILE
+			rm -f $TMPDIR/$ORGFILE
+			rm -f $TMPDIR/$DIFFILE
 		fi
 	fi
 done < $TMPFILE
