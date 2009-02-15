@@ -1,5 +1,5 @@
 {*------------------------------------------------------------------------------
-  ウィンドウ操作ユニット
+  ウィンドウ操作・情報取得ユニット
   @Author    beck
   @Version   2009.02.13   beck	Initial revision
 -------------------------------------------------------------------------------}
@@ -19,6 +19,8 @@ uses
   function GetRectHeight(Rect: TRect): Integer;
   procedure SetRectHeight(var Rect: TRect; Height: Integer);
   function GetRelativeClientRect(hParent: hWnd; hChild: hWnd): TRect;
+  function GetDesktopWorkArea(): TRect;
+  procedure SetWindowToCenterOfWorkArea(Handle: HWND);
 
 type
   { TWindowInfo }
@@ -208,6 +210,59 @@ begin
 
 end;
 
+{*------------------------------------------------------------------------------
+  デスクトップの作業領域(タスクバーを除いた矩形)を取得
+  @return 作業領域(矩形)
+------------------------------------------------------------------------------*}
+function GetDesktopWorkArea(): TRect;
+var
+  workArea  :  TRect;
+begin
+  Result := workArea;
+  if  SystemParametersInfo(SPI_GETWORKAREA, 0, @workArea, 0) then begin
+    Result := workArea;
+  end;
+end;
+
+{*------------------------------------------------------------------------------
+  ウィンドウを作業領域(デスクトップのタスクバーを除いた領域)の中央に表示
+  基本は、FormCreate時に使う。
+  但し、フォームのPositionプロパティで、余計なセンター表示はしない事。
+  poDefaultPosOnlyとかの初期値で設定できる事を確認
+  他の設定にすると、フォームサイズがおかしくなってしまう。
+  (DelphiのVCLがFormCreate後に補正をかけている為だと思う)
+  @param Handle   対象ウィンドウハンドル
+  @return ResultDescription
+------------------------------------------------------------------------------*}
+procedure SetWindowToCenterOfWorkArea(Handle: HWND);
+var
+  win: TRECT;       // 対象ウィンドウの矩形
+  wa: TRECT;        // ワークエリアの矩形
+//  width : integer;
+//  height : integer;
+begin
+
+  GetWindowRect(Handle, win);   // 対象ウィンドウの矩形取得
+  wa := GetDesktopWorkArea();   // ワークエリアの矩形取得
+
+  with win do begin
+//    // 高さ・幅を退避
+//    width := Right - Left;
+//    height := Bottom - Top;
+
+    // 左上を作業領域の中央へ補正する。
+    Top := ((wa.Bottom - wa.Top) - (Bottom - Top)) div 2 + wa.Top;
+    Left := ((wa.Right - wa.Left) - (Right - Left)) div 2 + wa.Left;
+    // タスクバー位置よりも少ない場合は、タスクバー位置の方を優先
+    if Top < wa.Top then begin   Top := wa.Top;   end;
+    if Left < wa.Left then begin Left := wa.Left; end;
+
+    // 補正した位置情報でウィンドウを移動する
+//    SetWindowPos(Handle, 0, win.Top, win.Left, 0, 0, SWP_NOZORDER or SWP_NOSIZE);
+//    MoveWindow(Handle, Left, Top, width, height, True);
+  end;
+
+end;
 
 { TWindowInfo }
 

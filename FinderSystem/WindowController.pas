@@ -91,14 +91,10 @@ end;
 procedure TfrmWindowController.trbPositionChange(Sender: TObject);
 begin
 
-  if Sender = trbPosX then begin
-    edtPosX.Text := IntToStr(trbPosX.Position);
-  end else if Sender = trbPosY then begin
-    edtPosY.Text := IntToStr(trbPosY.Position);
-  end else if Sender = trbPosWidth then begin
-    edtPosWidth.Text := IntToStr(trbPosWidth.Position);
-  end else if Sender = trbPosHeight then begin
-    edtPosHeight.Text := IntToStr(trbPosHeight.Position);
+  if Sender = trbPosX then begin               edtPosX.Text      := IntToStr(trbPosX.Position);
+  end else if Sender = trbPosY then begin      edtPosY.Text      := IntToStr(trbPosY.Position);
+  end else if Sender = trbPosWidth then begin  edtPosWidth.Text  := IntToStr(trbPosWidth.Position);
+  end else if Sender = trbPosHeight then begin edtPosHeight.Text := IntToStr(trbPosHeight.Position);
   end;
 
   SetWindowPosition();
@@ -146,36 +142,36 @@ procedure TfrmWindowController.LoadWindowPosition();
 var
   win: TRect;
 begin
+
   // イベント発生させないようにnil
   trbPosX.OnChange := nil;
   trbPosY.OnChange := nil;
   trbPosWidth.OnChange := nil;
   trbPosHeight.OnChange := nil;
 
-
-  if frmMain.FWindowInfo.Handle <> 0 then begin
+  // ウィンドウの位置情報を設定(ウィンドウが存在している場合
+  if (frmMain.FWindowInfo.Handle <> 0) and IsWindow(frmMain.FWindowInfo.Handle) then begin
     // クライアント矩形取得
     win := GetRelativeClientRect(frmMain.FWindowInfo.ParentHandle, frmMain.FWindowInfo.Handle);
     with win do begin
       edtPosX.Text := IntToStr(win.Left);
-      trbPosX.Position := win.Left;
       edtPosY.Text := IntToStr(win.Top);
-      trbPosY.Position := win.Top;
       edtPosWidth.Text := IntToStr(GetRectWidth(win));
-      trbPosWidth.Position := win.Right - win.Left;
       edtPosHeight.Text := IntToStr(GetRectHeight(win));
-      trbPosHeight.Position := win.Bottom - win.Top;
     end;
+  end else begin
+    // ウィンドウハンドルが無効の場合
+    edtPosX.Text := IntToStr(0);
+    edtPosY.Text := IntToStr(0);
+    edtPosWidth.Text := IntToStr(0);
+    edtPosHeight.Text := IntToStr(0);
   end;
 
-  if IsNumeric(edtPosX.Text) then
-    trbPosX.Position := StrToInt(edtPosX.Text);
-  if IsNumeric(edtPosY.Text) then
-    trbPosY.Position := StrToInt(edtPosY.Text);
-  if IsNumeric(edtPosWidth.Text) then
-    trbPosWidth.Position := StrToInt(edtPosWidth.Text);
-  if IsNumeric(edtPosHeight.Text) then
-    trbPosHeight.Position := StrToInt(edtPosHeight.Text);
+  // トラックバーの設定
+  if IsNumeric(edtPosX.Text) then      trbPosX.Position      := StrToInt(edtPosX.Text);
+  if IsNumeric(edtPosY.Text) then      trbPosY.Position      := StrToInt(edtPosY.Text);
+  if IsNumeric(edtPosWidth.Text) then  trbPosWidth.Position  := StrToInt(edtPosWidth.Text);
+  if IsNumeric(edtPosHeight.Text) then trbPosHeight.Position := StrToInt(edtPosHeight.Text);
 
   // イベント関連付けを戻す
   trbPosX.OnChange := trbPositionChange;

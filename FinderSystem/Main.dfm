@@ -15,6 +15,7 @@ object frmMain: TfrmMain
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDefaultPosOnly
   ShowHint = True
   OnClose = FormClose
   OnCreate = FormCreate

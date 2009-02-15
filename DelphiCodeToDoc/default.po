@@ -1,0 +1,1931 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DelphiCodeToDoc\n"
+"POT-Creation-Date: 2008-12-01 00:39\n"
+"PO-Revision-Date: 2009-02-15 14:39+0900\n"
+"Last-Translator: beck <beckorz@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.2\n"
+"Language-Team: \n"
+
+#. AboutBox..Caption
+#. MainForm..ActionManager1..ActionAbout..Caption
+#: UI/fAbout.dfm:6
+#: UI/fMainForm.dfm:3868
+msgid "About"
+msgstr "このソフトについて"
+
+#. AboutBox..Panel1..OKButton..Caption
+#. QuickWizardForm..btnOk..Caption
+#: UI/fAbout.dfm:175
+#: UI/fQuickWizard.dfm:97
+msgid "OK"
+msgstr "OK"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:196
+msgid "DelphiCodeToDoc is a free documentation"
+msgstr "DelphiCodeToDoc はDelphi用フリーのドキュメント作成システムです。"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:197
+msgid "system for Delphi, released under the GNU"
+msgstr "このソフトは、GNU General Public License. によってリリースされています。"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:198
+msgid "General Public License. It uses information"
+msgstr "このソフトは、作成したアプリケーションや"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:199
+msgid "about source code symbols and formatted"
+msgstr "コンポーネントからソースコードシンボルと"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:200
+msgid "comments in files to produce accurate"
+msgstr "書式設定されたコメントをファイルから抽出して、"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:201
+msgid "documentation from your application and"
+msgstr "正確なドキュメントを生成する事ができます。"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:202
+msgid "component."
+msgstr " "
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:203
+msgid "Full project can be found at :"
+msgstr "プロジェクトに関する情報は以下から参照できます。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:240
+msgid "DelphiCodeToDoc is a free documentation system for Delphi, released under the GNU "
+msgstr "DelphiCodeToDoc はDelphi用フリーのドキュメント作成システムです。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:243
+msgid "General Public License. It uses information about source code symbols and formatted comments in files to "
+msgstr "このソフトは、GNU General Public License. によってリリースされています。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:246
+msgid "produce accurate documentation from your application and component."
+msgstr "このソフトは、作成したアプリケーションやコンポーネントからソースコードシンボルと書式設定されたコメントをファイルから抽出して、正確なドキュメントを生成する事ができます。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:249
+msgid "How to use ?"
+msgstr "■使い方"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:252
+msgid "Select the 'Project Wizard', enter directory where you have source code."
+msgstr "'プロジェクトウィザード' を選択し、ソースコードの場所を入力します。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:255
+msgid "It will show you the 'Configuration' panel where you can change options."
+msgstr "'設定'パネルより設定を変更できます。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:258
+msgid "Select the 'Check' command to verify if the parser understand you files."
+msgstr "'チェック' コマンドでファイルから妥当性をチェックできます。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:259
+msgid "Then, select 'Build' to build the documentation."
+msgstr "そして、'構築'でドキュメントを作成できます。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:260
+msgid "Have fun !"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:262
+msgid "IMPORTANTAbout ALPHA revisions :"
+msgstr "重要 : これはアルファバージョンについて"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:265
+msgid "This (alpha) version is under development, so there are many things restricted or under construction."
+msgstr "この(α版)バージョンは開発中で、多くの制限や作成中の機能が存在します。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:268
+msgid "You can go to the project page and submit bug/issue/idea, I will be pleased."
+msgstr "貴方がプロジェクトページに行って、不具合や問題や提案を提出して下さい。そうしてくれると助かります。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:271
+msgid "JavaDoc (implemented and functional)"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:274
+msgid "This system came from Sun, and is used in many programming language. It is a rich and simple syntax, well supported "
+msgstr "このシステムは、Sun社より考案され、多くのプログラミング言語で使用されてきました。それは、単純で多くの構文があります。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:275
+msgid "by many software."
+msgstr "そして、多くのソフトウェアによってサポートされています。"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:278
+msgid "For this syntax, you can define a prefix in order to specify a special comment (as the '*' in /** ...*/ in Java)"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:280
+msgid "List of supported TAGs:"
+msgstr "サポート済みタグリスト:"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:281
+msgid "*Description (no '@' TAG!)"
+msgstr "*説明 (@タグは不要)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:282
+msgid "*@author"
+msgstr "*@author (作成者)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:283
+msgid "*@version"
+msgstr "*@version (バージョン)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:284
+msgid "*@param"
+msgstr "*@param (引数パラメータ)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:285
+msgid "*@return"
+msgstr "*@return (戻り値)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:286
+msgid "*@see (Not functional for the moment in DelphiCodeToDoc) "
+msgstr "*@see (DelphiCodeToDocではまだ実装されていません)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:288
+msgid "Inlines (implemented and functional)"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:291
+msgid "This is a simple extention of JavaDoc system, which provide the description TAG facility with double slash comment."
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:293
+msgid "Simple Inline"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:296
+msgid "Writting a comment line with double slash ( // ) before a class, field or method will be processed as a Description TAG."
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:298
+msgid "End of line Inline"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:301
+msgid "Writting a comment line at the end of a line with double slash ( // ) before a field (and only a Field) will be processed as "
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:302
+msgid "a Description TAG for the preceding Field."
+msgstr ""
+
+#. MainForm..JvPageControl1..tsReference..tvReference..LabelMustCheckBefore..Caption
+#: UI/fMainForm.dfm:365
+msgid "You must Check the project to have access to this screen."
+msgstr ""
+
+#. MainForm..JvPageControl1..tsMessages..mDebug....Lines.Strings
+#: UI/fMainForm.dfm:391
+msgid "Debug Messages:"
+msgstr "デバッグメッセージ:"
+
+#. MainForm..JvPageControl1..tsMessages..mUser....Lines.Strings
+#: UI/fMainForm.dfm:403
+msgid "User Messages:"
+msgstr "ユーザーメッセージ:"
+
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3527
+msgid "&New Full Wizard Project"
+msgstr ""
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3532
+#: UI/fMainForm.dfm:3573
+#: UI/fMainForm.dfm:3673
+msgid "&Open Project"
+msgstr "プロジェクトを開く(&O)"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3537
+#: UI/fMainForm.dfm:3682
+msgid "&Save Project"
+msgstr "プロジェクトを保存(&S)"
+
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3542
+msgid "&Check and Build"
+msgstr "チェックと構築(&C)"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3547
+#: UI/fMainForm.dfm:3714
+msgid "&View Output"
+msgstr ""
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3552
+#: UI/fMainForm.dfm:3719
+msgid "&Purge Output Folder"
+msgstr "出力フォルダを空にする(&P)"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3563
+#: UI/fMainForm.dfm:3658
+msgid "&New Empty Project"
+msgstr "新規空プロジェクト(&N)"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3568
+#: UI/fMainForm.dfm:3663
+msgid "N&ew Quick Wizard Project"
+msgstr "新規プロジェクトを作成(簡易) (&E)"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3578
+msgid "&Save As"
+msgstr "名前を付けて保存(&S)"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3583
+msgid "S&ave Project"
+msgstr "プロジェクトを保存する(&S)"
+
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3593
+msgid "&File"
+msgstr "ファイル(&F)"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3599
+#: UI/fMainForm.dfm:3704
+msgid "&Add Files"
+msgstr ""
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3604
+msgid "&Check Project"
+msgstr "プロジェクトのチェック(&C)"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3609
+msgid "&Build Project"
+msgstr "プロジェクトの構築(&B)"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3612
+#: UI/fMainForm.dfm:3722
+msgid "&Project"
+msgstr "プロジェクト(&P)"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3618
+#: UI/fMainForm.dfm:3728
+msgid "&Information"
+msgstr "情報(&I)"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3623
+#: UI/fMainForm.dfm:3733
+msgid "&Configuration"
+msgstr "設定(&C)"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3628
+#: UI/fMainForm.dfm:3738
+msgid "&Project Files"
+msgstr "プロジェクトファイル(&P)"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3633
+#: UI/fMainForm.dfm:3743
+msgid "&Reference"
+msgstr ""
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3638
+#: UI/fMainForm.dfm:3748
+msgid "&Messages"
+msgstr "メッセージ(&M)"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3641
+#: UI/fMainForm.dfm:3760
+msgid "&View"
+msgstr "表示(&V)"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3647
+#: UI/fMainForm.dfm:3774
+msgid "&About"
+msgstr "このソフトについて(&A)"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..........Caption
+#. NiceWizardForm..JvWizard1..ButtonHelp.Caption
+#: UI/fMainForm.dfm:3649
+#: UI/fMainForm.dfm:3777
+#: UI/fNiceWizard.dfm:49
+msgid "&Help"
+msgstr "ヘルプ(&H)"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3668
+msgid "Ne&w Full Wizard Project"
+msgstr "新規プロジェクトを作成(詳細) (&w)"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3678
+msgid "&Import old Project"
+msgstr "古いプロジェクトをインポート(&I)"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3687
+msgid "S&ave As"
+msgstr "名前を付けて保存(&A)"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3692
+msgid "&Close"
+msgstr "閉じる(&C)"
+
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3698
+msgid "F&ile"
+msgstr "ファイル(&F)"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3709
+msgid "C&heck and Build"
+msgstr "チェックと構築(&B)"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3753
+msgid "&Tag Quality"
+msgstr ""
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3758
+msgid "C&lear Messages"
+msgstr "メッセージのクリア(&L)"
+
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3768
+msgid "&Languages"
+msgstr "言語"
+
+#. MainForm..ActionManager1..ActionNewproject..Category
+#. MainForm..ActionManager1..ActionQuickWizardProject..Category
+#. MainForm..ActionManager1..ActionFullWizardProject..Category
+#. MainForm..ActionManager1..ActionOpenProject..Category
+#. MainForm..ActionManager1..ActionImportOldProject..Category
+#. MainForm..ActionManager1..ActionSaveProject..Category
+#. MainForm..ActionManager1..ActionSaveAsProject..Category
+#. MainForm..ActionManager1..ActionCloseProject..Category
+#. MainForm..ActionManager1..FileExit1..Category
+#. Programmer's name for it: L_File
+#: UI/fMainForm.dfm:3787
+#: UI/fMainForm.dfm:3794
+#: UI/fMainForm.dfm:3801
+#: UI/fMainForm.dfm:3808
+#: UI/fMainForm.dfm:3820
+#: UI/fMainForm.dfm:3831
+#: UI/fMainForm.dfm:3839
+#: UI/fMainForm.dfm:3854
+#: UI/fMainForm.dfm:3861
+#: Generator/Html/uDocGenHTML_Tools.pas:44
+msgid "File"
+msgstr "ファイル"
+
+#. MainForm..ActionManager1..ActionNewproject..Caption
+#: UI/fMainForm.dfm:3788
+msgid "New Empty Project"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionNewproject..Hint
+#: UI/fMainForm.dfm:3790
+msgid "Create a new empty project"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionQuickWizardProject..Caption
+#: UI/fMainForm.dfm:3795
+msgid "New Quick Wizard Project"
+msgstr "新規プロジェクトウィザード(簡易)"
+
+#. MainForm..ActionManager1..ActionQuickWizardProject..Hint
+#. MainForm..ActionManager1..ActionFullWizardProject..Hint
+#: UI/fMainForm.dfm:3796
+#: UI/fMainForm.dfm:3803
+msgid "Create a new project with help of the Wizard"
+msgstr "ウィザードを利用して新規プロジェクトを作成する"
+
+#. MainForm..ActionManager1..ActionFullWizardProject..Caption
+#: UI/fMainForm.dfm:3802
+msgid "New Full Wizard Project"
+msgstr "新規プロジェクトウィザード(詳細)"
+
+#. MainForm..ActionManager1..ActionOpenProject..Caption
+#: UI/fMainForm.dfm:3809
+msgid "Open Project"
+msgstr "プロジェクトを開く"
+
+#. MainForm..ActionManager1..ActionOpenProject..Hint
+#: UI/fMainForm.dfm:3811
+msgid "Open an existing project"
+msgstr "作成済みプロジェクトを開く"
+
+#. MainForm..ActionManager1..ActionOpenProject..Dialog.Filter
+#: UI/fMainForm.dfm:3815
+msgid "DCTD Project file (*.xml)|*.xml"
+msgstr "DCTDプロジェクトファイル (*.xml)|*.xml"
+
+#. MainForm..ActionManager1..ActionImportOldProject..Caption
+#: UI/fMainForm.dfm:3821
+msgid "Import old Project"
+msgstr "古いプロジェクトをインポート"
+
+#. MainForm..ActionManager1..ActionImportOldProject..Hint
+#: UI/fMainForm.dfm:3823
+msgid "Import an old *.DCD extension project filename"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionImportOldProject..Dialog.Filter
+#: UI/fMainForm.dfm:3826
+msgid "DCTD Project file (*.dcd)|*.dcd"
+msgstr "DCTDプロジェクトファイル (*.dcd)|*.dcd"
+
+#. MainForm..ActionManager1..ActionSaveProject..Caption
+#: UI/fMainForm.dfm:3832
+msgid "Save Project"
+msgstr "プロジェクトを保存"
+
+#. MainForm..ActionManager1..ActionSaveProject..Hint
+#: UI/fMainForm.dfm:3834
+msgid "Save active project"
+msgstr "現在のプロジェクトを保存"
+
+#. MainForm..ActionManager1..ActionSaveAsProject..Caption
+#: UI/fMainForm.dfm:3840
+msgid "Save As"
+msgstr "名前を付けて保存"
+
+#. MainForm..ActionManager1..ActionSaveAsProject..Hint
+#: UI/fMainForm.dfm:3842
+msgid "Save project as a different name"
+msgstr "別名でプロジェクトを保存"
+
+#. MainForm..ActionManager1..ActionSaveAsProject..Dialog.Filter
+#: UI/fMainForm.dfm:3848
+msgid "DCTD Project file|*.xml"
+msgstr "DCTDプロジェクトファイル |*.xml"
+
+#. MainForm..ActionManager1..ActionSaveAsProject..Dialog.Title
+#: UI/fMainForm.dfm:3849
+msgid "Select file to save project"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionCloseProject..Caption
+#: UI/fMainForm.dfm:3855
+msgid "Close"
+msgstr "閉じる"
+
+#. MainForm..ActionManager1..ActionCloseProject..Hint
+#: UI/fMainForm.dfm:3857
+msgid "Close current project"
+msgstr "現在のプロジェクトを閉じる"
+
+#. MainForm..ActionManager1..FileExit1..Caption
+#: UI/fMainForm.dfm:3862
+msgid "E&xit"
+msgstr "終了(&X)"
+
+#. MainForm..ActionManager1..FileExit1..Hint
+#: UI/fMainForm.dfm:3863
+msgid "Exit|Quits the application"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionAbout..Category
+#: UI/fMainForm.dfm:3867
+msgid "Help"
+msgstr "ヘルプ"
+
+#. MainForm..ActionManager1..ActionAbout....Hint
+#: UI/fMainForm.dfm:3871
+msgid "Display some informations about the product, the revision number and the author"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionAddFiles..Category
+#. MainForm..ActionManager1..ActionCheck..Category
+#. MainForm..ActionManager1..ActionBuild..Category
+#. MainForm..ActionManager1..ActionCheckAndBuild..Category
+#. MainForm..ActionManager1..ActionViewOutput..Category
+#. MainForm..ActionManager1..ActionPurgeOutputFolder..Category
+#. Word localization
+#. Programmer's name for it: L_Project
+#: UI/fMainForm.dfm:3876
+#: UI/fMainForm.dfm:3883
+#: UI/fMainForm.dfm:3891
+#: UI/fMainForm.dfm:3950
+#: UI/fMainForm.dfm:3957
+#: UI/fMainForm.dfm:3964
+#: Generator/Html/uDocGenHTML_Tools.pas:36
+msgid "Project"
+msgstr "プロジェクト"
+
+#. MainForm..ActionManager1..ActionAddFiles..Caption
+#: UI/fMainForm.dfm:3877
+msgid "Add Files"
+msgstr "ファイルを追加"
+
+#. MainForm..ActionManager1..ActionAddFiles..Hint
+#: UI/fMainForm.dfm:3879
+msgid "Add files to the current project"
+msgstr "現在のプロジェクトにファイルを追加する"
+
+#. MainForm..ActionManager1..ActionCheck..Caption
+#: UI/fMainForm.dfm:3884
+msgid "Check Project"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionCheck..Hint
+#: UI/fMainForm.dfm:3886
+msgid "Verify the files in the project, and build the references"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionBuild..Caption
+#: UI/fMainForm.dfm:3892
+msgid "Build Project"
+msgstr "プロジェクトの構築"
+
+#. MainForm..ActionManager1..ActionBuild..Hint
+#: UI/fMainForm.dfm:3894
+msgid "Build project in the format you have configure"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionInformation..Category
+#. MainForm..ActionManager1..ActionConfiguration..Category
+#. MainForm..ActionManager1..ActionProject..Category
+#. MainForm..ActionManager1..ActionReference..Category
+#. MainForm..ActionManager1..ActionMessages..Category
+#. MainForm..ActionManager1..ActionQuality..Category
+#. MainForm..ActionManager1..ActionClearMessages..Category
+#: UI/fMainForm.dfm:3899
+#: UI/fMainForm.dfm:3909
+#: UI/fMainForm.dfm:3916
+#: UI/fMainForm.dfm:3923
+#: UI/fMainForm.dfm:3930
+#: UI/fMainForm.dfm:3937
+#: UI/fMainForm.dfm:3971
+msgid "View"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionInformation..Caption
+#: UI/fMainForm.dfm:3900
+msgid "Information"
+msgstr "情報"
+
+#. MainForm..ActionManager1..ActionInformation....Hint
+#: UI/fMainForm.dfm:3904
+msgid "Show application informations, advice and links to various ressources."
+msgstr ""
+
+#. MainForm..ActionManager1..ActionConfiguration..Caption
+#: UI/fMainForm.dfm:3910
+msgid "Configuration"
+msgstr "設定"
+
+#. MainForm..ActionManager1..ActionConfiguration..Hint
+#: UI/fMainForm.dfm:3911
+msgid "Show application, input and output configuration"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionProject..Caption
+#: UI/fMainForm.dfm:3917
+msgid "Project Files"
+msgstr "プロジェクトファイル"
+
+#. MainForm..ActionManager1..ActionProject..Hint
+#: UI/fMainForm.dfm:3918
+msgid "Show and manage files in project"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionReference..Caption
+#: UI/fMainForm.dfm:3924
+msgid "Reference"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionReference..Hint
+#: UI/fMainForm.dfm:3925
+msgid "Show references found in project as classes, types ..."
+msgstr ""
+
+#. MainForm..ActionManager1..ActionMessages..Caption
+#: UI/fMainForm.dfm:3931
+msgid "Messages"
+msgstr "メッセージ"
+
+#. MainForm..ActionManager1..ActionMessages..Hint
+#: UI/fMainForm.dfm:3932
+msgid "Show all messages from the application concerning the process"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionQuality..Caption
+#: UI/fMainForm.dfm:3938
+msgid "Tag Quality"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionQuality..Hint
+#: UI/fMainForm.dfm:3939
+msgid "Show statistics about Tag coverage"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionLanguageEnglish..Category
+#: UI/fMainForm.dfm:3945
+msgid "Languages"
+msgstr "言語"
+
+#. MainForm..ActionManager1..ActionCheckAndBuild..Caption
+#: UI/fMainForm.dfm:3951
+msgid "Check and Build"
+msgstr "チェックと構築"
+
+#. MainForm..ActionManager1..ActionCheckAndBuild..Hint
+#: UI/fMainForm.dfm:3952
+msgid "Check Project and then build the documentation"
+msgstr "プロジェクトをチェックして、ドキュメントを構築する"
+
+#. MainForm..ActionManager1..ActionViewOutput..Caption
+#: UI/fMainForm.dfm:3958
+msgid "View Output"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionViewOutput..Hint
+#: UI/fMainForm.dfm:3959
+msgid "View output documentation"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionPurgeOutputFolder..Caption
+#: UI/fMainForm.dfm:3965
+msgid "Purge Output Folder"
+msgstr "出力フォルダを空にする"
+
+#. MainForm..ActionManager1..ActionPurgeOutputFolder..Hint
+#: UI/fMainForm.dfm:3966
+msgid "Purge existing documentation in output folder"
+msgstr "既に生成済みドキュメントを出力先フォルダから空にする。"
+
+#. MainForm..ActionManager1..ActionClearMessages..Caption
+#: UI/fMainForm.dfm:3972
+msgid "Clear Messages"
+msgstr ""
+
+#. NiceWizardForm..Caption
+#: UI/fNiceWizard.dfm:6
+msgid "New Project Wizard"
+msgstr "新規プロジェクト作成ウィザード"
+
+#. NiceWizardForm..JvWizard1..ButtonStart.Caption
+#: UI/fNiceWizard.dfm:29
+msgid "To &Start Page"
+msgstr "初期ページへ(&S)"
+
+#. NiceWizardForm..JvWizard1..ButtonLast.Caption
+#: UI/fNiceWizard.dfm:32
+msgid "To &Last Page"
+msgstr "最後のページへ(&L)"
+
+#. NiceWizardForm..JvWizard1..ButtonBack.Caption
+#: UI/fNiceWizard.dfm:35
+msgid "< &Back"
+msgstr "< 戻る(&B)"
+
+#. NiceWizardForm..JvWizard1..ButtonNext.Caption
+#: UI/fNiceWizard.dfm:38
+msgid "&Next >"
+msgstr "次へ(&N) >"
+
+#. NiceWizardForm..JvWizard1..ButtonFinish.Caption
+#: UI/fNiceWizard.dfm:41
+msgid "&Finish"
+msgstr "完了(&F)"
+
+#. NiceWizardForm..JvWizard1..ButtonCancel.Caption
+#. QuickWizardForm..btnCancel..Caption
+#: UI/fNiceWizard.dfm:45
+#: UI/fQuickWizard.dfm:109
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. NiceWizardForm..JvWizard1..JvWizardWelcome..Header.Title.Text
+#: UI/fNiceWizard.dfm:60
+msgid "Welcome"
+msgstr "ようこそ"
+
+#. NiceWizardForm..JvWizard1..JvWizardWelcome....Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:70
+msgid "Welcome to the new project wizard. It will helps you to create a new project step by step."
+msgstr "ようこそ新規プロジェクト作成ウィザードへ。 新規プロジェクト作成を手順に沿って作成できます。"
+
+#. NiceWizardForm..JvWizard1..JvWizardWelcome..JvStaticText8....Caption
+#: UI/fNiceWizard.dfm:87
+msgid "Press the \"Next\" button and fill all screens with your informations about your project."
+msgstr "\"次へ\"のボタンを押して、画面の項目を貴方のプロジェクトの情報で項目を埋めていって下さい。"
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:111
+msgid "Describe your project"
+msgstr "貴方のプロジェクトについて記述します。"
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText1....Caption
+#: UI/fNiceWizard.dfm:129
+msgid "Enter the project name below. This name is the base filename and is used for the title of the documentation. Try something very short, a single word is the best solution"
+msgstr "以下にプロジェクト名を入れて下さい。 この名前は、ベースファイル名であり、ドキュメンテーションのタイトルに使用されます。できれば何か短いもので入力して下さい。単語等が最適です。"
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText3....Caption
+#: UI/fNiceWizard.dfm:150
+msgid "Enter the project summary below. The summary is display in the first page of the documentation. Try to explain in few words what is your project."
+msgstr "以下にプロジェクトの概要を入力して下さい。 概要はドキュメンテーションの最初のページで表示です。短い単語であなたのプロジェクトについて説明するようにして下さい。"
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText4....Caption
+#: UI/fNiceWizard.dfm:171
+msgid "Enter the project description below. It is display in the first page of the documentation. Try to explain in few lines what the project is doing and why."
+msgstr "以下にプロジェクト説明を入力して下さい。それは、文書の最初のページの表示されます。何行かでプロジェクトが何をしているか説明するようにして下さい。"
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText2....Caption
+#: UI/fNiceWizard.dfm:199
+msgid "Enter the author of the documentation. If there is multiple author, list all authors in a single line."
+msgstr "ドキュメンテーションの作者を入れてください。複数の作者がいるならば、すべての著者を一つの行に記述して下さい。"
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText16....Caption
+#: UI/fNiceWizard.dfm:248
+msgid "Enter the copyright line that will be displayed in the bottom on each page of the documentation. You can add HTML tag if you want."
+msgstr "文書の各ページの下部に表示される著作権部を入力して下さい。任意でHTMLタグを追加できます。"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..Header.Title.Text
+#. Programmer's name for it: L_Files
+#: UI/fNiceWizard.dfm:272
+#: Generator/Html/uDocGenHTML_Tools.pas:43
+msgid "Files"
+msgstr "ファイル"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:280
+msgid "Add source files to the project"
+msgstr "プロジェクトにファイルを追加して下さい"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText5..Caption
+#: UI/fNiceWizard.dfm:296
+msgid "List items to include or exclude"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvPageControl1..tsIncludeList..Caption
+#: UI/fNiceWizard.dfm:325
+msgid "Include List"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvPageControl1..tsExcludeList..Caption
+#: UI/fNiceWizard.dfm:339
+msgid "Exclude List"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnAdd..Hint
+#: UI/fNiceWizard.dfm:360
+msgid "Add item to current list"
+msgstr "現在のリストへアイテムを追加する"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnReplace..Hint
+#: UI/fNiceWizard.dfm:419
+msgid "Modify selected item"
+msgstr "選択アイテムを修正する"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnDelete..Hint
+#: UI/fNiceWizard.dfm:453
+msgid "Delete selected item"
+msgstr "選択アイテムを削除する"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText6....Caption
+#: UI/fNiceWizard.dfm:489
+msgid "Add source files or project files to the project. Select a directory or a file, and click the Add button."
+msgstr "ソースファイルかプロジェクトファイルをプロジェクトに追加してください。ディレクトリかファイルを選択して、そして、追加ボタンをクリックして下さい。"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText7..Caption
+#: UI/fNiceWizard.dfm:507
+msgid "Two lists controls where to search or ignore files."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnSelectFile..Hint
+#: UI/fNiceWizard.dfm:524
+msgid "Select a file"
+msgstr "ファイル選択"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnSelectFolder..Hint
+#: UI/fNiceWizard.dfm:583
+msgid "Select a folder"
+msgstr "フォルダ選択"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..CheckBox_RecurseDirectories..Caption
+#: UI/fNiceWizard.dfm:642
+msgid "Recurse directories"
+msgstr "再帰的にフォルダを検索する"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText15....Caption
+#: UI/fNiceWizard.dfm:661
+msgid "You can use wilcard to select files and / or folders. Examples : *visit*.pas, MyDir\\temp*.pas, *OtherSources* "
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText17..Caption
+#: UI/fNiceWizard.dfm:679
+msgid "Absolute and relative files and folders are allowed."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..Header.Title.Text
+#: UI/fNiceWizard.dfm:695
+msgid "Comments"
+msgstr "コメント"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:703
+msgid "Choose which comment system are used in your files"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..CheckBox_ParseImplementation..Caption
+#: UI/fNiceWizard.dfm:717
+msgid "Parse implementation section"
+msgstr "implementation部を解析する"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..Caption
+#: UI/fNiceWizard.dfm:733
+msgid "Comment systems"
+msgstr "コメントシステム"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportJavaDoc..Caption
+#: UI/fNiceWizard.dfm:740
+msgid "Support JavaDoc syntax"
+msgstr "JavaDoc構文をサポートする"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportInline..Caption
+#: UI/fNiceWizard.dfm:756
+msgid "Support Inline syntax"
+msgstr "インライン構文をサポートする"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportXMLDoc..Caption
+#: UI/fNiceWizard.dfm:772
+msgid "Support XMLDoc syntax"
+msgstr "XMLDoc 構文をサポートする"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportJEDI..Caption
+#: UI/fNiceWizard.dfm:787
+msgid "Support JEDI syntax"
+msgstr "JEDI 構文をサポートする"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..CheckBox_AllowHtmlInDescription..Caption
+#: UI/fNiceWizard.dfm:803
+msgid "Allow Html code in Description"
+msgstr "説明内のHTMLコードを許可する"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox1..Caption
+#: UI/fNiceWizard.dfm:817
+msgid "Comments rules"
+msgstr "コメントルール"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox1..CheckBox_PropertyCommentFromAssessors..Caption
+#: UI/fNiceWizard.dfm:824
+msgid "If no description found for properties, get assessors comment"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox1..CheckBox_MethodCommentFromAncestor..Caption
+#: UI/fNiceWizard.dfm:838
+msgid "If no comments found for overriden methods, get it from ancestor"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:860
+msgid "Configure JavaDoc syntax"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..Caption
+#: UI/fNiceWizard.dfm:874
+msgid "JavaDoc Prefix"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvStaticText10..Caption
+#: UI/fNiceWizard.dfm:888
+msgid "Bracketstar Prefix (*"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvStaticText11..Caption
+#. Programmer's name for it: pdCaptionCurlyJavaDocCharPrefix
+#: UI/fNiceWizard.dfm:905
+#: Settings/uOptions.pas:255
+msgid "Curly Prefix {"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvStaticText12..Caption
+#: UI/fNiceWizard.dfm:922
+msgid "Inline Prefix //"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..CheckBox_SkipFirstLine..Caption
+#: UI/fNiceWizard.dfm:985
+msgid "Skip first line in block comment"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..CheckBox_SkipLastLine..Caption
+#: UI/fNiceWizard.dfm:999
+msgid "Skip last line in block comment"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardXMLDoc..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1020
+msgid "Configure XMLDoc syntax"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..Header.Title.Text
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvRadioGroup_OutputFormat..Caption
+#. Programmer's name for it: pdCaptionOutputFormat
+#: UI/fNiceWizard.dfm:1034
+#: UI/fNiceWizard.dfm:1376
+#: Settings/uOptions.pas:242
+msgid "Output Format"
+msgstr "出力形式"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1042
+msgid "Define the style of the generated documentation"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..CheckBox_AlphaSortMembers..Caption
+#. Programmer's name for it: psCaptionSortAlpha
+#: UI/fNiceWizard.dfm:1056
+#: Settings/uOptions.pas:247
+msgid "Alpha sort of members"
+msgstr "メンバーのアルファソートをする"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvStaticText9..Caption
+#: UI/fNiceWizard.dfm:1070
+msgid "Documentation language"
+msgstr "ドキュメント言語"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..Caption
+#. Programmer's name for it: pdCaptionVisibilitySet
+#: UI/fNiceWizard.dfm:1087
+#: Settings/uOptions.pas:244
+msgid "Member visibility filter"
+msgstr "メンバーの可視性フィルター"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Private..Caption
+#. Programmer's name for it: L_Private
+#: UI/fNiceWizard.dfm:1094
+#: Generator/Html/uDocGenHTML_Tools.pas:75
+msgid "Private"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Protected..Caption
+#. Programmer's name for it: L_Protected
+#: UI/fNiceWizard.dfm:1108
+#: Generator/Html/uDocGenHTML_Tools.pas:76
+msgid "Protected"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Public..Caption
+#. Programmer's name for it: L_Public
+#: UI/fNiceWizard.dfm:1122
+#: Generator/Html/uDocGenHTML_Tools.pas:77
+msgid "Public"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Published..Caption
+#. Programmer's name for it: L_Published
+#: UI/fNiceWizard.dfm:1136
+#: Generator/Html/uDocGenHTML_Tools.pas:78
+msgid "Published"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Automated..Caption
+#. Programmer's name for it: L_Automated
+#: UI/fNiceWizard.dfm:1150
+#: Generator/Html/uDocGenHTML_Tools.pas:79
+msgid "Automated"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..Caption
+#: UI/fNiceWizard.dfm:1165
+msgid "Output category filter"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Constants..Caption
+#. Programmer's name for it: L_Constants
+#: UI/fNiceWizard.dfm:1172
+#: Generator/Html/uDocGenHTML_Tools.pas:53
+msgid "Constants"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Types..Caption
+#. Programmer's name for it: L_Types
+#: UI/fNiceWizard.dfm:1186
+#: Generator/Html/uDocGenHTML_Tools.pas:51
+msgid "Types"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Variables..Caption
+#. Programmer's name for it: L_Variables
+#: UI/fNiceWizard.dfm:1200
+#: Generator/Html/uDocGenHTML_Tools.pas:55
+msgid "Variables"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Functions..Caption
+#. Programmer's name for it: L_Functions
+#: UI/fNiceWizard.dfm:1214
+#: Generator/Html/uDocGenHTML_Tools.pas:57
+msgid "Functions"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Classes..Caption
+#. Programmer's name for it: L_Classes
+#: UI/fNiceWizard.dfm:1228
+#: Generator/Html/uDocGenHTML_Tools.pas:49
+msgid "Classes"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Fields..Caption
+#. Programmer's name for it: L_Fields
+#: UI/fNiceWizard.dfm:1242
+#: Generator/Html/uDocGenHTML_Tools.pas:64
+msgid "Fields"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Methods..Caption
+#. Programmer's name for it: L_Methods
+#: UI/fNiceWizard.dfm:1256
+#: Generator/Html/uDocGenHTML_Tools.pas:66
+msgid "Methods"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Properties..Caption
+#. Programmer's name for it: L_Properties
+#: UI/fNiceWizard.dfm:1270
+#: Generator/Html/uDocGenHTML_Tools.pas:68
+msgid "Properties"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Events..Caption
+#. Programmer's name for it: L_Events
+#: UI/fNiceWizard.dfm:1284
+#: Generator/Html/uDocGenHTML_Tools.pas:70
+msgid "Events"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Records..Caption
+#: UI/fNiceWizard.dfm:1298
+msgid "Records"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Units..Caption
+#. Programmer's name for it: L_Units
+#: UI/fNiceWizard.dfm:1312
+#: Generator/Html/uDocGenHTML_Tools.pas:47
+msgid "Units"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..CheckBox_ViewDocumentationAfterBuild..Caption
+#: UI/fNiceWizard.dfm:1327
+msgid "View documentation after build"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvStaticText13..Caption
+#: UI/fNiceWizard.dfm:1341
+msgid "Output directory (Absolute or relative)"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvRadioGroup_OutputFormat....Items.Strings
+#: UI/fNiceWizard.dfm:1379
+msgid "None (no output)"
+msgstr "なし (出力しない)"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..CheckBox_DisplayHiddenItems..Caption
+#: UI/fNiceWizard.dfm:1390
+msgid "Display hidden items (not in interface section)"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1403
+msgid "HTML output"
+msgstr "HTML出力"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1411
+msgid "Configure HTML documentation"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvGroupBox_CSSConfiguration..Caption
+#: UI/fNiceWizard.dfm:1425
+msgid "CSS Configuration"
+msgstr "CSS設定"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvGroupBox_CSSConfiguration..rbCssCustom..Caption
+#: UI/fNiceWizard.dfm:1441
+msgid "Use custom CSS file"
+msgstr "独自CSSファイルを使用する"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvGroupBox_CSSConfiguration..rbCssInternal..Caption
+#: UI/fNiceWizard.dfm:1459
+msgid "Use internal CSS configuration"
+msgstr "標準CSS設定を使用する"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvCheckBox_HideEmptyBlock..Caption
+#: UI/fNiceWizard.dfm:1476
+msgid "Hide empty block"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvCheckBox_HideEmptyTAGSection..Caption
+#: UI/fNiceWizard.dfm:1490
+msgid "Hide empty TAG section"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..CheckBox_WarnWhenEmptyTag..Caption
+#: UI/fNiceWizard.dfm:1504
+msgid "Warn when a TAG is empty"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardCHMoutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1517
+msgid "CHM output"
+msgstr "CHM出力"
+
+#. NiceWizardForm..JvWizard1..JvWizardCHMoutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1525
+msgid "Configure CHM documentation"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardTEXToutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1539
+msgid "TEXT output"
+msgstr "テキスト出力"
+
+#. NiceWizardForm..JvWizard1..JvWizardTEXToutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1547
+msgid "Configure TEXT documentation"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardPDFOutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1561
+msgid "PDF output"
+msgstr "PDF出力"
+
+#. NiceWizardForm..JvWizard1..JvWizardPDFOutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1569
+msgid "Configure PDF documentation"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardHLPOutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1583
+msgid "HLP output"
+msgstr "HLP出力"
+
+#. NiceWizardForm..JvWizard1..JvWizardHLPOutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1591
+msgid "Configure HLP documentation"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardAdvanced..Header.Title.Text
+#: UI/fNiceWizard.dfm:1605
+msgid "Advanced"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardAdvanced..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1613
+msgid "Advanced options"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardAdvanced..JvLabel1....Caption
+#: UI/fNiceWizard.dfm:1629
+msgid "Symbols referenced in conditional compiler directives (one per line)"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFinish..Header.Title.Text
+#: UI/fNiceWizard.dfm:1652
+msgid "Finish"
+msgstr "終了"
+
+#. NiceWizardForm..JvWizard1..JvWizardFinish..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1660
+msgid "End of the wizard"
+msgstr "ウィザードの終了"
+
+#. NiceWizardForm..JvWizard1..JvWizardFinish..JvStaticText14..Caption
+#: UI/fNiceWizard.dfm:1674
+msgid "Select the 'Finish' button to end this wizard."
+msgstr "完了を押して、ウィザードを終了して下さい。"
+
+#. NiceWizardForm..DialogSelectFile..Filter
+#: UI/fNiceWizard.dfm:1709
+msgid "Delphi Files (*.pas; *.dpr)|*.pas;*.dpr"
+msgstr "Delphiファイル (*.pas; *.dpr)|*.pas;*.dpr"
+
+#. NiceWizardForm..DialogSelectFile..Title
+#: UI/fNiceWizard.dfm:1711
+msgid "Select a Delphi source file"
+msgstr "Delphiのソースファイルを選択して下さい。"
+
+#. NiceWizardForm..JvBrowseForFolderDialog..Title
+#: UI/fNiceWizard.dfm:1718
+msgid "Select a folder containing source files"
+msgstr ""
+
+#. QuickWizardForm..Caption
+#: UI/fQuickWizard.dfm:5
+msgid "Project Wizard"
+msgstr "プロジェクトウィザード"
+
+#. QuickWizardForm..ebRoot..EditLabel.Caption
+#: UI/fQuickWizard.dfm:61
+msgid "Enter the folder of your source files"
+msgstr "ソースファイルのフォルダを入力して下さい。"
+
+#. QuickWizardForm..ebOutput..EditLabel.Caption
+#: UI/fQuickWizard.dfm:74
+msgid "Enter the output directory"
+msgstr "出力先フォルダ"
+
+#. QuickWizardForm..leProjectName..EditLabel.Caption
+#: UI/fQuickWizard.dfm:87
+msgid "Enter the name of your project"
+msgstr "プロジェクト名を入力して下さい。"
+
+#. QuickWizardForm..EditProjectFile..EditLabel.Caption
+#: UI/fQuickWizard.dfm:120
+msgid "Enter the location of your project file (*.dpr)"
+msgstr "プロジェクトファイルの場所を入力して下さい。"
+
+#. QuickWizardForm..JvRadioButton1..Caption
+#: UI/fQuickWizard.dfm:131
+msgid "Select a Delphi Project file (*.dpr)"
+msgstr "Delphiプロジェクトファイルから選択する (*.dpr)"
+
+#. QuickWizardForm..JvRadioButton2..Caption
+#: UI/fQuickWizard.dfm:154
+msgid "Select a folder with source files (*.pas)"
+msgstr "ソースファイルのフォルダから選択する (*.pas)"
+
+#. QuickWizardForm..JvStaticText1..Caption
+#: UI/fQuickWizard.dfm:176
+msgid "Quick Wizard : Enter your project information"
+msgstr "簡易ウィザード : プロジェクトの情報を入力して下さい"
+
+#. QuickWizardForm..JvOpenDialog1..Filter
+#: UI/fQuickWizard.dfm:198
+msgid "Delphi project file (*.dpr)|*.dpr"
+msgstr "Delphi プロジェクトファイル (*.dpr)|*.dpr"
+
+#. Programmer's name for it: rsGeneratingUnit
+#: Generator/uDocGeneratorBase.pas:56
+msgid "Generating Unit : %s"
+msgstr "ユニットの生成 : %s"
+
+#. Programmer's name for it: rsBuildingCHMProjectFiles
+#: Generator/Chm/uDocGeneratorChm.pas:71
+msgid "Building CHM project files"
+msgstr "CHMプロジェクトファイルを構築中..."
+
+#. Programmer's name for it: rsCompilingCHMFile
+#: Generator/Chm/uDocGeneratorChm.pas:72
+msgid "Compiling CHM file"
+msgstr "CHMファイルをコンパイル中..."
+
+#. Programmer's name for it: rsWaitWhileBuildingCHM
+#: Generator/Chm/uDocGeneratorChm.pas:73
+msgid "Please, wait while building the CHM file"
+msgstr "CHMファイルを作成中です。暫くお待ち下さい。"
+
+#. TridenT comments2
+#. Programmer's name for it: L_UnderConstruction
+#: Generator/Html/uDocGenHTML_Tools.pas:39
+msgid "#UnderConstruction#"
+msgstr ""
+
+#. Programmer's name for it: L_Todo
+#: Generator/Html/uDocGenHTML_Tools.pas:41
+msgid "Todo"
+msgstr ""
+
+#. Programmer's name for it: L_Links
+#: Generator/Html/uDocGenHTML_Tools.pas:45
+msgid "Links"
+msgstr ""
+
+#. Programmer's name for it: L_Unit
+#: Generator/Html/uDocGenHTML_Tools.pas:46
+msgid "Unit"
+msgstr ""
+
+#. Programmer's name for it: L_Version
+#: Generator/Html/uDocGenHTML_Tools.pas:48
+msgid "Version"
+msgstr ""
+
+#. Programmer's name for it: L_Class
+#: Generator/Html/uDocGenHTML_Tools.pas:50
+msgid "Class"
+msgstr ""
+
+#. Programmer's name for it: L_Constant
+#: Generator/Html/uDocGenHTML_Tools.pas:54
+msgid "Constant"
+msgstr ""
+
+#. Programmer's name for it: L_Variable
+#: Generator/Html/uDocGenHTML_Tools.pas:56
+msgid "Variable"
+msgstr ""
+
+#. Programmer's name for it: L_Function
+#: Generator/Html/uDocGenHTML_Tools.pas:58
+msgid "Function"
+msgstr ""
+
+#. Programmer's name for it: L_ClassHierarchy
+#: Generator/Html/uDocGenHTML_Tools.pas:59
+msgid "Class Hierarchy"
+msgstr ""
+
+#. Programmer's name for it: L_ClassTree
+#: Generator/Html/uDocGenHTML_Tools.pas:60
+msgid "Class Tree"
+msgstr ""
+
+#. Programmer's name for it: L_RelatedUnit
+#: Generator/Html/uDocGenHTML_Tools.pas:61
+msgid "Related Unit"
+msgstr ""
+
+#. Programmer's name for it: L_Parent
+#: Generator/Html/uDocGenHTML_Tools.pas:62
+msgid "Parent"
+msgstr ""
+
+#. Programmer's name for it: L_Members
+#: Generator/Html/uDocGenHTML_Tools.pas:63
+msgid "Members"
+msgstr ""
+
+#. Programmer's name for it: L_Field
+#: Generator/Html/uDocGenHTML_Tools.pas:65
+msgid "Field"
+msgstr ""
+
+#. Programmer's name for it: L_Method
+#: Generator/Html/uDocGenHTML_Tools.pas:67
+msgid "Method"
+msgstr ""
+
+#. Programmer's name for it: L_Property
+#: Generator/Html/uDocGenHTML_Tools.pas:69
+msgid "Property"
+msgstr ""
+
+#. Programmer's name for it: L_Event
+#: Generator/Html/uDocGenHTML_Tools.pas:71
+msgid "Event"
+msgstr ""
+
+#. Programmer's name for it: L_Symbol
+#: Generator/Html/uDocGenHTML_Tools.pas:72
+msgid "Symbol"
+msgstr ""
+
+#. Programmer's name for it: L_Legend
+#: Generator/Html/uDocGenHTML_Tools.pas:73
+msgid "Legend"
+msgstr ""
+
+#. Programmer's name for it: L_Visibility
+#: Generator/Html/uDocGenHTML_Tools.pas:74
+msgid "Visibility"
+msgstr ""
+
+#. Programmer's name for it: L_Strict
+#: Generator/Html/uDocGenHTML_Tools.pas:80
+msgid "Strict"
+msgstr ""
+
+#. Programmer's name for it: L_Member
+#: Generator/Html/uDocGenHTML_Tools.pas:81
+msgid "Member"
+msgstr ""
+
+#. Programmer's name for it: L_RelatedClass
+#: Generator/Html/uDocGenHTML_Tools.pas:82
+msgid "Related Class"
+msgstr ""
+
+#. Programmer's name for it: L_SourceCode
+#: Generator/Html/uDocGenHTML_Tools.pas:83
+msgid "Source code"
+msgstr ""
+
+#. Programmer's name for it: L_Parameters
+#: Generator/Html/uDocGenHTML_Tools.pas:84
+msgid "Parameters"
+msgstr ""
+
+#. Programmer's name for it: L_Parameter
+#: Generator/Html/uDocGenHTML_Tools.pas:85
+msgid "Parameter"
+msgstr ""
+
+#. Programmer's name for it: L_Return
+#: Generator/Html/uDocGenHTML_Tools.pas:86
+msgid "Return"
+msgstr ""
+
+#. Programmer's name for it: L_Content
+#: Generator/Html/uDocGenHTML_Tools.pas:87
+msgid "Content"
+msgstr ""
+
+#. Programmer's name for it: L_Previous
+#: Generator/Html/uDocGenHTML_Tools.pas:89
+msgid "Previous"
+msgstr "前へ"
+
+#. Programmer's name for it: L_Next
+#: Generator/Html/uDocGenHTML_Tools.pas:90
+msgid "Next"
+msgstr "次へ"
+
+#. Programmer's name for it: L_Exception
+#: Generator/Html/uDocGenHTML_Tools.pas:91
+msgid "Exception"
+msgstr ""
+
+#. Programmer's name for it: L_AdditionalComment
+#: Generator/Html/uDocGenHTML_Tools.pas:92
+msgid "Additionnal Comments"
+msgstr ""
+
+#. Programmer's name for it: L_ReadAccess
+#: Generator/Html/uDocGenHTML_Tools.pas:93
+msgid "Read Access"
+msgstr ""
+
+#. Programmer's name for it: L_WriteAccess
+#: Generator/Html/uDocGenHTML_Tools.pas:94
+msgid "Write Access"
+msgstr ""
+
+#. Programmer's name for it: L_Exports
+#: Generator/Html/uDocGenHTML_Tools.pas:95
+msgid "Exports"
+msgstr ""
+
+#. Programmer's name for it: L_EmptyTAG
+#: Parse/uTAGComment.pas:137
+msgid "#No TAG found in source code#"
+msgstr "ソースコードにタグが見つかりませんでした"
+
+#. Programmer's name for it: L_ParsingFile
+#: Settings/uDocProject.pas:79
+msgid "Parsing file : %s"
+msgstr "解析ファイル : %s"
+
+#. Programmer's name for it: L_PurgingOutputDirectory
+#: Settings/uDocProject.pas:80
+msgid "Output Directory purged"
+msgstr "出力フォルダを空にしました"
+
+#. Programmer's name for it: L_NothingToPurge
+#: Settings/uDocProject.pas:81
+msgid "Nothing to purge"
+msgstr "空にする物がありません。"
+
+#. Programmer's name for it: L_ItemNotFound
+#: Settings/uDocProject.pas:82
+msgid "Included Item not found : %s"
+msgstr ""
+
+#. Programmer's name for it: L_NothingToParse
+#: Settings/uDocProject.pas:83
+msgid "Nothing to parse, list is empty"
+msgstr "空にする物がありません。 リストに登録されていません。"
+
+#. Programmer's name for it: L_IgnoringItem
+#: Settings/uDocProject.pas:84
+msgid "Ignoring item : %s"
+msgstr ""
+
+#. Caption  for Options
+#. Programmer's name for it: pdCaptionBoolsAsChecks
+#: Settings/uOptions.pas:228
+msgid "Bools as Checks"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionName
+#: Settings/uOptions.pas:229
+msgid "Project's Name"
+msgstr "プロジェクトの名前"
+
+#. Programmer's name for it: pdCaptionTitle
+#: Settings/uOptions.pas:230
+msgid "Project's Title"
+msgstr "プロジェクトのタイトル"
+
+#. Programmer's name for it: pdCaptionSummary
+#: Settings/uOptions.pas:231
+msgid "Project's Summary"
+msgstr "プロジェクトの概要"
+
+#. Programmer's name for it: pdCaptionDescription
+#: Settings/uOptions.pas:232
+msgid "Project's Description"
+msgstr "プロジェクトの詳細説明"
+
+#. Programmer's name for it: pdCaptionAuthor
+#: Settings/uOptions.pas:233
+msgid "Project's Author"
+msgstr "プロジェクトの作者"
+
+#. Programmer's name for it: pdCaptionHTMLLink
+#: Settings/uOptions.pas:234
+msgid "HTML Link"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionCopyright
+#: Settings/uOptions.pas:235
+msgid "Author's Copyright"
+msgstr "作者のコピーライト"
+
+#. pdCaptionRootDirectory = 'Root Directory';
+#. Programmer's name for it: pdCaptionRecurseDirectory
+#: Settings/uOptions.pas:237
+msgid "Recurse Directory"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionConditionalDefines
+#: Settings/uOptions.pas:238
+msgid "Conditional Defines"
+msgstr "条件定義"
+
+#. Programmer's name for it: pdCaptionCustomHeader
+#: Settings/uOptions.pas:239
+msgid "Custom Header"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionCustomFooter
+#: Settings/uOptions.pas:240
+msgid "Custom Footer"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionLanguage
+#: Settings/uOptions.pas:241
+msgid "Documentation Language"
+msgstr "ドキュメントの言語"
+
+#. Programmer's name for it: pdCaptionOutputFolder
+#: Settings/uOptions.pas:243
+msgid "Output Folder"
+msgstr "出力フォルダ"
+
+#. Programmer's name for it: pdCaptionTagCommentSet
+#: Settings/uOptions.pas:245
+msgid "Comment syntax recognition"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionLaunchBrowser
+#: Settings/uOptions.pas:246
+msgid "Launch Browser after Build?"
+msgstr "ビルド後に起動参照する"
+
+#. Programmer's name for it: psCaptionWarnEmptyTAG
+#: Settings/uOptions.pas:248
+msgid "Warn when TAG are empty"
+msgstr "タグが無い場合、警告する"
+
+#. Programmer's name for it: pdCaptionHideEmptyTAGSection
+#: Settings/uOptions.pas:249
+msgid "Hide empty TAG section from report"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionSkipFirstTAGLine
+#: Settings/uOptions.pas:250
+msgid "Skip first TAG line in comment block"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionSkipLastTAGLine
+#: Settings/uOptions.pas:251
+msgid "Skip last TAG line in comment block"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionParseImplementationSection
+#: Settings/uOptions.pas:252
+msgid "Parse Implementation Section"
+msgstr "Implementation部を解析する"
+
+#. Programmer's name for it: pdCaptionBracketStarJavaDocCharPrefix
+#: Settings/uOptions.pas:253
+msgid "BracketStart Prefix  (*"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionInLineJavaDocCharPrefix
+#: Settings/uOptions.pas:254
+msgid "Inline Prefix  //"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionHideEmptyOutputBlock
+#: Settings/uOptions.pas:256
+msgid "Hide empty block from report"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionOutputFilteringCategory
+#: Settings/uOptions.pas:257
+msgid "Output Filtering Category"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionFilesIncludeList
+#: Settings/uOptions.pas:258
+msgid "Included Files list"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionFilesExcludeList
+#: Settings/uOptions.pas:259
+msgid "Excluded Files list"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionAllowHtmlInDescription
+#: Settings/uOptions.pas:260
+msgid "Allow Html in Description"
+msgstr "説明内のHTMLを許可する"
+
+#. Programmer's name for it: pdCaptionPropertyCommentFromAssessors
+#: Settings/uOptions.pas:261
+msgid "Get (undocumented) method comments from assessors"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionDisplayHiddenItems
+#: Settings/uOptions.pas:262
+msgid "Display hidden items (defined in implementation only)"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionMethodCommentFromAncestor
+#: Settings/uOptions.pas:263
+msgid "Get overriden method comment from ancestor"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionCssConfiguration
+#: Settings/uOptions.pas:264
+msgid "Css Configuration"
+msgstr "CSS設定"
+
+#. Programmer's name for it: pdCaptionCssCustomFile
+#: Settings/uOptions.pas:265
+msgid "Custom CSS file"
+msgstr ""
+
+#. Caption for Custom Category
+#. Programmer's name for it: ccApplicationOptions
+#: Settings/uOptions.pas:268
+msgid "Application options"
+msgstr ""
+
+#. Programmer's name for it: ccInputOptions
+#: Settings/uOptions.pas:269
+msgid "Input options"
+msgstr "入力設定"
+
+#. Programmer's name for it: ccOutputOptions
+#: Settings/uOptions.pas:270
+msgid "Output options"
+msgstr "出力設定"
+
+#. Programmer's name for it: ccJavaDocSupportOptions
+#: Settings/uOptions.pas:271
+msgid "JavaDoc support options"
+msgstr ""
+
+#. Programmer's name for it: ccJavaDocPrefixOptions
+#: Settings/uOptions.pas:272
+msgid "JavaDoc Prefix (only one character)"
+msgstr ""
+
+#. Programmer's name for it: ccFilesList
+#: Settings/uOptions.pas:273
+msgid "Files and folders list"
+msgstr "ファイルとフォルダリスト"
+
+#. Programmer's name for it: ccCommentRules
+#: Settings/uOptions.pas:274
+msgid "Comment Rules"
+msgstr "コメントルール"
+
+#. Programmer's name for it: oeTextUpgraded
+#: Settings/uOptions.pas:277
+msgid "Project upgraded"
+msgstr ""
+
+#. Programmer's name for it: oeTextTechLevelNOK
+#: Settings/uOptions.pas:281
+msgid "The file is not compatible with this application revision"
+msgstr "このファイルはアプリケーションのリビジョンと互換性がありません。"
+
+#. Programmer's name for it: L_InsertProjectTitle
+#: Settings/uOptions.pas:283
+msgid "Insert your project's title here"
+msgstr "プロジェクトタイトルをここに入力して下さい。"
+
+#. Programmer's name for it: L_InsertAuthorName
+#: Settings/uOptions.pas:284
+msgid "Insert author's name here"
+msgstr "作者名をここに入力して下さい。"
+
+#. Programmer's name for it: L_EnterProjectSummary
+#: Settings/uOptions.pas:286
+msgid "Enter your project's summary in a single line"
+msgstr "プロジェクトの概要を1行でここに入力して下さい。"
+
+#. Programmer's name for it: L_EnterProjectDescription
+#: Settings/uOptions.pas:287
+msgid "Enter your project's multilines description"
+msgstr "プロジェクトの説明を入力して下さい(複数行可)"
+
+#. Programmer's name for it: RS_PROJECT_CHANGES_CONFIRM
+#: UI/fMainForm.pas:140
+msgid ""
+"The project [%s] has changed.\n"
+"Do you want to save these modifications ?"
+msgstr ""
+"この[%s]プロジェクトは変更されています。\n"
+"変更内容を保存しますか?"
+
+#: UI/fMainForm.pas:277
+msgid " (ReadOnly)"
+msgstr " (読み込みのみ)"
+
+#. Programmer's name for it: L_CancelThisWizard
+#: UI/fNiceWizard.pas:147
+msgid "Are you sure you want to cancel this wizard ?"
+msgstr "本当にウィザード作成を終了して良いですか?"
+
+#. Programmer's name for it: wpEmptyDirectory
+#: UI/fQuickWizard.pas:79
+msgid "Root directory and Output directory must be filled !"
+msgstr ""
+
+#. User Messages
+#. Programmer's name for it: L_COnfirmDeleteHTMfiles
+#: UI/uMessages.pas:18
+msgid ""
+"This will delete all generated files in the folder %s\n"
+"Do you want to continue this action ?"
+msgstr "%s にある生成済みファイルは削除されますが、処理を継続しても良いですか?"
+
+#. Programmer's name for it: L_WizardSuccess
+#: UI/uMessages.pas:19
+msgid "Wizard successfully create the project"
+msgstr ""
+
+#. Programmer's name for it: L_WizardCanceled
+#: UI/uMessages.pas:20
+msgid "Wizard operation Canceled"
+msgstr ""
+
+#. Programmer's name for it: L_CheckedSuccess
+#: UI/uMessages.pas:21
+msgid "Successfully Checked the project, BUILD function is now enable"
+msgstr ""
+
+#. Programmer's name for it: L_CheckingAborted
+#: UI/uMessages.pas:22
+msgid "Project checking aborted"
+msgstr "プロジェクトのチェック終了"
+
+#. Programmer's name for it: L_BuildSuccess
+#: UI/uMessages.pas:23
+msgid "Successfully build the Project"
+msgstr "プロジェクトの構築完了"
+
+#. Programmer's name for it: L_BuildDone
+#: UI/uMessages.pas:24
+msgid "Build done"
+msgstr "構築終了"
+
+#. Programmer's name for it: L_BuildError
+#: UI/uMessages.pas:25
+msgid "Error while building the Project"
+msgstr "プロジェクトの構成中にエラーが発生しました。"
+
+#. Programmer's name for it: L_LaunchBrowser
+#: UI/uMessages.pas:26
+msgid "Launching browser to display result"
+msgstr "結果を表示します。"
+
+#. Programmer's name for it: L_ConfigurationChanged
+#: UI/uMessages.pas:27
+msgid "Project configuration changed. You need to re-CHECK project"
+msgstr ""
+
+#. Programmer's name for it: L_ProjectClosed
+#: UI/uMessages.pas:28
+msgid "Project closed. To start a new project, try the NEW WIZARD PROJECT"
+msgstr ""
+
+#. Programmer's name for it: L_ProjectSavingError
+#: UI/uMessages.pas:29
+msgid "Error while saving Project"
+msgstr "プロジェクトを保存中にエラーが発生しました。"
+
+#. Programmer's name for it: L_ProjectLoadingError
+#: UI/uMessages.pas:30
+msgid "Error while loading Project"
+msgstr "プロジェクトを読み込み中にエラーが発生しました。"
+
+#. Programmer's name for it: MSG_ASSERTION_ERROR
+#: UI/uMessages.pas:35
+msgid ""
+"Error while parsing a file.\n"
+"Please, report the debug window and eventually the \n"
+"problematic file to the technical support.\n"
+"See website for the details and email adress.\n"
+"http://dephicodetodoc.sourceforge.net/\n"
+"Thanks for the report."
+msgstr ""
+"ファイルを解析中にエラーが発生しました。\n"
+"デバッグウィンドウと問題のファイルを技術サポートに報告して下さい。\n"
+"詳細とEメールアドレスは以下のHPを参照して下さい。\n"
+"http://dephicodetodoc.sourceforge.net/"
+
+#. Programmer's name for it: rsIllegalCall
+#: UI/uMessages.pas:36
+msgid "Illegal call!"
+msgstr ""
+
+#. Programmer's name for it: rsUsingConfigFile
+#: UI/uMessages.pas:37
+msgid "Using config file : %s"
+msgstr ""
+
+#. Programmer's name for it: rsApplicationUsage
+#: UI/uMessages.pas:38
+msgid "Usage : DCTD_cmd.exe ConfigFile.xml"
+msgstr ""
+
+#. Programmer's name for it: rsProjectWasUpgraded
+#: UI/uMessages.pas:39
+msgid "Project file was upgraded from a previous version"
+msgstr ""
+

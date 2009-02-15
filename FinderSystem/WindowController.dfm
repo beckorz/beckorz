@@ -1,10 +1,11 @@
 object frmWindowController: TfrmWindowController
   Left = 681
   Top = 156
-  Width = 457
-  Height = 278
   BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = #12454#12451#12531#12489#12454#32113#21512#25805#20316
+  ClientHeight = 244
+  ClientWidth = 449
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

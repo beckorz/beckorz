@@ -275,6 +275,8 @@ begin
   mnuViewThemeTypeWindows.Checked := True;
   SpChangeThemeType(Self, thtWindows);
 
+  SetWindowToCenterOfWorkArea(Self.Handle);
+
 end;
 
 {*------------------------------------------------------------------------------
@@ -408,10 +410,6 @@ end;
 procedure TfrmMain.btnAppyClick(Sender: TObject);
 begin
 
-  if IsDebugging then begin
-    ShowMessage('デバッグ中');
-  end;
-
   // 保存
   if IsWindow(FWindowInfo.Handle) then begin
 
@@ -508,6 +506,8 @@ end;
 procedure TfrmMain.ReadWindowInformation(hWnd: HWND);
 begin
 
+  if not IsWindow(hWnd) then Exit; 
+
   // ハンドル
   FWindowInfo.Load(hWnd);
 
@@ -573,12 +573,18 @@ begin
   if Sender = mnuViewThemeTypeNon then begin
     mnuViewThemeTypeNon.Checked := True;
     SpChangeThemeType(Self, thtNone);
+    if Assigned(frmWindowController) then
+      SpChangeThemeType(frmWindowController, thtNone);
   end else if Sender = mnuViewThemeTypeWindows then begin
     mnuViewThemeTypeWindows.Checked := True;
     SpChangeThemeType(Self, thtWindows);
+    if Assigned(frmWindowController) then
+      SpChangeThemeType(frmWindowController, thtWindows);
   end else if Sender = mnuViewThemeTypeTBX then begin
     mnuViewThemeTypeTBX.Checked := True;
     SpChangeThemeType(Self, thtTBX);
+    if Assigned(frmWindowController) then
+      SpChangeThemeType(frmWindowController, thtTBX);
   end;
 
 end;
@@ -595,7 +601,6 @@ begin
   if IsNumeric(edtHandle.Text) then
     SendMessage(StrToInt(edtHandle.Text), EM_SETREADONLY, 1, 0);
 end;
-
 {*------------------------------------------------------------------------------
   解除
   @param Sender   ParameterDescription
@@ -624,7 +629,6 @@ begin
     InvalidateRect(Wnd, nil, True);
   end;
 end;
-
 {*------------------------------------------------------------------------------
   解除
   @param Sender   ParameterDescription
@@ -677,18 +681,8 @@ begin
 //
   SpChangeThemeType(iWinControl, iThemeType, iRecursive);
 
-//  mnuViewThemeTypeNon.Checked := False;
-//  mnuViewThemeTypeWindows.Checked := False;
-//  mnuViewThemeTypeTBX.Checked := False;
-//  if Sender = mnuViewThemeTypeNon then begin
-//    mnuViewThemeTypeNon.Checked := True;
-//  end else if Sender = mnuViewThemeTypeWindows then begin
-//    mnuViewThemeTypeWindows.Checked := True;
-//    SpChangeThemeType(Self, thtWindows);
-//  end else if Sender = mnuViewThemeTypeTBX then begin
-//    mnuViewThemeTypeTBX.Checked := True;
-//    SpChangeThemeType(Self, thtTBX);
-//  end;
+  if Assigned(frmWindowController) then
+    SpChangeThemeType(frmWindowController, iThemeType, iRecursive);
 
 end;
 
