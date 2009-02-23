@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* 既存スタイルリセット */
+@import "reset.css";
+
+.me {
+	font-weight: bold;
+}

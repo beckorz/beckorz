@@ -35,6 +35,7 @@ set cb=unnamed
 
 " コマンドラインに使われるスクリーン上の行数(cmdheight)
 "set ch=2
+set ch=1
 
 " Vimの通常使う文字エンコーディング(encoding)
 "set enc=utf-8
@@ -156,7 +157,7 @@ set columns=145
 " ウインドウの高さ
 set lines=71
 " コマンドラインの高さ(GUI使用時)
-set cmdheight=2
+" set cmdheight=2
 " 画面を黒地に白にする (次行の先頭の " を削除すれば有効になる)
 "colorscheme evening " (GUI使用時)
 " ウインドウ位置
