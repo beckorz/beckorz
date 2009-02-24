@@ -19,19 +19,28 @@ Reloader.prototype = {
 		this.formId = '';
 		this.statusId = '';
 		this.logId = '';
+		this.manager = null;
 	}
 
 	/** Ajaxログ取得成功時処理 */
 	, onSuccess: function (obj) {
 		$(this.statusId).innerHTML = '';
+		var trip = '@';
+		if (this.manager) {
+			var trip = this.manager.get('trip');
+			if (trip == null) trip = '@';
+		}
 		this.xsl.load(this.xslPath);
 		if (document.all) {
 			// for IE
+			var paramNode = this.xsl.getElementsByTagName('xsl:param');
+			paramNode[0].text = trip;
 			$(this.logId).innerHTML = obj.responseXML.transformNode(this.xsl);
 		} else {
 			// for Fx
 			var xsltp = new XSLTProcessor();
 			xsltp.importStylesheet(this.xsl);
+			xsltp.setParameter(null, 'trip', trip);
 			var content = xsltp.transformToFragment(obj.responseXML, window.document);
 			$(this.logId).innerHTML = '';
 			$(this.logId).appendChild(content);
@@ -49,7 +58,6 @@ Reloader.prototype = {
 		new Ajax.Request(this.xmlPath, {
 			  onSuccess: this.onSuccess.bind(this)
 			, onFailure: this.onFailure.bind(this)
-			, method: 'get'
 		});
 	}
 

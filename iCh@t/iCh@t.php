@@ -5,11 +5,9 @@
 require_once('defines.php');
 require_once('Log.php');
 require_once('LogDAO.php');
-require_once('Session.php');
 require_once('MakeTrip.php');
 
 // リクエスト処理
-$ses =& new Session();
 $req = null;
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	$req =& $_GET;
@@ -29,10 +27,7 @@ if ($msg == '') {
 	$trip = makeTrip($req['tripKey']);
 	$log = new Log($user, $trip, $msg);
 	$logs = $dao->addLog($log);
-	$ses->set(SESSION_ID_KEY, session_id());
-	$ses->set(SESSION_HN_KEY, $user);
-	$ses->set(SESSION_TRIP_KEY, $trip);
-	$ses->set(SESSION_IP_KEY, $_SERVER['REMOTE_ADDR']);
+	setcookie('trip', $trip, time() + 60*60*24*30);
 }
 
 if (!file_exists(LOG_SAVE_PATH)) {
