@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 既存スタイルリセット */
+@import "default.css";
+
+body {
+	background: #036 url('midnight/town.gif') repeat-x fixed bottom;
+	color: white;
+}
+
+div.other {
+	text-align: right;
+}
+
+span.me {
+	font-style: italic;
+	color: yellow;
+}

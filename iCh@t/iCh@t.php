@@ -62,6 +62,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>' . "\n";
 		echo '
 		<item hn="' . $user . '" trip="' . $trip . '" date="' . $formatDate . '">
 			<title>' . $msg . '</title>
+			<link>http://star.uiui.net/iCh@t/</link>
 			<category>' . $category . '</category>
 			<pubDate>' . $date . '</pubDate>
 			<guid isPermaLink="false">' . $md5 . '</guid>

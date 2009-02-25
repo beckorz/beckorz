@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* 既存スタイルリセット */
+@import "default.css";
+
+body {
+	margin: 5px 5px 5px 5px;
+	background: #e1e2e6;
+	font-family: lucida grande;
+}
+
+.spacer {
+	width: 100%;
+	height: 8px;
+	border: 0px;
+	background: #e1e2e6;
+}
+
+.send {
+	background: #ccee82;
+}
+
+.sendleft {
+	width: 19px;
+	background: #ecedec url(balloon/sendleft.png) no-repeat bottom;
+	text-align: right;
+	vertical-align: top;
+}
+
+.sendtext {
+	background: #ccee82;
+}
+
+.sendtexttop {
+	width: 100%;
+	height: 5px;
+	border: 0px;
+	background: #ecedec url(balloon/sendtexttop.png);
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.sendtextbot {
+	width: 100%;
+	height: 7px;
+	border: 0px;
+	background: #ecedec url(balloon/sendtextbot.png);
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.sendright {
+	width: 14px;
+	background: #ecedec url(balloon/sendright.png) no-repeat bottom;
+	vertical-align: top;
+}
+
+.receive {
+	background: #87c0f7;
+}
+
+.receiveleft {
+	width: 13px;
+	background: #87c0f7 url(balloon/receiveleft.png) no-repeat bottom;
+	text-align: right;
+	vertical-align: top;
+}
+
+.receivetext {
+	background: #87c0f7;
+}
+
+.receivetexttop {
+	width: 100%;
+	height: 5px;
+	border: 0px;
+	background: #87c0f7 url(balloon/receivetexttop.png);
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.receivetextbot {
+	width: 100%;
+	height: 7px;
+	border: 0px;
+	background: #87c0f7 url(balloon/receivetextbot.png);
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.receiveright {
+	width: 14px;
+	background: #87c0f7 url(balloon/receiveright.png) no-repeat bottom;
+	vertical-align: top;
+}

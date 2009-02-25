@@ -6,21 +6,22 @@
 <meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <title>iCh@t</title>
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="iCh@t.php">
-<link rel="stylesheet" href="res/css/default.css"/>
+<link rel="stylesheet" id="css"/>
 <script type="text/javascript" src="res/scripts/prototype.js"></script>
 <script type="text/javascript" src="res/scripts/CookieManager.js"></script>
 <script type="text/javascript" src="res/scripts/Reloader.js"></script>
 <script type="text/javascript" src="res/scripts/iCh@t.js"></script>
 </head>
 
-<body onload="reloader.reload()">
+<body onload="initSkinList()">
 <div id="log"></div>
 <form name="mainForm" id="mainForm">
 	HN：<input type="text" name="hn" id="hn" size="10" maxlength="30" value="名無したん" onfocus="this.select()"/>
 	トリップ生成キー：<input type="password" name="tripKey" id="tripKey" size="10" maxlength="8" onfocus="this.select()"/>
 	<input type="button" value="発言" onclick="reloader.submit()"/>
 	<span id="status"></span><br/>
-	<textarea name="msg" id="msg" cols="60" rows="4" onfocus="this.select()"></textarea>
+	<textarea name="msg" id="msg" cols="60" rows="4" onfocus="this.select()"></textarea><br/>
+	スキン：<select name="skinList" id="skinList" onchange="onChangeSkinList(this, selectedIndex)"></select>
 </form>
 </body>
 

@@ -15,9 +15,7 @@
 <xsl:template match="item">
 	<xsl:choose>
 		<xsl:when test="@trip=$trip">
-			<span class="me">
-			<xsl:value-of select="@hn"/>◆<xsl:value-of select="@trip"/>
-			</span>
+			<span class="me"><xsl:value-of select="@hn"/>◆<xsl:value-of select="@trip"/></span>
 			　<xsl:value-of select="@date"/>：<br/>
 			<xsl:call-template name="nl2br">
 				<xsl:with-param name="str" select="title"/>
@@ -25,11 +23,13 @@
 			<hr/>
 		</xsl:when>
 		<xsl:otherwise>
-			<xsl:value-of select="@hn"/><xsl:if test="@trip!=''">◆<xsl:value-of select="@trip"/></xsl:if>
-			　<xsl:value-of select="@date"/>：<br/>
-			<xsl:call-template name="nl2br">
-				<xsl:with-param name="str" select="title"/>
-			</xsl:call-template>
+			<div class="other">
+				<xsl:value-of select="@hn"/><xsl:if test="@trip!=''">◆<xsl:value-of select="@trip"/></xsl:if>
+				　<xsl:value-of select="@date"/>：<br/>
+				<xsl:call-template name="nl2br">
+					<xsl:with-param name="str" select="title"/>
+				</xsl:call-template>
+			</div>
 			<hr/>
 		</xsl:otherwise>
 	</xsl:choose>

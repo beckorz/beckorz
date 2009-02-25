@@ -1,7 +1,6 @@
 @charset "utf-8";
-/* 既存スタイルリセット */
-@import "reset.css";
 
-.me {
+span.me {
 	font-weight: bold;
+	color: blue;
 }
