@@ -7,6 +7,13 @@ body {
 	color: white;
 }
 
+div#log {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: transparent url('midnight/moon.png') no-repeat fixed 95% 15px;
+}
+
 div.other {
 	text-align: right;
 }

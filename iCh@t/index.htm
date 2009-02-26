@@ -13,11 +13,12 @@
 <script type="text/javascript" src="res/scripts/iCh@t.js"></script>
 </head>
 
-<body onload="initSkinList()">
+<body onload="init()">
 <div id="log"></div>
 <form name="mainForm" id="mainForm">
 	HN：<input type="text" name="hn" id="hn" size="10" maxlength="30" value="名無したん" onfocus="this.select()"/>
 	トリップ生成キー：<input type="password" name="tripKey" id="tripKey" size="10" maxlength="8" onfocus="this.select()"/>
+	<label for="saveInfo"><input type="checkbox" name="saveInfo" id="saveInfo" value="1"/>クッキーに記憶する</label>
 	<input type="button" value="発言" onclick="reloader.submit()"/>
 	<span id="status"></span><br/>
 	<textarea name="msg" id="msg" cols="60" rows="4" onfocus="this.select()"></textarea><br/>

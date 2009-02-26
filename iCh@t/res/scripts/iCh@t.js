@@ -44,8 +44,15 @@ reloader.statusId = 'status';
 reloader.logId = 'log';
 reloader.manager = manager;
 
-/** スキン切替コンボボックス初期化 */
-function initSkinList() {
+/** 各種初期化 */
+function init() {
+	// クッキーからHN＆トリップ生成キーを取得してセット
+	var hn = manager.get('hn');
+	if (hn != null) $('hn').value = hn;
+	var tripKey = manager.get('tripKey');
+	if (tripKey != null) $('tripKey').value = tripKey;
+
+	// スキン切替コンボボックス初期化
 	var cboSkinList = document.getElementById('skinList');
 	var i = 0;
 	for (var key in skinHash) {

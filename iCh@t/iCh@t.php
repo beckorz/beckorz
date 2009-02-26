@@ -24,10 +24,16 @@ if ($msg == '') {
 	if ($user == '') {
 		$user = HN_DEFAULT;
 	}
-	$trip = makeTrip($req['tripKey']);
+	$tripKey = $req['tripKey'];
+	$trip = makeTrip($tripKey);
 	$log = new Log($user, $trip, $msg);
 	$logs = $dao->addLog($log);
-	setcookie('trip', $trip, time() + 60*60*24*30);
+	if ($req['saveInfo'] == '1') {
+		$expires = time() + 60*60*24*30;
+		setcookie('hn', $user, $expires);
+		setcookie('tripKey', $tripKey, $expires);
+	}
+	setcookie('trip', $trip, $expires);
 }
 
 if (!file_exists(LOG_SAVE_PATH)) {
@@ -43,7 +49,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>' . "\n";
 <rss version="2.0">
 	<channel>
 		<title>iCh@t Log</title>
-		<link>http://star.uiui.net/iCh@t/</link>
+		<link><?php echo SITE_URL ?></link>
 		<description>iCh@t Log</description>
 		<pubDate><?php echo $pubDate ?></pubDate>
 <?php
@@ -62,7 +68,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>' . "\n";
 		echo '
 		<item hn="' . $user . '" trip="' . $trip . '" date="' . $formatDate . '">
 			<title>' . $msg . '</title>
-			<link>http://star.uiui.net/iCh@t/</link>
+			<link>' . SITE_URL . '</link>
 			<category>' . $category . '</category>
 			<pubDate>' . $date . '</pubDate>
 			<guid isPermaLink="false">' . $md5 . '</guid>
