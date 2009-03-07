@@ -23,11 +23,12 @@ uses
   procedure SetWindowToCenterOfWorkArea(Handle: HWND);
 
 type
-  { TWindowInfo }
+
+  /// TWindowInfo (ウィンドウ情報管理クラス)
   TWindowInfo = class(TObject)
   private
     { Private 宣言 : あらゆるアクセスからの保護 }
-    FParentHandle: HWND;  // 親ウィンドウハンドル
+    FParentHandle: HWND;  /// 親ウィンドウハンドル
 		FHandle: HWND;		// ウィンドウハンドル
 		FText: WideString;		// ウィンドウテキスト
 		FClassName: WideString;		// クラス名
@@ -105,6 +106,37 @@ type
 		property Rect: TRect			read GetRect write SetRect;		// 矩形
 		property ClientRect: TRect			read GetClientRect write SetClientRect;		// 矩形
 		property hInstance: Integer			read GethInstance write SethInstance;		//
+
+  published
+    { Published 宣言 : すべてのアクセスを許可(オブジェクトインスペクタに表示されます) }
+
+  end;
+
+  /// DumpSeek
+  TDumpSeek = class(TObject)
+  private
+    { Private 宣言 : あらゆるアクセスからの保護 }
+
+    _dx : Integer;
+    _dy : Integer;
+    dx  : Integer;
+    dy  : Integer;
+    hChildFound : HWND; // 見つかった
+
+    procedure DumpIntoParentWindow(Handle: HWND; pt: TPoint);
+    procedure DumpChildWindowLocal(Handle: HWND; pt: TPoint);
+    procedure DumpIntoChildWindow(Handle: HWND; pt: TPoint);
+    procedure DumpParentWindowLocal(Handle: HWND; pt: TPoint);
+
+  protected
+    { Protected 宣言 : 下位クラスのアクセスのみ許可 }
+
+  public
+    { Public 宣言 : すべてのアクセスを許可(オブジェクトインスペクタには表示されません) }
+    constructor Create;   // コンストラクタ
+    destructor Destroy; override;   // デストラクタ
+
+    function SeekDumpWindow(Handle: HWND; pt: TPoint): HWND;
 
   published
     { Published 宣言 : すべてのアクセスを許可(オブジェクトインスペクタに表示されます) }
@@ -668,6 +700,151 @@ end;
 procedure TWindowInfo.SethInstance(const Val: Integer);
 begin
 	FhInstance := Val;
+end;
+
+{ TDumpSeek }
+
+constructor TDumpSeek.Create;
+begin
+
+end;
+
+destructor TDumpSeek.Destroy;
+begin
+
+  inherited;
+end;
+
+{*------------------------------------------------------------------------------
+                                                                                
+  @param Handle   ParameterDescription
+  @param pt   ParameterDescription
+  @return ResultDescription  
+------------------------------------------------------------------------------*}
+procedure TDumpSeek.DumpChildWindowLocal(Handle: HWND; pt: TPoint);
+var
+  hChild: HWND;
+  wndRect: TRECT;
+begin
+  // check if there is at least one child
+  hChild := GetWindow(Handle, GW_CHILD);
+  GetWindowRect(hChild, wndRect);
+  if (IsWindow(hChild)) then begin
+    // 子ウィンドウがあるまで
+    while (IsWindow(hChild)) do begin
+      GetWindowRect(hChild, wndRect);
+      if((wndRect.Left < pt.X) and (pt.X < wndRect.Right) and
+         (wndRect.Top  < pt.Y) and (pt.Y < wndRect.Bottom)) then begin
+        DumpIntoChildWindow(hChild, pt);
+      end;
+      hChild := GetWindow(hChild, GW_HWNDNEXT); // 次の子ウィンドウ
+      if (GetParent(hChild) = 0) then begin
+        Exit;
+      end;
+    end;
+  end;
+
+end;
+
+{*------------------------------------------------------------------------------
+
+  @param Handle   ParameterDescription
+  @param pt   ParameterDescription
+  @return ResultDescription  
+------------------------------------------------------------------------------*}
+procedure TDumpSeek.DumpIntoChildWindow(Handle: HWND; pt: TPoint);
+var
+	wndRect: TRECT;
+begin
+	if (not IsWindow(Handle)) then Exit;
+
+	GetWindowRect(Handle, wndRect);
+	if ((wndRect.Left < pt.x) and (pt.X < wndRect.Right) and
+	    (wndRect.Top  < pt.y) and (pt.Y < wndRect.Bottom)) then begin
+		if ((IsWindow(Handle)) and (Handle <> 0)) then begin
+			dx := wndRect.Right  - wndRect.Left;
+			dy := wndRect.Bottom - wndRect.Top;
+			if ((_dx > dx) and (_dy > dy)) then begin
+				hChildFound := Handle;
+				_dx := dx;
+				_dy := dy;
+      end;
+			DumpChildWindowLocal(Handle, pt);
+		end;
+	end;
+
+end;
+
+{*------------------------------------------------------------------------------
+
+  @param Handle   ParameterDescription
+  @param pt   ParameterDescription
+  @return ResultDescription  
+------------------------------------------------------------------------------*}
+procedure TDumpSeek.DumpIntoParentWindow(Handle: HWND; pt: TPoint);
+var
+  wndRect: TRECT;
+begin
+  if (not IsWindow(Handle)) then Exit;
+  GetWindowRect(Handle, wndRect);
+  if ((wndRect.Left < pt.X) and (pt.X < wndRect.Right) and
+     (wndRect.Top   < pt.Y) and (pt.Y < wndRect.Bottom)) then begin
+    if (IsWindow(Handle) and (Handle <> 0)) then begin
+      dx := wndRect.Right - wndRect.Left;
+      dy := wndRect.Bottom - wndRect.Top;
+      if (( _dx > dx) and (_dy > dy)) then begin
+        hChildFound := Handle;
+        _dx := dx;
+        _dy := dy;
+      end;
+      DumpChildWindowLocal(Handle, pt);
+    end;
+  end;
+
+end;
+
+{*------------------------------------------------------------------------------
+
+  @param Handle   ParameterDescription
+  @param pt   ParameterDescription
+  @return ResultDescription
+------------------------------------------------------------------------------*}
+procedure TDumpSeek.DumpParentWindowLocal(Handle: HWND; pt: TPoint);
+var
+	hParent: HWND;
+begin
+	// retrieve its parent
+	hParent := GetParent(Handle);
+	// check if it and its parent is a window dialog frame
+	if(((GetWindowLong(Handle, GWL_STYLE) and WS_DLGFRAME) = WS_DLGFRAME) and
+	   ((GetWindowLong(hParent, GWL_STYLE) and WS_DLGFRAME) = WS_DLGFRAME)) then begin
+		Exit;
+	end;
+	if ((IsWindow(hParent)) and (hParent <> 0)) then begin
+		DumpChildWindowLocal(hParent, pt);
+		DumpParentWindowLocal(hParent, pt);
+	end;
+
+end;
+
+{*------------------------------------------------------------------------------
+  ウィンドウ検索
+  @param Handle   検索開始するウィンドウハンドル
+  @param pt   検索する位置
+  @return 見つかった子ウィンドウハンドル
+------------------------------------------------------------------------------*}
+function TDumpSeek.SeekDumpWindow(Handle: HWND; pt: TPoint): HWND;
+begin
+  hChildFound := 0;
+
+  _dx := 99999;
+  _dy := 99999;
+
+  DumpChildWindowLocal(Handle, pt);   // 子ウィンドウ検索
+  DumpParentWindowLocal(Handle, pt);  // 親ウィンドウ検索
+
+  Result := hChildFound;
+
 end;
 
 end.

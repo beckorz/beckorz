@@ -10,12 +10,16 @@ uses
   HeapChecker,
   Forms,
   Main in 'Main.pas' {frmMain},
+  WindowController in 'WindowController.pas' {frmWindowController},
   Finder in 'Finder.pas',
   Window in 'Window.pas',
   CommonUtil in 'CommonUtil.pas',
   WindowPlacement in 'WindowPlacement.pas',
-  WindowController in 'WindowController.pas' {frmWindowController},
-  AppWinFix in 'AppWinFix.pas';
+  AppWinFix in 'AppWinFix.pas',
+  OleAcc in 'OleAcc.pas',
+  PathUtils in 'PathUtils.pas',
+  IniFileUtils in 'IniFileUtils.pas',
+  TextBoxUtils in 'TextBoxUtils.pas';
 
 {$R *.res}
 {$R cur.res}  // ÉJÅ[É\Éã

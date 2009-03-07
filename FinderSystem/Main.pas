@@ -11,9 +11,9 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, Buttons, ExtCtrls, ImgList, AppWinFix,
+  Dialogs, StdCtrls, Buttons, ExtCtrls, ImgList, Shdocvw_tlb, MSHTML,
   // MyCommon
-  Window, CommonUtil, WindowPlacement
+  Window, CommonUtil, WindowPlacement, AppWinFix, OleAcc
   // TNT
   , TntStdCtrls
   // Toolbar 2000
@@ -132,6 +132,10 @@ type
     imlTool: TImageList;
     Image1: TImage;
     chkUnicode: TSpTBXCheckBox;
+    SpTBXSeparatorItem11: TSpTBXSeparatorItem;
+    mnuViewFindType: TSpTBXSubmenuItem;
+    mnuViewFindTypeStandard: TSpTBXItem;
+    mnuViewFindTypeDetail: TSpTBXItem;
     procedure mnuToolWindowOperateClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure pnlFinderMouseDown(Sender: TObject; Button: TMouseButton;
@@ -150,6 +154,7 @@ type
     procedure tbrRemoveTextBoxReadOnlyClick(Sender: TObject);
     procedure tbrSetPasswordMaskClick(Sender: TObject);
     procedure tbrRemovePasswordMaskClick(Sender: TObject);
+    procedure mnuViewFindTypeSelect(Sender: TObject);
   private
     { Private 宣言 }
 
@@ -170,6 +175,9 @@ type
     FWindowInfo: TWindowInfo;
 
   end;
+
+  const
+    CLASS_NAME_IE : String = 'Internet Explorer_Server';  /// Browser IE Trident クラス名 
 
 var
   frmMain: TfrmMain;
@@ -273,6 +281,7 @@ begin
   TBXSetTheme(Copy(buff, 0, StrLen(@buff)));
 
   mnuViewThemeTypeWindows.Checked := True;
+  mnuViewFindTypeStandard.Checked := True;
   SpChangeThemeType(Self, thtWindows);
 
   SetWindowToCenterOfWorkArea(Self.Handle);
@@ -365,6 +374,10 @@ var
   tmpWnd: HWnd;
   tmpHdc: HDC;
   color : TColorRef;
+  hWindowUnderTheMouse: HWND;
+  DumpSeek: TDumpSeek;        // 子ウィンドウ検索クラス
+  hChildFound : HWND;
+
 begin
 
   if not Finding then exit; //探索（マウスキャプチャ）中でなければ終わし
@@ -374,28 +387,51 @@ begin
   // 位置
   edtMousePos.Text := '(' + IntToStr(PT.X) + ',' + IntToStr(PT.Y) + ')';
 
-  Wnd:=WindowFromPoint(PT); //カーソル位置からハンドルを取得
+  Wnd := WindowFromPoint(PT); //カーソル位置からハンドルを取得
+  hWindowUnderTheMouse := Wnd;
 
   // 色
   tmpHdc := GetDC(Wnd);
   color := GetPixel(tmpHdc, PT.X, PT.Y);
   edtColor.Text := '#' + IntToHex(Color, 6);
 
-  if Wnd <> 0 then begin
-    Windows.ScreenToClient(Wnd, PT);
-    tmpWnd := ChildWindowFromPoint(Wnd, PT);
-    if tmpWnd <> 0 then begin
-      Wnd := tmpWnd;
+  // 通常検索
+  if mnuViewFindTypeStandard.Checked then begin
+    if (hWindowUnderTheMouse <> 0) then begin
+      Wnd := hWindowUnderTheMouse;
+
+      if Wnd <> 0 then begin
+        Windows.ScreenToClient(Wnd, PT);
+        tmpWnd := RealChildWindowFromPoint(Wnd, PT);
+        if tmpWnd <> 0 then begin
+          Wnd := tmpWnd;
+        end;
+      end;
     end;
   end;
 
-  if Wnd = NowWnd then exit;  //前と同じなら終わし
+  // 詳細検索
+  if mnuViewFindTypeDetail.Checked then begin
+    DumpSeek := TDumpSeek.Create;
+    try
+      hChildFound := DumpSeek.SeekDumpWindow(hWindowUnderTheMouse, PT);
+      if (IsWindow(hChildFound) and (hChildFound <> 0)) then begin
+        hWindowUnderTheMouse := hChildFound;
+        Wnd := hWindowUnderTheMouse;
+      end;
+    finally
+      DumpSeek.Free;
+    end;
+  end;
 
-  DrawFrameRect(NowWnd);  //前に書いた枠線を上書きで消す
 
-  NowWnd := Wnd;  //新たに設定
+  if Wnd = NowWnd then exit;  // 前と同じなら終わし
 
-  DrawFrameRect(NowWnd);  //ターゲットを枠線で囲む
+  DrawFrameRect(NowWnd);  // 前に書いた枠線を上書きで消す
+
+  NowWnd := Wnd;  // 新たに設定
+
+  DrawFrameRect(NowWnd);  // ターゲットを枠線で囲む
 
   ReadWindowInformation(NowWnd);  // ウィンドウ情報取得
   ReleaseDC(Wnd, tmpHdc);
@@ -504,6 +540,9 @@ end;
   @return ResultDescription
 ------------------------------------------------------------------------------*}
 procedure TfrmMain.ReadWindowInformation(hWnd: HWND);
+var
+  IE: IWebBrowser2;
+  doc : Variant;
 begin
 
   if not IsWindow(hWnd) then Exit; 
@@ -538,6 +577,19 @@ begin
                       + IntToStr(ClientRect.Right) + ',' + IntToStr(ClientRect.Bottom) + ') '
                       + IntToStr(ClientRect.Right - ClientRect.Left) + 'x' + IntToStr(ClientRect.Bottom - ClientRect.Top)  + '';
 
+    if ClassName = CLASS_NAME_IE then begin
+      // IE
+
+      //Get Iwebbrowser2 from Handle
+      GetIEFromHWnd(Handle, IE);
+      doc := IE.Document as IHtmlDocument2;
+      edtCaption.Text := doc.documentElement.innerHTML;
+//      edtCaption.Text := IE.LocationName + ' - ' + IE.LocationURL;              // TitleとURL
+//      edtCaption.Text := IE.Path + ' - ' + IE.Name + ' - '; // + IE.StatusText; // 実行パス + IEのオブジェクト名称
+//      edtCaption.Text := doc.;
+
+    end;
+
     // ウィンドウコントローラーインスタンスがあったらウィンドウ位置読み込み
     if Assigned(frmWindowController) then begin
       frmWindowController.LoadWindowPosition();
@@ -567,21 +619,18 @@ end;
 procedure TfrmMain.mnuViewThemeTypeSelect(Sender: TObject);
 begin
 
-  mnuViewThemeTypeNon.Checked := False;
-  mnuViewThemeTypeWindows.Checked := False;
-  mnuViewThemeTypeTBX.Checked := False;
+  mnuViewThemeTypeNon.Checked := (Sender = mnuViewThemeTypeNon);
+  mnuViewThemeTypeWindows.Checked := (Sender = mnuViewThemeTypeWindows);
+  mnuViewThemeTypeTBX.Checked := (Sender = mnuViewThemeTypeTBX);
   if Sender = mnuViewThemeTypeNon then begin
-    mnuViewThemeTypeNon.Checked := True;
     SpChangeThemeType(Self, thtNone);
     if Assigned(frmWindowController) then
       SpChangeThemeType(frmWindowController, thtNone);
   end else if Sender = mnuViewThemeTypeWindows then begin
-    mnuViewThemeTypeWindows.Checked := True;
     SpChangeThemeType(Self, thtWindows);
     if Assigned(frmWindowController) then
       SpChangeThemeType(frmWindowController, thtWindows);
   end else if Sender = mnuViewThemeTypeTBX then begin
-    mnuViewThemeTypeTBX.Checked := True;
     SpChangeThemeType(Self, thtTBX);
     if Assigned(frmWindowController) then
       SpChangeThemeType(frmWindowController, thtTBX);
@@ -683,6 +732,19 @@ begin
 
   if Assigned(frmWindowController) then
     SpChangeThemeType(frmWindowController, iThemeType, iRecursive);
+
+end;
+
+{*------------------------------------------------------------------------------
+  検索タイプ
+  @param Sender   ParameterDescription
+  @return ResultDescription
+------------------------------------------------------------------------------*}
+procedure TfrmMain.mnuViewFindTypeSelect(Sender: TObject);
+begin
+
+  mnuViewFindTypeStandard.Checked := (Sender = mnuViewFindTypeStandard);
+  mnuViewFindTypeDetail.Checked := (Sender = mnuViewFindTypeDetail);
 
 end;
 

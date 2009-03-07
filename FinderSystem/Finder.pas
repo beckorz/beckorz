@@ -19,8 +19,8 @@ type
 
     FOnChange: TNotifyEvent;
     FOnMouseMove: TNotifyEvent;
-    OriginProc: TWndMethod;   //元のウィンドウ関数保持用
-		FFinding: Boolean;		// 検索中
+    OriginProc: TWndMethod;   /// 元のウィンドウ関数保持用
+		FFinding: Boolean;		/// 検索中
 
 		function GetFinding: Boolean;
 		procedure SetFinding(const Value: Boolean);

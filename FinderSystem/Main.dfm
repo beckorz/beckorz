@@ -160,6 +160,22 @@ object frmMain: TfrmMain
         end
         object SpTBXSeparatorItem1: TSpTBXSeparatorItem
         end
+        object mnuViewFindType: TSpTBXSubmenuItem
+          Caption = #26908#32034#26041#24335'(&Y)'
+          Caption_UTF7 = '+aRx9ImW5Xw8(&Y)'
+          object mnuViewFindTypeStandard: TSpTBXItem
+            Caption = #36890#24120#26908#32034'(&S)'
+            OnClick = mnuViewFindTypeSelect
+            Caption_UTF7 = '+kBpeOGkcfSI(&S)'
+          end
+          object mnuViewFindTypeDetail: TSpTBXItem
+            Caption = #35443#32048#26908#32034'(&D)'
+            OnClick = mnuViewFindTypeSelect
+            Caption_UTF7 = '+inN9MGkcfSI(&D)'
+          end
+        end
+        object SpTBXSeparatorItem11: TSpTBXSeparatorItem
+        end
         object mnuViewTopMost: TSpTBXItem
           Caption = #26368#21069#38754#34920#31034'(&F)'
           OnClick = mnuViewTopMostClick
