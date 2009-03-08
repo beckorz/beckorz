@@ -10,10 +10,11 @@ unit Main;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Windows, Messages, SysUtils, Variants, Classes, Forms,
   Dialogs, StdCtrls, Buttons, ExtCtrls, ImgList, Shdocvw_tlb, MSHTML,
   // MyCommon
-  Window, CommonUtil, WindowPlacement, AppWinFix, OleAcc
+  Window, CommonUtil, WindowPlacement, AppWinFix, OleAcc, Finder,
+  WindowController, Controls
   // TNT
   , TntStdCtrls
   // Toolbar 2000
@@ -50,7 +51,6 @@ uses
   , TBXWhidbeyTheme
   , TBXXitoTheme
   , TBXZezioTheme, SpTBXEditors
-  , WindowController
   ;
 
 type
@@ -158,21 +158,16 @@ type
   private
     { Private 宣言 }
 
-    OriginProc: TWndMethod;   //元のウィンドウ関数保持用
-    Finding:Boolean;          // 探索中
-    NowWnd:HWnd;              // 今、カーソル足下にあるもののハンドル
-    FIniPath: String;         // Iniファイルパス
-    FFinderCanvas: TCanvas;
-    procedure Init;
-    procedure SubClassProc(var msg: TMessage);
-    procedure PaintFinder;    // 色とか大きさとかの初期化手続き
+    NowWnd:HWnd;              /// 今、カーソル足下にあるもののハンドル
+    FIniPath: String;         /// Iniファイルパス
+    FFinder: TFinder;         /// Finderオブジェクト
     procedure ReadWindowInformation(hWnd: HWND);
     procedure SetThemeType(iWinControl: TWinControl; iThemeType: TSpTBXThemeType; iRecursive: Boolean = True);
 
   public
     { Public 宣言 }
 
-    FWindowInfo: TWindowInfo;
+    FWindowInfo: TWindowInfo; /// ウィンドウ情報
 
   end;
 
@@ -188,43 +183,6 @@ implementation
 
 
 {*------------------------------------------------------------------------------
-  枠線描画
-  @param Wnd   ウィンドウハンドル
-  @return ResultDescription
-------------------------------------------------------------------------------*}
-procedure DrawFrameRect(Wnd: HWnd);
-var
-  DC:HDC;
-  RC:TRect;
-const
-  W=3;
-
-  procedure Line(iDC, iX, iY, iW, iH: Integer);
-  begin
-    PatBlt(iDC, iX, iY, iW, iH, DSTINVERT);
-  end;
-
-begin
-
-  if not IsWindow(Wnd) then exit;
-
-  DC := CreateDC('DISPLAY', nil, nil, nil);
-  GetWindowRect(Wnd, RC);
-//  OffsetRect(RC, -RC.Left, -RC.Top);
-
-  if not IsRectEmpty(RC) then begin
-    with RC do begin
-      Line(DC, Left, Top, Right-Left, W);
-      Line(DC, Left, Bottom-W, W, -(Bottom-Top-2*W));
-      Line(DC, Right-W, Top+W, W, Bottom-Top-2*W);
-      Line(DC, Right, Bottom-W, -(Right-Left), W);
-    end;
-  end;
-  ReleaseDC(Wnd, DC);
-
-end;
-
-{*------------------------------------------------------------------------------
   フォーム作成時
   @param Sender   ParameterDescription
   @return ResultDescription
@@ -237,16 +195,14 @@ begin
   FIniPath := appPath + ChangeFileExt(ExtractFileName(Application.ExeName), '') + '.ini';
 
   Screen.Cursors[1] := LoadCursor(HInstance, 'FINDING'); //カーソルを変更
-  OriginProc :=pnlFinder.WindowProc;
-  pnlFinder.WindowProc :=SubClassProc;
 
-  FFinderCanvas := TCanvas.Create;
-  FFinderCanvas.Handle := GetDC(pnlFinder.Handle);
+  // Finderクラス作成
+  FFinder := TFinder.Create(pnlFinder, imlFinder);
 
   FWindowInfo := TWindowInfo.Create;
 
-//初期化
-  Init;
+  //初期化
+//  Init;
 
 end;
 
@@ -301,9 +257,7 @@ var
   ModuleName: array[0..MAX_PATH] of Char;
 begin
 
-  // オブジェクト破棄
-  ReleaseDC(pnlFinder.Handle, FFinderCanvas.Handle);
-  FFinderCanvas.Free;
+  FFinder.Free; // Finderオブジェクト破棄
 
   // 次回起動時用にウィンドウ位置情報保存
   wp := TWindowPlacementer.Create;
@@ -325,18 +279,6 @@ begin
 end;
 
 {*------------------------------------------------------------------------------
-  初期化
-------------------------------------------------------------------------------*}
-procedure TfrmMain.Init;
-begin
-  //探索終わし
-  Finding := False;
-  Screen.Cursor := crDefault;
-  imlFinder.Draw(FFinderCanvas, 2, 2, 1, True);
-
-end;
-
-{*------------------------------------------------------------------------------
   マウスアップ
   @param Sender   ParameterDescription
   @param Button   ParameterDescription
@@ -349,13 +291,12 @@ procedure TfrmMain.FormMouseUp(Sender: TObject; Button: TMouseButton;
   Shift: TShiftState; X, Y: Integer);
 
 begin
-  if not Finding then exit;
+  if not FFinder.Finding then Exit;
 
-  DrawFrameRect(NowWnd);  // 枠線を上書き消去
-  ReleaseCapture;         // マウスキャプチャ解除
+  FFinder.DrawFrameRect(NowWnd);  // 枠線を上書き消去
 
-  Init; // 元に戻す
-
+  FFinder.Finding := False;
+  
 end;
 
 {*------------------------------------------------------------------------------
@@ -380,8 +321,8 @@ var
 
 begin
 
-  if not Finding then exit; //探索（マウスキャプチャ）中でなければ終わし
-
+  if not FFinder.Finding then Exit; //探索（マウスキャプチャ）中でなければ終わし
+  
   GetCursorPos(PT);         //マウスカーソルの位置を取得
 
   // 位置
@@ -425,13 +366,13 @@ begin
   end;
 
 
-  if Wnd = NowWnd then exit;  // 前と同じなら終わし
+  if Wnd = NowWnd then Exit;  // 前と同じなら終わし
 
-  DrawFrameRect(NowWnd);  // 前に書いた枠線を上書きで消す
+  FFinder.DrawFrameRect(NowWnd);  // 前に書いた枠線を上書きで消す
 
   NowWnd := Wnd;  // 新たに設定
 
-  DrawFrameRect(NowWnd);  // ターゲットを枠線で囲む
+  FFinder.DrawFrameRect(NowWnd);  // ターゲットを枠線で囲む
 
   ReadWindowInformation(NowWnd);  // ウィンドウ情報取得
   ReleaseDC(Wnd, tmpHdc);
@@ -471,46 +412,10 @@ end;
 procedure TfrmMain.pnlFinderMouseDown(Sender: TObject; Button: TMouseButton;
   Shift: TShiftState; X, Y: Integer);
 begin
-  Finding:=True;  //探索開始
-
-  Screen.Cursor:=1; //カーソルを変更
-
-  imlFinder.Draw(FFinderCanvas, 2, 2, 0, True);
 
   NowWnd := 0;  //初期化
+  FFinder.Finding := True;  /// 探索開始
 
-  SetCapture(Handle); // 自分のフォームウィンドウにキャプチャーしたイベントが入ってくる
-
-end;
-
-{*------------------------------------------------------------------------------
-  Finder描画
-  @return ResultDescription
-------------------------------------------------------------------------------*}
-procedure TfrmMain.PaintFinder();
-begin
-  if Finding then begin
-    imlFinder.Draw(FFinderCanvas, 2, 2, 0, True);
-  end else begin
-    imlFinder.Draw(FFinderCanvas, 2, 2, 1, True);
-  end;
-
-end;
-
-{*------------------------------------------------------------------------------
-  サブクラスプロシージャ
-  @param msg   ParameterDescription
-  @return ResultDescription
-------------------------------------------------------------------------------*}
-procedure TfrmMain.SubClassProc(var msg: TMessage);
-begin
-
-  OriginProc(msg);  // 本来のウィンドウ関数を実行
-
-  //ウィンドウメッセージによって処理を振り分け
-  case msg.Msg of
-  WM_PAINT: PaintFinder();
-  end;
 end;
 
 {*------------------------------------------------------------------------------
