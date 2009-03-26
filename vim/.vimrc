@@ -64,6 +64,9 @@ set ls=2
 " listで表示される文字のフォーマットを指定する(listchars)
 set lcs=tab:>-,eol:$,extends:>
 
+" Ctrl+A、Ctrl+Xの加減算コマンドで認識する基数(nrformats)
+set nf=alpha,hex
+
 " モードラインの有効無効(modeline)
 set ml
 
