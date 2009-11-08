@@ -14,6 +14,10 @@ uses
 
   function IsNumeric(S : String) : Boolean;
   function IsDebugging() : Boolean;
+  function IsWildcard(const iPattern: String): Boolean;
+  function GetLastErrorString(ErrorCode: Integer): String;
+  function GetComputerNameString(): String;
+  function GetUserNameString(): String;
 
 implementation
 { 実装部 }
@@ -83,6 +87,40 @@ begin
     FreeMem(Buf);
   end;
 end;
+
+{*------------------------------------------------------------------------------
+  コンピュータ名取得
+  @return コンピュータ名
+------------------------------------------------------------------------------*}
+function GetComputerNameString(): String;
+var
+  buf: array[0..MAX_COMPUTERNAME_LENGTH] of Char;
+  bufSize: DWORD;
+begin
+  bufSize := SizeOf(buf);
+  if GetComputerName(buf, bufSize) then
+    Result := buf
+  else
+    Result := '';
+end;
+
+{*------------------------------------------------------------------------------
+  ユーザー名称取得
+  @return ユーザー名称
+------------------------------------------------------------------------------*}
+function GetUserNameString(): String;
+var
+  buf: array[0..255] of Char;
+  bufSize: DWORD;
+begin
+  bufSize := SizeOf(buf);
+  if GetUserName(buf, bufSize) then begin
+    Result := Buf
+  end else begin
+    Result := '';
+  end;
+end;
+
 
 
 end.
