@@ -17,6 +17,7 @@ object frmMain: TfrmMain
   OldCreateOrder = False
   Position = poDefaultPosOnly
   ShowHint = True
+  OnActivate = FormActivate
   OnClose = FormClose
   OnCreate = FormCreate
   OnMouseMove = FormMouseMove
@@ -77,7 +78,7 @@ object frmMain: TfrmMain
     Left = 0
     Top = 0
     Width = 581
-    Height = 22
+    Height = 28
     AllowDrag = False
     object tbrMain: TSpTBXToolbar
       Left = 0

@@ -11,9 +11,14 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Forms,
-  Dialogs, StdCtrls, Buttons, ExtCtrls, ImgList, Shdocvw_tlb, MSHTML,
+  Dialogs, StdCtrls, Buttons, ExtCtrls, ImgList, MSHTML, Graphics,
+
+  {* WebBrowser *}
+  Shdocvw_tlb,
+//  WebBrowser,
+
   // MyCommon
-  Window, CommonUtil, WindowPlacement, AppWinFix, OleAcc, Finder,
+  Window, CommonUtil, WindowPlacement, AppWinFix, OleAcc, Finder, Glass,
   WindowController, Controls
   // TNT
   , TntStdCtrls
@@ -155,6 +160,7 @@ type
     procedure tbrSetPasswordMaskClick(Sender: TObject);
     procedure tbrRemovePasswordMaskClick(Sender: TObject);
     procedure mnuViewFindTypeSelect(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
   private
     { Private êÈåæ }
 
@@ -250,6 +256,7 @@ end;
   @param Action   ParameterDescription
   @return ResultDescription
 ------------------------------------------------------------------------------*}
+
 procedure TfrmMain.FormClose(Sender: TObject; var Action: TCloseAction);
 var
   wp : TWindowPlacementer;
@@ -651,6 +658,11 @@ begin
   mnuViewFindTypeStandard.Checked := (Sender = mnuViewFindTypeStandard);
   mnuViewFindTypeDetail.Checked := (Sender = mnuViewFindTypeDetail);
 
+end;
+
+procedure TfrmMain.FormActivate(Sender: TObject);
+begin
+  GlassForm(frmMain, clBtnFace);
 end;
 
 end.

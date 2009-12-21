@@ -19,7 +19,8 @@ uses
   OleAcc in 'OleAcc.pas',
   PathUtils in 'PathUtils.pas',
   IniFileUtils in 'IniFileUtils.pas',
-  TextBoxUtils in 'TextBoxUtils.pas';
+  TextBoxUtils in 'TextBoxUtils.pas',
+  Glass in 'Glass.pas';
 
 {$R *.res}
 {$R cur.res}  // ÉJÅ[É\Éã
