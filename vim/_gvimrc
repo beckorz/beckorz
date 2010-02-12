@@ -37,8 +37,15 @@ set cb=unnamed
 "set ch=2
 set ch=1
 
+" Diffモード用のオプション設定(diffopt)
+set dip=filler,vertical
+
+" C言語のインデント方法を決定する(cinoptions)
+set cino+=:0,g0
+
 " Vimの通常使う文字エンコーディング(encoding)
 "set enc=utf-8
+set enc=japan
 
 " ウィンドウ分割時にサイズを初期化しない(equalalways)
 set noea
@@ -86,6 +93,9 @@ set nf=alpha,hex
 " 行番号を表示する(number)
 "set nu
 
+" オムニ補完を有効にする(omnifunc) なぜかftpluginに書かれてない？
+autocmd FileType php setlocal ofu=phpcomplete#CompletePHP
+
 " ペースト時に一時的にautoindent等を無効にするペーストモードの切替キー(pastetoggle)
 set pt=<F11>
 
@@ -127,6 +137,9 @@ set ts=4
 
 " ウィンドウの幅を超える行の折り返し設定
 set nowrap
+
+" ファイルの末尾まで検索したら、ファイルの先頭へループする(wrapscan)
+set nows
 
 "---------------------------------------------------------------------------
 " カラー設定:
