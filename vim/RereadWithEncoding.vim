@@ -1,7 +1,7 @@
 " ファイル先頭数行以内に「encoding: xxx」のキーワードが見つかったら
 " xxxの文字コードで自動再読込するスクリプト
 "
-" 「~/.vimrc/RereadWithEncoding.vim」で保存して.vimrcに「ru RereadWithEncoding.vim」とするか
+" 「~/.vim/RereadWithEncoding.vim」で保存して.vimrcに「ru RereadWithEncoding.vim」とするか
 " 直接.vimrcに書き込めば使えます。
 augroup RereadWithEncoding
 	au!
