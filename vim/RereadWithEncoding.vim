@@ -13,7 +13,7 @@ function! s:RereadWithEncoding()
 	let enc = s:DetectEncoding(1, &mls)
 	if enc == ''
 		" 末尾からキーワード検索
-		let enc = s:DetectEncoding(line('$') - &mls, line('$'))
+		let enc = s:DetectEncoding(line('$') - &mls + 1, line('$'))
 	endif
 	" 再読込
 	if enc != ''
