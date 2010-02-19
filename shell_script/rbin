@@ -1,0 +1,49 @@
+#!/bin/bash
+# 参考：http://hogehack.blog80.fc2.com/blog-entry-49.html
+trashdir=~/.trash
+
+if [ $# -lt 1 ]; then
+	echo 'ゴミ箱に移動するファイルを指定して下さい'
+	exit 1;
+fi
+
+for i in $@
+do
+	if ! [ -e "$i" ]; then
+		echo $i':ファイルが見つかりません'
+		continue
+	fi
+
+	#ゴミの絶対パスを取得
+	abspath=$(cd $(dirname "$i") && pwd)/$(basename "$i")
+	if [ -z "$abspath" ]; then
+		echo $i':絶対パスが取得できません'
+		continue
+	fi
+	trashpath=$trashdir$abspath
+
+	#ゴミの保管ディレクトリを作成
+	container_dir=`dirname $trashpath`
+	if ! [ -d "$container_dir" ]; then
+	       mkdir -p $container_dir
+	fi
+
+	#同名のファイルかディレクトリが存在したらバックアップ
+	if [ -e "$trashpath" ]; then
+		N=1
+		while true
+		do
+			backup=$trashpath.~$N~
+			echo $backup
+			if [ -e "$backup" ]; then
+				N=`expr $N + 1`
+				continue
+			fi
+			mv $trashpath $backup
+			break
+		done
+	fi
+
+	#ゴミの移動
+	mv -f --backup=t $abspath $trashpath
+done
