@@ -64,6 +64,9 @@ set ls=2
 " listで表示される文字のフォーマットを指定する(listchars)
 set lcs=tab:>-,eol:$,extends:>
 
+" マウスを有効にするモードを設定する(mouse)
+set mouse=a
+
 " Ctrl+A、Ctrl+Xの加減算コマンドで認識する基数(nrformats)
 set nf=alpha,hex
 
@@ -111,6 +114,9 @@ sy on
 
 " ファイル内の <Tab> が対応する空白の数(tabstop)
 set ts=4
+
+" ターミナルでマウスを使う設定(ttymouse)
+set ttym=xterm2
 
 " ウィンドウの幅を超える行の折り返し設定
 set nowrap
