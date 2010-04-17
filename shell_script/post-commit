@@ -1,0 +1,32 @@
+#!/bin/sh
+# コミット内容メール送信シェルスクリプト
+
+# 環境設定ここから
+SVNLOOK='/usr/bin/svnlook'
+MAILCMD='/bin/mail'
+NKF='/usr/bin/nkf'
+MAILFROM='svn'
+MAILTO='root'
+# 環境設定ここまで
+
+# 送信情報準備
+set -e
+export LANG='ja_JP.UTF-8'
+AUTHOR=`$SVNLOOK author $1 -r $2`
+SVNLOG=`$SVNLOOK log $1 -r $2`
+#SVNDIFF=`$SVNLOOK diff $1 -r $2`
+SVNDIFF=`$SVNLOOK changed $1 -r $2`
+MAILBODY="Revision: $2
+Author: $AUTHOR
+Date: `date`
+Log: $SVNLOG
+
+$SVNDIFF"
+LOGHEAD=`echo "$SVNLOG"|head -1`
+MAILSUBJ="[$1] r$2 committed - $LOGHEAD"
+
+MAILSUBJ=`echo $MAILSUBJ|$NKF -j`
+MAILBODY=`echo "$MAILBODY"|$NKF -j`
+echo "$MAILBODY"|$MAILCMD -s "$MAILSUBJ" "$MAILTO" -- -f "$MAILFROM"
+
+exit
