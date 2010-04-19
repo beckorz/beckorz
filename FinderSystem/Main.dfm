@@ -79,7 +79,7 @@ object frmMain: TfrmMain
     Left = 0
     Top = 0
     Width = 581
-    Height = 28
+    Height = 22
     AllowDrag = False
     object tbrMain: TSpTBXToolbar
       Left = 0

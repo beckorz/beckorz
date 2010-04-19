@@ -1,6 +1,6 @@
 object frmWindowController: TfrmWindowController
-  Left = 611
-  Top = 156
+  Left = 218
+  Top = 159
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = #12454#12451#12531#12489#12454#32113#21512#25805#20316
@@ -21,7 +21,7 @@ object frmWindowController: TfrmWindowController
     Left = 4
     Top = 234
     Width = 517
-    Height = 28
+    Height = 22
     Align = alNone
     SizeGrip = False
     ThemeType = thtWindows
@@ -56,7 +56,7 @@ object frmWindowController: TfrmWindowController
     Top = 3
     Width = 604
     Height = 229
-    ActiveTabIndex = 2
+    ActiveTabIndex = 3
     Images = imlTool
     HiddenItems = <>
     object SpTBXTabItem6: TSpTBXTabItem
@@ -71,12 +71,12 @@ object frmWindowController: TfrmWindowController
     end
     object SpTBXTabItem8: TSpTBXTabItem
       Caption = #12473#12479#12452#12523
-      Checked = True
       ImageIndex = 2
       Caption_UTF7 = '+MLkwvzCkMOs'
     end
     object SpTBXTabItem9: TSpTBXTabItem
       Caption = #25313#24373#12473#12479#12452#12523
+      Checked = True
       ImageIndex = 3
       Caption_UTF7 = '+YuFfNTC5ML8wpDDr'
     end
@@ -87,36 +87,193 @@ object frmWindowController: TfrmWindowController
     end
     object SpTBXTabSheet5: TSpTBXTabSheet
       Left = 0
-      Top = 28
+      Top = 26
       Width = 604
-      Height = 201
+      Height = 203
       Caption = #12454#12451#12531#12489#12454#29366#24907
       ImageIndex = 4
       TabItem = 'SpTBXTabItem10'
     end
-    object SpTBXTabSheet4: TSpTBXTabSheet
-      Left = 0
-      Top = 28
-      Width = 604
-      Height = 201
-      Caption = #25313#24373#12473#12479#12452#12523
-      ImageIndex = 3
-      TabItem = 'SpTBXTabItem9'
-    end
     object SpTBXTabSheet2: TSpTBXTabSheet
       Left = 0
-      Top = 28
+      Top = 26
       Width = 604
-      Height = 201
+      Height = 203
       Caption = #12454#12451#12531#12489#12454#21322#36879#26126#24230
       ImageIndex = 1
       TabItem = 'SpTBXTabItem7'
+      object SpTBXLabel7: TSpTBXLabel
+        Left = 16
+        Top = 8
+        Width = 267
+        Height = 13
+        Caption = #12454#12451#12531#12489#12454#12398#21322#36879#26126#24230#12434#22793#26356#12375#12414#12377' (Windows 2000'#20197#38477')'
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+        Caption_UTF7 = 
+          '+MKYwozDzMMkwpjBuU0qQD2YOXqYwklkJZvQwVzB+MFk (Windows 2000+TuWWT' +
+          'Q)'
+      end
+      object SpTBXCheckBox1: TSpTBXCheckBox
+        Left = 24
+        Top = 26
+        Width = 85
+        Height = 15
+        Caption = #21322#36879#26126#21270#12377#12427
+        Enabled = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 1
+        OnClick = chkStylesClick
+        Caption_UTF7 = '+U0qQD2YOUxYwWTCL'
+      end
+      object SpTBXTrackBar1: TSpTBXTrackBar
+        Left = 24
+        Top = 48
+        Width = 135
+        Height = 33
+        Enabled = False
+        Max = 255
+        Min = 10
+        Orientation = trHorizontal
+        Frequency = 1
+        Position = 255
+        SelEnd = 0
+        SelStart = 0
+        TabOrder = 2
+        TickStyle = tsAuto
+        OnChange = trbPositionChange
+      end
+      object SpTBXCheckBox2: TSpTBXCheckBox
+        Left = 24
+        Top = 98
+        Width = 65
+        Height = 15
+        Caption = #12459#12521#12540#12461#12540
+        Enabled = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 3
+        OnClick = chkStylesClick
+        Caption_UTF7 = '+MKsw6TD8MK0w/A'
+      end
+      object SpTBXLabel8: TSpTBXLabel
+        Left = 24
+        Top = 120
+        Width = 11
+        Height = 13
+        Caption = 'R:'
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+      end
+      object SpTBXLabel9: TSpTBXLabel
+        Left = 72
+        Top = 120
+        Width = 11
+        Height = 13
+        Caption = 'G:'
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+      end
+      object SpTBXLabel10: TSpTBXLabel
+        Left = 120
+        Top = 120
+        Width = 10
+        Height = 13
+        Caption = 'B:'
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+      end
+      object SpTBXEdit1: TSpTBXEdit
+        Left = 40
+        Top = 120
+        Width = 25
+        Height = 21
+        Enabled = False
+        TabOrder = 7
+        Text = 'FF'
+      end
+      object SpTBXEdit2: TSpTBXEdit
+        Left = 88
+        Top = 120
+        Width = 25
+        Height = 21
+        Enabled = False
+        TabOrder = 8
+        Text = 'FF'
+      end
+      object SpTBXEdit3: TSpTBXEdit
+        Left = 136
+        Top = 120
+        Width = 25
+        Height = 21
+        Enabled = False
+        TabOrder = 9
+        Text = 'FF'
+      end
+      object SpTBXButton4: TSpTBXButton
+        Left = 40
+        Top = 152
+        Width = 124
+        Height = 20
+        Caption = #33394#24773#22577#12434#35501#12415#36796#12416
+        Enabled = False
+        TabOrder = 10
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+        Caption_UTF7 = '+gnJgxVgxMJKKrTB/j7wwgA'
+      end
+      object btnApplyTransparent: TSpTBXButton
+        Left = 196
+        Top = 109
+        Width = 76
+        Height = 21
+        Caption = #36969#29992
+        Enabled = False
+        TabOrder = 11
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+        Caption_UTF7 = '+kGl1KA'
+      end
+      object SpTBXButton6: TSpTBXButton
+        Left = 196
+        Top = 133
+        Width = 76
+        Height = 21
+        Caption = #12522#12475#12483#12488
+        Enabled = False
+        TabOrder = 12
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+        Caption_UTF7 = '+MOowuzDDMMg'
+      end
     end
     object SpTBXTabSheet1: TSpTBXTabSheet
       Left = 0
-      Top = 28
+      Top = 26
       Width = 604
-      Height = 201
+      Height = 203
       Caption = #12454#12451#12531#12489#12454#29366#24907#22793#26356
       ImageIndex = 0
       TabItem = 'SpTBXTabItem6'
@@ -322,6 +479,7 @@ object frmWindowController: TfrmWindowController
             Width = 76
             Height = 21
             Caption = #12522#12475#12483#12488
+            Enabled = False
             TabOrder = 14
             LinkFont.Charset = SHIFTJIS_CHARSET
             LinkFont.Color = clBlue
@@ -334,8 +492,8 @@ object frmWindowController: TfrmWindowController
         object SpTBXToolbar1: TSpTBXToolbar
           Left = 48
           Top = 16
-          Width = 172
-          Height = 24
+          Width = 166
+          Height = 18
           Caption = 'SpTBXToolbar1'
           TabOrder = 1
           object SpTBXItem6: TSpTBXItem
@@ -358,18 +516,34 @@ object frmWindowController: TfrmWindowController
         object SpTBXToolbar2: TSpTBXToolbar
           Left = 48
           Top = 48
-          Width = 23
-          Height = 22
+          Width = 136
+          Height = 18
           Caption = 'SpTBXToolbar1'
           TabOrder = 2
+          object SpTBXItem1: TSpTBXItem
+            Caption = #28961#21177
+            Caption_UTF7 = '+cSFSuQ'
+          end
+          object SpTBXItem2: TSpTBXItem
+            Caption = #28961#21177
+            Caption_UTF7 = '+cSFSuQ'
+          end
+          object SpTBXItem3: TSpTBXItem
+            Caption = #28961#21177
+            Caption_UTF7 = '+cSFSuQ'
+          end
+          object SpTBXItem4: TSpTBXItem
+            Caption = #27161#28310
+            Caption_UTF7 = '+ahlulg'
+          end
         end
       end
     end
     object SpTBXTabSheet3: TSpTBXTabSheet
       Left = 0
-      Top = 28
+      Top = 26
       Width = 604
-      Height = 201
+      Height = 203
       Caption = #12473#12479#12452#12523
       ImageIndex = 2
       TabItem = 'SpTBXTabItem8'
@@ -415,6 +589,7 @@ object frmWindowController: TfrmWindowController
         Width = 76
         Height = 20
         Caption = #12522#12475#12483#12488
+        Enabled = False
         TabOrder = 3
         LinkFont.Charset = SHIFTJIS_CHARSET
         LinkFont.Color = clBlue
@@ -444,6 +619,7 @@ object frmWindowController: TfrmWindowController
         Width = 76
         Height = 20
         Caption = #12377#12409#12390#22806#12377
+        Enabled = False
         TabOrder = 5
         LinkFont.Charset = SHIFTJIS_CHARSET
         LinkFont.Color = clBlue
@@ -693,6 +869,206 @@ object frmWindowController: TfrmWindowController
         ShowHint = True
         TabOrder = 27
         OnClick = chkStylesClick
+      end
+    end
+    object SpTBXTabSheet4: TSpTBXTabSheet
+      Left = 0
+      Top = 26
+      Width = 604
+      Height = 203
+      Caption = #25313#24373#12473#12479#12452#12523
+      ImageIndex = 3
+      TabItem = 'SpTBXTabItem9'
+      object edtExStyle: TSpTBXEdit
+        Left = 16
+        Top = 24
+        Width = 76
+        Height = 21
+        TabOrder = 0
+        Text = 'edtExStyle'
+      end
+      object SpTBXLabel6: TSpTBXLabel
+        Left = 16
+        Top = 8
+        Width = 107
+        Height = 13
+        Caption = #12454#12451#12531#12489#12454#25313#24373#12473#12479#12452#12523':'
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+        Caption_UTF7 = '+MKYwozDzMMkwpmLhXzUwuTC/MKQw6w:'
+      end
+      object chkExStyles0: TSpTBXCheckBox
+        Left = 120
+        Top = 26
+        Width = 130
+        Height = 15
+        Caption = 'WS_EX_WINDOWEDGE'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 2
+        OnClick = chkExStylesClick
+      end
+      object btnApplyExStyle: TSpTBXButton
+        Left = 16
+        Top = 55
+        Width = 76
+        Height = 21
+        Caption = #36969#29992'(&A)'
+        TabOrder = 3
+        OnClick = btnApplyExStyleClick
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+        Caption_UTF7 = '+kGl1KA(&A)'
+      end
+      object btnGetExStyle: TSpTBXButton
+        Left = 16
+        Top = 120
+        Width = 76
+        Height = 20
+        Caption = #21462#24471
+        TabOrder = 4
+        OnClick = btnGetExStyleClick
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+        Caption_UTF7 = '+U9Zflw'
+      end
+      object chkExStyles1: TSpTBXCheckBox
+        Left = 120
+        Top = 42
+        Width = 119
+        Height = 15
+        Caption = 'WS_EX_CLIENTEDGE'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 5
+        OnClick = chkExStylesClick
+      end
+      object chkExStyles2: TSpTBXCheckBox
+        Left = 120
+        Top = 58
+        Width = 120
+        Height = 15
+        Caption = 'WS_EX_STATICEDGE'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 6
+        OnClick = chkExStylesClick
+      end
+      object chkExStyles3: TSpTBXCheckBox
+        Left = 120
+        Top = 74
+        Width = 146
+        Height = 15
+        Caption = 'WS_EX_DLGMODALFRAME'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 7
+        OnClick = chkExStylesClick
+      end
+      object chkExStyles4: TSpTBXCheckBox
+        Left = 120
+        Top = 90
+        Width = 168
+        Height = 15
+        Caption = 'WS_EX_OVERLAPPEDWINDOW'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 8
+        OnClick = chkExStylesClick
+      end
+      object chkExStyles5: TSpTBXCheckBox
+        Left = 304
+        Top = 26
+        Width = 130
+        Height = 15
+        Caption = 'WS_EX_TRANSPARENT'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 9
+        OnClick = chkExStylesClick
+      end
+      object chkExStyles6: TSpTBXCheckBox
+        Left = 304
+        Top = 42
+        Width = 131
+        Height = 15
+        Caption = 'WS_EX_TOOLWINDOW'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 10
+        OnClick = chkExStylesClick
+      end
+      object chkExStyles7: TSpTBXCheckBox
+        Left = 304
+        Top = 58
+        Width = 121
+        Height = 15
+        Caption = 'WS_EX_RTLREADING'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 11
+        OnClick = chkExStylesClick
+      end
+      object chkExStyles8: TSpTBXCheckBox
+        Left = 304
+        Top = 74
+        Width = 128
+        Height = 15
+        Caption = 'WS_EX_CONTEXTHELP'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 12
+        OnClick = chkExStylesClick
+      end
+      object chkExStyles9: TSpTBXCheckBox
+        Left = 304
+        Top = 90
+        Width = 139
+        Height = 15
+        Caption = 'WS_EX_LEFTSCROLLBAR'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 13
+        OnClick = chkExStylesClick
+      end
+      object SpTBXButton7: TSpTBXButton
+        Left = 16
+        Top = 80
+        Width = 76
+        Height = 20
+        Caption = #12522#12475#12483#12488
+        Enabled = False
+        TabOrder = 14
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+        Caption_UTF7 = '+MOowuzDDMMg'
+      end
+      object SpTBXButton8: TSpTBXButton
+        Left = 16
+        Top = 144
+        Width = 76
+        Height = 20
+        Caption = #12377#12409#12390#22806#12377
+        Enabled = False
+        TabOrder = 15
+        LinkFont.Charset = SHIFTJIS_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -12
+        LinkFont.Name = #65325#65331' '#65328#12468#12471#12483#12463
+        LinkFont.Style = [fsUnderline]
+        Caption_UTF7 = '+MFkweTBmWRYwWQ'
       end
     end
   end

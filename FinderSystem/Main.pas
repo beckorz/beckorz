@@ -549,6 +549,7 @@ begin
     if Assigned(frmWindowController) then begin
       frmWindowController.LoadWindowPosition();
       frmWindowController.LoadStyle();
+      frmWindowController.LoadExStyle();
     end;
 
   end;
@@ -665,6 +666,7 @@ begin
     SpChangeThemeType(frmWindowController, thtWindows);
     frmWindowController.LoadWindowPosition(); // ウィンドウ位置読み込み
     frmWindowController.LoadStyle();          // スタイル読み込み
+    frmWindowController.LoadExStyle();        // 拡張スタイル
     frmWindowController.Show;
   end else begin
     // 生成済みの場合は破棄する。

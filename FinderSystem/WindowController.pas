@@ -84,6 +84,39 @@ type
     chkStyles19: TSpTBXCheckBox;
     chkStyles20: TSpTBXCheckBox;
     chkStyles21: TSpTBXCheckBox;
+    edtExStyle: TSpTBXEdit;
+    SpTBXLabel6: TSpTBXLabel;
+    chkExStyles0: TSpTBXCheckBox;
+    btnApplyExStyle: TSpTBXButton;
+    btnGetExStyle: TSpTBXButton;
+    chkExStyles1: TSpTBXCheckBox;
+    chkExStyles2: TSpTBXCheckBox;
+    chkExStyles3: TSpTBXCheckBox;
+    chkExStyles4: TSpTBXCheckBox;
+    chkExStyles5: TSpTBXCheckBox;
+    chkExStyles6: TSpTBXCheckBox;
+    chkExStyles7: TSpTBXCheckBox;
+    chkExStyles8: TSpTBXCheckBox;
+    chkExStyles9: TSpTBXCheckBox;
+    SpTBXLabel7: TSpTBXLabel;
+    SpTBXCheckBox1: TSpTBXCheckBox;
+    SpTBXTrackBar1: TSpTBXTrackBar;
+    SpTBXCheckBox2: TSpTBXCheckBox;
+    SpTBXLabel8: TSpTBXLabel;
+    SpTBXLabel9: TSpTBXLabel;
+    SpTBXLabel10: TSpTBXLabel;
+    SpTBXEdit1: TSpTBXEdit;
+    SpTBXEdit2: TSpTBXEdit;
+    SpTBXEdit3: TSpTBXEdit;
+    SpTBXButton4: TSpTBXButton;
+    btnApplyTransparent: TSpTBXButton;
+    SpTBXButton6: TSpTBXButton;
+    SpTBXItem1: TSpTBXItem;
+    SpTBXItem2: TSpTBXItem;
+    SpTBXItem3: TSpTBXItem;
+    SpTBXItem4: TSpTBXItem;
+    SpTBXButton7: TSpTBXButton;
+    SpTBXButton8: TSpTBXButton;
     procedure btnAppyClick(Sender: TObject);
     procedure btnCloseClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -93,14 +126,19 @@ type
     procedure chkStylesClick(Sender: TObject);
     procedure btnApplyStyleClick(Sender: TObject);
     procedure btnGetStyleClick(Sender: TObject);
+    procedure chkExStylesClick(Sender: TObject);
+    procedure btnApplyExStyleClick(Sender: TObject);
+    procedure btnGetExStyleClick(Sender: TObject);
   private
     { Private 宣言 }
     FStyle : Integer;
+    FExStyle : Integer;
     procedure SetWindowPosition();
   public
     { Public 宣言 }
     procedure LoadWindowPosition();
     procedure LoadStyle();
+    procedure LoadExStyle();
   end;
 
 var
@@ -156,6 +194,17 @@ begin
   chkStyles19.Hint := 'サイズ変更境界を持つウィンドウを作成します (0x' + IntToHex(WS_THICKFRAME, 8) + ')';
   chkStyles20.Hint := '可視状態のウィンドウを作成します (0x' + IntToHex(WS_VSCROLL, 8) + ')';
   chkStyles21.Hint := '水平スクロールバーを持つウィンドウを作成します (0x' + IntToHex(WS_VSCROLL, 8) + ')';
+
+  chkExStyles0.Hint  := 'ウィンドウが盛り上がった縁の境界線を持つ (0x' + IntToHex(WS_EX_WINDOWEDGE, 8) + ')';
+  chkExStyles1.Hint  := '縁が沈んで見える境界線を持つウィンドウ (0x' + IntToHex(WS_EX_CLIENTEDGE, 8) + ')';
+  chkExStyles2.Hint  := 'ユーザーの入力を受け付けない項目用の、立体的に見える境界スタイルを持つウィンドウ (0x' + IntToHex(WS_EX_STATICEDGE, 8) + ')';
+  chkExStyles3.Hint  := '二重の境界線を持つウィンドウを作成します (0x' + IntToHex(WS_EX_DLGMODALFRAME, 8) + ')';
+  chkExStyles4.Hint  := 'WS_EX_WINDOWEDGE と WS_EX_CLIENTEDGE  (0x' + IntToHex(WS_EX_OVERLAPPEDWINDOW, 8) + ')';
+  chkExStyles5.Hint  := '透過ウィンドウを作成します (0x' + IntToHex(WS_EX_TRANSPARENT, 8) + ')';
+  chkExStyles6.Hint  := 'ダイアログボックスで一般的に使われるスタイルの境界を持つウィンドウを作成します (0x' + IntToHex(WS_EX_TOOLWINDOW, 8) + ')';
+  chkExStyles7.Hint  := '右から左への読み取り順序を持つプロパティを持ったウィンドウ (0x' + IntToHex(WS_EX_RTLREADING, 8) + ')';
+  chkExStyles8.Hint  := 'ダイアログボックスのタイトルバーに［?］ボタンを追加します (0x' + IntToHex(WS_EX_CONTEXTHELP, 8) + ')';
+  chkExStyles9.Hint  := '垂直スクロールバーがクライアント領域の左側に置かれます (0x' + IntToHex(WS_EX_LEFTSCROLLBAR, 8) + ')';
 
 end;
 
@@ -279,8 +328,6 @@ end;
   @return ResultDescription
 ------------------------------------------------------------------------------*}
 procedure TfrmWindowController.LoadStyle;
-var
-  cnt : Integer;
 begin
 
   // イベントを発生させないようにnil
@@ -307,7 +354,7 @@ begin
   chkStyles20.OnClick := nil;
   chkStyles21.OnClick := nil;
 
-  frmMain.FWindowInfo.Load(frmMain.FWindowInfo.Handle); 
+  frmMain.FWindowInfo.Load(frmMain.FWindowInfo.Handle);
   FStyle := frmMain.FWindowInfo.Style;
   edtStyle.Text := '0x' + IntToHex(FStyle, 8);
 
@@ -333,8 +380,6 @@ begin
   chkStyles19.Checked := ((FStyle and WS_THICKFRAME) = WS_THICKFRAME);
   chkStyles20.Checked := ((FStyle and WS_VISIBLE) = WS_VISIBLE);
   chkStyles21.Checked := ((FStyle and WS_VSCROLL) = WS_VSCROLL);
-//    edtStyle.Text := IntToStr(GetWindowLong(hWnd, GWL_STYLE));
-//    edtStyleHex.Text := '0x' + IntToHex(GetWindowLong(hWnd, GWL_STYLE), 8);
 
   chkStyles0.OnClick  := chkStylesClick;
   chkStyles1.OnClick  := chkStylesClick;
@@ -358,6 +403,52 @@ begin
   chkStyles19.OnClick := chkStylesClick;
   chkStyles20.OnClick := chkStylesClick;
   chkStyles21.OnClick := chkStylesClick;
+
+end;
+
+{*------------------------------------------------------------------------------
+  拡張スタイルを読み込み
+  @return ResultDescription
+------------------------------------------------------------------------------*}
+procedure TfrmWindowController.LoadExStyle;
+begin
+  // イベントを発生させないようにnil
+  chkExStyles0.OnClick  := nil;
+  chkExStyles1.OnClick  := nil;
+  chkExStyles2.OnClick  := nil;
+  chkExStyles3.OnClick  := nil;
+  chkExStyles4.OnClick  := nil;
+  chkExStyles5.OnClick  := nil;
+  chkExStyles6.OnClick  := nil;
+  chkExStyles7.OnClick  := nil;
+  chkExStyles8.OnClick  := nil;
+  chkExStyles9.OnClick  := nil;
+
+  frmMain.FWindowInfo.Load(frmMain.FWindowInfo.Handle);
+  FExStyle := frmMain.FWindowInfo.ExStyle;
+  edtExStyle.Text := '0x' + IntToHex(FExStyle, 8);
+
+  chkExStyles0.Checked  := ((FExStyle and WS_EX_WINDOWEDGE) = WS_EX_WINDOWEDGE);
+  chkExStyles1.Checked  := ((FExStyle and WS_EX_CLIENTEDGE) = WS_EX_CLIENTEDGE);
+  chkExStyles2.Checked  := ((FExStyle and WS_EX_STATICEDGE) = WS_EX_STATICEDGE);
+  chkExStyles3.Checked  := ((FExStyle and WS_EX_DLGMODALFRAME) = WS_EX_DLGMODALFRAME);
+  chkExStyles4.Checked  := ((FExStyle and WS_EX_OVERLAPPEDWINDOW) = WS_EX_OVERLAPPEDWINDOW);
+  chkExStyles5.Checked  := ((FExStyle and WS_EX_TRANSPARENT) = WS_EX_TRANSPARENT);
+  chkExStyles6.Checked  := ((FExStyle and WS_EX_TOOLWINDOW) = WS_EX_TOOLWINDOW);
+  chkExStyles7.Checked  := ((FExStyle and WS_EX_RTLREADING) = WS_EX_RTLREADING);
+  chkExStyles8.Checked  := ((FExStyle and WS_EX_CONTEXTHELP) = WS_EX_CONTEXTHELP);
+  chkExStyles9.Checked  := ((FExStyle and WS_EX_LEFTSCROLLBAR) = WS_EX_LEFTSCROLLBAR);
+
+  chkExStyles0.OnClick  := chkExStylesClick;
+  chkExStyles1.OnClick  := chkExStylesClick;
+  chkExStyles2.OnClick  := chkExStylesClick;
+  chkExStyles3.OnClick  := chkExStylesClick;
+  chkExStyles4.OnClick  := chkExStylesClick;
+  chkExStyles5.OnClick  := chkExStylesClick;
+  chkExStyles6.OnClick  := chkExStylesClick;
+  chkExStyles7.OnClick  := chkExStylesClick;
+  chkExStyles8.OnClick  := chkExStylesClick;
+  chkExStyles9.OnClick  := chkExStylesClick;
 
 end;
 
@@ -422,15 +513,15 @@ begin
   end;
 
   edtStyle.Text := '0x' + IntToHex(FStyle, 8);
-  
+
 //  MessageBox(Self.Handle, PChar(IntToHex(FStyle, 8)), 'あああ', MB_OK);
 
 end;
 
 {*------------------------------------------------------------------------------
-  スタイル適用                                                                              
+  スタイル適用
   @param Sender   ParameterDescription
-  @return ResultDescription  
+  @return ResultDescription
 ------------------------------------------------------------------------------*}
 procedure TfrmWindowController.btnApplyStyleClick(Sender: TObject);
 begin
@@ -445,6 +536,56 @@ end;
 procedure TfrmWindowController.btnGetStyleClick(Sender: TObject);
 begin
   LoadStyle();
+end;
+
+{*------------------------------------------------------------------------------
+  拡張スタイル取り外し
+  @param Sender   ParameterDescription
+  @return ResultDescription
+------------------------------------------------------------------------------*}
+procedure TfrmWindowController.chkExStylesClick(Sender: TObject);
+var
+  id : Integer;
+begin
+
+  // 各スタイルの取り外し
+  id := GetIdOfControlName(TWinControl(Sender).Name);
+  case id of
+    0:  FExStyle := (FExStyle xor WS_EX_WINDOWEDGE);
+    1:  FExStyle := (FExStyle xor WS_EX_CLIENTEDGE);
+    2:  FExStyle := (FExStyle xor WS_EX_STATICEDGE);
+    3:  FExStyle := (FExStyle xor WS_EX_DLGMODALFRAME);
+    4:  FExStyle := (FExStyle xor WS_EX_OVERLAPPEDWINDOW);
+    5:  FExStyle := (FExStyle xor WS_EX_TRANSPARENT);
+    6:  FExStyle := (FExStyle xor WS_EX_TOOLWINDOW);
+    7:  FExStyle := (FExStyle xor WS_EX_RTLREADING);
+    8:  FExStyle := (FExStyle xor WS_EX_CONTEXTHELP);
+    9:  FExStyle := (FExStyle xor WS_EX_LEFTSCROLLBAR);
+  else ;
+  end;
+
+  edtExStyle.Text := '0x' + IntToHex(FExStyle, 8);
+
+end;
+
+{*------------------------------------------------------------------------------
+  拡張スタイル適用
+  @param Sender   ParameterDescription
+  @return ResultDescription
+------------------------------------------------------------------------------*}
+procedure TfrmWindowController.btnApplyExStyleClick(Sender: TObject);
+begin
+  SetWindowLong(frmMain.FWindowInfo.Handle, GWL_EXSTYLE, FExStyle);
+end;
+
+{*------------------------------------------------------------------------------
+  拡張スタイル読み込み
+  @param Sender   ParameterDescription
+  @return ResultDescription
+------------------------------------------------------------------------------*}
+procedure TfrmWindowController.btnGetExStyleClick(Sender: TObject);
+begin
+  LoadExStyle();
 end;
 
 end.
