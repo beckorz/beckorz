@@ -55,7 +55,15 @@ uses
   , TBXTristanTheme
   , TBXWhidbeyTheme
   , TBXXitoTheme
-  , TBXZezioTheme, SpTBXEditors
+  , TBXZezioTheme
+  , TBXDamsokaTheme
+  , TBXEchoTheme
+  , TBXEos9Theme
+  , TBXNewOfficeAdaptiveTheme
+  , TBXNewOfficeTheme
+  , TBXOffice11XPTheme
+
+  , SpTBXEditors
   ;
 
 type
@@ -161,6 +169,8 @@ type
     procedure tbrRemovePasswordMaskClick(Sender: TObject);
     procedure mnuViewFindTypeSelect(Sender: TObject);
     procedure FormActivate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+    procedure mnuToolFreeMouseModeClick(Sender: TObject);
   private
     { Private 宣言 }
 
@@ -178,15 +188,49 @@ type
   end;
 
   const
-    CLASS_NAME_IE : String = 'Internet Explorer_Server';  /// Browser IE Trident クラス名 
+    CLASS_NAME_IE : String = 'Internet Explorer_Server';  /// Browser IE Trident クラス名
 
 var
   frmMain: TfrmMain;
+  HookHandle: HHOOK = 0;
+
+const
+  FORM_ALPHA = 255;
+  MENU_ALPHA = 180;
 
 implementation
 
 {$R *.dfm}
 
+//-----------------------------------------------------------------------------
+//  フック中
+function HookCallWndProc(nCode: Integer; wParam: WPARAM; pEvnt: PEventMsg): LRESULT; stdcall;
+var
+  cwps: TCWPStruct;
+  szClass: array[0..127] of Char;
+begin
+  //  規則どおり
+  if (nCode = HC_ACTION) then begin
+    //  使いにくいのでキャストする
+    cwps := PCWPStruct(pEvnt)^;
+    //  作成のタイミングで
+    if (cwps.message = WM_CREATE) then begin
+      //  作成されるウィンドウのクラス名を取得する
+      FillChar(szClass, SizeOf(szClass), 0);
+      GetClassName(cwps.hwnd, szClass, 127);
+      //  コレがダイアログ(メニューもダイアログと同じクラス名)なら
+      if (szClass = '#32768') or (szClass = 'TSpTBXPopupWindow') then begin
+        //  今のスタイルに透き通るスタイルを付け加えて
+        SetWindowLong(cwps.hwnd, GWL_EXSTYLE,
+                      GetWindowLong(cwps.hwnd, GWL_EXSTYLE) or WS_EX_LAYERED);
+        //  透明度を設定する
+        SetLayeredWindowAttributes(cwps.hwnd, 0, MENU_ALPHA, LWA_ALPHA);
+      end;
+    end;
+  end;
+  //  ちゃんとやってくれる人に任せる
+  Result := CallNextHookEx(WH_CALLWNDPROC, nCode, wParam, Longint(pEvnt));
+end;
 
 {*------------------------------------------------------------------------------
   フォーム作成時
@@ -206,6 +250,8 @@ begin
   FFinder := TFinder.Create(pnlFinder, imlFinder);
 
   FWindowInfo := TWindowInfo.Create;
+
+  HookHandle := SetWindowsHookEx(WH_CALLWNDPROC, @HookCallWndProc, 0, GetWindowThreadProcessId(Handle));
 
   //初期化
 //  Init;
@@ -256,7 +302,6 @@ end;
   @param Action   ParameterDescription
   @return ResultDescription
 ------------------------------------------------------------------------------*}
-
 procedure TfrmMain.FormClose(Sender: TObject; var Action: TCloseAction);
 var
   wp : TWindowPlacementer;
@@ -296,7 +341,6 @@ end;
 ------------------------------------------------------------------------------*}
 procedure TfrmMain.FormMouseUp(Sender: TObject; Button: TMouseButton;
   Shift: TShiftState; X, Y: Integer);
-
 begin
   if not FFinder.Finding then Exit;
 
@@ -325,7 +369,6 @@ var
   hWindowUnderTheMouse: HWND;
   DumpSeek: TDumpSeek;        // 子ウィンドウ検索クラス
   hChildFound : HWND;
-
 begin
 
   if not FFinder.Finding then Exit; //探索（マウスキャプチャ）中でなければ終わし
@@ -505,6 +548,7 @@ begin
     // ウィンドウコントローラーインスタンスがあったらウィンドウ位置読み込み
     if Assigned(frmWindowController) then begin
       frmWindowController.LoadWindowPosition();
+      frmWindowController.LoadStyle();
     end;
 
   end;
@@ -620,6 +664,7 @@ begin
     frmWindowController := TfrmWindowController.Create(Self, GetDesktopWindow());
     SpChangeThemeType(frmWindowController, thtWindows);
     frmWindowController.LoadWindowPosition(); // ウィンドウ位置読み込み
+    frmWindowController.LoadStyle();          // スタイル読み込み
     frmWindowController.Show;
   end else begin
     // 生成済みの場合は破棄する。
@@ -660,9 +705,38 @@ begin
 
 end;
 
+{*------------------------------------------------------------------------------
+  アクティブ時
+  @param Sender   ParameterDescription
+  @return ResultDescription
+------------------------------------------------------------------------------*}
 procedure TfrmMain.FormActivate(Sender: TObject);
 begin
   GlassForm(frmMain, clBtnFace);
+end;
+
+{*------------------------------------------------------------------------------
+  フォームを破棄時
+  @param Sender   ParameterDescription
+  @return ResultDescription
+------------------------------------------------------------------------------*}
+procedure TfrmMain.FormDestroy(Sender: TObject);
+begin
+  if (HookHandle <> 0) then UnhookWindowsHookEx(HookHandle);
+  HookHandle := 0;
+end;
+
+{*------------------------------------------------------------------------------
+  フリーマウスモード
+  @param Sender   ParameterDescription
+  @return ResultDescription
+------------------------------------------------------------------------------*}
+procedure TfrmMain.mnuToolFreeMouseModeClick(Sender: TObject);
+begin
+
+  NowWnd := 0;  /// 初期化
+  FFinder.Finding := True;  /// 探索開始
+
 end;
 
 end.

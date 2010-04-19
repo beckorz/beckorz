@@ -376,6 +376,8 @@ begin
   ShowWindow(FHandle, Integer(IsVisible And True)); // 可視設定
   SetWindowTopMost(FHandle, Not IsTopMost);         // 最前面
   SetWindowTextW(FHandle, PWideChar(FText));        // ウィンドウテキスト
+  SetWindowLong(FHandle, GWL_STYLE, FStyle);        // スタイル
+  SetWindowLong(FHandle, GWL_EXSTYLE, FExStyle);    // 拡張スタイル
 
   // 再読み込み
   Self.Load(FHandle);

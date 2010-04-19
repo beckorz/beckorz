@@ -20,6 +20,7 @@ object frmMain: TfrmMain
   OnActivate = FormActivate
   OnClose = FormClose
   OnCreate = FormCreate
+  OnDestroy = FormDestroy
   OnMouseMove = FormMouseMove
   OnMouseUp = FormMouseUp
   OnShow = FormShow
@@ -114,7 +115,8 @@ object frmMain: TfrmMain
         end
         object mnuToolFreeMouse: TSpTBXItem
           Caption = #12501#12522#12540#12510#12454#12473#12514#12540#12489'(&F)'
-          Enabled = False
+          ShortCut = 24646
+          OnClick = mnuToolFreeMouseModeClick
           Caption_UTF7 = '+MNUw6jD8MN4wpjC5MOIw/DDJ(&F)'
         end
         object SpTBXSeparatorItem9: TSpTBXSeparatorItem
