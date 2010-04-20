@@ -1,8 +1,10 @@
 {*------------------------------------------------------------------------------
   メインフォーム
+
   外部依存コンポーネント : TNT Unicode Controls, Toolbar 2000, TBX, SpTBXLib, TBX Themes
-  @Author    beck
-  @Version   2009.02.13   beck  Initial revision
+
+  @Author   $Author$
+  @Version  $Id$
 -------------------------------------------------------------------------------}
 
 unit Main;
@@ -251,7 +253,7 @@ begin
 
   FWindowInfo := TWindowInfo.Create;
 
-  HookHandle := SetWindowsHookEx(WH_CALLWNDPROC, @HookCallWndProc, 0, GetWindowThreadProcessId(Handle));
+//  HookHandle := SetWindowsHookEx(WH_CALLWNDPROC, @HookCallWndProc, 0, GetWindowThreadProcessId(Handle));
 
   //初期化
 //  Init;

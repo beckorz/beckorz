@@ -8,9 +8,8 @@
   TODO: キャプチャーイベントもこっち側でフォーム側に通知する
   TODO: 子ウィンドウ検索機能もFinderクラスが担当させる
 </p>
-  @Author    beck
-  @Version   2009.02.13   beck	Initial revision
-  @Version   2009.03.09   beck  機能実装
+  @Author   $Author$
+  @Version  $Id$
 -------------------------------------------------------------------------------}
 
 unit Finder;

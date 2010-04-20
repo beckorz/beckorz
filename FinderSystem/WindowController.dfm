@@ -21,7 +21,7 @@ object frmWindowController: TfrmWindowController
     Left = 4
     Top = 234
     Width = 517
-    Height = 22
+    Height = 28
     Align = alNone
     SizeGrip = False
     ThemeType = thtWindows
@@ -87,18 +87,18 @@ object frmWindowController: TfrmWindowController
     end
     object SpTBXTabSheet5: TSpTBXTabSheet
       Left = 0
-      Top = 26
+      Top = 28
       Width = 604
-      Height = 203
+      Height = 201
       Caption = #12454#12451#12531#12489#12454#29366#24907
       ImageIndex = 4
       TabItem = 'SpTBXTabItem10'
     end
     object SpTBXTabSheet2: TSpTBXTabSheet
       Left = 0
-      Top = 26
+      Top = 28
       Width = 604
-      Height = 203
+      Height = 201
       Caption = #12454#12451#12531#12489#12454#21322#36879#26126#24230
       ImageIndex = 1
       TabItem = 'SpTBXTabItem7'
@@ -271,9 +271,9 @@ object frmWindowController: TfrmWindowController
     end
     object SpTBXTabSheet1: TSpTBXTabSheet
       Left = 0
-      Top = 26
+      Top = 28
       Width = 604
-      Height = 203
+      Height = 201
       Caption = #12454#12451#12531#12489#12454#29366#24907#22793#26356
       ImageIndex = 0
       TabItem = 'SpTBXTabItem6'
@@ -492,8 +492,8 @@ object frmWindowController: TfrmWindowController
         object SpTBXToolbar1: TSpTBXToolbar
           Left = 48
           Top = 16
-          Width = 166
-          Height = 18
+          Width = 172
+          Height = 24
           Caption = 'SpTBXToolbar1'
           TabOrder = 1
           object SpTBXItem6: TSpTBXItem
@@ -517,7 +517,7 @@ object frmWindowController: TfrmWindowController
           Left = 48
           Top = 48
           Width = 136
-          Height = 18
+          Height = 24
           Caption = 'SpTBXToolbar1'
           TabOrder = 2
           object SpTBXItem1: TSpTBXItem
@@ -541,9 +541,9 @@ object frmWindowController: TfrmWindowController
     end
     object SpTBXTabSheet3: TSpTBXTabSheet
       Left = 0
-      Top = 26
+      Top = 28
       Width = 604
-      Height = 203
+      Height = 201
       Caption = #12473#12479#12452#12523
       ImageIndex = 2
       TabItem = 'SpTBXTabItem8'
@@ -873,9 +873,9 @@ object frmWindowController: TfrmWindowController
     end
     object SpTBXTabSheet4: TSpTBXTabSheet
       Left = 0
-      Top = 26
+      Top = 28
       Width = 604
-      Height = 203
+      Height = 201
       Caption = #25313#24373#12473#12479#12452#12523
       ImageIndex = 3
       TabItem = 'SpTBXTabItem9'
