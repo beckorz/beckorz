@@ -1,8 +1,8 @@
-LastChangedDate: $LastChangedDate$
-LastChangedRevision: $LastChangedRevision$
-LastChangedBy: $LastChangedBy$
-HeadURL: $HeadURL$
-Id: $Id$
+$LastChangedDate$
+$LastChangedRevision$
+$LastChangedBy$
+$HeadURL$
+$Id$
 
 Subversionでキーワード展開を有効にするには…
 svn propset svn:keywords "有効にするキーワードの空白区切りリスト" file
