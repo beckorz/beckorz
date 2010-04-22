@@ -4,5 +4,11 @@ $LastChangedBy$
 $HeadURL$
 $Id$
 
+省略形
+$Date$
+$Rev$
+$Author$
+$URL$
+
 Subversionでキーワード展開を有効にするには…
 svn propset svn:keywords "有効にするキーワードの空白区切りリスト" file
