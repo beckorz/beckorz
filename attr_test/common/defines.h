@@ -1,1 +1,1 @@
-#define MESSAGE "Hello, hoge world!\n"
+#define MESSAGE "Hello, piyo world!\n"
