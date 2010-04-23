@@ -15,10 +15,9 @@ Usage() {
 }
 
 # 引数解析
-MODE='2770'
 UMASK='0007'
 OPTS='--fs-type fsfs'
-while getopts g:m:u:o: OPT; do
+while getopts g:m:o: OPT; do
 	case $OPT in
 		g)	GID=$OPTARG;;
 		m)	UMASK=$OPTARG;;
@@ -38,11 +37,9 @@ DIR=${@+"$@"}
 # リポジトリディレクトリ作成～初期化
 if [ -n "$GID" ]; then
 	umask $UMASK
-	mkdir "$DIR"
 	svnadmin create $OPTS "$DIR"
 	chgrp -R "$GID" "$DIR"
 else
-	mkdir "$DIR"
 	svnadmin create $OPTS "$DIR"
 fi
 
