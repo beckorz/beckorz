@@ -1,6 +1,22 @@
-(残メモリ量を表示する)
-unless(IniFile.Get($Settings_ini()(setup)(ClockInactive))
-  (@settings/setup/ClockInactive))
+LOCALE& 'japanese', 'インアクティブ時に残物理メモリ量を表示', 'Show the current date when the Giraffe+ window is inactive'
+
+var-g(
+  (clock-display:format) (%Y/%m/%d (%a) %H:%M)
+  (clock-display:icon) ()
+  (clock-display:icon-color) ()
+  (clock-display:color) ()
+  (clock-display:window-width) ())
+
+#$clock-display:format((%A, %B %d, %Y))
+#$clock-display:icon((analog))
+#$clock-display:icon-color((bbb))
+#$clock-display:color((SetEditTextColor(switch-w(Time.GetDay()(7)((22a))(1)((a22))(*)((000)))))) #曜日で色分け
+#$clock-display:window-width(170()) #ウインドウ幅固定
+
+var-g(
+  (clock-display:displaying) false()) #This variable is not for customizing.
+
+#日時を表示する関数
 func-g(
   (clock-display:display)
   (
@@ -37,6 +53,18 @@ func-g(
       (OptimizeWidth(0())))
     SetRedraw((edit)1())
     RedrawGiraffe()
-  )
-)
+  ))
 
+SetEvent(
+  (timer/clock-display:display-100)
+  (
+    if(||(&&(!=(Window.GetForeground()$Giraffe:Handle) Window.IsVisible($Giraffe:Handle) is-empty(GetText)) $clock-display:displaying)
+      (clock-display:display()))))
+
+InsertEvent(
+  (Activate)
+  (
+    if($clock-display:displaying()
+      (
+        $clock-display:displaying(false)
+        ClearText()))))
