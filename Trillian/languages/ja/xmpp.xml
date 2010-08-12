@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="Ban" to="Ban"/>
+	<translation from="Browse for Conferences..." to="Browse for Conferences..."/>
+	<translation from="Bytestreams" to="Bytestreams"/>
+	<translation from="Change Role" to="権限を変更する"/>
+	<translation from="Configure Room" to="ルーム設定"/>
+	<translation from="Enter your Google Talk username and password below and click connect." to="Enter your Google Talk username and password below and click connect."/>
+	<translation from="Enter your full JID and password below and click connect." to="Enter your full JID and password below and click connect."/>
+	<translation from="Extended Away" to="Extended Away"/>
+	<translation from="Force use of bytestream proxy: %prefsXMPPS5BProxyName%" to="Force use of bytestream proxy: %prefsXMPPS5BProxyName%"/>
+	<translation from="Force use of port for bytestreams: %prefsXMPPS5BPortName%" to="Force use of port for bytestreams: %prefsXMPPS5BPortName%"/>
+	<translation from="Go Off The Record" to="Go Off The Record"/>
+	<translation from="Google: New Mail" to="Google: New Mail"/>
+	<translation from="Join a Conference..." to="Join a Conference..."/>
+	<translation from="Kick" to="キック"/>
+	<translation from="Moderator" to="モデレータ"/>
+	<translation from="Moderators" to="モデレータ"/>
+	<translation from="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%" to="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%"/>
+	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="Override default resource name with: %prefsXMPPResourceName%"/>
+	<translation from="Participant" to="Participant"/>
+	<translation from="Resource" to="リソース"/>
+	<translation from="Set priority for this connection to: %prefsXMPPPriorityValue%" to="Set priority for this connection to: %prefsXMPPPriorityValue%"/>
+	<translation from="Standards-based XMPP support, including all Jabber/XMPP networks and Google Talk." to="Standards-based XMPP support, including all Jabber/XMPP networks and Google Talk."/>
+	<translation from="Status Duration" to="Status Duration"/>
+	<translation from="Unknown Error" to="不明なエラー"/>
+	<translation from="Use legacy SSL for connection" to="Use legacy SSL for connection"/>
+	<translation from="Visitor" to="Visitor"/>
+	<translation from="Visitors" to="Visitors"/>
+	<translation from="ftStreamFail" to="*** We were unable to connect to the streamhost at &quot;%hostname%:%port%&quot;."/>
+	<translation from="ftStreamInfo" to="*** Offering streamhost &quot;%hostname%:%port%&quot;."/>
+	<translation from="ftStreamInfoRemote" to="*** Received streamhost &quot;%hostname%:%port%&quot;."/>
+	<translation from="ftStreamLocalUsed" to="*** A local stream was successful.  Beginning file transfer."/>
+	<translation from="ftStreamProxyActivated" to="*** The proxy stream was successfully activated.  Beginning file transfer."/>
+	<translation from="ftStreamProxyUsed" to="*** A proxy stream was successful.  Connecting to proxy streamhost at %hostname%."/>
+	<translation from="ftStreamRemoteUsed" to="*** The remote stream &quot;%hostname%:%port%&quot; was successful.  Notifying peer."/>
+	<translation from="infoConnAuthUnavailable" to="A method of authentication could not be agreed upon with your XMPP server."/>
+	<translation from="infoMUC301" to="%username% has been removed from the chat room.  The user has been banned."/>
+	<translation from="infoMUC307" to="%username% has been removed from the chat room.  The user has been kicked."/>
+	<translation from="infoMUC321" to="%username% has been removed from the chat room.  The user has been removed because of an affiliation change."/>
+	<translation from="infoMUC322" to="%username% has been removed from the chat room.  This room no longer allows access to non-members."/>
+	<translation from="infoMUC332" to="%username% has been removed from the chat room.  The system is being shutdown."/>
+	<translation from="infoMUC401" to="There was an error when joining the chat room: this room requires a password to enter."/>
+	<translation from="infoMUC403" to="There was an error when joining the chat room: you are banned from this room."/>
+	<translation from="infoMUC404" to="There was an error when joining the chat room: this room does not exist."/>
+	<translation from="infoMUC405" to="There was an error when joining the chat room: room creation is restricted."/>
+	<translation from="infoMUC406" to="There was an error when joining the chat room: your reserved room nickname must be used."/>
+	<translation from="infoMUC407" to="There was an error when joining the chat room: you are not on the member list for this room."/>
+	<translation from="infoMUC409" to="There was an error when joining the chat room: your desired nickname is already in use."/>
+	<translation from="infoMUC503" to="There was an error when joining the chat room: the maximum number of occupants has been reached."/>
+	<translation from="infoMUCAdminError" to="You do not have permission to perform the requested administrative action within this room."/>
+	<translation from="infoMUCRoleChange" to="%username% は今 %role% です"/>
+	<translation from="infoMUCUnknownError" to="There was an error when joining the chat room: &quot;%error%&quot;"/>
+	<translation from="infoNos" to="This conversation is off the record."/>
+	<translation from="infoNosDisabled" to="This conversation is no longer off the record."/>
+	<translation from="infoNosEnabled" to="This conversation has been taken off the record."/>
+	<translation from="infoServerType" to="You are connected to a &quot;%server%&quot; server."/>
+	<translation from="infoStreamError" to="ストリームエラー: %error%."/>
+	<translation from="infoUsernameIncomplete" to="Please use your full JID (i.e user@hostname.com) when creating a new XMPP account."/>
+	<translation from="miscIsGone" to="%username% has closed the message window."/>
+	<translation from="miscIsInactive" to="%username% has minimized the message window."/>
+	<translation from="systrayNewMailStatsP" to="%username%: You have %count% new messages in your inbox."/>
+	<translation from="unknown" to="不明"/>
+</language>

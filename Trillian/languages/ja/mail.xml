@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="POP3 and IMAP support." to="POP3とIMAPのサポート"/>
+	<translation from="infoAccountRemoveDialogCaption" to="Trillian"/>
+	<translation from="infoAccountRemoveDialogText" to="本当にこのアカウントを削除しますか?"/>
+	<translation from="infoAccountSettingsTitle" to="メールアカウントの設定"/>
+	<translation from="infoConnSucceed" to="%server% に接続できました。"/>
+	<translation from="infoConnectionSettingsConnectionTypeHeader" to="接続方法"/>
+	<translation from="infoConnectionSettingsMailServerHeader" to="サーバー"/>
+	<translation from="infoConnectionSettingsProxyHeader" to="プロキシー"/>
+	<translation from="infoConnectionSettingsTitle" to="この接続のサーバーとプロキシーの設定を調整してください"/>
+	<translation from="infoCreateConn" to="接続 &quot;%username%&quot; を作成します。"/>
+	<translation from="infoDisconnected" to="切断されました。"/>
+	<translation from="infoErrorAuth" to="認証エラー。  ユーザー名とパスワードを確認してください。  サーバーの返答: %response%"/>
+	<translation from="infoErrorConn" to="メールサーバーに接続できませんでした。  エラーコード: %errorcode%."/>
+	<translation from="infoErrorOther" to="メールセッションエラー。  サーバーの返答: %response%"/>
+	<translation from="infoMiscellaneousInboxHeader" to="受信トレイを表示するにはこのプログラムを実行:"/>
+	<translation from="infoMiscellaneousMailCheckHeader" to="通知"/>
+	<translation from="infoMiscellaneousOptionsHeader" to="オプション"/>
+	<translation from="infoMiscellaneousTitle" to="このアカウントの他のオプションの管理"/>
+	<translation from="infoReconn" to="Reconnecting to %medium% as &quot;%username%&quot;."/>
+	<translation from="infoStopMailCheckSuccessfullyWithNewMails" to="You have %unread% unread messages out of %total% messages."/>
+	<translation from="infoStopMailCheckSuccessfullyWithoutNewMails" to="新しいメールは1つもありません。"/>
+	<translation from="infoSystrayMailFrom" to="%username%: You have new mail from &lt;b&gt;%from%&lt;/b&gt; regarding: &quot;&lt;b&gt;%subject%&lt;/b&gt;&quot;."/>
+	<translation from="menuConnectionDisconnect" to="切断"/>
+	<translation from="menuConnectionReconnect" to="再接続"/>
+	<translation from="menuMailAccountCheckMail" to="メールをチェック"/>
+	<translation from="menuMailAccountMarkAllAsRead" to="すべてを既読にする"/>
+	<translation from="menuMailAccountMessageArchive" to="アーカイブ"/>
+	<translation from="menuMailAccountMessageDelete" to="削除"/>
+	<translation from="menuMailAccountMessageMarkAsRead" to="既読にする"/>
+	<translation from="menuMailAccountMessageMarkAsSpam" to="スパムとしてマーク"/>
+	<translation from="menuMailAccountMessageOpen" to="開く"/>
+	<translation from="menuMailAccountViewInbox" to="受信トレイを表示"/>
+	<translation from="no subject" to="題名がありません"/>
+	<translation from="prefsConnectionAutoConnect" to="実行のときにこのアカウントに自動に接続"/>
+	<translation from="prefsConnectionInvitation" to="下にメールアドレスとパスワードを入力して、&quot;接続&quot; をクリックしてください。"/>
+	<translation from="prefsConnectionMailServer" to="Incoming Mail Server"/>
+	<translation from="prefsConnectionMailUsername" to="Username"/>
+	<translation from="prefsConnectionPassword" to="パスワード"/>
+	<translation from="prefsConnectionSection" to="セクション"/>
+	<translation from="prefsConnectionSettingsConnectionType" to="接続方法:"/>
+	<translation from="prefsConnectionSettingsConnectionTypeSSL_TLS" to="SSL TLS"/>
+	<translation from="prefsConnectionSettingsConnectionTypeSSL_V2" to="SSL V2"/>
+	<translation from="prefsConnectionSettingsConnectionTypeSSL_V3" to="SSL V3"/>
+	<translation from="prefsConnectionSettingsConnectionTypeStandart" to="Standard connection"/>
+	<translation from="prefsConnectionSettingsMailServer" to="Incoming Mail Server:"/>
+	<translation from="prefsConnectionSettingsPort" to="ポート:"/>
+	<translation from="prefsConnectionSettingsProxyHost" to="Host:"/>
+	<translation from="prefsConnectionSettingsProxyPassword" to="パスワード:"/>
+	<translation from="prefsConnectionSettingsProxyPort" to="ポート:"/>
+	<translation from="prefsConnectionSettingsProxyProtocol" to="プロトコル:"/>
+	<translation from="prefsConnectionSettingsProxyProtocolHTTP" to="HTTP"/>
+	<translation from="prefsConnectionSettingsProxyProtocolNone" to="なし"/>
+	<translation from="prefsConnectionSettingsProxyProtocolSOCKS4" to="SOCKS4"/>
+	<translation from="prefsConnectionSettingsProxyProtocolSOCKS5" to="SOCKS5"/>
+	<translation from="prefsConnectionSettingsProxyResolveAt" to="Resolve at:"/>
+	<translation from="prefsConnectionSettingsProxyResolveAtLocalMachine" to="Local machine"/>
+	<translation from="prefsConnectionSettingsProxyResolveAtProxy" to="プロキシー"/>
+	<translation from="prefsConnectionSettingsProxyUsername" to="ユーザー名:"/>
+	<translation from="prefsConnectionSettingsUseDefaultProxyChoice" to="初期プロキシー設定を使う"/>
+	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="手動プロキシー設定"/>
+	<translation from="prefsConnectionUsername" to="メール"/>
+	<translation from="prefsMiscellaneousAdvanced" to="拡張"/>
+	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="このアカウントが有効でないとき、コネクションアイコンはコンタクトリストに表示されません"/>
+	<translation from="prefsMiscellaneousIMAPSearchInSubfolders" to="Search in subfolders for new mail"/>
+	<translation from="prefsMiscellaneousMailArriveAlert" to="Alert me when mail arrives for this account"/>
+	<translation from="prefsMiscellaneousMailCheckTimeout" to="Check my mail every %prefsMiscellaneousMailCheckTimeout% minutes"/>
+	<translation from="prefsMiscellaneousMailExpiredTime" to="Mail expires as old in %prefsMiscellaneousMailExpiredTime% hours"/>
+	<translation from="prefsMiscellaneousMailExpiredTimeChoice" to="Only display unread mail received in the last %prefsMiscellaneousMailExpiredTime% hours"/>
+	<translation from="prefsMiscellaneousMarkAllMailsAsReadOnViewInboxEvent" to="Mark all mail as read on view inbox event"/>
+	<translation from="prefsMiscellaneousPOP3DisplayAllMailsChoice" to="Display all mail stored on the server"/>
+	<translation from="prefsMiscellaneousShowMyMailAccountInTheContactList" to="Show my mail account in the contact list"/>
+	<translation from="prefsMiscellaneousViewInboxEventApp" to="下記のプログラム:"/>
+	<translation from="prefsMiscellaneousViewInboxEventAppChoice" to="下記のプログラム: %prefsMiscellaneousViewInboxEventApp%"/>
+	<translation from="prefsMiscellaneousViewInboxEventDefaultAppChoice" to="My default email application: "/>
+	<translation from="prefsMiscellaneousViewInboxEventWebSite" to="下記のウェブサイト:"/>
+	<translation from="prefsMiscellaneousViewInboxEventWebSiteChoice" to="下記のウェブサイト: %prefsMiscellaneousViewInboxEventWebSite%"/>
+	<translation from="statusConnecting" to="接続中"/>
+	<translation from="statusOffline" to="オフライン"/>
+	<translation from="statusOnline" to="オンライン"/>
+	<translation from="systrayMailStatsP" to="%username%: 受信トレイに %count% 個のメールはあります。"/>
+</language>

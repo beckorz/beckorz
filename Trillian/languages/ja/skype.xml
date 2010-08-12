@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="AWAY" to="Away"/>
+	<translation from="CALL_FAILURE_REASON_1" to="Miscellaneous error."/>
+	<translation from="CALL_FAILURE_REASON_10" to="%contact% not a friend."/>
+	<translation from="CALL_FAILURE_REASON_11" to="%username% not authorized by %contact%."/>
+	<translation from="CALL_FAILURE_REASON_12" to="Sound recording error."/>
+	<translation from="CALL_FAILURE_REASON_2" to="User or phone number does not exist."/>
+	<translation from="CALL_FAILURE_REASON_3" to="%contact% is offline."/>
+	<translation from="CALL_FAILURE_REASON_4" to="No proxy found."/>
+	<translation from="CALL_FAILURE_REASON_5" to="Session terminated."/>
+	<translation from="CALL_FAILURE_REASON_6" to="No common codec found."/>
+	<translation from="CALL_FAILURE_REASON_7" to="Sound I/O error."/>
+	<translation from="CALL_FAILURE_REASON_8" to="Problem with remote sound device."/>
+	<translation from="CALL_FAILURE_REASON_9" to="Call blocked by %contact%."/>
+	<translation from="CALL_STATUS_BUSY" to="%contact% is busy."/>
+	<translation from="CALL_STATUS_CANCELLED" to="Call was cancelled."/>
+	<translation from="CALL_STATUS_FAILED" to="Call failed"/>
+	<translation from="CALL_STATUS_FINISHED" to="Call is finished."/>
+	<translation from="CALL_STATUS_INPROGRESS" to="A call has been established."/>
+	<translation from="CALL_STATUS_MISSED" to="Call was missed."/>
+	<translation from="CALL_STATUS_REFUSED" to="%contact% has denied the call."/>
+	<translation from="CALL_STATUS_REFUSED_BY_ME" to="%username% has denied the call."/>
+	<translation from="CALL_STATUS_RINGING" to="%username% is calling..."/>
+	<translation from="CALL_STATUS_RINGING_INCOMING" to="%contact% is calling..."/>
+	<translation from="CITY" to="City"/>
+	<translation from="COUNTRY" to="国"/>
+	<translation from="Conference" to="Conference"/>
+	<translation from="DND" to="Do Not Disturb"/>
+	<translation from="Duration" to="Duration"/>
+	<translation from="FAILUREREASON_UNKNOWN" to="unknown failure reason"/>
+	<translation from="FEMALE" to="女性"/>
+	<translation from="FILETRANSFER_FAILURE_REASON_FAILED_READ" to="read error on local machine."/>
+	<translation from="FILETRANSFER_FAILURE_REASON_FAILED_REMOTE_READ" to="read error on remote machine."/>
+	<translation from="FILETRANSFER_FAILURE_REASON_FAILED_REMOTE_WRITE" to="write error on remote machine."/>
+	<translation from="FILETRANSFER_FAILURE_REASON_FAILED_WRITE" to="write error on local machine."/>
+	<translation from="FILETRANSFER_FAILURE_REASON_REMOTELY_CANCELLED" to="%contact% has cancelled the transfer."/>
+	<translation from="FILETRANSFER_FAILURE_REASON_REMOTE_DOES_NOT_SUPPORT_FT" to="Skype client of %contact% does not support file transfers."/>
+	<translation from="FILETRANSFER_FAILURE_REASON_REMOTE_OFFLINE_FOR_TOO_LONG" to="%contact% is not available (offline for longer than 7 days)."/>
+	<translation from="FILETRANSFER_FAILURE_REASON_SENDER_NOT_AUTHORIZED" to="%username% not authorized by %contact%."/>
+	<translation from="FULLNAME" to="Fullname"/>
+	<translation from="FileWasSentSuccessfully" to="&quot;%filename%&quot; was sent successfully."/>
+	<translation from="GENDER" to="性別"/>
+	<translation from="HOMEPAGE" to="ホームページ"/>
+	<translation from="INSUFFICIENT_FUNDS" to="insufficient Skype Credit to send an SMS message"/>
+	<translation from="INVALID_CONFIRMATION_CODE" to="erroneous confirmation code was submitted"/>
+	<translation from="INVISIBLE" to="Invisible"/>
+	<translation from="IP_BLOCKED" to="user&apos;s IP is blocked from the server"/>
+	<translation from="LANGUAGE" to="言語"/>
+	<translation from="MALE" to="男性"/>
+	<translation from="MISC_ERROR" to="failure to supply a meaningful error message"/>
+	<translation from="NA" to="Not Available"/>
+	<translation from="NICKNAME" to="ニックネーム"/>
+	<translation from="NODE_BLOCKED" to="user&apos;s p2p network node has been blocked from the server"/>
+	<translation from="NO_SENDERID_CAPABILITY" to="unknown failure reason"/>
+	<translation from="NO_SMS_CAPABILITY" to="recepient is unable to receive SMS messages"/>
+	<translation from="OFFLINE" to="オフライン"/>
+	<translation from="ONLINE" to="オンライン"/>
+	<translation from="PHONE_HOME" to="自宅の電話番号"/>
+	<translation from="PHONE_MOBILE" to="携帯番号"/>
+	<translation from="PHONE_OFFICE" to="会社の番号"/>
+	<translation from="PROVINCE" to="Province"/>
+	<translation from="SERVER_CONNECT_FAILED" to="unable to connect to SMS server"/>
+	<translation from="SKYPEME" to="Skype Me"/>
+	<translation from="STATUS" to="状態"/>
+	<translation from="Skype support." to="Skypeサポート"/>
+	<translation from="TARGET_NOT_ROUTABLE" to="target not routable"/>
+	<translation from="USER_BLOCKED" to="user is blocked from the server"/>
+	<translation from="attach_not_available" to="Attach not available."/>
+	<translation from="attach_refused" to="The user has denied access to the Skype client."/>
+	<translation from="callRequestingSkypeCall" to="&lt;b&gt;%contact%&lt;/b&gt; (%medium%) is requesting a skype call..."/>
+	<translation from="from" to="from"/>
+	<translation from="incomingFileNotification" to="&lt;b&gt;%contact%&lt;/b&gt; (%medium%) is sending file &quot;%filename%&quot;..."/>
+	<translation from="infoAccountRemoveDialogCaption" to="Trillian"/>
+	<translation from="infoAccountRemoveDialogText" to="Are you sure you wish to remove this account?"/>
+	<translation from="infoChatWindow" to="This window allows you chat with %contact%."/>
+	<translation from="infoConnSkypeIsNotInstalled" to="Skype is not currently installed on the system and is required for Trillian to connect to the Skype network."/>
+	<translation from="infoConnSkypeIsNotLoaded" to="Skype is not currently loaded.  Left click this alert to load."/>
+	<translation from="infoConnSkypeIsRunningButWasNotLoggedAs" to="Skype application is running but was not logged as %username%.  Left click this alert to load new Skype instance."/>
+	<translation from="infoConnSucceed" to="You have successfully connected to %medium%."/>
+	<translation from="infoConnect" to="Connecting to %medium% as &quot;%username%&quot;."/>
+	<translation from="infoCreateConn" to="Creating connection &quot;%username%&quot;"/>
+	<translation from="infoDisconnected" to="切断しました。"/>
+	<translation from="infoReconn" to="Reconnecting to %medium% as &quot;%username%&quot;."/>
+	<translation from="infoSendSMSWindow" to="This window allows you to send SMS messages to %contact% at (%phone_number%)."/>
+	<translation from="infoSignedOff" to="&quot;%contact%&quot; signed off at %time%."/>
+	<translation from="infoSignedOn" to="&quot;%contact%&quot; signed on at %time%."/>
+	<translation from="infoSmsHasBeenDelivered" to="Your SMS Message has been delivered."/>
+	<translation from="infoWasMarked" to="&quot;%contact%&quot; was marked &quot;%was_marked%&quot; on %time%."/>
+	<translation from="menuConnectionCancelSilentMode" to="Disable Skype Silent Mode"/>
+	<translation from="menuConnectionDisconnect" to="切断"/>
+	<translation from="menuConnectionReconnect" to="再接続"/>
+	<translation from="menuConnectionSetSilentMode" to="Enable Skype Silent Mode"/>
+	<translation from="menuConnectionSetStatus" to="Set Status"/>
+	<translation from="menuContactAppendToChat" to="Invite to Conversation..."/>
+	<translation from="menuContactCall" to="Call"/>
+	<translation from="menuContactCallFinish" to="End call"/>
+	<translation from="menuContactChat" to="メッセージを送る..."/>
+	<translation from="menuContactLeaveTheChat" to="Leave Conversation..."/>
+	<translation from="menuContactReJoin" to="Rejoin..."/>
+	<translation from="menuContactSendFile" to="ファイルを送る..."/>
+	<translation from="menuContactSendSMSTo" to="Send SMS to"/>
+	<translation from="menuContactSendSMSToPhoneHome" to="自宅"/>
+	<translation from="menuContactSendSMSToPhoneMobile" to="携帯番号"/>
+	<translation from="menuContactSendSMSToPhoneOffice" to="会社の電話"/>
+	<translation from="menuContactVideoCallFinish" to="Turn off video"/>
+	<translation from="menuContactVideoCallStart" to="Video call"/>
+	<translation from="menuContactViewContactInformation" to="View User Information"/>
+	<translation from="prefsConnectionAutoConnect" to="Automatically connect to this account at startup"/>
+	<translation from="prefsConnectionInvitation" to="Enter your username below and click connect"/>
+	<translation from="prefsConnectionPassword" to="パスワード"/>
+	<translation from="prefsConnectionUsername" to="ユーザー名"/>
+	<translation from="prefsMiscellaneousAdvanced" to="Advanced"/>
+	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its connection icon from the contact list"/>
+</language>

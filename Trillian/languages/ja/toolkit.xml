@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="&amp;Transparency" to="透明度(&amp;T)"/>
+	<translation from="&amp;View" to="100%(&amp;V)"/>
+	<translation from="10%" to="10%"/>
+	<translation from="20%" to="20%"/>
+	<translation from="30%" to="30%"/>
+	<translation from="40%" to="40%"/>
+	<translation from="50%" to="50%"/>
+	<translation from="60%" to="60%"/>
+	<translation from="70%" to="70%"/>
+	<translation from="80%" to="80%"/>
+	<translation from="90%" to="90%"/>
+	<translation from="Advanced Options" to="高度な設定"/>
+	<translation from="Attach" to="ドッキング"/>
+	<translation from="Cancel" to="キャンセル"/>
+	<translation from="Cascade Windows" to="ウィンドウを重ねて表示"/>
+	<translation from="Chat Room Window" to="Chat Room Window"/>
+	<translation from="Click to show more items" to="Click to show more items"/>
+	<translation from="Close" to="終了"/>
+	<translation from="Close All But This" to="Close All But This"/>
+	<translation from="Connection Window" to="コネクションウインドウ"/>
+	<translation from="Contact Window" to="コンタクトウインドウ"/>
+	<translation from="Current Position and Size" to="現在の位置とサイズ"/>
+	<translation from="Default" to="規定値の初期化"/>
+	<translation from="Default Layout" to="初期レイアウト"/>
+	<translation from="Default Theme" to="デフォルトテーマ"/>
+	<translation from="Desktop" to="デスクトップ"/>
+	<translation from="Detach" to="切り離す"/>
+	<translation from="Detach All" to="全て切り離す"/>
+	<translation from="Detach All and Close" to="Detach All and Close"/>
+	<translation from="Edit existing container..." to="Edit existing container..."/>
+	<translation from="Focus" to="フォーカス"/>
+	<translation from="From local to remote" to="From local to remote"/>
+	<translation from="Hide" to="隠す"/>
+	<translation from="Layout" to="レイアウト"/>
+	<translation from="Loading..." to="ロード中…"/>
+	<translation from="Maximize" to="最大化"/>
+	<translation from="Minimize" to="最小化"/>
+	<translation from="New Container..." to="New Container..."/>
+	<translation from="Off" to="Off"/>
+	<translation from="On" to="On"/>
+	<translation from="Options" to="オプション"/>
+	<translation from="Please wait a moment..." to="少々お待ちください…"/>
+	<translation from="Purge List" to="Purge List"/>
+	<translation from="Recent Containers" to="Recent Containers"/>
+	<translation from="Rename..." to="名称変更..."/>
+	<translation from="Reset" to="リセット"/>
+	<translation from="Save Settings" to="設定保存"/>
+	<translation from="Set as Default Container" to="Set as Default Container"/>
+	<translation from="Set as a Tabbed Container" to="Set as a Tabbed Container"/>
+	<translation from="Theme" to="テーマ"/>
+	<translation from="Themes" to="テーマ"/>
+	<translation from="Tile Windows" to="Tile Windows"/>
+	<translation from="Transparency" to="透過性"/>
+	<translation from="Trillian is changing skins." to="Trillianはスキンを変えています。&lt;!-- translation needed --&gt;"/>
+	<translation from="Turn it black and white" to="白黒に変わる。"/>
+	<translation from="Turn it semi-transparent" to="半透明に戻す"/>
+	<translation from="Visible" to="表示"/>
+	<translation from="dialogInitialInstructions" to="Configure your window to the desired positions, sizes, and interiors; then click Save Settings or Cancel below to go back to Trillian Preferences."/>
+	<translation from="dialogInitialWarning" to="Alert: Your windows are set to remember their previous state.  This means that some windows may not reflect the changes you are making here unless you choose to &apos;reset&apos; their previous state in preferences."/>
+	<translation from="textErrorTextRequired" to="Please enter some text or close the window."/>
+	<translation from="textErrorTransparency" to="Transparency is only available on Windows 2000/XP systems."/>
+	<translation from="titleError" to="Trillianのエラー"/>
+</language>

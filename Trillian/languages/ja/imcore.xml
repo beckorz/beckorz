@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="&amp;Actions" to="&amp;Actions"/>
+	<translation from="Account Options" to="Account Options"/>
+	<translation from="Account Settings" to="Account Settings"/>
+	<translation from="Add to Contact List..." to="Add to Contact List..."/>
+	<translation from="Advanced" to="Advanced"/>
+	<translation from="Age" to="年齢"/>
+	<translation from="Alert me when mail arrives for this account" to="Alert me when mail arrives for this account"/>
+	<translation from="Allow" to="許可"/>
+	<translation from="Allow a Contact..." to="コンタクトを許可..."/>
+	<translation from="Allow a User..." to="ユーザーを許可..."/>
+	<translation from="Allow and Block List" to="許可/ブロックリスト"/>
+	<translation from="Appear Offline" to="Appear Offline"/>
+	<translation from="Appear Online Always" to="Appear Online Always"/>
+	<translation from="Auto-response: " to="自動返信:"/>
+	<translation from="Automatically approve all incoming add requests" to="Automatically approve all incoming add requests"/>
+	<translation from="Automatically connect to this account at startup" to="Automatically connect to this account at startup"/>
+	<translation from="Automatically log me into mail when possible" to="Automatically log me into mail when possible"/>
+	<translation from="Away" to="退席中"/>
+	<translation from="Block" to="ブロック"/>
+	<translation from="Block List" to="ブロックリスト"/>
+	<translation from="Block User" to="ユーザーをブロック"/>
+	<translation from="Block a Contact..." to="コンタクトをブロック..."/>
+	<translation from="Block a User..." to="ユーザーをブロック..."/>
+	<translation from="Busy" to="取り込み中"/>
+	<translation from="Call" to="Call"/>
+	<translation from="Cancel" to="キャンセル"/>
+	<translation from="Change Password" to="パスワードを変更"/>
+	<translation from="Check Mail" to="メールをチェック"/>
+	<translation from="Client Description" to="Client Description"/>
+	<translation from="Connection" to="Connection"/>
+	<translation from="Contact:" to="コンタクト:"/>
+	<translation from="Disconnect" to="切断"/>
+	<translation from="Display Name" to="表示名"/>
+	<translation from="Do Not Disturb" to="邪魔しないで下さい"/>
+	<translation from="Do Nothing" to="何もしない"/>
+	<translation from="Email" to="Eメール"/>
+	<translation from="Error during file transfer." to="Error during file transfer."/>
+	<translation from="Establishing call..." to="Establishing call..."/>
+	<translation from="File transfer active." to="File transfer active."/>
+	<translation from="File transfer cancelled by remote." to="File transfer cancelled by remote."/>
+	<translation from="File transfer cancelled." to="File transfer cancelled."/>
+	<translation from="File transfer closed." to="File transfer closed."/>
+	<translation from="File transfer completed successfully." to="File transfer completed successfully."/>
+	<translation from="File transfer declined." to="File transfer declined."/>
+	<translation from="File transfer was accepted at another location." to="File transfer was accepted at another location."/>
+	<translation from="Fine tune the server and proxy settings for this connection." to="Fine tune the server and proxy settings for this connection."/>
+	<translation from="Follow Global Presence" to="Follow Global Presence"/>
+	<translation from="Free For Chat" to="Free For Chat"/>
+	<translation from="General" to="全般"/>
+	<translation from="Group Conversation" to="Group Conversation"/>
+	<translation from="Hostname:" to="ホスト名:"/>
+	<translation from="Idle" to="アイドル"/>
+	<translation from="Invisible" to="不可視"/>
+	<translation from="Invite to Conference..." to="Invite to Conference..."/>
+	<translation from="Invited" to="Invited"/>
+	<translation from="Join a Chat..." to="チャットに招待..."/>
+	<translation from="Local machine" to="Local machine"/>
+	<translation from="Mail" to="メール"/>
+	<translation from="Mail: New Mail" to="Mail: New Mail"/>
+	<translation from="Manage other options for this account." to="Manage other options for this account."/>
+	<translation from="Manage the privacy settings for this account." to="Manage the privacy settings for this account."/>
+	<translation from="Manually specify proxy" to="手動にプロキシーを決める"/>
+	<translation from="Message" to="メッセージ"/>
+	<translation from="Miscellaneous" to="その他"/>
+	<translation from="Mobile" to="モバイル"/>
+	<translation from="None" to="なし"/>
+	<translation from="On The Phone" to="電話中"/>
+	<translation from="Online" to="オンライン"/>
+	<translation from="Only accept messages from users on my contact list" to="コンタクトリストにいるユーザーだけからメッセージを許可"/>
+	<translation from="Out To Lunch" to="昼休み中"/>
+	<translation from="Override my display name for this account with: %prefsMiscOverrideDisplayNameName%" to="Override my display name for this account with: %prefsMiscOverrideDisplayNameName%"/>
+	<translation from="Participants" to="Participants"/>
+	<translation from="Password" to="パスワード"/>
+	<translation from="Password:" to="パスワード:"/>
+	<translation from="Permissions" to="権限"/>
+	<translation from="Port:" to="ポート:"/>
+	<translation from="Preparing call..." to="Preparing call..."/>
+	<translation from="Privacy" to="プライバシー"/>
+	<translation from="Privacy settings can only be controlled when connected to this account." to="Privacy settings can only be controlled when connected to this account."/>
+	<translation from="Protocol:" to="プロトコル:"/>
+	<translation from="Proxy" to="プロキシー"/>
+	<translation from="Re-request Authorization" to="もう一度認証を要求"/>
+	<translation from="Reconnect" to="再接続"/>
+	<translation from="Remove" to="削除"/>
+	<translation from="Reset" to="リセット"/>
+	<translation from="Resolve at:" to="Resolve at:"/>
+	<translation from="Resource" to="Resource"/>
+	<translation from="Ringing..." to="Ringing..."/>
+	<translation from="Send File..." to="ファイルを送る..."/>
+	<translation from="Send Message..." to="メッセージを送る..."/>
+	<translation from="Send a Message..." to="メッセージを送る..."/>
+	<translation from="Server" to="サーバー"/>
+	<translation from="Set Status" to="ステータスをセット"/>
+	<translation from="Show my mail account in the contact list" to="コンタクトリストにメールのアカウントを表示"/>
+	<translation from="Some of these settings have been disabled because this connection is offline." to="Some of these settings have been disabled because this connection is offline."/>
+	<translation from="Some of these settings will only take effect the next time you connect to this account." to="Some of these settings will only take effect the next time you connect to this account."/>
+	<translation from="Status" to="ステータス"/>
+	<translation from="Status Message" to="Status Message"/>
+	<translation from="This contact could not be added to your list." to="このコンタクトはリストに追加できませんでした。"/>
+	<translation from="Unblock" to="ブロックを外す"/>
+	<translation from="Unblock User" to="ユーザーのブロックを外す"/>
+	<translation from="Use default proxy settings" to="初期プロキシー設定を使う"/>
+	<translation from="User:" to="ユーザー:"/>
+	<translation from="Username" to="ユーザー名"/>
+	<translation from="Username:" to="ユーザー名:"/>
+	<translation from="Video Call" to="Video Call"/>
+	<translation from="View User Information" to="ユーザー情報を表示"/>
+	<translation from="When this account is not active, hide its connection icon from the Contact List" to="When this account is not active, hide its connection icon from the Contact List"/>
+	<translation from="day" to="日"/>
+	<translation from="days" to="日"/>
+	<translation from="ftBeginIncoming" to="*** Attempting to receive %filename% from %username%."/>
+	<translation from="ftBeginOutgoing" to="*** Attempting to send %filename% to %username%."/>
+	<translation from="ftConnectInfoServer" to="*** Notice: %username% has requested a server-proxied file transfer.  We are attempting to connect to %ip%:%port%."/>
+	<translation from="ftEnd" to="*** The file transfer has ended."/>
+	<translation from="ftErrorCapability" to="*** Error: %username% is running a client that does not support file transfers."/>
+	<translation from="ftErrorContact" to="*** Error: You cannot send files to users who are not on your contact list."/>
+	<translation from="ftErrorSelf" to="*** Error: You cannot send files to yourself."/>
+	<translation from="ftErrorServer" to="*** Error: We were unable to connect to the proxy server at %ip%:%port%.  This file transfer cannot continue."/>
+	<translation from="ftLocalHostChangeClient" to="*** Notice: We failed to connect to %username%.  We are now attempting to connect to an alternate IP address and port, %ip%:%port%."/>
+	<translation from="ftLocalHostChangeExhaustedServer" to="*** Notice:  All avenues of connecting directly to %username% have been exhausted.  We are now requesting a server-proxied file transfer."/>
+	<translation from="ftOpenFileFailure" to="*** Error: Failure when attempting to open %filename% for reading.  Please make sure the file is not in use and is available for reading and try again."/>
+	<translation from="ftResumeFailureInc" to="*** Notice: A resume was requested but could not proceed because the sender&apos;s copy of the file is different than yours.  A new file is being created to avoid data loss."/>
+	<translation from="has cancelled the call." to="has cancelled the call."/>
+	<translation from="has closed the call by signing offline." to="has closed the call by signing offline."/>
+	<translation from="has closed the call." to="has closed the call."/>
+	<translation from="has declined the call." to="has declined the call."/>
+	<translation from="hour" to="時"/>
+	<translation from="hours" to="時"/>
+	<translation from="infoAuthRequest" to="%username% has requested permission to add you to their contact list."/>
+	<translation from="infoAuthRequestLog" to="&quot;%username%&quot; has requested permission to add you to their contact list."/>
+	<translation from="infoAuthRequestReason" to="%username% has requested permission to add you to their contact list: &quot;%reason%&quot;."/>
+	<translation from="infoAutoResponseSent" to="Auto-response sent to %username%: %response%"/>
+	<translation from="infoCalling" to="is calling %username%."/>
+	<translation from="infoChatCreating" to="Creating conference..."/>
+	<translation from="infoChatInvite" to="%username% is inviting you to join a conference."/>
+	<translation from="infoChatJoin" to="%username% has joined the conversation."/>
+	<translation from="infoChatLeave" to="%username% has left the conversation."/>
+	<translation from="infoConfirmAccountRemove" to="本当にこのアカウントを削除しますか？"/>
+	<translation from="infoConnProxy" to="We are using a proxy of type &quot;%protocol%&quot; at &quot;%hostname%:%port%&quot; to connect."/>
+	<translation from="infoConnReconnecting" to="Attempting to reconnect in %seconds% seconds..."/>
+	<translation from="infoConnSucceed" to="%medium% に接続できました。"/>
+	<translation from="infoContactAway" to="&quot;%displayname% (%username%)&quot; は %time% に退席中になりました。"/>
+	<translation from="infoContactFFC" to="&quot;%displayname% (%username%)&quot; is free for chat as of %time%."/>
+	<translation from="infoContactIdle" to="&quot;%displayname% (%username%)&quot; は %time% にIdleになりました。"/>
+	<translation from="infoContactInvisible" to="&quot;%displayname% (%username%)&quot; went invisible at %time%."/>
+	<translation from="infoContactMarked" to="&quot;%displayname% (%username%)&quot; was marked &quot;%status%&quot; on %time%."/>
+	<translation from="infoContactOffline" to="&quot;%displayname% (%username%)&quot; は %time% にオフラインになりました。"/>
+	<translation from="infoContactOnline" to="&quot;%displayname% (%username%)&quot; は %time% にオンラインになりました。"/>
+	<translation from="infoContactReturn" to="&quot;%displayname% (%username%)&quot; は %time% に退席ステータスから戻りました。"/>
+	<translation from="infoContactReturnIdle" to="&quot;%displayname% (%username%)&quot; は %time% にIdleステータスから戻りました。"/>
+	<translation from="infoCreateConn" to="接続 &quot;%username%&quot; 作成しています。"/>
+	<translation from="infoDisconnected" to="切断されました。"/>
+	<translation from="infoErrorConn" to="%medium% にの接続はしっぱいしました: システムエラーコード &quot;%errcode%&quot;."/>
+	<translation from="infoFrom" to="%username% から"/>
+	<translation from="infoLoggedoffOtherAcct" to="ほかのコンピュータで %medium% にログインしましたから、ここでログオフされます。"/>
+	<translation from="infoLoginErrPass" to="%medium% にの接続は失敗しました: パスワードは間違いました。"/>
+	<translation from="infoLoginRebind" to="Bound to resource %name%."/>
+	<translation from="infoMessageErrUnavailable" to="相手に前のメッセージを送ることはできませんでした。もう一度送ってみて下さい。"/>
+	<translation from="infoMsgLenExceed" to="前のメッセージは送りませんでした。  理由: 最大の文字数 (%length) は超えました。  設定によって、前のメッセージをまた編集ボックスを置くには Ctrl+↑ または ↑ を押して下さい。"/>
+	<translation from="infoMsgNAK" to="下記のメッセージは相手に送ることはできませんでした: %message%"/>
+	<translation from="infoPluginInUse" to="This plugin is currently being used externally by the %plugin% plugin and cannot be unloaded."/>
+	<translation from="infoReconnect" to="&quot;%username%&quot; として %medium% に 再接続しています。"/>
+	<translation from="infoResourceChange" to="The active resource for this window has changed to &quot;%resource%&quot;."/>
+	<translation from="infoStatusChange" to="&quot;%status&quot; にセットしています。"/>
+	<translation from="infoTLSType" to="TLS established using %description%."/>
+	<translation from="infoUsernameInvalid" to="%username% は有効な %medium% のユーザー名ではありません。"/>
+	<translation from="is calling you." to="is calling you."/>
+	<translation from="is currently unavailable." to="is currently unavailable."/>
+	<translation from="is inviting you to join a conference." to="is inviting you to join a conference."/>
+	<translation from="minute" to="分"/>
+	<translation from="minutes" to="分"/>
+	<translation from="miscIsPaused" to="%username% はテキストを入力しました。"/>
+	<translation from="miscIsTyping" to="%username% はメッセージを入力しています。"/>
+	<translation from="seconds" to="秒"/>
+	<translation from="systrayAuthApproved" to="%username% は認証要求を許可しました。"/>
+	<translation from="systrayAuthDenied" to="%username% は認証要求を拒否しました。"/>
+	<translation from="systrayAuthRequest" to="%username% はコンタクトリストに追加の認証を要求しています。"/>
+	<translation from="systrayMail" to="%username%: 新しいメールがあります"/>
+	<translation from="systrayMailFrom" to="%username%: You have new mail from &lt;b&gt;%from%&lt;/b&gt; regarding: &quot;&lt;b&gt;%subject%&lt;/b&gt;&quot;."/>
+	<translation from="systrayMailStatsP" to="%username%: 受信トレイに %count% 個の メールがあります。"/>
+	<translation from="systrayMailStatsS" to="%username%: 受信トレイに 1個の メールがあります。"/>
+	<translation from="systrayPassword" to="%medium% にの接続は失敗しました: パスワードは間違いました。  パスワードをリセットするにはここにクリックしてください。"/>
+	<translation from="systrayStatus" to="%medium% にの接続は失敗しました.  詳細を表示するにはここにクリックしてください。"/>
+</language>
