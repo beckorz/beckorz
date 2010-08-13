@@ -14,7 +14,6 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Forms,
   Dialogs, StdCtrls, Buttons, ExtCtrls, ImgList, MSHTML, Graphics,
-
   {* WebBrowser *}
   Shdocvw_tlb,
 //  WebBrowser,
@@ -65,7 +64,7 @@ uses
   , TBXNewOfficeTheme
   , TBXOffice11XPTheme
 
-  , SpTBXEditors
+  , SpTBXEditors, TntExtCtrls
   ;
 
 type
@@ -73,7 +72,6 @@ type
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
-    pnlFinder: TPanel;
     imlFinder: TImageList;
     dockMain: TSpTBXDock;
     SpTBXGroupBox1: TSpTBXGroupBox;
@@ -151,6 +149,8 @@ type
     mnuViewFindType: TSpTBXSubmenuItem;
     mnuViewFindTypeStandard: TSpTBXItem;
     mnuViewFindTypeDetail: TSpTBXItem;
+    pnlFinder: TTntPanel;
+    chkGlassForm: TSpTBXCheckBox;
     procedure mnuToolWindowOperateClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure pnlFinderMouseDown(Sender: TObject; Button: TMouseButton;
@@ -223,8 +223,8 @@ begin
       //  コレがダイアログ(メニューもダイアログと同じクラス名)なら
       if (szClass = '#32768') or (szClass = 'TSpTBXPopupWindow') then begin
         //  今のスタイルに透き通るスタイルを付け加えて
-        SetWindowLong(cwps.hwnd, GWL_EXSTYLE,
-                      GetWindowLong(cwps.hwnd, GWL_EXSTYLE) or WS_EX_LAYERED);
+        SetWindowLongW(cwps.hwnd, GWL_EXSTYLE,
+                      GetWindowLongW(cwps.hwnd, GWL_EXSTYLE) or WS_EX_LAYERED);
         //  透明度を設定する
         SetLayeredWindowAttributes(cwps.hwnd, 0, MENU_ALPHA, LWA_ALPHA);
       end;
@@ -387,6 +387,7 @@ begin
   tmpHdc := GetDC(Wnd);
   color := GetPixel(tmpHdc, PT.X, PT.Y);
   edtColor.Text := '#' + IntToHex(Color, 6);
+  edtColor.Color := tcolor(Color);
 
   // 通常検索
   if mnuViewFindTypeStandard.Checked then begin
@@ -522,10 +523,10 @@ begin
     rdoIconic.Checked := IsIconic;
     rdoNormal.Checked := IsNormal;
 
-    edtStyle.Text := IntToStr(GetWindowLong(hWnd, GWL_STYLE));
-    edtStyleHex.Text := '0x' + IntToHex(GetWindowLong(hWnd, GWL_STYLE), 8);
-    edtExStyle.Text := IntToStr(GetWindowLong(hWnd, GWL_EXSTYLE));
-    edtExStyleHex.Text := '0x' + IntToHex(GetWindowLong(hWnd, GWL_EXSTYLE), 8);
+    edtStyle.Text := IntToStr(GetWindowLongW(hWnd, GWL_STYLE));
+    edtStyleHex.Text := '0x' + IntToHex(GetWindowLongW(hWnd, GWL_STYLE), 8);
+    edtExStyle.Text := IntToStr(GetWindowLongW(hWnd, GWL_EXSTYLE));
+    edtExStyleHex.Text := '0x' + IntToHex(GetWindowLongW(hWnd, GWL_EXSTYLE), 8);
 
     edtWinPos.Text := '(' + IntToStr(rect.Left) + ',' + IntToStr(rect.Top) + ')-('
                       + IntToStr(rect.Right) + ',' + IntToStr(rect.Bottom) + ') '

@@ -64,22 +64,11 @@ object frmMain: TfrmMain
     Width = 32
     Height = 32
   end
-  object pnlFinder: TPanel
-    Left = 4
-    Top = 32
-    Width = 37
-    Height = 37
-    BevelOuter = bvLowered
-    Ctl3D = True
-    ParentCtl3D = False
-    TabOrder = 9
-    OnMouseDown = pnlFinderMouseDown
-  end
   object dockMain: TSpTBXDock
     Left = 0
     Top = 0
     Width = 581
-    Height = 28
+    Height = 22
     AllowDrag = False
     object tbrMain: TSpTBXToolbar
       Left = 0
@@ -209,7 +198,7 @@ object frmMain: TfrmMain
     Width = 256
     Height = 62
     Caption = #12454#12451#12531#12489#12454#24773#22577
-    TabOrder = 11
+    TabOrder = 10
     Caption_UTF7 = '+MKYwozDzMMkwpmDFWDE'
     object Label4: TLabel
       Left = 30
@@ -350,7 +339,7 @@ object frmMain: TfrmMain
     Width = 256
     Height = 56
     Caption = #24231#27161#31995#24773#22577
-    TabOrder = 12
+    TabOrder = 11
     Caption_UTF7 = '+XqdqGXz7YMVYMQ'
     object Label6: TLabel
       Left = 15
@@ -415,7 +404,7 @@ object frmMain: TfrmMain
     Height = 22
     Caption = 'tbrTool'
     Images = imlTool
-    TabOrder = 13
+    TabOrder = 12
     object SpTBXSeparatorItem4: TSpTBXSeparatorItem
     end
     object tbrSetTextBoxReadOnly: TSpTBXItem
@@ -491,7 +480,7 @@ object frmMain: TfrmMain
     Top = 112
     Width = 193
     Height = 25
-    TabOrder = 14
+    TabOrder = 13
     object rdoZoom: TSpTBXRadioButton
       Left = 7
       Top = 6
@@ -556,8 +545,30 @@ object frmMain: TfrmMain
     Caption = 'Unicode(&U)'
     Enabled = False
     ParentColor = True
-    TabOrder = 15
+    TabOrder = 14
     TabStop = False
+  end
+  object pnlFinder: TTntPanel
+    Left = 8
+    Top = 32
+    Width = 37
+    Height = 37
+    BevelOuter = bvLowered
+    Ctl3D = True
+    ParentCtl3D = False
+    TabOrder = 15
+    OnMouseDown = pnlFinderMouseDown
+  end
+  object chkGlassForm: TSpTBXCheckBox
+    Left = 4
+    Top = 176
+    Width = 82
+    Height = 15
+    Hint = 'Vista'#20197#38477'Aero'#27231#33021
+    Caption = 'GlassForm(&G)'
+    ParentColor = True
+    TabOrder = 16
+    Hint_UTF7 = 'Vista+TuWWTQ-Aero+al+A/Q'
   end
   object imlFinder: TImageList
     BkColor = 13160660

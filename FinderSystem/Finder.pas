@@ -18,7 +18,7 @@ interface
 { 宣言部 }
 
 uses
-  Windows, Messages, Classes, ExtCtrls, Controls, Graphics, Forms;
+  Windows, Messages, Classes, ExtCtrls, Controls, Graphics, Forms, TntExtCtrls;
 
 type
   /// TFinder (ファインディング担当クラス)
@@ -27,7 +27,7 @@ type
     { Private 宣言 : あらゆるアクセスからの保護 }
 
     FOriginProc: TWndMethod;    /// 元のウィンドウ関数保持用
-    FFinderPanel: TPanel;       /// ファインダーコントロールのパネル
+    FFinderPanel: TCustomPanel; /// ファインダーコントロールのパネル
     FImlFinder: TImageList;     /// Finderのイメージリスト
 		FFinding: Boolean;		      /// 検索中
     FFinderCanvas: TCanvas;     /// Finder描画キャンバス
@@ -46,7 +46,7 @@ type
 
   public
     { Public 宣言 : すべてのアクセスを許可(オブジェクトインスペクタには表示されません) }
-    constructor Create(var FinderPanel: TPanel; var ImageList: TImageList);   // コンストラクタ
+    constructor Create(var FinderPanel: TTntPanel; var ImageList: TImageList);   // コンストラクタ
     destructor Destroy; override;   // デストラクタ
 
 		property Finding: Boolean			read GetFinding write SetFinding;		/// 検索中
@@ -109,7 +109,7 @@ end;
   @param ImageList   Finder用画像描画用イメージリスト
   @return ResultDescription
 ------------------------------------------------------------------------------*}
-constructor TFinder.Create(var FinderPanel: TPanel; var ImageList: TImageList);
+constructor TFinder.Create(var FinderPanel: TTntPanel; var ImageList: TImageList);
 begin
 
   // サブクラス化

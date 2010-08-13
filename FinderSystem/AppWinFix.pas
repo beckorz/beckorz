@@ -84,11 +84,11 @@ unit AppWinFix;
 interface
 
 uses
-  Windows, Controls, Forms, Dialogs, Messages, Classes, SysUtils;
+  Windows, Controls, Forms, Dialogs, Messages, Classes, SysUtils, TntForms;
 
 type
   { メインフォーム用 }
-  TCustomMainForm = class(TForm)
+  TCustomMainForm = class(TTntForm)
   private
     FWindowList: TList;
     procedure RestoreAllForm;
@@ -111,7 +111,7 @@ type
 
 type
   { サブフォーム用 }
-  TCustomSubForm = class(TForm)
+  TCustomSubForm = class(TTntForm)
   private
     FParentWinHandle: HWND;
     FAppMinHide: Boolean;
@@ -134,7 +134,7 @@ implementation
 ------------------------------------------------------------------------------*}
 procedure TCustomMainForm.ApplicationMaximize;
 begin
-  SendMessage(Handle, WM_SYSCOMMAND, SC_MAXIMIZE, 0 );
+  SendMessageW(Handle, WM_SYSCOMMAND, SC_MAXIMIZE, 0 );
 end;
 
 {*------------------------------------------------------------------------------
@@ -143,7 +143,7 @@ end;
 ------------------------------------------------------------------------------*}
 procedure TCustomMainForm.ApplicationMinimize;
 begin
-  SendMessage(Handle, WM_SYSCOMMAND, SC_MINIMIZE, 0 );
+  SendMessageW(Handle, WM_SYSCOMMAND, SC_MINIMIZE, 0 );
 end;
 
 {*------------------------------------------------------------------------------
@@ -152,7 +152,7 @@ end;
 ------------------------------------------------------------------------------*}
 procedure TCustomMainForm.ApplicationRestore;
 begin
-  SendMessage(Handle, WM_SYSCOMMAND, SC_RESTORE, 0 );
+  SendMessageW(Handle, WM_SYSCOMMAND, SC_RESTORE, 0 );
 end;
 
 {*------------------------------------------------------------------------------
@@ -344,8 +344,8 @@ initialization
   if not SameText(ExtractFileName(Application.ExeName), 'bds.exe') then begin
     {↓アプリケーションウィンドウをタスクボタンから消し画面の存在も消す}
     ShowWindow(Application.Handle, SW_HIDE);
-    SetWindowLong(Application.Handle, GWL_EXSTYLE,
-      GetWindowLong(Application.Handle, GWL_EXSTYLE) and not WS_EX_APPWINDOW
+    SetWindowLongW(Application.Handle, GWL_EXSTYLE,
+      GetWindowLongW(Application.Handle, GWL_EXSTYLE) and not WS_EX_APPWINDOW
       or WS_EX_TOOLWINDOW);
   //  ShowWindow(Application.Handle, SW_SHOW);
 

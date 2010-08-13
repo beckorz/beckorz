@@ -41,7 +41,7 @@ end;
 ------------------------------------------------------------------------------*}
 procedure SetTextStyle_Number(hWnd: HWND);
 begin
-  SetWindowLong(hWnd, GWL_STYLE, GetWindowLong(hWnd, GWL_STYLE) xor ES_NUMBER);
+  SetWindowLongW(hWnd, GWL_STYLE, GetWindowLong(hWnd, GWL_STYLE) xor ES_NUMBER);
 end;
 
 {*------------------------------------------------------------------------------
@@ -51,7 +51,7 @@ end;
 ------------------------------------------------------------------------------*}
 procedure SetTextBoxStyle_Upper(Handle: hWnd);
 begin
-  SetWindowLong(Handle, GWL_STYLE, GetWindowLong(Handle, GWL_STYLE) xor ES_UPPERCASE);
+  SetWindowLongW(Handle, GWL_STYLE, GetWindowLong(Handle, GWL_STYLE) xor ES_UPPERCASE);
 end;
 
 {*------------------------------------------------------------------------------
@@ -61,7 +61,7 @@ end;
 ------------------------------------------------------------------------------*}
 procedure SetTextBoxStyle_Lower(Handle: hWnd);
 begin
-  SetWindowLong(Handle, GWL_STYLE, GetWindowLong(Handle, GWL_STYLE) xor ES_LOWERCASE);
+  SetWindowLongW(Handle, GWL_STYLE, GetWindowLongW(Handle, GWL_STYLE) xor ES_LOWERCASE);
 end;
 
 end.

@@ -358,8 +358,8 @@ begin
   FIsIconic := Windows.IsIconic(FHandle);
   FIsNormal := not (FIsZoomed or FIsIconic);
 
-  FStyle := GetWindowLong(FHandle, GWL_STYLE);
-  FExStyle := GetWindowLong(FHandle, GWL_EXSTYLE);
+  FStyle := GetWindowLongW(FHandle, GWL_STYLE);
+  FExStyle := GetWindowLongW(FHandle, GWL_EXSTYLE);
 
   GetWindowRect(FHandle, FRect);
   Windows.GetClientRect(FHandle, FClientRect);
@@ -377,8 +377,8 @@ begin
   ShowWindow(FHandle, Integer(IsVisible And True)); // 可視設定
   SetWindowTopMost(FHandle, Not IsTopMost);         // 最前面
   SetWindowTextW(FHandle, PWideChar(FText));        // ウィンドウテキスト
-  SetWindowLong(FHandle, GWL_STYLE, FStyle);        // スタイル
-  SetWindowLong(FHandle, GWL_EXSTYLE, FExStyle);    // 拡張スタイル
+//  SetWindowLong(FHandle, GWL_STYLE, FStyle);        // スタイル
+//  SetWindowLong(FHandle, GWL_EXSTYLE, FExStyle);    // 拡張スタイル
 
   // 再読み込み
   Self.Load(FHandle);
@@ -819,8 +819,8 @@ begin
 	// retrieve its parent
 	hParent := GetParent(Handle);
 	// check if it and its parent is a window dialog frame
-	if(((GetWindowLong(Handle, GWL_STYLE) and WS_DLGFRAME) = WS_DLGFRAME) and
-	   ((GetWindowLong(hParent, GWL_STYLE) and WS_DLGFRAME) = WS_DLGFRAME)) then begin
+	if(((GetWindowLongW(Handle, GWL_STYLE) and WS_DLGFRAME) = WS_DLGFRAME) and
+	   ((GetWindowLongW(hParent, GWL_STYLE) and WS_DLGFRAME) = WS_DLGFRAME)) then begin
 		Exit;
 	end;
 	if ((IsWindow(hParent)) and (hParent <> 0)) then begin
