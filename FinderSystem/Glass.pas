@@ -1,4 +1,4 @@
-// Aero Glass Effekt fur Delphi-Forms 
+// Aero Glass Effekt fur Delphi-Forms
 // 
 // Mit der Methode GlassForm kann fur eine Form der 
 // Aero Glass Effekt unter Vista aktiviert werden. 
@@ -27,29 +27,31 @@
 // 
 // procedure TForm1.FormActivate(Sender: TObject); 
 // begin 
-//   GlassForm(Form1); 
+//   GlassForm(Form1);
 //   // oder mit anderem BlurColorKey 
 //   // GlassForm(Form1, clBlue) 
 // end; 
 
 unit Glass;
 
-interface 
+interface
 
-uses 
-  Windows, 
-  Forms, 
-  Graphics; 
-  
-  procedure GlassForm(frm: TForm; cBlurColorKey: TColor = clFuchsia);
+uses
+  Windows,
+  Forms,
+  Graphics;
+
+  procedure GlassForm(Handle: HWND; cBlurColorKey: TColor = clFuchsia);
 
 implementation
 
-procedure GlassForm(frm: TForm; cBlurColorKey: TColor = clFuchsia);
+procedure GlassForm(Handle: HWND; cBlurColorKey: TColor = clFuchsia);
 const
   WS_EX_LAYERED = $80000;
   LWA_COLORKEY = 1;
 type
+
+  // Margin
   _MARGINS = packed record
     cxLeftWidth: Integer;
     cxRightWidth: Integer;
@@ -60,6 +62,7 @@ type
   PMargins = ^_MARGINS;
   TMargins = _MARGINS;
 
+  // API func
   DwmIsCompositionEnabledFunc = function(pfEnabled: PBoolean): HRESULT; stdcall;
   DwmExtendFrameIntoClientAreaFunc = function(destWnd: HWND; const pMarInset: PMargins): HRESULT; stdcall;
   SetLayeredWindowAttributesFunc = function(destWnd: HWND; cKey: TColor; bAlpha: Byte; dwFlags: DWord): BOOL; stdcall;
@@ -74,6 +77,7 @@ var
   mgn: TMargins;
 
 begin
+
   ZeroMemory(@osVinfo, SizeOf(osVinfo));
   OsVinfo.dwOSVersionInfoSize := SizeOf(TOSVERSIONINFO);
 
@@ -89,10 +93,10 @@ begin
         fDwmIsCompositionEnabled(@bCmpEnable);
 
         if bCmpEnable = True then begin
-          frm.Color := cBlurColorKey;
+          // frm.Color := cBlurColorKey;
 
-          SetWindowLong(frm.Handle, GWL_EXSTYLE, GetWindowLong(frm.Handle, GWL_EXSTYLE) or WS_EX_LAYERED);
-          fSetLayeredWindowAttributesFunc(frm.Handle, cBlurColorKey, 0, LWA_COLORKEY);
+          SetWindowLong(Handle, GWL_EXSTYLE, GetWindowLong(Handle, GWL_EXSTYLE) or WS_EX_LAYERED);
+          fSetLayeredWindowAttributesFunc(Handle, cBlurColorKey, 0, LWA_COLORKEY);
 
           ZeroMemory(@mgn, SizeOf(mgn));
           mgn.cxLeftWidth := -1;
@@ -100,7 +104,7 @@ begin
           mgn.cyTopHeight := -1;
           mgn.cyBottomHeight := -1;
 
-          fDwmExtendFrameIntoClientArea(frm.Handle, @mgn);
+          fDwmExtendFrameIntoClientArea(Handle, @mgn);
         end;
       end;
 

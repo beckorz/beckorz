@@ -447,6 +447,9 @@ begin
     FWindowInfo.IsTopMost := chkTopMost.Checked;
     FWindowInfo.IsEnabled := chkEnabled.Checked;
     FWindowInfo.IsVisible := chkVisible.Checked;
+    if chkGlassForm.Checked then begin
+      GlassForm(FWindowInfo.Handle);
+    end;
 
     FWindowInfo.Save;
   end;
@@ -518,6 +521,7 @@ begin
     chkEnabled.Checked := IsEnabled;
     chkTopMost.Checked := IsTopMost;
     chkUnicode.Checked := IsUnicode;
+    chkGlassForm.Checked := False;
 
     rdoZoom.Checked := IsZoomed;
     rdoIconic.Checked := IsIconic;
@@ -717,7 +721,7 @@ end;
 ------------------------------------------------------------------------------*}
 procedure TfrmMain.FormActivate(Sender: TObject);
 begin
-  GlassForm(frmMain, clBtnFace);
+  GlassForm(frmMain.Handle, clBtnFace);
 end;
 
 {*------------------------------------------------------------------------------
