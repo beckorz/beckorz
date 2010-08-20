@@ -69,22 +69,15 @@ uses
 
 type
   TfrmMain = class(TCustomMainForm)
-    Label1: TLabel;
-    Label2: TLabel;
-    Label3: TLabel;
     imlFinder: TImageList;
     dockMain: TSpTBXDock;
     SpTBXGroupBox1: TSpTBXGroupBox;
     chkVisible: TSpTBXCheckBox;
     chkEnabled: TSpTBXCheckBox;
     chkTopMost: TSpTBXCheckBox;
-    Label4: TLabel;
-    Label5: TLabel;
     btnReload: TSpTBXButton;
     btnAppy: TSpTBXButton;
     SpTBXGroupBox2: TSpTBXGroupBox;
-    Label6: TLabel;
-    Label7: TLabel;
     tbrMain: TSpTBXToolbar;
     mnuView: TSpTBXSubmenuItem;
     mnuViewTopMost: TSpTBXItem;
@@ -103,8 +96,6 @@ type
     mnuViewThemeTypeWindows: TSpTBXItem;
     mnuViewThemeTypeTBX: TSpTBXItem;
     Customizer: TSpTBXCustomizer;
-    Label8: TLabel;
-    Label9: TLabel;
     tbrTool: TSpTBXToolbar;
     SpTBXSeparatorItem4: TSpTBXSeparatorItem;
     tbrSetTextBoxReadOnly: TSpTBXItem;
@@ -129,8 +120,6 @@ type
     mnuToolWindowViewer: TSpTBXItem;
     SpTBXSeparatorItem10: TSpTBXSeparatorItem;
     mnuToolWindowOperate: TSpTBXItem;
-    Label10: TLabel;
-    Label11: TLabel;
     edtHandle: TSpTBXEdit;
     edtStyle: TSpTBXEdit;
     edtExStyle: TSpTBXEdit;
@@ -151,6 +140,17 @@ type
     mnuViewFindTypeDetail: TSpTBXItem;
     pnlFinder: TTntPanel;
     chkGlassForm: TSpTBXCheckBox;
+    Label7: TSpTBXLabel;
+    Label6: TSpTBXLabel;
+    Label8: TSpTBXLabel;
+    Label4: TSpTBXLabel;
+    Label5: TSpTBXLabel;
+    Label10: TSpTBXLabel;
+    Label11: TSpTBXLabel;
+    Label1: TSpTBXLabel;
+    Label2: TSpTBXLabel;
+    Label3: TSpTBXLabel;
+    Label9: TSpTBXLabel;
     procedure mnuToolWindowOperateClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure pnlFinderMouseDown(Sender: TObject; Button: TMouseButton;
@@ -385,9 +385,9 @@ begin
 
   // êF
   tmpHdc := GetDC(Wnd);
-  color := GetPixel(tmpHdc, PT.X, PT.Y);
+  color := GetPixel(GetDC(GetDesktopWindow()), PT.X, PT.Y);
   edtColor.Text := '#' + IntToHex(Color, 6);
-  edtColor.Color := tcolor(Color);
+  pnlFinder.Color := tcolor(Color);
 
   // í èÌåüçı
   if mnuViewFindTypeStandard.Checked then begin
