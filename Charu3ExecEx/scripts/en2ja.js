@@ -6,20 +6,18 @@ var URL = "http://ajax.googleapis.com/ajax/services/language/translate?v=1.0&lan
 
 var httpObj = createXMLHttp();
 if (httpObj) {
-	while (!WScript.StdIn.AtEndOfStream) {
-		var query = WScript.StdIn.ReadLine();
-		httpObj.open("GET", URL + encodeURIComponent(query), false);
-		httpObj.send(null);
-		if (httpObj.status == 200) {
-			var json = eval("(" + httpObj.responseText + ")");
-			if (json.responseStatus == 200) {
-				WScript.StdOut.Write(json.responseData.translatedText);
-			} else {
-				WScript.StdOut.Wwite(json.responseDetails);
-			}
+	var query = WScript.StdIn.ReadAll();
+	httpObj.open("GET", URL + encodeURIComponent(query), false);
+	httpObj.send(null);
+	if (httpObj.status == 200) {
+		var json = eval("(" + httpObj.responseText + ")");
+		if (json.responseStatus == 200) {
+			WScript.StdOut.Write(json.responseData.translatedText);
 		} else {
-			WScript.StdOut.Write("通信エラー");
+			WScript.StdOut.Wwite(json.responseDetails);
 		}
+	} else {
+		WScript.StdOut.Write("通信エラー");
 	}
 }
 
