@@ -29,10 +29,11 @@ foreach my $ps (grep(/$VSFTPD/, @procs)) {
 }
 
 # 結果表示
-if ($list ne '') {
-	print $procs[0];
-	print $list, "\n";
-}
 print "master vsftpd pid:$rootpid\n";
 print "$count users\n";
+if ($list ne '') {
+	print "\n";
+	print $procs[0];
+	print $list;
+}
 exit;
