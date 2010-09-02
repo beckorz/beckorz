@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="Allow everyone to view my Webcam" to="全ての人間にwebカメラの映像を見ることを許可"/>
+	<translation from="Always allow the following users to view my Webcam" to="許可した友人だけにwebカメラの映像を見ることを許可"/>
+	<translation from="Always ask my permission for someone to view my Webcam" to="webカメラの映像を見るにはいつも許可を要求"/>
+	<translation from="Broadcast My Webcam As" to="Broadcast My Webcam As"/>
+	<translation from="Custom" to="慣習"/>
+	<translation from="Deny other view requests" to="Deny other view requests"/>
+	<translation from="Enter your Yahoo! username and password below and click connect." to="下にYahoo! ID とパスワードを入力して接続"/>
+	<translation from="Ignore" to="拒否"/>
+	<translation from="Ignore List" to="拒否リスト"/>
+	<translation from="Ignore a User..." to="拒否したユーザー"/>
+	<translation from="Invite to View Webcam..." to="webカメラに招待する"/>
+	<translation from="Large Image" to="拡大イメージ"/>
+	<translation from="Manage webcam-related settings." to="Manage webcam-related settings."/>
+	<translation from="Messenger ID" to="メッセンジャー ID"/>
+	<translation from="Not At Home" to="留守(家)"/>
+	<translation from="Not At My Desk" to="離席"/>
+	<translation from="Not In The Office" to="留守(会社)"/>
+	<translation from="On Vacation" to="休暇中"/>
+	<translation from="Please join my conference..." to="Please join my conference..."/>
+	<translation from="Small Image" to="縮小イメージ"/>
+	<translation from="Start Webcam" to="webカメラを開始"/>
+	<translation from="Status Message" to="Status Message"/>
+	<translation from="Stepped Out" to="Stepped Out"/>
+	<translation from="The webcam server is unavailable.  Please try again later." to="webカメラサーバーが使用できません 時間を置いて再度試してください"/>
+	<translation from="User does not have a webcam online." to="このユーザーはwebカメラを使用していません"/>
+	<translation from="User has closed the webcam." to="このユーザーはwebカメラを停止しました"/>
+	<translation from="View My Webcam" to="View My Webcam"/>
+	<translation from="View Webcam..." to="View Webcam..."/>
+	<translation from="Waiting for permission..." to="Waiting for permission..."/>
+	<translation from="Webcam" to="webカメラ"/>
+	<translation from="When I show my webcam, change my status message to: %prefsYMSGWebcamStatusName%" to="webカメラ映像を公開時、次のステータスに変える %prefsYMSGWebcamStatusName%"/>
+	<translation from="Yahoo! Messenger support." to="Yahoo! メッセンジャー サポート"/>
+	<translation from="Yahoo: New Mail" to="Yahoo: 新着メール"/>
+	<translation from="ftConnectInfoServerSucceed" to="*** Notice: Connection to relay server was successful.  Beginning file transfer."/>
+	<translation from="ftErrorHTTP" to="*** Error: Code %code% received when attempting to verify file transfer."/>
+	<translation from="ftErrorSize" to="*** Error: You cannot send files greater than 2GB in size over Yahoo."/>
+	<translation from="ftRelayConnectInfo" to="*** Notice: We are attempting to connect to relay.msg.yahoo.com and request a file transfer session."/>
+	<translation from="infoChatFull" to="&quot;%chatname%&quot; is full."/>
+	<translation from="infoChatMOTD" to="You are in &quot;%chatname%&quot;.  %motd%"/>
+	<translation from="infoCookieError" to="Error when authenticating with the Yahoo! login server: code %errcode%."/>
+	<translation from="infoLoggedoffOtherAcctY" to="You are being logged off Yahoo! Messenger because someone at a computer with IP address &quot;%ip%&quot; has logged in with your account."/>
+	<translation from="infoLoginErrAccount" to="Error: Invalid User Account.  Make sure you&apos;ve typed your username correctly and try again."/>
+	<translation from="infoLoginErrGen" to="Error logging into %medium%: %message%."/>
+	<translation from="infoLoginErrLocked" to="Error logging into %medium%: Your account has been locked for 12 hours.  Please try again later."/>
+	<translation from="infoLoginErrUnknown" to="Error logging into %medium%: Unknown error %code%."/>
+	<translation from="systrayAccountLocked" to="Your account has been locked for security reasons.  Please re-login to a Yahoo! web property to confirm your password."/>
+	<translation from="systrayWebcam" to="%username% wishes to view your webcam.  Allow this user access?"/>
+</language>

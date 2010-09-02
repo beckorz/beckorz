@@ -8,8 +8,8 @@
 	<translation from="Away since %time%." to="Away since %time%."/>
 	<translation from="Clear" to="クリア"/>
 	<translation from="Click for pending events" to="Click for pending events"/>
-	<translation from="Current Song" to="Current Song"/>
-	<translation from="Default Group" to="Default Group"/>
+	<translation from="Current Song" to="現在の曲"/>
+	<translation from="Default Group" to="初期グループ"/>
 	<translation from="Events Pending; %event%" to="Events Pending; %event%"/>
 	<translation from="Events: Away state" to="Events: Away state"/>
 	<translation from="Events: Back state" to="Events: Back state"/>
@@ -23,7 +23,7 @@
 	<translation from="Multiple Events Pending; First: %event%" to="Multiple Events Pending; First: %event%"/>
 	<translation from="No Contacts Found" to="No Contacts Found"/>
 	<translation from="No Pending Events" to="No Pending Events"/>
-	<translation from="Random Message" to="Random Message"/>
+	<translation from="Random Message" to="ランダムメッセージ"/>
 	<translation from="Saved Messages..." to="Saved Messages..."/>
 	<translation from="Set Globally Away" to="Set all Away"/>
 	<translation from="Set Globally Back" to="Set all Back"/>
@@ -32,28 +32,28 @@
 	<translation from="Set all Back" to="Set all Back"/>
 	<translation from="Set all Idle" to="Set all Idle"/>
 	<translation from="Set all Invisible" to="Set all Invisible"/>
-	<translation from="dialogActionsAlertWindow" to="Alert Window"/>
+	<translation from="dialogActionsAlertWindow" to="警告ウィンドウ"/>
 	<translation from="dialogActionsExecuteProgram" to="Execute Program"/>
 	<translation from="dialogActionsProgramAction" to="Program Action"/>
-	<translation from="dialogActionsSendMessage" to="Send Message"/>
+	<translation from="dialogActionsSendMessage" to="メッセージを送る"/>
 	<translation from="dialogActionsSetStatus" to="Set Status"/>
 	<translation from="dialogActionsSound" to="サウンド"/>
 	<translation from="dialogActionsSystrayAlert" to="Systray Alert"/>
-	<translation from="dialogAdvanced" to="Advanced"/>
+	<translation from="dialogAdvanced" to="高度な設定"/>
 	<translation from="dialogAdvancedAction" to="Action"/>
 	<translation from="dialogAdvancedEnabled" to="有効"/>
-	<translation from="dialogAdvancedType" to="Type"/>
+	<translation from="dialogAdvancedType" to="タイプ"/>
 	<translation from="dialogAwayAdd" to="Add Away Message"/>
 	<translation from="dialogAwayMedium" to="Medium"/>
-	<translation from="dialogAwayStatus" to="状態"/>
-	<translation from="dialogEventAdd" to="イベントを追加"/>
+	<translation from="dialogAwayStatus" to="ステータス"/>
+	<translation from="dialogEventAdd" to="イベント追加"/>
 	<translation from="dialogEventsContactAlert" to="Contact Alert"/>
 	<translation from="dialogEventsDescription" to="Events include sounds, away states, pop-ups, hotkeys, and more."/>
-	<translation from="dialogEventsHotkey" to="Hotkey"/>
+	<translation from="dialogEventsHotkey" to="ホットキー"/>
 	<translation from="dialogEventsIdleTime" to="アイドル時間"/>
 	<translation from="dialogEventsName" to="イベント"/>
 	<translation from="dialogEventsProgramGenerated" to="Program Generated"/>
-	<translation from="dialogEventsScheduler" to="Scheduler"/>
+	<translation from="dialogEventsScheduler" to="スケジューラー"/>
 	<translation from="dialogGeneral" to="大別"/>
 	<translation from="systrayUnknownAction" to="&lt;b&gt;Event Error:&lt;/b&gt;&lt;br&gt;Unknown action: %action%"/>
 	<translation from="textErrorAwayUniqueLabel" to="You must enter a unique label for this message."/>
@@ -64,7 +64,7 @@
 	<translation from="textErrorSelectAwayToRemove" to="Please select an away message to remove."/>
 	<translation from="textErrorSelectEventToEditAdd" to="Please select an event to edit or click add to create a new one"/>
 	<translation from="textErrorSelectEventToRemove" to="Please select an event to remove"/>
-	<translation from="textErrorSelectEventType" to="Please select an event type"/>
+	<translation from="textErrorSelectEventType" to="イベントタイプを選択して下さい"/>
 	<translation from="textNoticeAwayRemove" to="Are you sure you wish to remove this message?"/>
 	<translation from="textNoticeChangeConnected" to="There are events connected to this away message which may lose functionality, are you sure you wish to change its label?"/>
 	<translation from="titleError" to="Trillianのエラー"/>

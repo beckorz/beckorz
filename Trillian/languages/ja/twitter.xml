@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
 	<translation from="Connection Settings" to="接続設定"/>
-	<translation from="Contacts" to="Contacts"/>
-	<translation from="Current Tweet" to="Current Tweet"/>
+	<translation from="Contacts" to="コンタクト"/>
+	<translation from="Current Tweet" to="最近のツイート"/>
 	<translation from="Favorites" to="お気に入り"/>
 	<translation from="Follow trillianastra on Twitter" to="Follow trillianastra on Twitter"/>
-	<translation from="Followers" to="フォロワー"/>
-	<translation from="Following" to="フォロー中"/>
+	<translation from="Followers" to="フォローされている"/>
+	<translation from="Following" to="フォローしている"/>
 	<translation from="Friends" to="友達"/>
 	<translation from="Last tweets" to="Last Tweets"/>
 	<translation from="Lists" to="リスト"/>
@@ -31,7 +31,7 @@
 	<translation from="ViewMore" to="View %num% More"/>
 	<translation from="ViewMoreNoNum" to="View more on Twitter"/>
 	<translation from="from" to="from"/>
-	<translation from="hour ago at" to="時間前"/>
+	<translation from="hour ago at" to="1時間前"/>
 	<translation from="hours ago at" to="時間前"/>
 	<translation from="inReplyTo" to="in reply to"/>
 	<translation from="infoAccountMessageWindow" to="Messages you type into this window will be immediately set as your current Tweet"/>
@@ -71,13 +71,13 @@
 	<translation from="infoSystrayAlertThereAreNewTwitterTrends" to="There are new Twitter Trends"/>
 	<translation from="infoSystrayAlertThereAreNumNewTweets" to="新しいツイートが %num% 件あります"/>
 	<translation from="infoSystrayAlertThereIsNewTwitterTrend" to="There is a new Twitter Trend: "/>
-	<translation from="infoTweet" to="つぶやき"/>
-	<translation from="infoTweets" to="つぶやき: "/>
+	<translation from="infoTweet" to="ツイート"/>
+	<translation from="infoTweets" to="ツイート: "/>
 	<translation from="menuAddToSearch" to="検索へ追加"/>
 	<translation from="menuConnectionDisconnect" to="切断"/>
 	<translation from="menuConnectionGoToMyTwitterFavoritesPage" to="Twitter お気に入り"/>
 	<translation from="menuConnectionGoToMyTwitterPage" to="Twitterホーム"/>
-	<translation from="menuConnectionGoToMyTwitterProfilePage" to="Twitterプロフィール"/>
+	<translation from="menuConnectionGoToMyTwitterProfilePage" to="Twitter プロフィール"/>
 	<translation from="menuConnectionReconnect" to="再接続"/>
 	<translation from="menuConnectionSetMyCurrentTweet" to="Set my current Tweet"/>
 	<translation from="menuFollow" to="フォロー"/>
@@ -102,7 +102,7 @@
 	<translation from="menuWebSectionSettings" to="設定..."/>
 	<translation from="menuWebSectionUnfollowUser" to="%contact%のフォローを解除"/>
 	<translation from="menuWebSectionViewTweets" to="ツイートを見る"/>
-	<translation from="minute ago at" to="分前"/>
+	<translation from="minute ago at" to="1分前"/>
 	<translation from="minutes ago at" to="分前"/>
 	<translation from="on Twitter" to="on Twitter"/>
 	<translation from="on Twitter (Friends)" to="on Twitter (Friends)"/>
@@ -116,7 +116,7 @@
 	<translation from="prefsConnectionSettingsProxyHost" to="ホスト:"/>
 	<translation from="prefsConnectionSettingsProxyPassword" to="パスワード:"/>
 	<translation from="prefsConnectionSettingsProxyPort" to="ポート:"/>
-	<translation from="prefsConnectionSettingsProxyProtocol" to="Protocol:"/>
+	<translation from="prefsConnectionSettingsProxyProtocol" to="プロトコル:"/>
 	<translation from="prefsConnectionSettingsProxyProtocolHTTP" to="HTTP"/>
 	<translation from="prefsConnectionSettingsProxyProtocolNone" to="なし"/>
 	<translation from="prefsConnectionSettingsProxyProtocolSOCKS4" to="SOCKS4"/>
@@ -125,7 +125,7 @@
 	<translation from="prefsConnectionSettingsUseDefaultProxyChoice" to="初期プロキシー設定を使う"/>
 	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="手動プロキシー設定"/>
 	<translation from="prefsConnectionUsername" to="ユーザー名"/>
-	<translation from="prefsMiscellaneousAdvanced" to="拡張"/>
+	<translation from="prefsMiscellaneousAdvanced" to="高度な設定"/>
 	<translation from="prefsMiscellaneousAllReplies" to="All @Replies"/>
 	<translation from="prefsMiscellaneousDoNotTweetCurrentSong" to="現在の曲をステータスメッセージにつぶやかない"/>
 	<translation from="prefsMiscellaneousFollowingReplies" to="@replies to the people I&apos;m following"/>
@@ -138,7 +138,7 @@
 	<translation from="prefsMiscellaneousNotifyMeWhenNewTweetsMatchASearchItem" to="検索項目とマッチした時"/>
 	<translation from="prefsMiscellaneousNotifyMeWhenNewsbotPostsNewTweet" to="A Newsbot posts a new tweet"/>
 	<translation from="prefsMiscellaneousNotifyMeWhenSomeonePostsNewTweet" to="新規ツイートがあった時"/>
-	<translation from="prefsMiscellaneousReplies" to="@Replies"/>
+	<translation from="prefsMiscellaneousReplies" to="@返信"/>
 	<translation from="prefsMiscellaneousRetweets" to="リツイート"/>
 	<translation from="prefsMiscellaneousTweets" to="ツイート"/>
 	<translation from="prefsMiscellaneousTweetsMatch" to="Set my current Tweet to match my Trillian status"/>
@@ -147,7 +147,7 @@
 	<translation from="prefsMiscellaneousUnlessTrillianIsInAwayMode" to="Unless Trillian is in Away Mode"/>
 	<translation from="prefsMiscellaneousUrl" to="URLs"/>
 	<translation from="prefsMiscellaneousUrlShortening" to="Automatically shorten web addresses I include using"/>
-	<translation from="prefsMiscellaneousUrlShorteningPassword" to="API キー:"/>
+	<translation from="prefsMiscellaneousUrlShorteningPassword" to="API Key:"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsername" to="ユーザー名 (bit.ly only):"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsingBitLy" to="bit.ly"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsingNone" to="なし"/>
@@ -167,6 +167,6 @@
 	<translation from="prefsOrganizationShowTheFollowingInMyContactList" to="Show the following in my Contact List:"/>
 	<translation from="prefsOrganizationTwitterList" to="%name% リスト"/>
 	<translation from="prefsOrganizationTwitterTrends" to="トレンド"/>
-	<translation from="second ago at" to="秒前"/>
+	<translation from="second ago at" to="1秒前"/>
 	<translation from="seconds ago at" to="秒前"/>
 </language>

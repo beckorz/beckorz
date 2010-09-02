@@ -37,7 +37,7 @@
 	<translation from="Loading..." to="ロード中…"/>
 	<translation from="Maximize" to="最大化"/>
 	<translation from="Minimize" to="最小化"/>
-	<translation from="New Container..." to="New Container..."/>
+	<translation from="New Container..." to="新規コンテナー..."/>
 	<translation from="Off" to="Off"/>
 	<translation from="On" to="On"/>
 	<translation from="Options" to="オプション"/>
@@ -51,9 +51,9 @@
 	<translation from="Set as a Tabbed Container" to="Set as a Tabbed Container"/>
 	<translation from="Theme" to="テーマ"/>
 	<translation from="Themes" to="テーマ"/>
-	<translation from="Tile Windows" to="Tile Windows"/>
-	<translation from="Transparency" to="透過性"/>
-	<translation from="Trillian is changing skins." to="Trillianはスキンを変えています。&lt;!-- translation needed --&gt;"/>
+	<translation from="Tile Windows" to="並べて表示"/>
+	<translation from="Transparency" to="透明度"/>
+	<translation from="Trillian is changing skins." to="Trillianはスキンを変更中。&lt;!-- translation needed --&gt;"/>
 	<translation from="Turn it black and white" to="白黒に変わる。"/>
 	<translation from="Turn it semi-transparent" to="半透明に戻す"/>
 	<translation from="Visible" to="表示"/>

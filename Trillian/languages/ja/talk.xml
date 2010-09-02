@@ -100,7 +100,7 @@
 	<translation from="Close Connection" to="Close Connection"/>
 	<translation from="Close File Transfer" to="Close File Transfer"/>
 	<translation from="Close after send" to="Close after send"/>
-	<translation from="Code" to="Code"/>
+	<translation from="Code" to="コード"/>
 	<translation from="Color" to="色"/>
 	<translation from="Compressing file %num%/%total%" to="Compressing file %num%/%total%"/>
 	<translation from="Connecting..." to="Connecting..."/>
@@ -111,7 +111,7 @@
 	<translation from="Console" to="コンソール"/>
 	<translation from="Contact" to="コンタクト"/>
 	<translation from="Contacts" to="コンタクト"/>
-	<translation from="Containers" to="Containers"/>
+	<translation from="Containers" to="コンテナー"/>
 	<translation from="Conversations" to="Conversations"/>
 	<translation from="Copied text to clipboard." to="Copied text to clipboard."/>
 	<translation from="Copy" to="コピー"/>
@@ -130,7 +130,7 @@
 	<translation from="DCC Send" to="DCC Send"/>
 	<translation from="Date" to="Date"/>
 	<translation from="Date Modified" to="Date Modified"/>
-	<translation from="December" to="December"/>
+	<translation from="December" to="12月"/>
 	<translation from="Decline call" to="Decline call"/>
 	<translation from="Decrease Font Size" to="Decrease Font Size"/>
 	<translation from="Default" to="Default"/>
@@ -140,7 +140,7 @@
 	<translation from="Deny" to="Deny"/>
 	<translation from="Description:" to="Description:"/>
 	<translation from="Direct Connect" to="Direct Connect"/>
-	<translation from="Disconnect" to="Disconnect"/>
+	<translation from="Disconnect" to="切断"/>
 	<translation from="Draw your message here" to="Draw your message here"/>
 	<translation from="Duration" to="Duration"/>
 	<translation from="Editbox is locked, please wait..." to="Editbox is locked, please wait..."/>
@@ -156,22 +156,22 @@
 	<translation from="Fast Forward" to="Fast Forward"/>
 	<translation from="February" to="February"/>
 	<translation from="File" to="ファイル"/>
-	<translation from="File Transfer: Complete" to="File Transfer: Complete"/>
-	<translation from="File Transfer: Pending Event" to="File Transfer: Pending Event"/>
-	<translation from="File Transfers" to="File Transfers"/>
+	<translation from="File Transfer: Complete" to="ファイル転送: 成功"/>
+	<translation from="File Transfer: Pending Event" to="ファイル転送: 保留イベント"/>
+	<translation from="File Transfers" to="ファイル転送"/>
 	<translation from="Filename:" to="ファイル名:"/>
-	<translation from="Filters" to="Filters"/>
+	<translation from="Filters" to="フィルター"/>
 	<translation from="Find..." to="Find..."/>
 	<translation from="Finger" to="Finger"/>
 	<translation from="Finished searching for:" to="Finished searching for:"/>
 	<translation from="Flashing" to="点滅"/>
 	<translation from="Font Face" to="フォント名"/>
-	<translation from="Font Size" to="フォント設定"/>
+	<translation from="Font Size" to="フォントサイズ"/>
 	<translation from="Fonts" to="フォント"/>
-	<translation from="Foreground Color" to="Foreground Color"/>
-	<translation from="Formatting" to="フォント設定"/>
-	<translation from="Forward" to="Forward"/>
-	<translation from="Friday" to="Friday"/>
+	<translation from="Foreground Color" to="文字背景色"/>
+	<translation from="Formatting" to="Formatting"/>
+	<translation from="Forward" to="前へ"/>
+	<translation from="Friday" to="金曜日"/>
 	<translation from="From %from% to %contact%" to="From %from% to %contact%"/>
 	<translation from="Full Screen" to="Full Screen"/>
 	<translation from="Get Contact Information" to="Get Contact Information"/>
@@ -189,7 +189,7 @@
 	<translation from="Hide Transfer" to="Hide Transfer"/>
 	<translation from="Hide Window" to="Hide Window"/>
 	<translation from="Highlighter" to="Highlighter"/>
-	<translation from="History" to="History"/>
+	<translation from="History" to="履歴"/>
 	<translation from="Hyperlink..." to="Hyperlink..."/>
 	<translation from="Icon" to="アイコン"/>
 	<translation from="Icon Changes" to="アイコン変更"/>
@@ -216,16 +216,16 @@
 	<translation from="Invite" to="招待"/>
 	<translation from="Invite Contacts" to="Invite Contacts"/>
 	<translation from="Invite User" to="ユーザーを招待"/>
-	<translation from="Italics" to="イタリック"/>
-	<translation from="January" to="January"/>
+	<translation from="Italics" to="斜体"/>
+	<translation from="January" to="1月"/>
 	<translation from="Join" to="参加"/>
 	<translation from="Join Channel" to="Join Channel"/>
-	<translation from="July" to="July"/>
-	<translation from="June" to="June"/>
+	<translation from="July" to="7月"/>
+	<translation from="June" to="6月"/>
 	<translation from="Large" to="大"/>
 	<translation from="Larger" to="Larger"/>
-	<translation from="Last Month" to="Last Month"/>
-	<translation from="Last Week" to="Last Week"/>
+	<translation from="Last Month" to="先月"/>
+	<translation from="Last Week" to="先週"/>
 	<translation from="Last image at (%time%)" to="Last image at (%time%)"/>
 	<translation from="Last message received on %date% at %time%." to="Last message received on %date% at %time%."/>
 	<translation from="Left click to zoom; Right click to save" to="Left click to zoom; Right click to save"/>
@@ -234,45 +234,45 @@
 	<translation from="Loading %num% related files..." to="Loading %num% related files..."/>
 	<translation from="Loading..." to="読み込み中..."/>
 	<translation from="Logging" to="ログ"/>
-	<translation from="March" to="March"/>
-	<translation from="Maximize/Restore" to="Maximize/Restore"/>
-	<translation from="May" to="May"/>
+	<translation from="March" to="3月"/>
+	<translation from="Maximize/Restore" to="最大化/元のサイズに戻す"/>
+	<translation from="May" to="5月"/>
 	<translation from="Message" to="メッセージ"/>
-	<translation from="Message History" to="Message History"/>
-	<translation from="Message: Buzz" to="Message: Buzz"/>
-	<translation from="Message: Buzz (out of focus)" to="Message: Buzz (out of focus)"/>
-	<translation from="Message: Buzz Outbound" to="Message: Buzz Outbound"/>
-	<translation from="Message: Chat Inbound (in focus)" to="Message: Chat Inbound (in focus)"/>
-	<translation from="Message: Chat Inbound (in focus, unmuteable)" to="Message: Chat Inbound (in focus, unmuteable)"/>
-	<translation from="Message: Chat Inbound (out of focus)" to="Message: Chat Inbound (out of focus)"/>
-	<translation from="Message: Chat Inbound (out of focus, unmuteable)" to="Message: Chat Inbound (out of focus, unmuteable)"/>
-	<translation from="Message: Chat Outbound" to="Message: Chat Outbound"/>
-	<translation from="Message: Chat Outbound (unmuteable)" to="Message: Chat Outbound (unmuteable)"/>
-	<translation from="Message: IM Inbound (in focus)" to="Message: IM Inbound (in focus)"/>
-	<translation from="Message: IM Inbound (in focus, unmuteable)" to="Message: IM Inbound (in focus, unmuteable)"/>
-	<translation from="Message: IM Inbound (out of focus)" to="Message: IM Inbound (out of focus)"/>
-	<translation from="Message: IM Inbound (out of focus, unmuteable)" to="Message: IM Inbound (out of focus, unmuteable)"/>
-	<translation from="Message: IM Outbound" to="Message: IM Outbound"/>
-	<translation from="Message: IM Outbound (unmuteable)" to="Message: IM Outbound (unmuteable)"/>
-	<translation from="Message: IM Window Creation" to="Message: IM Window Creation"/>
-	<translation from="Message: IM Window Creation (unmuteable)" to="Message: IM Window Creation (unmuteable)"/>
-	<translation from="Message: IM Window Destruction" to="Message: IM Window Destruction"/>
-	<translation from="Message: IM Window Initial View" to="Message: IM Window Initial View"/>
-	<translation from="Message: Pending Event" to="Message: Pending Event"/>
-	<translation from="Message: Typing (no window)" to="Message: Typing (no window)"/>
-	<translation from="Message: URL" to="Message: URL"/>
-	<translation from="Messages" to="Messages"/>
+	<translation from="Message History" to="メッセージ履歴"/>
+	<translation from="Message: Buzz" to="メッセージ: Buzz"/>
+	<translation from="Message: Buzz (out of focus)" to="メッセージ: Buzz (out of focus)"/>
+	<translation from="Message: Buzz Outbound" to="メッセージ: Buzz Outbound"/>
+	<translation from="Message: Chat Inbound (in focus)" to="メッセージ: Chat Inbound (in focus)"/>
+	<translation from="Message: Chat Inbound (in focus, unmuteable)" to="メッセージ: Chat Inbound (in focus, unmuteable)"/>
+	<translation from="Message: Chat Inbound (out of focus)" to="メッセージ: Chat Inbound (out of focus)"/>
+	<translation from="Message: Chat Inbound (out of focus, unmuteable)" to="メッセージ: Chat Inbound (out of focus, unmuteable)"/>
+	<translation from="Message: Chat Outbound" to="メッセージ: Chat Outbound"/>
+	<translation from="Message: Chat Outbound (unmuteable)" to="メッセージ: Chat Outbound (unmuteable)"/>
+	<translation from="Message: IM Inbound (in focus)" to="メッセージ: IM Inbound (in focus)"/>
+	<translation from="Message: IM Inbound (in focus, unmuteable)" to="メッセージ: IM Inbound (in focus, unmuteable)"/>
+	<translation from="Message: IM Inbound (out of focus)" to="メッセージ: IM Inbound (out of focus)"/>
+	<translation from="Message: IM Inbound (out of focus, unmuteable)" to="メッセージ: IM Inbound (out of focus, unmuteable)"/>
+	<translation from="Message: IM Outbound" to="メッセージ: IM Outbound"/>
+	<translation from="Message: IM Outbound (unmuteable)" to="メッセージ: IM Outbound (unmuteable)"/>
+	<translation from="Message: IM Window Creation" to="メッセージ: IM Window Creation"/>
+	<translation from="Message: IM Window Creation (unmuteable)" to="メッセージ: IM Window Creation (unmuteable)"/>
+	<translation from="Message: IM Window Destruction" to="メッセージ: IM Window Destruction"/>
+	<translation from="Message: IM Window Initial View" to="メッセージ: IM Window Initial View"/>
+	<translation from="Message: Pending Event" to="メッセージ: Pending Event"/>
+	<translation from="Message: Typing (no window)" to="メッセージ: Typing (no window)"/>
+	<translation from="Message: URL" to="メッセージ: URL"/>
+	<translation from="Messages" to="メッセージ"/>
 	<translation from="Minimize" to="最小化"/>
-	<translation from="Monday" to="Monday"/>
+	<translation from="Monday" to="月曜日"/>
 	<translation from="Monochrome" to="Monochrome"/>
 	<translation from="Mute Microphone" to="Mute Microphone"/>
 	<translation from="Mute Speakers" to="Mute Speakers"/>
 	<translation from="My Contacts" to="My Contacts"/>
 	<translation from="My Web Cam" to="My Web Cam"/>
 	<translation from="My Webcam" to="My Webcam"/>
-	<translation from="Name" to="Name"/>
+	<translation from="Name" to="名称"/>
 	<translation from="Never" to="Never"/>
-	<translation from="New Search" to="New Search"/>
+	<translation from="New Search" to="新規検索"/>
 	<translation from="No" to="いいえ"/>
 	<translation from="No Assets Found." to="No Assets Found."/>
 	<translation from="No Bookmarks Found." to="No Bookmarks Found."/>
@@ -289,10 +289,10 @@
 	<translation from="None Found." to="None Found."/>
 	<translation from="Normal" to="通常"/>
 	<translation from="Normal Font Size" to="通常フォントサイズ"/>
-	<translation from="Nothing" to="んし"/>
-	<translation from="November" to="November"/>
+	<translation from="Nothing" to="なし"/>
+	<translation from="November" to="11月"/>
 	<translation from="OK" to="OK"/>
-	<translation from="October" to="October"/>
+	<translation from="October" to="10月"/>
 	<translation from="Off" to="Off"/>
 	<translation from="Offline Messages received %num% %word_hour% ago at %time%" to="Offline Messages received %num% %word_hour% ago at %time%"/>
 	<translation from="Offline Messages received %num% %word_minute% ago at %time%" to="Offline Messages received %num% %word_minute% ago at %time%"/>
@@ -310,7 +310,7 @@
 	<translation from="Other" to="その他"/>
 	<translation from="Outgoing file transfer status..." to="Outgoing file transfer status..."/>
 	<translation from="PM" to="PM"/>
-	<translation from="Page %location%" to="Page %location%"/>
+	<translation from="Page %location%" to="ページ %location%"/>
 	<translation from="Paste" to="貼り付け"/>
 	<translation from="Paste Special" to="Paste Special"/>
 	<translation from="Pastel" to="Pastel"/>
@@ -329,26 +329,26 @@
 	<translation from="Received %file% from %name%" to="Received %file% from %name%"/>
 	<translation from="Receiving %file% from %name%" to="Receiving %file% from %name%"/>
 	<translation from="Reconnect" to="再接続"/>
-	<translation from="Reconnecting..." to="Reconnecting..."/>
+	<translation from="Reconnecting..." to="再接続中..."/>
 	<translation from="Record" to="Record"/>
-	<translation from="Redo" to="Redo"/>
+	<translation from="Redo" to="やり直し"/>
 	<translation from="Related Links" to="Related Links"/>
 	<translation from="Remove Bookmark" to="Remove Bookmark"/>
-	<translation from="Rename" to="名前の変更"/>
+	<translation from="Rename" to="名称変更"/>
 	<translation from="Resend" to="再送信"/>
 	<translation from="Restart" to="Restart"/>
 	<translation from="Results" to="結果"/>
 	<translation from="Results (%num%)" to="結果 (%num%)"/>
 	<translation from="Rewind" to="Rewind"/>
-	<translation from="Saturday" to="Saturday"/>
+	<translation from="Saturday" to="土曜日"/>
 	<translation from="Save As..." to="名前を付けて保存..."/>
-	<translation from="Save Image As..." to="Save Image As..."/>
+	<translation from="Save Image As..." to="名前を付けて画像を保存..."/>
 	<translation from="Screen Capture..." to="Screen Capture..."/>
 	<translation from="Scroll Down" to="下にスクロール"/>
 	<translation from="Scroll Up" to="上にスクロール"/>
 	<translation from="Search" to="検索"/>
-	<translation from="Search Information" to="Search Information"/>
-	<translation from="Search Web" to="ウェブで検索"/>
+	<translation from="Search Information" to="検索情報"/>
+	<translation from="Search Web" to="ウェブ検索"/>
 	<translation from="Search for:" to="Search for:"/>
 	<translation from="Searching for activity on this date..." to="Searching for activity on this date..."/>
 	<translation from="Searching for previous conversations..." to="Searching for previous conversations..."/>
@@ -359,24 +359,24 @@
 	<translation from="SecureIM: 128-bit Secured." to="SecureIM: 128-bit Secured."/>
 	<translation from="Select All" to="全て選択"/>
 	<translation from="Send" to="送信"/>
-	<translation from="Send File" to="ファイルを送る"/>
-	<translation from="Send Message" to="Send Message"/>
+	<translation from="Send File" to="ファイル送信"/>
+	<translation from="Send Message" to="メッセージ送信"/>
 	<translation from="Send Private Message" to="Send Private Message"/>
 	<translation from="Send Webcam Invitation" to="Send Webcam Invitation"/>
 	<translation from="Sending %file% to %name%" to="Sending %file% to %name%"/>
 	<translation from="Sending a file to %contact%..." to="Sending a file to %contact%..."/>
 	<translation from="Sent %file% to %name%" to="Sent %file% to %name%"/>
 	<translation from="Sepia" to="Sepia"/>
-	<translation from="September" to="September"/>
+	<translation from="September" to="9月"/>
 	<translation from="Service Connections" to="Service Connections"/>
 	<translation from="Session Started" to="Session Started"/>
 	<translation from="Session Stopped" to="Session Stopped"/>
-	<translation from="Sessions" to="Sessions"/>
+	<translation from="Sessions" to="セッション"/>
 	<translation from="Set Background Color" to="Set Background Color"/>
 	<translation from="Set Foreground Color" to="Set Foreground Color"/>
 	<translation from="Set..." to="設定..."/>
 	<translation from="Settings" to="設定"/>
-	<translation from="Share" to="Share"/>
+	<translation from="Share" to="共有"/>
 	<translation from="Share Trillian with your Friend..." to="Share Trillian with your Friend..."/>
 	<translation from="Shift-Enter" to="Shift-Enter"/>
 	<translation from="Show" to="Show"/>
@@ -390,13 +390,13 @@
 	<translation from="Sounds" to="サウンド"/>
 	<translation from="Source" to="Source"/>
 	<translation from="Starting compression..." to="Starting compression..."/>
-	<translation from="Status" to="状態"/>
-	<translation from="Status Window" to="状態ウィンドウ"/>
+	<translation from="Status" to="ステータス"/>
+	<translation from="Status Window" to="ステータスウィンドウ"/>
 	<translation from="Stay on call and minimize" to="Stay on call and minimize"/>
 	<translation from="Stop Current Emotiblip" to="Stop Current Emotiblip"/>
-	<translation from="Stopped." to="Stopped."/>
+	<translation from="Stopped." to="停止しました。"/>
 	<translation from="Summary" to="Summary"/>
-	<translation from="Sunday" to="Sunday"/>
+	<translation from="Sunday" to="日曜日"/>
 	<translation from="Text" to="Text"/>
 	<translation from="Text Formatting" to="文字装飾"/>
 	<translation from="The Future" to="The Future"/>
@@ -404,7 +404,7 @@
 	<translation from="There was an error while loading the preview for this item.  Sorry for the inconvenience." to="There was an error while loading the preview for this item.  Sorry for the inconvenience."/>
 	<translation from="Thick" to="Thick"/>
 	<translation from="Thin" to="Thin"/>
-	<translation from="Thursday" to="Thursday"/>
+	<translation from="Thursday" to="木曜日"/>
 	<translation from="Time" to="Time"/>
 	<translation from="Time Online" to="Time Online"/>
 	<translation from="Timeline" to="タイムライン"/>
@@ -415,12 +415,12 @@
 	<translation from="Toggle capture mode" to="Toggle capture mode"/>
 	<translation from="Toggle video sending" to="Toggle video sending"/>
 	<translation from="Trying to establish file transfer." to="Trying to establish file transfer."/>
-	<translation from="Tuesday" to="Tuesday"/>
+	<translation from="Tuesday" to="火曜日"/>
 	<translation from="Turn Off Draw Mode" to="Turn Off Draw Mode"/>
 	<translation from="Turn On Draw Mode" to="Turn On Draw Mode"/>
 	<translation from="Turn sounds off" to="Turn sounds off"/>
 	<translation from="Turn sounds on" to="Turn sounds on"/>
-	<translation from="Type" to="Type"/>
+	<translation from="Type" to="タイプ"/>
 	<translation from="Type your message here" to="Type your message here"/>
 	<translation from="Underline" to="下線"/>
 	<translation from="Undo" to="元に戻す"/>
@@ -433,32 +433,32 @@
 	<translation from="User cancelled search for:" to="User cancelled search for:"/>
 	<translation from="User has paused the webcam." to="User has paused the webcam."/>
 	<translation from="Users watching me" to="Users watching me"/>
-	<translation from="Video" to="Video"/>
-	<translation from="Video Capture..." to="Video Capture..."/>
+	<translation from="Video" to="ビデオ"/>
+	<translation from="Video Capture..." to="ビデオキャプチャー..."/>
 	<translation from="Video Chat" to="ビデオチャット"/>
 	<translation from="Video chat request..." to="Video chat request..."/>
 	<translation from="Video recording ended." to="Video recording ended."/>
 	<translation from="Video recording started." to="Video recording started."/>
 	<translation from="Video screen captured." to="Video screen captured."/>
-	<translation from="Video: Capture" to="Video: Capture"/>
-	<translation from="View" to="View"/>
+	<translation from="Video: Capture" to="ビデオ: Capture"/>
+	<translation from="View" to="表示"/>
 	<translation from="View Activity History" to="View Activity History"/>
 	<translation from="View Captured Images..." to="View Captured Images..."/>
 	<translation from="View on Wikipedia" to="View on Wikipedia"/>
 	<translation from="Waiting for accept/deny to establish connection" to="Waiting for accept/deny to establish connection"/>
 	<translation from="Waiting for other side to establish connection" to="Waiting for other side to establish connection"/>
 	<translation from="Warn Contact" to="Warn Contact"/>
-	<translation from="Web" to="Web"/>
-	<translation from="Web Site" to="Web Site"/>
+	<translation from="Web" to="ウェブ"/>
+	<translation from="Web Site" to="ウェブサイト"/>
 	<translation from="Webcam" to="ウェブカメラ"/>
-	<translation from="Wednesday" to="Wednesday"/>
+	<translation from="Wednesday" to="水曜日"/>
 	<translation from="Who&apos;s watching me?" to="Who&apos;s watching me?"/>
-	<translation from="Wikipedia" to="Wikipedia"/>
+	<translation from="Wikipedia" to="ウィキペディア"/>
 	<translation from="Yes" to="はい"/>
-	<translation from="Yesterday" to="Yesterday"/>
+	<translation from="Yesterday" to="昨日"/>
 	<translation from="You are not connected to %medium%." to="You are not connected to %medium%."/>
 	<translation from="You have received %filename%." to="You have received %filename%."/>
-	<translation from="Zoom" to="ズーム"/>
+	<translation from="Zoom" to="拡大"/>
 	<translation from="alertBuzz" to="&lt;b&gt;%name%&lt;/b&gt; has buzzed you!"/>
 	<translation from="alertMessageChat" to="&lt;b&gt;%name%&lt;/b&gt; (%channel%) says: %message%"/>
 	<translation from="alertMessageHeader" to="&lt;b&gt;%name%&lt;/b&gt; has written %total% messages"/>

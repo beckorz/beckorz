@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="A required codec could not be located on your computer, and is required for conferencing." to="チャットに必要なコーデックがインストールされていません。"/>
+	<translation from="Appear Offline and Block" to="オフラインまたは、ブロックされています"/>
+	<translation from="Astra support." to="Astra support."/>
+	<translation from="Class" to="クラス"/>
+	<translation from="Default" to="Default"/>
+	<translation from="Disabled" to="無効"/>
+	<translation from="Enabled" to="有効"/>
+	<translation from="Latitude" to="緯度"/>
+	<translation from="Longitude" to="経度"/>
+	<translation from="Override default resource name with: %prefsAstraResourceName%" to="Override default resource name with: %prefsAstraResourceName%"/>
+	<translation from="Proxy:" to="プロキシー:"/>
+	<translation from="QuickTime could not be located on your computer, and is required for video conferencing.  Please download it at http://www.apple.com/quicktime/download/" to="ビデオ カンファレンスを開始するためには QuickTime が必要ですが、このコンピュータにはインストールされていません。 http://www.apple.com/quicktime/download/ からダウンロードしてください。"/>
+	<translation from="Securely synchronize my accounts between devices" to="Securely synchronize my accounts between devices"/>
+	<translation from="Show my status on my profile webpage" to="profile webpage にログインステータスを表示"/>
+	<translation from="TLS" to="TLSによる暗号化"/>
+	<translation from="TLS is active to this user." to="この通信において、TLSによる暗号化が有効になっています。"/>
+	<translation from="ftCandidateInfo" to="*** A successful %type% connection was established with %username% at %ip%."/>
+	<translation from="has accepted the call at another location." to="has accepted the call at another location."/>
+	<translation from="infoErrorOther" to="認証エラー。エラーコードは %errcode% です。"/>
+	<translation from="infoErrorPassword" to="パスワードが間違っています。"/>
+	<translation from="infoErrorServerVersion" to="このバージョンの Trillian では、このサーバに接続できません。アップデートが必要です。"/>
+	<translation from="infoErrorUnavailable" to="Astra への接続ができませんでした。しばらく時間をおいて再度接続してください。"/>
+	<translation from="infoErrorVersion" to="このバージョンの Trillian はもう利用できません。アップデートが必要です。"/>
+	<translation from="infoMsgLenExceeded" to="メッセージが長すぎるため、送信に失敗しました。"/>
+	<translation from="infoMsgLost" to="あなたのメッセージを相手に届けることができませんでした。再度送信してください。"/>
+	<translation from="infoMsgPermissions" to="ブロックされた人にメッセージを送信することはできません。"/>
+	<translation from="infoOtherComputer" to="他のコンピュータからあなたのIDでログインしたため、ログアウトされました。"/>
+	<translation from="infoResourceChangeAuto" to="You are no longer forcefully delivering messages to the resource &quot;%resource%&quot;."/>
+	<translation from="infoResourceChangeForce" to="You are now forcefully delivering messages to the resource &quot;%resource%&quot;."/>
+	<translation from="systraySelfDisconnect" to="Another device under your control, &quot;%resource%&quot;, has forcefully disconnected you by request."/>
+	<translation from="systraySelfOffline" to="&quot;%resource&quot;はオフラインになりました。"/>
+	<translation from="systraySelfOnline" to="&quot;%resource&quot;は&quot;%description&quot;によってオンラインになりました。"/>
+</language>

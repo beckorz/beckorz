@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="%num% Item" to="%num% Item"/>
+	<translation from="%num% Items" to="%num% Items"/>
+	<translation from="All Floating Off" to="全てのフローティング オフ"/>
+	<translation from="Background" to="背景"/>
+	<translation from="Cancel" to="キャンセル"/>
+	<translation from="Collapse" to="折りたたむ"/>
+	<translation from="Collapse All" to="全て折りたたむ"/>
+	<translation from="Copy" to="コピー"/>
+	<translation from="Default" to="デフォルト"/>
+	<translation from="Expand" to="展開"/>
+	<translation from="Expand All" to="全て展開"/>
+	<translation from="Floating Off" to="フローティング オフ"/>
+	<translation from="Floating On" to="フローティング オン"/>
+	<translation from="Hide" to="隠す"/>
+	<translation from="List Management" to="List Management"/>
+	<translation from="Move" to="移動"/>
+	<translation from="Move down" to="下に移動"/>
+	<translation from="Move to" to="移動"/>
+	<translation from="Move up" to="上に移動"/>
+	<translation from="Normal" to="ノーマル"/>
+	<translation from="Root (No Group)" to="ルート (グループなし)"/>
+	<translation from="textErrorClipboard" to="クリップボードにアクセスできません"/>
+	<translation from="textErrorDragSection" to="ドラッグできません：移動先は別セクションです"/>
+	<translation from="textErrorDragUnknown" to="ドラッグできません：移動先不明です"/>
+	<translation from="titleError" to="Trillian エラー"/>
+</language>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="Communicate with no-hassle, serverless, always-on messaging to other users inside your local area network." to="Communicate with no-hassle, serverless, always-on messaging to other users inside your local area network."/>
+	<translation from="Enter your desired Bonjour username and click connect." to="Enter your desired Bonjour username and click connect."/>
+	<translation from="infoErrorUserConn" to="An error occured while trying to establish a connection to %username% for chat."/>
+	<translation from="infomDNSError" to="Errorcode %errcode% received from mDNS engine; connection cannot continue."/>
+	<translation from="systrayBonjour" to="Connection to Bonjour has failed: the Bonjour service was not found on this system.  Click here to download it."/>
+</language>

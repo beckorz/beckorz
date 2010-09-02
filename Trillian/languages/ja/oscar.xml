@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="AIM Profile" to="AIM Profile"/>
+	<translation from="AIM servers appear to be down.  Please try again in a little while." to="AIM servers appear to be down.  Please try again in a little while."/>
+	<translation from="AIM: New Mail" to="AIM: New Mail"/>
+	<translation from="Add" to="Add"/>
+	<translation from="Add to Invisible List..." to="Add to Invisible List..."/>
+	<translation from="Add to Visible List..." to="Add to Visible List..."/>
+	<translation from="Allow all users to contact me" to="Allow all users to contact me"/>
+	<translation from="Allow only the users below" to="Allow only the users below"/>
+	<translation from="Allow only users on my contact list" to="Allow only users on my contact list"/>
+	<translation from="Allow users to see my status on the web" to="Allow users to see my status on the web"/>
+	<translation from="Attempt to automatically maintain a SecureIM session with my contacts" to="Attempt to automatically maintain a SecureIM session with my contacts"/>
+	<translation from="Block all users" to="Block all users"/>
+	<translation from="Block only the users below" to="Block only the users below"/>
+	<translation from="Camera" to="Camera"/>
+	<translation from="Capabilities" to="Capabilities"/>
+	<translation from="Change your AIM profile." to="Change your AIM profile."/>
+	<translation from="Close SecureIM Session" to="Close SecureIM Session"/>
+	<translation from="Code:" to="Code:"/>
+	<translation from="Contacts require my authorization before they can add me to their contact list" to="Contacts require my authorization before they can add me to their contact list"/>
+	<translation from="Do not display messages from AOLSystemMsg" to="Do not display messages from AOLSystemMsg"/>
+	<translation from="Enable SecureIM" to="Enable SecureIM"/>
+	<translation from="Enter your AIM Screen Name and password below and click connect." to="Enter your AIM Screen Name and password below and click connect."/>
+	<translation from="Enter your ICQ UIN and password below and click connect." to="Enter your ICQ UIN and password below and click connect."/>
+	<translation from="Error code 29: We think this means the AIM/ICQ servers are sick of seeing connections from your IP address.  Wait a few minutes and try again." to="Error code 29: We think this means the AIM/ICQ servers are sick of seeing connections from your IP address.  Wait a few minutes and try again."/>
+	<translation from="Establish SecureIM Session" to="Establish SecureIM Session"/>
+	<translation from="Establishing SecureIM tunnel.  Please wait." to="Establishing SecureIM tunnel.  Please wait."/>
+	<translation from="File Transfers" to="File Transfers"/>
+	<translation from="File transfer timed out." to="File transfer timed out."/>
+	<translation from="First Name" to="First Name"/>
+	<translation from="Forcefully ignore all incoming authorization requests" to="Forcefully ignore all incoming authorization requests"/>
+	<translation from="Group Conferencing" to="Group Conferencing"/>
+	<translation from="Idle Time" to="Idle Time"/>
+	<translation from="Improper login sequence.  This should not be happening; please contact support@ceruleanstudios.com with more information." to="Improper login sequence.  This should not be happening; please contact support@ceruleanstudios.com with more information."/>
+	<translation from="Inclusive of HTML markup, your profile has exceeded the maximum length allowed by AIM." to="Inclusive of HTML markup, your profile has exceeded the maximum length allowed by AIM."/>
+	<translation from="Invalid password.  If you are sure your password is entered correctly, try changing the password from the AIM webpage." to="Invalid password.  If you are sure your password is entered correctly, try changing the password from the AIM webpage."/>
+	<translation from="Last Name" to="Last Name"/>
+	<translation from="Manage the visibility settings for this account." to="Manage the visibility settings for this account."/>
+	<translation from="Microphone" to="Microphone"/>
+	<translation from="Nickname" to="Nickname"/>
+	<translation from="Not Available" to="Not Available"/>
+	<translation from="OSCAR protocol support, enabling access to both AIM and ICQ accounts." to="OSCAR protocol support, enabling access to both AIM and ICQ accounts."/>
+	<translation from="Occupied" to="Occupied"/>
+	<translation from="Online Time" to="Online Time"/>
+	<translation from="Request Status Message" to="Request Status Message"/>
+	<translation from="Screen Name" to="Screen Name"/>
+	<translation from="SecurID Login" to="SecurID Login"/>
+	<translation from="SecurID Response" to="SecurID Response"/>
+	<translation from="SecureIM" to="SecureIM"/>
+	<translation from="Submit" to="Submit"/>
+	<translation from="The AIM service is temporarily unavailable.  Please try again in a little while." to="The AIM service is temporarily unavailable.  Please try again in a little while."/>
+	<translation from="The screen name or password you entered is invalid." to="The screen name or password you entered is invalid."/>
+	<translation from="UIN" to="UIN"/>
+	<translation from="Unknown password problem.  It is possible that your password exceeds the maximum length allowed by AIM/ICQ.  Remember that ICQ passwords can be no longer than 8 characters and AIM passwords no longer than 16.  Close this connection and re-create it through the connection manager with the proper password length." to="Unknown password problem.  It is possible that your password exceeds the maximum length allowed by AIM/ICQ.  Remember that ICQ passwords can be no longer than 8 characters and AIM passwords no longer than 16.  Close this connection and re-create it through the connection manager with the proper password length."/>
+	<translation from="Use the following port for outgoing file transfers:" to="Use the following port for outgoing file transfers:"/>
+	<translation from="Validate UINs before rendering authorization requests" to="Validate UINs before rendering authorization requests"/>
+	<translation from="Visibility" to="Visibility"/>
+	<translation from="Visible and Invisible List" to="Visible and Invisible List"/>
+	<translation from="You are attempting to sign on again too soon.  Please wait ~15 minutes and try again!  Do not login during this period or it will only extend itself." to="You are attempting to sign on again too soon.  Please wait ~15 minutes and try again!  Do not login during this period or it will only extend itself."/>
+	<translation from="You are currently signed onto AIM using another client (most likely WinAIM).  Please close this application and retry.  This behavior will be fixed in a future release." to="You are currently signed onto AIM using another client (most likely WinAIM).  Please close this application and retry.  This behavior will be fixed in a future release."/>
+	<translation from="Your AIM account is bound to a SecurID device.  Please provide the latest SecurID code in the box below to sign in." to="Your AIM account is bound to a SecurID device.  Please provide the latest SecurID code in the box below to sign in."/>
+	<translation from="ftConnectInfo" to="*** Notice: We are attempting to connect to %ip%:%port%."/>
+	<translation from="ftErrorTimeout" to="*** Error: A timeout occured while waiting for negotiation data."/>
+	<translation from="ftHostLocalInfo" to="*** Notice: We are hosting the connection for this file transfer on port %port%."/>
+	<translation from="ftLocalHostChangeExhausted" to="*** Notice: Connecting directly to %username% has failed.  We are now attempting to host the connection ourselves."/>
+	<translation from="ftRemoteHostChangeClient" to="*** Notice: %username% could not connect to us, and has requested we connect to his or her machine at %ip%:%port%."/>
+	<translation from="ftRemoteHostChangeServer" to="*** Notice: %username% could not connect to us, and is requesting a server-proxied connection for this file transfer.  Attempting to connect to %ip%:%port%."/>
+	<translation from="ftResumeFileOut" to="*** Notice: A resume was requested but could not proceed because our copy of the file differs from the receiving end."/>
+	<translation from="infoAuthError" to="Your login request was rejected by the server.  It is unsure what this means at this point; the server may be full.  Please close your console window and try again in a few minutes."/>
+	<translation from="infoAutoResponse" to="Auto-response from %username%: %response%"/>
+	<translation from="infoCannotRespond" to="You cannot respond to this message."/>
+	<translation from="infoChatError" to="A server error occured when creating the group conference."/>
+	<translation from="infoChatLost" to="The connection to the group conference has been lost."/>
+	<translation from="infoContactOnlineAOL" to="&quot;%displayname% (%username%)&quot; signed on to AOL at %time%."/>
+	<translation from="infoIMError" to="Error while sending IM: %reason%"/>
+	<translation from="infoLoginError" to="Error logging into %medium%: %errcode%"/>
+	<translation from="infoSecureIMBegin" to="%username% wants to establish a SecureIM session."/>
+	<translation from="infoSecureIMClosed" to="SecureIM session closed."/>
+	<translation from="infoSecureIMClosedRemote" to="SecureIM session closed by remote."/>
+	<translation from="infoSecureIMErrCT" to="SecureIM packet received from non-contact &quot;%username%&quot;.  Ignoring."/>
+	<translation from="infoSecureIMErrVer" to="Unknown SecureIM packet version.  Ignoring."/>
+	<translation from="infoSecureIMEst" to="SecureIM session established with %username%."/>
+	<translation from="infoSecureIMExist" to="NOTE:  A previous SecureIM session exists with user %username%.  To close this session, right click -&gt; Close SecureIM Session."/>
+	<translation from="infoSecureIMFail" to="SecureIM session failed.  Please try again."/>
+	<translation from="infoSecureIMIgnored" to="SecureIM session ignored; remote not accepting requests."/>
+	<translation from="infoSecureIMKey" to="There was a SecureIM key validation error when receiving a message from %username%.  This message has been lost.  Please re-establish a SecureIM session."/>
+	<translation from="infoStatusMessageRequest" to="%username% has requested your status message."/>
+	<translation from="miscEnteredText" to="%username% has entered text."/>
+	<translation from="miscUnknownCode" to="Unknown code %errcode%."/>
+	<translation from="systrayBuddyMax" to="Your contact list is currently at or over 200 contacts, the server-imposed limit.  You may not receive status notifications for your contacts if you exceed the limit, and might want to clean up your list to ensure proper functionality."/>
+	<translation from="systrayContactList" to="Your buddy list (%username%) is currently not available, but it has not been lost.  Please try again later."/>
+</language>
