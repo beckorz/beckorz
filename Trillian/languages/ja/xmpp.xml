@@ -3,8 +3,8 @@
 	<translation from="Ban" to="Ban"/>
 	<translation from="Browse for Conferences..." to="Browse for Conferences..."/>
 	<translation from="Bytestreams" to="Bytestreams"/>
-	<translation from="Change Role" to="Œ ŒÀ‚ð•ÏX‚·‚é"/>
-	<translation from="Configure Room" to="ƒ‹[ƒ€Ý’è"/>
+	<translation from="Change Role" to="æ¨©é™ã‚’å¤‰æ›´ã™ã‚‹"/>
+	<translation from="Configure Room" to="ãƒ«ãƒ¼ãƒ è¨­å®š"/>
 	<translation from="Enter your Google Talk username and password below and click connect." to="Enter your Google Talk username and password below and click connect."/>
 	<translation from="Enter your full JID and password below and click connect." to="Enter your full JID and password below and click connect."/>
 	<translation from="Extended Away" to="Extended Away"/>
@@ -13,17 +13,17 @@
 	<translation from="Go Off The Record" to="Go Off The Record"/>
 	<translation from="Google: New Mail" to="Google: New Mail"/>
 	<translation from="Join a Conference..." to="Join a Conference..."/>
-	<translation from="Kick" to="ƒLƒbƒN"/>
-	<translation from="Moderator" to="ƒ‚ƒfƒŒ[ƒ^"/>
-	<translation from="Moderators" to="ƒ‚ƒfƒŒ[ƒ^"/>
+	<translation from="Kick" to="ã‚­ãƒƒã‚¯"/>
+	<translation from="Moderator" to="ãƒ¢ãƒ‡ãƒ¬ãƒ¼ã‚¿"/>
+	<translation from="Moderators" to="ãƒ¢ãƒ‡ãƒ¬ãƒ¼ã‚¿"/>
 	<translation from="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%" to="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%"/>
 	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="Override default resource name with: %prefsXMPPResourceName%"/>
 	<translation from="Participant" to="Participant"/>
-	<translation from="Resource" to="ƒŠƒ\[ƒX"/>
+	<translation from="Resource" to="ãƒªã‚½ãƒ¼ã‚¹"/>
 	<translation from="Set priority for this connection to: %prefsXMPPPriorityValue%" to="Set priority for this connection to: %prefsXMPPPriorityValue%"/>
 	<translation from="Standards-based XMPP support, including all Jabber/XMPP networks and Google Talk." to="Standards-based XMPP support, including all Jabber/XMPP networks and Google Talk."/>
 	<translation from="Status Duration" to="Status Duration"/>
-	<translation from="Unknown Error" to="•s–¾‚ÈƒGƒ‰["/>
+	<translation from="Unknown Error" to="ä¸æ˜Žãªã‚¨ãƒ©ãƒ¼"/>
 	<translation from="Use legacy SSL for connection" to="Use legacy SSL for connection"/>
 	<translation from="Visitor" to="Visitor"/>
 	<translation from="Visitors" to="Visitors"/>
@@ -49,16 +49,16 @@
 	<translation from="infoMUC409" to="There was an error when joining the chat room: your desired nickname is already in use."/>
 	<translation from="infoMUC503" to="There was an error when joining the chat room: the maximum number of occupants has been reached."/>
 	<translation from="infoMUCAdminError" to="You do not have permission to perform the requested administrative action within this room."/>
-	<translation from="infoMUCRoleChange" to="%username% ‚Í¡ %role% ‚Å‚·"/>
+	<translation from="infoMUCRoleChange" to="%username% ã¯ä»Š %role% ã§ã™"/>
 	<translation from="infoMUCUnknownError" to="There was an error when joining the chat room: &quot;%error%&quot;"/>
 	<translation from="infoNos" to="This conversation is off the record."/>
 	<translation from="infoNosDisabled" to="This conversation is no longer off the record."/>
 	<translation from="infoNosEnabled" to="This conversation has been taken off the record."/>
 	<translation from="infoServerType" to="You are connected to a &quot;%server%&quot; server."/>
-	<translation from="infoStreamError" to="ƒXƒgƒŠ[ƒ€ƒGƒ‰[: %error%."/>
+	<translation from="infoStreamError" to="ã‚¹ãƒˆãƒªãƒ¼ãƒ ã‚¨ãƒ©ãƒ¼: %error%."/>
 	<translation from="infoUsernameIncomplete" to="Please use your full JID (i.e user@hostname.com) when creating a new XMPP account."/>
 	<translation from="miscIsGone" to="%username% has closed the message window."/>
 	<translation from="miscIsInactive" to="%username% has minimized the message window."/>
 	<translation from="systrayNewMailStatsP" to="%username%: You have %count% new messages in your inbox."/>
-	<translation from="unknown" to="•s–¾"/>
+	<translation from="unknown" to="ä¸æ˜Ž"/>
 </language>

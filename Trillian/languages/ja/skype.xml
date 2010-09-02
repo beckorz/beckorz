@@ -24,12 +24,12 @@
 	<translation from="CALL_STATUS_RINGING" to="%username% is calling..."/>
 	<translation from="CALL_STATUS_RINGING_INCOMING" to="%contact% is calling..."/>
 	<translation from="CITY" to="City"/>
-	<translation from="COUNTRY" to="‘"/>
+	<translation from="COUNTRY" to="å›½"/>
 	<translation from="Conference" to="Conference"/>
 	<translation from="DND" to="Do Not Disturb"/>
 	<translation from="Duration" to="Duration"/>
 	<translation from="FAILUREREASON_UNKNOWN" to="unknown failure reason"/>
-	<translation from="FEMALE" to="—«"/>
+	<translation from="FEMALE" to="å¥³æ€§"/>
 	<translation from="FILETRANSFER_FAILURE_REASON_FAILED_READ" to="read error on local machine."/>
 	<translation from="FILETRANSFER_FAILURE_REASON_FAILED_REMOTE_READ" to="read error on remote machine."/>
 	<translation from="FILETRANSFER_FAILURE_REASON_FAILED_REMOTE_WRITE" to="write error on remote machine."/>
@@ -40,30 +40,30 @@
 	<translation from="FILETRANSFER_FAILURE_REASON_SENDER_NOT_AUTHORIZED" to="%username% not authorized by %contact%."/>
 	<translation from="FULLNAME" to="Fullname"/>
 	<translation from="FileWasSentSuccessfully" to="&quot;%filename%&quot; was sent successfully."/>
-	<translation from="GENDER" to="«•Ê"/>
-	<translation from="HOMEPAGE" to="ƒz[ƒ€ƒy[ƒW"/>
+	<translation from="GENDER" to="æ€§åˆ¥"/>
+	<translation from="HOMEPAGE" to="ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸"/>
 	<translation from="INSUFFICIENT_FUNDS" to="insufficient Skype Credit to send an SMS message"/>
 	<translation from="INVALID_CONFIRMATION_CODE" to="erroneous confirmation code was submitted"/>
 	<translation from="INVISIBLE" to="Invisible"/>
 	<translation from="IP_BLOCKED" to="user&apos;s IP is blocked from the server"/>
-	<translation from="LANGUAGE" to="Œ¾Œê"/>
-	<translation from="MALE" to="’j«"/>
+	<translation from="LANGUAGE" to="è¨€èªž"/>
+	<translation from="MALE" to="ç”·æ€§"/>
 	<translation from="MISC_ERROR" to="failure to supply a meaningful error message"/>
 	<translation from="NA" to="Not Available"/>
-	<translation from="NICKNAME" to="ƒjƒbƒNƒl[ƒ€"/>
+	<translation from="NICKNAME" to="ãƒ‹ãƒƒã‚¯ãƒãƒ¼ãƒ "/>
 	<translation from="NODE_BLOCKED" to="user&apos;s p2p network node has been blocked from the server"/>
 	<translation from="NO_SENDERID_CAPABILITY" to="unknown failure reason"/>
 	<translation from="NO_SMS_CAPABILITY" to="recepient is unable to receive SMS messages"/>
-	<translation from="OFFLINE" to="ƒIƒtƒ‰ƒCƒ“"/>
-	<translation from="ONLINE" to="ƒIƒ“ƒ‰ƒCƒ“"/>
-	<translation from="PHONE_HOME" to="Ž©‘î‚Ì“d˜b”Ô†"/>
-	<translation from="PHONE_MOBILE" to="Œg‘Ñ”Ô†"/>
-	<translation from="PHONE_OFFICE" to="‰ïŽÐ‚Ì”Ô†"/>
+	<translation from="OFFLINE" to="ã‚ªãƒ•ãƒ©ã‚¤ãƒ³"/>
+	<translation from="ONLINE" to="ã‚ªãƒ³ãƒ©ã‚¤ãƒ³"/>
+	<translation from="PHONE_HOME" to="è‡ªå®…ã®é›»è©±ç•ªå·"/>
+	<translation from="PHONE_MOBILE" to="æºå¸¯ç•ªå·"/>
+	<translation from="PHONE_OFFICE" to="ä¼šç¤¾ã®ç•ªå·"/>
 	<translation from="PROVINCE" to="Province"/>
 	<translation from="SERVER_CONNECT_FAILED" to="unable to connect to SMS server"/>
 	<translation from="SKYPEME" to="Skype Me"/>
-	<translation from="STATUS" to="ó‘Ô"/>
-	<translation from="Skype support." to="SkypeƒTƒ|[ƒg"/>
+	<translation from="STATUS" to="çŠ¶æ…‹"/>
+	<translation from="Skype support." to="Skypeã‚µãƒãƒ¼ãƒˆ"/>
 	<translation from="TARGET_NOT_ROUTABLE" to="target not routable"/>
 	<translation from="USER_BLOCKED" to="user is blocked from the server"/>
 	<translation from="attach_not_available" to="Attach not available."/>
@@ -80,7 +80,7 @@
 	<translation from="infoConnSucceed" to="You have successfully connected to %medium%."/>
 	<translation from="infoConnect" to="Connecting to %medium% as &quot;%username%&quot;."/>
 	<translation from="infoCreateConn" to="Creating connection &quot;%username%&quot;"/>
-	<translation from="infoDisconnected" to="Ø’f‚µ‚Ü‚µ‚½B"/>
+	<translation from="infoDisconnected" to="åˆ‡æ–­ã—ã¾ã—ãŸã€‚"/>
 	<translation from="infoReconn" to="Reconnecting to %medium% as &quot;%username%&quot;."/>
 	<translation from="infoSendSMSWindow" to="This window allows you to send SMS messages to %contact% at (%phone_number%)."/>
 	<translation from="infoSignedOff" to="&quot;%contact%&quot; signed off at %time%."/>
@@ -88,28 +88,28 @@
 	<translation from="infoSmsHasBeenDelivered" to="Your SMS Message has been delivered."/>
 	<translation from="infoWasMarked" to="&quot;%contact%&quot; was marked &quot;%was_marked%&quot; on %time%."/>
 	<translation from="menuConnectionCancelSilentMode" to="Disable Skype Silent Mode"/>
-	<translation from="menuConnectionDisconnect" to="Ø’f"/>
-	<translation from="menuConnectionReconnect" to="ÄÚ‘±"/>
+	<translation from="menuConnectionDisconnect" to="åˆ‡æ–­"/>
+	<translation from="menuConnectionReconnect" to="å†æŽ¥ç¶š"/>
 	<translation from="menuConnectionSetSilentMode" to="Enable Skype Silent Mode"/>
 	<translation from="menuConnectionSetStatus" to="Set Status"/>
 	<translation from="menuContactAppendToChat" to="Invite to Conversation..."/>
 	<translation from="menuContactCall" to="Call"/>
 	<translation from="menuContactCallFinish" to="End call"/>
-	<translation from="menuContactChat" to="ƒƒbƒZ[ƒW‚ð‘—‚é..."/>
+	<translation from="menuContactChat" to="ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’é€ã‚‹..."/>
 	<translation from="menuContactLeaveTheChat" to="Leave Conversation..."/>
 	<translation from="menuContactReJoin" to="Rejoin..."/>
-	<translation from="menuContactSendFile" to="ƒtƒ@ƒCƒ‹‚ð‘—‚é..."/>
+	<translation from="menuContactSendFile" to="ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é€ã‚‹..."/>
 	<translation from="menuContactSendSMSTo" to="Send SMS to"/>
-	<translation from="menuContactSendSMSToPhoneHome" to="Ž©‘î"/>
-	<translation from="menuContactSendSMSToPhoneMobile" to="Œg‘Ñ”Ô†"/>
-	<translation from="menuContactSendSMSToPhoneOffice" to="‰ïŽÐ‚Ì“d˜b"/>
+	<translation from="menuContactSendSMSToPhoneHome" to="è‡ªå®…"/>
+	<translation from="menuContactSendSMSToPhoneMobile" to="æºå¸¯ç•ªå·"/>
+	<translation from="menuContactSendSMSToPhoneOffice" to="ä¼šç¤¾ã®é›»è©±"/>
 	<translation from="menuContactVideoCallFinish" to="Turn off video"/>
 	<translation from="menuContactVideoCallStart" to="Video call"/>
 	<translation from="menuContactViewContactInformation" to="View User Information"/>
 	<translation from="prefsConnectionAutoConnect" to="Automatically connect to this account at startup"/>
 	<translation from="prefsConnectionInvitation" to="Enter your username below and click connect"/>
-	<translation from="prefsConnectionPassword" to="ƒpƒXƒ[ƒh"/>
-	<translation from="prefsConnectionUsername" to="ƒ†[ƒU[–¼"/>
+	<translation from="prefsConnectionPassword" to="ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰"/>
+	<translation from="prefsConnectionUsername" to="ãƒ¦ãƒ¼ã‚¶ãƒ¼å"/>
 	<translation from="prefsMiscellaneousAdvanced" to="Advanced"/>
 	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its connection icon from the contact list"/>
 </language>
