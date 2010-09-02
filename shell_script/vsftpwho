@@ -1,0 +1,38 @@
+#!/usr/bin/perl
+#	vsftpd用のftpwhoコマンド
+#	-count(-cに省略可)オプションを付けるとユーザー数だけ表示します。(ftpshow代替)
+#	監視はwatchコマンドと組み合わせてください。(ftptop代替)
+use strict;
+use warnings;
+use Getopt::Long;
+
+my $VSFTPD = '/usr/sbin/vsftpd';	# vsftpdのフルパス
+
+# 引数解析
+my %opts = ('count' => 0);
+GetOptions(\%opts, 'count');
+
+# プロセス一覧取得
+my @procs = `ps -eo user,pid,ppid,pcpu,pmem,vsz,rss,start_time,command`;
+my $list = '';
+my $count = 0;
+my $rootpid = '';
+foreach my $ps (grep(/$VSFTPD/, @procs)) {
+	my($user, $pid, $ppid) = ($ps =~ /^(\w+)\s+(\d+)\s+(\d+)/);
+	# 親プロセスがinit(1)ではなく、実効ユーザーがnobodyでないプロセスが対象
+	if ($ppid == 1) {
+		$rootpid = $pid;
+	} elsif ($user ne 'nobody') {
+		$count++;
+		$list .= $ps if (!$opts{'count'});
+	}
+}
+
+# 結果表示
+if ($list ne '') {
+	print $procs[0];
+	print $list, "\n";
+}
+print "master vsftpd pid:$rootpid\n";
+print "$count users\n";
+exit;
