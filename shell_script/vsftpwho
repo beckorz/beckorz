@@ -2,11 +2,14 @@
 #	vsftpd用のftpwhoコマンド
 #	-count(-cに省略可)オプションを付けるとユーザー数だけ表示します。(ftpshow代替)
 #	監視はwatchコマンドと組み合わせてください。(ftptop代替)
+#   詳しい接続情報等も見たい場合はvsftpd.confで「setproctitle_enable=YES」にしてください。
 use strict;
 use warnings;
 use Getopt::Long;
 
-my $VSFTPD = '/usr/sbin/vsftpd';	# vsftpdのフルパス
+# psコマンドで表示されるvsftpdのプロセス
+#my $VSFTPD = '/usr/sbin/vsftpd';   # setproctitle_enable=NOの場合
+my $VSFTPD = 'vsftpd: ';    # setproctitle_enable=YESの場合
 
 # 引数解析
 my %opts = ('count' => 0);
