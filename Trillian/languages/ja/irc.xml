@@ -2,8 +2,8 @@
 <language type="Japanese">
 	<translation from="&quot;%string%&quot; is not a command!" to="&quot;%string%&quot; is not a command!"/>
 	<translation from="%chan% (%chanusers% users)" to="%chan% (%chanusers% users)"/>
-	<translation from="%hours% hours ago" to="%hours% hours ago"/>
-	<translation from="%mins% minutes ago" to="%mins% minutes ago"/>
+	<translation from="%hours% hours ago" to="%hours% 時間前"/>
+	<translation from="%mins% minutes ago" to="%mins% 分前"/>
 	<translation from="%name% changed the channel topic" to="%name% changed the channel topic"/>
 	<translation from="%name% has joined %channel%" to="%name% has joined %channel%"/>
 	<translation from="%name% has left %channel%" to="%name% has left %channel%"/>
@@ -125,15 +125,15 @@
 	<translation from="Hostname" to="ホスト名"/>
 	<translation from="IRC server" to="IRC サーバー"/>
 	<translation from="Ident settings" to="Ident settings"/>
-	<translation from="Idle time" to="Idle time"/>
+	<translation from="Idle time" to="アイドル時間"/>
 	<translation from="Ignore a user..." to="Ignore a user..."/>
 	<translation from="Ignore list" to="Ignore list"/>
 	<translation from="Info" to="Info"/>
 	<translation from="Insufficient parameters" to="Insufficient parameters"/>
 	<translation from="Invite exception list" to="Invite exception list"/>
 	<translation from="Invite only" to="Invite only"/>
-	<translation from="Join Channel" to="Join Channel"/>
-	<translation from="Join a Channel..." to="Join a Channel..."/>
+	<translation from="Join Channel" to="チャンネルに参加"/>
+	<translation from="Join a Channel..." to="チャンネルに参加..."/>
 	<translation from="Key exchange settings" to="Key exchange settings"/>
 	<translation from="Key for %name% has been removed." to="Key for %name% has been removed."/>
 	<translation from="Key for %name% set to *censored*" to="Key for %name% set to *censored*"/>
@@ -151,14 +151,14 @@
 	<translation from="Miscellaneous" to="その他"/>
 	<translation from="Moderated" to="Moderated"/>
 	<translation from="Multi line message handling" to="Multi line message handling"/>
-	<translation from="Network error: %errorcode%" to="Network error: %errorcode%"/>
-	<translation from="Nick name" to="Nick name"/>
+	<translation from="Network error: %errorcode%" to="ネットワークエラー: %errorcode%"/>
+	<translation from="Nick name" to="ニックネーム"/>
 	<translation from="Nick name or host mask:" to="Nick name or host mask:"/>
 	<translation from="No external messages" to="No external messages"/>
 	<translation from="None" to="なし"/>
 	<translation from="OK" to="OK"/>
 	<translation from="Offline" to="オフライン"/>
-	<translation from="One minute ago" to="One minute ago"/>
+	<translation from="One minute ago" to="1分前"/>
 	<translation from="Online" to="オンライン"/>
 	<translation from="Only if no key was set previously" to="Only if no key was set previously"/>
 	<translation from="Only ops may change the topic" to="Only ops may change the topic"/>
@@ -212,7 +212,7 @@
 	<translation from="Sorry, Trillian can not understand this URI." to="Sorry, Trillian can not understand this URI."/>
 	<translation from="Strip colors from incoming messages" to="Strip colors from incoming messages"/>
 	<translation from="Switching servers..." to="Switching servers..."/>
-	<translation from="System ID" to="System ID"/>
+	<translation from="System ID" to="システムID"/>
 	<translation from="Take Halfop" to="Take Halfop"/>
 	<translation from="Take Op" to="Take Op"/>
 	<translation from="Take Owner" to="Take Owner"/>

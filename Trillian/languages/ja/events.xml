@@ -5,7 +5,7 @@
 	<translation from="/me is listening to &quot;%song%&quot; (headphones)&apos;&apos;8" to="/me is listening to &quot;%song%&quot; (headphones)&apos;&apos;8"/>
 	<translation from="/me is listening to &quot;%song%&quot; by &quot;%artist%&quot; (headphones)&apos;&apos;8" to="/me is listening to &quot;%song%&quot; by &quot;%artist%&quot; (headphones)&apos;&apos;8"/>
 	<translation from="Automatically Saved Messages" to="Automatically Saved Messages"/>
-	<translation from="Away since %time%." to="Away since %time%."/>
+	<translation from="Away since %time%." to="%time%から退席中"/>
 	<translation from="Clear" to="クリア"/>
 	<translation from="Click for pending events" to="Click for pending events"/>
 	<translation from="Current Song" to="現在の曲"/>
@@ -19,7 +19,7 @@
 	<translation from="Events: Screensaver End" to="Events: Screensaver End"/>
 	<translation from="Events: Screensaver Start" to="Events: Screensaver Start"/>
 	<translation from="Events: Song Change" to="Events: Song Change"/>
-	<translation from="Idle since %time%." to="Idle since %time%."/>
+	<translation from="Idle since %time%." to="%time%からアイドル中"/>
 	<translation from="Multiple Events Pending; First: %event%" to="Multiple Events Pending; First: %event%"/>
 	<translation from="No Contacts Found" to="No Contacts Found"/>
 	<translation from="No Pending Events" to="No Pending Events"/>
@@ -36,14 +36,14 @@
 	<translation from="dialogActionsExecuteProgram" to="Execute Program"/>
 	<translation from="dialogActionsProgramAction" to="Program Action"/>
 	<translation from="dialogActionsSendMessage" to="メッセージを送る"/>
-	<translation from="dialogActionsSetStatus" to="Set Status"/>
+	<translation from="dialogActionsSetStatus" to="ステータス変更"/>
 	<translation from="dialogActionsSound" to="サウンド"/>
 	<translation from="dialogActionsSystrayAlert" to="Systray Alert"/>
 	<translation from="dialogAdvanced" to="高度な設定"/>
-	<translation from="dialogAdvancedAction" to="Action"/>
+	<translation from="dialogAdvancedAction" to="アクション"/>
 	<translation from="dialogAdvancedEnabled" to="有効"/>
 	<translation from="dialogAdvancedType" to="タイプ"/>
-	<translation from="dialogAwayAdd" to="Add Away Message"/>
+	<translation from="dialogAwayAdd" to="退席中メッセージ追加"/>
 	<translation from="dialogAwayMedium" to="Medium"/>
 	<translation from="dialogAwayStatus" to="ステータス"/>
 	<translation from="dialogEventAdd" to="イベント追加"/>

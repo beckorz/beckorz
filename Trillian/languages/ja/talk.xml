@@ -44,8 +44,8 @@
 	<translation from="Activity Graph" to="Activity Graph"/>
 	<translation from="Activity History" to="Activity History"/>
 	<translation from="Activity History with %contact%" to="Activity History with %contact%"/>
-	<translation from="Add Bookmark..." to="Add Bookmark..."/>
-	<translation from="Add Contact" to="Add Contact"/>
+	<translation from="Add Bookmark..." to="ブックマーク追加..."/>
+	<translation from="Add Contact" to="コンタクト追加"/>
 	<translation from="Add Emotiblip..." to="Add Emotiblip..."/>
 	<translation from="All" to="全て"/>
 	<translation from="Already on Contact List" to="Already on Contact List"/>
@@ -55,23 +55,23 @@
 	<translation from="Always On Top" to="常に最前面に表示"/>
 	<translation from="Answer video call" to="Answer video call"/>
 	<translation from="Answer voice call" to="Answer voice call"/>
-	<translation from="April" to="April"/>
+	<translation from="April" to="4月"/>
 	<translation from="Ask" to="Ask"/>
 	<translation from="Assets" to="Assets"/>
 	<translation from="Assets for %contact%" to="Assets for %contact%"/>
 	<translation from="Attempting to establish SecureIM..." to="Attempting to establish SecureIM..."/>
-	<translation from="Audio" to="Audio"/>
-	<translation from="Audio Chat" to="Audio Chat"/>
+	<translation from="Audio" to="音声"/>
+	<translation from="Audio Chat" to="音声チャット"/>
 	<translation from="Audio recording ended." to="Audio recording ended."/>
 	<translation from="Audio recording started." to="Audio recording started."/>
-	<translation from="August" to="August"/>
+	<translation from="August" to="8月"/>
 	<translation from="Back" to="戻る"/>
 	<translation from="Background" to="Background"/>
-	<translation from="Background Color" to="Background Color"/>
+	<translation from="Background Color" to="背景色"/>
 	<translation from="Below is a summary of the most recent conversations with %contact%." to="Below is a summary of the most recent conversations with %contact%."/>
 	<translation from="Below is a summary of your conversation on %date%." to="Below is a summary of your conversation on %date%."/>
 	<translation from="Bitmap..." to="ビットマップ..."/>
-	<translation from="Block Contact" to="Block Contact"/>
+	<translation from="Block Contact" to="拒否コンタクト"/>
 	<translation from="Bold" to="太字"/>
 	<translation from="Bookmarks" to="ブックマーク"/>
 	<translation from="Browse" to="参照"/>
@@ -103,17 +103,17 @@
 	<translation from="Code" to="コード"/>
 	<translation from="Color" to="色"/>
 	<translation from="Compressing file %num%/%total%" to="Compressing file %num%/%total%"/>
-	<translation from="Connecting..." to="Connecting..."/>
-	<translation from="Connection Settings" to="Connection Settings"/>
-	<translation from="Connection: All Connected" to="Connection: All Connected"/>
-	<translation from="Connection: All Disconnected" to="Connection: All Disconnected"/>
-	<translation from="Connection: Partially Disconnected" to="Connection: Partially Disconnected"/>
+	<translation from="Connecting..." to="接続中..."/>
+	<translation from="Connection Settings" to="接続設定"/>
+	<translation from="Connection: All Connected" to="接続: All Connected"/>
+	<translation from="Connection: All Disconnected" to="接続: All Disconnected"/>
+	<translation from="Connection: Partially Disconnected" to="接続: Partially Disconnected"/>
 	<translation from="Console" to="コンソール"/>
 	<translation from="Contact" to="コンタクト"/>
 	<translation from="Contacts" to="コンタクト"/>
 	<translation from="Containers" to="コンテナー"/>
 	<translation from="Conversations" to="Conversations"/>
-	<translation from="Copied text to clipboard." to="Copied text to clipboard."/>
+	<translation from="Copied text to clipboard." to="クリップボードへコピーしました"/>
 	<translation from="Copy" to="コピー"/>
 	<translation from="Copy Definition" to="Copy Definition"/>
 	<translation from="Copy Image" to="Copy Image"/>
@@ -128,7 +128,7 @@
 	<translation from="Cut" to="切り取り"/>
 	<translation from="DCC Chat" to="DCC Chat"/>
 	<translation from="DCC Send" to="DCC Send"/>
-	<translation from="Date" to="Date"/>
+	<translation from="Date" to="日付"/>
 	<translation from="Date Modified" to="Date Modified"/>
 	<translation from="December" to="12月"/>
 	<translation from="Decline call" to="Decline call"/>
@@ -154,14 +154,14 @@
 	<translation from="Eraser" to="Eraser"/>
 	<translation from="Execute" to="Execute"/>
 	<translation from="Fast Forward" to="Fast Forward"/>
-	<translation from="February" to="February"/>
+	<translation from="February" to="2月"/>
 	<translation from="File" to="ファイル"/>
 	<translation from="File Transfer: Complete" to="ファイル転送: 成功"/>
 	<translation from="File Transfer: Pending Event" to="ファイル転送: 保留イベント"/>
 	<translation from="File Transfers" to="ファイル転送"/>
 	<translation from="Filename:" to="ファイル名:"/>
 	<translation from="Filters" to="フィルター"/>
-	<translation from="Find..." to="Find..."/>
+	<translation from="Find..." to="検索..."/>
 	<translation from="Finger" to="Finger"/>
 	<translation from="Finished searching for:" to="Finished searching for:"/>
 	<translation from="Flashing" to="点滅"/>
@@ -190,7 +190,7 @@
 	<translation from="Hide Window" to="Hide Window"/>
 	<translation from="Highlighter" to="Highlighter"/>
 	<translation from="History" to="履歴"/>
-	<translation from="Hyperlink..." to="Hyperlink..."/>
+	<translation from="Hyperlink..." to="ハイパーリンク..."/>
 	<translation from="Icon" to="アイコン"/>
 	<translation from="Icon Changes" to="アイコン変更"/>
 	<translation from="Ignore" to="無視"/>
@@ -499,7 +499,7 @@
 	<translation from="textErrorLogSharing" to="Unable to open log: A sharing violation occurred."/>
 	<translation from="textErrorLogViewerNotFound" to="Unable to find a log viewer.  You may set up in explorer by associating a program with a .log extension."/>
 	<translation from="textErrorPaste" to="Pasted text will exceed maximum length for a single message on this chat service."/>
-	<translation from="textErrorSearch" to="You must enter a search term."/>
+	<translation from="textErrorSearch" to="検索文字列を入力して下さい。"/>
 	<translation from="textErrorURL" to="You must enter both the Hyperlink URL and the Hyperlink Text."/>
 	<translation from="textErrorWord" to="You must enter in a word or hit cancel."/>
 	<translation from="textNoticeAudio" to="You are currently within a audio call.  Do you wish to close this window and end this call?"/>

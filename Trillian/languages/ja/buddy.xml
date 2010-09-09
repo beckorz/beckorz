@@ -27,13 +27,13 @@
 	<translation from="Add Notifications..." to="通知を追加..."/>
 	<translation from="Add Subcontact..." to="サブコンタクトを追加..."/>
 	<translation from="Add Widget..." to="ウィジェットを追加..."/>
-	<translation from="Add this as contact..." to="種目をコンタクトとして追加..."/>
+	<translation from="Add this as contact..." to="コンタクトへ追加..."/>
 	<translation from="Add to" to="Add to"/>
 	<translation from="Add to Contact List" to="コンタクトリストに追加"/>
 	<translation from="Add..." to="追加..."/>
 	<translation from="Adding..." to="追加しています..."/>
-	<translation from="All" to="全部"/>
-	<translation from="Alphabet" to="アルファベット"/>
+	<translation from="All" to="全て"/>
+	<translation from="Alphabet" to="名前順"/>
 	<translation from="Alphabetically" to="名前順に整理"/>
 	<translation from="Always On Top" to="常に手前に表示"/>
 	<translation from="Awaiting Authorization" to="許可を待っています"/>
@@ -41,12 +41,12 @@
 	<translation from="Away - %awaymessage%" to="退席中 - %awaymessage%"/>
 	<translation from="Away Messages" to="自動返信"/>
 	<translation from="Based on Skin" to="Based on Skin"/>
-	<translation from="Bottom" to="下部"/>
-	<translation from="By Conversation History Size" to="By Conversation History Size"/>
+	<translation from="Bottom" to="下"/>
+	<translation from="By Conversation History Size" to="ログサイズ順"/>
 	<translation from="By Service" to="サービス順"/>
 	<translation from="By Status" to="ステータス順"/>
 	<translation from="Cancel" to="キャンセル"/>
-	<translation from="Categorize Offline Contacts" to="Categorize Offline Contacts"/>
+	<translation from="Categorize Offline Contacts" to="オフラインコンタクトも分類する"/>
 	<translation from="Centered" to="中央に表示"/>
 	<translation from="Close" to="閉じる"/>
 	<translation from="Combine Contacts..." to="Combine Contacts..."/>
@@ -60,33 +60,33 @@
 	<translation from="Contact List Layout" to="コンタクトリストレイアウト"/>
 	<translation from="Contact List Options" to="コンタクトリストオプション"/>
 	<translation from="Contact List Preferences..." to="コンタクトリスト設定"/>
-	<translation from="Contact List: Add" to="Contact List: Add"/>
-	<translation from="Contact List: Bulk Changes Start" to="Contact List: Bulk Changes Start"/>
-	<translation from="Contact List: Bulk Changes Stop" to="Contact List: Bulk Changes Stop"/>
-	<translation from="Contact List: Contact Alert Window" to="Contact List: Contact Alert Window"/>
-	<translation from="Contact List: Contact Bulk Signoff" to="Contact List: Contact Bulk Signoff"/>
-	<translation from="Contact List: Contact Bulk Signon" to="Contact List: Contact Bulk Signon"/>
-	<translation from="Contact List: Contact Bulk Status Change" to="Contact List: Contact Bulk Status Change"/>
-	<translation from="Contact List: Contact Signoff" to="Contact List: Contact Signoff"/>
-	<translation from="Contact List: Contact Signon" to="Contact List: Contact Signon"/>
-	<translation from="Contact List: Contact Status Change" to="Contact List: Contact Status Change"/>
-	<translation from="Contact List: Contact wall status change" to="Contact List: Contact wall status change"/>
-	<translation from="Contact List: File Change" to="Contact List: File Change"/>
-	<translation from="Contact List: Hide" to="Contact List: Hide"/>
-	<translation from="Contact List: MetaContact Bulk Status Change" to="Contact List: MetaContact Bulk Status Change"/>
-	<translation from="Contact List: MetaContact Signoff" to="Contact List: MetaContact Signoff"/>
-	<translation from="Contact List: MetaContact Signon" to="Contact List: MetaContact Signon"/>
-	<translation from="Contact List: MetaContact Status Change" to="Contact List: MetaContact Status Change"/>
-	<translation from="Contact List: Remove" to="Contact List: Remove"/>
-	<translation from="Contact List: Rename" to="Contact List: Rename"/>
-	<translation from="Contact List: Show" to="Contact List: Show"/>
-	<translation from="Contact List: Subcontact Bulk Signoff" to="Contact List: Subcontact Bulk Signoff"/>
-	<translation from="Contact List: Subcontact Bulk Signon" to="Contact List: Subcontact Bulk Signon"/>
-	<translation from="Contact List: Subcontact Bulk Status Change" to="Contact List: Subcontact Bulk Status Change"/>
-	<translation from="Contact List: Subcontact Signoff" to="Contact List: Subcontact Signoff"/>
-	<translation from="Contact List: Subcontact Signon" to="Contact List: Subcontact Signon"/>
-	<translation from="Contact List: Subcontact Status Change" to="Contact List: Subcontact Status Change"/>
-	<translation from="Contact List: Toggle Visible" to="Contact List: Toggle Visible"/>
+	<translation from="Contact List: Add" to="コンタクトリスト: 追加"/>
+	<translation from="Contact List: Bulk Changes Start" to="コンタクトリスト: Bulk Changes Start"/>
+	<translation from="Contact List: Bulk Changes Stop" to="コンタクトリスト: Bulk Changes Stop"/>
+	<translation from="Contact List: Contact Alert Window" to="コンタクトリスト: Contact Alert Window"/>
+	<translation from="Contact List: Contact Bulk Signoff" to="コンタクトリスト: Contact Bulk Signoff"/>
+	<translation from="Contact List: Contact Bulk Signon" to="コンタクトリスト: Contact Bulk Signon"/>
+	<translation from="Contact List: Contact Bulk Status Change" to="コンタクトリスト: Contact Bulk Status Change"/>
+	<translation from="Contact List: Contact Signoff" to="コンタクトリスト: Contact Signoff"/>
+	<translation from="Contact List: Contact Signon" to="コンタクトリスト: Contact Signon"/>
+	<translation from="Contact List: Contact Status Change" to="コンタクトリスト: Contact Status Change"/>
+	<translation from="Contact List: Contact wall status change" to="コンタクトリスト: Contact wall status change"/>
+	<translation from="Contact List: File Change" to="コンタクトリスト: File Change"/>
+	<translation from="Contact List: Hide" to="コンタクトリスト: Hide"/>
+	<translation from="Contact List: MetaContact Bulk Status Change" to="コンタクトリスト: MetaContact Bulk Status Change"/>
+	<translation from="Contact List: MetaContact Signoff" to="コンタクトリスト: MetaContact Signoff"/>
+	<translation from="Contact List: MetaContact Signon" to="コンタクトリスト: MetaContact Signon"/>
+	<translation from="Contact List: MetaContact Status Change" to="コンタクトリスト: MetaContact Status Change"/>
+	<translation from="Contact List: Remove" to="コンタクトリスト: Remove"/>
+	<translation from="Contact List: Rename" to="コンタクトリスト: Rename"/>
+	<translation from="Contact List: Show" to="コンタクトリスト: Show"/>
+	<translation from="Contact List: Subcontact Bulk Signoff" to="コンタクトリスト: Subcontact Bulk Signoff"/>
+	<translation from="Contact List: Subcontact Bulk Signon" to="コンタクトリスト: Subcontact Bulk Signon"/>
+	<translation from="Contact List: Subcontact Bulk Status Change" to="コンタクトリスト: Subcontact Bulk Status Change"/>
+	<translation from="Contact List: Subcontact Signoff" to="コンタクトリスト: Subcontact Signoff"/>
+	<translation from="Contact List: Subcontact Signon" to="コンタクトリスト: Subcontact Signon"/>
+	<translation from="Contact List: Subcontact Status Change" to="コンタクトリスト: Subcontact Status Change"/>
+	<translation from="Contact List: Toggle Visible" to="コンタクトリスト: Toggle Visible"/>
 	<translation from="Contacts" to="コンタクト"/>
 	<translation from="Conversation History Size" to="Conversation History Size"/>
 	<translation from="Copy to" to="コピー先"/>
@@ -158,7 +158,7 @@
 	<translation from="Online" to="オンライン"/>
 	<translation from="Online Contacts" to="オンラインのコンタクト"/>
 	<translation from="Other..." to="他..."/>
-	<translation from="Partially Connected" to="Partially Online"/>
+	<translation from="Partially Connected" to="部分的にオンライン"/>
 	<translation from="Please select a service" to="Please select a service"/>
 	<translation from="Push here for more options" to="Push here for more options"/>
 	<translation from="Reconnect" to="再接続"/>

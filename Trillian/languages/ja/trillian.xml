@@ -330,9 +330,9 @@
 	<translation from="In a relationship" to="In a relationship"/>
 	<translation from="Increase Font Size" to="Increase Font Size"/>
 	<translation from="Information" to="情報"/>
-	<translation from="Initializing Cryptography Engine..." to="Initializing Cryptography Engine..."/>
-	<translation from="Initializing Directories..." to="Initializing Directories..."/>
-	<translation from="Initializing User Interface..." to="Initializing User Interface..."/>
+	<translation from="Initializing Cryptography Engine..." to="暗号化エンジンの初期化中..."/>
+	<translation from="Initializing Directories..." to="ディレクトリ初期化中..."/>
+	<translation from="Initializing User Interface..." to="ユーザーインターフェース初期化中..."/>
 	<translation from="Insert" to="挿入"/>
 	<translation from="Insert URL" to="URL挿入"/>
 	<translation from="Install and Restart" to="Install and Restart"/>
@@ -555,10 +555,10 @@
 	<translation from="Server" to="サーバー"/>
 	<translation from="Server Host:" to="サーバーホスト:"/>
 	<translation from="Service not enabled." to="Service not enabled."/>
-	<translation from="Set &amp;Status" to="Set &amp;Status"/>
-	<translation from="Set Background Color" to="Set Background Color"/>
-	<translation from="Set Foreground Color" to="Set Foreground Color"/>
-	<translation from="Set Icon..." to="Set Icon..."/>
+	<translation from="Set &amp;Status" to="ステータスセット (&amp;S)"/>
+	<translation from="Set Background Color" to="背景色セット"/>
+	<translation from="Set Foreground Color" to="文字色"/>
+	<translation from="Set Icon..." to="アイコンセット..."/>
 	<translation from="Set Invisible" to="Set Invisible"/>
 	<translation from="Set Status as:" to="Set Status as:"/>
 	<translation from="Set as Online" to="Set as Online"/>
@@ -602,7 +602,7 @@
 	<translation from="Straight" to="Straight"/>
 	<translation from="Success!" to="成功!"/>
 	<translation from="Sunday" to="日曜日"/>
-	<translation from="Sunflower" to="Sunflower"/>
+	<translation from="Sunflower" to="ヒマワリ"/>
 	<translation from="Swinger" to="Swinger"/>
 	<translation from="Switch User" to="ユーザー切り替え"/>
 	<translation from="Synchronizing Contact List..." to="Synchronizing Contact List..."/>
@@ -864,7 +864,7 @@
 	<translation from="prefsAstraProfileAstraContactRemove" to="X"/>
 	<translation from="prefsAstraProfileAstraContactUp" to="^"/>
 	<translation from="prefsAudioDescription" to="Select sound sources and fine-tune quality settings here."/>
-	<translation from="prefsAudioName" to="Audio"/>
+	<translation from="prefsAudioName" to="音声"/>
 	<translation from="prefsAudioVideoQualityHighDescription" to="Delivers high quality sound.  Uses as much available Internet bandwidth as possible."/>
 	<translation from="prefsAudioVideoQualityHighDescriptionSearch" to="video quality;broadcast;broadcast quality;video bandwidth"/>
 	<translation from="prefsAudioVideoQualityLowDescription" to="Uses lowest amount of bandwidth required to maintain a proper sound."/>
@@ -885,7 +885,7 @@
 	<translation from="prefsAwayContainer" to="Attach new message windows to the Away Container window"/>
 	<translation from="prefsAwayContainerSearch" to="away container;container"/>
 	<translation from="prefsAwayDescription" to="Decide how Trillian behaves when you are away.  You can also edit your Away Messages here."/>
-	<translation from="prefsAwayIdle" to="Change to Idle status based on my mouse and keyboard usage"/>
+	<translation from="prefsAwayIdle" to="マウスとキーボードがアイドル状態になったらステータスを変更する"/>
 	<translation from="prefsAwayIdleSearch" to="automatic;away;idle status;keyboard monitoring"/>
 	<translation from="prefsAwayMessage" to="Set me back when I send an instant message"/>
 	<translation from="prefsAwayMessageAutomatic" to="only if Trillian was set away automatically (idle, screensaver, ..)"/>
@@ -906,7 +906,7 @@
 	<translation from="prefsAwayName" to="退席中モード"/>
 	<translation from="prefsAwayNotification" to="通知ウィンドウは表示しない"/>
 	<translation from="prefsAwayNotificationSearch" to="hide;notifications;systray;notify;alerts;alert"/>
-	<translation from="prefsAwayScreensaver" to="Change status based on screen saver"/>
+	<translation from="prefsAwayScreensaver" to="スクリーンセーバー起動時ステータス変更する"/>
 	<translation from="prefsAwayScreensaverSearch" to="screen saver;away;automatic"/>
 	<translation from="prefsAwaySounds" to="Trillianサウンドは鳴らさない"/>
 	<translation from="prefsAwaySoundsSearch" to="sound;sounds;mute;sounds off;sound off"/>
@@ -937,10 +937,10 @@
 	<translation from="prefsConnectionsDescription" to="Manage your connections to various networks.  You can also fine-tune settings for individual connections."/>
 	<translation from="prefsConnectionsName" to="Identities &amp; Connections"/>
 	<translation from="prefsConnectionsNameSearch" to="connections;medium;account;aim;icq;msn;yahoo!;jabber;irc;internet relay chat;rendezvous;serverlessim;serverless im;identity;icon;"/>
-	<translation from="prefsContactListAlwaysOnTop" to="Show Contact List always on top of other windows"/>
+	<translation from="prefsContactListAlwaysOnTop" to="他のウィンドウよりコンタクリストは最前面に表示する"/>
 	<translation from="prefsContactListAlwaysOnTopSearch" to="always on top;on top"/>
 	<translation from="prefsContactListAlwaysOnTopWarning" to="Trillian is currently set to always on top for all windows."/>
-	<translation from="prefsContactListAutosize" to="Automatically resize the Contact List to fit the content"/>
+	<translation from="prefsContactListAutosize" to="コンタクトリストウィンドウはコンタクト数によって大きさを自動で変更する"/>
 	<translation from="prefsContactListAutosizeSearch" to="autoresize;autosize;autofit"/>
 	<translation from="prefsContactListAutosizeUpwards" to="Size upwards"/>
 	<translation from="prefsContactListAutosizeUpwardsSearch" to="autoresize;autosize;autofit"/>
@@ -950,7 +950,7 @@
 	<translation from="prefsContactListBackgroundSearch" to="background;wallpaper;image;list background"/>
 	<translation from="prefsContactListBackgroundTypeSearch" to="background;wallpaper;image;list background"/>
 	<translation from="prefsContactListDescription" to="The Trillian Contact List is where all your lists of friends and information reside in.  You can customize the behavior of the List, and make it easily accessible here."/>
-	<translation from="prefsContactListDock" to="Dock the Contact List when near the edge of the screen"/>
+	<translation from="prefsContactListDock" to="コンタクトリストウィンドウを画面の端にドッキングさせる"/>
 	<translation from="prefsContactListDockAutoHide" to="Auto-hide Contact List when docked"/>
 	<translation from="prefsContactListDockAutoHideSearch" to="dock;docking;contact list dock;auto hide;auto-hide"/>
 	<translation from="prefsContactListDockSearch" to="task bar;dock;contact list dock;side of monitor;docking"/>
@@ -1025,7 +1025,7 @@
 	<translation from="prefsFileTransfersAcceptNonContactSearch" to="file transfer;accept;autoaccept;auto-accept;contacts;deny;auto-deny"/>
 	<translation from="prefsFileTransfersAutoZip" to="Automatically zip multiple files together when sending"/>
 	<translation from="prefsFileTransfersAutoZipSearch" to="file transfer;send;zip;autozip;pkzip;winzip;compress"/>
-	<translation from="prefsFileTransfersClose" to="Close File Transfer windows when transfer is complete"/>
+	<translation from="prefsFileTransfersClose" to="ファイル転送が終わったら、ファイル転送ウィンドウを閉じる"/>
 	<translation from="prefsFileTransfersCloseSearch" to="file transfer;close window on completion"/>
 	<translation from="prefsFileTransfersDescription" to="Send and receive files from your contacts.  Choose default download folder and enable virus scanning."/>
 	<translation from="prefsFileTransfersDirectory" to="This folder:"/>
@@ -1035,7 +1035,7 @@
 	<translation from="prefsFileTransfersDirectoryCreateLoginSearch" to="file transfer location;saved files"/>
 	<translation from="prefsFileTransfersDirectoryCreateNetwork" to="Create folder based on chat network"/>
 	<translation from="prefsFileTransfersDirectoryCreateNetworkSearch" to="file transfer location;saved files"/>
-	<translation from="prefsFileTransfersDirectoryCreateSender" to="Create folder based on sender&apos;s name"/>
+	<translation from="prefsFileTransfersDirectoryCreateSender" to="送信者の名前のフォルダを作成する"/>
 	<translation from="prefsFileTransfersDirectoryCreateSenderSearch" to="file transfer location;saved files"/>
 	<translation from="prefsFileTransfersDirectorySearch" to="file transfer folder;save files location;file location"/>
 	<translation from="prefsFileTransfersExplorerSendFile" to="Show &quot;Send File&quot; menu in Windows Explorer"/>
@@ -1065,9 +1065,9 @@
 	<translation from="prefsInstallationandstartupLoadOnStartup" to="コンピューターの起動時にTrillianも起動する"/>
 	<translation from="prefsInstallationandstartupLoadOnStartupSearch" to="startup;load;start up;starts up;boot;boots"/>
 	<translation from="prefsInstallationandstartupName" to="Installation &amp; Startup"/>
-	<translation from="prefsInstallationandstartupServerAlertMajor" to="Alert me when important Trillian News is available"/>
+	<translation from="prefsInstallationandstartupServerAlertMajor" to="重要なTrillianのニュースがあった場合、通知する"/>
 	<translation from="prefsInstallationandstartupServerAlertMajorSearch" to="cerulean news;news;"/>
-	<translation from="prefsInstallationandstartupServerAlertMinor" to="Alert me when other Trillian News is available"/>
+	<translation from="prefsInstallationandstartupServerAlertMinor" to="その他のTrillianのニュースがあった場合、通知する"/>
 	<translation from="prefsInstallationandstartupServerAlertMinorSearch" to="cerulean news;news;"/>
 	<translation from="prefsInstallationandstartupServerAlertWarning" to="With this setting off, you may not be notified about new releases of Trillian."/>
 	<translation from="prefsInstallationandstartupShowConnections" to="Show Identities and Connections"/>
@@ -1076,7 +1076,7 @@
 	<translation from="prefsInstallationandstartupShowLoadingSearch" to="login screen;loading;startup"/>
 	<translation from="prefsInstallationandstartupStartMenu" to="Trillianのスタートメニューに作成する"/>
 	<translation from="prefsInstallationandstartupStartMenuSearch" to="start menu;shortcut"/>
-	<translation from="prefsInstallationandstartupStatistics" to="Send anonymous usage statistics to Cerulean Studios"/>
+	<translation from="prefsInstallationandstartupStatistics" to="統計利用の情報をCerulean Studiosに匿名で送信する"/>
 	<translation from="prefsInstallationandstartupStatisticsSearch" to="統計"/>
 	<translation from="prefsInstallationandstartupUpdatesBeta" to="Trillianのβバージョンも確認する"/>
 	<translation from="prefsInstallationandstartupUpdatesBetaSearch" to="beta;update;auto-update;patch;version"/>
@@ -1143,7 +1143,7 @@
 	<translation from="prefsMessageWindowsFlashWindowSearch" to="window flash;flash;taskbar flash;taskbar"/>
 	<translation from="prefsMessageWindowsFocusLine" to="Mark where I last left the conversation"/>
 	<translation from="prefsMessageWindowsFocusLineSearch" to="window focus;focus;focus line;activity;last activity"/>
-	<translation from="prefsMessageWindowsFocused" to="When a window is unfocused:"/>
+	<translation from="prefsMessageWindowsFocused" to="ウィンドウがディアクティブになったら:"/>
 	<translation from="prefsMessageWindowsFocusedSearch" to="window focus;focus;transparent;transparency;black and white;fade window;window fade"/>
 	<translation from="prefsMessageWindowsFocusedTypeSearch" to="window focus;focus;transparent;transparency;black and white;fade window;window fade"/>
 	<translation from="prefsMessageWindowsFocusedWarning" to="The above setting is performance intensive and may slow down older PCs.  Certain skins which support enhanced alpha effects may not turn semi-transparent."/>
@@ -1163,7 +1163,7 @@
 	<translation from="prefsMessageWindowsName" to="メッセージウィンドウ"/>
 	<translation from="prefsMessageWindowsNoTab" to="Do not group them together"/>
 	<translation from="prefsMessageWindowsNoTabSearch" to="window creation;container;tabbed;tabs;autotab;smart tabs"/>
-	<translation from="prefsMessageWindowsPositionClear" to="Reset"/>
+	<translation from="prefsMessageWindowsPositionClear" to="リセット"/>
 	<translation from="prefsMessageWindowsPositionClearSearch" to="window creation;size;location"/>
 	<translation from="prefsMessageWindowsPositionRemember" to="Show at the previous location and size"/>
 	<translation from="prefsMessageWindowsPositionRememberSearch" to="window creation;size;location"/>
@@ -1309,7 +1309,7 @@
 	<translation from="prefsStatusMessagesName" to="ステータス メッセージ"/>
 	<translation from="prefsStatusMessagesRemoveButton" to="X"/>
 	<translation from="prefsStatusMessagesServices" to="サービス:"/>
-	<translation from="prefsStatusMessagesSetStatusButton" to="Set Status"/>
+	<translation from="prefsStatusMessagesSetStatusButton" to="ステータス変更"/>
 	<translation from="prefsStatusMessagesStatus" to="ステータス:"/>
 	<translation from="prefsStatusMessagesTitle" to="タイトル:"/>
 	<translation from="prefsTextConversationsAutoLinkEmoticon" to="Automatically convert text typed to emoticons and links"/>

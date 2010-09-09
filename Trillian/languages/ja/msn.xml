@@ -10,7 +10,7 @@
 	<translation from="Only people on my Allow List can see my status and send me messages" to="Only people on my Allow List can see my status and send me messages"/>
 	<translation from="Override default resource name with: %prefsMSNPResourceName%" to="Override default resource name with: %prefsMSNPResourceName%"/>
 	<translation from="Users Who Added You" to="Users Who Added You"/>
-	<translation from="Web User" to="Web User"/>
+	<translation from="Web User" to="Webユーザー"/>
 	<translation from="Windows Live Messenger support." to="Windows Live Messenger support."/>
 	<translation from="Yes" to="はい"/>
 	<translation from="ftInternalError" to="*** Error: Remote user was unable to accept this file.  There may be a security restriction on certain file types when communicating with this contact."/>
@@ -18,7 +18,7 @@
 	<translation from="infoErrorMessageSelf" to="Windows Live Messengerで自分にメッセージを送ることはできません。"/>
 	<translation from="infoInviteFail" to="会話への招待に失敗しました。"/>
 	<translation from="infoLoggedoffCode" to="%medium% からログオフされています。  理由: &quot;%errcode%&quot;"/>
-	<translation from="infoLoggedoffMaintenance" to="サーバーのメンテナンスをしていますから %medium% からログオフされています。  しばらくに再接続してください。"/>
+	<translation from="infoLoggedoffMaintenance" to="サーバーのメンテナンス中です。 %medium% からログオフしました。  しばらく後に再接続してください。"/>
 	<translation from="infoMsgOfflineNAK" to="This message was not sent because offline instant messaging is temporarily unavailable. Please try again later: %message%"/>
 	<translation from="infoMsgOfflineRate" to="This message was not sent because your rate limit has been exceeded.  Please wait a minute before sending any further offline messages: %message%"/>
 	<translation from="infoMsgOfflineSize" to="This message was not sent because it was too large: %message%"/>

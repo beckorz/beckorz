@@ -12,8 +12,8 @@
 	<translation from="%firstname%&apos;s birthday is today." to="今日は%firstname%の誕生日."/>
 	<translation from="%firstname%&apos;s birthday is tomorrow." to="明日は%firstname%の誕生日."/>
 	<translation from="%firstname%&apos;s time zone" to="%firstname%&apos;s time zone"/>
-	<translation from="%hours% hours ago" to="%hours%　前"/>
-	<translation from="%mins% minutes ago" to="%mins%　前"/>
+	<translation from="%hours% hours ago" to="%hours% 前"/>
+	<translation from="%mins% minutes ago" to="%mins% 前"/>
 	<translation from="%name% and %othercount% other(s) want to add you as a friend." to="%name% and %othercount% other(s) want to add you as a friend."/>
 	<translation from="%name% on Facebook" to="%name% on Facebook"/>
 	<translation from="%name% wants to add you as a friend." to="%name% wants to add you as a friend."/>

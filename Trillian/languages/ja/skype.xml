@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
-	<translation from="AWAY" to="Away"/>
+	<translation from="AWAY" to="退席中"/>
 	<translation from="CALL_FAILURE_REASON_1" to="Miscellaneous error."/>
 	<translation from="CALL_FAILURE_REASON_10" to="%contact% not a friend."/>
 	<translation from="CALL_FAILURE_REASON_11" to="%username% not authorized by %contact%."/>
@@ -62,7 +62,7 @@
 	<translation from="PROVINCE" to="Province"/>
 	<translation from="SERVER_CONNECT_FAILED" to="unable to connect to SMS server"/>
 	<translation from="SKYPEME" to="Skype Me"/>
-	<translation from="STATUS" to="状態"/>
+	<translation from="STATUS" to="ステータス"/>
 	<translation from="Skype support." to="Skypeサポート"/>
 	<translation from="TARGET_NOT_ROUTABLE" to="target not routable"/>
 	<translation from="USER_BLOCKED" to="user is blocked from the server"/>
@@ -91,7 +91,7 @@
 	<translation from="menuConnectionDisconnect" to="切断"/>
 	<translation from="menuConnectionReconnect" to="再接続"/>
 	<translation from="menuConnectionSetSilentMode" to="Enable Skype Silent Mode"/>
-	<translation from="menuConnectionSetStatus" to="Set Status"/>
+	<translation from="menuConnectionSetStatus" to="ステータス変更"/>
 	<translation from="menuContactAppendToChat" to="Invite to Conversation..."/>
 	<translation from="menuContactCall" to="Call"/>
 	<translation from="menuContactCallFinish" to="End call"/>

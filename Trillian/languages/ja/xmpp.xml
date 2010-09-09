@@ -11,20 +11,20 @@
 	<translation from="Force use of bytestream proxy: %prefsXMPPS5BProxyName%" to="Force use of bytestream proxy: %prefsXMPPS5BProxyName%"/>
 	<translation from="Force use of port for bytestreams: %prefsXMPPS5BPortName%" to="Force use of port for bytestreams: %prefsXMPPS5BPortName%"/>
 	<translation from="Go Off The Record" to="Go Off The Record"/>
-	<translation from="Google: New Mail" to="Google: New Mail"/>
+	<translation from="Google: New Mail" to="Google: 新着メール"/>
 	<translation from="Join a Conference..." to="Join a Conference..."/>
 	<translation from="Kick" to="キック"/>
 	<translation from="Moderator" to="モデレータ"/>
 	<translation from="Moderators" to="モデレータ"/>
 	<translation from="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%" to="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%"/>
-	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="Override default resource name with: %prefsXMPPResourceName%"/>
+	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="初期リソース名を右記名で上書きする: %prefsXMPPResourceName%"/>
 	<translation from="Participant" to="Participant"/>
 	<translation from="Resource" to="リソース"/>
 	<translation from="Set priority for this connection to: %prefsXMPPPriorityValue%" to="Set priority for this connection to: %prefsXMPPPriorityValue%"/>
 	<translation from="Standards-based XMPP support, including all Jabber/XMPP networks and Google Talk." to="Standards-based XMPP support, including all Jabber/XMPP networks and Google Talk."/>
 	<translation from="Status Duration" to="Status Duration"/>
 	<translation from="Unknown Error" to="不明なエラー"/>
-	<translation from="Use legacy SSL for connection" to="Use legacy SSL for connection"/>
+	<translation from="Use legacy SSL for connection" to="古いSSL(ポート:5223)を強制的に使用する"/>
 	<translation from="Visitor" to="Visitor"/>
 	<translation from="Visitors" to="Visitors"/>
 	<translation from="ftStreamFail" to="*** We were unable to connect to the streamhost at &quot;%hostname%:%port%&quot;."/>
