@@ -144,7 +144,7 @@
 	<translation from="New message..." to="新しいメッセージ..."/>
 	<translation from="No Connections Available" to="No Connections Available"/>
 	<translation from="No Entries Available" to="No Entries Available"/>
-	<translation from="No Results Found" to="検索結果を１つも見つかりませんでした"/>
+	<translation from="No Results Found" to="検索結果が1つも見つかりませんでした"/>
 	<translation from="No services are currently connected." to="No services are currently connected."/>
 	<translation from="No services are currently installed.  Please enable a service in the plugin preferences." to="No services are currently installed.  Please enable a service in the plugin preferences."/>
 	<translation from="None" to="なし"/>
@@ -218,7 +218,7 @@
 	<translation from="Upgrade to Trillian Pro" to="Upgrade to Trillian Pro"/>
 	<translation from="User: Default Message Send" to="User: Default Message Send"/>
 	<translation from="View" to="表示"/>
-	<translation from="View Contact History" to="View Contact History"/>
+	<translation from="View Contact History" to="コンタクトログを表示"/>
 	<translation from="View Contact Information" to="コンタクト情報を表示"/>
 	<translation from="alert" to="アラート"/>
 	<translation from="alertHeaderSignOff" to="%num% of %total% signed off"/>
@@ -236,8 +236,8 @@
 	<translation from="days" to="日"/>
 	<translation from="dialogAlertAction" to="Action"/>
 	<translation from="dialogAlertAway" to="%contact% returned from away status at %time%."/>
-	<translation from="dialogAlertContact" to="Contact"/>
-	<translation from="dialogAlertDisplayName" to="Display Name"/>
+	<translation from="dialogAlertContact" to="コンタクト"/>
+	<translation from="dialogAlertDisplayName" to="表示名"/>
 	<translation from="dialogAlertEdit" to="Edit Contact Alert: %contact%"/>
 	<translation from="dialogAlertIdle" to="%contact% returned from idle status at %time%."/>
 	<translation from="dialogAlertMedium" to="Medium"/>
@@ -325,7 +325,7 @@
 	<translation from="textErrorRemoveMetaContact" to="本当に %num_contacts% 個の%word_metacontact%を削除しますか？"/>
 	<translation from="textErrorRemoveMetaContactSingle" to="本当に空きのメタコンタクト (%metacontact%) を削除しますか？"/>
 	<translation from="textErrorRemoveMetaContactSingleContact" to="本当にメタコンタクト (%metacontact%) と中の %num_contacts% 個の%word_contact%を削除しますか？"/>
-	<translation from="textErrorSameName" to="この名前はもうありますから名前の変更はできません。"/>
+	<translation from="textErrorSameName" to="この名前は既に存在している為、名前の変更はできません。"/>
 	<translation from="textErrorServerSelect" to="アカウントを選択してください。"/>
 	<translation from="textErrorSoundSelect" to="Please select a sound by clicking on the &apos;more options&apos; button."/>
 	<translation from="textErrorSubcontactMove" to="サブコンタクトをドラッグすることはできません。"/>

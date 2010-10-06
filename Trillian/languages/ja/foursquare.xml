@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="Japanese">
+	<translation from="AddressStr" to="アドレス"/>
+	<translation from="AllFriendsGroupEmptyStr" to="No friends found"/>
+	<translation from="AllFriendsStr" to="All Friends"/>
+	<translation from="CheckinsStr" to="Checkins"/>
+	<translation from="CityStr" to="City"/>
+	<translation from="Connection Settings" to="接続設定"/>
+	<translation from="CreatedByStr" to="Created by"/>
+	<translation from="DescriptionStr" to="詳細"/>
+	<translation from="DistanceStr" to="Distance"/>
+	<translation from="EmailStr" to="Email"/>
+	<translation from="ErrorRetrievingAllFriendsStr" to="Error retrieving list of friends"/>
+	<translation from="ErrorRetrievingFriendCheckinsStr" to="Error retrieving checkins from friends"/>
+	<translation from="ErrorRetrievingFriendRequestsStr" to="Error retrieving list of friend requests"/>
+	<translation from="ErrorRetrievingMyBadgesStr" to="Error retrieving my badges"/>
+	<translation from="ErrorRetrievingMyHistoryStr" to="Error retrieving my checkins"/>
+	<translation from="ErrorRetrievingNearbyPlacesStr" to="Error retrieving list of nearby places"/>
+	<translation from="ErrorRetrievingNearbyTipsStr" to="Error retrieving list of nearby tips"/>
+	<translation from="FacebookStr" to="Facebook"/>
+	<translation from="FriendCheckinsGroupEmptyStr" to="No checkins from friends found"/>
+	<translation from="FriendCheckinsStr" to="Checkins"/>
+	<translation from="FriendRequestsGroupEmptyStr" to="No friend requests found"/>
+	<translation from="FriendRequestsStr" to="Friend Requests"/>
+	<translation from="HerenowStr" to="Here now"/>
+	<translation from="LoadingAllFriendsStr" to="Loading list of friends"/>
+	<translation from="LoadingFriendCheckinsStr" to="Loading checkins from friends"/>
+	<translation from="LoadingFriendRequestsStr" to="Loading list of friend requests"/>
+	<translation from="LoadingMyBadgesStr" to="Loading my badges"/>
+	<translation from="LoadingMyHistoryStr" to="Loading my checkins"/>
+	<translation from="LoadingNearbyPlacesStr" to="Loading list of nearby places"/>
+	<translation from="LoadingNearbyTipsStr" to="Loading list of nearby tips"/>
+	<translation from="Miscellaneous" to="Miscellaneous"/>
+	<translation from="MyBadgesGroupEmptyStr" to="No my badges found"/>
+	<translation from="MyBadgesStr" to="My Badges"/>
+	<translation from="MyHistoryGroupEmptyStr" to="No my checkins found"/>
+	<translation from="MyHistoryStr" to="My History"/>
+	<translation from="NearbyPlacesGroupEmptyStr" to="No nearby places found"/>
+	<translation from="NearbyPlacesStr" to="Nearby Places"/>
+	<translation from="NearbyTipsGroupEmptyStr" to="No nearby tips found"/>
+	<translation from="NearbyTipsStr" to="Nearby Tips"/>
+	<translation from="NewsFeed" to="News Feed"/>
+	<translation from="Notifications" to="Notifications"/>
+	<translation from="Organization" to="Organization"/>
+	<translation from="PhoneStr" to="Phone"/>
+	<translation from="RefreshingAllFriendsStr" to="Refreshing list of friends"/>
+	<translation from="RefreshingFriendCheckinsStr" to="Refreshing checkins from friends"/>
+	<translation from="RefreshingFriendRequestsStr" to="Refreshing list of friend requests"/>
+	<translation from="RefreshingMyBadgesStr" to="Refreshing my badges"/>
+	<translation from="RefreshingMyHistoryStr" to="Refreshing my checkins"/>
+	<translation from="RefreshingNearbyPlacesStr" to="Refreshing list of nearby places"/>
+	<translation from="RefreshingNearbyTipsStr" to="Refreshing list of nearby tips"/>
+	<translation from="RequestsStr" to="Requests"/>
+	<translation from="ShoutStr" to="Shout"/>
+	<translation from="StateStr" to="State"/>
+	<translation from="TextStr" to="Text"/>
+	<translation from="TwitterStr" to="Twitter"/>
+	<translation from="ZipStr" to="Zip"/>
+	<translation from="infoAccountRemoveDialogCaption" to="Trillian"/>
+	<translation from="infoAccountRemoveDialogText" to="Permanently remove account &quot;%username%&quot; from your list?"/>
+	<translation from="infoConnSucceed" to="You have successfully connected to %medium%."/>
+	<translation from="infoConnect" to="Connecting to %medium% as &quot;%username%&quot;."/>
+	<translation from="infoCreateConn" to="Creating connection &quot;%username%&quot;"/>
+	<translation from="infoDisconnected" to="You have been disconnected."/>
+	<translation from="infoReconn" to="Reconnecting to %medium% as &quot;%username%&quot;."/>
+	<translation from="infoSystrayAlertThereAreNumNewCheckins" to="There are %num% new checkins."/>
+	<translation from="infoSystrayAlertThereAreNumNewPlaces" to="There are %num% new places."/>
+	<translation from="menuApprove" to="Approve"/>
+	<translation from="menuCheckin" to="Check-in"/>
+	<translation from="menuDeny" to="Deny"/>
+	<translation from="menuDisconnect" to="Disconnect"/>
+	<translation from="menuGoToFoursquareHome" to="Foursquare Home"/>
+	<translation from="menuHide" to="Hide"/>
+	<translation from="menuMoreSettings" to="More Settings"/>
+	<translation from="menuPinCheckinsToContactList" to="Pin Checkins to Contact List"/>
+	<translation from="menuPinToContactList" to="Pin to Contact List"/>
+	<translation from="menuPrivateCheckin" to="Private Check-in"/>
+	<translation from="menuReconnect" to="Reconnect"/>
+	<translation from="menuRefresh" to="Refresh"/>
+	<translation from="menuViewPlace" to="View Place"/>
+	<translation from="menuViewProfile" to="View Profile"/>
+	<translation from="meterStr" to="meter"/>
+	<translation from="metersStr" to="meters"/>
+	<translation from="onFoursquare" to="on Foursquare"/>
+	<translation from="postButtonShoutHelperStr" to="Shout ..."/>
+	<translation from="postButtonShoutStr" to="Shout (%edit.count_relative%)"/>
+	<translation from="prefsConnectionAutoConnect" to="Automatically connect to this account at startup"/>
+	<translation from="prefsConnectionInvitation" to="Enter your Foursquare username below, and click connect"/>
+	<translation from="prefsConnectionSettingsProxyHeader" to="Proxy"/>
+	<translation from="prefsConnectionSettingsProxyHost" to="Host:"/>
+	<translation from="prefsConnectionSettingsProxyPassword" to="Password:"/>
+	<translation from="prefsConnectionSettingsProxyPort" to="Port:"/>
+	<translation from="prefsConnectionSettingsProxyProtocol" to="Protocol:"/>
+	<translation from="prefsConnectionSettingsProxyProtocolHTTP" to="HTTP"/>
+	<translation from="prefsConnectionSettingsProxyProtocolNone" to="None"/>
+	<translation from="prefsConnectionSettingsProxyProtocolSOCKS4" to="SOCKS4"/>
+	<translation from="prefsConnectionSettingsProxyProtocolSOCKS5" to="SOCKS5"/>
+	<translation from="prefsConnectionSettingsProxyUsername" to="Username:"/>
+	<translation from="prefsConnectionSettingsTitle" to="Fine tune connection with the Twitter server."/>
+	<translation from="prefsConnectionSettingsUseDefaultProxyChoice" to="Use default proxy settings"/>
+	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="Manually specify proxy"/>
+	<translation from="prefsConnectionUsername" to="Username"/>
+	<translation from="prefsMiscellaneousAdvanced" to="高度な設定"/>
+	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its icon from the identity panel"/>
+	<translation from="prefsMiscellaneousItems" to="Items"/>
+	<translation from="prefsMiscellaneousMaxItemNumberPerGroup" to="Show %prefsMiscellaneousMaxItemNumberPerGroup% Items per group on Contact List"/>
+	<translation from="prefsMiscellaneousOptions" to="Options"/>
+	<translation from="prefsMiscellaneousSettingsTitle" to="Manage options for this account."/>
+	<translation from="prefsMiscellaneousShowMyAccountInContactList" to="Show my account in the contact list"/>
+	<translation from="prefsNewsFeedFeedItems" to="Feed Items"/>
+	<translation from="prefsNewsFeedPinBadges" to="Badges"/>
+	<translation from="prefsNewsFeedPinCheckinsFromFriends" to="Checkins from friends"/>
+	<translation from="prefsNewsFeedPinListOfFriendRequests" to="List of Friend Requests"/>
+	<translation from="prefsNewsFeedPinListOfFriends" to="List of Friends"/>
+	<translation from="prefsNewsFeedPinMyCheckins" to="My Checkins"/>
+	<translation from="prefsNewsFeedPinNearbyPlaces" to="Nearby Places"/>
+	<translation from="prefsNewsFeedPinNearbyTips" to="Nearby Tips"/>
+	<translation from="prefsNewsFeedSettingsTitle" to="Configure how the news feed will appear in the Contact List."/>
+	<translation from="prefsNotificationsNotifyMeWhen" to="Notify me when:"/>
+	<translation from="prefsNotificationsNotifyMeWhenSomeonePostsNewCheckin" to="Someone posts a new checkin"/>
+	<translation from="prefsNotificationsSettingsTitle" to="Pick which events you want to receive a notifications for."/>
+	<translation from="prefsOrganizationOnlyShowOneItemPerUser" to="Only show one item per user"/>
+	<translation from="prefsOrganizationOrganization" to="Organization"/>
+	<translation from="prefsOrganizationSettingsTitle" to="Manage the organization settings for this account."/>
+</language>

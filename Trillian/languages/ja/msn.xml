@@ -3,13 +3,13 @@
 	<translation from="Be Right Back" to="一時退席中"/>
 	<translation from="Connection to group conversation lost." to="Connection to group conversation lost."/>
 	<translation from="Enter your Windows Live email and password below and click connect." to="下に Windows Live メールとパスワードを入力して &quot;接続&quot; をクリックして下さい。"/>
-	<translation from="Force this connection to tunnel through the HTTP gateway" to="Force this connection to tunnel through the HTTP gateway"/>
+	<translation from="Force this connection to tunnel through the HTTP gateway" to="強制的に、HTTPゲートウェイを通して接続する"/>
 	<translation from="Instant Messaging Address" to="Instant Messaging Address"/>
-	<translation from="Invite to Conversation..." to="Invite to Conversation..."/>
+	<translation from="Invite to Conversation..." to="会話に招待..."/>
 	<translation from="MSN: New Mail" to="MSN: 新着メール"/>
-	<translation from="Only people on my Allow List can see my status and send me messages" to="Only people on my Allow List can see my status and send me messages"/>
+	<translation from="Only people on my Allow List can see my status and send me messages" to="許可リスト上の人だけにステータス公開とメッセージ送信を制限する"/>
 	<translation from="Override default resource name with: %prefsMSNPResourceName%" to="Override default resource name with: %prefsMSNPResourceName%"/>
-	<translation from="Users Who Added You" to="Users Who Added You"/>
+	<translation from="Users Who Added You" to="あなたを追加しているユーザー"/>
 	<translation from="Web User" to="Webユーザー"/>
 	<translation from="Windows Live Messenger support." to="Windows Live Messenger support."/>
 	<translation from="Yes" to="はい"/>

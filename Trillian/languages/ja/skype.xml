@@ -74,7 +74,7 @@
 	<translation from="infoAccountRemoveDialogCaption" to="Trillian"/>
 	<translation from="infoAccountRemoveDialogText" to="Are you sure you wish to remove this account?"/>
 	<translation from="infoChatWindow" to="This window allows you chat with %contact%."/>
-	<translation from="infoConnSkypeIsNotInstalled" to="Skype is not currently installed on the system and is required for Trillian to connect to the Skype network."/>
+	<translation from="infoConnSkypeIsNotInstalled" to="Trillianで、Skypeネットワークへ接続する為には、Skypeのインストールが必要です。現在インストールされていません。インストールしてから再度行って下さい"/>
 	<translation from="infoConnSkypeIsNotLoaded" to="Skype is not currently loaded.  Left click this alert to load."/>
 	<translation from="infoConnSkypeIsRunningButWasNotLoggedAs" to="Skype application is running but was not logged as %username%.  Left click this alert to load new Skype instance."/>
 	<translation from="infoConnSucceed" to="You have successfully connected to %medium%."/>
@@ -92,7 +92,7 @@
 	<translation from="menuConnectionReconnect" to="再接続"/>
 	<translation from="menuConnectionSetSilentMode" to="Enable Skype Silent Mode"/>
 	<translation from="menuConnectionSetStatus" to="ステータス変更"/>
-	<translation from="menuContactAppendToChat" to="Invite to Conversation..."/>
+	<translation from="menuContactAppendToChat" to="会話に招待..."/>
 	<translation from="menuContactCall" to="Call"/>
 	<translation from="menuContactCallFinish" to="End call"/>
 	<translation from="menuContactChat" to="メッセージを送る..."/>
@@ -110,6 +110,6 @@
 	<translation from="prefsConnectionInvitation" to="Enter your username below and click connect"/>
 	<translation from="prefsConnectionPassword" to="パスワード"/>
 	<translation from="prefsConnectionUsername" to="ユーザー名"/>
-	<translation from="prefsMiscellaneousAdvanced" to="Advanced"/>
+	<translation from="prefsMiscellaneousAdvanced" to="高度な設定"/>
 	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its connection icon from the contact list"/>
 </language>

@@ -212,7 +212,7 @@
 	<translation from="Desktop" to="デスクトップ"/>
 	<translation from="Device Diagnostics" to="Device Diagnostics"/>
 	<translation from="Devices" to="デバイス"/>
-	<translation from="Did you know?" to="知っていましたか？"/>
+	<translation from="Did you know?" to="知っていましたか?"/>
 	<translation from="Dirt Bike" to="Dirt Bike"/>
 	<translation from="Disconnect" to="切断"/>
 	<translation from="Disconnect All" to="全て切断"/>
@@ -238,8 +238,8 @@
 	<translation from="Edit basic account behavior and configure your proxy settings." to="Edit basic account behavior and configure your proxy settings."/>
 	<translation from="Email:" to="Email:"/>
 	<translation from="Emotiblips" to="Emotiblips"/>
-	<translation from="Emoticons" to="顔文字"/>
-	<translation from="Emoticons, Icons, and more" to="顔文字, アイコン その他"/>
+	<translation from="Emoticons" to="絵文字"/>
+	<translation from="Emoticons, Icons, and more" to="絵文字, アイコン その他"/>
 	<translation from="Enter Astra Password here" to="Enter Astra Password here"/>
 	<translation from="Enter Astra Username here" to="Enter Astra Username here"/>
 	<translation from="Enter URL Here (http://www.example.com/feed.rss)" to="Enter URL Here (http://www.example.com/feed.rss)"/>
@@ -341,7 +341,7 @@
 	<translation from="Instant Playback" to="Instant Playback"/>
 	<translation from="Interfaces" to="Interfaces"/>
 	<translation from="Invisible" to="不可視"/>
-	<translation from="Italics" to="イタリック"/>
+	<translation from="Italics" to="斜体"/>
 	<translation from="Jabber" to="Jabber"/>
 	<translation from="Jabber ID" to="Jabber ID"/>
 	<translation from="Jacks" to="Jacks"/>
@@ -379,7 +379,7 @@
 	<translation from="MSN Messenger" to="MSN Messenger"/>
 	<translation from="MSN Passport" to="MSN パスワード"/>
 	<translation from="Magazine" to="雑誌"/>
-	<translation from="Mail Account on %medium%" to="Mail Account on %medium%"/>
+	<translation from="Mail Account on %medium%" to="メールアカウント (%medium%)"/>
 	<translation from="Mail and News" to="メールとニュース"/>
 	<translation from="Main Group" to="メイングループ"/>
 	<translation from="Male" to="男"/>
@@ -426,7 +426,7 @@
 	<translation from="New Account" to="新規アカウント"/>
 	<translation from="New Group..." to="新規グループ..."/>
 	<translation from="New RSS Feed" to="新規RSSフィード"/>
-	<translation from="New Software Available" to="New Software Available"/>
+	<translation from="New Software Available" to="利用可能な新しいソフトウェア"/>
 	<translation from="New Status Message..." to="New Status Message..."/>
 	<translation from="New Wall" to="New Wall"/>
 	<translation from="New computer detected" to="New computer detected"/>
@@ -439,7 +439,7 @@
 	<translation from="No Proxy Server" to="No Proxy Server"/>
 	<translation from="No Status Messages found." to="No Status Messages found."/>
 	<translation from="No custom windows found." to="No custom windows found."/>
-	<translation from="No new messages" to="No new messages"/>
+	<translation from="No new messages" to="新規メッセージはありません"/>
 	<translation from="No other devices are connected." to="No other devices are connected."/>
 	<translation from="No other options available." to="No other options available."/>
 	<translation from="No results found." to="No results found."/>
@@ -698,7 +698,7 @@
 	<translation from="Under 13" to="Under 13"/>
 	<translation from="Underline" to="下線"/>
 	<translation from="Unknown" to="不明"/>
-	<translation from="Unread" to="Unread"/>
+	<translation from="Unread" to="未読メール"/>
 	<translation from="Untitled" to="Untitled"/>
 	<translation from="Update Cancelled" to="Update Cancelled"/>
 	<translation from="Update Complete" to="Update Complete"/>
@@ -764,7 +764,7 @@
 	<translation from="You are not connected to Trillian Astra." to="You are not connected to Trillian Astra."/>
 	<translation from="You have already set up an account.  Would you like to go back to generate another account?" to="You have already set up an account.  Would you like to go back to generate another account?"/>
 	<translation from="You have finished setting up your AstraProfile.  Even more items can be set in the Profile Editor." to="You have finished setting up your AstraProfile.  Even more items can be set in the Profile Editor."/>
-	<translation from="You have new unread messages" to="You have new unread messages"/>
+	<translation from="You have new unread messages" to="新着メッセージがあります"/>
 	<translation from="You have successfully changed your email." to="You have successfully changed your email."/>
 	<translation from="You have successfully changed your password." to="You have successfully changed your password."/>
 	<translation from="You have successfully registered &lt;b&gt;%name%&lt;/b&gt;." to="You have successfully registered &lt;b&gt;%name%&lt;/b&gt;."/>
@@ -950,8 +950,8 @@
 	<translation from="prefsContactListBackgroundSearch" to="background;wallpaper;image;list background"/>
 	<translation from="prefsContactListBackgroundTypeSearch" to="background;wallpaper;image;list background"/>
 	<translation from="prefsContactListDescription" to="The Trillian Contact List is where all your lists of friends and information reside in.  You can customize the behavior of the List, and make it easily accessible here."/>
-	<translation from="prefsContactListDock" to="コンタクトリストウィンドウを画面の端にドッキングさせる"/>
-	<translation from="prefsContactListDockAutoHide" to="Auto-hide Contact List when docked"/>
+	<translation from="prefsContactListDock" to="コンタクトリストウィンドウを画面の端にドッキングできるようにする"/>
+	<translation from="prefsContactListDockAutoHide" to="ドッキング中、コンタクトリストを自動表示にする"/>
 	<translation from="prefsContactListDockAutoHideSearch" to="dock;docking;contact list dock;auto hide;auto-hide"/>
 	<translation from="prefsContactListDockSearch" to="task bar;dock;contact list dock;side of monitor;docking"/>
 	<translation from="prefsContactListExpandMetacontacts" to="Expand MetaContacts when the mouse cursor goes over them"/>
@@ -1295,7 +1295,7 @@
 	<translation from="prefsSkinsInterfaceApply" to="Apply Interface"/>
 	<translation from="prefsSkinsName" to="スキン"/>
 	<translation from="prefsSkinsPacksDescription" to="Change your emoticons, icons, sounds and interface right here."/>
-	<translation from="prefsSkinsPacksName" to="Emoticons, Icons, and more"/>
+	<translation from="prefsSkinsPacksName" to="絵文字, アイコン, その他"/>
 	<translation from="prefsSkinsSettingsAlpha" to="Use alpha-blending transparency for main windows within the skin (if available)"/>
 	<translation from="prefsSkinsSettingsAlphaSearch" to="alpha;layered;speed;performance"/>
 	<translation from="prefsSkinsSettingsAlphaWarning" to="The above setting is performance intensive and may slow down older PCs."/>
@@ -1325,9 +1325,9 @@
 	<translation from="prefsTextConversationsColorChooseSearch" to="font;text color;font color;color"/>
 	<translation from="prefsTextConversationsDescription" to="Customize your basic window functions, colors, and fonts to fit your style of messaging."/>
 	<translation from="prefsTextConversationsEmoticonSpaceRequired" to="Restrictive Emoticon parsing (emoticons must be surrounded by non-characters)"/>
-	<translation from="prefsTextConversationsEmoticonSpaceRequiredSearch" to="emoticons"/>
+	<translation from="prefsTextConversationsEmoticonSpaceRequiredSearch" to="絵文字"/>
 	<translation from="prefsTextConversationsEmoticons" to="Show Emoticons within messages"/>
-	<translation from="prefsTextConversationsEmoticonsSearch" to="顔文字"/>
+	<translation from="prefsTextConversationsEmoticonsSearch" to="絵文字"/>
 	<translation from="prefsTextConversationsEmotisounds" to="Play Emotisounds when messages contain them"/>
 	<translation from="prefsTextConversationsEmotisoundsSearch" to="emotisounds;LOL;sound;sounds"/>
 	<translation from="prefsTextConversationsFontChoose" to="フォント..."/>

@@ -14,7 +14,7 @@
 	<translation from="infoErrorAuth" to="認証エラー。  ユーザー名とパスワードを確認してください。  サーバーの返答: %response%"/>
 	<translation from="infoErrorConn" to="メールサーバーに接続できませんでした。  エラーコード: %errorcode%."/>
 	<translation from="infoErrorOther" to="メールセッションエラー。  サーバーの返答: %response%"/>
-	<translation from="infoMiscellaneousInboxHeader" to="受信トレイを表示するにはこのプログラムを実行:"/>
+	<translation from="infoMiscellaneousInboxHeader" to="受信トレイを表示する際の外部プログラム:"/>
 	<translation from="infoMiscellaneousMailCheckHeader" to="通知"/>
 	<translation from="infoMiscellaneousOptionsHeader" to="オプション"/>
 	<translation from="infoMiscellaneousTitle" to="このアカウントの他のオプションの管理"/>
@@ -35,7 +35,7 @@
 	<translation from="no subject" to="件名がありません"/>
 	<translation from="prefsConnectionAutoConnect" to="実行のときにこのアカウントに自動に接続"/>
 	<translation from="prefsConnectionInvitation" to="下にメールアドレスとパスワードを入力して、&quot;接続&quot; をクリックしてください。"/>
-	<translation from="prefsConnectionMailServer" to="Incoming Mail Server"/>
+	<translation from="prefsConnectionMailServer" to="受信メールサーバー"/>
 	<translation from="prefsConnectionMailUsername" to="ユーザー名"/>
 	<translation from="prefsConnectionPassword" to="パスワード"/>
 	<translation from="prefsConnectionSection" to="セクション"/>
@@ -43,8 +43,8 @@
 	<translation from="prefsConnectionSettingsConnectionTypeSSL_TLS" to="SSL TLS"/>
 	<translation from="prefsConnectionSettingsConnectionTypeSSL_V2" to="SSL V2"/>
 	<translation from="prefsConnectionSettingsConnectionTypeSSL_V3" to="SSL V3"/>
-	<translation from="prefsConnectionSettingsConnectionTypeStandart" to="Standard connection"/>
-	<translation from="prefsConnectionSettingsMailServer" to="Incoming Mail Server:"/>
+	<translation from="prefsConnectionSettingsConnectionTypeStandart" to="標準接続"/>
+	<translation from="prefsConnectionSettingsMailServer" to="受信メールサーバー:"/>
 	<translation from="prefsConnectionSettingsPort" to="ポート:"/>
 	<translation from="prefsConnectionSettingsProxyHost" to="ホスト:"/>
 	<translation from="prefsConnectionSettingsProxyPassword" to="パスワード:"/>
@@ -62,19 +62,19 @@
 	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="手動プロキシー設定"/>
 	<translation from="prefsConnectionUsername" to="メール"/>
 	<translation from="prefsMiscellaneousAdvanced" to="拡張"/>
-	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="このアカウントが有効でないとき、コネクションアイコンはコンタクトリストに表示されません"/>
+	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="このアカウントが有効でない時は、コネクションアイコンはコンタクトリストに表示されません"/>
 	<translation from="prefsMiscellaneousIMAPSearchInSubfolders" to="Search in subfolders for new mail"/>
-	<translation from="prefsMiscellaneousMailArriveAlert" to="Alert me when mail arrives for this account"/>
-	<translation from="prefsMiscellaneousMailCheckTimeout" to="Check my mail every %prefsMiscellaneousMailCheckTimeout% minutes"/>
+	<translation from="prefsMiscellaneousMailArriveAlert" to="新着メールを通知する"/>
+	<translation from="prefsMiscellaneousMailCheckTimeout" to="%prefsMiscellaneousMailCheckTimeout% 分毎にメールをチェックする"/>
 	<translation from="prefsMiscellaneousMailExpiredTime" to="Mail expires as old in %prefsMiscellaneousMailExpiredTime% hours"/>
 	<translation from="prefsMiscellaneousMailExpiredTimeChoice" to="Only display unread mail received in the last %prefsMiscellaneousMailExpiredTime% hours"/>
 	<translation from="prefsMiscellaneousMarkAllMailsAsReadOnViewInboxEvent" to="Mark all mail as read on view inbox event"/>
 	<translation from="prefsMiscellaneousPOP3DisplayAllMailsChoice" to="Display all mail stored on the server"/>
 	<translation from="prefsMiscellaneousShowMyMailAccountInTheContactList" to="Show my mail account in the contact list"/>
-	<translation from="prefsMiscellaneousViewInboxEventApp" to="下記のプログラム:"/>
-	<translation from="prefsMiscellaneousViewInboxEventAppChoice" to="下記のプログラム: %prefsMiscellaneousViewInboxEventApp%"/>
-	<translation from="prefsMiscellaneousViewInboxEventDefaultAppChoice" to="My default email application: "/>
-	<translation from="prefsMiscellaneousViewInboxEventWebSite" to="下記のウェブサイト:"/>
+	<translation from="prefsMiscellaneousViewInboxEventApp" to="外部のプログラム:"/>
+	<translation from="prefsMiscellaneousViewInboxEventAppChoice" to="外部プログラム: %prefsMiscellaneousViewInboxEventApp%"/>
+	<translation from="prefsMiscellaneousViewInboxEventDefaultAppChoice" to="既定メールクライアント: "/>
+	<translation from="prefsMiscellaneousViewInboxEventWebSite" to="ウェブサイトを開く:"/>
 	<translation from="prefsMiscellaneousViewInboxEventWebSiteChoice" to="下記のウェブサイト: %prefsMiscellaneousViewInboxEventWebSite%"/>
 	<translation from="statusConnecting" to="接続中"/>
 	<translation from="statusOffline" to="オフライン"/>
