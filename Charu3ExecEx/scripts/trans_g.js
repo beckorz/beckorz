@@ -40,8 +40,8 @@ function httpRequest(obj, url, onsuccess, onerror) {
 function detectSuccess(obj) {
 	var json = eval("(" + obj.responseText + ")");
 	if (json.responseStatus == 200) {
-		// Š¿š‚ª’†‘Œê”»’è‚³‚ê‚ª‚¿‚È‚Ì‚ÅenˆÈŠO‚Íja‚ÆŒ©‚È‚·
-		var langpair = (json.responseData.language == "en") ? "en%7Cja" : "ja%7Cen";
+		// Š¿š‚ª’†‘Œê”»’è‚³‚ê‚ª‚¿‚È‚Ì‚Å“ú–{Œê‚ÆŒ©‚È‚·
+		var langpair = (json.responseData.language.match(/(?:JA|CN)$/i)) ? "ja%7Cen" : "en%7Cja";
 		httpRequest(obj, TRANSURL + encodeURIComponent(QUERY) + "&langpair=" + langpair, transSuccess, requestError);
 	} else {
 		WScript.StdOut.Write(json.responseDetails);
