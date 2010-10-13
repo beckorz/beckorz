@@ -7,7 +7,7 @@
 	<translation from="%contact% - %date%" to="%contact% - %date%"/>
 	<translation from="%contact% - Activity History" to="%contact% - 活動ログ"/>
 	<translation from="%month% %year%" to="%month% %year%"/>
-	<translation from="%name% appears to be offline.  Messages you send will be delivered when they sign in." to="%name% appears to be offline.  Messages you send will be delivered when they sign in."/>
+	<translation from="%name% appears to be offline.  Messages you send will be delivered when they sign in." to="%name% はオフラインです。送信したメッセージは、相手がサインインしたときに配信されます。"/>
 	<translation from="%name% appears to be offline.  Messages you send will most likely &lt;b&gt;not&lt;/b&gt; be delivered when they sign in" to="%name% appears to be offline.  Messages you send will most likely &lt;b&gt;not&lt;/b&gt; be delivered when they sign in"/>
 	<translation from="%num% %word_hour% ago at %time%" to="%num% %word_hour%前 (%time%)"/>
 	<translation from="%num% %word_minute% ago at %time%" to="%num% %word_minute%前 (%time%)"/>
@@ -174,7 +174,7 @@
 	<translation from="Friday" to="金曜日"/>
 	<translation from="From %from% to %contact%" to="%from% から %contact% へ"/>
 	<translation from="Full Screen" to="Full Screen"/>
-	<translation from="Get Contact Information" to="Get Contact Information"/>
+	<translation from="Get Contact Information" to="コンタクト情報"/>
 	<translation from="Go Offline" to="Go Offline"/>
 	<translation from="Go Online" to="Go Online"/>
 	<translation from="Go to" to="Go to"/>
@@ -340,7 +340,7 @@
 	<translation from="Results" to="結果"/>
 	<translation from="Results (%num%)" to="結果 (%num%)"/>
 	<translation from="Rewind" to="Rewind"/>
-	<translation from="Saturday" to="土曜日"/>aあ
+	<translation from="Saturday" to="土曜日"/>
 	<translation from="Save As..." to="名前を付けて保存..."/>
 	<translation from="Save Image As..." to="名前を付けて画像を保存..."/>
 	<translation from="Screen Capture..." to="Screen Capture..."/>
@@ -463,7 +463,7 @@
 	<translation from="alertMessageChat" to="&lt;b&gt;%name%&lt;/b&gt; (%channel%) says: %message%"/>
 	<translation from="alertMessageHeader" to="&lt;b&gt;%name%&lt;/b&gt; has written %total% messages"/>
 	<translation from="alertMessagePrivate" to="&lt;b&gt;%name%&lt;/b&gt; says: %message%"/>
-	<translation from="alertTyping" to="&lt;b&gt;%name%&lt;/b&gt; is preparing to send you a message..."/>
+	<translation from="alertTyping" to="&lt;b&gt;%name%&lt;/b&gt; がメッセージを入力中..."/>
 	<translation from="attempting to send audio..." to="attempting to send audio..."/>
 	<translation from="attempting to send video..." to="attempting to send video..."/>
 	<translation from="buzzes %name%!" to="%name% にシェイクを送りました"/>

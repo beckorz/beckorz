@@ -226,8 +226,8 @@
 	<translation from="alertHeaderStatus" to="%num% of %total% changed status"/>
 	<translation from="alertNoIdle" to="&lt;b&gt;%name%&lt;/b&gt; is no longer idle."/>
 	<translation from="alertReturned" to="&lt;b&gt;%name%&lt;/b&gt; has returned."/>
-	<translation from="alertSignOff" to="&lt;b&gt;%name%&lt;/b&gt; has just signed off."/>
-	<translation from="alertSignOn" to="&lt;b&gt;%name%&lt;/b&gt; has just signed on."/>
+	<translation from="alertSignOff" to="&lt;b&gt;%name%&lt;/b&gt; はサインアウトしました。"/>
+	<translation from="alertSignOn" to="&lt;b&gt;%name%&lt;/b&gt; はサインインしました。"/>
 	<translation from="alertStatus" to="&lt;b&gt;%name%&lt;/b&gt; has changed status to %status%."/>
 	<translation from="alertStatusMessage" to="&lt;b&gt;%name%&lt;/b&gt; is now %status%: &quot;%status_message%&quot;"/>
 	<translation from="alertStatusMessageNone" to="&lt;b&gt;%name%&lt;/b&gt; is now %status%."/>

@@ -113,7 +113,7 @@
 	<translation from="Block List" to="ブロックリスト"/>
 	<translation from="Boat" to="Boat"/>
 	<translation from="Bold" to="太字"/>
-	<translation from="Broadcast Quality" to="Broadcast Quality"/>
+	<translation from="Broadcast Quality" to="配信品質"/>
 	<translation from="Browse for more pictures" to="Browse for more pictures"/>
 	<translation from="Bubbles" to="Bubbles"/>
 	<translation from="Butterfly" to="Butterfly"/>
@@ -379,7 +379,7 @@
 	<translation from="MSN Messenger" to="MSN Messenger"/>
 	<translation from="MSN Passport" to="MSN パスワード"/>
 	<translation from="Magazine" to="雑誌"/>
-	<translation from="Mail Account on %medium%" to="メールアカウント (%medium%)"/>
+	<translation from="Mail Account on %medium%" to="メール (%medium%)"/>
 	<translation from="Mail and News" to="メールとニュース"/>
 	<translation from="Main Group" to="メイングループ"/>
 	<translation from="Male" to="男"/>
@@ -439,7 +439,7 @@
 	<translation from="No Proxy Server" to="No Proxy Server"/>
 	<translation from="No Status Messages found." to="No Status Messages found."/>
 	<translation from="No custom windows found." to="No custom windows found."/>
-	<translation from="No new messages" to="新規メッセージはありません"/>
+	<translation from="No new messages" to="新着メールはありません"/>
 	<translation from="No other devices are connected." to="No other devices are connected."/>
 	<translation from="No other options available." to="No other options available."/>
 	<translation from="No results found." to="No results found."/>
@@ -451,7 +451,7 @@
 	<translation from="Notification Sounds" to="通知サウンド"/>
 	<translation from="Notification Windows" to="通知ウィンドウ"/>
 	<translation from="Notifications" to="通知"/>
-	<translation from="Notifications will show up here." to="Notifications will show up here."/>
+	<translation from="Notifications will show up here." to="通知はここに表示されます。"/>
 	<translation from="Notify me when:" to="Notify me when:"/>
 	<translation from="November" to="11月"/>
 	<translation from="OK" to="オーケー"/>
@@ -541,7 +541,7 @@
 	<translation from="Saturday" to="土曜日"/>
 	<translation from="Save History to..." to="Save History to..."/>
 	<translation from="Save account on this computer" to="Save account on this computer"/>
-	<translation from="Save files to..." to="Save files to..."/>
+	<translation from="Save files to..." to="ファイル保存..."/>
 	<translation from="Save password on this computer" to="Save password on this computer"/>
 	<translation from="Search" to="検索"/>
 	<translation from="Security &amp; Privacy" to="Security &amp; Privacy"/>
@@ -798,10 +798,10 @@
 	<translation from="ZIP Code:" to="ZIP Code:"/>
 	<translation from="Zip Code" to="Zip Code"/>
 	<translation from="already configured" to="already configured"/>
-	<translation from="at the bottom left corner" to="at the bottom left corner"/>
-	<translation from="at the bottom right corner" to="at the bottom right corner"/>
-	<translation from="at the top left corner" to="at the top left corner"/>
-	<translation from="at the top right corner" to="at the top right corner"/>
+	<translation from="at the bottom left corner" to="左下"/>
+	<translation from="at the bottom right corner" to="右下"/>
+	<translation from="at the top left corner" to="左上"/>
+	<translation from="at the top right corner" to="右上"/>
 	<translation from="blue" to="青色"/>
 	<translation from="blue and white" to="青色と白色"/>
 	<translation from="day" to="日"/>
@@ -835,7 +835,7 @@
 	<translation from="messages" to="メッセージ"/>
 	<translation from="minute" to="分"/>
 	<translation from="minutes" to="分"/>
-	<translation from="near my clock" to="near my clock"/>
+	<translation from="near my clock" to="時計表示の近く"/>
 	<translation from="or" to="or"/>
 	<translation from="prefsActivityHistoryAuto" to="Show last %num% lines of the previous conversation in the chat window"/>
 	<translation from="prefsActivityHistoryAutoSearch" to="auto history;autohistory;previous conversation"/>
@@ -975,7 +975,7 @@
 	<translation from="prefsContactListNewsPicturesSearch" to="icon;icon view;picture;buddy icon"/>
 	<translation from="prefsContactListOffline" to="オフラインメンバーも分類する"/>
 	<translation from="prefsContactListOfflineSearch" to="offline;offline contacts;offline group;offline folder"/>
-	<translation from="prefsContactListPictures" to="Show avatars in favor of status icons"/>
+	<translation from="prefsContactListPictures" to="ステータスアイコンにアバターを表示する"/>
 	<translation from="prefsContactListPicturesMode" to="Layout contacts in %mode% view"/>
 	<translation from="prefsContactListPicturesModeSearch" to="simple;tiles;icon;icon view;picture;buddy icon;icon size"/>
 	<translation from="prefsContactListPicturesModeWithSize" to="Layout contacts in %mode% view at %size% size"/>
@@ -1038,7 +1038,7 @@
 	<translation from="prefsFileTransfersDirectoryCreateSender" to="送信者の名前のフォルダを作成する"/>
 	<translation from="prefsFileTransfersDirectoryCreateSenderSearch" to="file transfer location;saved files"/>
 	<translation from="prefsFileTransfersDirectorySearch" to="file transfer folder;save files location;file location"/>
-	<translation from="prefsFileTransfersExplorerSendFile" to="Show &quot;Send File&quot; menu in Windows Explorer"/>
+	<translation from="prefsFileTransfersExplorerSendFile" to="&quot;ファイル送信&quot; のメニューをエクスプローラーに表示する"/>
 	<translation from="prefsFileTransfersExplorerSendFileSearch" to="explorer;right click menu;right click;windows integration;shell integration"/>
 	<translation from="prefsFileTransfersExplorerSendFileWarning" to="This feature currently works only on 32-bit versions of Windows"/>
 	<translation from="prefsFileTransfersMinimize" to="Minimize File Transfer windows"/>
@@ -1114,18 +1114,18 @@
 	<translation from="prefsMessageAppearanceName" to="Chat Views"/>
 	<translation from="prefsMessageWindowsAllTab" to="Into a single window"/>
 	<translation from="prefsMessageWindowsAllTabSearch" to="window creation;container;tabbed;tabs;autotab;smart tabs"/>
-	<translation from="prefsMessageWindowsAlwaysOnTop" to="Show Trillian windows always on top of other windows"/>
+	<translation from="prefsMessageWindowsAlwaysOnTop" to="Trillianのウィンドウは、常に他のウィンドウより前面に表示する"/>
 	<translation from="prefsMessageWindowsAlwaysOnTopSearch" to="always on top;"/>
 	<translation from="prefsMessageWindowsAutoClose" to="Close the window automatically after untouched for %num% minutes"/>
 	<translation from="prefsMessageWindowsAutoCloseNumSearch" to="window close;window;cleanup;clean"/>
 	<translation from="prefsMessageWindowsAutoCloseSearch" to="window close;window;cleanup;clean"/>
 	<translation from="prefsMessageWindowsAutoTab" to="According to my Contact List groups"/>
 	<translation from="prefsMessageWindowsAutoTabSearch" to="window creation;container;tabbed;tabs;autotab;smart tabs"/>
-	<translation from="prefsMessageWindowsCreationDesktop" to="Show the window on desktop"/>
+	<translation from="prefsMessageWindowsCreationDesktop" to="デスクトップ上にウィンドウを表示する"/>
 	<translation from="prefsMessageWindowsCreationDesktopSearch" to="window creation;show window desktop"/>
-	<translation from="prefsMessageWindowsCreationHidden" to="Hide the window and notify me"/>
+	<translation from="prefsMessageWindowsCreationHidden" to="ウィンドウを非表示して通知する"/>
 	<translation from="prefsMessageWindowsCreationHiddenSearch" to="icq mode;window creation;notify window"/>
-	<translation from="prefsMessageWindowsCreationMinimized" to="Show the window minimized in Windows taskbar"/>
+	<translation from="prefsMessageWindowsCreationMinimized" to="タスクバー内に最小化した状態で表示する"/>
 	<translation from="prefsMessageWindowsCreationMinimizedSearch" to="auto-hide;window creation;hide window;minimize window"/>
 	<translation from="prefsMessageWindowsDefaultAlwaysOnTop" to="常に最前面に表示"/>
 	<translation from="prefsMessageWindowsDefaultAlwaysOnTopSearch" to="always on top;on top"/>
@@ -1138,7 +1138,7 @@
 	<translation from="prefsMessageWindowsDefaultOpacityValueSearch" to="default;window default;transparent;transparency;opacity"/>
 	<translation from="prefsMessageWindowsDefaultPositionSet" to="Set Default Size, Positions and Interiors..."/>
 	<translation from="prefsMessageWindowsDescription" to="Message Windows include Contact Windows, Connection Windows and Conference Windows.  Configure their default appearances and behaviors here."/>
-	<translation from="prefsMessageWindowsFlashWindow" to="新規メッセージを受信したら、Flash the window %num% 回点滅させる"/>
+	<translation from="prefsMessageWindowsFlashWindow" to="新規メッセージを受信したら、%num% 回ウィンドウを点滅させる"/>
 	<translation from="prefsMessageWindowsFlashWindowNumSearch" to="window flash;flash;taskbar flash;taskbar"/>
 	<translation from="prefsMessageWindowsFlashWindowSearch" to="window flash;flash;taskbar flash;taskbar"/>
 	<translation from="prefsMessageWindowsFocusLine" to="Mark where I last left the conversation"/>
@@ -1187,35 +1187,35 @@
 	<translation from="prefsNotificationsAlertGroup" to="Combine notifications after %num% items of the same kind"/>
 	<translation from="prefsNotificationsAlertGroupSearch" to="group;systray;alert;notifications;"/>
 	<translation from="prefsNotificationsAlertGroupWarning" to="The current skin does not support grouping of notification alerts."/>
-	<translation from="prefsNotificationsAlertLocation" to="Show notification windows %location%"/>
+	<translation from="prefsNotificationsAlertLocation" to="%location% へ通知ウィンドウを表示する"/>
 	<translation from="prefsNotificationsAlertLocationMonitor" to="Show notification windows %location% of monitor %monitor%"/>
 	<translation from="prefsNotificationsAlertMessageBuzz" to="相手が自分にメッセージを送った時"/>
 	<translation from="prefsNotificationsAlertMessageBuzzSearch" to="sound;sounds;buzz;alert;spazz"/>
-	<translation from="prefsNotificationsAlertMessageGroup" to="A new message arrives in a chat room window"/>
+	<translation from="prefsNotificationsAlertMessageGroup" to="新規メッセージがチャットルームウィンドウに来た時"/>
 	<translation from="prefsNotificationsAlertMessageGroupSearch" to="sound;sounds;chat;chat room;chat sound"/>
-	<translation from="prefsNotificationsAlertMessagePrivate" to="A new message arrives in a contact window"/>
+	<translation from="prefsNotificationsAlertMessagePrivate" to="新着メッセージがコンタクトウィンドウに来た時"/>
 	<translation from="prefsNotificationsAlertMessagePrivateSearch" to="incoming messages sound;sound;sounds"/>
-	<translation from="prefsNotificationsAlertMessageTyping" to="A contact starts preparing a message"/>
+	<translation from="prefsNotificationsAlertMessageTyping" to="相手がメッセージを入力し始めた時"/>
 	<translation from="prefsNotificationsAlertMessageTypingSearch" to="psychic mode;typing"/>
-	<translation from="prefsNotificationsAlertNum" to="Show %num% windows at maximum"/>
+	<translation from="prefsNotificationsAlertNum" to="最大 %num% 個のウィンドウを表示する"/>
 	<translation from="prefsNotificationsAlertNumAmountSearch" to="notification windows;notifications;systray;max alerts"/>
 	<translation from="prefsNotificationsAlertNumSearch" to="notification windows;notifications;systray;max alerts"/>
 	<translation from="prefsNotificationsAlertSignOff" to="相手がサインアウトした時"/>
 	<translation from="prefsNotificationsAlertSignOffSearch" to="signoff sound;contact sign off;buddy offline sound;sound;sounds"/>
 	<translation from="prefsNotificationsAlertSignOn" to="相手がサインインした時"/>
 	<translation from="prefsNotificationsAlertSignOnSearch" to="signon sound;contact sign on;buddy online sound;sound;soudns"/>
-	<translation from="prefsNotificationsAlertStatus" to="相手が状態が変わった時"/>
-	<translation from="prefsNotificationsAlertStatusMessage" to="相手が状態メッセージが変わった時"/>
+	<translation from="prefsNotificationsAlertStatus" to="相手のステータスが変わった時"/>
+	<translation from="prefsNotificationsAlertStatusMessage" to="相手のステータスメッセージが変更された時"/>
 	<translation from="prefsNotificationsAlertStatusMessageSearch" to="status change sound;contact change status;buddy status;sound;sounds;available message;song;"/>
 	<translation from="prefsNotificationsAlertStatusSearch" to="status change sound;contact change status;buddy status;sound;sounds"/>
-	<translation from="prefsNotificationsAlertTimeout" to="Hide alerts after %num% seconds"/>
+	<translation from="prefsNotificationsAlertTimeout" to="%num% 秒後にアラートを非表示にする"/>
 	<translation from="prefsNotificationsAlertTimeoutSearch" to="alerts;timeout;systray;toast;"/>
 	<translation from="prefsNotificationsDescription" to="Pick when and how you want sounds, icons and popup-windows to tell you when something is happening."/>
 	<translation from="prefsNotificationsName" to="通知"/>
 	<translation from="prefsNotificationsSounds" to="サウンド再生"/>
 	<translation from="prefsNotificationsSoundsAway" to="退席中はサウンドを鳴らさない"/>
 	<translation from="prefsNotificationsSoundsAwaySearch" to="sounds;mute sounds;away sounds"/>
-	<translation from="prefsNotificationsSoundsFocus" to="Play sounds for incoming requests only when window is out of focus"/>
+	<translation from="prefsNotificationsSoundsFocus" to="フォーカスがウィンドウから離れている時に、メッセージが来たらサウンドのみ鳴らす"/>
 	<translation from="prefsNotificationsSoundsFocusSearch" to="sound;sounds;incoming sounds;focus"/>
 	<translation from="prefsNotificationsSoundsSearch" to="sound;sounds;play sounds"/>
 	<translation from="prefsPluginsDescription" to="Plugins allow you to enable new and exciting features at your discretion.  Go to our web site to get more plugins."/>
@@ -1316,7 +1316,7 @@
 	<translation from="prefsTextConversationsAutoLinkEmoticonSearch" to="links;emoticons;autolink;autoemoticon"/>
 	<translation from="prefsTextConversationsBackgroundChoose" to="背景色..."/>
 	<translation from="prefsTextConversationsBackgroundChooseSearch" to="font;text color;font color;color;background;background color"/>
-	<translation from="prefsTextConversationsBuzzShake" to="Shake the window when someone buzzes me"/>
+	<translation from="prefsTextConversationsBuzzShake" to="シェイクを受信時に、ウィンドウを揺らす"/>
 	<translation from="prefsTextConversationsClearLine" to="To clear a line"/>
 	<translation from="prefsTextConversationsClearLineSearch" to="clear;clear line;edit"/>
 	<translation from="prefsTextConversationsCloseAfterSend" to="Close Contact Window after sending a message"/>
@@ -1354,12 +1354,12 @@
 	<translation from="prefsTextConversationsSendMessage" to="メッセージ送信"/>
 	<translation from="prefsTextConversationsSendMessageSearch" to="send message;message;send;message send;edit"/>
 	<translation from="prefsTextConversationsTimestampInstructions" to="%h - hour (24hr)&#09;&#09;%H - hour (12hr)&#09;%a - AM/PM&#13;&#10;%m - minutes&#09;&#09;%s - seconds&#09;%y - year&#13;&#10;%N - month number&#09;%n- month&#09;%d - day (ie: Mon.)&#13;&#10;%D - day number"/>
-	<translation from="prefsTextConversationsTimestamps" to="Display Timestamps per message"/>
+	<translation from="prefsTextConversationsTimestamps" to="メッセージ毎のタイムスタンプを表示する"/>
 	<translation from="prefsTextConversationsTimestampsCustomEditSearch" to="display;timestamp;time;time stamp"/>
-	<translation from="prefsTextConversationsTimestampsEnhanced" to="Mark Chapters by time duration (e.g. &quot;5 minutes ago&quot;)"/>
+	<translation from="prefsTextConversationsTimestampsEnhanced" to="Mark Chapters by time duration (例. &quot;5 分前&quot;)"/>
 	<translation from="prefsTextConversationsTimestampsEnhancedSearch" to="display;timestamp;time;time stamp;ago;minutes ago;hours ago"/>
 	<translation from="prefsTextConversationsTimestampsSearch" to="display;timestamp;time;time stamp"/>
-	<translation from="prefsTextConversationsTyping" to="Allow people to see when I am typing a message"/>
+	<translation from="prefsTextConversationsTyping" to="自分がメッセージを入力中の場合、通知する"/>
 	<translation from="prefsTextConversationsTypingProtection" to="only if I have already sent them a message"/>
 	<translation from="prefsTextConversationsTypingProtectionSearch" to="typing;notifications;privacy"/>
 	<translation from="prefsTextConversationsTypingSearch" to="typing;notifications;privacy"/>
