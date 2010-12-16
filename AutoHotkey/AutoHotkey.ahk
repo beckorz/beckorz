@@ -14,3 +14,71 @@ vk1Csc079 & u::Send ^z
 vk1Csc079 & ^[::Send {ESC}
 vk1Csc079 & p::Send ^v
 ^h::send {BackSpace}
+
+; Modify DosKey
+$^n::
+IfWinActive,ahk_class ConsoleWindowClass
+{
+Send, {Down}
+}
+else
+{
+Send,^n
+}
+return
+
+$^p::
+IfWinActive,ahk_class ConsoleWindowClass
+{
+Send, {Up}
+}
+else
+{
+Send,^p
+}
+return
+
+$^b::
+IfWinActive,ahk_class ConsoleWindowClass
+{
+Send, {Left}
+}
+else
+{
+Send,^b
+}
+return
+
+$^f::
+IfWinActive,ahk_class ConsoleWindowClass
+{
+Send, {Right}
+}
+else
+{
+Send,^f
+}
+return
+
+$^a::
+IfWinActive,ahk_class ConsoleWindowClass
+{
+Send, {Home}
+}
+else
+{
+Send,^a
+}
+return
+
+$^e::
+IfWinActive,ahk_class ConsoleWindowClass
+{
+Send, {End}
+}
+else
+{
+Send,^e
+}
+return
+
