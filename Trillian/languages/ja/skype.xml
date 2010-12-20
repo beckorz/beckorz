@@ -27,7 +27,7 @@
 	<translation from="COUNTRY" to="国"/>
 	<translation from="Conference" to="Conference"/>
 	<translation from="DND" to="Do Not Disturb"/>
-	<translation from="Duration" to="Duration"/>
+	<translation from="Duration" to="接続時間"/>
 	<translation from="FAILUREREASON_UNKNOWN" to="unknown failure reason"/>
 	<translation from="FEMALE" to="女性"/>
 	<translation from="FILETRANSFER_FAILURE_REASON_FAILED_READ" to="read error on local machine."/>

@@ -135,7 +135,7 @@
 	<translation from="Chat Activities" to="Chat Activities"/>
 	<translation from="Chat Room Windows" to="チャットルームウィンドウ"/>
 	<translation from="Chat Views" to="Chat Views"/>
-	<translation from="Chat Windows" to="Chat Windows"/>
+	<translation from="Chat Windows" to="チャットウィンドウ"/>
 	<translation from="Check all that apply:" to="Check all that apply:"/>
 	<translation from="Check out our website for more information!" to="Check out our website for more information!"/>
 	<translation from="Chess" to="チェス"/>
@@ -172,7 +172,7 @@
 	<translation from="Connection: Global Reconnect" to="Connection: Global Reconnect"/>
 	<translation from="Connections" to="接続"/>
 	<translation from="Contact List" to="コンタクトリスト"/>
-	<translation from="Contact List Layout" to="Contact List Layout"/>
+	<translation from="Contact List Layout" to="コンタクトリストレイアウト"/>
 	<translation from="Contact Windows" to="Contact Windows"/>
 	<translation from="Contains %num% %account_word%" to="Contains %num% %account_word%"/>
 	<translation from="Country" to="Country"/>
@@ -321,7 +321,7 @@
 	<translation from="ICQ" to="ICQ"/>
 	<translation from="ICQ UIN" to="ICQ UIN"/>
 	<translation from="IM &amp; Some Social Networks" to="IM &amp; Some Social Networks"/>
-	<translation from="Icons" to="Icons"/>
+	<translation from="Icons" to="アイコン"/>
 	<translation from="If you go back now the account you are registering may no longer be available.  Are you sure you wish to go back?" to="If you go back now the account you are registering may no longer be available.  Are you sure you wish to go back?"/>
 	<translation from="Ignore List" to="無視リスト"/>
 	<translation from="Image" to="イメージ"/>
@@ -362,11 +362,11 @@
 	<translation from="Kick" to="Kick"/>
 	<translation from="Knowledge Bar" to="Knowledge Bar"/>
 	<translation from="Language" to="言語"/>
-	<translation from="Language &amp; Startup" to="Language &amp; Startup"/>
+	<translation from="Language &amp; Startup" to="言語 &amp; 起動時"/>
 	<translation from="Large" to="大"/>
 	<translation from="Large Icon" to="大きいアイコン"/>
 	<translation from="Large List" to="Large List"/>
-	<translation from="Large Size" to="Large Size"/>
+	<translation from="Large Size" to="大"/>
 	<translation from="Last Name" to="姓"/>
 	<translation from="Last Name:" to="姓 :"/>
 	<translation from="Last connected on %time%" to="Last connected on %time%"/>
@@ -395,7 +395,7 @@
 	<translation from="Mail Account on %medium%" to="Mail Account on %medium%"/>
 	<translation from="Main Group" to="メイングループ"/>
 	<translation from="Male" to="男"/>
-	<translation from="Manage Accounts" to="Manage Accounts"/>
+	<translation from="Manage Accounts" to="アカウント管理"/>
 	<translation from="Marbles" to="Marbles"/>
 	<translation from="March" to="3月"/>
 	<translation from="Marital Status" to="Marital Status"/>
@@ -407,7 +407,7 @@
 	<translation from="Membership" to="Membership"/>
 	<translation from="Membership Information" to="Membership Information"/>
 	<translation from="Message Display" to="Message Display"/>
-	<translation from="Message Styles" to="Message Styles"/>
+	<translation from="Message Styles" to="メッセージスタイル"/>
 	<translation from="Miscellaneous" to="詳細設定"/>
 	<translation from="Monday" to="月曜日"/>
 	<translation from="Month" to="月"/>
@@ -428,13 +428,13 @@
 	<translation from="Myspace Username" to="Myspace ユーザー名"/>
 	<translation from="MyspaceIM" to="MyspaceIM"/>
 	<translation from="Name" to="名前"/>
-	<translation from="Name:" to="Name:"/>
+	<translation from="Name:" to="名前:"/>
 	<translation from="Never connected to this account" to="Never connected to this account"/>
 	<translation from="New Account" to="新規アカウント"/>
 	<translation from="New Group..." to="新規グループ..."/>
 	<translation from="New RSS Feed" to="新規RSSフィード"/>
 	<translation from="New Software Available" to="利用可能な新しいソフトウェア"/>
-	<translation from="New Status Message..." to="New Status Message..."/>
+	<translation from="New Status Message..." to="新規ステータスメッセージ..."/>
 	<translation from="New Wall" to="New Wall"/>
 	<translation from="Next" to="次へ"/>
 	<translation from="No" to="いいえ"/>
@@ -540,8 +540,8 @@
 	<translation from="SOCKS5" to="SOCKS5"/>
 	<translation from="Safe Mode On" to="セーフモード有効"/>
 	<translation from="Saturday" to="土曜日"/>
-	<translation from="Save Files To ..." to="Save Files To ..."/>
-	<translation from="Save History To ..." to="Save History To ..."/>
+	<translation from="Save Files To ..." to="ファイルの保存先 ..."/>
+	<translation from="Save History To ..." to="履歴の保存先 ..."/>
 	<translation from="Save account on this computer" to="Save account on this computer"/>
 	<translation from="Save password on this computer" to="パスワードをこのコンピューターに保存"/>
 	<translation from="Search" to="検索"/>
@@ -572,7 +572,7 @@
 	<translation from="Share some basic information" to="Share some basic information"/>
 	<translation from="Shared Trillian" to="Shared Trillian"/>
 	<translation from="Show %medium%" to="Show %medium%"/>
-	<translation from="Show Notifications" to="Show Notifications"/>
+	<translation from="Show Notifications" to="通知表示"/>
 	<translation from="Show Trillian" to="Trillianを表示"/>
 	<translation from="Sign in" to="サインイン"/>
 	<translation from="Sign in as %account%" to="Sign in as %account%"/>
@@ -582,7 +582,7 @@
 	<translation from="Signing out..." to="サインアウト中..."/>
 	<translation from="Silk" to="シルク"/>
 	<translation from="Simple" to="シンプル"/>
-	<translation from="Simple View" to="Simple View"/>
+	<translation from="Simple View" to="シンプル表示"/>
 	<translation from="Single" to="Single"/>
 	<translation from="Skater" to="スケーター"/>
 	<translation from="Skin Settings" to="スキン設定"/>
@@ -590,7 +590,7 @@
 	<translation from="Skip" to="スキップ"/>
 	<translation from="Small" to="小"/>
 	<translation from="Small Dog" to="Small Dog"/>
-	<translation from="Small Size" to="Small Size"/>
+	<translation from="Small Size" to="小"/>
 	<translation from="Snowflake" to="Snowflake"/>
 	<translation from="Soccer" to="サッカー"/>
 	<translation from="Social" to="Social"/>
@@ -609,7 +609,7 @@
 	<translation from="Starting up (Offline Mode)..." to="Starting up (Offline Mode)..."/>
 	<translation from="Starting up..." to="Starting up..."/>
 	<translation from="State" to="ステータス"/>
-	<translation from="Status" to="Status"/>
+	<translation from="Status" to="ステータス"/>
 	<translation from="Status Messages" to="ステータスメッセージ"/>
 	<translation from="Straight" to="Straight"/>
 	<translation from="Subscribe" to="Subscribe"/>
@@ -652,11 +652,11 @@
 	<translation from="There were multiple errors" to="There were multiple errors"/>
 	<translation from="This build of Trillian is outdated." to="This build of Trillian is outdated."/>
 	<translation from="This does not appear to be a valid confirmation code.  Please try again." to="This does not appear to be a valid confirmation code.  Please try again."/>
-	<translation from="This is a sample message." to="これはサンプルメッセージです。"/>
+	<translation from="This is a preview message." to="これはサンプルメッセージです。"/>
 	<translation from="This is the Chat screen your friends will see." to="This is the Chat screen your friends will see."/>
 	<translation from="This is the Profile screen your friends will see." to="This is the Profile screen your friends will see."/>
 	<translation from="Thursday" to="木曜日"/>
-	<translation from="Tile View" to="Tile View"/>
+	<translation from="Tile View" to="並べて表示"/>
 	<translation from="Time Travel" to="Time Travel"/>
 	<translation from="Timestamps" to="Timestamps"/>
 	<translation from="Tiny" to="最小"/>
@@ -678,7 +678,7 @@
 	<translation from="Trillian - Partially Connected" to="Trillian - Partially Online"/>
 	<translation from="Trillian - Signing in..." to="Trillian - Signing in..."/>
 	<translation from="Trillian - Signing out..." to="Trillian - Signing out..."/>
-	<translation from="Trillian Account" to="Trillian Account"/>
+	<translation from="Trillian Account" to="Trillian アカウント"/>
 	<translation from="Trillian First Time Wizard: %name%" to="Trillian First Time Wizard: %name%"/>
 	<translation from="Trillian Member Account:" to="Trillian Member Account:"/>
 	<translation from="Trillian Member Information" to="Trillian Member Information"/>
@@ -755,7 +755,7 @@
 	<translation from="What was your first teacher&apos;s name?" to="What was your first teacher&apos;s name?"/>
 	<translation from="When I&apos;m away..." to="退席時..."/>
 	<translation from="When Trillian loads up..." to="Trillianの起動時..."/>
-	<translation from="When a New Window is Created ..." to="When a New Window is Created ..."/>
+	<translation from="When a New Window is Created ..." to="新規ウィンドウ作成時 ..."/>
 	<translation from="Where did you hear about us?" to="Where did you hear about us?"/>
 	<translation from="Which graphic would you like used to represent you?" to="Which graphic would you like used to represent you?"/>
 	<translation from="Widget Gallery" to="Widget Gallery"/>
@@ -764,7 +764,7 @@
 	<translation from="Windmill" to="Windmill"/>
 	<translation from="Window" to="ウィンドウ"/>
 	<translation from="Windows" to="Windows"/>
-	<translation from="Windows Integration" to="Windows Integration"/>
+	<translation from="Windows Integration" to="Windows統合"/>
 	<translation from="Windows: Console Connect" to="Windows: Console Connect"/>
 	<translation from="Windows: Console Disconnect" to="Windows: Console Disconnect"/>
 	<translation from="Windows: Remote Connect" to="Windows: Remote Connect"/>
@@ -797,7 +797,7 @@
 	<translation from="Your Identity Information" to="Your Identity Information"/>
 	<translation from="Your Name Here" to="Your Name Here"/>
 	<translation from="Your Public &lt;i&gt;AstraContact&lt;/i&gt;" to="Your Public &lt;i&gt;AstraContact&lt;/i&gt;"/>
-	<translation from="Your Trillian Account" to="Your Trillian Account"/>
+	<translation from="Your Trillian Account" to="あなたの Trillian アカウント"/>
 	<translation from="Your connections will go here." to="Your connections will go here."/>
 	<translation from="Your contacts will go here." to="Your contacts will go here."/>
 	<translation from="Your email has been successfully changed." to="Your email has been successfully changed."/>
@@ -900,7 +900,7 @@
 	<translation from="prefsAwayMessageSearch" to="automatic;away"/>
 	<translation from="prefsAwayMessagesAutoSave" to="Save the messages I type into the contact list automatically"/>
 	<translation from="prefsAwayMessagesAutoSaveSearch" to="away message;available message;status message;"/>
-	<translation from="prefsAwayMessagesLinkButton" to="Edit status messages..."/>
+	<translation from="prefsAwayMessagesLinkButton" to="ステータスメッセージの編集..."/>
 	<translation from="prefsAwayMessagesLinkButtonSearch" to="away message;available message;status message;"/>
 	<translation from="prefsAwayMessagesRememberRestart" to="Remember my status between restarts"/>
 	<translation from="prefsAwayMessagesRememberRestartSearch" to="away message;available message;status message;"/>
@@ -909,7 +909,7 @@
 	<translation from="prefsAwayMessagesSearch" to="edit away message;away message;away messages"/>
 	<translation from="prefsAwayMessagesSong" to="Set my status to what I&apos;m listening to"/>
 	<translation from="prefsAwayMessagesSongSearch" to="away message;available message;status message;song;album;artist;winamp;itunes;media player"/>
-	<translation from="prefsAwayName" to="Status"/>
+	<translation from="prefsAwayName" to="ステータス"/>
 	<translation from="prefsAwayNotification" to="通知ウィンドウは表示しない"/>
 	<translation from="prefsAwayNotificationSearch" to="hide;notifications;systray;notify;alerts;alert"/>
 	<translation from="prefsAwayScreensaver" to="スクリーンセーバー起動時ステータス変更する"/>
@@ -951,17 +951,17 @@
 	<translation from="prefsContactListDockAutoHide" to="ドッキング中、コンタクトリストを自動表示にする"/>
 	<translation from="prefsContactListDockAutoHideSearch" to="dock;docking;contact list dock;auto hide;auto-hide"/>
 	<translation from="prefsContactListDockSearch" to="task bar;dock;contact list dock;side of monitor;docking"/>
-	<translation from="prefsContactListGroup" to="Group online contacts by service"/>
+	<translation from="prefsContactListGroup" to="オンラインコンタクトをサービス毎にまとめる"/>
 	<translation from="prefsContactListGroupCounts" to="グループ内のメンバ数の表示"/>
 	<translation from="prefsContactListGroupCountsSearch" to="group counts;group count"/>
 	<translation from="prefsContactListGroupSearch" to="groups;service;sort;"/>
-	<translation from="prefsContactListMailPicturesLabel" to="Show mail in:"/>
+	<translation from="prefsContactListMailPicturesLabel" to="メール内の表示方法:"/>
 	<translation from="prefsContactListMailPicturesModeSearch" to="simple;tiles;icon;icon view;picture;buddy icon;icon size"/>
 	<translation from="prefsContactListMailPicturesSearch" to="mail;icon;icon view;picture;favicon"/>
 	<translation from="prefsContactListMediumIcons" to="サービス名を横に表示"/>
 	<translation from="prefsContactListMediumIconsSearch" to="service icons;icons"/>
 	<translation from="prefsContactListName" to="コンタクトリスト"/>
-	<translation from="prefsContactListNewsPicturesLabel" to="Show news feeds in:"/>
+	<translation from="prefsContactListNewsPicturesLabel" to="新規フィード内の表示方法:"/>
 	<translation from="prefsContactListNewsPicturesModeSearch" to="simple;tiles;icon;icon view;picture;buddy icon;icon size"/>
 	<translation from="prefsContactListNewsPicturesSearch" to="icon;icon view;picture;buddy icon"/>
 	<translation from="prefsContactListOffline" to="オフラインメンバーも分類する"/>
@@ -969,12 +969,12 @@
 	<translation from="prefsContactListOrphans" to="Show contacts not associated with online connections"/>
 	<translation from="prefsContactListOrphansSearch" to="orphans;missing;contacts;"/>
 	<translation from="prefsContactListPictures" to="アバター(アイコン)を表示する"/>
-	<translation from="prefsContactListPicturesLabel" to="コンタクトの表示方法:"/>
+	<translation from="prefsContactListPicturesLabel" to="コンタクト内の表示方法:"/>
 	<translation from="prefsContactListPicturesModeSearch" to="simple;tiles;icon;icon view;picture;buddy icon;icon size"/>
 	<translation from="prefsContactListPicturesSearch" to="icon;icon view;picture;buddy icon"/>
 	<translation from="prefsContactListPicturesSize" to="Picture size:"/>
 	<translation from="prefsContactListPicturesSizeSearch" to="icon;icon view;picture;buddy icon;icon size"/>
-	<translation from="prefsContactListSkinSizeLabel" to="Show identity panel in:"/>
+	<translation from="prefsContactListSkinSizeLabel" to="IDパネル内の表示方法:"/>
 	<translation from="prefsContactListSkinSizeWarning" to="This feature is not supporeted by your skin."/>
 	<translation from="prefsContactListSort" to="コンタクトの並び順:"/>
 	<translation from="prefsContactListSortSearch" to="sort;abc;status;alphabetically"/>
@@ -1049,9 +1049,9 @@
 	<translation from="prefsInstallationandstartupLanguagesSearch" to="言語"/>
 	<translation from="prefsInstallationandstartupLoadOnStartup" to="コンピューターの起動時にTrillianも起動する"/>
 	<translation from="prefsInstallationandstartupLoadOnStartupSearch" to="startup;load;start up;starts up;boot;boots"/>
-	<translation from="prefsInstallationandstartupLogin" to="Always show the login screen"/>
+	<translation from="prefsInstallationandstartupLogin" to="常にログイン画面を表示する"/>
 	<translation from="prefsInstallationandstartupLoginSearch" to="login;accounts;autoconnect"/>
-	<translation from="prefsInstallationandstartupName" to="Language &amp; Startup"/>
+	<translation from="prefsInstallationandstartupName" to="言語 &amp; 起動時"/>
 	<translation from="prefsInstallationandstartupServerAlertMajor" to="重要なTrillianのニュースがあった場合、通知する"/>
 	<translation from="prefsInstallationandstartupServerAlertMajorSearch" to="cerulean news;news;"/>
 	<translation from="prefsInstallationandstartupServerAlertMinor" to="その他のTrillianのニュースがあった場合、通知する"/>
@@ -1145,7 +1145,7 @@
 	<translation from="prefsMessageWindowsInstantSearchWarning" to="The above setting is performance intensive and may slow down older PCs."/>
 	<translation from="prefsMessageWindowsMetaWindows" to="Combine windows from the same metacontact"/>
 	<translation from="prefsMessageWindowsMetaWindowsSearch" to="merge;combine;metacontact"/>
-	<translation from="prefsMessageWindowsName" to="Chat Windows"/>
+	<translation from="prefsMessageWindowsName" to="チャットウィンドウ"/>
 	<translation from="prefsMessageWindowsNoTab" to="Do not automatically create tabbed windows"/>
 	<translation from="prefsMessageWindowsNoTabSearch" to="window creation;container;tabbed;tabs;autotab;smart tabs"/>
 	<translation from="prefsMessageWindowsPositionClear" to="リセット"/>
@@ -1166,7 +1166,7 @@
 	<translation from="prefsMyIconNameSearch" to="My Icon;icons;buddy icons;avatars;display pictures;display icons;photos"/>
 	<translation from="prefsMyIconWindows" to="I&apos;d like to use the same icon I use for Microsoft Windows."/>
 	<translation from="prefsMyIconWindowsSearch" to="My Icon;icons;buddy icons;avatars;display pictures;display icons;photos;xp;windows;windows xp"/>
-	<translation from="prefsNotificationsAlert" to="Notify me when:"/>
+	<translation from="prefsNotificationsAlert" to="通知する"/>
 	<translation from="prefsNotificationsAlertGroup" to="Combine notifications after %num% of the same kind"/>
 	<translation from="prefsNotificationsAlertGroupSearch" to="group;systray;alert;notifications;"/>
 	<translation from="prefsNotificationsAlertGroupWarning" to="The current skin does not support grouping of notification alerts."/>

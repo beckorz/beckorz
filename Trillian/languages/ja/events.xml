@@ -25,12 +25,12 @@
 	<translation from="No Pending Events" to="No Pending Events"/>
 	<translation from="Random Message" to="ランダムメッセージ"/>
 	<translation from="Saved Messages..." to="Saved Messages..."/>
-	<translation from="Set Globally Away" to="Set all Away"/>
+	<translation from="Set Globally Away" to="全ての退席中"/>
 	<translation from="Set Globally Back" to="Set all Back"/>
-	<translation from="Set Globally Idle" to="Set all Idle"/>
-	<translation from="Set all Away" to="Set all Away"/>
+	<translation from="Set Globally Idle" to="すべてのアイドル中"/>
+	<translation from="Set all Away" to="全ての退席中"/>
 	<translation from="Set all Back" to="Set all Back"/>
-	<translation from="Set all Idle" to="Set all Idle"/>
+	<translation from="Set all Idle" to="すべてのアイドル中"/>
 	<translation from="Set all Invisible" to="Set all Invisible"/>
 	<translation from="anytime" to="anytime"/>
 	<translation from="dialogActionsAlertWindow" to="警告ウィンドウ"/>

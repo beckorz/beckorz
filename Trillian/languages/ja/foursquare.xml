@@ -42,7 +42,7 @@
 	<translation from="NewsFeed" to="News Feed"/>
 	<translation from="Notifications" to="Notifications"/>
 	<translation from="Organization" to="Organization"/>
-	<translation from="PhoneStr" to="Phone"/>
+	<translation from="PhoneStr" to="電話"/>
 	<translation from="RefreshingAllFriendsStr" to="Refreshing list of friends"/>
 	<translation from="RefreshingFriendCheckinsStr" to="Refreshing checkins from friends"/>
 	<translation from="RefreshingFriendRequestsStr" to="Refreshing list of friend requests"/>
@@ -52,7 +52,7 @@
 	<translation from="RefreshingNearbyTipsStr" to="Refreshing list of nearby tips"/>
 	<translation from="RequestsStr" to="Requests"/>
 	<translation from="ShoutStr" to="Shout"/>
-	<translation from="StateStr" to="State"/>
+	<translation from="StateStr" to="ステータス"/>
 	<translation from="TextStr" to="Text"/>
 	<translation from="TwitterStr" to="Twitter"/>
 	<translation from="ZipStr" to="Zip"/>
@@ -67,16 +67,16 @@
 	<translation from="infoSystrayAlertThereAreNumNewPlaces" to="There are %num% new places."/>
 	<translation from="menuApprove" to="Approve"/>
 	<translation from="menuCheckin" to="Check-in"/>
-	<translation from="menuDeny" to="Deny"/>
-	<translation from="menuDisconnect" to="Disconnect"/>
+	<translation from="menuDeny" to="拒否"/>
+	<translation from="menuDisconnect" to="切断"/>
 	<translation from="menuGoToFoursquareHome" to="Foursquare Home"/>
-	<translation from="menuHide" to="Hide"/>
+	<translation from="menuHide" to="隠す"/>
 	<translation from="menuMoreSettings" to="More Settings"/>
 	<translation from="menuPinCheckinsToContactList" to="Pin Checkins to Contact List"/>
 	<translation from="menuPinToContactList" to="Pin to Contact List"/>
 	<translation from="menuPrivateCheckin" to="Private Check-in"/>
-	<translation from="menuReconnect" to="Reconnect"/>
-	<translation from="menuRefresh" to="Refresh"/>
+	<translation from="menuReconnect" to="再接続"/>
+	<translation from="menuRefresh" to="再更新"/>
 	<translation from="menuViewPlace" to="View Place"/>
 	<translation from="menuViewProfile" to="View Profile"/>
 	<translation from="meterStr" to="meter"/>
@@ -86,20 +86,20 @@
 	<translation from="postButtonShoutStr" to="Shout (%edit.count_relative%)"/>
 	<translation from="prefsConnectionAutoConnect" to="Automatically connect to this account at startup"/>
 	<translation from="prefsConnectionInvitation" to="Enter your Foursquare username below, and click connect"/>
-	<translation from="prefsConnectionSettingsProxyHeader" to="Proxy"/>
-	<translation from="prefsConnectionSettingsProxyHost" to="Host:"/>
-	<translation from="prefsConnectionSettingsProxyPassword" to="Password:"/>
-	<translation from="prefsConnectionSettingsProxyPort" to="Port:"/>
-	<translation from="prefsConnectionSettingsProxyProtocol" to="Protocol:"/>
+	<translation from="prefsConnectionSettingsProxyHeader" to="プロキシー"/>
+	<translation from="prefsConnectionSettingsProxyHost" to="ホスト:"/>
+	<translation from="prefsConnectionSettingsProxyPassword" to="パスワード:"/>
+	<translation from="prefsConnectionSettingsProxyPort" to="ポート:"/>
+	<translation from="prefsConnectionSettingsProxyProtocol" to="プロトコル:"/>
 	<translation from="prefsConnectionSettingsProxyProtocolHTTP" to="HTTP"/>
-	<translation from="prefsConnectionSettingsProxyProtocolNone" to="None"/>
+	<translation from="prefsConnectionSettingsProxyProtocolNone" to="なし"/>
 	<translation from="prefsConnectionSettingsProxyProtocolSOCKS4" to="SOCKS4"/>
 	<translation from="prefsConnectionSettingsProxyProtocolSOCKS5" to="SOCKS5"/>
-	<translation from="prefsConnectionSettingsProxyUsername" to="Username:"/>
+	<translation from="prefsConnectionSettingsProxyUsername" to="ユーザー名:"/>
 	<translation from="prefsConnectionSettingsTitle" to="Fine tune connection with the Twitter server."/>
 	<translation from="prefsConnectionSettingsUseDefaultProxyChoice" to="Use default proxy settings"/>
 	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="Manually specify proxy"/>
-	<translation from="prefsConnectionUsername" to="Username"/>
+	<translation from="prefsConnectionUsername" to="ユーザー名"/>
 	<translation from="prefsMiscellaneousAdvanced" to="高度な設定"/>
 	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its icon from the identity panel"/>
 	<translation from="prefsMiscellaneousItems" to="Items"/>

@@ -46,7 +46,7 @@
 	<translation from="Based on Skin" to="Based on Skin"/>
 	<translation from="Bottom" to="下"/>
 	<translation from="By Conversation History Size" to="ログサイズ順"/>
-	<translation from="By Group" to="By Group"/>
+	<translation from="By Group" to="グループ順"/>
 	<translation from="By Service" to="サービス順"/>
 	<translation from="By Status" to="ステータス順"/>
 	<translation from="Cancel" to="キャンセル"/>
@@ -126,11 +126,11 @@
 	<translation from="Manage Accounts" to="アカウント管理"/>
 	<translation from="Medium" to="中"/>
 	<translation from="Medium Icons" to="Medium Icons"/>
-	<translation from="Medium Size" to="Medium Size"/>
+	<translation from="Medium Size" to="中"/>
 	<translation from="Message" to="メッセージ"/>
 	<translation from="Metacontact" to="メタコンタクト"/>
 	<translation from="Metacontacts" to="メタコンタクト"/>
-	<translation from="Minimal Size" to="Minimal Size"/>
+	<translation from="Minimal Size" to="最小"/>
 	<translation from="Minimize" to="最小化"/>
 	<translation from="Modify Notifications..." to="Modify Notifications..."/>
 	<translation from="More Messages" to="More Messages"/>
@@ -191,7 +191,7 @@
 	<translation from="Show Status Window" to="ステータスウインドウを表示"/>
 	<translation from="Shutdown" to="終了"/>
 	<translation from="Simple" to="シンプル"/>
-	<translation from="Simple View" to="Simple View"/>
+	<translation from="Simple View" to="シンプル表示"/>
 	<translation from="Size" to="サイズ"/>
 	<translation from="Small" to="小"/>
 	<translation from="Sort" to="ソート"/>
@@ -213,7 +213,7 @@
 	<translation from="Turn On" to="Turn On"/>
 	<translation from="Uncombine Metacontact" to="Uncombine Metacontact"/>
 	<translation from="Unknown" to="不明"/>
-	<translation from="Upgrade to Trillian Pro" to="Upgrade to Trillian Pro"/>
+	<translation from="Upgrade to Trillian Pro" to="Trillian Proへアップグレード"/>
 	<translation from="User: Default Message Send" to="User: Default Message Send"/>
 	<translation from="View" to="表示"/>
 	<translation from="View Activity History" to="View Activity History"/>
@@ -230,8 +230,8 @@
 	<translation from="alertStatusMessage" to="&lt;b&gt;%name%&lt;/b&gt; is now %status%: &quot;%status_message%&quot;"/>
 	<translation from="alertStatusMessageNone" to="&lt;b&gt;%name%&lt;/b&gt; is now %status%."/>
 	<translation from="alerts" to="アラート"/>
-	<translation from="alphabet" to="alphabet"/>
-	<translation from="conversation history size" to="conversation history size"/>
+	<translation from="alphabet" to="名前順"/>
+	<translation from="conversation history size" to="ログサイズ順"/>
 	<translation from="day" to="日"/>
 	<translation from="days" to="日"/>
 	<translation from="dialogAlertAction" to="Action"/>
@@ -283,11 +283,11 @@
 	<translation from="minutes" to="分"/>
 	<translation from="month" to="月"/>
 	<translation from="months" to="月"/>
-	<translation from="reverse alphabet" to="reverse alphabet"/>
+	<translation from="reverse alphabet" to="名前の逆順"/>
 	<translation from="second" to="秒"/>
 	<translation from="seconds" to="秒"/>
-	<translation from="service" to="service"/>
-	<translation from="status" to="status"/>
+	<translation from="service" to="サービス毎"/>
+	<translation from="status" to="状態毎"/>
 	<translation from="textErrorActionSelect" to="Please select a valid action.  You may be required to click the &apos;more options&apos; button for the action you selected."/>
 	<translation from="textErrorAlertRemove" to="Unable to determine which alert to remove."/>
 	<translation from="textErrorConnectionSetAll" to="Please change each &apos;unknown&apos; entry to a valid connection or hit cancel."/>
@@ -323,7 +323,7 @@
 	<translation from="textErrorRemoveGroup" to="本当に %num_groups% 個の%word_group%を削除しますか？"/>
 	<translation from="textErrorRemoveGroupContact" to="本当に %num_groups% 個の%word_group%と %num_contacts% 個の%word_contact%を削除しますか？"/>
 	<translation from="textErrorRemoveGroupContactMetaContact" to="Are you sure you want to remove %num_groups% %word_group%, %num_contacts% %word_contact% and %num_metacontacts% %word_metacontact%?"/>
-	<translation from="textErrorRemoveGroupMetaContact" to="本当に %num_groups% 個の%word_groups%　と %num_metacontacts% 個の%word_metacontact%を削除しますか？"/>
+	<translation from="textErrorRemoveGroupMetaContact" to="本当に %num_groups% 個の%word_groups% と %num_metacontacts% 個の%word_metacontact%を削除しますか？"/>
 	<translation from="textErrorRemoveGroupSingle" to="本当に空きのグループ (%group%) を削除しますか？"/>
 	<translation from="textErrorRemoveGroupSingleContact" to="本当にグループ (%group%) と中の %num_contacts% 個の%word_contact%を削除しますか？"/>
 	<translation from="textErrorRemoveMetaContact" to="本当に %num_contacts% 個の%word_metacontact%を削除しますか？"/>

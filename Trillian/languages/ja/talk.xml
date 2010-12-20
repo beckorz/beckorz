@@ -22,7 +22,7 @@
 	<translation from="%percentage%%% - Received %file% from %name%" to="%percentage%%% - Received %file% from %name%"/>
 	<translation from="%percentage%%% - Receiving %file% from %name%" to="%percentage%%% - Receiving %file% from %name%"/>
 	<translation from="%percentage%%% - Sending %file% to %name%" to="%percentage%%% - Sending %file% to %name%"/>
-	<translation from="%percentage%%% - Sent %file% to %name%" to="%percentage%%% - Sent %file% to %name%"/>
+	<translation from="%percentage%%% - Sent %file% to %name%" to="%percentage%%% - %file% へ %name% 送信しました"/>
 	<translation from="%reltime% at %time%" to="%reltime% at %time%"/>
 	<translation from="%user% user connected." to="%user% user connected."/>
 	<translation from="%user% users connected." to="%user% users connected."/>
@@ -44,7 +44,7 @@
 	<translation from="AM" to="AM"/>
 	<translation from="About..." to="About..."/>
 	<translation from="Accept" to="許可"/>
-	<translation from="Account Settings" to="Account Settings"/>
+	<translation from="Account Settings" to="アカウント設定"/>
 	<translation from="Activity Graph" to="活動グラフ"/>
 	<translation from="Activity History" to="活動ログ"/>
 	<translation from="Activity History with %contact%" to="Activity History with %contact%"/>
@@ -57,7 +57,7 @@
 	<translation from="Already on Contact List" to="Already on Contact List"/>
 	<translation from="Alt-Enter" to="Alt-Enter"/>
 	<translation from="Alt-S" to="Alt-S"/>
-	<translation from="Always" to="Always"/>
+	<translation from="Always" to="常に"/>
 	<translation from="Always On Top" to="常に最前面に表示"/>
 	<translation from="Answer video call" to="Answer video call"/>
 	<translation from="Answer voice call" to="Answer voice call"/>
@@ -97,14 +97,14 @@
 	<translation from="Choose..." to="変更..."/>
 	<translation from="Clear" to="クリア"/>
 	<translation from="Clear All" to="全てクリア"/>
-	<translation from="Clear History" to="Clear History"/>
+	<translation from="Clear History" to="履歴をクリア"/>
 	<translation from="Clear Log..." to="ログをクリア..."/>
 	<translation from="Click for Options" to="Click for Options"/>
 	<translation from="Click to change your icon." to="Click to change your icon."/>
 	<translation from="Close" to="閉じる"/>
 	<translation from="Close Connection" to="Close Connection"/>
 	<translation from="Close File Transfer" to="Close File Transfer"/>
-	<translation from="Close after send" to="Close after send"/>
+	<translation from="Close after send" to="送信後に閉じる"/>
 	<translation from="Code" to="コード"/>
 	<translation from="Color" to="色"/>
 	<translation from="Compressing file %num%/%total%" to="Compressing file %num%/%total%"/>
@@ -141,12 +141,12 @@
 	<translation from="Definition" to="Definition"/>
 	<translation from="Definition by Wikipedia" to="Definition by Wikipedia"/>
 	<translation from="Delete" to="削除"/>
-	<translation from="Deny" to="Deny"/>
+	<translation from="Deny" to="拒否"/>
 	<translation from="Description:" to="Description:"/>
 	<translation from="Direct Connect" to="Direct Connect"/>
 	<translation from="Disconnect" to="切断"/>
 	<translation from="Draw your message here" to="Draw your message here"/>
-	<translation from="Duration" to="Duration"/>
+	<translation from="Duration" to="接続時間"/>
 	<translation from="Editbox is locked, please wait..." to="Editbox is locked, please wait..."/>
 	<translation from="EmotiSounds" to="EmotiSounds"/>
 	<translation from="Emotiblips" to="Emotiblips"/>
@@ -217,7 +217,7 @@
 	<translation from="Invalid video format." to="Invalid video format."/>
 	<translation from="Inverse" to="Inverse"/>
 	<translation from="Invite" to="招待"/>
-	<translation from="Invite Contacts" to="Invite Contacts"/>
+	<translation from="Invite Contacts" to="コンタクトを招待"/>
 	<translation from="Invite User" to="ユーザーを招待"/>
 	<translation from="Italics" to="斜体"/>
 	<translation from="January" to="1月"/>
@@ -242,7 +242,7 @@
 	<translation from="May" to="5月"/>
 	<translation from="Message" to="メッセージ"/>
 	<translation from="Message History" to="メッセージ履歴"/>
-	<translation from="Message Styles" to="Message Styles"/>
+	<translation from="Message Styles" to="メッセージスタイル"/>
 	<translation from="Message: Buzz" to="メッセージ: シェイク"/>
 	<translation from="Message: Buzz (out of focus)" to="Message: Buzz (out of focus)"/>
 	<translation from="Message: Buzz Outbound" to="Message: Buzz Outbound"/>
@@ -325,7 +325,7 @@
 	<translation from="Picture..." to="画像..."/>
 	<translation from="Pixelated" to="Pixelated"/>
 	<translation from="Play" to="再生"/>
-	<translation from="Play Sounds" to="Play Sounds"/>
+	<translation from="Play Sounds" to="サウンド再生"/>
 	<translation from="Press ESC to exit full screen" to="Press ESC to exit full screen"/>
 	<translation from="Privacy" to="プライバシー"/>
 	<translation from="Promote Trillian..." to="Trillianを紹介する..."/>
@@ -369,15 +369,15 @@
 	<translation from="Send Webcam Invitation" to="Send Webcam Invitation"/>
 	<translation from="Sending %file% to %name%" to="Sending %file% to %name%"/>
 	<translation from="Sending a file to %contact%..." to="Sending a file to %contact%..."/>
-	<translation from="Sent %file% to %name%" to="Sent %file% to %name%"/>
+	<translation from="Sent %file% to %name%" to="%file% を %name% へ送信しました。"/>
 	<translation from="Sepia" to="Sepia"/>
 	<translation from="September" to="9月"/>
 	<translation from="Service Connections" to="Service Connections"/>
 	<translation from="Session Started" to="Session Started"/>
 	<translation from="Session Stopped" to="Session Stopped"/>
 	<translation from="Sessions" to="セッション"/>
-	<translation from="Set Background Color" to="Set Background Color"/>
-	<translation from="Set Foreground Color" to="Set Foreground Color"/>
+	<translation from="Set Background Color" to="背景色をセット"/>
+	<translation from="Set Foreground Color" to="文字色をセット"/>
 	<translation from="Set..." to="設定..."/>
 	<translation from="Settings" to="設定"/>
 	<translation from="Share" to="共有"/>
@@ -420,14 +420,14 @@
 	<translation from="Toggle Draw Mode" to="Toggle Draw Mode"/>
 	<translation from="Toggle capture mode" to="Toggle capture mode"/>
 	<translation from="Toggle video sending" to="Toggle video sending"/>
-	<translation from="Trying to establish file transfer." to="Trying to establish file transfer."/>
+	<translation from="Trying to establish file transfer." to="ファイル転送を確立しようとしています。"/>
 	<translation from="Tuesday" to="火曜日"/>
 	<translation from="Turn Off Draw Mode" to="Turn Off Draw Mode"/>
 	<translation from="Turn On Draw Mode" to="Turn On Draw Mode"/>
 	<translation from="Turn sounds off" to="Turn sounds off"/>
 	<translation from="Turn sounds on" to="Turn sounds on"/>
 	<translation from="Type" to="タイプ"/>
-	<translation from="Type your message here" to="Type your message here"/>
+	<translation from="Type your message here" to="ここにメッセージを入力して下さい"/>
 	<translation from="Underline" to="下線"/>
 	<translation from="Undo" to="元に戻す"/>
 	<translation from="Unknown Medium" to="Unknown Medium"/>

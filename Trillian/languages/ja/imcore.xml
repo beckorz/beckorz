@@ -28,7 +28,7 @@
 	<translation from="Cancel" to="キャンセル"/>
 	<translation from="Change Password" to="パスワードを変更"/>
 	<translation from="Check Mail" to="メールをチェック"/>
-	<translation from="Client" to="Client"/>
+	<translation from="Client" to="クライアント"/>
 	<translation from="Connection" to="接続"/>
 	<translation from="Contact:" to="コンタクト:"/>
 	<translation from="Disconnect" to="切断"/>
@@ -192,7 +192,7 @@
 	<translation from="systrayStatus" to="%medium% にの接続は失敗しました.  詳細を表示するにはここにクリックしてください。"/>
 	<translation from="textApprove" to="Approve"/>
 	<translation from="textApproveAndAdd" to="Approve and Add"/>
-	<translation from="textDeny" to="Deny"/>
-	<translation from="textIgnore" to="Ignore"/>
+	<translation from="textDeny" to="拒否"/>
+	<translation from="textIgnore" to="無視"/>
 	<translation from="textReEnterPassword" to="Re-enter Password"/>
 </language>
