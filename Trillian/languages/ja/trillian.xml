@@ -4,34 +4,38 @@
 	<translation from=" Special message for you: " to=" Special message for you: "/>
 	<translation from=" via %medium%" to="%medium%から"/>
 	<translation from="%N - Viewer&apos;s display name (if possible)" to="%N - Viewer&apos;s display name (if possible)"/>
-	<translation from="%age% %year_word% old" to="%age% %year_word% old"/>
+	<translation from="%account% - New Mail (%count%)" to="%account% - 新着メール (%count%)"/>
+	<translation from="%account% - No Mail" to="%account% - メールはありません"/>
+	<translation from="%age% %year_word% old" to="%age% %year_word%"/>
 	<translation from="%d - Viewer&apos;s date" to="%d - Viewer&apos;s date"/>
 	<translation from="%group% (%count%)" to="%group% (%count%)"/>
 	<translation from="%major%.%minor% by %company%" to="%major%.%minor% by %company%"/>
 	<translation from="%n - Viewer&apos;s name" to="%n - Viewer&apos;s name"/>
-	<translation from="%name% via %medium%" to="%name% via %medium%"/>
+	<translation from="%name% on %medium%" to="%name% on %medium%"/>
 	<translation from="%num% %message_word%" to="%num% %message_word%"/>
-	<translation from="%num% users on network" to="%num% users on network"/>
-	<translation from="%num% users online" to="%num%人のユーザがオンライン"/>
+	<translation from="%num% users on network" to="%num% 人のユーザーが接続中"/>
+	<translation from="%num% users online" to="%num% 人のユーザーがオンライン"/>
 	<translation from="%num_minutes% %minute_word%" to="%num_minutes% %minute_word%"/>
 	<translation from="%num_minutes% %minute_word%, %num_seconds% %second_word%" to="%num_minutes% %minute_word%, %num_seconds% %second_word%"/>
 	<translation from="%num_seconds% %second_word%" to="%num_seconds% %second_word%"/>
+	<translation from="%service% is disconnected." to="%service% は切断されました。"/>
 	<translation from="%status% since %time%" to="%time% から %status%"/>
 	<translation from="%t - Viewer&apos;s time" to="%t - Viewer&apos;s time"/>
+	<translation from="%type% on %service%" to="%type% on %service%"/>
 	<translation from="%width% by %height%" to="%width% x %height%"/>
 	<translation from="&amp;Always On Top" to="常に最前面表示(&amp;A)"/>
 	<translation from="&amp;Help" to="ヘルプ(&amp;H)"/>
-	<translation from="&amp;Help..." to="ヘルプ...(&amp;H)"/>
+	<translation from="&amp;Help..." to="ヘルプ..."/>
 	<translation from="&amp;Options" to="オプション(&amp;O)"/>
 	<translation from="&amp;Preferences" to="設定(&amp;P)"/>
-	<translation from="&amp;Switch User" to="ユーザ切り替え(&amp;)"/>
+	<translation from="&amp;Switch User" to="ユーザー切り替え (&amp;P)"/>
 	<translation from="&amp;Variables" to="&amp;Variables"/>
 	<translation from="&amp;Views" to="表示(&amp;V)"/>
-	<translation from="&amp;Window" to="ウィンドウ(&amp;)"/>
+	<translation from="&amp;Window" to="ウィンドウ (&amp;W)"/>
 	<translation from="(Audio Only = %audio_bps%%audio_unit%; Audio/Video = %video_bps%%video_unit%)" to="(Audio Only = %audio_bps%%audio_unit%; Audio/Video = %video_bps%%video_unit%)"/>
-	<translation from="(currently off)" to="(現在停止中)"/>
-	<translation from="(e.g. john.smith, jsmith123)" to="(e.g. john.smith, jsmith123)"/>
-	<translation from="(no subject)" to="(件名なし)"/>
+	<translation from="(currently off)" to="（現在停止中）"/>
+	<translation from="(no subject)" to="（無題）"/>
+	<translation from="... in the format:" to="... in the format:"/>
 	<translation from="...and a lot more!" to="...and a lot more!"/>
 	<translation from="13-18" to="13-18"/>
 	<translation from="19-25" to="19-25"/>
@@ -41,100 +45,99 @@
 	<translation from="&lt;b&gt;%name% (%chat%)&lt;/b&gt; says:" to="&lt;b&gt;%name% (%chat%)&lt;/b&gt; says:"/>
 	<translation from="&lt;b&gt;%name%&lt;/b&gt; says:" to="&lt;b&gt;%name%&lt;/b&gt; says:"/>
 	<translation from="&lt;b&gt;No&lt;/b&gt;, I am a new customer" to="&lt;b&gt;いいえ&lt;/b&gt;、初めてです"/>
-	<translation from="&lt;b&gt;No&lt;/b&gt;, thanks. (You can always do this later)" to="&lt;b&gt;No&lt;/b&gt;, thanks. (You can always do this later)"/>
-	<translation from="&lt;b&gt;No&lt;/b&gt;, thanks. I will start fresh." to="&lt;b&gt;No&lt;/b&gt;, thanks. I will start fresh."/>
 	<translation from="&lt;b&gt;Register&lt;/b&gt; for a new account" to="新規アカウントを&lt;b&gt;登録&lt;/b&gt;"/>
-	<translation from="&lt;b&gt;Sign in&lt;/b&gt; to an existing account" to="既成アカウントに&lt;b&gt;ログイン&lt;/b&gt;"/>
-	<translation from="&lt;b&gt;Trillian Pro&lt;/b&gt; email:" to="&lt;b&gt;Trillian Pro&lt;/b&gt;のメール："/>
-	<translation from="&lt;b&gt;Trillian Pro&lt;/b&gt; password:" to="&lt;b&gt;Trillian Pro&lt;/b&gt;のパスワード："/>
-	<translation from="&lt;b&gt;Yes&lt;/b&gt;, I am an existing Trillian Pro customer" to="&lt;b&gt;はい&lt;/b&gt;、既成Trillian Proアカウント持ちです"/>
-	<translation from="&lt;b&gt;Yes&lt;/b&gt;, and from this Trillian User:" to="&lt;b&gt;Yes&lt;/b&gt;, and from this Trillian User:"/>
-	<translation from="&lt;b&gt;Yes&lt;/b&gt;, include these connections in my &lt;b&gt;public&lt;/b&gt; AstraContact." to="&lt;b&gt;Yes&lt;/b&gt;, include these connections in my &lt;b&gt;public&lt;/b&gt; AstraContact."/>
+	<translation from="&lt;b&gt;Sign in&lt;/b&gt; to an existing account" to="既成のアカウントに&lt;b&gt;ログイン&lt;/b&gt;"/>
+	<translation from="&lt;b&gt;Trillian Pro&lt;/b&gt; email:" to="&lt;b&gt;Trillian Pro&lt;/b&gt; のメールアドレス："/>
+	<translation from="&lt;b&gt;Trillian Pro&lt;/b&gt; password:" to="&lt;b&gt;Trillian Pro&lt;/b&gt; のパスワード："/>
+	<translation from="&lt;b&gt;Yes&lt;/b&gt;, I am an existing Trillian Pro customer" to="&lt;b&gt;はい&lt;/b&gt;、既に Trillian Pro アカウントを持っています"/>
 	<translation from="&lt;u&gt;Connection Settings&lt;/u&gt;" to="&lt;u&gt;接続設定&lt;/u&gt;"/>
-	<translation from="A Trillian update is now available.  Click here for more information." to="ただ今Trillianのアップデートを配布中です。詳細はここにクリック。"/>
-	<translation from="A confirmation code was sent to your email to verify this account." to="A confirmation code was sent to your email to verify this account."/>
-	<translation from="A new version of Trillian is now available for download.  This is an optional update." to="A new version of Trillian is now available for download.  This is an optional update."/>
-	<translation from="A new version of Trillian is now available.  This is a required update; if you do not wish to update now, the update will be installed the next time you sign in." to="A new version of Trillian is now available.  This is a required update; if you do not wish to update now, the update will be installed the next time you sign in."/>
+	<translation from="A Trillian update is now available.  Click here for more information." to="Trillian のアップデートがあります。詳細はここをクリック。"/>
+	<translation from="A new version of Trillian is now available for download.  This is an optional update." to="新しいバージョンの Trillian がダウンロードできます。このアップデートはオプションです。"/>
+	<translation from="A new version of Trillian is now available.  This is a required update; if you do not wish to update now, the update will be installed the next time you sign in." to="新しいバージョンの Trillian がダウンロードできます。このアップデートは重要です。今すぐアップデートしない場合は次回のサインイン時にインストールされます。"/>
 	<translation from="A token is required to create an account at this time." to="A token is required to create an account at this time."/>
 	<translation from="AIM" to="AIM"/>
-	<translation from="AIM Screen Name" to="AIM Screen Name"/>
+	<translation from="AIM Screen Name" to="AIM の表示名"/>
 	<translation from="AM" to="午前"/>
-	<translation from="AOL Instant Messenger(SM)" to="AOL Instant Messenger(SM)"/>
-	<translation from="About" to="About"/>
-	<translation from="About Trillian" to="Trillianについて"/>
-	<translation from="Accepting" to="Accepting"/>
+	<translation from="AOL Instant Messenger(SM)" to="AOL インスタントメッセンジャー (SM)"/>
+	<translation from="About" to="概要"/>
+	<translation from="About Trillian" to="Trillian について"/>
 	<translation from="Access and Position" to="Access and Position"/>
-	<translation from="Activity History" to="ログ"/>
-	<translation from="Add a new connection..." to="新規アカウント追加..."/>
-	<translation from="Advanced" to="高度な設定"/>
+	<translation from="Account Settings" to="アカウント設定"/>
+	<translation from="Account Settings for %account%" to="%account% のアカウント設定"/>
+	<translation from="Account type:" to="アカウントのタイプ: "/>
+	<translation from="Accounts" to="アカウント"/>
+	<translation from="Accounts for &apos;%identity%&apos; Identity (%num%)" to="Accounts for &apos;%identity%&apos; Identity (%num%)"/>
+	<translation from="Activity History" to="履歴"/>
+	<translation from="Add a new account..." to="新規コンタクトを追加する"/>
+	<translation from="Add a new identity..." to="Add a new identity..."/>
+	<translation from="Additional Options" to="詳細設定"/>
 	<translation from="Advanced Preferences" to="高度な設定"/>
 	<translation from="Age" to="年齢"/>
 	<translation from="Age Group:" to="Age Group:"/>
 	<translation from="Airplane" to="飛行機"/>
-	<translation from="All downloads complete, press next to install." to="All downloads complete, press next to install."/>
-	<translation from="Allow &amp; Block List" to="Allow &amp; Block List"/>
-	<translation from="Allow List" to="Allow List"/>
+	<translation from="All IM &amp; Social Networks" to="All IM &amp; Social Networks"/>
+	<translation from="All IM Networks" to="すべての IM ネットワーク"/>
+	<translation from="All Networks" to="すべてのネットワーク"/>
+	<translation from="All Social Networks" to="すべてのソーシャルネットワーク"/>
+	<translation from="All downloads complete, press next to install." to="すべてのダウンロードが完了しました。「次へ」をクリックしてインストールします。"/>
+	<translation from="Allow &amp; Block List" to="許可&amp;ブロックリスト"/>
+	<translation from="Allow List" to="許可リスト"/>
 	<translation from="Amount of time to save for Instant Playback:" to="Amount of time to save for Instant Playback:"/>
-	<translation from="An AstraContact allows you to expose your accounts and statuses to others.  Do you want to include the connections you set up today in your AstraContact?" to="An AstraContact allows you to expose your accounts and statuses to others.  Do you want to include the connections you set up today in your AstraContact?"/>
-	<translation from="An email address is used to send information regarding your account.  We do not share this email address." to="An email address is used to send information regarding your account.  We do not share this email address."/>
-	<translation from="An old version of Trillian was found on this computer.  Do you want to copy its contacts and settings over to this new Trillian Astra Account?" to="An old version of Trillian was found on this computer.  Do you want to copy its contacts and settings over to this new Trillian Astra Account?"/>
+	<translation from="An account is still the process of being set up.  If you continue now, it may not be added.  You can always add the account anytime after Trillian is set up.  Would you like to wait for it to finish?" to="An account is still the process of being set up.  If you continue now, it may not be added.  You can always add the account anytime after Trillian is set up.  Would you like to wait for it to finish?"/>
+	<translation from="An error occured during registration" to="登録中にエラーが発生しました"/>
+	<translation from="Apply" to="適用"/>
 	<translation from="April" to="4月"/>
-	<translation from="Are you sure you wish to exit the new account wizard?  Your account is not fully set up." to="Are you sure you wish to exit the new account wizard?  Your account is not fully set up."/>
-	<translation from="Are you sure you wish to remove %account%?" to="Are you sure you wish to remove %account%?"/>
-	<translation from="Astra (Required)" to="Astra (Required)"/>
-	<translation from="Astra Account" to="Astra アカウント"/>
-	<translation from="Astra Profile" to="Astra プロフィール"/>
-	<translation from="Astronaut" to="Astronaut"/>
+	<translation from="Are you sure you wish to exit the new account wizard?  Your account is not fully set up." to="本当に新規アカウントウィザードを終了しますか? アカウントはまだセットアップされていません。"/>
+	<translation from="Are you sure you wish to remove %account%?" to="本当に %account% を削除しますか?"/>
+	<translation from="Astronaut" to="宇宙飛行士"/>
 	<translation from="August" to="8月"/>
-	<translation from="Automatic Status Changes" to="Automatic Status Changes"/>
-	<translation from="Automatically connect to all accounts" to="Automatically connect to all accounts"/>
-	<translation from="Automatically connect to this account at startup" to="Automatically connect to this account at startup"/>
-	<translation from="Automatically log in to this account on startup" to="Automatically log in to this account on startup"/>
-	<translation from="Automatically log into this account at start up" to="Automatically log into this account at start up"/>
+	<translation from="Automatic Changes" to="自動変更"/>
+	<translation from="Automatically connect to all accounts" to="自動的にすべてのアカウントに接続する"/>
+	<translation from="Automatically connect to this account at startup" to="起動時にこのアカウントに接続する"/>
+	<translation from="Automatically log in to this account on startup" to="起動時にこのアカウントにログインする"/>
+	<translation from="Automatically log into this account at start up" to="起動時にこのアカウントにログインする"/>
 	<translation from="Automation" to="Automation"/>
 	<translation from="Automation..." to="Automation..."/>
 	<translation from="Away" to="退席中"/>
-	<translation from="Away Messages: " to="退席中メッセージ: "/>
-	<translation from="Away Mode" to="退席中"/>
+	<translation from="Away Messages: " to="退席時のメッセージ: "/>
 	<translation from="B" to="B"/>
 	<translation from="Back" to="戻る"/>
-	<translation from="Back to List" to="リストへ戻る"/>
-	<translation from="Bad Account.  Please re-enter" to="Bad Account.  Please re-enter"/>
-	<translation from="Bad Password.  Please re-enter" to="Bad Password.  Please re-enter"/>
-	<translation from="Ball" to="Ball"/>
-	<translation from="Balloon" to="Balloon"/>
+	<translation from="Bad Account.  Please re-enter" to="不正なアカウントです。再度入力して下さい。"/>
+	<translation from="Bad Password.  Please re-enter" to="不正なパスワードです。再度入力して下さい。"/>
+	<translation from="Ball" to="ボール"/>
+	<translation from="Balloon" to="バルーン"/>
 	<translation from="Basic Choices" to="Basic Choices"/>
 	<translation from="Basic Information" to="基本情報"/>
 	<translation from="Basics" to="一般"/>
-	<translation from="Beach" to="Beach"/>
-	<translation from="Before you can use your account, you must provide the confirmation code that was sent to &lt;b&gt;%email%&lt;/b&gt;." to="Before you can use your account, you must provide the confirmation code that was sent to &lt;b&gt;%email%&lt;/b&gt;."/>
+	<translation from="Beach" to="海辺"/>
 	<translation from="Bi" to="Bi"/>
 	<translation from="Biography" to="伝記"/>
 	<translation from="Block List" to="ブロックリスト"/>
-	<translation from="Boat" to="Boat"/>
+	<translation from="Boat" to="船"/>
 	<translation from="Bold" to="太字"/>
 	<translation from="Broadcast Quality" to="配信品質"/>
-	<translation from="Browse for more pictures" to="Browse for more pictures"/>
+	<translation from="Browse for more pictures" to="他の画像を選択"/>
 	<translation from="Bubbles" to="Bubbles"/>
-	<translation from="Butterfly" to="Butterfly"/>
-	<translation from="Cancel" to="取り消し"/>
-	<translation from="Cancelling..." to="取り消し中..."/>
+	<translation from="Butterfly" to="蝶"/>
+	<translation from="Cancel" to="取消し"/>
+	<translation from="Cancelling..." to="取消し中..."/>
 	<translation from="Car" to="車"/>
 	<translation from="Cat" to="猫"/>
 	<translation from="Cat Statue" to="Cat Statue"/>
 	<translation from="Change Email..." to="Change Email..."/>
 	<translation from="Change My Icon..." to="Change My Icon..."/>
-	<translation from="Change View" to="Change View"/>
-	<translation from="Change Your Email" to="Change Your Email"/>
-	<translation from="Change Your Password" to="Change Your Password"/>
+	<translation from="Change View" to="表示切替"/>
 	<translation from="Change to full mode" to="Change to full mode"/>
 	<translation from="Change to icon mode" to="Change to icon mode"/>
-	<translation from="Change..." to="変更..."/>
-	<translation from="Chapters and Timestamps" to="Chapters and Timestamps"/>
-	<translation from="Chat" to="チャット"/>
+	<translation from="Change your email" to="Change your email"/>
+	<translation from="Change your password" to="Change your password"/>
+	<translation from="Change..." to="Change..."/>
 	<translation from="Chat Activities" to="Chat Activities"/>
 	<translation from="Chat Room Windows" to="チャットルームウィンドウ"/>
 	<translation from="Chat Views" to="Chat Views"/>
+	<translation from="Chat Windows" to="Chat Windows"/>
+	<translation from="Check all that apply:" to="Check all that apply:"/>
+	<translation from="Check out our website for more information!" to="Check out our website for more information!"/>
 	<translation from="Chess" to="チェス"/>
 	<translation from="Choose Activity History Directory" to="Choose Activity History Directory"/>
 	<translation from="Choose Features" to="Choose Features"/>
@@ -142,30 +145,24 @@
 	<translation from="Choose Time Travel File Directory" to="Choose Time Travel File Directory"/>
 	<translation from="Choose a &lt;b&gt;new security question&lt;/b&gt;:" to="Choose a &lt;b&gt;new security question&lt;/b&gt;:"/>
 	<translation from="Choose a &lt;b&gt;security question&lt;/b&gt;:" to="Choose a &lt;b&gt;security question&lt;/b&gt;:"/>
-	<translation from="Choose a style" to="Choose a style"/>
-	<translation from="Choose the features to be enabled by checking the items below.  You can always enable them later in Plugin Preferences." to="Choose the features to be enabled by checking the items below.  You can always enable them later in Plugin Preferences."/>
-	<translation from="Choose the updates to be installed by checking the items below." to="Choose the updates to be installed by checking the items below."/>
-	<translation from="Choose your Language" to="Choose your Language"/>
 	<translation from="Choose your icon" to="Choose your icon"/>
 	<translation from="City" to="City"/>
 	<translation from="Cleaning up (this may take a few seconds)..." to="Cleaning up (this may take a few seconds)..."/>
 	<translation from="Cleaning up..." to="Cleaning up..."/>
-	<translation from="Click here for more information about this update." to="Click here for more information about this update."/>
+	<translation from="Click here for more information about this update." to="このアップデートに関する情報はここをクリック"/>
 	<translation from="Click to enable." to="Click to enable."/>
 	<translation from="Close" to="閉じる"/>
-	<translation from="Compact" to="Compact"/>
-	<translation from="Compatible" to="Compatible"/>
-	<translation from="Configure IM and Web Services" to="Configure IM and Web Services"/>
-	<translation from="Configure new IM and Web Services" to="Configure new IM and Web Services"/>
-	<translation from="Configure your Display Name" to="Configure your Display Name"/>
-	<translation from="Configure your location with the weather widget so your friends always know what the weather is like right outside your window!  This information will appear on your public Astra Profile." to="Configure your location with the weather widget so your friends always know what the weather is like right outside your window!  This information will appear on your public Astra Profile."/>
 	<translation from="Confirm Password" to="Confirm Password"/>
 	<translation from="Confirm Password:" to="Confirm Password:"/>
 	<translation from="Confirmation Code" to="Confirmation Code"/>
-	<translation from="Confirmation code needed." to="Confirmation code needed."/>
-	<translation from="Connect" to="接続"/>
-	<translation from="Connect All" to="全て接続"/>
-	<translation from="Connected since %time%" to="%time% 接続中"/>
+	<translation from="Confirmation code needed" to="Confirmation code needed"/>
+	<translation from="Connect" to="接続する"/>
+	<translation from="Connect All" to="全て接続する"/>
+	<translation from="Connect to Facebook..." to="Connect to Facebook..."/>
+	<translation from="Connect to Foursquare..." to="Connect to Foursquare..."/>
+	<translation from="Connect to LinkedIn..." to="Connect to LinkedIn..."/>
+	<translation from="Connect to Twitter..." to="Connect to Twitter..."/>
+	<translation from="Connected since %time%" to="Connected since %time%"/>
 	<translation from="Connection" to="接続"/>
 	<translation from="Connection Manager" to="接続管理"/>
 	<translation from="Connection Settings" to="接続設定"/>
@@ -174,19 +171,17 @@
 	<translation from="Connection: Global Disconnect" to="Connection: Global Disconnect"/>
 	<translation from="Connection: Global Reconnect" to="Connection: Global Reconnect"/>
 	<translation from="Connections" to="接続"/>
-	<translation from="Connections for &apos;%identity%&apos; Identity (%num%)" to="Connections for &apos;%identity%&apos; Identity (%num%)"/>
 	<translation from="Contact List" to="コンタクトリスト"/>
-	<translation from="Contact Windows" to="コンタクトウィンドウ"/>
-	<translation from="Contains %num% %connection_word%" to="Contains %num% %connection_word%"/>
-	<translation from="Country" to="国"/>
+	<translation from="Contact List Layout" to="Contact List Layout"/>
+	<translation from="Contact Windows" to="Contact Windows"/>
+	<translation from="Contains %num% %account_word%" to="Contains %num% %account_word%"/>
+	<translation from="Country" to="Country"/>
 	<translation from="Country:" to="国 :"/>
 	<translation from="Crayons" to="クレヨン"/>
-	<translation from="Create a &lt;b&gt;password&lt;/b&gt;:" to="Create a &lt;b&gt;password&lt;/b&gt;:"/>
-	<translation from="Create a new identity..." to="Create a new identity..."/>
-	<translation from="Create a new password:" to="Create a new password:"/>
+	<translation from="Create Account" to="Create Account"/>
 	<translation from="Create a secure password" to="Create a secure password"/>
+	<translation from="Creating account..." to="Creating account..."/>
 	<translation from="Credits" to="クレジット"/>
-	<translation from="Crop and resize your photo" to="Crop and resize your photo"/>
 	<translation from="Current" to="Current"/>
 	<translation from="Current (%section%)" to="Current (%section%)"/>
 	<translation from="Current (Primary)" to="Current (Primary)"/>
@@ -201,18 +196,20 @@
 	<translation from="Custom Status Windows" to="カスタムステータスウィンドウ"/>
 	<translation from="Custom Windows" to="カスタムウィンドウ"/>
 	<translation from="Custom..." to="カスタム..."/>
+	<translation from="Customization" to="Customization"/>
 	<translation from="Date of Birth" to="誕生日"/>
-	<translation from="Debug Mode On" to="デバッグモードOn"/>
+	<translation from="Date of birth:" to="Date of birth:"/>
+	<translation from="Debug Mode On" to="デバッグモード有効"/>
 	<translation from="December" to="12月"/>
 	<translation from="Decrease Font Size" to="Decrease Font Size"/>
 	<translation from="Default" to="既定"/>
-	<translation from="Default Appearance and Placement" to="Default Appearance and Placement"/>
 	<translation from="Default Messages" to="初期メッセージ"/>
 	<translation from="Default Profile" to="初期プロフィール"/>
 	<translation from="Desktop" to="デスクトップ"/>
 	<translation from="Device Diagnostics" to="Device Diagnostics"/>
 	<translation from="Devices" to="デバイス"/>
-	<translation from="Did you know?" to="知っていましたか?"/>
+	<translation from="Did you know that Trillian also runs on Macs, iPhones, Android phones, BlackBerry phones, and even in your web browser?" to="Did you know that Trillian also runs on Macs, iPhones, Android phones, BlackBerry phones, and even in your web browser?"/>
+	<translation from="Did you know?" to="知っていましたか？"/>
 	<translation from="Dirt Bike" to="Dirt Bike"/>
 	<translation from="Disconnect" to="切断"/>
 	<translation from="Disconnect All" to="全て切断"/>
@@ -220,10 +217,9 @@
 	<translation from="Divorced" to="Divorced"/>
 	<translation from="Do Nothing" to="Do Nothing"/>
 	<translation from="Do not import my settings" to="Do not import my settings"/>
-	<translation from="Do you use more than one service?  Check the services below that you would like to enable within Trillian Astra." to="Do you use more than one service?  Check the services below that you would like to enable within Trillian Astra."/>
 	<translation from="Dog" to="犬"/>
 	<translation from="Done" to="Done"/>
-	<translation from="Downloading Update (%percent%%%)..." to="更新ファイルをダウンロード中 (%percent%%%)..."/>
+	<translation from="Downloading Update (%percent%%%)..." to="更新ファイルをダウンロード中... (%percent%%%)"/>
 	<translation from="Downloading Update..." to="更新ファイルをダウンロード中..."/>
 	<translation from="Downloading..." to="ダウンロード中..."/>
 	<translation from="Drag the photo to crop and resize within the square" to="Drag the photo to crop and resize within the square"/>
@@ -233,58 +229,60 @@
 	<translation from="Duration: %seconds% seconds" to="Duration: %seconds% seconds"/>
 	<translation from="E&amp;xit" to="終了(&amp;X)"/>
 	<translation from="Edit My Profile..." to="プロフィールを編集..."/>
-	<translation from="Edit Profile..." to="プロフィールを編集..."/>
+	<translation from="Edit Profile..." to="プロフィール編集..."/>
+	<translation from="Edit Proxy Settings..." to="Edit Proxy Settings..."/>
 	<translation from="Edit Shared Trillian Settings..." to="Edit Shared Trillian Settings..."/>
 	<translation from="Edit basic account behavior and configure your proxy settings." to="Edit basic account behavior and configure your proxy settings."/>
-	<translation from="Email:" to="Email:"/>
+	<translation from="Email address:" to="Email address:"/>
+	<translation from="Email:" to="Eメール:"/>
 	<translation from="Emotiblips" to="Emotiblips"/>
 	<translation from="Emoticons" to="絵文字"/>
 	<translation from="Emoticons, Icons, and more" to="絵文字, アイコン その他"/>
-	<translation from="Enter Astra Password here" to="Enter Astra Password here"/>
-	<translation from="Enter Astra Username here" to="Enter Astra Username here"/>
-	<translation from="Enter URL Here (http://www.example.com/feed.rss)" to="Enter URL Here (http://www.example.com/feed.rss)"/>
-	<translation from="Enter the &lt;b&gt;password again&lt;/b&gt;:" to="Enter the &lt;b&gt;password again&lt;/b&gt;:"/>
-	<translation from="Enter the new &lt;b&gt;email address&lt;/b&gt;:" to="Enter the new &lt;b&gt;email address&lt;/b&gt;:"/>
-	<translation from="Enter the new password again:" to="Enter the new password again:"/>
+	<translation from="Enable plugin" to="Enable plugin"/>
+	<translation from="Enjoy Trillian? Please help us spread the word!" to="Enjoy Trillian? Please help us spread the word!"/>
+	<translation from="Enter Password here" to="Enter Password here"/>
+	<translation from="Enter Trillian Username here" to="Enter Trillian Username here"/>
+	<translation from="Enter URL Here (http://www.example.com/feed.rss)" to="URLをここに入力して下さい。 (http://www.example.com/feed.rss)"/>
+	<translation from="Enter again to confirm:" to="Enter again to confirm:"/>
 	<translation from="Enter your &lt;b&gt;answer&lt;/b&gt;:" to="Enter your &lt;b&gt;answer&lt;/b&gt;:"/>
 	<translation from="Enter your &lt;b&gt;confirmation code&lt;/b&gt;:" to="Enter your &lt;b&gt;confirmation code&lt;/b&gt;:"/>
 	<translation from="Enter your &lt;b&gt;email again&lt;/b&gt;:" to="Enter your &lt;b&gt;email again&lt;/b&gt;:"/>
 	<translation from="Enter your &lt;b&gt;email&lt;/b&gt;:" to="Enter your &lt;b&gt;email&lt;/b&gt;:"/>
-	<translation from="Enter your city or U.S. zip code" to="Enter your city or U.S. zip code"/>
 	<translation from="Enter your old password:" to="Enter your old password:"/>
 	<translation from="Enter your own question" to="Enter your own question"/>
 	<translation from="Error" to="エラー"/>
 	<translation from="Error during download." to="Error during download."/>
 	<translation from="Error during submission (%code%)." to="Error during submission (%code%)."/>
 	<translation from="Error loading verification image." to="Error loading verification image."/>
-	<translation from="Error retrieving list." to="Error retrieving list."/>
 	<translation from="Error while connecting.  Please check your account name and connection, then try again." to="Error while connecting.  Please check your account name and connection, then try again."/>
 	<translation from="Error, cleaning up..." to="Error, cleaning up..."/>
 	<translation from="Everyone" to="皆"/>
 	<translation from="Exit" to="終了"/>
-	<translation from="Export vCard" to="Export vCard"/>
-	<translation from="Express your mood to your friends with the mood widget!  How are you feeling right now?  You can change your mood anytime in the Profile Editor.  This information will appear on your public Astra Profile." to="Express your mood to your friends with the mood widget!  How are you feeling right now?  You can change your mood anytime in the Profile Editor.  This information will appear on your public Astra Profile."/>
+	<translation from="Export vCard" to="vCardをエキスポート"/>
 	<translation from="Fabric" to="Fabric"/>
 	<translation from="February" to="2月"/>
 	<translation from="Female" to="女性"/>
 	<translation from="File Transfers" to="ファイルの受信と転送"/>
 	<translation from="First Name" to="名"/>
 	<translation from="First Name:" to="名 :"/>
+	<translation from="First-time users or existing users without a Trillian account may register a new account here." to="First-time users or existing users without a Trillian account may register a new account here."/>
 	<translation from="Fish" to="魚"/>
 	<translation from="Flower" to="花"/>
+	<translation from="Follow @trillianastra on Twitter" to="Follow @trillianastra on Twitter"/>
 	<translation from="Follow Internet Explorer&apos;s Proxy Settings" to="Follow Internet Explorer&apos;s Proxy Settings"/>
 	<translation from="Follow Windows" to="Follow Windows"/>
+	<translation from="Follow us" to="Follow us"/>
 	<translation from="Font Style" to="フォントスタイル"/>
+	<translation from="Fonts &amp; Chats" to="フォント &amp; チャット"/>
 	<translation from="Forgot your password?" to="Forgot your password?"/>
-	<translation from="Format:" to="書式:"/>
 	<translation from="Forward" to="進む"/>
 	<translation from="Free" to="Free"/>
+	<translation from="Free version is missing a feature" to="Free version is missing a feature"/>
 	<translation from="Friday" to="金曜日"/>
 	<translation from="Friend" to="友達"/>
 	<translation from="Frog" to="蛙"/>
 	<translation from="From" to="From"/>
 	<translation from="From friend to %name%" to="From friend to %name%"/>
-	<translation from="Full Experience" to="Full Experience"/>
 	<translation from="GB" to="GB"/>
 	<translation from="Gay" to="Gay"/>
 	<translation from="Gender" to="性別"/>
@@ -294,11 +292,11 @@
 	<translation from="Get a new challenge" to="Get a new challenge"/>
 	<translation from="Get an audio challenge" to="Get an audio challenge"/>
 	<translation from="Get more icons from the Trillian web site" to="Get more icons from the Trillian web site"/>
-	<translation from="Go to the Trillian home page" to="Go to the Trillian home page"/>
+	<translation from="Go to the Trillian home page" to="Trillianのホームページへ"/>
 	<translation from="Goldfish" to="Goldfish"/>
 	<translation from="Group Chat Windows together automatically:" to="Group Chat Windows together automatically:"/>
 	<translation from="Guitar" to="ギター"/>
-	<translation from="H&amp;ome" to="ホーム(&amp;O)"/>
+	<translation from="H&amp;ome" to="ホーム(&amp;H)"/>
 	<translation from="HTTP" to="HTTP"/>
 	<translation from="HTTPS" to="HTTPS"/>
 	<translation from="Halloween" to="ハロウィーン"/>
@@ -306,6 +304,7 @@
 	<translation from="Haven&apos;t received the code yet?  Try the following:" to="Haven&apos;t received the code yet?  Try the following:"/>
 	<translation from="Help" to="ヘルプ"/>
 	<translation from="Hide" to="隠す"/>
+	<translation from="Hide Icon" to="Hide Icon"/>
 	<translation from="High" to="上"/>
 	<translation from="Holidays" to="休日"/>
 	<translation from="Home" to="ホーム"/>
@@ -314,114 +313,122 @@
 	<translation from="Horses" to="馬"/>
 	<translation from="How do you connect to the Internet?" to="How do you connect to the Internet?"/>
 	<translation from="I am &lt;b&gt;over the age of 13&lt;/b&gt; and agree to the &lt;u&gt;Terms of Service&lt;/u&gt;." to="I am &lt;b&gt;over the age of 13&lt;/b&gt; and agree to the &lt;u&gt;Terms of Service&lt;/u&gt;."/>
-	<translation from="I don&apos;t know" to="I don&apos;t know"/>
+	<translation from="I don&apos;t know" to="分かりません"/>
 	<translation from="I have previously purchased &lt;b&gt;Trillian Pro&lt;/b&gt;." to="I have previously purchased &lt;b&gt;Trillian Pro&lt;/b&gt;."/>
+	<translation from="I prefer another product" to="I prefer another product"/>
 	<translation from="I would like to be notified via email of Trillian updates" to="I would like to be notified via email of Trillian updates"/>
+	<translation from="I would like to import my settings into a new Trillian account." to="I would like to import my settings into a new Trillian account."/>
 	<translation from="ICQ" to="ICQ"/>
 	<translation from="ICQ UIN" to="ICQ UIN"/>
-	<translation from="Icons" to="アイコン"/>
-	<translation from="Identities &amp; Connections" to="Identities &amp; Connections"/>
-	<translation from="If you are an existing Trillian Pro customer and wish to link your Trillian Astra account to your Trillian Pro account, fill out the information below." to="If you are an existing Trillian Pro customer and wish to link your Trillian Astra account to your Trillian Pro account, fill out the information below."/>
+	<translation from="IM &amp; Some Social Networks" to="IM &amp; Some Social Networks"/>
+	<translation from="Icons" to="Icons"/>
 	<translation from="If you go back now the account you are registering may no longer be available.  Are you sure you wish to go back?" to="If you go back now the account you are registering may no longer be available.  Are you sure you wish to go back?"/>
 	<translation from="Ignore List" to="無視リスト"/>
 	<translation from="Image" to="イメージ"/>
-	<translation from="Import vCard" to="Import vCard"/>
+	<translation from="Import vCard" to="vCardのインポート"/>
 	<translation from="In a Relationship" to="In a Relationship"/>
 	<translation from="In a relationship" to="In a relationship"/>
+	<translation from="Incoming mail server:" to="Incoming mail server:"/>
 	<translation from="Increase Font Size" to="Increase Font Size"/>
-	<translation from="Information" to="情報"/>
+	<translation from="Information" to="案内"/>
 	<translation from="Initializing Cryptography Engine..." to="暗号化エンジンの初期化中..."/>
 	<translation from="Initializing Directories..." to="ディレクトリ初期化中..."/>
 	<translation from="Initializing User Interface..." to="ユーザーインターフェース初期化中..."/>
 	<translation from="Insert" to="挿入"/>
 	<translation from="Insert URL" to="URL挿入"/>
 	<translation from="Install and Restart" to="Install and Restart"/>
-	<translation from="Installation &amp; Startup" to="Installation &amp; Startup"/>
 	<translation from="Instant Lookup" to="Instant Lookup"/>
 	<translation from="Instant Playback" to="Instant Playback"/>
 	<translation from="Interfaces" to="Interfaces"/>
 	<translation from="Invisible" to="不可視"/>
+	<translation from="Invite friends" to="Invite friends"/>
+	<translation from="Invite friends to use Trillian using email" to="Invite friends to use Trillian using email"/>
+	<translation from="It contains too many bugs" to="It contains too many bugs"/>
+	<translation from="It does not have the features I need" to="It does not have the features I need"/>
+	<translation from="It is confusing to use" to="It is confusing to use"/>
+	<translation from="It looks like you&apos;re not connected to Trillian on any other device!" to="It looks like you&apos;re not connected to Trillian on any other device!"/>
+	<translation from="It required too much effort" to="It required too much effort"/>
 	<translation from="Italics" to="斜体"/>
 	<translation from="Jabber" to="Jabber"/>
 	<translation from="Jabber ID" to="Jabber ID"/>
 	<translation from="Jacks" to="Jacks"/>
 	<translation from="January" to="1月"/>
+	<translation from="Join the Trillian Community forums" to="Join the Trillian Community forums"/>
 	<translation from="July" to="7月"/>
 	<translation from="June" to="6月"/>
-	<translation from="Just Me" to="Just Me"/>
+	<translation from="Just Me" to="自分"/>
 	<translation from="KB" to="KB"/>
+	<translation from="Keep in touch!" to="Keep in touch!"/>
 	<translation from="Kick" to="Kick"/>
 	<translation from="Knowledge Bar" to="Knowledge Bar"/>
 	<translation from="Language" to="言語"/>
+	<translation from="Language &amp; Startup" to="Language &amp; Startup"/>
 	<translation from="Large" to="大"/>
-	<translation from="Large Icon" to="Large Icon"/>
+	<translation from="Large Icon" to="大きいアイコン"/>
 	<translation from="Large List" to="Large List"/>
-	<translation from="Last Name" to="Last Name"/>
+	<translation from="Large Size" to="Large Size"/>
+	<translation from="Last Name" to="姓"/>
 	<translation from="Last Name:" to="姓 :"/>
 	<translation from="Last connected on %time%" to="Last connected on %time%"/>
 	<translation from="Later" to="Later"/>
 	<translation from="Leaf" to="Leaf"/>
 	<translation from="Lesbian" to="Lesbian"/>
 	<translation from="License" to="ライセンス"/>
-	<translation from="Licensing" to="ライセンス"/>
 	<translation from="Lift-Off" to="Lift-Off"/>
 	<translation from="Lighthouse" to="Lighthouse"/>
-	<translation from="List Behavior" to="List Behavior"/>
+	<translation from="Like" to="Like"/>
+	<translation from="Like Trillian on Facebook" to="Like Trillian on Facebook"/>
+	<translation from="List View" to="リスト表示"/>
 	<translation from="Load a photo..." to="写真を読み込み..."/>
-	<translation from="Loading" to="読込中"/>
-	<translation from="Loading Profile..." to="プロフィールを読込中..."/>
+	<translation from="Loading" to="読み込み中"/>
+	<translation from="Loading Profile..." to="プロフィールの読み込み中..."/>
 	<translation from="Loading verification image..." to="Loading verification image..."/>
-	<translation from="Loading..." to="読込中..."/>
+	<translation from="Loading..." to="読み込み中..."/>
 	<translation from="Local machine" to="Local machine"/>
 	<translation from="Low" to="下"/>
 	<translation from="MB" to="MB"/>
 	<translation from="MSN" to="MSN"/>
 	<translation from="MSN Messenger" to="MSN Messenger"/>
-	<translation from="MSN Passport" to="MSN パスワード"/>
+	<translation from="MSN Passport" to="MSN Passport"/>
 	<translation from="Magazine" to="雑誌"/>
-	<translation from="Mail Account on %medium%" to="メール (%medium%)"/>
-	<translation from="Mail and News" to="メールとニュース"/>
+	<translation from="Mail" to="Mail"/>
+	<translation from="Mail Account on %medium%" to="Mail Account on %medium%"/>
 	<translation from="Main Group" to="メイングループ"/>
 	<translation from="Male" to="男"/>
-	<translation from="Manage &amp;Connections..." to="接続設定...(&amp;C)"/>
+	<translation from="Manage Accounts" to="Manage Accounts"/>
 	<translation from="Marbles" to="Marbles"/>
 	<translation from="March" to="3月"/>
 	<translation from="Marital Status" to="Marital Status"/>
+	<translation from="Marital status:" to="Marital status:"/>
 	<translation from="Married" to="Married"/>
 	<translation from="May" to="5月"/>
 	<translation from="Medium" to="中"/>
+	<translation from="Medium Size" to="Medium Size"/>
 	<translation from="Membership" to="Membership"/>
 	<translation from="Membership Information" to="Membership Information"/>
 	<translation from="Message Display" to="Message Display"/>
-	<translation from="Message Windows" to="メッセージウィンドウ"/>
-	<translation from="Migration" to="Migration"/>
-	<translation from="Migration from an Old Version" to="Migration from an Old Version"/>
-	<translation from="Miscellaneous" to="その他"/>
-	<translation from="Miscellaneous Options" to="その他のオプション"/>
+	<translation from="Message Styles" to="Message Styles"/>
+	<translation from="Miscellaneous" to="詳細設定"/>
 	<translation from="Monday" to="月曜日"/>
 	<translation from="Month" to="月"/>
-	<translation from="Mood" to="Mood"/>
-	<translation from="Mood Widget" to="Mood Widget"/>
+	<translation from="More" to="More"/>
 	<translation from="More Settings" to="他設定"/>
 	<translation from="More information is needed" to="More information is needed"/>
-	<translation from="More..." to="More..."/>
+	<translation from="More..." to="その他..."/>
 	<translation from="Move to" to="Move to"/>
 	<translation from="Music" to="音楽"/>
 	<translation from="My Account Settings" to="アカウント設定"/>
-	<translation from="My Astra Account" to="Astraアカウント名"/>
+	<translation from="My Astra Account" to="Astraアカウント"/>
 	<translation from="My Astra Profile" to="Astraプロフィール"/>
-	<translation from="My AstraContact" to="Astraコンタクト"/>
 	<translation from="My Contacts" to="コンタクト"/>
 	<translation from="My Icon" to="アイコン"/>
 	<translation from="My Identity Information" to="個人情報"/>
-	<translation from="My Mail" to="My Mail"/>
-	<translation from="My Trillian Astra Account" to="My Trillian Astra Account"/>
-	<translation from="My Web" to="My Web"/>
 	<translation from="My Widgets" to="My Widgets"/>
 	<translation from="Myspace IM" to="Myspace IM"/>
 	<translation from="Myspace Username" to="Myspace ユーザー名"/>
 	<translation from="MyspaceIM" to="MyspaceIM"/>
 	<translation from="Name" to="名前"/>
+	<translation from="Name:" to="Name:"/>
 	<translation from="Never connected to this account" to="Never connected to this account"/>
 	<translation from="New Account" to="新規アカウント"/>
 	<translation from="New Group..." to="新規グループ..."/>
@@ -429,9 +436,7 @@
 	<translation from="New Software Available" to="利用可能な新しいソフトウェア"/>
 	<translation from="New Status Message..." to="New Status Message..."/>
 	<translation from="New Wall" to="New Wall"/>
-	<translation from="New computer detected" to="New computer detected"/>
 	<translation from="Next" to="次へ"/>
-	<translation from="Nickname" to="ニックネーム"/>
 	<translation from="No" to="いいえ"/>
 	<translation from="No Accounts Found" to="アカウントが見つかりません"/>
 	<translation from="No Emotiblips found." to="No Emotiblips found."/>
@@ -442,115 +447,111 @@
 	<translation from="No new messages" to="新着メールはありません"/>
 	<translation from="No other devices are connected." to="No other devices are connected."/>
 	<translation from="No other options available." to="No other options available."/>
-	<translation from="No results found." to="No results found."/>
 	<translation from="No services are currently installed.  Please enable a service in the plugin preferences." to="No services are currently installed.  Please enable a service in the plugin preferences."/>
 	<translation from="No skin extras found for this current skin" to="No skin extras found for this current skin"/>
 	<translation from="No, do not move my settings&#13;&#10;Trillian will be unable to import settings from the chosen profile" to="No, do not move my settings&#13;&#10;Trillian will be unable to import settings from the chosen profile"/>
 	<translation from="No, do not move my settings&#13;&#10;Trillian will be unable to log into this account" to="No, do not move my settings&#13;&#10;Trillian will be unable to log into this account"/>
+	<translation from="Nothing" to="Nothing"/>
 	<translation from="Notice" to="通知"/>
-	<translation from="Notification Sounds" to="通知サウンド"/>
-	<translation from="Notification Windows" to="通知ウィンドウ"/>
 	<translation from="Notifications" to="通知"/>
-	<translation from="Notifications will show up here." to="通知はここに表示されます。"/>
+	<translation from="Notifications will show up here." to="Notifications will show up here."/>
 	<translation from="Notify me when:" to="Notify me when:"/>
 	<translation from="November" to="11月"/>
-	<translation from="OK" to="オーケー"/>
+	<translation from="OK" to="OK"/>
 	<translation from="October" to="10月"/>
 	<translation from="Offline" to="オフライン"/>
 	<translation from="Online" to="オンライン"/>
 	<translation from="Organ" to="Organ"/>
 	<translation from="Orientation" to="Orientation"/>
-	<translation from="Origami" to="折り紙"/>
-	<translation from="Other" to="Other"/>
+	<translation from="Orientation:" to="Orientation:"/>
+	<translation from="Origami" to="折紙"/>
+	<translation from="Other" to="その他"/>
 	<translation from="Other Devices" to="その他のデバイス"/>
-	<translation from="Over 40" to="Over 40"/>
+	<translation from="Over 40" to="40以上"/>
 	<translation from="Override my contacts on the server with my local copy" to="Override my contacts on the server with my local copy"/>
 	<translation from="PM" to="午後"/>
 	<translation from="Painting" to="Painting"/>
 	<translation from="Palm Tree" to="Palm Tree"/>
 	<translation from="Password Change Required" to="Password Change Required"/>
 	<translation from="Password Request" to="Password Request"/>
-	<translation from="Password:" to="パスワード :"/>
-	<translation from="Passwords are case-sensitive; you may use any combination of letters, numbers, and punctuation that you wish.  Passwords can be from 6 to 32 characters in length." to="Passwords are case-sensitive; you may use any combination of letters, numbers, and punctuation that you wish.  Passwords can be from 6 to 32 characters in length."/>
+	<translation from="Password:" to="パスワード:"/>
 	<translation from="Patches" to="Patches"/>
 	<translation from="Pending" to="Pending"/>
 	<translation from="Permissions" to="権限"/>
 	<translation from="Personal Information" to="Personal Information"/>
+	<translation from="Pick a new password:" to="Pick a new password:"/>
+	<translation from="Pick a password:" to="Pick a password:"/>
 	<translation from="Pick a task..." to="Pick a task..."/>
-	<translation from="Pick an &lt;b&gt;Astra Username&lt;/b&gt;:" to="Pick an &lt;b&gt;Astra Username&lt;/b&gt;:"/>
-	<translation from="Pink" to="Pink"/>
+	<translation from="Pick a username:" to="Pick a username:"/>
+	<translation from="Pin Mail to Contact List" to="Pin Mail to Contact List"/>
+	<translation from="Pink" to="ピンク"/>
 	<translation from="Pink Flower" to="Pink Flower"/>
 	<translation from="Play &amp;Sounds" to="Play &amp;Sounds"/>
 	<translation from="Playback Time" to="Playback Time"/>
 	<translation from="Playscript" to="Playscript"/>
-	<translation from="Please check your email for a confirmation code." to="Please check your email for a confirmation code."/>
 	<translation from="Please choose a question" to="Please choose a question"/>
-	<translation from="Please confirm your Trillian Astra account with your email address.  Also, please provide us with a security question and answer should you lose your password." to="Please confirm your Trillian Astra account with your email address.  Also, please provide us with a security question and answer should you lose your password."/>
-	<translation from="Please correct the error below to continue." to="Please correct the error below to continue."/>
-	<translation from="Please correct the errors below to continue." to="Please correct the errors below to continue."/>
-	<translation from="Please enter your age bracket." to="Please enter your age bracket."/>
-	<translation from="Please enter your country." to="Please enter your country."/>
-	<translation from="Please enter your e-mail address." to="Please enter your e-mail address."/>
-	<translation from="Please enter your first name." to="Please enter your first name."/>
-	<translation from="Please enter your gender." to="Please enter your gender."/>
-	<translation from="Please enter your zipcode." to="Please enter your zipcode."/>
-	<translation from="Please select an icon to use." to="Please select an icon to use."/>
-	<translation from="Please set up your proxy configuration below." to="Please set up your proxy configuration below."/>
-	<translation from="Please specify a name to use." to="Please specify a name to use."/>
-	<translation from="Please tell us where you heard about Trillian." to="Please tell us where you heard about Trillian."/>
+	<translation from="Please consider leaving your feedback as to why you&apos;re uninstalling Trillian.  We will use this feedback to improve future versions of the product." to="Please consider leaving your feedback as to why you&apos;re uninstalling Trillian.  We will use this feedback to improve future versions of the product."/>
+	<translation from="Please provide more details:" to="Please provide more details:"/>
+	<translation from="Please select the user profile to be imported into your new Trillian account." to="Please select the user profile to be imported into your new Trillian account."/>
 	<translation from="Please wait while we communicate with the server." to="Please wait while we communicate with the server."/>
 	<translation from="Plugin: Final Unload" to="Plugin: Final Unload"/>
 	<translation from="Plugin: Initial load" to="Plugin: Initial load"/>
-	<translation from="Plugin: Load" to="プラグイン: Load"/>
-	<translation from="Plugin: Start" to="プラグイン: Start"/>
-	<translation from="Plugin: Stop" to="プラグイン: Stop"/>
-	<translation from="Plugin: Unload" to="プラグイン: Unload"/>
+	<translation from="Plugin: Load" to="プラグイン: ロード"/>
+	<translation from="Plugin: Start" to="プラグイン: 開始"/>
+	<translation from="Plugin: Stop" to="プラグイン: 停止"/>
+	<translation from="Plugin: Unload" to="プラグイン: 終了"/>
 	<translation from="Plugins" to="プラグイン"/>
 	<translation from="Port:" to="ポート:"/>
+	<translation from="Post about Trillian on your Facebook feed" to="Post about Trillian on your Facebook feed"/>
+	<translation from="Post now!" to="Post now!"/>
+	<translation from="Posted a URL" to="Posted a URL"/>
+	<translation from="Posted an image" to="Posted an image"/>
 	<translation from="Previous User" to="Previous User"/>
 	<translation from="Previously Used" to="Previously Used"/>
 	<translation from="Primary Identity" to="Primary Identity"/>
 	<translation from="Privacy" to="プライバシー"/>
 	<translation from="Profile Editor - %name%" to="Profile Editor - %name%"/>
 	<translation from="Profile Settings" to="プロフィール設定"/>
+	<translation from="Promote Trillian!" to="Promote Trillian!"/>
 	<translation from="Proxy" to="プロキシー"/>
 	<translation from="Proxy Server" to="プロキシーサーバー"/>
-	<translation from="Quick Chat..." to="Quick Chat..."/>
+	<translation from="Quick Chat..." to="クイックチャット..."/>
 	<translation from="Radio" to="ラジオ"/>
-	<translation from="Readme" to="リード・ミー"/>
-	<translation from="Received" to="Received"/>
+	<translation from="Readme" to="読んで下さい"/>
+	<translation from="Received" to="受信しました"/>
+	<translation from="Reconnect" to="Reconnect"/>
+	<translation from="Reconnecting..." to="Reconnecting..."/>
 	<translation from="Record" to="Record"/>
 	<translation from="Red Flower" to="Red Flower"/>
 	<translation from="Refresh Content" to="Refresh Content"/>
-	<translation from="Register a new Astra Account" to="Register a new Astra Account"/>
-	<translation from="Registering will allow you to quickly access all your IM accounts at once." to="Registering will allow you to quickly access all your IM accounts at once."/>
+	<translation from="Register a new Trillian account" to="Register a new Trillian account"/>
 	<translation from="Remove..." to="削除..."/>
 	<translation from="Request for Trial Version" to="Request for Trial Version"/>
 	<translation from="Requesting" to="Requesting"/>
 	<translation from="Requesting..." to="Requesting..."/>
-	<translation from="Resend Code" to="Resend Code"/>
+	<translation from="Resend Code" to="コードの再送信"/>
 	<translation from="Resend to &lt;b&gt;%email%&lt;/b&gt;" to="Resend to &lt;b&gt;%email%&lt;/b&gt;"/>
-	<translation from="Restarting..." to="Restarting..."/>
+	<translation from="Restarting..." to="再起動中..."/>
 	<translation from="Retry" to="再試行"/>
 	<translation from="Robodog" to="Robodog"/>
-	<translation from="Robot" to="Robot"/>
+	<translation from="Robot" to="ロボット"/>
 	<translation from="Roller Coaster" to="Roller Coaster"/>
 	<translation from="SOCKS4" to="SOCKS4"/>
 	<translation from="SOCKS5" to="SOCKS5"/>
-	<translation from="Safe Mode On" to="セーフモードOn"/>
+	<translation from="Safe Mode On" to="セーフモード有効"/>
 	<translation from="Saturday" to="土曜日"/>
-	<translation from="Save History to..." to="Save History to..."/>
+	<translation from="Save Files To ..." to="Save Files To ..."/>
+	<translation from="Save History To ..." to="Save History To ..."/>
 	<translation from="Save account on this computer" to="Save account on this computer"/>
-	<translation from="Save files to..." to="ファイル保存..."/>
-	<translation from="Save password on this computer" to="Save password on this computer"/>
+	<translation from="Save password on this computer" to="パスワードをこのコンピューターに保存"/>
 	<translation from="Search" to="検索"/>
-	<translation from="Security &amp; Privacy" to="Security &amp; Privacy"/>
-	<translation from="Select a display name that will help your contacts easily identify you on their list!  You may enter any combination of nickname, first name, and last name that you choose." to="Select a display name that will help your contacts easily identify you on their list!  You may enter any combination of nickname, first name, and last name that you choose."/>
+	<translation from="Security &amp; Privacy" to="セキュリティとプライバシー"/>
 	<translation from="Select a widget below to add to the Contact List" to="Select a widget below to add to the Contact List"/>
 	<translation from="Select a widget below to add to your Astra Profile" to="Select a widget below to add to your Astra Profile"/>
 	<translation from="Select a widget below to add to your Trillian Mini" to="Select a widget below to add to your Trillian Mini"/>
 	<translation from="Send" to="送信"/>
-	<translation from="Sending data to server..." to="サーバーに送信中..."/>
+	<translation from="Send my feedback anonymously" to="Send my feedback anonymously"/>
+	<translation from="Sending data to server..." to="サーバーへデータを送信中..."/>
 	<translation from="September" to="9月"/>
 	<translation from="Server" to="サーバー"/>
 	<translation from="Server Host:" to="サーバーホスト:"/>
@@ -558,25 +559,30 @@
 	<translation from="Set &amp;Status" to="ステータスセット (&amp;S)"/>
 	<translation from="Set Background Color" to="背景色セット"/>
 	<translation from="Set Foreground Color" to="文字色"/>
+	<translation from="Set Icon" to="Set Icon"/>
 	<translation from="Set Icon..." to="アイコンセット..."/>
-	<translation from="Set Invisible" to="Set Invisible"/>
+	<translation from="Set Invisible" to="不可視"/>
 	<translation from="Set Status as:" to="Set Status as:"/>
-	<translation from="Set as Online" to="Set as Online"/>
+	<translation from="Set Up Instant Messaging" to="Set Up Instant Messaging"/>
+	<translation from="Set Up Mail" to="Set Up Mail"/>
+	<translation from="Set Up Social Networks" to="Set Up Social Networks"/>
+	<translation from="Set as Online" to="オンライン"/>
 	<translation from="Set as the Primary Identity" to="Set as the Primary Identity"/>
-	<translation from="Setting up your Contact List" to="Setting up your Contact List"/>
 	<translation from="Settings" to="環境設定"/>
-	<translation from="Setup your public profile.  This information will be available both on the web and to people who chat with you on the Trillian Astra network.  You may leave any field here blank." to="Setup your public profile.  This information will be available both on the web and to people who chat with you on the Trillian Astra network.  You may leave any field here blank."/>
+	<translation from="Share some basic information" to="Share some basic information"/>
 	<translation from="Shared Trillian" to="Shared Trillian"/>
-	<translation from="Shortcut Keys" to="ショートカットキー"/>
-	<translation from="Show Contact List" to="Show Contact List"/>
+	<translation from="Show %medium%" to="Show %medium%"/>
 	<translation from="Show Notifications" to="Show Notifications"/>
+	<translation from="Show Trillian" to="Trillianを表示"/>
 	<translation from="Sign in" to="サインイン"/>
 	<translation from="Sign in as %account%" to="Sign in as %account%"/>
 	<translation from="Sign in automatically" to="Sign in automatically"/>
-	<translation from="Signing in..." to="Signing in..."/>
-	<translation from="Signing out..." to="Signing out..."/>
+	<translation from="Sign in using an existing Trillian account" to="Sign in using an existing Trillian account"/>
+	<translation from="Signing in..." to="サインイン中..."/>
+	<translation from="Signing out..." to="サインアウト中..."/>
 	<translation from="Silk" to="シルク"/>
 	<translation from="Simple" to="シンプル"/>
+	<translation from="Simple View" to="Simple View"/>
 	<translation from="Single" to="Single"/>
 	<translation from="Skater" to="スケーター"/>
 	<translation from="Skin Settings" to="スキン設定"/>
@@ -584,75 +590,84 @@
 	<translation from="Skip" to="スキップ"/>
 	<translation from="Small" to="小"/>
 	<translation from="Small Dog" to="Small Dog"/>
+	<translation from="Small Size" to="Small Size"/>
 	<translation from="Snowflake" to="Snowflake"/>
 	<translation from="Soccer" to="サッカー"/>
-	<translation from="Some Basic Information" to="Some Basic Information"/>
+	<translation from="Social" to="Social"/>
+	<translation from="Socialize!" to="Socialize!"/>
+	<translation from="Some Social Networks" to="Some Social Networks"/>
 	<translation from="Someone Else" to="Someone Else"/>
 	<translation from="Sounds" to="サウンド"/>
+	<translation from="Sounds &amp; Notifications" to="サウンド &amp; 通知"/>
 	<translation from="Special Message" to="Special Message"/>
 	<translation from="Sports" to="スポーツ"/>
-	<translation from="Stage %num% of %total%" to="Stage %num% of %total%"/>
+	<translation from="Spread the word!" to="Spread the word!"/>
 	<translation from="Stairs" to="Stairs"/>
 	<translation from="Starburst" to="Starburst"/>
 	<translation from="Starfish" to="ヒトデ"/>
+	<translation from="Start a fresh account instead." to="Start a fresh account instead."/>
 	<translation from="Starting up (Offline Mode)..." to="Starting up (Offline Mode)..."/>
 	<translation from="Starting up..." to="Starting up..."/>
 	<translation from="State" to="ステータス"/>
+	<translation from="Status" to="Status"/>
 	<translation from="Status Messages" to="ステータスメッセージ"/>
 	<translation from="Straight" to="Straight"/>
+	<translation from="Subscribe" to="Subscribe"/>
+	<translation from="Subscribe to Cerulean Studios&apos; Blog" to="Subscribe to Cerulean Studios&apos; Blog"/>
+	<translation from="Subscribe to the Trillian Newsletter" to="Subscribe to the Trillian Newsletter"/>
 	<translation from="Success!" to="成功!"/>
 	<translation from="Sunday" to="日曜日"/>
 	<translation from="Sunflower" to="ヒマワリ"/>
+	<translation from="Support our development - Get Trillian Pro!" to="Support our development - Get Trillian Pro!"/>
 	<translation from="Swinger" to="Swinger"/>
-	<translation from="Switch User" to="ユーザー切り替え"/>
-	<translation from="Synchronizing Contact List..." to="Synchronizing Contact List..."/>
+	<translation from="Switch User" to="ユーザー切替"/>
+	<translation from="Synchronizing Contact List..." to="連絡帳の同期中..."/>
 	<translation from="Tabbed Windows" to="タブウィンドウ"/>
-	<translation from="Technical Support" to="Technical Support"/>
+	<translation from="Technical Support" to="テクニカルサポート"/>
 	<translation from="Television" to="テレビ"/>
 	<translation from="Text Formatting" to="フォント設定"/>
-	<translation from="Thank you for being a previous Trillian Pro customer.  Please provide your Trillian Pro member email and password that was given to you when you purchased." to="Thank you for being a previous Trillian Pro customer.  Please provide your Trillian Pro member email and password that was given to you when you purchased."/>
+	<translation from="Text Formatting" to="Text Formatting"/>
 	<translation from="Thank you for choosing Trillian" to="Thank you for choosing Trillian"/>
-	<translation from="The Astra username you picked is already taken." to="The Astra username you picked is already taken."/>
-	<translation from="The Welcome Wizard is going to guide you through the basic configuration of Trillian Astra in &lt;b&gt;%num%&lt;/b&gt; simple stages." to="The Welcome Wizard is going to guide you through the basic configuration of Trillian Astra in &lt;b&gt;%num%&lt;/b&gt; simple stages."/>
-	<translation from="The contact list is where all your connections and contacts reside.  The next few steps will guide you through the configuration of your connections one by one." to="The contact list is where all your connections and contacts reside.  The next few steps will guide you through the configuration of your connections one by one."/>
+	<translation from="Thank you for your previous support of Cerulean Studios.  Please provide your Trillian Pro member email and password in order to link your new Trillian account to your old one." to="Thank you for your previous support of Cerulean Studios.  Please provide your Trillian Pro member email and password in order to link your new Trillian account to your old one."/>
+	<translation from="The Trillian network ensures complete synchronization between your desktops and phones!" to="The Trillian network ensures complete synchronization between your desktops and phones!"/>
 	<translation from="The email address did not seem valid.  Please try again." to="The email address did not seem valid.  Please try again."/>
-	<translation from="The email address you provided is already linked to another Astra account. Please type again." to="The email address you provided is already linked to another Astra account. Please type again."/>
-	<translation from="The email you entered does not seem to be valid.  Please try again." to="The email you entered does not seem to be valid.  Please try again."/>
+	<translation from="The email address you provided is already linked to another Trillian account. Please try again." to="The email address you provided is already linked to another Trillian account. Please try again."/>
 	<translation from="The image verification failed, please try again." to="The image verification failed, please try again."/>
+	<translation from="The internet would be a lonely place without friends.  Please help us continue to grow Trillian by showing your support or by telling your friends about our great product - we&apos;d really appreciate it!" to="The internet would be a lonely place without friends.  Please help us continue to grow Trillian by showing your support or by telling your friends about our great product - we&apos;d really appreciate it!"/>
 	<translation from="The old password was not entered in correctly.  Please try again." to="The old password was not entered in correctly.  Please try again."/>
-	<translation from="The premium Trillian Astra." to="The premium Trillian Astra."/>
+	<translation from="The premium Trillian." to="The premium Trillian."/>
 	<translation from="The premium experience." to="The premium experience."/>
 	<translation from="The proxy server is currently off within Internet Explorer." to="The proxy server is currently off within Internet Explorer."/>
 	<translation from="The token you provided did not seem valid." to="The token you provided did not seem valid."/>
-	<translation from="The two email addresses you typed do not match. Please type again." to="The two email addresses you typed do not match. Please type again."/>
+	<translation from="The two email addresses you typed do not match. Please try again." to="The two email addresses you typed do not match. Please try again."/>
 	<translation from="The two emails you typed do not match." to="The two emails you typed do not match."/>
 	<translation from="The two passwords you typed do not match." to="The two passwords you typed do not match."/>
-	<translation from="There are multiple errors." to="There are multiple errors."/>
-	<translation from="There is an error." to="There is an error."/>
+	<translation from="The username you picked is already taken." to="The username you picked is already taken."/>
 	<translation from="There was a server error while changing your email address.  Please try again at a later date." to="There was a server error while changing your email address.  Please try again at a later date."/>
 	<translation from="There was a server error while changing your password.  Please try again at a later date." to="There was a server error while changing your password.  Please try again at a later date."/>
 	<translation from="There was a server error while sending the confirmation code.  Please try again." to="There was a server error while sending the confirmation code.  Please try again."/>
 	<translation from="There was a server error while validating your member information.  Please try again at a later date." to="There was a server error while validating your member information.  Please try again at a later date."/>
+	<translation from="There was an error" to="There was an error"/>
+	<translation from="There was an error while setting up your Social Network account.  Sorry for the inconvenience." to="There was an error while setting up your Social Network account.  Sorry for the inconvenience."/>
+	<translation from="There were multiple errors" to="There were multiple errors"/>
 	<translation from="This build of Trillian is outdated." to="This build of Trillian is outdated."/>
-	<translation from="This does not appear to be a valid confirmation code.  Please type again." to="This does not appear to be a valid confirmation code.  Please type again."/>
+	<translation from="This does not appear to be a valid confirmation code.  Please try again." to="This does not appear to be a valid confirmation code.  Please try again."/>
 	<translation from="This is a sample message." to="これはサンプルメッセージです。"/>
 	<translation from="This is the Chat screen your friends will see." to="This is the Chat screen your friends will see."/>
 	<translation from="This is the Profile screen your friends will see." to="This is the Profile screen your friends will see."/>
 	<translation from="Thursday" to="木曜日"/>
+	<translation from="Tile View" to="Tile View"/>
 	<translation from="Time Travel" to="Time Travel"/>
+	<translation from="Timestamps" to="Timestamps"/>
 	<translation from="Tiny" to="最小"/>
-	<translation from="To further complete your profile,&#13;&#10;use the &lt;b&gt;Profile Editor&lt;/b&gt;." to="To further complete your profile,&#13;&#10;use the &lt;b&gt;Profile Editor&lt;/b&gt;."/>
-	<translation from="To further configure your connections, use the &lt;b&gt;Identities &amp; Connections Manager&lt;/b&gt;." to="To further configure your connections, use the &lt;b&gt;Identities &amp; Connections Manager&lt;/b&gt;."/>
-	<translation from="To learn more about how to use Trillian, click the icon on the top of the Contact List and choose &quot;Help&quot;.  Enjoy and thanks for choosing Trillian!" to="To learn more about how to use Trillian, click the icon on the top of the Contact List and choose &quot;Help&quot;.  Enjoy and thanks for choosing Trillian!"/>
-	<translation from="To learn more about how to use Trillian, use the &quot;?&quot; button at the top-right corner of the Contact List.  Enjoy and thanks for choosing Trillian!" to="To learn more about how to use Trillian, use the &quot;?&quot; button at the top-right corner of the Contact List.  Enjoy and thanks for choosing Trillian!"/>
-	<translation from="To learn more about how to use Trillian, use the &quot;Help&quot; menu at the top of the Contact List.  Enjoy and thanks for choosing Trillian!" to="To learn more about how to use Trillian, use the &quot;Help&quot; menu at the top of the Contact List.  Enjoy and thanks for choosing Trillian!"/>
-	<translation from="Toggle Contact List Visibility" to="Toggle Contact List Visibility"/>
+	<translation from="Tiny Size" to="Tiny Size"/>
+	<translation from="Toggle Trillian" to="Toggle Trillian"/>
 	<translation from="Top" to="Top"/>
 	<translation from="Total" to="合計"/>
 	<translation from="Towels" to="Towels"/>
 	<translation from="Transparent" to="透明度"/>
 	<translation from="Tree" to="Tree"/>
-	<translation from="Trial" to="試用"/>
+	<translation from="Trial" to="試用版"/>
 	<translation from="Trillian - %awaymessage%" to="Trillian - %awaymessage%"/>
 	<translation from="Trillian - Away" to="Trillian - 退席中"/>
 	<translation from="Trillian - Away - %awaymessage%" to="Trillian - 退席中 - %awaymessage%"/>
@@ -660,11 +675,10 @@
 	<translation from="Trillian - Disconnected" to="Trillian - オフライン"/>
 	<translation from="Trillian - Downloading Update..." to="Trillian - Downloading Update..."/>
 	<translation from="Trillian - Invisible" to="Trillian - 不可視"/>
-	<translation from="Trillian - Logging in..." to="Trillian - Logging in..."/>
-	<translation from="Trillian - Logging out..." to="Trillian - Logging out..."/>
 	<translation from="Trillian - Partially Connected" to="Trillian - Partially Online"/>
-	<translation from="Trillian Astra can be configured in many ways.  Here are three basic sets of settings that may suit your needs.  You can fine-tune them in Trillian Preferences later." to="Trillian Astra can be configured in many ways.  Here are three basic sets of settings that may suit your needs.  You can fine-tune them in Trillian Preferences later."/>
-	<translation from="Trillian Astra features many new IM and Web services for you to connect to.  Do you want to connect to any other services below?" to="Trillian Astra features many new IM and Web services for you to connect to.  Do you want to connect to any other services below?"/>
+	<translation from="Trillian - Signing in..." to="Trillian - Signing in..."/>
+	<translation from="Trillian - Signing out..." to="Trillian - Signing out..."/>
+	<translation from="Trillian Account" to="Trillian Account"/>
 	<translation from="Trillian First Time Wizard: %name%" to="Trillian First Time Wizard: %name%"/>
 	<translation from="Trillian Member Account:" to="Trillian Member Account:"/>
 	<translation from="Trillian Member Information" to="Trillian Member Information"/>
@@ -674,67 +688,74 @@
 	<translation from="Trillian Settings Location" to="Trillian Settings Location"/>
 	<translation from="Trillian Update" to="Trillian Update"/>
 	<translation from="Trillian Update Available" to="Trillian Update Available"/>
-	<translation from="Trillian Upgrade" to="Trillian Upgrade"/>
-	<translation from="Trillian detects that you may be on a new computer." to="Trillian detects that you may be on a new computer."/>
+	<translation from="Trillian Upgrade" to="Trillianアップグレード"/>
+	<translation from="Trillian brings all the major IM and social networks together in a single interface and on many different platforms.  Your Trillian account allows you to sign in from any device or location and maintain your contacts and settings everywhere!" to="Trillian brings all the major IM and social networks together in a single interface and on many different platforms.  Your Trillian account allows you to sign in from any device or location and maintain your contacts and settings everywhere!"/>
+	<translation from="Trillian can connect to your IMAP and POP3 email accounts to notify you of new mail.  If you&apos;ve already configured AOL, Windows Live, Yahoo!, or Google Talk, your email notifications have already been set up." to="Trillian can connect to your IMAP and POP3 email accounts to notify you of new mail.  If you&apos;ve already configured AOL, Windows Live, Yahoo!, or Google Talk, your email notifications have already been set up."/>
 	<translation from="Trillian has been successfully updated.  Click here to view the list of changes in this version." to="Trillian has been successfully updated.  Click here to view the list of changes in this version."/>
-	<translation from="Trillian in Microsoft Windows" to="Windows ショートカット"/>
-	<translation from="Trillian is currently in offline mode and not connected to the Trillian Astra network.  Any changes to your connections will not be saved to the server." to="Trillian is currently in offline mode and not connected to the Trillian Astra network.  Any changes to your connections will not be saved to the server."/>
-	<translation from="Trillian is currently in offline mode and not connected to the Trillian Astra network.  Any changes to your contact list will not be saved to the server." to="Trillian is currently in offline mode and not connected to the Trillian Astra network.  Any changes to your contact list will not be saved to the server."/>
+	<translation from="Trillian is currently in offline mode and not connected to the Trillian network.  Any changes to your connections will not be saved to the server." to="Trillian is currently in offline mode and not connected to the Trillian network.  Any changes to your connections will not be saved to the server."/>
+	<translation from="Trillian is currently in offline mode and not connected to the Trillian network.  Any changes to your contact list will not be saved to the server." to="Trillian is currently in offline mode and not connected to the Trillian network.  Any changes to your contact list will not be saved to the server."/>
 	<translation from="Trillian(tm) Preferences" to="Trillian™ 環境設定"/>
 	<translation from="Trillian: Close all systray alerts" to="Trillian: Close all systray alerts"/>
 	<translation from="Trillian: Close all visible systray alerts" to="Trillian: Close all visible systray alerts"/>
-	<translation from="Trillian: Exit Program" to="Trillian: Exit Program"/>
+	<translation from="Trillian: Exit Program" to="Trillian: プログラムの終了"/>
 	<translation from="Trillian: Load Program" to="Trillian: Load Program"/>
 	<translation from="Trillian: Open Connection Manager" to="Trillian: Open Connection Manager"/>
 	<translation from="Trillian: Show Widgets" to="Trillian: Show Widgets"/>
 	<translation from="Try Again" to="再試行"/>
 	<translation from="Tuesday" to="火曜日"/>
+	<translation from="Tweet about Trillian on Twitter" to="Tweet about Trillian on Twitter"/>
+	<translation from="Tweet now!" to="Tweet now!"/>
 	<translation from="Type the &lt;b&gt;letters&lt;/b&gt;:" to="Type the &lt;b&gt;letters&lt;/b&gt;:"/>
 	<translation from="Type the &lt;b&gt;two words&lt;/b&gt;:" to="Type the &lt;b&gt;two words&lt;/b&gt;:"/>
 	<translation from="Type the name for the new Identity here" to="Type the name for the new Identity here"/>
 	<translation from="Type the name for the new group here" to="Type the name for the new group here"/>
 	<translation from="Type your &lt;b&gt;token&lt;/b&gt;:" to="Type your &lt;b&gt;token&lt;/b&gt;:"/>
-	<translation from="Typing" to="入力中"/>
 	<translation from="Under 13" to="Under 13"/>
 	<translation from="Underline" to="下線"/>
+	<translation from="Uninstall" to="Uninstall"/>
 	<translation from="Unknown" to="不明"/>
-	<translation from="Unread" to="未読メール"/>
-	<translation from="Untitled" to="Untitled"/>
-	<translation from="Update Cancelled" to="Update Cancelled"/>
-	<translation from="Update Complete" to="Update Complete"/>
-	<translation from="Update!" to="更新 !"/>
+	<translation from="Unread" to="未読"/>
+	<translation from="Untitled" to="無題"/>
+	<translation from="Update Cancelled" to="更新をキャンセルしました"/>
+	<translation from="Update Complete" to="更新が成功しました"/>
+	<translation from="Update!" to="更新しました!"/>
+	<translation from="Updated their status" to="Updated their status"/>
 	<translation from="Updates Available" to="Updates Available"/>
-	<translation from="Upgrade Complete" to="Upgrade Complete"/>
-	<translation from="Upgrade Failed" to="Upgrade Failed"/>
-	<translation from="Upgrade to Pro" to="Upgrade to Pro"/>
-	<translation from="Upgrade to Trillian Pro" to="Upgrade to Trillian Pro"/>
+	<translation from="Upgrade Complete" to="アップグレード成功"/>
+	<translation from="Upgrade Failed" to="アップグレード失敗"/>
+	<translation from="Upgrade from Trillian 3.x or older" to="Upgrade from Trillian 3.x or older"/>
+	<translation from="Upgrade to Pro" to="プロ版へアップグレード"/>
+	<translation from="Upgrading from Trillian 3.x or older" to="Upgrading from Trillian 3.x or older"/>
 	<translation from="Use No Icon" to="Use No Icon"/>
 	<translation from="Use Original" to="Use Original"/>
-	<translation from="Use a Virus Scanner" to="Use a Virus Scanner"/>
+	<translation from="Username:" to="Username:"/>
+	<translation from="Users with registered Trillian accounts may sign in here." to="Users with registered Trillian accounts may sign in here."/>
 	<translation from="Valid alternatives include:" to="Valid alternatives include:"/>
-	<translation from="Version History" to="バージョン履歴"/>
+	<translation from="Version History" to="バージョン更新履歴"/>
 	<translation from="Video &amp; Voice" to="ビデオ &amp; 音声"/>
 	<translation from="Video Extras" to="Video Extras"/>
-	<translation from="View Inbox" to="View Inbox"/>
-	<translation from="Voice" to="音声"/>
+	<translation from="View Inbox" to="受信トレイを見る"/>
+	<translation from="View all categories" to="View all categories"/>
+	<translation from="Visit Blog" to="Visit Blog"/>
+	<translation from="Visit Forums" to="Visit Forums"/>
+	<translation from="Voice" to="Voice"/>
 	<translation from="Wall Settings" to="Wall Settings"/>
-	<translation from="Weather" to="天気"/>
+	<translation from="We are sad to see you go" to="We are sad to see you go"/>
 	<translation from="Web Service Settings" to="Web Service Settings"/>
 	<translation from="Web site" to="ウェブ・サイト"/>
 	<translation from="Wednesday" to="水曜日"/>
 	<translation from="Welcome to" to="ようこそ"/>
-	<translation from="Welcome to &lt;i&gt;Trillian Astra&lt;/i&gt;!" to="Welcome to &lt;i&gt;Trillian Astra&lt;/i&gt;!"/>
-	<translation from="Welcome to Trillian!" to="Welcome to Trillian!"/>
-	<translation from="Welcome!" to="ようこそ"/>
+	<translation from="Welcome to Trillian!" to="ようこそ Trillianへ!"/>
+	<translation from="Welcome!" to="ようこそ!"/>
 	<translation from="What is your library card number?" to="What is your library card number?"/>
 	<translation from="What is your primary frequent flyer number?" to="What is your primary frequent flyer number?"/>
 	<translation from="What nickname would you like used throughout Trillian?" to="What nickname would you like used throughout Trillian?"/>
-	<translation from="What to Log" to="What to Log"/>
+	<translation from="What to Record" to="What to Record"/>
 	<translation from="What was your first phone number?" to="What was your first phone number?"/>
 	<translation from="What was your first teacher&apos;s name?" to="What was your first teacher&apos;s name?"/>
 	<translation from="When I&apos;m away..." to="退席時..."/>
 	<translation from="When Trillian loads up..." to="Trillianの起動時..."/>
-	<translation from="When a new message window is created..." to="When a new message window is created..."/>
+	<translation from="When a New Window is Created ..." to="When a New Window is Created ..."/>
 	<translation from="Where did you hear about us?" to="Where did you hear about us?"/>
 	<translation from="Which graphic would you like used to represent you?" to="Which graphic would you like used to represent you?"/>
 	<translation from="Widget Gallery" to="Widget Gallery"/>
@@ -742,8 +763,8 @@
 	<translation from="Widget Settings" to="Widget Settings"/>
 	<translation from="Windmill" to="Windmill"/>
 	<translation from="Window" to="ウィンドウ"/>
-	<translation from="Window Behavior" to="ウィンドウ設定"/>
-	<translation from="Windows" to="ウィンドウ"/>
+	<translation from="Windows" to="Windows"/>
+	<translation from="Windows Integration" to="Windows Integration"/>
 	<translation from="Windows: Console Connect" to="Windows: Console Connect"/>
 	<translation from="Windows: Console Disconnect" to="Windows: Console Disconnect"/>
 	<translation from="Windows: Remote Connect" to="Windows: Remote Connect"/>
@@ -761,47 +782,40 @@
 	<translation from="Year" to="Year"/>
 	<translation from="Yes" to="はい"/>
 	<translation from="Yes, safely move my files and settings (Recommended)" to="Yes, safely move my files and settings (Recommended)"/>
-	<translation from="You are not connected to Trillian Astra." to="You are not connected to Trillian Astra."/>
+	<translation from="You are not connected to the Trillian network." to="You are not connected to the Trillian network."/>
 	<translation from="You have already set up an account.  Would you like to go back to generate another account?" to="You have already set up an account.  Would you like to go back to generate another account?"/>
-	<translation from="You have finished setting up your AstraProfile.  Even more items can be set in the Profile Editor." to="You have finished setting up your AstraProfile.  Even more items can be set in the Profile Editor."/>
-	<translation from="You have new unread messages" to="新着メッセージがあります"/>
-	<translation from="You have successfully changed your email." to="You have successfully changed your email."/>
-	<translation from="You have successfully changed your password." to="You have successfully changed your password."/>
+	<translation from="You have new unread messages" to="新規未読メッセージがあります"/>
 	<translation from="You have successfully registered &lt;b&gt;%name%&lt;/b&gt;." to="You have successfully registered &lt;b&gt;%name%&lt;/b&gt;."/>
-	<translation from="You have successfully registered an Astra Account.  Please continue with the wizard to set this account up." to="You have successfully registered an Astra Account.  Please continue with the wizard to set this account up."/>
-	<translation from="You have successfully updated your information." to="You have successfully updated your information."/>
-	<translation from="You have successfully updated your membership information." to="You have successfully updated your membership information."/>
-	<translation from="You may select a graphic from below or even load and crop a custom photo from your PC." to="You may select a graphic from below or even load and crop a custom photo from your PC."/>
 	<translation from="You must accept the agreement to create an account." to="You must accept the agreement to create an account."/>
-	<translation from="You must be at least 13 years old to use Trillian Astra." to="You must be at least 13 years old to use Trillian Astra."/>
+	<translation from="You must be at least 13 years old to use Trillian." to="You must be at least 13 years old to use Trillian."/>
 	<translation from="You must complete the image verification to prove that you are a human." to="You must complete the image verification to prove that you are a human."/>
 	<translation from="You must include a security question and answer so that you can retrieve your password should you lose it." to="You must include a security question and answer so that you can retrieve your password should you lose it."/>
 	<translation from="You must provide a valid confirmation code to authorize your Astra Account.  It should have been sent to your email address." to="You must provide a valid confirmation code to authorize your Astra Account.  It should have been sent to your email address."/>
-	<translation from="You must provide a valid email address and password if you wish to link to your existing Trillian Pro account.  Please type again." to="You must provide a valid email address and password if you wish to link to your existing Trillian Pro account.  Please type again."/>
-	<translation from="You&apos;re all set!" to="You&apos;re all set!"/>
-	<translation from="Your &lt;i&gt;AstraProfile&lt;/i&gt; is set!" to="Your &lt;i&gt;AstraProfile&lt;/i&gt; is set!"/>
+	<translation from="You must provide a valid email address and password if you wish to link to your existing Trillian Pro account.  Please try again." to="You must provide a valid email address and password if you wish to link to your existing Trillian Pro account.  Please try again."/>
+	<translation from="You will need to &lt;b&gt;restart Trillian&lt;/b&gt; for this change to take effect." to="You will need to &lt;b&gt;restart Trillian&lt;/b&gt; for this change to take effect."/>
 	<translation from="Your Contact List is complete!" to="Your Contact List is complete!"/>
 	<translation from="Your Identity Information" to="Your Identity Information"/>
 	<translation from="Your Name Here" to="Your Name Here"/>
 	<translation from="Your Public &lt;i&gt;AstraContact&lt;/i&gt;" to="Your Public &lt;i&gt;AstraContact&lt;/i&gt;"/>
-	<translation from="Your Trillian Astra Account" to="Trillian Astra アカウント"/>
+	<translation from="Your Trillian Account" to="Your Trillian Account"/>
 	<translation from="Your connections will go here." to="Your connections will go here."/>
 	<translation from="Your contacts will go here." to="Your contacts will go here."/>
 	<translation from="Your email has been successfully changed." to="Your email has been successfully changed."/>
 	<translation from="Your email has been successfully updated." to="Your email has been successfully updated."/>
-	<translation from="Your membership information does not appear to be valid.  Please type again." to="Your membership information does not appear to be valid.  Please type again."/>
+	<translation from="Your membership information does not appear to be valid.  Please try again." to="Your membership information does not appear to be valid.  Please try again."/>
 	<translation from="Your membership information has been updated." to="Your membership information has been updated."/>
-	<translation from="Your membership information is bound to another Trillian Astra account.  Please type again." to="Your membership information is bound to another Trillian Astra account.  Please type again."/>
+	<translation from="Your membership information is bound to another Trillian account.  Please try again." to="Your membership information is bound to another Trillian account.  Please try again."/>
+	<translation from="Your optional public profile will be available on the web and to those people who chat with you on the Trillian network.  You may leave any field here blank." to="Your optional public profile will be available on the web and to those people who chat with you on the Trillian network.  You may leave any field here blank."/>
 	<translation from="Your password has been successfully changed." to="Your password has been successfully changed."/>
 	<translation from="Your password must be from 6 to 32 characters in length." to="Your password must be from 6 to 32 characters in length."/>
 	<translation from="Your unique Trillian Astra Username must be between 6 and 64 characters long.  Letters, numbers, and basic symbols are allowed, and your username must begin with a letter." to="Your unique Trillian Astra Username must be between 6 and 64 characters long.  Letters, numbers, and basic symbols are allowed, and your username must begin with a letter."/>
-	<translation from="ZIP Code:" to="ZIP Code:"/>
-	<translation from="Zip Code" to="Zip Code"/>
-	<translation from="already configured" to="already configured"/>
-	<translation from="at the bottom left corner" to="左下"/>
-	<translation from="at the bottom right corner" to="右下"/>
-	<translation from="at the top left corner" to="左上"/>
-	<translation from="at the top right corner" to="右上"/>
+	<translation from="ZIP Code:" to="郵便番号:"/>
+	<translation from="Zip Code" to="郵便番号"/>
+	<translation from="account" to="account"/>
+	<translation from="at the bottom left corner" to="左下へ"/>
+	<translation from="at the bottom right corner" to="右下へ"/>
+	<translation from="at the top left corner" to="左上へ"/>
+	<translation from="at the top right corner" to="右上へ"/>
 	<translation from="blue" to="青色"/>
 	<translation from="blue and white" to="青色と白色"/>
 	<translation from="day" to="日"/>
@@ -820,15 +834,17 @@
 	<translation from="dialogLoadingStartingPlugins" to="Starting plugins..."/>
 	<translation from="dialogLoadingStartingPluginsSpecific" to="Starting %plugin% plugin..."/>
 	<translation from="dialogLoadingStartingSelectedPlugins" to="Starting selected plugins..."/>
-	<translation from="dialogLoadingWelcome" to="ようこそ"/>
+	<translation from="dialogLoadingWelcome" to="ようこそ!"/>
 	<translation from="dialogPreferencesDescription" to="Customize Trillian to fit your needs."/>
-	<translation from="dialogPreferencesName" to="ようこそ Trillianへ"/>
+	<translation from="dialogPreferencesName" to="ようこそTrillianへ"/>
 	<translation from="dialogProfileEditorFail" to="The Astra Profile Editor is not available in this skin."/>
 	<translation from="dialogUnloadingThanks" to="Thanks for purchasing Trillian!"/>
 	<translation from="dialogUnloadingUpdates" to="For updates visit:"/>
 	<translation from="dialogWizardNoUpdates" to="No software updates are currently available."/>
+	<translation from="e.g. imap.gmail.com" to="e.g. imap.gmail.com"/>
+	<translation from="e.g. tricia42" to="e.g. tricia42"/>
 	<translation from="from %from%" to="from %from%"/>
-	<translation from="green" to="緑色"/>
+	<translation from="green" to="緑"/>
 	<translation from="hour" to="時間"/>
 	<translation from="hours" to="時間"/>
 	<translation from="message" to="メッセージ"/>
@@ -837,32 +853,23 @@
 	<translation from="minutes" to="分"/>
 	<translation from="near my clock" to="時計表示の近く"/>
 	<translation from="or" to="or"/>
-	<translation from="prefsActivityHistoryAuto" to="Show last %num% lines of the previous conversation in the chat window"/>
+	<translation from="prefsActivityHistoryAuto" to="Show the last %num% lines of conversation history in chat windows"/>
 	<translation from="prefsActivityHistoryAutoSearch" to="auto history;autohistory;previous conversation"/>
-	<translation from="prefsActivityHistoryDescription" to="Trillian&apos;s Activity History system can record all your messages in an easy-to-use archiving format."/>
-	<translation from="prefsActivityHistoryDirectory" to="フォルダ:"/>
-	<translation from="prefsActivityHistoryDirectoryBrowse" to="参照..."/>
-	<translation from="prefsActivityHistoryLogAudio" to="音声通話"/>
+	<translation from="prefsActivityHistoryDescription" to="Change how Trillian archives all of your messages and activities."/>
+	<translation from="prefsActivityHistoryDirectoryBrowse" to="Browse..."/>
+	<translation from="prefsActivityHistoryLogAudio" to="音声チャット"/>
 	<translation from="prefsActivityHistoryLogConferences" to="Conferences"/>
 	<translation from="prefsActivityHistoryLogConnections" to="Connections"/>
 	<translation from="prefsActivityHistoryLogContacts" to="Contacts"/>
-	<translation from="prefsActivityHistoryLogConversations" to="Text Conversations"/>
-	<translation from="prefsActivityHistoryLogIcons" to="Icon Changes"/>
+	<translation from="prefsActivityHistoryLogConversations" to="Text conversations"/>
+	<translation from="prefsActivityHistoryLogIcons" to="Icon changes"/>
 	<translation from="prefsActivityHistoryLogImages" to="画像"/>
-	<translation from="prefsActivityHistoryLogSubjects" to="対象"/>
+	<translation from="prefsActivityHistoryLogSubjects" to="Subjects"/>
 	<translation from="prefsActivityHistoryLogType" to="メディアタイプ"/>
 	<translation from="prefsActivityHistoryLogVideo" to="ビデオチャット"/>
 	<translation from="prefsActivityHistoryName" to="ログ"/>
 	<translation from="prefsActivityHistoryNameSearch" to="history;activity history;conversation history;chat history;chat log;logging;logs"/>
 	<translation from="prefsActivityHistoryPro" to="&lt;b&gt;Trillian Pro&lt;/b&gt; provides a full history viewer directly in the client with searching!  Click here to find out more!"/>
-	<translation from="prefsAstraProfileAstraContactAdd" to="Add a Sub-Contact..."/>
-	<translation from="prefsAstraProfileAstraContactAddSearch" to="contact;subcontact;metacontact;add"/>
-	<translation from="prefsAstraProfileAstraContactDescription" to="An AstraContact allows you to expose all of your IM information in a single, neatly-packaged &quot;AstraContact&quot;.  AstraContacts support strict privacy controls and priority ordering."/>
-	<translation from="prefsAstraProfileAstraContactDown" to="v"/>
-	<translation from="prefsAstraProfileAstraContactName" to="My AstraContact"/>
-	<translation from="prefsAstraProfileAstraContactNameSearch" to="astra;metacontact;astracontact;astra contact;meta contact;"/>
-	<translation from="prefsAstraProfileAstraContactRemove" to="X"/>
-	<translation from="prefsAstraProfileAstraContactUp" to="^"/>
 	<translation from="prefsAudioDescription" to="Select sound sources and fine-tune quality settings here."/>
 	<translation from="prefsAudioName" to="音声"/>
 	<translation from="prefsAudioVideoQualityHighDescription" to="Delivers high quality sound.  Uses as much available Internet bandwidth as possible."/>
@@ -880,9 +887,9 @@
 	<translation from="prefsAutomationNameSearch" to="events;automate;automation;word matching;wordmatching"/>
 	<translation from="prefsAutomationRemove" to="X"/>
 	<translation from="prefsAutomationRemoveSearch" to="events;automate;automation"/>
-	<translation from="prefsAwayAutoRespond" to="Automatically respond to messages with my away message"/>
+	<translation from="prefsAwayAutoRespond" to="Respond to new messages automatically with my away message"/>
 	<translation from="prefsAwayAutoRespondSearch" to="autorespond;auto-respond;away message"/>
-	<translation from="prefsAwayContainer" to="Attach new message windows to the Away Container window"/>
+	<translation from="prefsAwayContainer" to="Group all messages received into a special &quot;away container&quot; window"/>
 	<translation from="prefsAwayContainerSearch" to="away container;container"/>
 	<translation from="prefsAwayDescription" to="Decide how Trillian behaves when you are away.  You can also edit your Away Messages here."/>
 	<translation from="prefsAwayIdle" to="マウスとキーボードがアイドル状態になったらステータスを変更する"/>
@@ -891,19 +898,18 @@
 	<translation from="prefsAwayMessageAutomatic" to="only if Trillian was set away automatically (idle, screensaver, ..)"/>
 	<translation from="prefsAwayMessageAutomaticSearch" to="automatic;away"/>
 	<translation from="prefsAwayMessageSearch" to="automatic;away"/>
-	<translation from="prefsAwayMessagesAutoSave" to="Save the messages I type in the Contact List automatically"/>
+	<translation from="prefsAwayMessagesAutoSave" to="Save the messages I type into the contact list automatically"/>
 	<translation from="prefsAwayMessagesAutoSaveSearch" to="away message;available message;status message;"/>
-	<translation from="prefsAwayMessagesLink" to="View or edit all your Personal and Away Messages here:"/>
-	<translation from="prefsAwayMessagesLinkButton" to="ステータスメッセージ..."/>
+	<translation from="prefsAwayMessagesLinkButton" to="Edit status messages..."/>
 	<translation from="prefsAwayMessagesLinkButtonSearch" to="away message;available message;status message;"/>
-	<translation from="prefsAwayMessagesRememberRestart" to="Remember my status between loads"/>
+	<translation from="prefsAwayMessagesRememberRestart" to="Remember my status between restarts"/>
 	<translation from="prefsAwayMessagesRememberRestartSearch" to="away message;available message;status message;"/>
 	<translation from="prefsAwayMessagesRemove" to="削除..."/>
 	<translation from="prefsAwayMessagesRemoveSearch" to="remove away message;away message;away messages"/>
 	<translation from="prefsAwayMessagesSearch" to="edit away message;away message;away messages"/>
-	<translation from="prefsAwayMessagesSong" to="Set my status message to what I&apos;m listening to"/>
+	<translation from="prefsAwayMessagesSong" to="Set my status to what I&apos;m listening to"/>
 	<translation from="prefsAwayMessagesSongSearch" to="away message;available message;status message;song;album;artist;winamp;itunes;media player"/>
-	<translation from="prefsAwayName" to="退席中モード"/>
+	<translation from="prefsAwayName" to="Status"/>
 	<translation from="prefsAwayNotification" to="通知ウィンドウは表示しない"/>
 	<translation from="prefsAwayNotificationSearch" to="hide;notifications;systray;notify;alerts;alert"/>
 	<translation from="prefsAwayScreensaver" to="スクリーンセーバー起動時ステータス変更する"/>
@@ -922,11 +928,8 @@
 	<translation from="prefsBiographyNameOther" to="Biography - %identity%"/>
 	<translation from="prefsBiographyNameSearch" to="name;profile;aim profile;biography;"/>
 	<translation from="prefsConnectionMiscDescription" to="Manage other options for this account."/>
-	<translation from="prefsConnectionMiscName" to="その他"/>
-	<translation from="prefsConnectionMiscSearch" to="その他"/>
-	<translation from="prefsConnectionSettingsDescription" to="Fine tune the server and proxy settings for this connection."/>
-	<translation from="prefsConnectionSettingsName" to="接続設定"/>
-	<translation from="prefsConnectionSettingsSearch" to="接続設定"/>
+	<translation from="prefsConnectionMiscName" to="詳細設定"/>
+	<translation from="prefsConnectionMiscSearch" to="詳細設定"/>
 	<translation from="prefsConnectionSettingsServerHost" to="サーバーホスト:"/>
 	<translation from="prefsConnectionSettingsServerHostSearch" to="host;server;ip address"/>
 	<translation from="prefsConnectionSettingsServerPort" to="ポート:"/>
@@ -934,68 +937,52 @@
 	<translation from="prefsConnectionSettingsServerReset" to="リセット"/>
 	<translation from="prefsConnectionSettingsServerResetSearch" to="reset;port;host;server;ip address"/>
 	<translation from="prefsConnectionsAlert" to="This is your first time using Trillian on this computer.  Please configure any connections you wish to automatically connect to from this location now."/>
-	<translation from="prefsConnectionsDescription" to="Manage your connections to various networks.  You can also fine-tune settings for individual connections."/>
-	<translation from="prefsConnectionsName" to="Identities &amp; Connections"/>
+	<translation from="prefsConnectionsDescription" to="Manage your accounts and fine-tune individual account settings."/>
+	<translation from="prefsConnectionsName" to="Accounts"/>
 	<translation from="prefsConnectionsNameSearch" to="connections;medium;account;aim;icq;msn;yahoo!;jabber;irc;internet relay chat;rendezvous;serverlessim;serverless im;identity;icon;"/>
-	<translation from="prefsContactListAlwaysOnTop" to="他のウィンドウよりコンタクリストは最前面に表示する"/>
+	<translation from="prefsContactListAlwaysOnTop" to="Show contact list always on top of other windows"/>
 	<translation from="prefsContactListAlwaysOnTopSearch" to="always on top;on top"/>
-	<translation from="prefsContactListAlwaysOnTopWarning" to="Trillian is currently set to always on top for all windows."/>
-	<translation from="prefsContactListAutosize" to="コンタクトリストウィンドウはコンタクト数によって大きさを自動で変更する"/>
+	<translation from="prefsContactListAutosize" to="Automatically resize to fit content"/>
 	<translation from="prefsContactListAutosizeSearch" to="autoresize;autosize;autofit"/>
 	<translation from="prefsContactListAutosizeUpwards" to="Size upwards"/>
 	<translation from="prefsContactListAutosizeUpwardsSearch" to="autoresize;autosize;autofit"/>
-	<translation from="prefsContactListBackground" to="Show background image in Contact List:"/>
-	<translation from="prefsContactListBackgroundOrientation" to="Orientation:"/>
-	<translation from="prefsContactListBackgroundOrientationSearch" to="background;wallpaper;image;list background;tile;stretch;center"/>
-	<translation from="prefsContactListBackgroundSearch" to="background;wallpaper;image;list background"/>
-	<translation from="prefsContactListBackgroundTypeSearch" to="background;wallpaper;image;list background"/>
-	<translation from="prefsContactListDescription" to="The Trillian Contact List is where all your lists of friends and information reside in.  You can customize the behavior of the List, and make it easily accessible here."/>
+	<translation from="prefsContactListDescription" to="Change the layout and position of the contact list, contacts, mail, and social news."/>
 	<translation from="prefsContactListDock" to="コンタクトリストウィンドウを画面の端にドッキングできるようにする"/>
 	<translation from="prefsContactListDockAutoHide" to="ドッキング中、コンタクトリストを自動表示にする"/>
 	<translation from="prefsContactListDockAutoHideSearch" to="dock;docking;contact list dock;auto hide;auto-hide"/>
 	<translation from="prefsContactListDockSearch" to="task bar;dock;contact list dock;side of monitor;docking"/>
-	<translation from="prefsContactListExpandMetacontacts" to="Expand MetaContacts when the mouse cursor goes over them"/>
-	<translation from="prefsContactListExpandMetacontactsSearch" to="meta-contact;meta contact;metacontact;expand"/>
+	<translation from="prefsContactListGroup" to="Group online contacts by service"/>
 	<translation from="prefsContactListGroupCounts" to="グループ内のメンバ数の表示"/>
 	<translation from="prefsContactListGroupCountsSearch" to="group counts;group count"/>
-	<translation from="prefsContactListHideEmpty" to="空のグループは隠す"/>
-	<translation from="prefsContactListHideEmptySearch" to="contact list groups;group;groups;empty group"/>
-	<translation from="prefsContactListMailPicturesMode" to="Layout mail in %mode% view"/>
+	<translation from="prefsContactListGroupSearch" to="groups;service;sort;"/>
+	<translation from="prefsContactListMailPicturesLabel" to="Show mail in:"/>
 	<translation from="prefsContactListMailPicturesModeSearch" to="simple;tiles;icon;icon view;picture;buddy icon;icon size"/>
-	<translation from="prefsContactListMailPicturesModeWithSize" to="Layout mail in %mode% view at %size% size"/>
 	<translation from="prefsContactListMailPicturesSearch" to="mail;icon;icon view;picture;favicon"/>
-	<translation from="prefsContactListMailShow" to="Show unread mail messages as items in the contact list"/>
-	<translation from="prefsContactListMailShowSearch" to="mail;email"/>
 	<translation from="prefsContactListMediumIcons" to="サービス名を横に表示"/>
 	<translation from="prefsContactListMediumIconsSearch" to="service icons;icons"/>
 	<translation from="prefsContactListName" to="コンタクトリスト"/>
-	<translation from="prefsContactListNewsPicturesMode" to="Layout news in %mode% view"/>
+	<translation from="prefsContactListNewsPicturesLabel" to="Show news feeds in:"/>
 	<translation from="prefsContactListNewsPicturesModeSearch" to="simple;tiles;icon;icon view;picture;buddy icon;icon size"/>
-	<translation from="prefsContactListNewsPicturesModeWithSize" to="Layout news in %mode% view at %size% size"/>
 	<translation from="prefsContactListNewsPicturesSearch" to="icon;icon view;picture;buddy icon"/>
 	<translation from="prefsContactListOffline" to="オフラインメンバーも分類する"/>
 	<translation from="prefsContactListOfflineSearch" to="offline;offline contacts;offline group;offline folder"/>
-	<translation from="prefsContactListPictures" to="ステータスアイコンにアバターを表示する"/>
-	<translation from="prefsContactListPicturesMode" to="Layout contacts in %mode% view"/>
+	<translation from="prefsContactListOrphans" to="Show contacts not associated with online connections"/>
+	<translation from="prefsContactListOrphansSearch" to="orphans;missing;contacts;"/>
+	<translation from="prefsContactListPictures" to="アバター(アイコン)を表示する"/>
+	<translation from="prefsContactListPicturesLabel" to="コンタクトの表示方法:"/>
 	<translation from="prefsContactListPicturesModeSearch" to="simple;tiles;icon;icon view;picture;buddy icon;icon size"/>
-	<translation from="prefsContactListPicturesModeWithSize" to="Layout contacts in %mode% view at %size% size"/>
 	<translation from="prefsContactListPicturesSearch" to="icon;icon view;picture;buddy icon"/>
 	<translation from="prefsContactListPicturesSize" to="Picture size:"/>
 	<translation from="prefsContactListPicturesSizeSearch" to="icon;icon view;picture;buddy icon;icon size"/>
-	<translation from="prefsContactListRecent" to="Display recently online and offline icons for %num% seconds"/>
-	<translation from="prefsContactListRecentSearch" to="recently online icons;icons"/>
-	<translation from="prefsContactListRecentTimeSearch" to="recently online icons;icons"/>
-	<translation from="prefsContactListSecondaryIcons" to="Show secondary status icons"/>
-	<translation from="prefsContactListSecondaryIconsSearch" to="status icons;icons"/>
-	<translation from="prefsContactListSkinSize" to="Layout identity panel at %size% size"/>
-	<translation from="prefsContactListSkinSizeWarning" to="The current skin does not support changing this setting within preferences."/>
+	<translation from="prefsContactListSkinSizeLabel" to="Show identity panel in:"/>
+	<translation from="prefsContactListSkinSizeWarning" to="This feature is not supporeted by your skin."/>
 	<translation from="prefsContactListSort" to="コンタクトの並び順:"/>
 	<translation from="prefsContactListSortSearch" to="sort;abc;status;alphabetically"/>
 	<translation from="prefsContactListSortTypeSearch" to="sort;abc;status;alphabetically"/>
-	<translation from="prefsContactListSystray" to="Show Contact List in the taskbar notification area"/>
+	<translation from="prefsContactListSystray" to="Show contact list in the system tray"/>
 	<translation from="prefsContactListSystraySearch" to="task bar;taskbar;systray"/>
 	<translation from="prefsContactListSystrayTaskbarWarning" to="Unable to uncheck this item.  You must choose a location to show the Contact List."/>
-	<translation from="prefsContactListTaskbar" to="Show Contact List as a task in Windows taskbar when not docked"/>
+	<translation from="prefsContactListTaskbar" to="Show contact list in the Windows taskbar when not docked"/>
 	<translation from="prefsContactListTaskbarSearch" to="task bar;taskbar;systray"/>
 	<translation from="prefsContactListTooltipIcon" to="Constrain icon size in tooltips:"/>
 	<translation from="prefsContactListTooltipIconSearch" to="icon;buddy icon;picture size;icon size;picture;contact tooltips;tooltips;tooltip"/>
@@ -1010,7 +997,7 @@
 	<translation from="prefsDevicesCurrentNameSearch" to="resource;computer name"/>
 	<translation from="prefsDevicesCurrentUptime" to="稼働時間:"/>
 	<translation from="prefsDevicesCurrentUptimeSearch" to="uptime;up time;"/>
-	<translation from="prefsDevicesDescription" to="Trillian Astra can be used with an interconnected array of devices.  View the status and disconnect devices in the list below."/>
+	<translation from="prefsDevicesDescription" to="Trillian can be used with an interconnected array of devices.  View the status and disconnect devices in the list below."/>
 	<translation from="prefsDevicesDeviceDisconnect" to="切断"/>
 	<translation from="prefsDevicesDeviceIP" to="IP アドレス:"/>
 	<translation from="prefsDevicesName" to="デバイス"/>
@@ -1019,16 +1006,15 @@
 	<translation from="prefsEmotiblipsAddSearch" to="emotiblips;add blip;add emotiblip"/>
 	<translation from="prefsEmotiblipsDescription" to="Emotiblips are instant short video or audio clips that you can insert into your conversation.  Use your imagination!  Surprise your friends!"/>
 	<translation from="prefsEmotiblipsName" to="Emotiblips"/>
-	<translation from="prefsFileTransfersAcceptContact" to="Users on Contact List:"/>
+	<translation from="prefsFileTransfersAcceptContact" to="Accept files from my contacts:"/>
 	<translation from="prefsFileTransfersAcceptContactSearch" to="file transfer;accept;autoaccept;auto-accept;contacts;deny;auto-deny"/>
-	<translation from="prefsFileTransfersAcceptNonContact" to="Users not on Contact List:"/>
+	<translation from="prefsFileTransfersAcceptNonContact" to="Accept files from other people:"/>
 	<translation from="prefsFileTransfersAcceptNonContactSearch" to="file transfer;accept;autoaccept;auto-accept;contacts;deny;auto-deny"/>
-	<translation from="prefsFileTransfersAutoZip" to="Automatically zip multiple files together when sending"/>
+	<translation from="prefsFileTransfersAutoZip" to="複数ファイルを送信時は、ZIP圧縮したまとめて送信する"/>
 	<translation from="prefsFileTransfersAutoZipSearch" to="file transfer;send;zip;autozip;pkzip;winzip;compress"/>
 	<translation from="prefsFileTransfersClose" to="ファイル転送が終わったら、ファイル転送ウィンドウを閉じる"/>
 	<translation from="prefsFileTransfersCloseSearch" to="file transfer;close window on completion"/>
 	<translation from="prefsFileTransfersDescription" to="Send and receive files from your contacts.  Choose default download folder and enable virus scanning."/>
-	<translation from="prefsFileTransfersDirectory" to="This folder:"/>
 	<translation from="prefsFileTransfersDirectoryBrowse" to="参照..."/>
 	<translation from="prefsFileTransfersDirectoryBrowseSearch" to="file transfer directory"/>
 	<translation from="prefsFileTransfersDirectoryCreateLogin" to="Create folder based on my chat network login name"/>
@@ -1038,21 +1024,20 @@
 	<translation from="prefsFileTransfersDirectoryCreateSender" to="送信者の名前のフォルダを作成する"/>
 	<translation from="prefsFileTransfersDirectoryCreateSenderSearch" to="file transfer location;saved files"/>
 	<translation from="prefsFileTransfersDirectorySearch" to="file transfer folder;save files location;file location"/>
-	<translation from="prefsFileTransfersExplorerSendFile" to="&quot;ファイル送信&quot; のメニューをエクスプローラーに表示する"/>
+	<translation from="prefsFileTransfersExplorerSendFile" to="Explorerの右クリックメニューに&quot;ファイル送信&quot;というメニューを表示する"/>
 	<translation from="prefsFileTransfersExplorerSendFileSearch" to="explorer;right click menu;right click;windows integration;shell integration"/>
 	<translation from="prefsFileTransfersExplorerSendFileWarning" to="This feature currently works only on 32-bit versions of Windows"/>
-	<translation from="prefsFileTransfersMinimize" to="Minimize File Transfer windows"/>
+	<translation from="prefsFileTransfersMinimize" to="Minimize new file transfer windows automatically"/>
 	<translation from="prefsFileTransfersMinimizeSearch" to="file transfer;minimize window"/>
 	<translation from="prefsFileTransfersName" to="ファイル転送"/>
-	<translation from="prefsFileTransfersResume" to="Attempt to resume if file exists"/>
+	<translation from="prefsFileTransfersResume" to="可能な場合、ファイル転送を再開する"/>
 	<translation from="prefsFileTransfersResumeSearch" to="file transfer;resume;file resume"/>
 	<translation from="prefsFileTransfersVirus" to="ウィルススキャン:"/>
 	<translation from="prefsFileTransfersVirusBrowse" to="参照..."/>
 	<translation from="prefsFileTransfersVirusBrowseSearch" to="virus scanner directory"/>
 	<translation from="prefsFileTransfersVirusFileSearch" to="virus;virus scan;scan files;virus scanner"/>
 	<translation from="prefsFileTransfersVirusSearch" to="virus;virus scan;scan files;virus scanner"/>
-	<translation from="prefsInstallationandstartupAutoLogin" to="自動サインイン"/>
-	<translation from="prefsInstallationandstartupAutoLoginSearch" to="login;logoff;autologin"/>
+	<translation from="prefsFloatingClose" to="Close"/>
 	<translation from="prefsInstallationandstartupCheckUpdates" to="ソフトウェアの更新を確認する"/>
 	<translation from="prefsInstallationandstartupCheckUpdatesSearch" to="auto-update;update;patch;new version;version;auto update"/>
 	<translation from="prefsInstallationandstartupDescription" to="Configure basic Trillian settings, including desktop icons, startup and system tray behavior and more."/>
@@ -1064,16 +1049,14 @@
 	<translation from="prefsInstallationandstartupLanguagesSearch" to="言語"/>
 	<translation from="prefsInstallationandstartupLoadOnStartup" to="コンピューターの起動時にTrillianも起動する"/>
 	<translation from="prefsInstallationandstartupLoadOnStartupSearch" to="startup;load;start up;starts up;boot;boots"/>
-	<translation from="prefsInstallationandstartupName" to="Installation &amp; Startup"/>
+	<translation from="prefsInstallationandstartupLogin" to="Always show the login screen"/>
+	<translation from="prefsInstallationandstartupLoginSearch" to="login;accounts;autoconnect"/>
+	<translation from="prefsInstallationandstartupName" to="Language &amp; Startup"/>
 	<translation from="prefsInstallationandstartupServerAlertMajor" to="重要なTrillianのニュースがあった場合、通知する"/>
 	<translation from="prefsInstallationandstartupServerAlertMajorSearch" to="cerulean news;news;"/>
 	<translation from="prefsInstallationandstartupServerAlertMinor" to="その他のTrillianのニュースがあった場合、通知する"/>
 	<translation from="prefsInstallationandstartupServerAlertMinorSearch" to="cerulean news;news;"/>
 	<translation from="prefsInstallationandstartupServerAlertWarning" to="With this setting off, you may not be notified about new releases of Trillian."/>
-	<translation from="prefsInstallationandstartupShowConnections" to="Show Identities and Connections"/>
-	<translation from="prefsInstallationandstartupShowConnectionsSearch" to="connections;startup"/>
-	<translation from="prefsInstallationandstartupShowLoading" to="Show the login screen while loading"/>
-	<translation from="prefsInstallationandstartupShowLoadingSearch" to="login screen;loading;startup"/>
 	<translation from="prefsInstallationandstartupStartMenu" to="Trillianのスタートメニューに作成する"/>
 	<translation from="prefsInstallationandstartupStartMenuSearch" to="start menu;shortcut"/>
 	<translation from="prefsInstallationandstartupStatistics" to="統計利用の情報をCerulean Studiosに匿名で送信する"/>
@@ -1088,7 +1071,8 @@
 	<translation from="prefsInstantLookupDescription" to="Discover new knowledge at your fingertips easily while you chat.  Your conversations do not leave your computer during processing.  Read our privacy policy for more."/>
 	<translation from="prefsInstantLookupFeatured" to="Show featured links within Instant Lookup"/>
 	<translation from="prefsInstantLookupFeaturedSearch" to="featured;sponsored;links"/>
-	<translation from="prefsInstantLookupKnowledgeBar" to="Show the following feeds within message windows"/>
+	<translation from="prefsInstantLookupKnowledgeBar" to="Show knowledge bar on top of chat windows"/>
+	<translation from="prefsInstantLookupKnowledgeBarLink" to="Settings"/>
 	<translation from="prefsInstantLookupKnowledgeBarSearch" to="RSS;feed;word;detection;knowledge;instant lookup;news;"/>
 	<translation from="prefsInstantLookupName" to="Instant Lookup"/>
 	<translation from="prefsInstantLookupRandomEntries" to="Show random entries at any time"/>
@@ -1100,7 +1084,7 @@
 	<translation from="prefsLicensingEmail" to="Email:"/>
 	<translation from="prefsLicensingEmailChange" to="変更..."/>
 	<translation from="prefsLicensingLink" to="Link with Pro Account"/>
-	<translation from="prefsLicensingName" to="ライセンス"/>
+	<translation from="prefsLicensingName" to="Trillian Account"/>
 	<translation from="prefsLicensingPassword" to="パスワード:"/>
 	<translation from="prefsLicensingPasswordChange" to="変更..."/>
 	<translation from="prefsLicensingPro" to="Learn more!"/>
@@ -1112,14 +1096,15 @@
 	<translation from="prefsLicensingUsernameManage" to="管理..."/>
 	<translation from="prefsMessageAppearanceDescription" to="Display your chats in many unique and interesting ways."/>
 	<translation from="prefsMessageAppearanceName" to="Chat Views"/>
-	<translation from="prefsMessageWindowsAllTab" to="Into a single window"/>
+	<translation from="prefsMessageWindowsActionsToolbar" to="Show actions toolbar on top of chat windows"/>
+	<translation from="prefsMessageWindowsAllTab" to="Group tabs into a single window"/>
 	<translation from="prefsMessageWindowsAllTabSearch" to="window creation;container;tabbed;tabs;autotab;smart tabs"/>
 	<translation from="prefsMessageWindowsAlwaysOnTop" to="Trillianのウィンドウは、常に他のウィンドウより前面に表示する"/>
 	<translation from="prefsMessageWindowsAlwaysOnTopSearch" to="always on top;"/>
-	<translation from="prefsMessageWindowsAutoClose" to="Close the window automatically after untouched for %num% minutes"/>
+	<translation from="prefsMessageWindowsAutoClose" to="Close chat windows automatically after untouched for %num% minutes"/>
 	<translation from="prefsMessageWindowsAutoCloseNumSearch" to="window close;window;cleanup;clean"/>
 	<translation from="prefsMessageWindowsAutoCloseSearch" to="window close;window;cleanup;clean"/>
-	<translation from="prefsMessageWindowsAutoTab" to="According to my Contact List groups"/>
+	<translation from="prefsMessageWindowsAutoTab" to="Group tabs according to my contact list groups"/>
 	<translation from="prefsMessageWindowsAutoTabSearch" to="window creation;container;tabbed;tabs;autotab;smart tabs"/>
 	<translation from="prefsMessageWindowsCreationDesktop" to="デスクトップ上にウィンドウを表示する"/>
 	<translation from="prefsMessageWindowsCreationDesktopSearch" to="window creation;show window desktop"/>
@@ -1136,12 +1121,12 @@
 	<translation from="prefsMessageWindowsDefaultOpacity" to="透明度"/>
 	<translation from="prefsMessageWindowsDefaultOpacitySearch" to="default;window default;transparent;transparency;opacity"/>
 	<translation from="prefsMessageWindowsDefaultOpacityValueSearch" to="default;window default;transparent;transparency;opacity"/>
-	<translation from="prefsMessageWindowsDefaultPositionSet" to="Set Default Size, Positions and Interiors..."/>
+	<translation from="prefsMessageWindowsDefaultPositionSet" to="Set Defaults"/>
 	<translation from="prefsMessageWindowsDescription" to="Message Windows include Contact Windows, Connection Windows and Conference Windows.  Configure their default appearances and behaviors here."/>
 	<translation from="prefsMessageWindowsFlashWindow" to="新規メッセージを受信したら、%num% 回ウィンドウを点滅させる"/>
 	<translation from="prefsMessageWindowsFlashWindowNumSearch" to="window flash;flash;taskbar flash;taskbar"/>
 	<translation from="prefsMessageWindowsFlashWindowSearch" to="window flash;flash;taskbar flash;taskbar"/>
-	<translation from="prefsMessageWindowsFocusLine" to="Mark where I last left the conversation"/>
+	<translation from="prefsMessageWindowsFocusLine" to="Show where I last left the conversation"/>
 	<translation from="prefsMessageWindowsFocusLineSearch" to="window focus;focus;focus line;activity;last activity"/>
 	<translation from="prefsMessageWindowsFocused" to="ウィンドウがディアクティブになったら:"/>
 	<translation from="prefsMessageWindowsFocusedSearch" to="window focus;focus;transparent;transparency;black and white;fade window;window fade"/>
@@ -1158,22 +1143,19 @@
 	<translation from="prefsMessageWindowsInstantSearchToolbar" to="Show search toolbar within my Message Windows"/>
 	<translation from="prefsMessageWindowsInstantSearchToolbarSearch" to="search;toolbar;instant search;instant lookup"/>
 	<translation from="prefsMessageWindowsInstantSearchWarning" to="The above setting is performance intensive and may slow down older PCs."/>
-	<translation from="prefsMessageWindowsMetaWindows" to="Combine windows from the same MetaContact"/>
+	<translation from="prefsMessageWindowsMetaWindows" to="Combine windows from the same metacontact"/>
 	<translation from="prefsMessageWindowsMetaWindowsSearch" to="merge;combine;metacontact"/>
-	<translation from="prefsMessageWindowsName" to="メッセージウィンドウ"/>
-	<translation from="prefsMessageWindowsNoTab" to="Do not group them together"/>
+	<translation from="prefsMessageWindowsName" to="Chat Windows"/>
+	<translation from="prefsMessageWindowsNoTab" to="Do not automatically create tabbed windows"/>
 	<translation from="prefsMessageWindowsNoTabSearch" to="window creation;container;tabbed;tabs;autotab;smart tabs"/>
 	<translation from="prefsMessageWindowsPositionClear" to="リセット"/>
 	<translation from="prefsMessageWindowsPositionClearSearch" to="window creation;size;location"/>
-	<translation from="prefsMessageWindowsPositionRemember" to="Show at the previous location and size"/>
+	<translation from="prefsMessageWindowsPositionRemember" to="Show new windows at their previous location and size"/>
 	<translation from="prefsMessageWindowsPositionRememberSearch" to="window creation;size;location"/>
-	<translation from="prefsMessageWindowsTabSingle" to="Show tab even when only one window exists"/>
+	<translation from="prefsMessageWindowsTabSingle" to="Show tabs even when only one window exists"/>
 	<translation from="prefsMessageWindowsTabSingleSearch" to="tabs;old method;container;single window"/>
 	<translation from="prefsMessageWindowsTaskbarEnhanced" to="Show chat activity in the taskbar"/>
 	<translation from="prefsMessageWindowsTaskbarEnhancedSearch" to="taskbar;title;event;count"/>
-	<translation from="prefsMessageWindowsWidgets" to="Show the Trillian Mini in the message window when available"/>
-	<translation from="prefsMessageWindowsWidgetsSearch" to="widgets;mood;time zone;astra;message widgets;trillian mini;mini"/>
-	<translation from="prefsMessageWindowsWidgetsWarning" to="Flash 9 is required for this feature.  Click here to download."/>
 	<translation from="prefsMyIconComputer" to="I&apos;d like to use an icon from my computer:"/>
 	<translation from="prefsMyIconComputerSearch" to="My Icon;icons;buddy icons;avatars;display pictures;display icons;photos"/>
 	<translation from="prefsMyIconDescription" to="Choose an icon from the list below or locate a picture on your computer; your friends will be able to see this icon alongside your name on their contact list."/>
@@ -1184,10 +1166,11 @@
 	<translation from="prefsMyIconNameSearch" to="My Icon;icons;buddy icons;avatars;display pictures;display icons;photos"/>
 	<translation from="prefsMyIconWindows" to="I&apos;d like to use the same icon I use for Microsoft Windows."/>
 	<translation from="prefsMyIconWindowsSearch" to="My Icon;icons;buddy icons;avatars;display pictures;display icons;photos;xp;windows;windows xp"/>
-	<translation from="prefsNotificationsAlertGroup" to="Combine notifications after %num% items of the same kind"/>
+	<translation from="prefsNotificationsAlert" to="Notify me when:"/>
+	<translation from="prefsNotificationsAlertGroup" to="Combine notifications after %num% of the same kind"/>
 	<translation from="prefsNotificationsAlertGroupSearch" to="group;systray;alert;notifications;"/>
 	<translation from="prefsNotificationsAlertGroupWarning" to="The current skin does not support grouping of notification alerts."/>
-	<translation from="prefsNotificationsAlertLocation" to="%location% へ通知ウィンドウを表示する"/>
+	<translation from="prefsNotificationsAlertLocation" to="通知ウィンドウの表示位置 %location%"/>
 	<translation from="prefsNotificationsAlertLocationMonitor" to="Show notification windows %location% of monitor %monitor%"/>
 	<translation from="prefsNotificationsAlertMessageBuzz" to="相手が自分にメッセージを送った時"/>
 	<translation from="prefsNotificationsAlertMessageBuzzSearch" to="sound;sounds;buzz;alert;spazz"/>
@@ -1208,18 +1191,27 @@
 	<translation from="prefsNotificationsAlertStatusMessage" to="相手のステータスメッセージが変更された時"/>
 	<translation from="prefsNotificationsAlertStatusMessageSearch" to="status change sound;contact change status;buddy status;sound;sounds;available message;song;"/>
 	<translation from="prefsNotificationsAlertStatusSearch" to="status change sound;contact change status;buddy status;sound;sounds"/>
-	<translation from="prefsNotificationsAlertTimeout" to="%num% 秒後にアラートを非表示にする"/>
+	<translation from="prefsNotificationsAlertTimeout" to="%num% 秒後にアラートを表示する"/>
 	<translation from="prefsNotificationsAlertTimeoutSearch" to="alerts;timeout;systray;toast;"/>
+	<translation from="prefsNotificationsAutomation" to="Fine-tune advanced notifications, hotkeys, events, and sounds:"/>
+	<translation from="prefsNotificationsAutomationLink" to="Automation"/>
 	<translation from="prefsNotificationsDescription" to="Pick when and how you want sounds, icons and popup-windows to tell you when something is happening."/>
-	<translation from="prefsNotificationsName" to="通知"/>
+	<translation from="prefsNotificationsName" to="Sounds &amp; Notifications"/>
 	<translation from="prefsNotificationsSounds" to="サウンド再生"/>
 	<translation from="prefsNotificationsSoundsAway" to="退席中はサウンドを鳴らさない"/>
 	<translation from="prefsNotificationsSoundsAwaySearch" to="sounds;mute sounds;away sounds"/>
-	<translation from="prefsNotificationsSoundsFocus" to="フォーカスがウィンドウから離れている時に、メッセージが来たらサウンドのみ鳴らす"/>
+	<translation from="prefsNotificationsSoundsFocus" to="フォーカスがウィンドウから離れている時に、メッセージが来た時だけ鳴らす"/>
 	<translation from="prefsNotificationsSoundsFocusSearch" to="sound;sounds;incoming sounds;focus"/>
+	<translation from="prefsNotificationsSoundsMail" to="新着メールが来た時"/>
+	<translation from="prefsNotificationsSoundsMessageIn" to="メッセージを受信時"/>
+	<translation from="prefsNotificationsSoundsMessageNew" to="When a new conversation is started by a contact"/>
+	<translation from="prefsNotificationsSoundsMessageOut" to="メッセージを送信時"/>
+	<translation from="prefsNotificationsSoundsMessageProgram" to="Trillianが起動時"/>
 	<translation from="prefsNotificationsSoundsSearch" to="sound;sounds;play sounds"/>
-	<translation from="prefsPluginsDescription" to="Plugins allow you to enable new and exciting features at your discretion.  Go to our web site to get more plugins."/>
-	<translation from="prefsPluginsName" to="プラグイン"/>
+	<translation from="prefsNotificationsSoundsSignoff" to="コンタクトがサインオフした時"/>
+	<translation from="prefsNotificationsSoundsSignon" to="コンタクトがサインオンした時"/>
+	<translation from="prefsPluginsDescription" to="Enable and disable plugins at your discretion.  Conserve resources by turning off the features you don&apos;t use."/>
+	<translation from="prefsPluginsName" to="Plugins"/>
 	<translation from="prefsPluginsNameSearch" to="plugins;add-ins;modules;extensions"/>
 	<translation from="prefsPluginsRemove" to="X"/>
 	<translation from="prefsPrivacyAllowAdd" to="許可"/>
@@ -1290,17 +1282,14 @@
 	<translation from="prefsSkinsApply" to="スキン適用"/>
 	<translation from="prefsSkinsCustomWindowsDescription" to="You can substitute certain windows, such as the Contact List, in the skin with a Custom Window."/>
 	<translation from="prefsSkinsCustomWindowsName" to="カスタムウィンドウ"/>
-	<translation from="prefsSkinsDescription" to="Fit your personality and customize the look of Trillian by applying skins.  You can download more skins from our Trillian web site."/>
+	<translation from="prefsSkinsDescription" to="Change the look and feel of Trillian with new and exciting skins."/>
 	<translation from="prefsSkinsExternalUtility" to="Launch External Utility..."/>
-	<translation from="prefsSkinsInterfaceApply" to="Apply Interface"/>
 	<translation from="prefsSkinsName" to="スキン"/>
 	<translation from="prefsSkinsPacksDescription" to="Change your emoticons, icons, sounds and interface right here."/>
 	<translation from="prefsSkinsPacksName" to="絵文字, アイコン, その他"/>
 	<translation from="prefsSkinsSettingsAlpha" to="Use alpha-blending transparency for main windows within the skin (if available)"/>
 	<translation from="prefsSkinsSettingsAlphaSearch" to="alpha;layered;speed;performance"/>
 	<translation from="prefsSkinsSettingsAlphaWarning" to="The above setting is performance intensive and may slow down older PCs."/>
-	<translation from="prefsSkinsSettingsDescription" to="Update the settings for the current skin."/>
-	<translation from="prefsSkinsSettingsName" to="スキン設定"/>
 	<translation from="prefsStatusMessagesAddButton" to="追加..."/>
 	<translation from="prefsStatusMessagesAddButtonSearch" to="add;available message;status message;away message;group"/>
 	<translation from="prefsStatusMessagesAwayState" to="Show Trillian as away when this message is set"/>
@@ -1312,55 +1301,49 @@
 	<translation from="prefsStatusMessagesSetStatusButton" to="ステータス変更"/>
 	<translation from="prefsStatusMessagesStatus" to="ステータス:"/>
 	<translation from="prefsStatusMessagesTitle" to="タイトル:"/>
-	<translation from="prefsTextConversationsAutoLinkEmoticon" to="Automatically convert text typed to emoticons and links"/>
-	<translation from="prefsTextConversationsAutoLinkEmoticonSearch" to="links;emoticons;autolink;autoemoticon"/>
 	<translation from="prefsTextConversationsBackgroundChoose" to="背景色..."/>
 	<translation from="prefsTextConversationsBackgroundChooseSearch" to="font;text color;font color;color;background;background color"/>
 	<translation from="prefsTextConversationsBuzzShake" to="シェイクを受信時に、ウィンドウを揺らす"/>
 	<translation from="prefsTextConversationsClearLine" to="To clear a line"/>
 	<translation from="prefsTextConversationsClearLineSearch" to="clear;clear line;edit"/>
-	<translation from="prefsTextConversationsCloseAfterSend" to="Close Contact Window after sending a message"/>
+	<translation from="prefsTextConversationsCloseAfterSend" to="Close windows after I send a message"/>
 	<translation from="prefsTextConversationsCloseAfterSendSearch" to="icq style messaging;close window;window;icq;single message mode;window mode"/>
 	<translation from="prefsTextConversationsColorChoose" to="文字色..."/>
 	<translation from="prefsTextConversationsColorChooseSearch" to="font;text color;font color;color"/>
 	<translation from="prefsTextConversationsDescription" to="Customize your basic window functions, colors, and fonts to fit your style of messaging."/>
-	<translation from="prefsTextConversationsEmoticonSpaceRequired" to="Restrictive Emoticon parsing (emoticons must be surrounded by non-characters)"/>
+	<translation from="prefsTextConversationsEditToolbar" to="Show text editing toolbar on bottom of chat windows"/>
+	<translation from="prefsTextConversationsEmoticonSpaceRequired" to="Only show emoticons when surrounded by whitespace"/>
 	<translation from="prefsTextConversationsEmoticonSpaceRequiredSearch" to="絵文字"/>
-	<translation from="prefsTextConversationsEmoticons" to="Show Emoticons within messages"/>
+	<translation from="prefsTextConversationsEmoticons" to="絵文字を表示する"/>
 	<translation from="prefsTextConversationsEmoticonsSearch" to="絵文字"/>
-	<translation from="prefsTextConversationsEmotisounds" to="Play Emotisounds when messages contain them"/>
+	<translation from="prefsTextConversationsEmotisounds" to="Play emoticon sounds when applicable"/>
 	<translation from="prefsTextConversationsEmotisoundsSearch" to="emotisounds;LOL;sound;sounds"/>
 	<translation from="prefsTextConversationsFontChoose" to="フォント..."/>
 	<translation from="prefsTextConversationsFontChooseSearch" to="font;font style;style;font face"/>
-	<translation from="prefsTextConversationsFormatting" to="Override styling received from my contacts with this font"/>
+	<translation from="prefsTextConversationsFormatting" to="Override formatting received from others with this font"/>
 	<translation from="prefsTextConversationsFormattingSearch" to="formatting;bold;italics;underline"/>
 	<translation from="prefsTextConversationsFormattingSend" to="Apply this formatting to messages I send to others"/>
 	<translation from="prefsTextConversationsFormattingSendSearch" to="formatting;bold;italics;underline"/>
+	<translation from="prefsTextConversationsInstantLookupLink" to="Configure Instant Lookup..."/>
 	<translation from="prefsTextConversationsListEmoticons" to="To show emoticon list"/>
 	<translation from="prefsTextConversationsListEmoticonsSearch" to="emoticons;emoticon list;edit"/>
 	<translation from="prefsTextConversationsMessageDisplay" to="Show messages in conversation bubbles"/>
 	<translation from="prefsTextConversationsMessageDisplaySearch" to="bubbles;messages;"/>
-	<translation from="prefsTextConversationsName" to="チャット"/>
-	<translation from="prefsTextConversationsNewBrowser" to="Open links in a new browser window"/>
-	<translation from="prefsTextConversationsNewBrowserSearch" to="link;url;hyperlink;browser;web;web page;new window;firefox;internet explorer;ie;netscape"/>
+	<translation from="prefsTextConversationsName" to="Fonts &amp; Chats"/>
 	<translation from="prefsTextConversationsNewLine" to="改行"/>
 	<translation from="prefsTextConversationsNewLineSearch" to="newline;enter;insert new line;edit"/>
-	<translation from="prefsTextConversationsRecentItems" to="To access lines I&apos;ve recently spoken"/>
+	<translation from="prefsTextConversationsRecentItems" to="To access lines I&apos;ve recently sent"/>
 	<translation from="prefsTextConversationsRecentItemsSearch" to="history;edit history;up;recent;edit"/>
-	<translation from="prefsTextConversationsScaleEmoticons" to="Scale Emoticons to match font size"/>
-	<translation from="prefsTextConversationsScaleEmoticonsSearch" to="scale emoticons;emoticons"/>
-	<translation from="prefsTextConversationsScaleImages" to="Scale images into Text Display area"/>
-	<translation from="prefsTextConversationsScaleImagesSearch" to="scale images;directim;direct im;images"/>
 	<translation from="prefsTextConversationsSendMessage" to="メッセージ送信"/>
 	<translation from="prefsTextConversationsSendMessageSearch" to="send message;message;send;message send;edit"/>
 	<translation from="prefsTextConversationsTimestampInstructions" to="%h - hour (24hr)&#09;&#09;%H - hour (12hr)&#09;%a - AM/PM&#13;&#10;%m - minutes&#09;&#09;%s - seconds&#09;%y - year&#13;&#10;%N - month number&#09;%n- month&#09;%d - day (ie: Mon.)&#13;&#10;%D - day number"/>
 	<translation from="prefsTextConversationsTimestamps" to="メッセージ毎のタイムスタンプを表示する"/>
 	<translation from="prefsTextConversationsTimestampsCustomEditSearch" to="display;timestamp;time;time stamp"/>
-	<translation from="prefsTextConversationsTimestampsEnhanced" to="Mark Chapters by time duration (例. &quot;5 分前&quot;)"/>
+	<translation from="prefsTextConversationsTimestampsEnhanced" to="Show relative timestamps (e.g. &quot;5 minutes ago&quot;)"/>
 	<translation from="prefsTextConversationsTimestampsEnhancedSearch" to="display;timestamp;time;time stamp;ago;minutes ago;hours ago"/>
+	<translation from="prefsTextConversationsTimestampsExample" to="(e.g. &quot;%example%&quot;)"/>
 	<translation from="prefsTextConversationsTimestampsSearch" to="display;timestamp;time;time stamp"/>
 	<translation from="prefsTextConversationsTyping" to="自分がメッセージを入力中の場合、通知する"/>
-	<translation from="prefsTextConversationsTypingProtection" to="only if I have already sent them a message"/>
 	<translation from="prefsTextConversationsTypingProtectionSearch" to="typing;notifications;privacy"/>
 	<translation from="prefsTextConversationsTypingSearch" to="typing;notifications;privacy"/>
 	<translation from="prefsTimeTravelDescription" to="Allows you to travel back in recorded time and playback instantly to see what has happened.  Unfortunately, time travel to the future is not currently available."/>
@@ -1432,31 +1415,18 @@
 	<translation from="textNoticeIdentityRemove" to="Are you sure you wish to remove this identity?"/>
 	<translation from="textNoticeMoveConfig" to="The stored settings for this account are no longer accessible.  Move them?"/>
 	<translation from="textNoticeMoveConfigInstructions" to="Newer versions of Windows utilize User Account Control (UAC), which prohibits applications from writing to certain portions of your hard drive.  Your previous configuration directory can no longer be safely updated while UAC is enabled.  Trillian would like to move your stored settings to an area that will allow it to continue normal operation."/>
-	<translation from="textNoticeNotLoaded" to="Trillian Astra must be loaded and connected to use this feature."/>
+	<translation from="textNoticeNotLoaded" to="Trillian must be loaded and connected to use this feature."/>
 	<translation from="textNoticePluginUninstall" to="Uninstalling this plugin will remove the configuration and plugin from your computer.  Are you sure you want to uninstall this plugin?"/>
 	<translation from="textNoticeRestart" to="Some settings changed will not update until you reload Trillian.  Do you wish to reload now?"/>
 	<translation from="textNoticeSectionRemove" to="Would you like to remove the section associated with this identity as well? (This will remove all of the contacts within that section)"/>
 	<translation from="textNoticeWallRemove" to="Are you sure you want to remove this wall and all of the widgets within?"/>
 	<translation from="textNoticeWidgetAdd" to="Add the &quot;%widget_name%&quot; widget to your Astra Profile?"/>
 	<translation from="textNoticeWidgetRemove" to="Are you sure you want to remove this widget?"/>
-	<translation from="titleError" to="Trillian Error"/>
-	<translation from="titleNotice" to="Trillian Notice"/>
-	<translation from="trialDays" to="Your free copy of Trillian includes a complimentary trial of Trillian Pro!  Premium features are marked with a gold icon.  Your trial will end after %days% %day_word% but you can continue to use our free version for as long as you like.  Click here to learn more."/>
-	<translation from="trialExpired" to="Your trial of Trillian Pro has ended and premium features have been disabled.  You can continue to use Trillian for free!  If you enjoy the product please consider supporting our efforts by purchasing a license for Trillian Pro - click here to learn more."/>
-	<translation from="trialToday" to="Your free copy of Trillian includes a complimentary trial of Trillian Pro!  Premium features are marked with a gold icon.  Your trial will end today but you can continue to use our free version for as long as you like.  Click here to learn more."/>
-	<translation from="with the Cobalt skin in the Minimal interface" to="with the Cobalt skin in the Minimal interface"/>
-	<translation from="with the Cobalt skin in the Original interface" to="with the Cobalt skin in the Original interface"/>
-	<translation from="with the Cordonata skin" to="with the Cordonata skin"/>
-	<translation from="wizardDescriptionAIM" to="Enter your AIM Screen Name and password below."/>
-	<translation from="wizardDescriptionFACEBOOK" to="Create a custom name for your Facebook connection.  This name can be anything you like.  Upon connecting, you will be asked to enter your full Facebook email and password directly on the Facebook website."/>
-	<translation from="wizardDescriptionGOOGLE" to="Enter your Google email and password below."/>
-	<translation from="wizardDescriptionICQ" to="Enter your ICQ UIN and password below."/>
-	<translation from="wizardDescriptionJABBER" to="Enter your full JID and password below."/>
-	<translation from="wizardDescriptionMSN" to="Enter your Windows Live Messenger email and password below."/>
-	<translation from="wizardDescriptionMYSPACE" to="Enter your MySpaceIM email and password below."/>
-	<translation from="wizardDescriptionRENDEZVOUS" to="Bonjour allows you to chat with other users on your local area network without requiring a server.  Create a custom name for this Bonjour connection below."/>
-	<translation from="wizardDescriptionTWITTER" to="Enter your Twitter username and password below."/>
-	<translation from="wizardDescriptionYAHOO" to="Enter your Yahoo! ID and password below."/>
+	<translation from="titleError" to="Trillian"/>
+	<translation from="titleNotice" to="Trillian"/>
+	<translation from="trialDays" to="You are now using a trial version of Trillian Pro, which contains premium features not available in the free version.  This license will expire in %days% %day_word%.  Upon expiration, you will lose access to premium features but can continue to use the free version of the product.  Click here to learn more."/>
+	<translation from="trialExpired" to="Your trial license of Trillian Pro has ended.  Premium features have been disabled, but you can continue to use the free version of the product.  Click here to learn more about Trillian Pro."/>
+	<translation from="trialToday" to="You are now using a trial version of Trillian Pro, which contains premium features not available in the free version.  This license will end today.  Upon expiration, you will lose access to premium features but can continue to use the free version of the product.  Click here to learn more."/>
 	<translation from="wizardLoginErrorAIM" to="Please enter a valid AIM Screen Name.&#13;&#10;It cannot start with a number."/>
 	<translation from="wizardLoginErrorFACEBOOK" to="Please enter a valid Facebook Name."/>
 	<translation from="wizardLoginErrorGOOGLE" to="Please enter a valid email address,&#13;&#10;e.g. user@gmail.com."/>
@@ -1464,36 +1434,41 @@
 	<translation from="wizardLoginErrorJABBER" to="Please enter your full JID,&#13;&#10;e.g. user@jabber.org."/>
 	<translation from="wizardLoginErrorMSN" to="Please enter a valid email address,&#13;&#10;e.g. user@hotmail.com."/>
 	<translation from="wizardLoginErrorMYSPACE" to="Please enter a valid email address,&#13;&#10;e.g. user@email.com."/>
+	<translation from="wizardLoginErrorMail" to="Please enter a valid email address,&#13;&#10;e.g. user@email.com."/>
+	<translation from="wizardLoginErrorPassword" to="Please enter a valid password for this account."/>
 	<translation from="wizardLoginErrorRENDEZVOUS" to="Please enter a valid Bonjour Name.&#13;&#10;Names must be between 1-63 characters."/>
+	<translation from="wizardLoginErrorSKYPE" to="Please enter a valid skype name."/>
 	<translation from="wizardLoginErrorTWITTER" to="Please enter a valid Twitter username."/>
 	<translation from="wizardLoginErrorYAHOO" to="Please enter a valid Yahoo! ID."/>
-	<translation from="wizardLoginInstructionsAIM" to="AIM Screen Name:"/>
-	<translation from="wizardLoginInstructionsFACEBOOK" to="Name:"/>
-	<translation from="wizardLoginInstructionsGOOGLE" to="Google email:"/>
-	<translation from="wizardLoginInstructionsICQ" to="ICQ UIN:"/>
-	<translation from="wizardLoginInstructionsJABBER" to="JID:"/>
-	<translation from="wizardLoginInstructionsMSN" to="Windows Live Email:"/>
-	<translation from="wizardLoginInstructionsMYSPACE" to="MySpaceIM email:"/>
-	<translation from="wizardLoginInstructionsRENDEZVOUS" to="Name:"/>
-	<translation from="wizardLoginInstructionsTWITTER" to="Twitter username:"/>
-	<translation from="wizardLoginInstructionsYAHOO" to="Yahoo! ID:"/>
+	<translation from="wizardLoginInstructionsAIM" to="AIM Screen Name"/>
+	<translation from="wizardLoginInstructionsFACEBOOK" to="Name"/>
+	<translation from="wizardLoginInstructionsGOOGLE" to="Google Email"/>
+	<translation from="wizardLoginInstructionsICQ" to="ICQ UIN"/>
+	<translation from="wizardLoginInstructionsJABBER" to="JID"/>
+	<translation from="wizardLoginInstructionsMSN" to="Windows Live Email"/>
+	<translation from="wizardLoginInstructionsMYSPACE" to="MySpaceIM Email"/>
+	<translation from="wizardLoginInstructionsRENDEZVOUS" to="Name"/>
+	<translation from="wizardLoginInstructionsSKYPE" to="Skype Name"/>
+	<translation from="wizardLoginInstructionsTWITTER" to="Twitter username"/>
+	<translation from="wizardLoginInstructionsYAHOO" to="Yahoo! ID"/>
 	<translation from="wizardNameAIM" to="AOL® Instant Messenger"/>
 	<translation from="wizardNameFACEBOOK" to="Facebook"/>
+	<translation from="wizardNameFOURSQUARE" to="Foursquare"/>
 	<translation from="wizardNameGOOGLE" to="Google Talk"/>
 	<translation from="wizardNameICQ" to="ICQ®"/>
 	<translation from="wizardNameIMAP" to="IMAP"/>
 	<translation from="wizardNameIRC" to="IRC"/>
 	<translation from="wizardNameJABBER" to="Jabber/XMPP"/>
+	<translation from="wizardNameLINKEDIN" to="LinkedIn"/>
 	<translation from="wizardNameMSN" to="Windows Live Messenger"/>
 	<translation from="wizardNameMYSPACE" to="MySpaceIM"/>
 	<translation from="wizardNamePOP3" to="POP3"/>
 	<translation from="wizardNameRENDEZVOUS" to="Bonjour"/>
 	<translation from="wizardNameSKYPE" to="Skype"/>
+	<translation from="wizardNameSchuelerVZ" to="SchuelerVZ"/>
 	<translation from="wizardNameTWITTER" to="Twitter"/>
+	<translation from="wizardNameVZ" to="VZ"/>
 	<translation from="wizardNameYAHOO" to="Yahoo! Messenger"/>
-	<translation from="wizardRealnameDetailedInstructionsFACEBOOK" to="Optionally, you may enter in your email and password to access Facebook chat."/>
-	<translation from="wizardRealnameErrorFACEBOOK" to="Please enter a valid email address,&#13;&#10;e.g. user@email.com."/>
-	<translation from="wizardRealnameInstructionsFACEBOOK" to="Facebook email:"/>
 	<translation from="year" to="年"/>
 	<translation from="years" to="年"/>
 	<translation from="yellow" to="黄色"/>

@@ -4,12 +4,14 @@
 	<translation from="%medium% (%num% connections)" to="%medium% (%num% 個の接続)"/>
 	<translation from="%medium% (No connections)" to="%medium% (接続はありません)"/>
 	<translation from="%medium% (click here to connect)" to="%medium% (接続するにはここにクリック)"/>
+	<translation from="%name% on %medium%" to="%name% on %medium%"/>
 	<translation from="%num% %time_unit%" to="%num% %time_unit%"/>
 	<translation from="%service% is disconnected." to="%service% は切断しました。"/>
 	<translation from="%service1% and %service2% are disconnected." to="%service1% と %service2% は切断しました。"/>
 	<translation from="%status%, Idle for %time%" to="%status%, %time% 暮らす。"/>
 	<translation from="%width% by %height%" to="%width% × %height%"/>
-	<translation from="&amp;About" to="Trillian について(&amp;A)"/>
+	<translation from="&amp;About" to="Trillian について"/>
+	<translation from="&amp;Check for Add-on updates..." to="&amp;Check for Add-on updates..."/>
 	<translation from="&amp;Help" to="ヘルプ(&amp;H)"/>
 	<translation from="&amp;Logoff" to="ログオフ(&amp;L)"/>
 	<translation from="&amp;Preferences" to="設定(&amp;P)"/>
@@ -18,6 +20,7 @@
 	<translation from="&amp;Update Available..." to="アップデートがあります...(&amp;U)"/>
 	<translation from="&amp;View" to="表示(&amp;V)"/>
 	<translation from="&amp;Window" to="ウィンドウ(&amp;W)"/>
+	<translation from="Account Settings" to="Account Settings"/>
 	<translation from="Activity &amp;History" to="動作ログ(&amp;H)"/>
 	<translation from="Add" to="追加"/>
 	<translation from="Add Contact" to="コンタクトを追加"/>
@@ -26,14 +29,14 @@
 	<translation from="Add Group..." to="グループを追加..."/>
 	<translation from="Add Notifications..." to="通知を追加..."/>
 	<translation from="Add Subcontact..." to="サブコンタクトを追加..."/>
-	<translation from="Add Widget..." to="ウィジェットを追加..."/>
+	<translation from="Add Subgroup" to="Add Subgroup"/>
 	<translation from="Add this as contact..." to="コンタクトへ追加..."/>
 	<translation from="Add to" to="Add to"/>
 	<translation from="Add to Contact List" to="コンタクトリストに追加"/>
 	<translation from="Add..." to="追加..."/>
 	<translation from="Adding..." to="追加しています..."/>
+	<translation from="Advanced..." to="Advanced..."/>
 	<translation from="All" to="全て"/>
-	<translation from="Alphabet" to="名前順"/>
 	<translation from="Alphabetically" to="名前順に整理"/>
 	<translation from="Always On Top" to="常に手前に表示"/>
 	<translation from="Awaiting Authorization" to="許可を待っています"/>
@@ -43,17 +46,17 @@
 	<translation from="Based on Skin" to="Based on Skin"/>
 	<translation from="Bottom" to="下"/>
 	<translation from="By Conversation History Size" to="ログサイズ順"/>
+	<translation from="By Group" to="By Group"/>
 	<translation from="By Service" to="サービス順"/>
 	<translation from="By Status" to="ステータス順"/>
 	<translation from="Cancel" to="キャンセル"/>
-	<translation from="Categorize Offline Contacts" to="オフラインコンタクトも分類する"/>
 	<translation from="Centered" to="中央に表示"/>
+	<translation from="Click here for more options" to="Click here for more options"/>
 	<translation from="Close" to="閉じる"/>
 	<translation from="Combine Contacts..." to="Combine Contacts..."/>
 	<translation from="Connect to %account%" to="%account% に接続する"/>
 	<translation from="Connected" to="接続完了"/>
 	<translation from="Connected - %awaymessage%" to="接続完了 - %awaymessage%"/>
-	<translation from="Connection Settings" to="接続設定"/>
 	<translation from="Connection: Change" to="Connection: Change"/>
 	<translation from="Contact" to="コンタクト"/>
 	<translation from="Contact Information" to="コンタクト情報"/>
@@ -88,13 +91,10 @@
 	<translation from="Contact List: Subcontact Status Change" to="コンタクトリスト: Subcontact Status Change"/>
 	<translation from="Contact List: Toggle Visible" to="コンタクトリスト: Toggle Visible"/>
 	<translation from="Contacts" to="コンタクト"/>
-	<translation from="Conversation History Size" to="Conversation History Size"/>
 	<translation from="Copy to" to="コピー先"/>
-	<translation from="Custom..." to="カスタム..."/>
 	<translation from="Default" to="標準"/>
 	<translation from="Delete Notifications" to="Delete Notifications"/>
 	<translation from="Delete Notifications..." to="Delete Notifications..."/>
-	<translation from="Delete Section..." to="Delete Section..."/>
 	<translation from="Delete from" to="Delete from"/>
 	<translation from="Delete..." to="削除..."/>
 	<translation from="Disconnect" to="切断"/>
@@ -123,12 +123,14 @@
 	<translation from="Learn about Trillian Pro" to="Trillian Pro について"/>
 	<translation from="Left" to="左"/>
 	<translation from="List" to="リスト"/>
-	<translation from="Manage &amp;Connections..." to="接続設定(&amp;C)..."/>
+	<translation from="Manage Accounts" to="アカウント管理"/>
 	<translation from="Medium" to="中"/>
 	<translation from="Medium Icons" to="Medium Icons"/>
+	<translation from="Medium Size" to="Medium Size"/>
 	<translation from="Message" to="メッセージ"/>
 	<translation from="Metacontact" to="メタコンタクト"/>
 	<translation from="Metacontacts" to="メタコンタクト"/>
+	<translation from="Minimal Size" to="Minimal Size"/>
 	<translation from="Minimize" to="最小化"/>
 	<translation from="Modify Notifications..." to="Modify Notifications..."/>
 	<translation from="More Messages" to="More Messages"/>
@@ -141,7 +143,7 @@
 	<translation from="New Contact" to="新しいコンタクト"/>
 	<translation from="New Group" to="新しいグループ"/>
 	<translation from="New Group (%num%)" to="新しいグループ(%num%)"/>
-	<translation from="New message..." to="新しいメッセージ..."/>
+	<translation from="New Message..." to="新しいメッセージ..."/>
 	<translation from="No Connections Available" to="No Connections Available"/>
 	<translation from="No Entries Available" to="No Entries Available"/>
 	<translation from="No Results Found" to="検索結果が1つも見つかりませんでした"/>
@@ -156,18 +158,16 @@
 	<translation from="Offline Contacts" to="オフラインコンタクト"/>
 	<translation from="On" to="オン"/>
 	<translation from="Online" to="オンライン"/>
-	<translation from="Online Contacts" to="オンラインのコンタクト"/>
 	<translation from="Other..." to="他..."/>
 	<translation from="Partially Connected" to="部分的にオンライン"/>
 	<translation from="Please select a service" to="Please select a service"/>
-	<translation from="Push here for more options" to="Push here for more options"/>
+	<translation from="Promote Trillian..." to="Trillianを紹介する..."/>
 	<translation from="Reconnect" to="再接続"/>
 	<translation from="Reconnecting..." to="再接続中..."/>
 	<translation from="Remove Contact" to="選択されたコンタクトを取り除く"/>
 	<translation from="Rename" to="名前を変更"/>
 	<translation from="Reset Default Source" to="Reset Default Source"/>
 	<translation from="Results for %search%" to="Results for %search%"/>
-	<translation from="Reverse Alphabet" to="名前の逆順"/>
 	<translation from="Reverse Alphabetically" to="名前の逆順"/>
 	<translation from="Right" to="右"/>
 	<translation from="Scroll Down" to="下にスクロール"/>
@@ -177,26 +177,24 @@
 	<translation from="Search" to="検索"/>
 	<translation from="Searching for %search%" to="今%search%を検索しています"/>
 	<translation from="Send Message to" to="Send Message to"/>
+	<translation from="Send Message to All..." to="Send Message to All..."/>
 	<translation from="Send Message..." to="メッセージを送信"/>
-	<translation from="Send a Message to all..." to="すべてのコンタクトにメッセージを送信"/>
-	<translation from="Service" to="サービス"/>
 	<translation from="Service Not Loaded" to="Service Not Loaded"/>
 	<translation from="Set Default Source..." to="Set Default Source..."/>
 	<translation from="Set Notifications..." to="通知を設定"/>
 	<translation from="Set Status" to="ステータスを設定"/>
-	<translation from="Share Trillian with a Friend..." to="友達にTrillianを紹介する..."/>
 	<translation from="Share a message..." to="Share a message..."/>
 	<translation from="Show Avatars" to="ユーザーアイコンを表示"/>
 	<translation from="Show Group Counts" to="グループ内のコンタクト数を表示"/>
 	<translation from="Show Medium Icons (if skinned)" to="Show Medium Icons (if skinned)"/>
-	<translation from="Show Offline Contacts in Groups" to="オフラインのコンタクトをグループ表示"/>
+	<translation from="Show Offline Group" to="Show Offline Group"/>
 	<translation from="Show Status Window" to="ステータスウインドウを表示"/>
 	<translation from="Shutdown" to="終了"/>
 	<translation from="Simple" to="シンプル"/>
+	<translation from="Simple View" to="Simple View"/>
 	<translation from="Size" to="サイズ"/>
 	<translation from="Small" to="小"/>
 	<translation from="Sort" to="ソート"/>
-	<translation from="Status" to="ステータス"/>
 	<translation from="Status Unavailable" to="Status Unavailable"/>
 	<translation from="Stretched" to="Stretched"/>
 	<translation from="Suppress Empty Groups" to="Suppress Empty Groups"/>
@@ -204,21 +202,21 @@
 	<translation from="Theme" to="テーマ"/>
 	<translation from="There are no connections online." to="There are no connections online."/>
 	<translation from="This contact is not associated to any of your current online %medium% connections." to="This contact is not associated to any of your current online %medium% connections."/>
+	<translation from="Tile View" to="並べて表示"/>
 	<translation from="Tiled" to="Tiled"/>
-	<translation from="Tiles" to="Tiles"/>
-	<translation from="Tiny" to="最小"/>
+	<translation from="Tiny Size" to="最小表示"/>
 	<translation from="To see the status of this contact, please enable the %plugin% plugin in Preferences." to="To see the status of this contact, please enable the %plugin% plugin in Preferences."/>
 	<translation from="Top" to="Top"/>
 	<translation from="Turn Autohide Off" to="自動表示Off"/>
 	<translation from="Turn Autohide On" to="自動表示On"/>
 	<translation from="Turn Off" to="Turn Off"/>
 	<translation from="Turn On" to="Turn On"/>
+	<translation from="Uncombine Metacontact" to="Uncombine Metacontact"/>
 	<translation from="Unknown" to="不明"/>
-	<translation from="Unmerge MetaContact" to="Unmerge MetaContact"/>
 	<translation from="Upgrade to Trillian Pro" to="Upgrade to Trillian Pro"/>
 	<translation from="User: Default Message Send" to="User: Default Message Send"/>
 	<translation from="View" to="表示"/>
-	<translation from="View Contact History" to="コンタクトログを表示"/>
+	<translation from="View Activity History" to="View Activity History"/>
 	<translation from="View Contact Information" to="コンタクト情報を表示"/>
 	<translation from="alert" to="アラート"/>
 	<translation from="alertHeaderSignOff" to="%num% of %total% signed off"/>
@@ -232,6 +230,8 @@
 	<translation from="alertStatusMessage" to="&lt;b&gt;%name%&lt;/b&gt; is now %status%: &quot;%status_message%&quot;"/>
 	<translation from="alertStatusMessageNone" to="&lt;b&gt;%name%&lt;/b&gt; is now %status%."/>
 	<translation from="alerts" to="アラート"/>
+	<translation from="alphabet" to="alphabet"/>
+	<translation from="conversation history size" to="conversation history size"/>
 	<translation from="day" to="日"/>
 	<translation from="days" to="日"/>
 	<translation from="dialogAlertAction" to="Action"/>
@@ -268,13 +268,14 @@
 	<translation from="dialogWizardImport" to="Contact Wizard: Import Contacts"/>
 	<translation from="dialogWizardImportDescription" to="You can import contacts from your old IM clients into Trillian."/>
 	<translation from="dialogWizardImportName" to="Import Contacts"/>
-	<translation from="dialogWizardMetaContact" to="Contact Wizard: MetaContact"/>
-	<translation from="dialogWizardMetaContactDescription" to="Have 5 different contacts for the same Friend?  Bind multiple&#13;&#10;contacts into one using the MetaContact function."/>
-	<translation from="dialogWizardMetaContactName" to="Create MetaContacts"/>
+	<translation from="dialogWizardMetaContact" to="Contact Wizard: Metacontact"/>
+	<translation from="dialogWizardMetaContactDescription" to="Have 5 different contacts for the same Friend?  Bind multiple&#13;&#10;contacts into one using the Metacontact function."/>
+	<translation from="dialogWizardMetaContactName" to="Create Metacontacts"/>
 	<translation from="dialogWizardStart" to="コンタクトウィザード: Start"/>
-	<translation from="dialogWizardStartDescription" to="You can choose to add a contact or group, create a MetaContact or&#13;&#10;import contacts from another program."/>
+	<translation from="dialogWizardStartDescription" to="You can choose to add a contact or group, create a Metacontact or&#13;&#10;import contacts from another program."/>
 	<translation from="dialogWizardStartDescriptionBasic" to="You can choose to add a contact or group or import contacts from&#13;&#10;another program."/>
 	<translation from="dialogWizardStartName" to="コンタクト追加ウィザード"/>
+	<translation from="downwards" to="downwards"/>
 	<translation from="hour" to="時"/>
 	<translation from="hours" to="時"/>
 	<translation from="less than a minute" to="1分未満"/>
@@ -282,8 +283,11 @@
 	<translation from="minutes" to="分"/>
 	<translation from="month" to="月"/>
 	<translation from="months" to="月"/>
+	<translation from="reverse alphabet" to="reverse alphabet"/>
 	<translation from="second" to="秒"/>
 	<translation from="seconds" to="秒"/>
+	<translation from="service" to="service"/>
+	<translation from="status" to="status"/>
 	<translation from="textErrorActionSelect" to="Please select a valid action.  You may be required to click the &apos;more options&apos; button for the action you selected."/>
 	<translation from="textErrorAlertRemove" to="Unable to determine which alert to remove."/>
 	<translation from="textErrorConnectionSetAll" to="Please change each &apos;unknown&apos; entry to a valid connection or hit cancel."/>
@@ -295,7 +299,7 @@
 	<translation from="textErrorGroupContainsContact" to="This group already contains this contact.  Please choose another."/>
 	<translation from="textErrorGroupInvalid" to="Group no longer appears to be valid"/>
 	<translation from="textErrorGroupSelectContact" to="Please select a group to add the Contact to."/>
-	<translation from="textErrorGroupSelectMetaContact" to="Please select a group to add the MetaContact to."/>
+	<translation from="textErrorGroupSelectMetaContact" to="Please select a group to add the Metacontact to."/>
 	<translation from="textErrorImportMedium" to="Please select a service to continue."/>
 	<translation from="textErrorInformationGroup" to="No information is available for groups."/>
 	<translation from="textErrorInformationInvalid" to="Sorry, no available information on selected item."/>
@@ -305,9 +309,9 @@
 	<translation from="textErrorLogNotFound" to="Unable to find the requested log file.  If logging is off, you may turn it on in Preferences-&gt;Activity History."/>
 	<translation from="textErrorLogSharing" to="Unable to open log: A sharing violation occurred."/>
 	<translation from="textErrorLogViewerNotFound" to="Unable to find a log viewer.  You may set up in explorer by associating a program with a .log extension."/>
-	<translation from="textErrorMetaContactDupe" to="Please enter a unique name for the MetaContact."/>
-	<translation from="textErrorMetaContactGroupCreate" to="You may not create a group within a MetaContact."/>
-	<translation from="textErrorMetaContactName" to="Please enter a name for the MetaContact."/>
+	<translation from="textErrorMetaContactDupe" to="Please enter a unique name for the Metacontact."/>
+	<translation from="textErrorMetaContactGroupCreate" to="You may not create a group within a Metacontact."/>
+	<translation from="textErrorMetaContactName" to="Please enter a name for the Metacontact."/>
 	<translation from="textErrorNoOnline" to="No online entries are selected or some of the contacts chosen were on a service that does not support mass messaging."/>
 	<translation from="textErrorOfflineContactMove" to="Contact can not be moved.  The destination group must not be Offline Contacts."/>
 	<translation from="textErrorOfflineMove" to="切断したコンタクトのグループが移りません"/>
@@ -318,13 +322,13 @@
 	<translation from="textErrorRemoveContactSingleNoMedium" to="本当にコンタクト (%contact%) を削除しますか？"/>
 	<translation from="textErrorRemoveGroup" to="本当に %num_groups% 個の%word_group%を削除しますか？"/>
 	<translation from="textErrorRemoveGroupContact" to="本当に %num_groups% 個の%word_group%と %num_contacts% 個の%word_contact%を削除しますか？"/>
-	<translation from="textErrorRemoveGroupContactMetaContact" to="本当に %num_groups% %word_group% %num_contacts%s と　%num_metacontacts% %word_metacontact%を削除しますか?"/>
+	<translation from="textErrorRemoveGroupContactMetaContact" to="Are you sure you want to remove %num_groups% %word_group%, %num_contacts% %word_contact% and %num_metacontacts% %word_metacontact%?"/>
 	<translation from="textErrorRemoveGroupMetaContact" to="本当に %num_groups% 個の%word_groups%　と %num_metacontacts% 個の%word_metacontact%を削除しますか？"/>
 	<translation from="textErrorRemoveGroupSingle" to="本当に空きのグループ (%group%) を削除しますか？"/>
 	<translation from="textErrorRemoveGroupSingleContact" to="本当にグループ (%group%) と中の %num_contacts% 個の%word_contact%を削除しますか？"/>
 	<translation from="textErrorRemoveMetaContact" to="本当に %num_contacts% 個の%word_metacontact%を削除しますか？"/>
-	<translation from="textErrorRemoveMetaContactSingle" to="本当に空きのメタコンタクト (%metacontact%) を削除しますか？"/>
-	<translation from="textErrorRemoveMetaContactSingleContact" to="本当にメタコンタクト (%metacontact%) と中の %num_contacts% 個の%word_contact%を削除しますか？"/>
+	<translation from="textErrorRemoveMetaContactSingle" to="Are you sure you want to remove the empty Metacontact (%metacontact%)?"/>
+	<translation from="textErrorRemoveMetaContactSingleContact" to="Are you sure you want to remove Metacontact (%metacontact%) and its %num_contacts% %word_contact%?"/>
 	<translation from="textErrorSameName" to="この名前は既に存在している為、名前の変更はできません。"/>
 	<translation from="textErrorServerSelect" to="アカウントを選択してください。"/>
 	<translation from="textErrorSoundSelect" to="Please select a sound by clicking on the &apos;more options&apos; button."/>
@@ -336,11 +340,12 @@
 	<translation from="textNoticeFileNotFound" to="ファイルは見つかりません。無視して続きますか？"/>
 	<translation from="textNoticeMetaContactStop" to="本当にメタコンタクトの追加を終了しますか。"/>
 	<translation from="textNoticeNoteOverwrite" to="%contact% のメモはもうあります: %note%.  上書きしますか？"/>
-	<translation from="textNoticeSectionRemove" to="Remove this section and all of the contacts within?  (You may hide this section if you wish to keep the contacts, however do not want it visible)"/>
+	<translation from="textNoticeSectionRemove" to="Remove identity &quot;%section%&quot; and all of the contacts within?"/>
 	<translation from="textNoticeSystray" to="サインインしてるときにメッセージを届くできるためにTrillianは実行し続きます。&#13;&#10;このお知らせを二度と表示しないするにはここにクリックしてください。"/>
 	<translation from="titleError" to="Trillianのエラー"/>
 	<translation from="titleNotice" to="Trillianのお知らせ"/>
 	<translation from="titleNoticeSystray" to="Trillianはまだ閉じてません！"/>
+	<translation from="upwards" to="upwards"/>
 	<translation from="week" to="週"/>
 	<translation from="weeks" to="週"/>
 	<translation from="year" to="年"/>

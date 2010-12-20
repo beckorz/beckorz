@@ -5,6 +5,7 @@
 	<translation from="All Floating Off" to="全てのフローティング オフ"/>
 	<translation from="Background" to="背景"/>
 	<translation from="Cancel" to="キャンセル"/>
+	<translation from="Click here to show this item again" to="Click here to show this item again"/>
 	<translation from="Collapse" to="折りたたむ"/>
 	<translation from="Collapse All" to="全て折りたたむ"/>
 	<translation from="Copy" to="コピー"/>
@@ -22,7 +23,5 @@
 	<translation from="Normal" to="ノーマル"/>
 	<translation from="Root (No Group)" to="ルート (グループなし)"/>
 	<translation from="textErrorClipboard" to="クリップボードにアクセスできません"/>
-	<translation from="textErrorDragSection" to="ドラッグできません：移動先は別セクションです"/>
-	<translation from="textErrorDragUnknown" to="ドラッグできません：移動先不明です"/>
 	<translation from="titleError" to="Trillian エラー"/>
 </language>

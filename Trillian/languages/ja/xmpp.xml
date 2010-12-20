@@ -5,7 +5,10 @@
 	<translation from="Bytestreams" to="Bytestreams"/>
 	<translation from="Change Role" to="権限を変更する"/>
 	<translation from="Configure Room" to="ルーム設定"/>
-	<translation from="Enter your Google Talk username and password below and click connect." to="Enter your Google Talk username and password below and click connect."/>
+	<translation from="Connection to conference lost." to="Connection to conference lost."/>
+	<translation from="Duration" to="Duration"/>
+	<translation from="Enter your Google Talk email and password below and click connect." to="Enter your Google Talk email and password below and click connect."/>
+	<translation from="Enter your VZ email and password below and click connect." to="Enter your VZ email and password below and click connect."/>
 	<translation from="Enter your full JID and password below and click connect." to="Enter your full JID and password below and click connect."/>
 	<translation from="Extended Away" to="Extended Away"/>
 	<translation from="Force use of bytestream proxy: %prefsXMPPS5BProxyName%" to="Force use of bytestream proxy: %prefsXMPPS5BProxyName%"/>
@@ -17,12 +20,10 @@
 	<translation from="Moderator" to="モデレータ"/>
 	<translation from="Moderators" to="モデレータ"/>
 	<translation from="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%" to="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%"/>
-	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="初期リソース名を右記名で上書きする: %prefsXMPPResourceName%"/>
+	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="このプロトコルでは次の名前を使用: %prefsXMPPResourceName%"/>
 	<translation from="Participant" to="Participant"/>
-	<translation from="Resource" to="リソース"/>
 	<translation from="Set priority for this connection to: %prefsXMPPPriorityValue%" to="Set priority for this connection to: %prefsXMPPPriorityValue%"/>
-	<translation from="Standards-based XMPP support, including all Jabber/XMPP networks and Google Talk." to="Standards-based XMPP support, including all Jabber/XMPP networks and Google Talk."/>
-	<translation from="Status Duration" to="Status Duration"/>
+	<translation from="Standards-based XMPP support, including all Jabber/XMPP networks, Google Talk, VZ, and more." to="Standards-based XMPP support, including all Jabber/XMPP networks, Google Talk, VZ, and more."/>
 	<translation from="Unknown Error" to="不明なエラー"/>
 	<translation from="Use legacy SSL for connection" to="古いSSL(ポート:5223)を強制的に使用する"/>
 	<translation from="Visitor" to="Visitor"/>
@@ -36,6 +37,7 @@
 	<translation from="ftStreamRemoteUsed" to="*** The remote stream &quot;%hostname%:%port%&quot; was successful.  Notifying peer."/>
 	<translation from="infoConnAuthUnavailable" to="A method of authentication could not be agreed upon with your XMPP server."/>
 	<translation from="infoMUC301" to="%username% has been removed from the chat room.  The user has been banned."/>
+	<translation from="infoMUC303" to="%username% is now known as %nickname%."/>
 	<translation from="infoMUC307" to="%username% has been removed from the chat room.  The user has been kicked."/>
 	<translation from="infoMUC321" to="%username% has been removed from the chat room.  The user has been removed because of an affiliation change."/>
 	<translation from="infoMUC322" to="%username% has been removed from the chat room.  This room no longer allows access to non-members."/>

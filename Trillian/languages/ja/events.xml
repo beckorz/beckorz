@@ -32,6 +32,7 @@
 	<translation from="Set all Back" to="Set all Back"/>
 	<translation from="Set all Idle" to="Set all Idle"/>
 	<translation from="Set all Invisible" to="Set all Invisible"/>
+	<translation from="anytime" to="anytime"/>
 	<translation from="dialogActionsAlertWindow" to="警告ウィンドウ"/>
 	<translation from="dialogActionsExecuteProgram" to="Execute Program"/>
 	<translation from="dialogActionsProgramAction" to="Program Action"/>
@@ -55,6 +56,7 @@
 	<translation from="dialogEventsProgramGenerated" to="Program Generated"/>
 	<translation from="dialogEventsScheduler" to="スケジューラー"/>
 	<translation from="dialogGeneral" to="大別"/>
+	<translation from="only if set automatically" to="only if set automatically"/>
 	<translation from="systrayUnknownAction" to="&lt;b&gt;Event Error:&lt;/b&gt;&lt;br&gt;Unknown action: %action%"/>
 	<translation from="textErrorAwayUniqueLabel" to="You must enter a unique label for this message."/>
 	<translation from="textErrorEventHotkey" to="Please select a hotkey to use."/>

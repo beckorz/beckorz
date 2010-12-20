@@ -31,6 +31,7 @@
 	<translation from="menuMailAccountMessageMarkAsRead" to="既読にする"/>
 	<translation from="menuMailAccountMessageMarkAsSpam" to="スパムとしてマーク"/>
 	<translation from="menuMailAccountMessageOpen" to="開く"/>
+	<translation from="menuMailAccountPinToContactList" to="Pin Mail to Contact List"/>
 	<translation from="menuMailAccountViewInbox" to="受信トレイを表示"/>
 	<translation from="no subject" to="件名がありません"/>
 	<translation from="prefsConnectionAutoConnect" to="実行のときにこのアカウントに自動に接続"/>
@@ -62,7 +63,7 @@
 	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="手動プロキシー設定"/>
 	<translation from="prefsConnectionUsername" to="メール"/>
 	<translation from="prefsMiscellaneousAdvanced" to="拡張"/>
-	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="このアカウントが有効でない時は、コネクションアイコンはコンタクトリストに表示されません"/>
+	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its icon from the identity panel"/>
 	<translation from="prefsMiscellaneousIMAPSearchInSubfolders" to="Search in subfolders for new mail"/>
 	<translation from="prefsMiscellaneousMailArriveAlert" to="新着メールを通知する"/>
 	<translation from="prefsMiscellaneousMailCheckTimeout" to="%prefsMiscellaneousMailCheckTimeout% 分毎にメールをチェックする"/>
@@ -79,5 +80,5 @@
 	<translation from="statusConnecting" to="接続中"/>
 	<translation from="statusOffline" to="オフライン"/>
 	<translation from="statusOnline" to="オンライン"/>
-	<translation from="systrayMailStatsP" to="%username%: 受信トレイに %count% 個のメールがあります。"/>
+	<translation from="systrayMailStatsP" to="%username%: 受信トレイに %count% 通のメールがあります。"/>
 </language>

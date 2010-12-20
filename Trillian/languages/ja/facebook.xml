@@ -1,236 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
-	<translation from="&quot;%name%&quot; has updated her profile!" to="&quot;%name%&quot; has updated her profile!"/>
-	<translation from="&quot;%name%&quot; has updated his profile!" to="&quot;%name%&quot; has updated his profile!"/>
-	<translation from="&quot;%name%&quot; has updated their profile!" to="&quot;%name%&quot; has updated their profile!"/>
-	<translation from="&quot;%username%&quot; signed off at %time%." to="&quot;%username%&quot; signed off at %time%."/>
-	<translation from="&quot;%username%&quot; signed on at %time%." to="&quot;%username%&quot; signed on at %time%."/>
-	<translation from="%firstname% added a Note" to="%firstname% added a Note"/>
-	<translation from="%firstname% turns %age% years old today." to="%firstname% turns %age% years old today."/>
-	<translation from="%firstname%&apos;s birthday" to="%firstname%&apos;s birthday"/>
-	<translation from="%firstname%&apos;s birthday is in three days." to="%firstname%&apos;s birthday is in three days."/>
-	<translation from="%firstname%&apos;s birthday is today." to="今日は%firstname%の誕生日."/>
-	<translation from="%firstname%&apos;s birthday is tomorrow." to="明日は%firstname%の誕生日."/>
-	<translation from="%firstname%&apos;s time zone" to="%firstname%&apos;s time zone"/>
-	<translation from="%hours% hours ago" to="%hours% 前"/>
-	<translation from="%mins% minutes ago" to="%mins% 前"/>
-	<translation from="%name% and %othercount% other(s) want to add you as a friend." to="%name% and %othercount% other(s) want to add you as a friend."/>
-	<translation from="%name% on Facebook" to="%name% on Facebook"/>
-	<translation from="%name% wants to add you as a friend." to="%name% wants to add you as a friend."/>
-	<translation from="%name% wrote a new note: %title%" to="%name% wrote a new note: %title%"/>
-	<translation from="%num% of %total% birthdays" to="%num% of %total% birthdays"/>
 	<translation from="%num% of %total% event invites" to="%num% of %total% event invites"/>
 	<translation from="%num% of %total% friend requests" to="%num% of %total% friend requests"/>
 	<translation from="%num% of %total% group invites" to="%num% of %total% group invites"/>
-	<translation from="%num% of %total% new messages" to="%num% of %total% new messages"/>
-	<translation from="%num% of %total% new pokes" to="%num% of %total% new pokes"/>
-	<translation from="%num% of %total% notes" to="%num% of %total% notes"/>
-	<translation from="%num% of %total% photo updates" to="%num% of %total% photo updates"/>
-	<translation from="%num% of %total% profile updates" to="%num% of %total% profile updates"/>
-	<translation from="%num% of %total% status updates" to="%num% of %total% status updates"/>
-	<translation from="%num% of %total% wall posts" to="%num% of %total% wall posts"/>
-	<translation from="%owner% added new pictures to album %album%" to="%owner% added new pictures to album %album%"/>
-	<translation from="(Private User)" to="(Private User)"/>
-	<translation from="...and %count% more" to="...and %count% more"/>
-	<translation from="A friend adds a note" to="A friend adds a note"/>
-	<translation from="A friend updates his or her profile" to="A friend updates his or her profile"/>
-	<translation from="A friend updates his or her status message" to="A friend updates his or her status message"/>
-	<translation from="A friend uploads new photos" to="A friend uploads new photos"/>
-	<translation from="A friend&apos;s birthday is three days away" to="A friend&apos;s birthday is three days away"/>
+	<translation from="%num% of %total% messages" to="%num% of %total% messages"/>
+	<translation from="%num% of %total% updates" to="%num% of %total% updates"/>
+	<translation from="(no subject)" to="(無題)"/>
+	<translation from="1 person likes this." to="1 person likes this."/>
+	<translation from="A friend updates his or her status" to="A friend updates his or her status"/>
 	<translation from="A group invitation is received" to="A group invitation is received"/>
-	<translation from="Adding like flag..." to="Adding like flag..."/>
-	<translation from="Albums updated by friends" to="Albums updated by friends"/>
-	<translation from="An error occurred while sending a chat message." to="An error occurred while sending a chat message."/>
 	<translation from="An event invitation is received" to="An event invitation is received"/>
-	<translation from="Chat" to="Chat"/>
-	<translation from="Chat Settings" to="Chat Settings"/>
-	<translation from="Clear Facebook status when I clear my status message in Trillian" to="Clear Facebook status when I clear my status message in Trillian"/>
-	<translation from="Close Connection" to="Close Connection"/>
-	<translation from="Comment" to="Comment"/>
-	<translation from="Comment posted." to="Comment posted."/>
-	<translation from="Comments" to="Comments"/>
-	<translation from="Configure how the news feed will appear in the Contact List." to="Configure how the news feed will appear in the Contact List."/>
-	<translation from="Connect" to="Connect"/>
-	<translation from="Connect to Facebook Chat" to="Connect to Facebook Chat"/>
-	<translation from="Connecting" to="Connecting"/>
-	<translation from="Current Location" to="Current Location"/>
-	<translation from="Disconnected" to="Disconnected"/>
-	<translation from="Disconnected (due to an error)" to="Disconnected (due to an error)"/>
-	<translation from="Disconnected from Facebook Chat." to="Disconnected from Facebook Chat."/>
-	<translation from="Disconnected." to="Disconnected."/>
-	<translation from="Do not show items older than %maxFeedItemAge% days" to="Do not show items older than %maxFeedItemAge% days"/>
-	<translation from="Download and display pictures for photo updates" to="Download and display pictures for photo updates"/>
-	<translation from="Download and display profile pictures" to="Download and display profile pictures"/>
-	<translation from="Email address" to="Email address"/>
-	<translation from="Error" to="Error"/>
-	<translation from="Error: Please use the same Facebook account for chat and notifications log in." to="Error: Please use the same Facebook account for chat and notifications log in."/>
-	<translation from="Event" to="Event"/>
-	<translation from="Event Invite" to="Event Invite"/>
-	<translation from="Event Invites" to="Event Invites"/>
-	<translation from="Existing session detected, validating..." to="Existing session detected, validating..."/>
-	<translation from="Experimental Chat Support" to="Experimental Chat Support"/>
-	<translation from="Facebook Chat" to="Facebook Chat"/>
-	<translation from="Facebook Chat Error: %code% (%description%)" to="Facebook Chat Error: %code% (%description%)"/>
-	<translation from="Facebook Chat has encountered an error and cannot continue." to="Facebook Chat has encountered an error and cannot continue."/>
-	<translation from="Facebook Home" to="Facebook Home"/>
+	<translation from="Combine feed items from the same person" to="Combine feed items from the same person"/>
+	<translation from="Comment..." to="コメント..."/>
+	<translation from="Configure how the news feed will appear in the contact list." to="Configure how the news feed will appear in the contact list."/>
+	<translation from="Enter your first and last name below and click connect." to="Enter your first and last name below and click connect."/>
+	<translation from="Events" to="イベント"/>
+	<translation from="Facebook Home" to="Facebook ホーム"/>
 	<translation from="Facebook Login and Authorization" to="Facebook Login and Authorization"/>
-	<translation from="Facebook or an application send me a native notification" to="Facebook or an application send me a native notification"/>
-	<translation from="Facebook status updated successfully!" to="Facebook status updated successfully!"/>
-	<translation from="Facebook: %user%" to="Facebook: %user%"/>
 	<translation from="Feed Items" to="Feed Items"/>
-	<translation from="Feed entries from various other applications" to="Feed entries from various other applications"/>
-	<translation from="Fine tune server and proxy settings for this connection." to="Fine tune server and proxy settings for this connection."/>
-	<translation from="Friend Request" to="Friend Request"/>
-	<translation from="Friend Requests" to="Friend Requests"/>
-	<translation from="Friends" to="Friends"/>
-	<translation from="GMT%offset%" to="GMT%offset%"/>
-	<translation from="Group" to="Group"/>
-	<translation from="Group Invite" to="Group Invite"/>
-	<translation from="Group Invites" to="Group Invites"/>
-	<translation from="Hostname" to="Hostname"/>
-	<translation from="I was tagged in a photo" to="I was tagged in a photo"/>
-	<translation from="If you wish to use Facebook Chat, please enter in your email and password:" to="If you wish to use Facebook Chat, please enter in your email and password:"/>
-	<translation from="Inbox" to="Inbox"/>
-	<translation from="Infinite session detected, validating..." to="Infinite session detected, validating..."/>
+	<translation from="Groups" to="グループ"/>
 	<translation from="Like" to="Like"/>
-	<translation from="Like flag added." to="Like flag added."/>
-	<translation from="Likes" to="Likes"/>
-	<translation from="Link" to="Link"/>
-	<translation from="Logging into Facebook Chat..." to="Logging into Facebook Chat..."/>
-	<translation from="My Web" to="My Web"/>
-	<translation from="Name" to="Name"/>
-	<translation from="New Wall Post" to="New Wall Post"/>
-	<translation from="New albums created by friends" to="New albums created by friends"/>
+	<translation from="Loading ..." to="Loading ..."/>
+	<translation from="Name" to="名前"/>
 	<translation from="New event invites" to="New event invites"/>
 	<translation from="New friend requests" to="New friend requests"/>
 	<translation from="New group invites" to="New group invites"/>
-	<translation from="New mail arrives in Inbox" to="New mail arrives in Inbox"/>
-	<translation from="New notes created by friends" to="New notes created by friends"/>
-	<translation from="New posts on friends&apos; walls" to="New posts on friends&apos; walls"/>
-	<translation from="New posts on my wall" to="New posts on my wall"/>
 	<translation from="News Feed" to="News Feed"/>
 	<translation from="News Feed Behavior" to="News Feed Behavior"/>
-	<translation from="News Feed on Facebook" to="News Feed on Facebook"/>
-	<translation from="Notifications" to="Notifications"/>
-	<translation from="Notify me when" to="Notify me when"/>
+	<translation from="No new events." to="No new events."/>
+	<translation from="No new friend requests." to="No new friend requests."/>
+	<translation from="No new group invitations." to="No new group invitations."/>
+	<translation from="No new posts." to="No new posts."/>
+	<translation from="Notifications" to="通知"/>
+	<translation from="Notify me when:" to="Notify me when:"/>
 	<translation from="Number of unread pokes" to="Number of unread pokes"/>
-	<translation from="Offline" to="Offline"/>
-	<translation from="One minute ago" to="One minute ago"/>
-	<translation from="Only when there actually is new mail" to="Only when there actually is new mail"/>
-	<translation from="Other Settings" to="Other Settings"/>
-	<translation from="Photos" to="Photos"/>
+	<translation from="OK" to="OK"/>
 	<translation from="Pick which events you want to receive a notification for." to="Pick which events you want to receive a notification for."/>
-	<translation from="Poke" to="Poke"/>
-	<translation from="Poke %firstname%..." to="Poke %firstname%..."/>
-	<translation from="Pokes" to="Pokes"/>
-	<translation from="Port" to="Port"/>
-	<translation from="Post" to="Post"/>
-	<translation from="Post a comment about the status:" to="Post a comment about the status:"/>
-	<translation from="Post a comment..." to="Post a comment..."/>
-	<translation from="Posted" to="Posted"/>
-	<translation from="Posting comment to Facebook..." to="Posting comment to Facebook..."/>
-	<translation from="Preferences" to="環境設定"/>
-	<translation from="Prefix status message with %statusMsgPrefix%" to="Prefix status message with %statusMsgPrefix%"/>
-	<translation from="Profile" to="Profile"/>
-	<translation from="Profile Update" to="Profile Update"/>
-	<translation from="Profile updates" to="Profile updates"/>
-	<translation from="Protocol" to="Protocol"/>
-	<translation from="Received authentication token." to="Received authentication token."/>
-	<translation from="Recent Events" to="Recent Events"/>
-	<translation from="Requesting authentication token from Facebook..." to="Requesting authentication token from Facebook..."/>
-	<translation from="Requesting session key..." to="Requesting session key..."/>
+	<translation from="Pin news feed to the contact list" to="Pin news feed to the contact list"/>
+	<translation from="Refresh" to="再更新"/>
+	<translation from="Requests" to="Requests"/>
 	<translation from="Send a Mail Message..." to="Send a Mail Message..."/>
-	<translation from="Setting up permissions..." to="Setting up permissions..."/>
-	<translation from="Show %maxFeedItems% feed items at maximum" to="Show %maxFeedItems% feed items at maximum"/>
-	<translation from="Show Login Page Again" to="Show Login Page Again"/>
-	<translation from="Show feed group at the top of the &quot;My Web&quot; section (at the bottom otherwise)" to="Show feed group at the top of the &quot;My Web&quot; section (at the bottom otherwise)"/>
-	<translation from="Show my inbox in the contact list" to="Show my inbox in the contact list"/>
-	<translation from="Show recent feed items in the feed group&apos;s tooltip" to="Show recent feed items in the feed group&apos;s tooltip"/>
+	<translation from="Settings" to="設定"/>
+	<translation from="Share (%edit.count_relative%)" to="Share (%edit.count_relative%)"/>
+	<translation from="Share a message ..." to="Share a message ..."/>
 	<translation from="Someone pokes me" to="Someone pokes me"/>
-	<translation from="Someone posts on a friend&apos;s wall" to="Someone posts on a friend&apos;s wall"/>
-	<translation from="Someone posts on my wall" to="Someone posts on my wall"/>
 	<translation from="Someone sends me a friend request" to="Someone sends me a friend request"/>
-	<translation from="Status Message Update" to="Status Message Update"/>
-	<translation from="Status Update" to="Status Update"/>
 	<translation from="Status message updates" to="Status message updates"/>
-	<translation from="Suppress sign on/off notifications for Facebook Chat" to="Suppress sign on/off notifications for Facebook Chat"/>
-	<translation from="The last message has not been delivered because %username% is no longer online." to="The last message has not been delivered because %username% is no longer online."/>
-	<translation from="Three days till a friend&apos;s birthday" to="Three days till a friend&apos;s birthday"/>
-	<translation from="Time" to="Time"/>
-	<translation from="Title" to="Title"/>
-	<translation from="Today" to="Today"/>
-	<translation from="Today is a friend&apos;s birthday" to="Today is a friend&apos;s birthday"/>
-	<translation from="Tomorrow is a friend&apos;s birthday" to="Tomorrow is a friend&apos;s birthday"/>
-	<translation from="Unhighlight" to="Unhighlight"/>
-	<translation from="Unless Trillian is in Away Mode" to="Unless Trillian is in Away Mode"/>
-	<translation from="Updated" to="Updated"/>
-	<translation from="Updating Facebook status..." to="Updating Facebook status..."/>
-	<translation from="Use SSL/TLS secured connections whenever possible" to="Use SSL/TLS secured connections whenever possible"/>
-	<translation from="Use Trillian&apos;s status message in Facebook" to="Use Trillian&apos;s status message in Facebook"/>
-	<translation from="Use default browser to authorize Facebook application instead of built-in Mini Browser" to="Use default browser to authorize Facebook application instead of built-in Mini Browser"/>
-	<translation from="Use the default proxy settings" to="Use the default proxy settings"/>
-	<translation from="Various native notifications" to="Various native notifications"/>
-	<translation from="View Comments" to="View Comments"/>
+	<translation from="Suppress sign on/off notifications" to="Suppress sign on/off notifications"/>
+	<translation from="There was an error communicating with Facebook." to="There was an error communicating with Facebook."/>
+	<translation from="Unlike" to="Unlike"/>
+	<translation from="View Feed" to="View Feed"/>
 	<translation from="View Friends..." to="View Friends..."/>
-	<translation from="View Invites..." to="View Invites..."/>
-	<translation from="View Photos by %firstname%..." to="View Photos by %firstname%..."/>
-	<translation from="View Photos of %firstname%..." to="View Photos of %firstname%..."/>
-	<translation from="View Pokes..." to="View Pokes..."/>
 	<translation from="View Profile..." to="View Profile..."/>
-	<translation from="View Requests..." to="View Requests..."/>
-	<translation from="View Wall..." to="View Wall..."/>
-	<translation from="View more on Facebook" to="View more on Facebook"/>
-	<translation from="Visit &apos;%page%&apos;..." to="Visit &apos;%page%&apos;..."/>
-	<translation from="Yesterday" to="Yesterday"/>
-	<translation from="You are tagged in a photo" to="You are tagged in a photo"/>
-	<translation from="You have %count% new pokes." to="You have %count% new pokes."/>
-	<translation from="You have been poked!" to="You have been poked!"/>
-	<translation from="You have been tagged in a photo!" to="You have been tagged in a photo!"/>
-	<translation from="You have one new poke." to="You have one new poke."/>
-	<translation from="You have successfully connected to Facebook Chat." to="You have successfully connected to Facebook Chat."/>
-	<translation from="You have successfully connected to Facebook." to="You have successfully connected to Facebook."/>
-	<translation from="Your name" to="Your name"/>
-	<translation from="has updated her profile." to="has updated her profile."/>
-	<translation from="has updated his profile." to="has updated his profile."/>
-	<translation from="has updated their profile." to="has updated their profile."/>
-	<translation from="hourWord" to="時間"/>
-	<translation from="hourWordSingular" to="時間"/>
-	<translation from="in %daysleft% days" to="もう　%daysleft%で"/>
-	<translation from="notificationBirthdayIn3Days" to="今週の%weekday%は%firstname%の誕生日!"/>
-	<translation from="notificationBirthdayToday" to="今日は%firstname%の誕生日!"/>
-	<translation from="notificationBirthdayTodayInclAge" to="誕生日：今日%firstname%が%age%になりました。おめでとう!"/>
-	<translation from="notificationBirthdayTomorrow" to="Don&apos;t forget, it&apos;s %firstname%&apos;s birthday tomorrow!"/>
-	<translation from="textAdvancedTZInfoAhead" to="GMT%offset% (%localhours% %hourWord% ahead of you)"/>
-	<translation from="textAdvancedTZInfoBefore" to="GMT%offset% (%localhours% %hourWord% before local time)"/>
-	<translation from="textAge" to="%age%才"/>
-	<translation from="textAuthAborted" to="It appears that the Facebook authentication did not finish. The Facebook plugin requires that you authenticate with the Facebook servers before it can continue."/>
-	<translation from="textBirthday" to="%month% %day% %year% (%daysleftword%)"/>
-	<translation from="textBirthdayNoYear" to="%month% %day% (%daysleftword%)"/>
-	<translation from="textChatInfoNoLogIn" to="Facebook Chat: Couldn&apos;t log in! If you made sure that your login credentials are correct, Facebook may have changed something that causes Chat functionality to stop working for now."/>
-	<translation from="textClickAlertWhenLoggedIn" to="A browser should have opened to provide your Facebook login information. Please click here when you are done logging into Facebook!"/>
-	<translation from="textClickAlertWhenReqsDone" to="A browser should have opened to authorize Trillian to access your Facebook data. Please click here when you granted permission!"/>
-	<translation from="textClickHereLink" to="click here"/>
-	<translation from="textDefaultStatusMessagePrefix" to="is"/>
-	<translation from="textLaunchingLoginPage" to="Launching log in page. If a web page does not appear, you can %clickherelink% to open up another page to try again. Note that this link won&apos;t work if you have already opened the page. In this case, use the right-click menu to try again."/>
-	<translation from="textLaunchingReqPermsPage" to="Launching permissions request page. If a web page does not appear, you can %clickherelink% to open up another page to try again."/>
-	<translation from="textNeedToGetPostPermission" to="You have not authorized the Trillian Facebook Application to post status updates, comments or add likes. Please click here to do that now."/>
-	<translation from="textNewEventInvite" to="You were invited to join the %name% event."/>
-	<translation from="textNewEventInvites" to="You were invited to join %name% and %othercount% other event(s)."/>
-	<translation from="textNewFriendRequest" to="%name% has sent you a friend request!"/>
-	<translation from="textNewFriendRequests" to="You have new friend requests (from %name% and %othercount% others)!"/>
-	<translation from="textNewGroupInvite" to="You were invited to join the %name% group."/>
-	<translation from="textNewGroupInvites" to="You were invited to join %name% and %othercount% other group(s)."/>
-	<translation from="textNoPublishAuth" to="You have not authorized the Trillian Facebook Application to post status updates yet!"/>
-	<translation from="textNoResponseFromServer" to="The Facebook server closed the connection without sending a valid response. This may be a network error or a problem that the Facebook platform is experiencing currently. Try again later."/>
-	<translation from="textPermissionsFAIL" to="The Facebook servers failed to supply us with required information. Please retry."/>
-	<translation from="textPluginDescription" to="Facebook social network integration. Contact alerts, news feeds and more!"/>
-	<translation from="textReqPermsAborted" to="You need to give the requested permissions to the Trillian application before Trillian can connect."/>
-	<translation from="textSessionExpiredClickToRelogin" to="Your Facebook login session has expired. Please click here to re-login!"/>
-	<translation from="textSessionRejectedRetry" to="Error validating the session during update request for %method% (#%attempt%). Trying again in %secs% seconds."/>
-	<translation from="textTimeAt" to="%time%に"/>
-	<translation from="today" to="今日"/>
-	<translation from="tomorrow" to="明日"/>
-	<translation from="via %app%" to="%app%で"/>
-	<translation from="wrote a new note: %title%" to="wrote a new note: %title%"/>
-	<translation from="wrote on your wall!" to="wrote on your wall!"/>
+	<translation from="View Request..." to="View Request..."/>
+	<translation from="textAuthAborted" to="Facebook authorization was cancelled  You must authorize Trillian to connect to Facebook to continue."/>
+	<translation from="textComment" to="コメント"/>
+	<translation from="textEventInvite" to="You have been invited to the &quot;%name%&quot; event."/>
+	<translation from="textFriendInvite" to="wants to add you as a friend."/>
+	<translation from="textFriendInviteName" to="%name% wants to add you as a friend."/>
+	<translation from="textGrantPermmission" to="Grant Permission"/>
+	<translation from="textGroupInvite" to="You have been invited to the &quot;%name%&quot; group."/>
+	<translation from="textLikeName" to="%name% likes this."/>
+	<translation from="textLikeOther" to="%name% and 1 other likes this."/>
+	<translation from="textLikeOthers" to="%name% and %num% others like this."/>
+	<translation from="textLikePeople" to="%num% people like this."/>
+	<translation from="textLoadingComments" to="Loading Comments..."/>
+	<translation from="textMaxFeedItemAge" to="Do not show items older than %maxFeedItemAge% days"/>
+	<translation from="textMaxFeedItems" to="Show %maxFeedItems% feed items at maximum"/>
+	<translation from="textMoreSettings" to="More Settings"/>
+	<translation from="textNewPoke" to="You have 1 new poke."/>
+	<translation from="textNewPokes" to="You have %count% new pokes."/>
+	<translation from="textPermissionNeeded" to="Trillian needs your permission to connect to Facebook."/>
+	<translation from="textPinMenu" to="Pin News to Contact List"/>
+	<translation from="textPoke" to="Poke %name%..."/>
+	<translation from="textSessionCheck" to="Checking session key..."/>
+	<translation from="textVia" to="via %name%"/>
+	<translation from="textViewComments" to="View all %num% comments"/>
+	<translation from="textViewPhotosBy" to="View Photos by %name%..."/>
+	<translation from="textViewPhotosOf" to="View Photos of %name%..."/>
+	<translation from="textWriteComment" to="Write a comment..."/>
 </language>

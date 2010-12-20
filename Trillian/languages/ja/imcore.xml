@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
+	<translation from="%num% of %total% requests" to="%num% of %total% requests"/>
 	<translation from="&amp;Actions" to="&amp;Actions"/>
 	<translation from="Account Options" to="アカウントオプション"/>
 	<translation from="Account Settings" to="アカウント設定"/>
 	<translation from="Add to Contact List..." to="コンタクトリストへ追加..."/>
 	<translation from="Advanced" to="高度な設定"/>
 	<translation from="Age" to="年齢"/>
-	<translation from="Alert me when mail arrives for this account" to="このアカウント宛にメールが来た場合、通知する"/>
+	<translation from="Alert me when mail arrives for this account" to="Alert me when mail arrives for this account"/>
 	<translation from="Allow" to="許可"/>
 	<translation from="Allow a Contact..." to="コンタクトを許可..."/>
 	<translation from="Allow a User..." to="ユーザーを許可..."/>
@@ -15,7 +16,6 @@
 	<translation from="Appear Online Always" to="Appear Online Always"/>
 	<translation from="Auto-response: " to="自動返信:"/>
 	<translation from="Automatically approve all incoming add requests" to="Automatically approve all incoming add requests"/>
-	<translation from="Automatically connect to this account at startup" to="Automatically connect to this account at startup"/>
 	<translation from="Automatically log me into mail when possible" to="Automatically log me into mail when possible"/>
 	<translation from="Away" to="退席中"/>
 	<translation from="Block" to="ブロック"/>
@@ -28,7 +28,7 @@
 	<translation from="Cancel" to="キャンセル"/>
 	<translation from="Change Password" to="パスワードを変更"/>
 	<translation from="Check Mail" to="メールをチェック"/>
-	<translation from="Client Description" to="Client Description"/>
+	<translation from="Client" to="Client"/>
 	<translation from="Connection" to="接続"/>
 	<translation from="Contact:" to="コンタクト:"/>
 	<translation from="Disconnect" to="切断"/>
@@ -47,6 +47,7 @@
 	<translation from="File transfer was accepted at another location." to="File transfer was accepted at another location."/>
 	<translation from="Fine tune the server and proxy settings for this connection." to="Fine tune the server and proxy settings for this connection."/>
 	<translation from="Follow Global Presence" to="Follow Global Presence"/>
+	<translation from="Forcefully ignore all incoming authorization requests" to="Forcefully ignore all incoming authorization requests"/>
 	<translation from="Free For Chat" to="Free For Chat"/>
 	<translation from="General" to="全般"/>
 	<translation from="Group Conversation" to="Group Conversation"/>
@@ -107,7 +108,7 @@
 	<translation from="Username:" to="ユーザー名:"/>
 	<translation from="Video Call" to="Video Call"/>
 	<translation from="View User Information" to="ユーザー情報を表示"/>
-	<translation from="When this account is not active, hide its connection icon from the Contact List" to="When this account is not active, hide its connection icon from the Contact List"/>
+	<translation from="When this account is not active, hide its icon from the identity panel" to="When this account is not active, hide its icon from the identity panel"/>
 	<translation from="day" to="日"/>
 	<translation from="days" to="日"/>
 	<translation from="ftBeginIncoming" to="*** Attempting to receive %filename% from %username%."/>
@@ -137,7 +138,7 @@
 	<translation from="infoChatInvite" to="%username% is inviting you to join a conference."/>
 	<translation from="infoChatJoin" to="%username% has joined the conversation."/>
 	<translation from="infoChatLeave" to="%username% has left the conversation."/>
-	<translation from="infoConfirmAccountRemove" to="本当にこのアカウントを削除しますか？"/>
+	<translation from="infoConfirmAccountRemove" to="Permanently remove account &quot;%username%&quot; from your list?"/>
 	<translation from="infoConnProxy" to="We are using a proxy of type &quot;%protocol%&quot; at &quot;%hostname%:%port%&quot; to connect."/>
 	<translation from="infoConnReconnecting" to="Attempting to reconnect in %seconds% seconds..."/>
 	<translation from="infoConnSucceed" to="%medium% に接続できました。"/>
@@ -147,11 +148,16 @@
 	<translation from="infoContactInvisible" to="&quot;%displayname% (%username%)&quot; went invisible at %time%."/>
 	<translation from="infoContactMarked" to="&quot;%displayname% (%username%)&quot; was marked &quot;%status%&quot; on %time%."/>
 	<translation from="infoContactOffline" to="&quot;%displayname% (%username%)&quot; は %time% にオフラインになりました。"/>
+	<translation from="infoContactOfflineAt" to="%name% signed off at %time%."/>
+	<translation from="infoContactOfflineAtFrom" to="%name% signed off from &quot;%from%&quot; at %time%."/>
 	<translation from="infoContactOnline" to="&quot;%displayname% (%username%)&quot; は %time% にオンラインになりました。"/>
+	<translation from="infoContactOnlineAt" to="%name% signed on at %time%."/>
+	<translation from="infoContactOnlineAtFrom" to="%name% signed on from &quot;%from%&quot; at %time%."/>
 	<translation from="infoContactReturn" to="&quot;%displayname% (%username%)&quot; は %time% に退席ステータスから戻りました。"/>
 	<translation from="infoContactReturnIdle" to="&quot;%displayname% (%username%)&quot; は %time% にIdleステータスから戻りました。"/>
 	<translation from="infoCreateConn" to="接続 &quot;%username%&quot; 作成しています。"/>
 	<translation from="infoDisconnected" to="切断されました。"/>
+	<translation from="infoDisconnectedAt" to="You were disconnected from %medium% at %at%."/>
 	<translation from="infoErrorConn" to="%medium% にの接続はしっぱいしました: システムエラーコード &quot;%errcode%&quot;."/>
 	<translation from="infoFrom" to="%username% から"/>
 	<translation from="infoLoggedoffOtherAcct" to="ほかのコンピュータで %medium% にログインしましたから、ここでログオフされます。"/>
@@ -162,6 +168,7 @@
 	<translation from="infoMsgNAK" to="下記のメッセージは相手に送ることはできませんでした: %message%"/>
 	<translation from="infoPluginInUse" to="This plugin is currently being used externally by the %plugin% plugin and cannot be unloaded."/>
 	<translation from="infoReconnect" to="&quot;%username%&quot; として %medium% に 再接続しています。"/>
+	<translation from="infoReconnectedAt" to="You were reconnected to %medium% at %at%."/>
 	<translation from="infoResourceChange" to="The active resource for this window has changed to &quot;%resource%&quot;."/>
 	<translation from="infoStatusChange" to="&quot;%status&quot; にセットしています。"/>
 	<translation from="infoTLSType" to="TLS established using %description%."/>
@@ -181,6 +188,11 @@
 	<translation from="systrayMailFrom" to="%username%: You have new mail from &lt;b&gt;%from%&lt;/b&gt; regarding: &quot;&lt;b&gt;%subject%&lt;/b&gt;&quot;."/>
 	<translation from="systrayMailStatsP" to="%username%: 受信トレイに %count% 個の メールがあります。"/>
 	<translation from="systrayMailStatsS" to="%username%: 受信トレイに 1個の メールがあります。"/>
-	<translation from="systrayPassword" to="%medium% にの接続は失敗しました: パスワードは間違いました。  パスワードをリセットするにはここにクリックしてください。"/>
+	<translation from="systrayPassword" to="The %medium% password you entered is incorrect.  Please try again."/>
 	<translation from="systrayStatus" to="%medium% にの接続は失敗しました.  詳細を表示するにはここにクリックしてください。"/>
+	<translation from="textApprove" to="Approve"/>
+	<translation from="textApproveAndAdd" to="Approve and Add"/>
+	<translation from="textDeny" to="Deny"/>
+	<translation from="textIgnore" to="Ignore"/>
+	<translation from="textReEnterPassword" to="Re-enter Password"/>
 </language>

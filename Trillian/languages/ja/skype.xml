@@ -72,7 +72,7 @@
 	<translation from="from" to="from"/>
 	<translation from="incomingFileNotification" to="&lt;b&gt;%contact%&lt;/b&gt; (%medium%) is sending file &quot;%filename%&quot;..."/>
 	<translation from="infoAccountRemoveDialogCaption" to="Trillian"/>
-	<translation from="infoAccountRemoveDialogText" to="Are you sure you wish to remove this account?"/>
+	<translation from="infoAccountRemoveDialogText" to="Permanently remove account &quot;%username%&quot; from your list?"/>
 	<translation from="infoChatWindow" to="This window allows you chat with %contact%."/>
 	<translation from="infoConnSkypeIsNotInstalled" to="Trillianで、Skypeネットワークへ接続する為には、Skypeのインストールが必要です。現在インストールされていません。インストールしてから再度行って下さい"/>
 	<translation from="infoConnSkypeIsNotLoaded" to="Skype is not currently loaded.  Left click this alert to load."/>
@@ -111,5 +111,5 @@
 	<translation from="prefsConnectionPassword" to="パスワード"/>
 	<translation from="prefsConnectionUsername" to="ユーザー名"/>
 	<translation from="prefsMiscellaneousAdvanced" to="高度な設定"/>
-	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its connection icon from the contact list"/>
+	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its icon from the identity panel"/>
 </language>

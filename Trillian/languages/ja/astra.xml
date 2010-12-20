@@ -3,10 +3,7 @@
 	<translation from="A required codec could not be located on your computer, and is required for conferencing." to="チャットに必要なコーデックがインストールされていません。"/>
 	<translation from="Appear Offline and Block" to="オフラインまたは、ブロックされています"/>
 	<translation from="Astra support." to="Astra support."/>
-	<translation from="Class" to="クラス"/>
 	<translation from="Default" to="Default"/>
-	<translation from="Disabled" to="無効"/>
-	<translation from="Enabled" to="有効"/>
 	<translation from="Latitude" to="緯度"/>
 	<translation from="Longitude" to="経度"/>
 	<translation from="Override default resource name with: %prefsAstraResourceName%" to="Override default resource name with: %prefsAstraResourceName%"/>
@@ -14,7 +11,6 @@
 	<translation from="QuickTime could not be located on your computer, and is required for video conferencing.  Please download it at http://www.apple.com/quicktime/download/" to="ビデオ カンファレンスを開始するためには QuickTime が必要ですが、このコンピュータにはインストールされていません。 http://www.apple.com/quicktime/download/ からダウンロードしてください。"/>
 	<translation from="Securely synchronize my accounts between devices" to="Securely synchronize my accounts between devices"/>
 	<translation from="Show my status on my profile webpage" to="profile webpage にログインステータスを表示"/>
-	<translation from="TLS" to="TLSによる暗号化"/>
 	<translation from="TLS is active to this user." to="この通信において、TLSによる暗号化が有効になっています。"/>
 	<translation from="ftCandidateInfo" to="*** A successful %type% connection was established with %username% at %ip%."/>
 	<translation from="has accepted the call at another location." to="has accepted the call at another location."/>

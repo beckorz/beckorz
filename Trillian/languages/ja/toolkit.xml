@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
 	<translation from="&amp;Transparency" to="透明度(&amp;T)"/>
-	<translation from="&amp;View" to="100%(&amp;V)"/>
+	<translation from="&amp;View" to="表示(&amp;V)"/>
 	<translation from="10%" to="10%"/>
 	<translation from="20%" to="20%"/>
 	<translation from="30%" to="30%"/>
@@ -11,7 +11,6 @@
 	<translation from="70%" to="70%"/>
 	<translation from="80%" to="80%"/>
 	<translation from="90%" to="90%"/>
-	<translation from="Advanced Options" to="高度な設定"/>
 	<translation from="Attach" to="ドッキング"/>
 	<translation from="Cancel" to="キャンセル"/>
 	<translation from="Cascade Windows" to="ウィンドウを重ねて表示"/>
@@ -57,6 +56,7 @@
 	<translation from="Turn it black and white" to="白黒に変わる。"/>
 	<translation from="Turn it semi-transparent" to="半透明に戻す"/>
 	<translation from="Visible" to="表示"/>
+	<translation from="Window Options" to="Window Options"/>
 	<translation from="dialogInitialInstructions" to="Configure your window to the desired positions, sizes, and interiors; then click Save Settings or Cancel below to go back to Trillian Preferences."/>
 	<translation from="dialogInitialWarning" to="Alert: Your windows are set to remember their previous state.  This means that some windows may not reflect the changes you are making here unless you choose to &apos;reset&apos; their previous state in preferences."/>
 	<translation from="textErrorTextRequired" to="Please enter some text or close the window."/>

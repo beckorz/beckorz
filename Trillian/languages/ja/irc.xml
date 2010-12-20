@@ -259,7 +259,6 @@
 	<translation from="second" to="秒"/>
 	<translation from="seconds" to="秒"/>
 	<translation from="textNoExtIP" to="Sorry, your external IP is unknown, so you can&apos;t send a file or initiate a DCC CHAT. Please set your IP in the Preferences."/>
-	<translation from="textPluginDescription" to="IRC (Internet Relay Chat) support."/>
 	<translation from="textTimeAt" to="at %time%"/>
 	<translation from="userwordPlural" to="ユーザー"/>
 	<translation from="userwordSingular" to="ユーザー"/>

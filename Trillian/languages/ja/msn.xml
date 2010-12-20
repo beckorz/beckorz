@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
-	<translation from="Be Right Back" to="一時退席中"/>
-	<translation from="Connection to group conversation lost." to="Connection to group conversation lost."/>
-	<translation from="Enter your Windows Live email and password below and click connect." to="下に Windows Live メールとパスワードを入力して &quot;接続&quot; をクリックして下さい。"/>
-	<translation from="Force this connection to tunnel through the HTTP gateway" to="強制的に、HTTPゲートウェイを通して接続する"/>
-	<translation from="Instant Messaging Address" to="Instant Messaging Address"/>
-	<translation from="Invite to Conversation..." to="会話に招待..."/>
+	<translation from="Be Right Back" to="退席中"/>
+	<translation from="Connection to group conversation lost." to="グループ会話への接続が切断されました。"/>
+	<translation from="Enter your Windows Live email and password below and click connect." to="下に Windows Live メールアドレスとパスワードを入力して &quot;接続&quot; をクリックして下さい。"/>
+	<translation from="Force this connection to tunnel through the HTTP gateway" to="HTTPゲートウェイでの接続を強制する"/>
+	<translation from="IM Address" to="IMアドレス"/>
+	<translation from="Invite to Conversation..." to="会話へ招待"/>
 	<translation from="MSN: New Mail" to="MSN: 新着メール"/>
-	<translation from="Only people on my Allow List can see my status and send me messages" to="許可リスト上の人だけにステータス公開とメッセージ送信を制限する"/>
-	<translation from="Override default resource name with: %prefsMSNPResourceName%" to="Override default resource name with: %prefsMSNPResourceName%"/>
+	<translation from="Only people on my Allow List can see my status and send me messages" to="コンタクトリスト中の人のみにステータスの表示と自分へのメッセージの送信を許可する"/>
+	<translation from="Override default resource name with: %prefsMSNPResourceName%" to="このプロトコルでは次の名前を使用: %prefsMSNPResourceName%"/>
 	<translation from="Users Who Added You" to="あなたを追加しているユーザー"/>
 	<translation from="Web User" to="Webユーザー"/>
-	<translation from="Windows Live Messenger support." to="Windows Live Messenger support."/>
+	<translation from="Windows Live Messenger support." to="Windows Live Messenger サポート"/>
 	<translation from="Yes" to="はい"/>
-	<translation from="ftInternalError" to="*** Error: Remote user was unable to accept this file.  There may be a security restriction on certain file types when communicating with this contact."/>
-	<translation from="infoAuthInternalError" to="An internal server error occured during authentication.  Please try again later."/>
-	<translation from="infoErrorMessageSelf" to="Windows Live Messengerで自分にメッセージを送ることはできません。"/>
+	<translation from="ftInternalError" to="*** エラー: リモートユーザーはこのファイルを受信できませんでした。このユーザーは特定のファイル形式にセキュリティ制限を設けている可能性があります。"/>
+	<translation from="infoAuthInternalError" to="認証中に内部サーバーエラーが発生しました。しばらく時間をあけて再試行してください。"/>
+	<translation from="infoErrorMessageSelf" to="Windows Live Messengerでは自分にメッセージを送ることはできません。"/>
 	<translation from="infoInviteFail" to="会話への招待に失敗しました。"/>
 	<translation from="infoLoggedoffCode" to="%medium% からログオフされています。  理由: &quot;%errcode%&quot;"/>
-	<translation from="infoLoggedoffMaintenance" to="サーバーのメンテナンス中です。 %medium% からログオフしました。  しばらく後に再接続してください。"/>
-	<translation from="infoMsgOfflineNAK" to="This message was not sent because offline instant messaging is temporarily unavailable. Please try again later: %message%"/>
+	<translation from="infoLoggedoffMaintenance" to="サーバーがメンテナンス中のため %medium% からログオフされています。  しばらく時間をあけて再接続してください。"/>
+	<translation from="infoMsgOfflineNAK" to="一時的にオフラインメッセージが利用不能のため、このメッセージは送信されませんでした。しばらく時間をあけて再試行してください。: %message%"/>
 	<translation from="infoMsgOfflineRate" to="This message was not sent because your rate limit has been exceeded.  Please wait a minute before sending any further offline messages: %message%"/>
-	<translation from="infoMsgOfflineSize" to="This message was not sent because it was too large: %message%"/>
+	<translation from="infoMsgOfflineSize" to="本文が長すぎるため、このメッセージは送信されませんでした。: %message%"/>
 	<translation from="infoMsgResourceChange" to="The active resource has changed to &quot;%resource%&quot;."/>
-	<translation from="infoProtocolInvalid" to="Warning: The server&apos;s protocol &quot;%protocol%&quot; did not match our requested protocol - connection cannot continue!"/>
-	<translation from="systrayNotVerified" to="You need to verify your e-mail address with Windows Live Messenger.  Click here to do so."/>
+	<translation from="infoProtocolInvalid" to="警告: サーバープロトコル &quot;%protocol%&quot; は要求したプロトコルと一致しませんでした。　- 切断します。"/>
+	<translation from="systrayNotVerified" to="メールアドレスをWindows Live Messengerに認証させる必要があります。クリックすると認証します。"/>
 	<translation from="systrayProtocolInvalid" to="We could not sign you into Windows Live Messenger because the server&apos;s protocol does not match ours.  This can happen during times of server upgrade or if you are running incompatible firewall/anti-virus software; please try adding Trillian to your security software&apos;s whitelist or exception list and try again."/>
 </language>

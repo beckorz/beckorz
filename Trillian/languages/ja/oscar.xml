@@ -29,7 +29,6 @@
 	<translation from="File Transfers" to="File Transfers"/>
 	<translation from="File transfer timed out." to="File transfer timed out."/>
 	<translation from="First Name" to="First Name"/>
-	<translation from="Forcefully ignore all incoming authorization requests" to="Forcefully ignore all incoming authorization requests"/>
 	<translation from="Group Conferencing" to="Group Conferencing"/>
 	<translation from="Idle Time" to="Idle Time"/>
 	<translation from="Improper login sequence.  This should not be happening; please contact support@ceruleanstudios.com with more information." to="Improper login sequence.  This should not be happening; please contact support@ceruleanstudios.com with more information."/>
@@ -40,7 +39,6 @@
 	<translation from="Microphone" to="Microphone"/>
 	<translation from="Nickname" to="Nickname"/>
 	<translation from="Not Available" to="Not Available"/>
-	<translation from="OSCAR protocol support, enabling access to both AIM and ICQ accounts." to="OSCAR protocol support, enabling access to both AIM and ICQ accounts."/>
 	<translation from="Occupied" to="Occupied"/>
 	<translation from="Online Time" to="Online Time"/>
 	<translation from="Request Status Message" to="Request Status Message"/>

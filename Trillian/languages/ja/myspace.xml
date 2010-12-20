@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
-	<translation from="Age" to="年齢"/>
 	<translation from="Band" to="Band"/>
 	<translation from="Comment..." to="コメント..."/>
 	<translation from="Enter your MySpaceIM email and password below and click connect." to="Enter your MySpaceIM email and password below and click connect."/>
 	<translation from="Gender" to="性別"/>
+	<translation from="IM Name" to="IM Name"/>
 	<translation from="Location" to="Location"/>
 	<translation from="MySpaceIM support." to="MySpaceIM support."/>
 	<translation from="Send Mail..." to="メールを送る..."/>
