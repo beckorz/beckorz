@@ -20,7 +20,7 @@
 	<translation from="Moderator" to="モデレータ"/>
 	<translation from="Moderators" to="モデレータ"/>
 	<translation from="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%" to="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%"/>
-	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="このプロトコルでは次の名前を使用: %prefsXMPPResourceName%"/>
+	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="このプロトコルでは次の表示名を使用: %prefsXMPPResourceName%"/>
 	<translation from="Participant" to="Participant"/>
 	<translation from="Set priority for this connection to: %prefsXMPPPriorityValue%" to="Set priority for this connection to: %prefsXMPPPriorityValue%"/>
 	<translation from="Standards-based XMPP support, including all Jabber/XMPP networks, Google Talk, VZ, and more." to="Standards-based XMPP support, including all Jabber/XMPP networks, Google Talk, VZ, and more."/>

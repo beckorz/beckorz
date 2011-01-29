@@ -21,7 +21,7 @@
 	<translation from="infoReconn" to="Reconnecting to %medium% as &quot;%username%&quot;."/>
 	<translation from="infoStopMailCheckSuccessfullyWithNewMails" to="You have %unread% unread messages out of %total% messages."/>
 	<translation from="infoStopMailCheckSuccessfullyWithoutNewMails" to="新しいメールは1つもありません。"/>
-	<translation from="infoSystrayMailFrom" to="%username%: You have new mail from &lt;b&gt;%from%&lt;/b&gt; regarding: &quot;&lt;b&gt;%subject%&lt;/b&gt;&quot;."/>
+	<translation from="infoSystrayMailFrom" to="%username%: 新着メールが &lt;b&gt;%from%&lt;/b&gt; から届きました。 件名: &quot;&lt;b&gt;%subject%&lt;/b&gt;&quot;."/>
 	<translation from="menuConnectionDisconnect" to="切断"/>
 	<translation from="menuConnectionReconnect" to="再接続"/>
 	<translation from="menuMailAccountCheckMail" to="メールをチェック"/>

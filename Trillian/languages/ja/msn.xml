@@ -8,7 +8,7 @@
 	<translation from="Invite to Conversation..." to="会話へ招待"/>
 	<translation from="MSN: New Mail" to="MSN: 新着メール"/>
 	<translation from="Only people on my Allow List can see my status and send me messages" to="コンタクトリスト中の人のみにステータスの表示と自分へのメッセージの送信を許可する"/>
-	<translation from="Override default resource name with: %prefsMSNPResourceName%" to="このプロトコルでは次の名前を使用: %prefsMSNPResourceName%"/>
+	<translation from="Override default resource name with: %prefsMSNPResourceName%" to="このプロトコルでは次の表示名を使用: %prefsMSNPResourceName%"/>
 	<translation from="Users Who Added You" to="あなたを追加しているユーザー"/>
 	<translation from="Web User" to="Webユーザー"/>
 	<translation from="Windows Live Messenger support." to="Windows Live Messenger サポート"/>

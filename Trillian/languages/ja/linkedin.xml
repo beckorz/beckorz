@@ -2,7 +2,7 @@
 <language type="Japanese">
 	<translation from="Activity" to="Activity"/>
 	<translation from="Configure how the news feed will appear in the Contact List." to="Configure how the news feed will appear in the Contact List."/>
-	<translation from="Connection Settings" to="Connection Settings"/>
+	<translation from="Connection Settings" to="接続設定"/>
 	<translation from="ErrorRetrievingNetworkUpdatesStr" to="Error retrieving network updates"/>
 	<translation from="LoadingNetworkUpdatesStr" to="Loading network updates"/>
 	<translation from="Manage options for this account." to="Manage options for this account."/>
@@ -36,7 +36,7 @@
 	<translation from="menuDisconnect" to="Disconnect"/>
 	<translation from="menuGoToMyHomePage" to="LinkedIn Home"/>
 	<translation from="menuGoToMyProfilePage" to="LinkedIn Profile"/>
-	<translation from="menuMoreSettings" to="More Settings"/>
+	<translation from="menuMoreSettings" to="その他の設定"/>
 	<translation from="menuPinActivityToContactList" to="Pin Activity to Contact List"/>
 	<translation from="menuReconnect" to="Reconnect"/>
 	<translation from="menuRefresh" to="Refresh"/>

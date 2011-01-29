@@ -35,7 +35,7 @@
 	<translation from="(Audio Only = %audio_bps%%audio_unit%; Audio/Video = %video_bps%%video_unit%)" to="(Audio Only = %audio_bps%%audio_unit%; Audio/Video = %video_bps%%video_unit%)"/>
 	<translation from="(currently off)" to="（現在停止中）"/>
 	<translation from="(no subject)" to="（無題）"/>
-	<translation from="... in the format:" to="... in the format:"/>
+	<translation from="... in the format:" to="... 形式:"/>
 	<translation from="...and a lot more!" to="...and a lot more!"/>
 	<translation from="13-18" to="13-18"/>
 	<translation from="19-25" to="19-25"/>
@@ -391,8 +391,8 @@
 	<translation from="MSN Messenger" to="MSN Messenger"/>
 	<translation from="MSN Passport" to="MSN Passport"/>
 	<translation from="Magazine" to="雑誌"/>
-	<translation from="Mail" to="Mail"/>
-	<translation from="Mail Account on %medium%" to="Mail Account on %medium%"/>
+	<translation from="Mail" to="メール"/>
+	<translation from="Mail Account on %medium%" to="メール: %medium%"/>
 	<translation from="Main Group" to="メイングループ"/>
 	<translation from="Male" to="男"/>
 	<translation from="Manage Accounts" to="アカウント管理"/>
@@ -412,7 +412,7 @@
 	<translation from="Monday" to="月曜日"/>
 	<translation from="Month" to="月"/>
 	<translation from="More" to="More"/>
-	<translation from="More Settings" to="他設定"/>
+	<translation from="More Settings" to="その他の設定"/>
 	<translation from="More information is needed" to="More information is needed"/>
 	<translation from="More..." to="その他..."/>
 	<translation from="Move to" to="Move to"/>
@@ -593,7 +593,7 @@
 	<translation from="Small Size" to="小"/>
 	<translation from="Snowflake" to="Snowflake"/>
 	<translation from="Soccer" to="サッカー"/>
-	<translation from="Social" to="Social"/>
+	<translation from="Social" to="ソーシャル"/>
 	<translation from="Socialize!" to="Socialize!"/>
 	<translation from="Some Social Networks" to="Some Social Networks"/>
 	<translation from="Someone Else" to="Someone Else"/>
@@ -607,7 +607,7 @@
 	<translation from="Starfish" to="ヒトデ"/>
 	<translation from="Start a fresh account instead." to="Start a fresh account instead."/>
 	<translation from="Starting up (Offline Mode)..." to="Starting up (Offline Mode)..."/>
-	<translation from="Starting up..." to="Starting up..."/>
+	<translation from="Starting up..." to="起動中..."/>
 	<translation from="State" to="ステータス"/>
 	<translation from="Status" to="ステータス"/>
 	<translation from="Status Messages" to="ステータスメッセージ"/>
@@ -658,7 +658,7 @@
 	<translation from="Thursday" to="木曜日"/>
 	<translation from="Tile View" to="並べて表示"/>
 	<translation from="Time Travel" to="Time Travel"/>
-	<translation from="Timestamps" to="Timestamps"/>
+	<translation from="Timestamps" to="タイムスタンプ"/>
 	<translation from="Tiny" to="最小"/>
 	<translation from="Tiny Size" to="Tiny Size"/>
 	<translation from="Toggle Trillian" to="Toggle Trillian"/>
@@ -750,7 +750,7 @@
 	<translation from="What is your library card number?" to="What is your library card number?"/>
 	<translation from="What is your primary frequent flyer number?" to="What is your primary frequent flyer number?"/>
 	<translation from="What nickname would you like used throughout Trillian?" to="What nickname would you like used throughout Trillian?"/>
-	<translation from="What to Record" to="What to Record"/>
+	<translation from="What to Record" to="記録対象"/>
 	<translation from="What was your first phone number?" to="What was your first phone number?"/>
 	<translation from="What was your first teacher&apos;s name?" to="What was your first teacher&apos;s name?"/>
 	<translation from="When I&apos;m away..." to="退席時..."/>
@@ -782,7 +782,7 @@
 	<translation from="Year" to="Year"/>
 	<translation from="Yes" to="はい"/>
 	<translation from="Yes, safely move my files and settings (Recommended)" to="Yes, safely move my files and settings (Recommended)"/>
-	<translation from="You are not connected to the Trillian network." to="You are not connected to the Trillian network."/>
+	<translation from="You are not connected to the Trillian network." to="Trillianネットワークに接続されていません。"/>
 	<translation from="You have already set up an account.  Would you like to go back to generate another account?" to="You have already set up an account.  Would you like to go back to generate another account?"/>
 	<translation from="You have new unread messages" to="新規未読メッセージがあります"/>
 	<translation from="You have successfully registered &lt;b&gt;%name%&lt;/b&gt;." to="You have successfully registered &lt;b&gt;%name%&lt;/b&gt;."/>
@@ -831,8 +831,8 @@
 	<translation from="dialogLoadingPropogatingPluginList" to="Propagating plugin list..."/>
 	<translation from="dialogLoadingPropogatingPreferences" to="Parsing Emoticons..."/>
 	<translation from="dialogLoadingSkippingPlugins" to="Skipping plugins..."/>
-	<translation from="dialogLoadingStartingPlugins" to="Starting plugins..."/>
-	<translation from="dialogLoadingStartingPluginsSpecific" to="Starting %plugin% plugin..."/>
+	<translation from="dialogLoadingStartingPlugins" to="プラグインを起動中..."/>
+	<translation from="dialogLoadingStartingPluginsSpecific" to="%plugin% プラグインを起動中..."/>
 	<translation from="dialogLoadingStartingSelectedPlugins" to="Starting selected plugins..."/>
 	<translation from="dialogLoadingWelcome" to="ようこそ!"/>
 	<translation from="dialogPreferencesDescription" to="Customize Trillian to fit your needs."/>
@@ -841,8 +841,8 @@
 	<translation from="dialogUnloadingThanks" to="Thanks for purchasing Trillian!"/>
 	<translation from="dialogUnloadingUpdates" to="For updates visit:"/>
 	<translation from="dialogWizardNoUpdates" to="No software updates are currently available."/>
-	<translation from="e.g. imap.gmail.com" to="e.g. imap.gmail.com"/>
-	<translation from="e.g. tricia42" to="e.g. tricia42"/>
+	<translation from="e.g. imap.gmail.com" to="例 imap.gmail.com"/>
+	<translation from="e.g. tricia42" to="例 tricia42"/>
 	<translation from="from %from%" to="from %from%"/>
 	<translation from="green" to="緑"/>
 	<translation from="hour" to="時間"/>
@@ -853,18 +853,18 @@
 	<translation from="minutes" to="分"/>
 	<translation from="near my clock" to="時計表示の近く"/>
 	<translation from="or" to="or"/>
-	<translation from="prefsActivityHistoryAuto" to="Show the last %num% lines of conversation history in chat windows"/>
+	<translation from="prefsActivityHistoryAuto" to="チャットウィンドウ内に最新の %num% 件の会話ログを表示する"/>
 	<translation from="prefsActivityHistoryAutoSearch" to="auto history;autohistory;previous conversation"/>
 	<translation from="prefsActivityHistoryDescription" to="Change how Trillian archives all of your messages and activities."/>
-	<translation from="prefsActivityHistoryDirectoryBrowse" to="Browse..."/>
+	<translation from="prefsActivityHistoryDirectoryBrowse" to="参照..."/>
 	<translation from="prefsActivityHistoryLogAudio" to="音声チャット"/>
-	<translation from="prefsActivityHistoryLogConferences" to="Conferences"/>
-	<translation from="prefsActivityHistoryLogConnections" to="Connections"/>
-	<translation from="prefsActivityHistoryLogContacts" to="Contacts"/>
-	<translation from="prefsActivityHistoryLogConversations" to="Text conversations"/>
-	<translation from="prefsActivityHistoryLogIcons" to="Icon changes"/>
+	<translation from="prefsActivityHistoryLogConferences" to="会議"/>
+	<translation from="prefsActivityHistoryLogConnections" to="接続ログ"/>
+	<translation from="prefsActivityHistoryLogContacts" to="コンタクト"/>
+	<translation from="prefsActivityHistoryLogConversations" to="テキスト会話"/>
+	<translation from="prefsActivityHistoryLogIcons" to="アイコン変更"/>
 	<translation from="prefsActivityHistoryLogImages" to="画像"/>
-	<translation from="prefsActivityHistoryLogSubjects" to="Subjects"/>
+	<translation from="prefsActivityHistoryLogSubjects" to="対象"/>
 	<translation from="prefsActivityHistoryLogType" to="メディアタイプ"/>
 	<translation from="prefsActivityHistoryLogVideo" to="ビデオチャット"/>
 	<translation from="prefsActivityHistoryName" to="ログ"/>
@@ -907,7 +907,7 @@
 	<translation from="prefsAwayMessagesRemove" to="削除..."/>
 	<translation from="prefsAwayMessagesRemoveSearch" to="remove away message;away message;away messages"/>
 	<translation from="prefsAwayMessagesSearch" to="edit away message;away message;away messages"/>
-	<translation from="prefsAwayMessagesSong" to="Set my status to what I&apos;m listening to"/>
+	<translation from="prefsAwayMessagesSong" to="今聞いている曲をステータスに表示する"/>
 	<translation from="prefsAwayMessagesSongSearch" to="away message;available message;status message;song;album;artist;winamp;itunes;media player"/>
 	<translation from="prefsAwayName" to="ステータス"/>
 	<translation from="prefsAwayNotification" to="通知ウィンドウは表示しない"/>
@@ -917,7 +917,7 @@
 	<translation from="prefsAwaySounds" to="Trillianサウンドは鳴らさない"/>
 	<translation from="prefsAwaySoundsSearch" to="sound;sounds;mute;sounds off;sound off"/>
 	<translation from="prefsBasicInformationDescription" to="This display name may or may not be inherited by connection plugins.  If you are having trouble changing your display name on a particular service, please be sure to check the options menu from within the service itself for a local method to change your display name."/>
-	<translation from="prefsBasicInformationDisplay" to="Display name:"/>
+	<translation from="prefsBasicInformationDisplay" to="表示名称:"/>
 	<translation from="prefsBasicInformationDisplaySearch" to="name;display name"/>
 	<translation from="prefsBasicInformationName" to="Basic Information"/>
 	<translation from="prefsBasicInformationNameOther" to="Basic Information - %identity%"/>
@@ -940,9 +940,9 @@
 	<translation from="prefsConnectionsDescription" to="Manage your accounts and fine-tune individual account settings."/>
 	<translation from="prefsConnectionsName" to="Accounts"/>
 	<translation from="prefsConnectionsNameSearch" to="connections;medium;account;aim;icq;msn;yahoo!;jabber;irc;internet relay chat;rendezvous;serverlessim;serverless im;identity;icon;"/>
-	<translation from="prefsContactListAlwaysOnTop" to="Show contact list always on top of other windows"/>
+	<translation from="prefsContactListAlwaysOnTop" to="常にコンタクトリストは最前面に表示する"/>
 	<translation from="prefsContactListAlwaysOnTopSearch" to="always on top;on top"/>
-	<translation from="prefsContactListAutosize" to="Automatically resize to fit content"/>
+	<translation from="prefsContactListAutosize" to="自動でコンタクトリストの内容に合わせてリサイズする"/>
 	<translation from="prefsContactListAutosizeSearch" to="autoresize;autosize;autofit"/>
 	<translation from="prefsContactListAutosizeUpwards" to="Size upwards"/>
 	<translation from="prefsContactListAutosizeUpwardsSearch" to="autoresize;autosize;autofit"/>
@@ -1097,7 +1097,7 @@
 	<translation from="prefsMessageAppearanceDescription" to="Display your chats in many unique and interesting ways."/>
 	<translation from="prefsMessageAppearanceName" to="Chat Views"/>
 	<translation from="prefsMessageWindowsActionsToolbar" to="Show actions toolbar on top of chat windows"/>
-	<translation from="prefsMessageWindowsAllTab" to="Group tabs into a single window"/>
+	<translation from="prefsMessageWindowsAllTab" to="1ウィンドウ内にタブでグループする"/>
 	<translation from="prefsMessageWindowsAllTabSearch" to="window creation;container;tabbed;tabs;autotab;smart tabs"/>
 	<translation from="prefsMessageWindowsAlwaysOnTop" to="Trillianのウィンドウは、常に他のウィンドウより前面に表示する"/>
 	<translation from="prefsMessageWindowsAlwaysOnTopSearch" to="always on top;"/>
@@ -1206,7 +1206,7 @@
 	<translation from="prefsNotificationsSoundsMessageIn" to="メッセージを受信時"/>
 	<translation from="prefsNotificationsSoundsMessageNew" to="When a new conversation is started by a contact"/>
 	<translation from="prefsNotificationsSoundsMessageOut" to="メッセージを送信時"/>
-	<translation from="prefsNotificationsSoundsMessageProgram" to="Trillianが起動時"/>
+	<translation from="prefsNotificationsSoundsMessageProgram" to="Trillianの起動時"/>
 	<translation from="prefsNotificationsSoundsSearch" to="sound;sounds;play sounds"/>
 	<translation from="prefsNotificationsSoundsSignoff" to="コンタクトがサインオフした時"/>
 	<translation from="prefsNotificationsSoundsSignon" to="コンタクトがサインオンした時"/>
@@ -1312,36 +1312,36 @@
 	<translation from="prefsTextConversationsColorChooseSearch" to="font;text color;font color;color"/>
 	<translation from="prefsTextConversationsDescription" to="Customize your basic window functions, colors, and fonts to fit your style of messaging."/>
 	<translation from="prefsTextConversationsEditToolbar" to="Show text editing toolbar on bottom of chat windows"/>
-	<translation from="prefsTextConversationsEmoticonSpaceRequired" to="Only show emoticons when surrounded by whitespace"/>
+	<translation from="prefsTextConversationsEmoticonSpaceRequired" to="空白文字に囲まれた場合に絵文字を表示する"/>
 	<translation from="prefsTextConversationsEmoticonSpaceRequiredSearch" to="絵文字"/>
 	<translation from="prefsTextConversationsEmoticons" to="絵文字を表示する"/>
 	<translation from="prefsTextConversationsEmoticonsSearch" to="絵文字"/>
-	<translation from="prefsTextConversationsEmotisounds" to="Play emoticon sounds when applicable"/>
+	<translation from="prefsTextConversationsEmotisounds" to="可能な場合、絵文字サウンドを再生する"/>
 	<translation from="prefsTextConversationsEmotisoundsSearch" to="emotisounds;LOL;sound;sounds"/>
 	<translation from="prefsTextConversationsFontChoose" to="フォント..."/>
 	<translation from="prefsTextConversationsFontChooseSearch" to="font;font style;style;font face"/>
-	<translation from="prefsTextConversationsFormatting" to="Override formatting received from others with this font"/>
+	<translation from="prefsTextConversationsFormatting" to="他人から送信された書式をこのフォントを使って表示する"/>
 	<translation from="prefsTextConversationsFormattingSearch" to="formatting;bold;italics;underline"/>
-	<translation from="prefsTextConversationsFormattingSend" to="Apply this formatting to messages I send to others"/>
+	<translation from="prefsTextConversationsFormattingSend" to="他人に送信するメッセージにこのフォーマットを適用する"/>
 	<translation from="prefsTextConversationsFormattingSendSearch" to="formatting;bold;italics;underline"/>
 	<translation from="prefsTextConversationsInstantLookupLink" to="Configure Instant Lookup..."/>
-	<translation from="prefsTextConversationsListEmoticons" to="To show emoticon list"/>
+	<translation from="prefsTextConversationsListEmoticons" to="絵文字リスト表示"/>
 	<translation from="prefsTextConversationsListEmoticonsSearch" to="emoticons;emoticon list;edit"/>
 	<translation from="prefsTextConversationsMessageDisplay" to="Show messages in conversation bubbles"/>
 	<translation from="prefsTextConversationsMessageDisplaySearch" to="bubbles;messages;"/>
 	<translation from="prefsTextConversationsName" to="Fonts &amp; Chats"/>
 	<translation from="prefsTextConversationsNewLine" to="改行"/>
 	<translation from="prefsTextConversationsNewLineSearch" to="newline;enter;insert new line;edit"/>
-	<translation from="prefsTextConversationsRecentItems" to="To access lines I&apos;ve recently sent"/>
+	<translation from="prefsTextConversationsRecentItems" to="自分が最近送った行にアクセス"/>
 	<translation from="prefsTextConversationsRecentItemsSearch" to="history;edit history;up;recent;edit"/>
 	<translation from="prefsTextConversationsSendMessage" to="メッセージ送信"/>
 	<translation from="prefsTextConversationsSendMessageSearch" to="send message;message;send;message send;edit"/>
 	<translation from="prefsTextConversationsTimestampInstructions" to="%h - hour (24hr)&#09;&#09;%H - hour (12hr)&#09;%a - AM/PM&#13;&#10;%m - minutes&#09;&#09;%s - seconds&#09;%y - year&#13;&#10;%N - month number&#09;%n- month&#09;%d - day (ie: Mon.)&#13;&#10;%D - day number"/>
 	<translation from="prefsTextConversationsTimestamps" to="メッセージ毎のタイムスタンプを表示する"/>
 	<translation from="prefsTextConversationsTimestampsCustomEditSearch" to="display;timestamp;time;time stamp"/>
-	<translation from="prefsTextConversationsTimestampsEnhanced" to="Show relative timestamps (e.g. &quot;5 minutes ago&quot;)"/>
+	<translation from="prefsTextConversationsTimestampsEnhanced" to="相対的なタイムスタンプを表示する (例 &quot;5 分前&quot;)"/>
 	<translation from="prefsTextConversationsTimestampsEnhancedSearch" to="display;timestamp;time;time stamp;ago;minutes ago;hours ago"/>
-	<translation from="prefsTextConversationsTimestampsExample" to="(e.g. &quot;%example%&quot;)"/>
+	<translation from="prefsTextConversationsTimestampsExample" to="(例 &quot;%example%&quot;)"/>
 	<translation from="prefsTextConversationsTimestampsSearch" to="display;timestamp;time;time stamp"/>
 	<translation from="prefsTextConversationsTyping" to="自分がメッセージを入力中の場合、通知する"/>
 	<translation from="prefsTextConversationsTypingProtectionSearch" to="typing;notifications;privacy"/>

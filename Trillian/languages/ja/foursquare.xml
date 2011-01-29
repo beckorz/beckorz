@@ -69,9 +69,9 @@
 	<translation from="menuCheckin" to="Check-in"/>
 	<translation from="menuDeny" to="拒否"/>
 	<translation from="menuDisconnect" to="切断"/>
-	<translation from="menuGoToFoursquareHome" to="Foursquare Home"/>
+	<translation from="menuGoToFoursquareHome" to="Foursquareホーム"/>
 	<translation from="menuHide" to="隠す"/>
-	<translation from="menuMoreSettings" to="More Settings"/>
+	<translation from="menuMoreSettings" to="その他の設定"/>
 	<translation from="menuPinCheckinsToContactList" to="Pin Checkins to Contact List"/>
 	<translation from="menuPinToContactList" to="Pin to Contact List"/>
 	<translation from="menuPrivateCheckin" to="Private Check-in"/>

@@ -20,7 +20,7 @@
 	<translation from="&amp;Update Available..." to="アップデートがあります...(&amp;U)"/>
 	<translation from="&amp;View" to="表示(&amp;V)"/>
 	<translation from="&amp;Window" to="ウィンドウ(&amp;W)"/>
-	<translation from="Account Settings" to="Account Settings"/>
+	<translation from="Account Settings" to="アカウント設定"/>
 	<translation from="Activity &amp;History" to="動作ログ(&amp;H)"/>
 	<translation from="Add" to="追加"/>
 	<translation from="Add Contact" to="コンタクトを追加"/>
@@ -216,7 +216,7 @@
 	<translation from="Upgrade to Trillian Pro" to="Trillian Proへアップグレード"/>
 	<translation from="User: Default Message Send" to="User: Default Message Send"/>
 	<translation from="View" to="表示"/>
-	<translation from="View Activity History" to="View Activity History"/>
+	<translation from="View Activity History" to="ログ表示"/>
 	<translation from="View Contact Information" to="コンタクト情報を表示"/>
 	<translation from="alert" to="アラート"/>
 	<translation from="alertHeaderSignOff" to="%num% of %total% signed off"/>

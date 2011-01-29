@@ -6,77 +6,77 @@
 	<translation from="%num% of %total% messages" to="%num% of %total% messages"/>
 	<translation from="%num% of %total% updates" to="%num% of %total% updates"/>
 	<translation from="(no subject)" to="(無題)"/>
-	<translation from="1 person likes this." to="1 person likes this."/>
+	<translation from="1 person likes this." to="1人がいいね!と言っています"/>
 	<translation from="A friend updates his or her status" to="A friend updates his or her status"/>
 	<translation from="A group invitation is received" to="A group invitation is received"/>
 	<translation from="An event invitation is received" to="An event invitation is received"/>
 	<translation from="Combine feed items from the same person" to="Combine feed items from the same person"/>
-	<translation from="Comment..." to="コメント..."/>
+	<translation from="Comment..." to="コメントする..."/>
 	<translation from="Configure how the news feed will appear in the contact list." to="Configure how the news feed will appear in the contact list."/>
 	<translation from="Enter your first and last name below and click connect." to="Enter your first and last name below and click connect."/>
 	<translation from="Events" to="イベント"/>
 	<translation from="Facebook Home" to="Facebook ホーム"/>
 	<translation from="Facebook Login and Authorization" to="Facebook Login and Authorization"/>
-	<translation from="Feed Items" to="Feed Items"/>
+	<translation from="Feed Items" to="フィードアイテム"/>
 	<translation from="Groups" to="グループ"/>
-	<translation from="Like" to="Like"/>
-	<translation from="Loading ..." to="Loading ..."/>
+	<translation from="Like" to="いいね!"/>
+	<translation from="Loading ..." to="読込中 ..."/>
 	<translation from="Name" to="名前"/>
 	<translation from="New event invites" to="New event invites"/>
 	<translation from="New friend requests" to="New friend requests"/>
 	<translation from="New group invites" to="New group invites"/>
-	<translation from="News Feed" to="News Feed"/>
-	<translation from="News Feed Behavior" to="News Feed Behavior"/>
-	<translation from="No new events." to="No new events."/>
+	<translation from="News Feed" to="ニュースフィード"/>
+	<translation from="News Feed Behavior" to="ニュースフィードの動作"/>
+	<translation from="No new events." to="近日予定のイベントはありません"/>
 	<translation from="No new friend requests." to="No new friend requests."/>
 	<translation from="No new group invitations." to="No new group invitations."/>
-	<translation from="No new posts." to="No new posts."/>
+	<translation from="No new posts." to="新規投稿はありません"/>
 	<translation from="Notifications" to="通知"/>
 	<translation from="Notify me when:" to="Notify me when:"/>
-	<translation from="Number of unread pokes" to="Number of unread pokes"/>
+	<translation from="Number of unread pokes" to="未読のあいさつの数"/>
 	<translation from="OK" to="OK"/>
 	<translation from="Pick which events you want to receive a notification for." to="Pick which events you want to receive a notification for."/>
 	<translation from="Pin news feed to the contact list" to="Pin news feed to the contact list"/>
 	<translation from="Refresh" to="再更新"/>
-	<translation from="Requests" to="Requests"/>
-	<translation from="Send a Mail Message..." to="Send a Mail Message..."/>
+	<translation from="Requests" to="リクエスト"/>
+	<translation from="Send a Mail Message..." to="メッセージを送る..."/>
 	<translation from="Settings" to="設定"/>
 	<translation from="Share (%edit.count_relative%)" to="Share (%edit.count_relative%)"/>
-	<translation from="Share a message ..." to="Share a message ..."/>
-	<translation from="Someone pokes me" to="Someone pokes me"/>
+	<translation from="Share a message ..." to="今何してる?..."/>
+	<translation from="Someone pokes me" to="誰かが私へあいさつしています"/>
 	<translation from="Someone sends me a friend request" to="Someone sends me a friend request"/>
 	<translation from="Status message updates" to="Status message updates"/>
 	<translation from="Suppress sign on/off notifications" to="Suppress sign on/off notifications"/>
 	<translation from="There was an error communicating with Facebook." to="There was an error communicating with Facebook."/>
-	<translation from="Unlike" to="Unlike"/>
-	<translation from="View Feed" to="View Feed"/>
-	<translation from="View Friends..." to="View Friends..."/>
-	<translation from="View Profile..." to="View Profile..."/>
-	<translation from="View Request..." to="View Request..."/>
+	<translation from="Unlike" to="いいね!を取り消す"/>
+	<translation from="View Feed" to="フィードを表示"/>
+	<translation from="View Friends..." to="友達を表示..."/>
+	<translation from="View Profile..." to="プロフィールを表示..."/>
+	<translation from="View Request..." to="リクエストを表示..."/>
 	<translation from="textAuthAborted" to="Facebook authorization was cancelled  You must authorize Trillian to connect to Facebook to continue."/>
 	<translation from="textComment" to="コメント"/>
 	<translation from="textEventInvite" to="You have been invited to the &quot;%name%&quot; event."/>
 	<translation from="textFriendInvite" to="wants to add you as a friend."/>
 	<translation from="textFriendInviteName" to="%name% wants to add you as a friend."/>
-	<translation from="textGrantPermmission" to="Grant Permission"/>
+	<translation from="textGrantPermmission" to="権限を付与する"/>
 	<translation from="textGroupInvite" to="You have been invited to the &quot;%name%&quot; group."/>
-	<translation from="textLikeName" to="%name% likes this."/>
-	<translation from="textLikeOther" to="%name% and 1 other likes this."/>
-	<translation from="textLikeOthers" to="%name% and %num% others like this."/>
+	<translation from="textLikeName" to="%name% がいいね!と言っています."/>
+	<translation from="textLikeOther" to="%name% と 他に1人がいいね!と言っています"/>
+	<translation from="textLikeOthers" to="%name% と 他に%num%人がいいね!と言っています"/>
 	<translation from="textLikePeople" to="%num% people like this."/>
-	<translation from="textLoadingComments" to="Loading Comments..."/>
+	<translation from="textLoadingComments" to="コメントを読込中です..."/>
 	<translation from="textMaxFeedItemAge" to="Do not show items older than %maxFeedItemAge% days"/>
 	<translation from="textMaxFeedItems" to="Show %maxFeedItems% feed items at maximum"/>
-	<translation from="textMoreSettings" to="More Settings"/>
-	<translation from="textNewPoke" to="You have 1 new poke."/>
-	<translation from="textNewPokes" to="You have %count% new pokes."/>
-	<translation from="textPermissionNeeded" to="Trillian needs your permission to connect to Facebook."/>
+	<translation from="textMoreSettings" to="その他の設定"/>
+	<translation from="textNewPoke" to="新着あいさつが一件届いています"/>
+	<translation from="textNewPokes" to="新着あいさつが%count%件届いています"/>
+	<translation from="textPermissionNeeded" to="Trillianは、Facebookに対するアクセス権が必要です。"/>
 	<translation from="textPinMenu" to="Pin News to Contact List"/>
-	<translation from="textPoke" to="Poke %name%..."/>
-	<translation from="textSessionCheck" to="Checking session key..."/>
-	<translation from="textVia" to="via %name%"/>
+	<translation from="textPoke" to="%name%へあいさつする..."/>
+	<translation from="textSessionCheck" to="セッションキーをチェック中..."/>
+	<translation from="textVia" to="で %name%"/>
 	<translation from="textViewComments" to="View all %num% comments"/>
 	<translation from="textViewPhotosBy" to="View Photos by %name%..."/>
 	<translation from="textViewPhotosOf" to="View Photos of %name%..."/>
-	<translation from="textWriteComment" to="Write a comment..."/>
+	<translation from="textWriteComment" to="コメントする..."/>
 </language>

@@ -6,7 +6,7 @@
 	<translation from="Default" to="Default"/>
 	<translation from="Latitude" to="緯度"/>
 	<translation from="Longitude" to="経度"/>
-	<translation from="Override default resource name with: %prefsAstraResourceName%" to="Override default resource name with: %prefsAstraResourceName%"/>
+	<translation from="Override default resource name with: %prefsAstraResourceName%" to="このプロトコルでは次の表示名を使用: %prefsAstraResourceName%"/>
 	<translation from="Proxy:" to="プロキシー:"/>
 	<translation from="QuickTime could not be located on your computer, and is required for video conferencing.  Please download it at http://www.apple.com/quicktime/download/" to="ビデオ カンファレンスを開始するためには QuickTime が必要ですが、このコンピュータにはインストールされていません。 http://www.apple.com/quicktime/download/ からダウンロードしてください。"/>
 	<translation from="Securely synchronize my accounts between devices" to="Securely synchronize my accounts between devices"/>
@@ -17,10 +17,10 @@
 	<translation from="infoErrorOther" to="認証エラー。エラーコードは %errcode% です。"/>
 	<translation from="infoErrorPassword" to="パスワードが間違っています。"/>
 	<translation from="infoErrorServerVersion" to="このバージョンの Trillian では、このサーバに接続できません。アップデートが必要です。"/>
-	<translation from="infoErrorUnavailable" to="Astra への接続ができませんでした。しばらく時間をおいて再度接続してください。"/>
+	<translation from="infoErrorUnavailable" to="Astra への接続ができませんでした。暫く時間をおいて再度接続してください。"/>
 	<translation from="infoErrorVersion" to="このバージョンの Trillian はもう利用できません。アップデートが必要です。"/>
 	<translation from="infoMsgLenExceeded" to="メッセージが長すぎるため、送信に失敗しました。"/>
-	<translation from="infoMsgLost" to="あなたのメッセージを相手に届けることができませんでした。再度送信してください。"/>
+	<translation from="infoMsgLost" to="あなたのメッセージを相手に届けることができませんでした。再度送信して下さい。"/>
 	<translation from="infoMsgPermissions" to="ブロックされた人にメッセージを送信することはできません。"/>
 	<translation from="infoOtherComputer" to="他のコンピュータからあなたのIDでログインしたため、ログアウトされました。"/>
 	<translation from="infoResourceChangeAuto" to="You are no longer forcefully delivering messages to the resource &quot;%resource%&quot;."/>

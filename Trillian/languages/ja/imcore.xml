@@ -185,7 +185,7 @@
 	<translation from="systrayAuthDenied" to="%username% は認証要求を拒否しました。"/>
 	<translation from="systrayAuthRequest" to="%username% はコンタクトリストに追加の認証を要求しています。"/>
 	<translation from="systrayMail" to="%username%: 新しいメールがあります"/>
-	<translation from="systrayMailFrom" to="%username%: You have new mail from &lt;b&gt;%from%&lt;/b&gt; regarding: &quot;&lt;b&gt;%subject%&lt;/b&gt;&quot;."/>
+	<translation from="systrayMailFrom" to="%username%: 新着メールが &lt;b&gt;%from%&lt;/b&gt; から届きました。 件名: &quot;&lt;b&gt;%subject%&lt;/b&gt;&quot;."/>
 	<translation from="systrayMailStatsP" to="%username%: 受信トレイに %count% 個の メールがあります。"/>
 	<translation from="systrayMailStatsS" to="%username%: 受信トレイに 1個の メールがあります。"/>
 	<translation from="systrayPassword" to="The %medium% password you entered is incorrect.  Please try again."/>
