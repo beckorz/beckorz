@@ -75,7 +75,7 @@
 	<translation from="textPoke" to="%name%へあいさつする..."/>
 	<translation from="textSessionCheck" to="セッションキーをチェック中..."/>
 	<translation from="textVia" to="で %name%"/>
-	<translation from="textViewComments" to="View all %num% comments"/>
+	<translation from="textViewComments" to="%num%件 全てのコメントを表示"/>
 	<translation from="textViewPhotosBy" to="View Photos by %name%..."/>
 	<translation from="textViewPhotosOf" to="View Photos of %name%..."/>
 	<translation from="textWriteComment" to="コメントする..."/>

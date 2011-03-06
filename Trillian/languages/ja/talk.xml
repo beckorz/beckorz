@@ -9,7 +9,7 @@
 	<translation from="%from% to %contact%" to="%from% to %contact%"/>
 	<translation from="%month% %year%" to="%month% %year%"/>
 	<translation from="%name% appears to be offline.  Messages you send will be delivered when they sign in." to="%name% はオフラインです。送信したメッセージは、相手がサインインしたときに配信されます。"/>
-	<translation from="%name% appears to be offline.  Messages you send will most likely &lt;b&gt;not&lt;/b&gt; be delivered when they sign in" to="%name% appears to be offline.  Messages you send will most likely &lt;b&gt;not&lt;/b&gt; be delivered when they sign in"/>
+	<translation from="%name% appears to be offline.  Messages you send will most likely &lt;b&gt;not&lt;/b&gt; be delivered when they sign in" to="%name% はオフラインです。 Messages you send will most likely &lt;b&gt;not&lt;/b&gt; be delivered when they sign in"/>
 	<translation from="%num% %word_hour% ago at %time%" to="%num% %word_hour%前 (%time%)"/>
 	<translation from="%num% %word_minute% ago at %time%" to="%num% %word_minute%前 (%time%)"/>
 	<translation from="%num% %word_week% ago" to="%num% %word_week%前"/>
