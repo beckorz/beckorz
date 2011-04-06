@@ -14,16 +14,20 @@ set bs=indent,eol,start
 "set bkc=no
 
 " バックアップファイルを作るディレクトリを設定する(backupdir)
-"set bdir=.,~/tmp,~/
+set bdir=.,~/tmp,~/
 
 " バックアップファイルの拡張子(backupext)
-set bex=.backup
+"set bex=.backup
+au BufWritePre * let &bex = '.' . strftime("%Y%m%d%H%M%S")
 
 " ファイルブラウザにどのディレクトリを使うかを指定する(Windows版等のGUI用)(browsedir)
 set bsdir=buffer
 
 " コマンドラインに使われるスクリーン上の行数(cmdheight)
 "set ch=2
+
+" Diffモード用のオプション設定(diffopt)
+set dip=filler,vertical
 
 " Vimの通常使う文字エンコーディング(encoding)
 "set enc=utf-8
@@ -64,17 +68,20 @@ set ls=2
 " listで表示される文字のフォーマットを指定する(listchars)
 set lcs=tab:>-,eol:$,extends:>
 
+" モードラインの有効無効(modeline)
+set ml
+
 " マウスを有効にするモードを設定する(mouse)
 set mouse=a
 
 " Ctrl+A、Ctrl+Xの加減算コマンドで認識する基数(nrformats)
 set nf=alpha,hex
 
-" モードラインの有効無効(modeline)
-set ml
-
 " 行番号を表示する(number)
 " set nu
+
+" 最も古いバージョンのバックアップだけ保管されるようにする(patchmode)
+"set pm=.orig
 
 " ペースト時に一時的にautoindent等を無効にするペーストモードの切替キー(pastetoggle)
 set pt=<F11>
@@ -101,7 +108,7 @@ set scs
 set si
 
 " ウィンドウの横分割で新しいウィンドウをカレントウィンドウの下に開く(splitbelow)
-"set sb
+set sb
 
 " ウィンドウの縦分割で新しいウィンドウをカレントウィンドウの右に開く(splitright)
 set spr
@@ -109,17 +116,26 @@ set spr
 " ステータス行の表示内容を設定する(statusline)
 set stl=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 
-" 強調表示(色付け)のON/OFF設定(syntax)
-sy on
-
 " ファイル内の <Tab> が対応する空白の数(tabstop)
 set ts=4
 
 " ターミナルでマウスを使う設定(ttymouse)
 set ttym=xterm2
 
+" viminfoファイルの設定(viminfo)
+set vi='20,<50,h
+
 " ウィンドウの幅を超える行の折り返し設定
 set nowrap
+
+" ファイルの末尾まで検索したら先頭にループする(wrapscan)
+set nowrapscan
+
+" ファイル形式別プラグインの有効化
+filetype plugin on
+
+" 強調表示(色付け)のON/OFF設定(syntax)
+sy on
 
 " 文字コードの自動認識
 if &encoding !=# 'utf-8'
@@ -177,3 +193,6 @@ set fileformats=unix,dos,mac
 if exists('&ambiwidth')
 	set ambiwidth=double
 endif
+
+" vimウィンドウ内でmanページ表示
+ru ftplugin/man.vim
