@@ -29,6 +29,7 @@
 	<translation from="Change Password" to="パスワードを変更"/>
 	<translation from="Check Mail" to="メールをチェック"/>
 	<translation from="Client" to="クライアント"/>
+	<translation from="Comment..." to="Comment..."/>
 	<translation from="Connection" to="接続"/>
 	<translation from="Contact:" to="コンタクト:"/>
 	<translation from="Disconnect" to="切断"/>
@@ -39,11 +40,11 @@
 	<translation from="Error during file transfer." to="Error during file transfer."/>
 	<translation from="Establishing call..." to="Establishing call..."/>
 	<translation from="File transfer active." to="File transfer active."/>
-	<translation from="File transfer cancelled by remote." to="相手からファイル転送を中止されました。"/>
-	<translation from="File transfer cancelled." to="ファイル転送は中止しました。"/>
-	<translation from="File transfer closed." to="ファイル転送は終了しました。"/>
+	<translation from="File transfer cancelled by remote." to="ファイル転送が相手からキャンセルされました。"/>
+	<translation from="File transfer cancelled." to="ファイル転送がキャンセルされました。"/>
+	<translation from="File transfer closed." to="ファイル転送が終了しました。"/>
 	<translation from="File transfer completed successfully." to="ファイル転送は正常に終了しました。"/>
-	<translation from="File transfer declined." to="File transfer declined."/>
+	<translation from="File transfer declined." to="ファイル転送が拒否されました。"/>
 	<translation from="File transfer was accepted at another location." to="File transfer was accepted at another location."/>
 	<translation from="Fine tune the server and proxy settings for this connection." to="Fine tune the server and proxy settings for this connection."/>
 	<translation from="Follow Global Presence" to="Follow Global Presence"/>
@@ -62,7 +63,7 @@
 	<translation from="Mail: New Mail" to="Mail: New Mail"/>
 	<translation from="Manage other options for this account." to="Manage other options for this account."/>
 	<translation from="Manage the privacy settings for this account." to="Manage the privacy settings for this account."/>
-	<translation from="Manually specify proxy" to="手動にプロキシーを決める"/>
+	<translation from="Manually specify proxy" to="手動にプロキシを決める"/>
 	<translation from="Message" to="メッセージ"/>
 	<translation from="Miscellaneous" to="その他"/>
 	<translation from="Mobile" to="モバイル"/>
@@ -81,7 +82,7 @@
 	<translation from="Privacy" to="プライバシー"/>
 	<translation from="Privacy settings can only be controlled when connected to this account." to="Privacy settings can only be controlled when connected to this account."/>
 	<translation from="Protocol:" to="プロトコル:"/>
-	<translation from="Proxy" to="プロキシー"/>
+	<translation from="Proxy" to="プロキシ"/>
 	<translation from="Re-request Authorization" to="もう一度認証を要求"/>
 	<translation from="Reconnect" to="再接続"/>
 	<translation from="Remove" to="削除"/>
@@ -190,8 +191,8 @@
 	<translation from="systrayMailStatsS" to="%username%: 受信トレイに 1個の メールがあります。"/>
 	<translation from="systrayPassword" to="The %medium% password you entered is incorrect.  Please try again."/>
 	<translation from="systrayStatus" to="%medium% にの接続は失敗しました.  詳細を表示するにはここにクリックしてください。"/>
-	<translation from="textApprove" to="Approve"/>
-	<translation from="textApproveAndAdd" to="Approve and Add"/>
+	<translation from="textApprove" to="同意"/>
+	<translation from="textApproveAndAdd" to="同意&amp;追加"/>
 	<translation from="textDeny" to="拒否"/>
 	<translation from="textIgnore" to="無視"/>
 	<translation from="textReEnterPassword" to="Re-enter Password"/>

@@ -9,7 +9,7 @@
 	<translation from="CreatedByStr" to="Created by"/>
 	<translation from="DescriptionStr" to="詳細"/>
 	<translation from="DistanceStr" to="Distance"/>
-	<translation from="EmailStr" to="Email"/>
+	<translation from="EmailStr" to="Eメール"/>
 	<translation from="ErrorRetrievingAllFriendsStr" to="Error retrieving list of friends"/>
 	<translation from="ErrorRetrievingFriendCheckinsStr" to="Error retrieving checkins from friends"/>
 	<translation from="ErrorRetrievingFriendRequestsStr" to="Error retrieving list of friend requests"/>
@@ -39,8 +39,8 @@
 	<translation from="NearbyPlacesStr" to="Nearby Places"/>
 	<translation from="NearbyTipsGroupEmptyStr" to="No nearby tips found"/>
 	<translation from="NearbyTipsStr" to="Nearby Tips"/>
-	<translation from="NewsFeed" to="News Feed"/>
-	<translation from="Notifications" to="Notifications"/>
+	<translation from="NewsFeed" to="ニュースフィード"/>
+	<translation from="Notifications" to="通知"/>
 	<translation from="Organization" to="Organization"/>
 	<translation from="PhoneStr" to="電話"/>
 	<translation from="RefreshingAllFriendsStr" to="Refreshing list of friends"/>
@@ -86,7 +86,7 @@
 	<translation from="postButtonShoutStr" to="Shout (%edit.count_relative%)"/>
 	<translation from="prefsConnectionAutoConnect" to="Automatically connect to this account at startup"/>
 	<translation from="prefsConnectionInvitation" to="Enter your Foursquare username below, and click connect"/>
-	<translation from="prefsConnectionSettingsProxyHeader" to="プロキシー"/>
+	<translation from="prefsConnectionSettingsProxyHeader" to="プロキシ"/>
 	<translation from="prefsConnectionSettingsProxyHost" to="ホスト:"/>
 	<translation from="prefsConnectionSettingsProxyPassword" to="パスワード:"/>
 	<translation from="prefsConnectionSettingsProxyPort" to="ポート:"/>
@@ -104,7 +104,7 @@
 	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its icon from the identity panel"/>
 	<translation from="prefsMiscellaneousItems" to="Items"/>
 	<translation from="prefsMiscellaneousMaxItemNumberPerGroup" to="Show %prefsMiscellaneousMaxItemNumberPerGroup% Items per group on Contact List"/>
-	<translation from="prefsMiscellaneousOptions" to="Options"/>
+	<translation from="prefsMiscellaneousOptions" to="オプション"/>
 	<translation from="prefsMiscellaneousSettingsTitle" to="Manage options for this account."/>
 	<translation from="prefsMiscellaneousShowMyAccountInContactList" to="Show my account in the contact list"/>
 	<translation from="prefsNewsFeedFeedItems" to="Feed Items"/>

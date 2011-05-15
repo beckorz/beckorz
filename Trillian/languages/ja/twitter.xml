@@ -4,7 +4,7 @@
 	<translation from="Contacts" to="コンタクト"/>
 	<translation from="Current Tweet" to="最新のツイート"/>
 	<translation from="Direct Messages" to="ダイレクトメッセージ"/>
-	<translation from="DirectMessagesGroupEmptyStr" to="No direct messages found"/>
+	<translation from="DirectMessagesGroupEmptyStr" to="ダイレクトメッセージは見つかりませんでした"/>
 	<translation from="ErrorRetrievingDirectMessagesStr" to="ダイレクトメッセージを取得できませんでした"/>
 	<translation from="ErrorRetrievingFollowersStr" to="フォロワー一覧を取得できませんでした"/>
 	<translation from="ErrorRetrievingFollowingStr" to="フォロー一覧を取得できませんでした"/>
@@ -22,6 +22,7 @@
 	<translation from="Location" to="場所"/>
 	<translation from="Manage options for this account" to="このアカウントのオプションを変更する"/>
 	<translation from="Manage the organization settings for this account" to="このアカウントの表示設定を変更する"/>
+	<translation from="Mentions" to="Mentions"/>
 	<translation from="MessageEditCountRelative" to="メッセージ (%edit.count_relative%)"/>
 	<translation from="Miscellaneous" to="その他"/>
 	<translation from="New Twitter Trend" to="新しい Twitter トレンド"/>
@@ -81,11 +82,11 @@
 	<translation from="infoReplyToContact" to="This is a public reply to %contact%"/>
 	<translation from="infoReplyToContactToTheFollowingTweet" to="This is a public reply to %contact% to the following tweet &quot;%tweet%&quot;"/>
 	<translation from="infoSystrayAlertRegardingTheSearchTerm" to="Regarding the search term: "/>
-	<translation from="infoSystrayAlertThereAreNewTweets" to="新着のツイートがあります。"/>
 	<translation from="infoSystrayAlertThereAreNewTweetsRelatedToTheSearchTerm" to="&quot;%term%&quot; に関連する新着ツイートが %num% 件あります。"/>
 	<translation from="infoSystrayAlertThereAreNewTwitterTrends" to="新しい Twitter トレンドがあります。"/>
 	<translation from="infoSystrayAlertThereAreNumNewDirectMessages" to="%num% 件の新着ダイレクトメッセージがあります。"/>
 	<translation from="infoSystrayAlertThereAreNumNewTweets" to="%num% 件の新着のツイートがあります。"/>
+	<translation from="infoSystrayAlertThereAreNumNewTweetsRelatedToTheList" to="There are %num% new tweets related to the list: %list%"/>
 	<translation from="infoSystrayAlertThereIsNewTwitterTrend" to="There is a new Twitter Trend: "/>
 	<translation from="infoTweet" to="ツイート"/>
 	<translation from="infoTweetRemoveDialogCaption" to="Twitter"/>
@@ -99,33 +100,33 @@
 	<translation from="menuConnectionGoToMyTwitterProfilePage" to="プロフィール"/>
 	<translation from="menuConnectionReconnect" to="再接続"/>
 	<translation from="menuCopy" to="コピー"/>
-	<translation from="menuDelete" to="Delete"/>
+	<translation from="menuDelete" to="削除"/>
 	<translation from="menuDirectMessageContact" to="%contact% へダイレクトメッセージを送る"/>
 	<translation from="menuEdit" to="編集"/>
 	<translation from="menuFollow" to="フォロー"/>
 	<translation from="menuFollowLinks" to="フォローリンク"/>
 	<translation from="menuHide" to="隠す"/>
-	<translation from="menuIgnoreContact" to="%contact% を無視する"/>
+	<translation from="menuIgnoreContact" to="無視"/>
 	<translation from="menuMarkAsFavorite" to="お気に入りに登録する"/>
-	<translation from="menuMarkContactAsANewsbot" to="%contact% をニュース BOT として登録する"/>
+	<translation from="menuMarkContactAsANewsbot" to="Mark as a Newsbot"/>
 	<translation from="menuMoreSettings" to="詳細設定"/>
 	<translation from="menuNewSearch" to="新しい検索..."/>
 	<translation from="menuNoThanks" to="キャンセル"/>
+	<translation from="menuOpenInBrowser" to="ブラウザで開く"/>
 	<translation from="menuPinFriendsTweetsToContactList" to="友達のツイートをコンタクトリストに表示する"/>
 	<translation from="menuPinNewsbotsTweetsToContactList" to="ニュース BOT のツイートをコンタクトリストに表示する"/>
 	<translation from="menuPinToContactList" to="コンタクトリストに表示する"/>
 	<translation from="menuReply" to="返信..."/>
-	<translation from="menuRetweet" to="Retweet"/>
-	<translation from="menuRetweetModification" to="Retweet..."/>
+	<translation from="menuRetweet" to="リツイート"/>
+	<translation from="menuRetweetModification" to="リツイートする..."/>
 	<translation from="menuStopReplying" to="このメッセージを返信として登録しない"/>
 	<translation from="menuSwitchToDirectMessage" to="ダイレクトメッセージへ切り替え"/>
 	<translation from="menuSwitchToPublicReply" to="Twitter 公式の返信へ切り替え"/>
 	<translation from="menuTryAgain" to="再試行"/>
-	<translation from="menuViewContactOnTwitter" to="%contact% を Twitter で見る"/>
-	<translation from="menuWebSectionFollowUser" to="%contact% をフォロー"/>
+	<translation from="menuWebSectionFollowUser" to="フォローする"/>
 	<translation from="menuWebSectionRefresh" to="更新"/>
 	<translation from="menuWebSectionRemove" to="削除"/>
-	<translation from="menuWebSectionUnfollowUser" to="%contact%のフォローを解除"/>
+	<translation from="menuWebSectionUnfollowUser" to="フォロー解除"/>
 	<translation from="minute ago at" to="分前"/>
 	<translation from="minutes ago at" to="分前"/>
 	<translation from="on Twitter" to="Twitter で"/>
@@ -146,7 +147,7 @@
 	<translation from="prefsConnectionSettingsProxyProtocolSOCKS4" to="SOCKS4"/>
 	<translation from="prefsConnectionSettingsProxyProtocolSOCKS5" to="SOCKS5"/>
 	<translation from="prefsConnectionSettingsProxyUsername" to="ユーザー名:"/>
-	<translation from="prefsConnectionSettingsUseDefaultProxyChoice" to="初期プロキシー設定を使う"/>
+	<translation from="prefsConnectionSettingsUseDefaultProxyChoice" to="既定のプロキシ設定を使う"/>
 	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="手動プロキシー設定"/>
 	<translation from="prefsConnectionUsername" to="ユーザー名"/>
 	<translation from="prefsMiscellaneousAdvanced" to="高度な設定"/>
@@ -168,11 +169,14 @@
 	<translation from="prefsMiscellaneousTweetsUpdate" to="%prefsMiscellaneousTweetsUpdate% 分毎にツイートを更新する"/>
 	<translation from="prefsMiscellaneousTwitpic" to="Twitpic を使ってツイートにイメージを含める"/>
 	<translation from="prefsMiscellaneousUrl" to="URL"/>
-	<translation from="prefsMiscellaneousUrlShortening" to="次のサービスを使用して自動的に URL を短縮する"/>
 	<translation from="prefsMiscellaneousUrlShorteningPassword" to="API キー:"/>
+	<translation from="prefsMiscellaneousUrlShorteningShorten" to="Shorten web addresses"/>
+	<translation from="prefsMiscellaneousUrlShorteningShortenAlways" to="Always"/>
+	<translation from="prefsMiscellaneousUrlShorteningShortenNever" to="Never"/>
+	<translation from="prefsMiscellaneousUrlShorteningShortenWhenNeeded" to="When needed"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsername" to="ユーザー名 (bit.ly only):"/>
+	<translation from="prefsMiscellaneousUrlShorteningUsing" to="When shortening web addresses, use"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsingBitLy" to="bit.ly"/>
-	<translation from="prefsMiscellaneousUrlShorteningUsingNone" to="なし"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsingTinyURL" to="TinyURL"/>
 	<translation from="prefsMiscellaneousUseRetweetWithModifying" to="リツイートの変更を許可"/>
 	<translation from="prefsOrganizationIgnoreList" to="無視リスト"/>

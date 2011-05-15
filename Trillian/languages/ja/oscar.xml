@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
-	<translation from="AIM Profile" to="AIM Profile"/>
+	<translation from="AIM Profile" to="AIMプロフィール"/>
 	<translation from="AIM servers appear to be down.  Please try again in a little while." to="AIM servers appear to be down.  Please try again in a little while."/>
-	<translation from="AIM: New Mail" to="AIM: New Mail"/>
-	<translation from="Add" to="Add"/>
+	<translation from="AIM: New Mail" to="AIM: 新着メール"/>
+	<translation from="Add" to="追加"/>
 	<translation from="Add to Invisible List..." to="Add to Invisible List..."/>
 	<translation from="Add to Visible List..." to="Add to Visible List..."/>
-	<translation from="Allow all users to contact me" to="Allow all users to contact me"/>
-	<translation from="Allow only the users below" to="Allow only the users below"/>
-	<translation from="Allow only users on my contact list" to="Allow only users on my contact list"/>
+	<translation from="Allow all users to contact me" to="コンタクトしてきたすべてのユーザーを許可"/>
+	<translation from="Allow only the users below" to="以下のユーザーだけを許可"/>
+	<translation from="Allow only users on my contact list" to="コンタクトリストのユーザーだけを許可"/>
 	<translation from="Allow users to see my status on the web" to="Allow users to see my status on the web"/>
 	<translation from="Attempt to automatically maintain a SecureIM session with my contacts" to="Attempt to automatically maintain a SecureIM session with my contacts"/>
-	<translation from="Block all users" to="Block all users"/>
-	<translation from="Block only the users below" to="Block only the users below"/>
-	<translation from="Camera" to="Camera"/>
+	<translation from="Block all users" to="すべてのユーザーをブロック"/>
+	<translation from="Block only the users below" to="以下のユーザーだけをブロック"/>
+	<translation from="Camera" to="カメラ"/>
 	<translation from="Capabilities" to="Capabilities"/>
-	<translation from="Change your AIM profile." to="Change your AIM profile."/>
+	<translation from="Change your AIM profile." to="AIMプロフィールを変更します。"/>
 	<translation from="Close SecureIM Session" to="Close SecureIM Session"/>
-	<translation from="Code:" to="Code:"/>
+	<translation from="Code:" to="コード:"/>
 	<translation from="Contacts require my authorization before they can add me to their contact list" to="Contacts require my authorization before they can add me to their contact list"/>
 	<translation from="Do not display messages from AOLSystemMsg" to="Do not display messages from AOLSystemMsg"/>
 	<translation from="Enable SecureIM" to="Enable SecureIM"/>
@@ -26,18 +26,18 @@
 	<translation from="Error code 29: We think this means the AIM/ICQ servers are sick of seeing connections from your IP address.  Wait a few minutes and try again." to="Error code 29: We think this means the AIM/ICQ servers are sick of seeing connections from your IP address.  Wait a few minutes and try again."/>
 	<translation from="Establish SecureIM Session" to="Establish SecureIM Session"/>
 	<translation from="Establishing SecureIM tunnel.  Please wait." to="Establishing SecureIM tunnel.  Please wait."/>
-	<translation from="File Transfers" to="File Transfers"/>
+	<translation from="File Transfers" to="ファイル転送"/>
 	<translation from="File transfer timed out." to="File transfer timed out."/>
-	<translation from="First Name" to="First Name"/>
+	<translation from="First Name" to="名"/>
 	<translation from="Group Conferencing" to="Group Conferencing"/>
 	<translation from="Idle Time" to="Idle Time"/>
 	<translation from="Improper login sequence.  This should not be happening; please contact support@ceruleanstudios.com with more information." to="Improper login sequence.  This should not be happening; please contact support@ceruleanstudios.com with more information."/>
 	<translation from="Inclusive of HTML markup, your profile has exceeded the maximum length allowed by AIM." to="Inclusive of HTML markup, your profile has exceeded the maximum length allowed by AIM."/>
 	<translation from="Invalid password.  If you are sure your password is entered correctly, try changing the password from the AIM webpage." to="Invalid password.  If you are sure your password is entered correctly, try changing the password from the AIM webpage."/>
-	<translation from="Last Name" to="Last Name"/>
+	<translation from="Last Name" to="姓"/>
 	<translation from="Manage the visibility settings for this account." to="Manage the visibility settings for this account."/>
 	<translation from="Microphone" to="Microphone"/>
-	<translation from="Nickname" to="Nickname"/>
+	<translation from="Nickname" to="ニックネーム"/>
 	<translation from="Not Available" to="Not Available"/>
 	<translation from="Occupied" to="Occupied"/>
 	<translation from="Online Time" to="Online Time"/>

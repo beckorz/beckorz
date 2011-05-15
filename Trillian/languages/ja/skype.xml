@@ -4,30 +4,30 @@
 	<translation from="CALL_FAILURE_REASON_1" to="Miscellaneous error."/>
 	<translation from="CALL_FAILURE_REASON_10" to="%contact% not a friend."/>
 	<translation from="CALL_FAILURE_REASON_11" to="%username% not authorized by %contact%."/>
-	<translation from="CALL_FAILURE_REASON_12" to="Sound recording error."/>
-	<translation from="CALL_FAILURE_REASON_2" to="User or phone number does not exist."/>
-	<translation from="CALL_FAILURE_REASON_3" to="%contact% is offline."/>
-	<translation from="CALL_FAILURE_REASON_4" to="No proxy found."/>
+	<translation from="CALL_FAILURE_REASON_12" to="録音に失敗しました。"/>
+	<translation from="CALL_FAILURE_REASON_2" to="ユーザーか電話番号が存在しません。"/>
+	<translation from="CALL_FAILURE_REASON_3" to="%contact%はオフラインです。"/>
+	<translation from="CALL_FAILURE_REASON_4" to="プロキシが見つかりません。"/>
 	<translation from="CALL_FAILURE_REASON_5" to="Session terminated."/>
 	<translation from="CALL_FAILURE_REASON_6" to="No common codec found."/>
 	<translation from="CALL_FAILURE_REASON_7" to="Sound I/O error."/>
 	<translation from="CALL_FAILURE_REASON_8" to="Problem with remote sound device."/>
-	<translation from="CALL_FAILURE_REASON_9" to="Call blocked by %contact%."/>
+	<translation from="CALL_FAILURE_REASON_9" to="通話が %contact% にブロックされました。"/>
 	<translation from="CALL_STATUS_BUSY" to="%contact% is busy."/>
-	<translation from="CALL_STATUS_CANCELLED" to="Call was cancelled."/>
-	<translation from="CALL_STATUS_FAILED" to="Call failed"/>
-	<translation from="CALL_STATUS_FINISHED" to="Call is finished."/>
+	<translation from="CALL_STATUS_CANCELLED" to="通話がキャンセルされました。"/>
+	<translation from="CALL_STATUS_FAILED" to="通話に失敗しました"/>
+	<translation from="CALL_STATUS_FINISHED" to="通話が終了しました。"/>
 	<translation from="CALL_STATUS_INPROGRESS" to="A call has been established."/>
 	<translation from="CALL_STATUS_MISSED" to="Call was missed."/>
 	<translation from="CALL_STATUS_REFUSED" to="%contact% has denied the call."/>
 	<translation from="CALL_STATUS_REFUSED_BY_ME" to="%username% has denied the call."/>
 	<translation from="CALL_STATUS_RINGING" to="%username% is calling..."/>
 	<translation from="CALL_STATUS_RINGING_INCOMING" to="%contact% is calling..."/>
-	<translation from="CITY" to="City"/>
+	<translation from="CITY" to="市区町村"/>
 	<translation from="COUNTRY" to="国"/>
-	<translation from="Conference" to="Conference"/>
-	<translation from="DND" to="Do Not Disturb"/>
-	<translation from="Duration" to="接続時間"/>
+	<translation from="Conference" to="会議"/>
+	<translation from="DND" to="取り込み中"/>
+	<translation from="Duration" to="通話時間"/>
 	<translation from="FAILUREREASON_UNKNOWN" to="unknown failure reason"/>
 	<translation from="FEMALE" to="女性"/>
 	<translation from="FILETRANSFER_FAILURE_REASON_FAILED_READ" to="read error on local machine."/>
@@ -38,31 +38,31 @@
 	<translation from="FILETRANSFER_FAILURE_REASON_REMOTE_DOES_NOT_SUPPORT_FT" to="Skype client of %contact% does not support file transfers."/>
 	<translation from="FILETRANSFER_FAILURE_REASON_REMOTE_OFFLINE_FOR_TOO_LONG" to="%contact% is not available (offline for longer than 7 days)."/>
 	<translation from="FILETRANSFER_FAILURE_REASON_SENDER_NOT_AUTHORIZED" to="%username% not authorized by %contact%."/>
-	<translation from="FULLNAME" to="Fullname"/>
+	<translation from="FULLNAME" to="フルネーム"/>
 	<translation from="FileWasSentSuccessfully" to="&quot;%filename%&quot; was sent successfully."/>
 	<translation from="GENDER" to="性別"/>
 	<translation from="HOMEPAGE" to="ホームページ"/>
 	<translation from="INSUFFICIENT_FUNDS" to="insufficient Skype Credit to send an SMS message"/>
 	<translation from="INVALID_CONFIRMATION_CODE" to="erroneous confirmation code was submitted"/>
-	<translation from="INVISIBLE" to="Invisible"/>
-	<translation from="IP_BLOCKED" to="user&apos;s IP is blocked from the server"/>
+	<translation from="INVISIBLE" to="不可視"/>
+	<translation from="IP_BLOCKED" to="サーバーからユーザーIPがブロックされました"/>
 	<translation from="LANGUAGE" to="言語"/>
 	<translation from="MALE" to="男性"/>
 	<translation from="MISC_ERROR" to="failure to supply a meaningful error message"/>
-	<translation from="NA" to="Not Available"/>
+	<translation from="NA" to="退席中"/>
 	<translation from="NICKNAME" to="ニックネーム"/>
 	<translation from="NODE_BLOCKED" to="user&apos;s p2p network node has been blocked from the server"/>
 	<translation from="NO_SENDERID_CAPABILITY" to="unknown failure reason"/>
 	<translation from="NO_SMS_CAPABILITY" to="recepient is unable to receive SMS messages"/>
 	<translation from="OFFLINE" to="オフライン"/>
 	<translation from="ONLINE" to="オンライン"/>
-	<translation from="PHONE_HOME" to="自宅の電話番号"/>
-	<translation from="PHONE_MOBILE" to="携帯番号"/>
-	<translation from="PHONE_OFFICE" to="会社の番号"/>
-	<translation from="PROVINCE" to="Province"/>
+	<translation from="PHONE_HOME" to="自宅"/>
+	<translation from="PHONE_MOBILE" to="携帯電話"/>
+	<translation from="PHONE_OFFICE" to="会社"/>
+	<translation from="PROVINCE" to="都道府県"/>
 	<translation from="SERVER_CONNECT_FAILED" to="unable to connect to SMS server"/>
 	<translation from="SKYPEME" to="Skype Me"/>
-	<translation from="STATUS" to="ステータス"/>
+	<translation from="STATUS" to="状態"/>
 	<translation from="Skype support." to="Skypeサポート"/>
 	<translation from="TARGET_NOT_ROUTABLE" to="target not routable"/>
 	<translation from="USER_BLOCKED" to="user is blocked from the server"/>
@@ -83,8 +83,8 @@
 	<translation from="infoDisconnected" to="切断しました。"/>
 	<translation from="infoReconn" to="Reconnecting to %medium% as &quot;%username%&quot;."/>
 	<translation from="infoSendSMSWindow" to="This window allows you to send SMS messages to %contact% at (%phone_number%)."/>
-	<translation from="infoSignedOff" to="&quot;%contact%&quot; signed off at %time%."/>
-	<translation from="infoSignedOn" to="&quot;%contact%&quot; signed on at %time%."/>
+	<translation from="infoSignedOff" to="&quot;%contact%&quot; は %time% にログアウトしました。"/>
+	<translation from="infoSignedOn" to="&quot;%contact%&quot; は %time% にログインしました。"/>
 	<translation from="infoSmsHasBeenDelivered" to="Your SMS Message has been delivered."/>
 	<translation from="infoWasMarked" to="&quot;%contact%&quot; was marked &quot;%was_marked%&quot; on %time%."/>
 	<translation from="menuConnectionCancelSilentMode" to="Disable Skype Silent Mode"/>
@@ -93,19 +93,19 @@
 	<translation from="menuConnectionSetSilentMode" to="Enable Skype Silent Mode"/>
 	<translation from="menuConnectionSetStatus" to="ステータス変更"/>
 	<translation from="menuContactAppendToChat" to="会話に招待..."/>
-	<translation from="menuContactCall" to="Call"/>
-	<translation from="menuContactCallFinish" to="End call"/>
-	<translation from="menuContactChat" to="メッセージを送る..."/>
+	<translation from="menuContactCall" to="通話"/>
+	<translation from="menuContactCallFinish" to="通話終了"/>
+	<translation from="menuContactChat" to="メッセージ送信..."/>
 	<translation from="menuContactLeaveTheChat" to="Leave Conversation..."/>
 	<translation from="menuContactReJoin" to="Rejoin..."/>
-	<translation from="menuContactSendFile" to="ファイルを送る..."/>
+	<translation from="menuContactSendFile" to="ファイルを送信..."/>
 	<translation from="menuContactSendSMSTo" to="Send SMS to"/>
 	<translation from="menuContactSendSMSToPhoneHome" to="自宅"/>
-	<translation from="menuContactSendSMSToPhoneMobile" to="携帯番号"/>
-	<translation from="menuContactSendSMSToPhoneOffice" to="会社の電話"/>
+	<translation from="menuContactSendSMSToPhoneMobile" to="携帯"/>
+	<translation from="menuContactSendSMSToPhoneOffice" to="会社"/>
 	<translation from="menuContactVideoCallFinish" to="Turn off video"/>
-	<translation from="menuContactVideoCallStart" to="Video call"/>
-	<translation from="menuContactViewContactInformation" to="View User Information"/>
+	<translation from="menuContactVideoCallStart" to="ビデオ電話"/>
+	<translation from="menuContactViewContactInformation" to="ユーザー情報の表示"/>
 	<translation from="prefsConnectionAutoConnect" to="Automatically connect to this account at startup"/>
 	<translation from="prefsConnectionInvitation" to="Enter your username below and click connect"/>
 	<translation from="prefsConnectionPassword" to="パスワード"/>

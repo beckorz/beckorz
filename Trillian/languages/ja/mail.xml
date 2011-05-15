@@ -7,8 +7,8 @@
 	<translation from="infoConnSucceed" to="%server% に接続できました。"/>
 	<translation from="infoConnectionSettingsConnectionTypeHeader" to="接続方法"/>
 	<translation from="infoConnectionSettingsMailServerHeader" to="サーバー"/>
-	<translation from="infoConnectionSettingsProxyHeader" to="プロキシー"/>
-	<translation from="infoConnectionSettingsTitle" to="この接続のサーバーとプロキシーの設定を調整してください"/>
+	<translation from="infoConnectionSettingsProxyHeader" to="プロキシ"/>
+	<translation from="infoConnectionSettingsTitle" to="この接続のサーバーとプロキシの設定を調整してください"/>
 	<translation from="infoCreateConn" to="接続 &quot;%username%&quot; を作成します。"/>
 	<translation from="infoDisconnected" to="切断されました。"/>
 	<translation from="infoErrorAuth" to="認証エラー。  ユーザー名とパスワードを確認してください。  サーバーの返答: %response%"/>
@@ -57,7 +57,7 @@
 	<translation from="prefsConnectionSettingsProxyProtocolSOCKS5" to="SOCKS5"/>
 	<translation from="prefsConnectionSettingsProxyResolveAt" to="Resolve at:"/>
 	<translation from="prefsConnectionSettingsProxyResolveAtLocalMachine" to="Local machine"/>
-	<translation from="prefsConnectionSettingsProxyResolveAtProxy" to="プロキシー"/>
+	<translation from="prefsConnectionSettingsProxyResolveAtProxy" to="プロキシ"/>
 	<translation from="prefsConnectionSettingsProxyUsername" to="ユーザー名:"/>
 	<translation from="prefsConnectionSettingsUseDefaultProxyChoice" to="初期プロキシー設定を使う"/>
 	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="手動プロキシー設定"/>

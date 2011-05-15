@@ -36,7 +36,7 @@
 	<translation from="dialogActionsAlertWindow" to="警告ウィンドウ"/>
 	<translation from="dialogActionsExecuteProgram" to="Execute Program"/>
 	<translation from="dialogActionsProgramAction" to="Program Action"/>
-	<translation from="dialogActionsSendMessage" to="メッセージを送る"/>
+	<translation from="dialogActionsSendMessage" to="メッセージ送信"/>
 	<translation from="dialogActionsSetStatus" to="ステータス変更"/>
 	<translation from="dialogActionsSound" to="サウンド"/>
 	<translation from="dialogActionsSystrayAlert" to="Systray Alert"/>
@@ -46,7 +46,7 @@
 	<translation from="dialogAdvancedType" to="タイプ"/>
 	<translation from="dialogAwayAdd" to="退席中メッセージ追加"/>
 	<translation from="dialogAwayMedium" to="Medium"/>
-	<translation from="dialogAwayStatus" to="ステータス"/>
+	<translation from="dialogAwayStatus" to="状態"/>
 	<translation from="dialogEventAdd" to="イベント追加"/>
 	<translation from="dialogEventsContactAlert" to="Contact Alert"/>
 	<translation from="dialogEventsDescription" to="Events include sounds, away states, pop-ups, hotkeys, and more."/>
@@ -55,7 +55,7 @@
 	<translation from="dialogEventsName" to="イベント"/>
 	<translation from="dialogEventsProgramGenerated" to="Program Generated"/>
 	<translation from="dialogEventsScheduler" to="スケジューラー"/>
-	<translation from="dialogGeneral" to="大別"/>
+	<translation from="dialogGeneral" to="一般"/>
 	<translation from="only if set automatically" to="only if set automatically"/>
 	<translation from="systrayUnknownAction" to="&lt;b&gt;Event Error:&lt;/b&gt;&lt;br&gt;Unknown action: %action%"/>
 	<translation from="textErrorAwayUniqueLabel" to="You must enter a unique label for this message."/>

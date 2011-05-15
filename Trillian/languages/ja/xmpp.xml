@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
-	<translation from="Ban" to="Ban"/>
+	<translation from="Ban" to="禁止"/>
 	<translation from="Browse for Conferences..." to="Browse for Conferences..."/>
 	<translation from="Bytestreams" to="Bytestreams"/>
 	<translation from="Change Role" to="権限を変更する"/>
 	<translation from="Configure Room" to="ルーム設定"/>
 	<translation from="Connection to conference lost." to="Connection to conference lost."/>
-	<translation from="Duration" to="Duration"/>
+	<translation from="Duration" to="継続時間"/>
 	<translation from="Enter your Google Talk email and password below and click connect." to="Enter your Google Talk email and password below and click connect."/>
 	<translation from="Enter your VZ email and password below and click connect." to="Enter your VZ email and password below and click connect."/>
 	<translation from="Enter your full JID and password below and click connect." to="Enter your full JID and password below and click connect."/>
@@ -20,7 +20,7 @@
 	<translation from="Moderator" to="モデレータ"/>
 	<translation from="Moderators" to="モデレータ"/>
 	<translation from="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%" to="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%"/>
-	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="このプロトコルでは次の表示名を使用: %prefsXMPPResourceName%"/>
+	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="Override default resource name with: %prefsXMPPResourceName%"/>
 	<translation from="Participant" to="Participant"/>
 	<translation from="Set priority for this connection to: %prefsXMPPPriorityValue%" to="Set priority for this connection to: %prefsXMPPPriorityValue%"/>
 	<translation from="Standards-based XMPP support, including all Jabber/XMPP networks, Google Talk, VZ, and more." to="Standards-based XMPP support, including all Jabber/XMPP networks, Google Talk, VZ, and more."/>
@@ -57,6 +57,7 @@
 	<translation from="infoNosDisabled" to="This conversation is no longer off the record."/>
 	<translation from="infoNosEnabled" to="This conversation has been taken off the record."/>
 	<translation from="infoServerType" to="You are connected to a &quot;%server%&quot; server."/>
+	<translation from="infoStreamConflict" to="You are being logged out because you have been logged in on another computer."/>
 	<translation from="infoStreamError" to="ストリームエラー: %error%."/>
 	<translation from="infoUsernameIncomplete" to="Please use your full JID (i.e user@hostname.com) when creating a new XMPP account."/>
 	<translation from="miscIsGone" to="%username% has closed the message window."/>

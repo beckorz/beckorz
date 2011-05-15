@@ -8,8 +8,8 @@
 	<translation from="Manage options for this account." to="Manage options for this account."/>
 	<translation from="Miscellaneous" to="Miscellaneous"/>
 	<translation from="NetworkUpdatesGroupEmptyStr" to="No network updates found"/>
-	<translation from="News Feed" to="News Feed"/>
-	<translation from="Notifications" to="Notifications"/>
+	<translation from="News Feed" to="ニュースフィード"/>
+	<translation from="Notifications" to="通知"/>
 	<translation from="Notify me when:" to="Notify me when:"/>
 	<translation from="Pick which events you want to receive a notifications for." to="Pick which events you want to receive a notifications for."/>
 	<translation from="PositionAtCompany" to="%position% at %company%"/>
@@ -33,12 +33,12 @@
 	<translation from="is now connected to you" to="is now connected to you"/>
 	<translation from="joined the group" to="joined the group"/>
 	<translation from="joined the groups" to="joined the groups"/>
-	<translation from="menuDisconnect" to="Disconnect"/>
+	<translation from="menuDisconnect" to="切断"/>
 	<translation from="menuGoToMyHomePage" to="LinkedIn Home"/>
 	<translation from="menuGoToMyProfilePage" to="LinkedIn Profile"/>
 	<translation from="menuMoreSettings" to="その他の設定"/>
 	<translation from="menuPinActivityToContactList" to="Pin Activity to Contact List"/>
-	<translation from="menuReconnect" to="Reconnect"/>
+	<translation from="menuReconnect" to="再接続"/>
 	<translation from="menuRefresh" to="Refresh"/>
 	<translation from="menuShareAnUpdate" to="Share an update ..."/>
 	<translation from="menuViewProfile" to="View Profile"/>
@@ -46,34 +46,34 @@
 	<translation from="posted a job" to="posted a job"/>
 	<translation from="prefsConnectionAutoConnect" to="Automatically connect to this account at startup"/>
 	<translation from="prefsConnectionInvitation" to="Enter your LinkedIn username, and click connect"/>
-	<translation from="prefsConnectionSettingsProxyHeader" to="Proxy"/>
-	<translation from="prefsConnectionSettingsProxyHost" to="Host:"/>
-	<translation from="prefsConnectionSettingsProxyPassword" to="Password:"/>
-	<translation from="prefsConnectionSettingsProxyPort" to="Port:"/>
-	<translation from="prefsConnectionSettingsProxyProtocol" to="Protocol:"/>
+	<translation from="prefsConnectionSettingsProxyHeader" to="プロキシ"/>
+	<translation from="prefsConnectionSettingsProxyHost" to="ホスト:"/>
+	<translation from="prefsConnectionSettingsProxyPassword" to="パスワード:"/>
+	<translation from="prefsConnectionSettingsProxyPort" to="ポート:"/>
+	<translation from="prefsConnectionSettingsProxyProtocol" to="プロトコル:"/>
 	<translation from="prefsConnectionSettingsProxyProtocolHTTP" to="HTTP"/>
-	<translation from="prefsConnectionSettingsProxyProtocolNone" to="None"/>
+	<translation from="prefsConnectionSettingsProxyProtocolNone" to="なし"/>
 	<translation from="prefsConnectionSettingsProxyProtocolSOCKS4" to="SOCKS4"/>
 	<translation from="prefsConnectionSettingsProxyProtocolSOCKS5" to="SOCKS5"/>
-	<translation from="prefsConnectionSettingsProxyUsername" to="Username:"/>
+	<translation from="prefsConnectionSettingsProxyUsername" to="ユーザー名:"/>
 	<translation from="prefsConnectionSettingsTitle" to="Fine tune connection with the LinkedIn server."/>
 	<translation from="prefsConnectionSettingsUseDefaultProxyChoice" to="Use default proxy settings"/>
 	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="Manually specify proxy"/>
-	<translation from="prefsConnectionUsername" to="User name"/>
-	<translation from="prefsMiscellaneousAdvanced" to="高度な設定"/>
+	<translation from="prefsConnectionUsername" to="ユーザー名"/>
+	<translation from="prefsMiscellaneousAdvanced" to="詳細"/>
 	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its icon from the identity panel"/>
 	<translation from="prefsMiscellaneousItems" to="Items"/>
 	<translation from="prefsMiscellaneousMaxItemNumberPerGroup" to="Show %prefsMiscellaneousMaxItemNumberPerGroup% Items per group on Contact List"/>
 	<translation from="prefsMiscellaneousOnlyShowOneItemPerUser" to="Only show one item per user"/>
-	<translation from="prefsMiscellaneousOptions" to="Options"/>
+	<translation from="prefsMiscellaneousOptions" to="オプション"/>
 	<translation from="prefsMiscellaneousShowMyAccountInContactList" to="Show my account in the contact list"/>
 	<translation from="prefsNewsFeedAnswersUpdates" to="Answers Updates"/>
-	<translation from="prefsNewsFeedApplicationUpdates" to="Application Updates"/>
+	<translation from="prefsNewsFeedApplicationUpdates" to="アプリケーションの更新"/>
 	<translation from="prefsNewsFeedConnectionUpdates" to="Connection Updates"/>
 	<translation from="prefsNewsFeedFeedItemsHeader" to="Feed Items"/>
-	<translation from="prefsNewsFeedGroupUpdates" to="Group Updates"/>
+	<translation from="prefsNewsFeedGroupUpdates" to="グループの更新"/>
 	<translation from="prefsNewsFeedJobPostingUpdates" to="Job Posting Updates"/>
-	<translation from="prefsNewsFeedProfileUpdates" to="Profile Updates"/>
+	<translation from="prefsNewsFeedProfileUpdates" to="プロフィールの更新"/>
 	<translation from="prefsNewsFeedRecommendationUpdates" to="Recommendation Updates"/>
 	<translation from="prefsNewsFeedStatusUpdates" to="Status Updates"/>
 	<translation from="prefsNotificationsNotifyMeWhenAnswersUpdates" to="First degree connection asked a new question or answered a question"/>

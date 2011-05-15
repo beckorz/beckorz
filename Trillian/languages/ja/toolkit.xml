@@ -11,52 +11,99 @@
 	<translation from="70%" to="70%"/>
 	<translation from="80%" to="80%"/>
 	<translation from="90%" to="90%"/>
-	<translation from="Attach" to="ドッキング"/>
+	<translation from="Accept" to="Accept"/>
+	<translation from="Account:" to="Account:"/>
+	<translation from="Add Contact" to="Add Contact"/>
+	<translation from="Approve" to="Approve"/>
+	<translation from="Attach" to="付ける"/>
+	<translation from="Block" to="Block"/>
+	<translation from="Call" to="Call"/>
 	<translation from="Cancel" to="キャンセル"/>
-	<translation from="Cascade Windows" to="ウィンドウを重ねて表示"/>
+	<translation from="Cascade Windows" to="重ねて表示"/>
 	<translation from="Chat Room Window" to="Chat Room Window"/>
+	<translation from="Choose a server:" to="Choose a server:"/>
 	<translation from="Click to show more items" to="Click to show more items"/>
-	<translation from="Close" to="終了"/>
+	<translation from="Close" to="閉じる"/>
 	<translation from="Close All But This" to="Close All But This"/>
-	<translation from="Connection Window" to="コネクションウインドウ"/>
-	<translation from="Contact Window" to="コンタクトウインドウ"/>
+	<translation from="Connection Window" to="コネクションウィンドウ"/>
+	<translation from="Contact Type:" to="Contact Type:"/>
+	<translation from="Contact Window" to="コンタクトウィンドウ"/>
 	<translation from="Current Position and Size" to="現在の位置とサイズ"/>
-	<translation from="Default" to="規定値の初期化"/>
-	<translation from="Default Layout" to="初期レイアウト"/>
+	<translation from="Default" to="規定の初期化"/>
+	<translation from="Default Layout" to="規定のレイアウト"/>
 	<translation from="Default Theme" to="デフォルトテーマ"/>
+	<translation from="Deny" to="Deny"/>
 	<translation from="Desktop" to="デスクトップ"/>
 	<translation from="Detach" to="切り離す"/>
 	<translation from="Detach All" to="全て切り離す"/>
 	<translation from="Detach All and Close" to="Detach All and Close"/>
+	<translation from="Display Name:" to="Display Name:"/>
 	<translation from="Edit existing container..." to="Edit existing container..."/>
 	<translation from="Focus" to="フォーカス"/>
 	<translation from="From local to remote" to="From local to remote"/>
+	<translation from="From:" to="From:"/>
+	<translation from="Group:" to="Group:"/>
 	<translation from="Hide" to="隠す"/>
+	<translation from="History" to="History"/>
+	<translation from="Ignore" to="Ignore"/>
+	<translation from="Info" to="Info"/>
+	<translation from="Insert" to="Insert"/>
+	<translation from="Invite" to="Invite"/>
 	<translation from="Layout" to="レイアウト"/>
-	<translation from="Loading..." to="ロード中…"/>
+	<translation from="Less details" to="Less details"/>
+	<translation from="Loading..." to="ロード中..."/>
 	<translation from="Maximize" to="最大化"/>
 	<translation from="Minimize" to="最小化"/>
-	<translation from="New Container..." to="新規コンテナー..."/>
-	<translation from="Off" to="Off"/>
-	<translation from="On" to="On"/>
+	<translation from="More" to="More"/>
+	<translation from="More details" to="More details"/>
+	<translation from="Name:" to="Name:"/>
+	<translation from="New Container..." to="New Container..."/>
+	<translation from="Next Item" to="Next Item"/>
+	<translation from="Off" to="オフ"/>
+	<translation from="On" to="オン"/>
+	<translation from="Optional" to="Optional"/>
 	<translation from="Options" to="オプション"/>
 	<translation from="Please wait a moment..." to="少々お待ちください…"/>
+	<translation from="Previous Item" to="Previous Item"/>
+	<translation from="Profile" to="Profile"/>
+	<translation from="Progress:" to="Progress:"/>
 	<translation from="Purge List" to="Purge List"/>
+	<translation from="Quick Reply..." to="Quick Reply..."/>
+	<translation from="Reason:" to="Reason:"/>
 	<translation from="Recent Containers" to="Recent Containers"/>
-	<translation from="Rename..." to="名称変更..."/>
-	<translation from="Reset" to="リセット"/>
-	<translation from="Save Settings" to="設定保存"/>
+	<translation from="Rename..." to="Rename..."/>
+	<translation from="Reply" to="Reply"/>
+	<translation from="Reset" to="置き直す"/>
+	<translation from="Save Settings" to="設定を保存"/>
+	<translation from="Search Contact List" to="Search Contact List"/>
+	<translation from="Search Results" to="Search Results"/>
+	<translation from="Send" to="Send"/>
+	<translation from="Send File" to="Send File"/>
+	<translation from="Server" to="Server"/>
+	<translation from="Set Icon" to="Set Icon"/>
+	<translation from="Set Status" to="Set Status"/>
+	<translation from="Set Status for" to="Set Status for"/>
 	<translation from="Set as Default Container" to="Set as Default Container"/>
 	<translation from="Set as a Tabbed Container" to="Set as a Tabbed Container"/>
+	<translation from="Set display name" to="Set display name"/>
+	<translation from="Speed:" to="Speed:"/>
+	<translation from="Start!" to="Start!"/>
 	<translation from="Theme" to="テーマ"/>
 	<translation from="Themes" to="テーマ"/>
 	<translation from="Tile Windows" to="並べて表示"/>
+	<translation from="Time remaining:" to="Time remaining:"/>
+	<translation from="To:" to="To:"/>
 	<translation from="Transparency" to="透明度"/>
-	<translation from="Trillian is changing skins." to="Trillianはスキンを変更中。&lt;!-- translation needed --&gt;"/>
-	<translation from="Turn it black and white" to="白黒に変わる。"/>
+	<translation from="Trillian" to="Trillian"/>
+	<translation from="Trillian is changing skins." to="Trillianはスキンを変えています。&lt;!-- translation needed --&gt;"/>
+	<translation from="Turn it black and white" to="白黒に変える"/>
 	<translation from="Turn it semi-transparent" to="半透明に戻す"/>
+	<translation from="Type" to="Type"/>
+	<translation from="Use the panel above to configure your basic information and control your IM, social networking, and mail accounts." to="Use the panel above to configure your basic information and control your IM, social networking, and mail accounts."/>
+	<translation from="Video" to="Video"/>
 	<translation from="Visible" to="表示"/>
-	<translation from="Window Options" to="Window Options"/>
+	<translation from="Welcome to Trillian 5!" to="Welcome to Trillian 5!"/>
+	<translation from="Window Options" to="ウィンドウオプション"/>
 	<translation from="dialogInitialInstructions" to="Configure your window to the desired positions, sizes, and interiors; then click Save Settings or Cancel below to go back to Trillian Preferences."/>
 	<translation from="dialogInitialWarning" to="Alert: Your windows are set to remember their previous state.  This means that some windows may not reflect the changes you are making here unless you choose to &apos;reset&apos; their previous state in preferences."/>
 	<translation from="textErrorTextRequired" to="Please enter some text or close the window."/>

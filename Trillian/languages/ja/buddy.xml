@@ -8,10 +8,10 @@
 	<translation from="%num% %time_unit%" to="%num% %time_unit%"/>
 	<translation from="%service% is disconnected." to="%service% は切断しました。"/>
 	<translation from="%service1% and %service2% are disconnected." to="%service1% と %service2% は切断しました。"/>
-	<translation from="%status%, Idle for %time%" to="%status%, %time% 暮らす。"/>
+	<translation from="%status%, Idle for %time%" to="%status%, %time% アイドル状態"/>
 	<translation from="%width% by %height%" to="%width% × %height%"/>
 	<translation from="&amp;About" to="Trillian について"/>
-	<translation from="&amp;Check for Add-on updates..." to="&amp;Check for Add-on updates..."/>
+	<translation from="&amp;Check for Add-on updates..." to="アドオンの更新をチェックする(&amp;C)..."/>
 	<translation from="&amp;Help" to="ヘルプ(&amp;H)"/>
 	<translation from="&amp;Logoff" to="ログオフ(&amp;L)"/>
 	<translation from="&amp;Preferences" to="設定(&amp;P)"/>
@@ -29,7 +29,7 @@
 	<translation from="Add Group..." to="グループを追加..."/>
 	<translation from="Add Notifications..." to="通知を追加..."/>
 	<translation from="Add Subcontact..." to="サブコンタクトを追加..."/>
-	<translation from="Add Subgroup" to="Add Subgroup"/>
+	<translation from="Add Subgroup" to="サブグループを追加"/>
 	<translation from="Add this as contact..." to="コンタクトへ追加..."/>
 	<translation from="Add to" to="Add to"/>
 	<translation from="Add to Contact List" to="コンタクトリストに追加"/>
@@ -53,7 +53,7 @@
 	<translation from="Centered" to="中央に表示"/>
 	<translation from="Click here for more options" to="Click here for more options"/>
 	<translation from="Close" to="閉じる"/>
-	<translation from="Combine Contacts..." to="Combine Contacts..."/>
+	<translation from="Combine Contacts..." to="コンタクトを統合する..."/>
 	<translation from="Connect to %account%" to="%account% に接続する"/>
 	<translation from="Connected" to="接続完了"/>
 	<translation from="Connected - %awaymessage%" to="接続完了 - %awaymessage%"/>
@@ -75,14 +75,14 @@
 	<translation from="Contact List: Contact Status Change" to="コンタクトリスト: Contact Status Change"/>
 	<translation from="Contact List: Contact wall status change" to="コンタクトリスト: Contact wall status change"/>
 	<translation from="Contact List: File Change" to="コンタクトリスト: File Change"/>
-	<translation from="Contact List: Hide" to="コンタクトリスト: Hide"/>
-	<translation from="Contact List: MetaContact Bulk Status Change" to="コンタクトリスト: MetaContact Bulk Status Change"/>
-	<translation from="Contact List: MetaContact Signoff" to="コンタクトリスト: MetaContact Signoff"/>
-	<translation from="Contact List: MetaContact Signon" to="コンタクトリスト: MetaContact Signon"/>
-	<translation from="Contact List: MetaContact Status Change" to="コンタクトリスト: MetaContact Status Change"/>
+	<translation from="Contact List: Hide" to="コンタクトリスト: 隠す"/>
+	<translation from="Contact List: Metacontact Bulk Status Change" to="Contact List: Metacontact Bulk Status Change"/>
+	<translation from="Contact List: Metacontact Signoff" to="Contact List: Metacontact Signoff"/>
+	<translation from="Contact List: Metacontact Signon" to="Contact List: Metacontact Signon"/>
+	<translation from="Contact List: Metacontact Status Change" to="Contact List: Metacontact Status Change"/>
 	<translation from="Contact List: Remove" to="コンタクトリスト: Remove"/>
 	<translation from="Contact List: Rename" to="コンタクトリスト: Rename"/>
-	<translation from="Contact List: Show" to="コンタクトリスト: Show"/>
+	<translation from="Contact List: Show" to="コンタクトリスト: 表示"/>
 	<translation from="Contact List: Subcontact Bulk Signoff" to="コンタクトリスト: Subcontact Bulk Signoff"/>
 	<translation from="Contact List: Subcontact Bulk Signon" to="コンタクトリスト: Subcontact Bulk Signon"/>
 	<translation from="Contact List: Subcontact Bulk Status Change" to="コンタクトリスト: Subcontact Bulk Status Change"/>
@@ -114,10 +114,10 @@
 	<translation from="Help" to="ヘルプ"/>
 	<translation from="Hide" to="隠す"/>
 	<translation from="Hide Empty Groups" to="空のグループを隠す"/>
-	<translation from="ID Name" to="ID 名"/>
+	<translation from="ID Name" to="ID名"/>
 	<translation from="Idle for %time%" to="Idle for %time%"/>
 	<translation from="Invisible" to="不可視"/>
-	<translation from="Large" to="大"/>
+	<translation from="Large Size" to="大"/>
 	<translation from="Last Seen On" to="最後見たのは"/>
 	<translation from="Last seen %time% ago" to="%time%前見ました"/>
 	<translation from="Learn about Trillian Pro" to="Trillian Pro について"/>
@@ -138,7 +138,7 @@
 	<translation from="More results on Astra..." to="More results on Astra..."/>
 	<translation from="Multiple services are disconnected." to="Multiple services are disconnected."/>
 	<translation from="My Astra Profile" to="マイAstraプロフィール"/>
-	<translation from="My Contacts" to="マイコンタクト"/>
+	<translation from="My Contacts" to="コンタクト"/>
 	<translation from="New Away Message..." to="新しい自動返信..."/>
 	<translation from="New Contact" to="新しいコンタクト"/>
 	<translation from="New Group" to="新しいグループ"/>
@@ -193,7 +193,7 @@
 	<translation from="Simple" to="シンプル"/>
 	<translation from="Simple View" to="シンプル表示"/>
 	<translation from="Size" to="サイズ"/>
-	<translation from="Small" to="小"/>
+	<translation from="Small Size" to="小"/>
 	<translation from="Sort" to="ソート"/>
 	<translation from="Status Unavailable" to="Status Unavailable"/>
 	<translation from="Stretched" to="Stretched"/>
@@ -267,7 +267,7 @@
 	<translation from="dialogWizardContactQuickAddName" to="Adding a Contact on %medium%"/>
 	<translation from="dialogWizardImport" to="Contact Wizard: Import Contacts"/>
 	<translation from="dialogWizardImportDescription" to="You can import contacts from your old IM clients into Trillian."/>
-	<translation from="dialogWizardImportName" to="Import Contacts"/>
+	<translation from="dialogWizardImportName" to="コンタクトをインポート"/>
 	<translation from="dialogWizardMetaContact" to="Contact Wizard: Metacontact"/>
 	<translation from="dialogWizardMetaContactDescription" to="Have 5 different contacts for the same Friend?  Bind multiple&#13;&#10;contacts into one using the Metacontact function."/>
 	<translation from="dialogWizardMetaContactName" to="Create Metacontacts"/>

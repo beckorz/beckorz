@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
-	<translation from="Band" to="Band"/>
-	<translation from="Comment..." to="コメント..."/>
-	<translation from="Enter your MySpaceIM email and password below and click connect." to="Enter your MySpaceIM email and password below and click connect."/>
+	<translation from="Band" to="バンド"/>
+	<translation from="Enter your MySpaceIM email and password below and click connect." to="MySpaceIMのメールとパスワードを以下で入力して、コネクトのボタンをクリックしてください。"/>
 	<translation from="Gender" to="性別"/>
-	<translation from="IM Name" to="IM Name"/>
+	<translation from="IM Name" to="IM名"/>
 	<translation from="Location" to="Location"/>
 	<translation from="MySpaceIM support." to="MySpaceIM support."/>
-	<translation from="Send Mail..." to="メールを送る..."/>
+	<translation from="Send Mail..." to="メールの送信..."/>
 	<translation from="Song" to="曲"/>
 	<translation from="Total Friends" to="Total Friends"/>
-	<translation from="User ID" to="ユーザーID"/>
+	<translation from="User ID" to="ユーザー名"/>
 	<translation from="User not found - please check your spelling." to="User not found - please check your spelling."/>
 	<translation from="infoVersionMismatch" to="MySpace is no longer accepting logins from this version of the plugin.  Please ensure you are running the latest version of Trillian and try again."/>
 	<translation from="systrayUniqueNickname" to="Connection to MySpaceIM has failed.  You must select a unique nickname for your account before you can use the MySpaceIM service.  Click here to be brought to your MySpace home page where you must set your &quot;My URL&quot; setting, then try again."/>
