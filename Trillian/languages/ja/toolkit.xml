@@ -12,7 +12,7 @@
 	<translation from="80%" to="80%"/>
 	<translation from="90%" to="90%"/>
 	<translation from="Accept" to="Accept"/>
-	<translation from="Account:" to="Account:"/>
+	<translation from="Account:" to="アカウント:"/>
 	<translation from="Add Contact" to="Add Contact"/>
 	<translation from="Approve" to="Approve"/>
 	<translation from="Attach" to="付ける"/>
@@ -37,39 +37,39 @@
 	<translation from="Detach" to="切り離す"/>
 	<translation from="Detach All" to="全て切り離す"/>
 	<translation from="Detach All and Close" to="Detach All and Close"/>
-	<translation from="Display Name:" to="Display Name:"/>
+	<translation from="Display Name:" to="表示名:"/>
 	<translation from="Edit existing container..." to="Edit existing container..."/>
 	<translation from="Focus" to="フォーカス"/>
 	<translation from="From local to remote" to="From local to remote"/>
-	<translation from="From:" to="From:"/>
-	<translation from="Group:" to="Group:"/>
+	<translation from="From:" to="受信元:"/>
+	<translation from="Group:" to="グループ:"/>
 	<translation from="Hide" to="隠す"/>
-	<translation from="History" to="History"/>
-	<translation from="Ignore" to="Ignore"/>
-	<translation from="Info" to="Info"/>
-	<translation from="Insert" to="Insert"/>
-	<translation from="Invite" to="Invite"/>
+	<translation from="History" to="履歴"/>
+	<translation from="Ignore" to="無視する"/>
+	<translation from="Info" to="情報"/>
+	<translation from="Insert" to="追加"/>
+	<translation from="Invite" to="招待する"/>
 	<translation from="Layout" to="レイアウト"/>
-	<translation from="Less details" to="Less details"/>
+	<translation from="Less details" to="詳細を閉じる"/>
 	<translation from="Loading..." to="ロード中..."/>
 	<translation from="Maximize" to="最大化"/>
 	<translation from="Minimize" to="最小化"/>
-	<translation from="More" to="More"/>
-	<translation from="More details" to="More details"/>
-	<translation from="Name:" to="Name:"/>
+	<translation from="More" to="その他"/>
+	<translation from="More details" to="詳細表示"/>
+	<translation from="Name:" to="ファイル名:"/>
 	<translation from="New Container..." to="New Container..."/>
 	<translation from="Next Item" to="Next Item"/>
 	<translation from="Off" to="オフ"/>
 	<translation from="On" to="オン"/>
-	<translation from="Optional" to="Optional"/>
+	<translation from="Optional" to="任意"/>
 	<translation from="Options" to="オプション"/>
 	<translation from="Please wait a moment..." to="少々お待ちください…"/>
 	<translation from="Previous Item" to="Previous Item"/>
-	<translation from="Profile" to="Profile"/>
-	<translation from="Progress:" to="Progress:"/>
+	<translation from="Profile" to="プロフィール"/>
+	<translation from="Progress:" to="進捗状況:"/>
 	<translation from="Purge List" to="Purge List"/>
 	<translation from="Quick Reply..." to="Quick Reply..."/>
-	<translation from="Reason:" to="Reason:"/>
+	<translation from="Reason:" to="理由:"/>
 	<translation from="Recent Containers" to="Recent Containers"/>
 	<translation from="Rename..." to="Rename..."/>
 	<translation from="Reply" to="Reply"/>
@@ -86,13 +86,13 @@
 	<translation from="Set as Default Container" to="Set as Default Container"/>
 	<translation from="Set as a Tabbed Container" to="Set as a Tabbed Container"/>
 	<translation from="Set display name" to="Set display name"/>
-	<translation from="Speed:" to="Speed:"/>
+	<translation from="Speed:" to="速度:"/>
 	<translation from="Start!" to="Start!"/>
 	<translation from="Theme" to="テーマ"/>
 	<translation from="Themes" to="テーマ"/>
 	<translation from="Tile Windows" to="並べて表示"/>
-	<translation from="Time remaining:" to="Time remaining:"/>
-	<translation from="To:" to="To:"/>
+	<translation from="Time remaining:" to="残り時間:"/>
+	<translation from="To:" to="送信先:"/>
 	<translation from="Transparency" to="透明度"/>
 	<translation from="Trillian" to="Trillian"/>
 	<translation from="Trillian is changing skins." to="Trillianはスキンを変えています。&lt;!-- translation needed --&gt;"/>

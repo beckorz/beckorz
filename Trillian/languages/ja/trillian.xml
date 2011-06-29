@@ -235,7 +235,7 @@
 	<translation from="Edit Profile..." to="プロフィール編集..."/>
 	<translation from="Edit Proxy Settings..." to="プロキシ設定を編集しています..."/>
 	<translation from="Edit Shared Trillian Settings..." to="Edit Shared Trillian Settings..."/>
-	<translation from="Edit basic account behavior and configure your proxy settings." to="Edit basic account behavior and configure your proxy settings."/>
+	<translation from="Edit basic account behavior and configure your proxy settings." to="基本的なプロクシ設定を行って下さい。"/>
 	<translation from="Email address:" to="メールアドレス:"/>
 	<translation from="Email:" to="Eメール:"/>
 	<translation from="Emotiblips" to="Emotiblips"/>
@@ -272,7 +272,7 @@
 	<translation from="Fish" to="魚"/>
 	<translation from="Flower" to="花"/>
 	<translation from="Follow @trillianastra on Twitter" to="Twitterで@trillianastraをフォローする"/>
-	<translation from="Follow Internet Explorer&apos;s Proxy Settings" to="Follow Internet Explorer&apos;s Proxy Settings"/>
+	<translation from="Follow Internet Explorer&apos;s Proxy Settings" to="Internet Explorerのプロキシ設定に従う"/>
 	<translation from="Follow Windows" to="Follow Windows"/>
 	<translation from="Follow us" to="Follow us"/>
 	<translation from="Font Style" to="フォントスタイル"/>
@@ -510,8 +510,8 @@
 	<translation from="Plugin: Unload" to="プラグイン: 終了"/>
 	<translation from="Plugins" to="プラグイン"/>
 	<translation from="Port:" to="ポート:"/>
-	<translation from="Post about Trillian on your Facebook feed" to="Post about Trillian on your Facebook feed"/>
-	<translation from="Post now!" to="Post now!"/>
+	<translation from="Post about Trillian on your Facebook feed" to="Facebook上でTrillianについて投稿する"/>
+	<translation from="Post now!" to="投稿する"/>
 	<translation from="Posted a URL" to="Posted a URL"/>
 	<translation from="Posted an image" to="Posted an image"/>
 	<translation from="Previous User" to="Previous User"/>
@@ -550,7 +550,7 @@
 	<translation from="Saturday" to="土曜日"/>
 	<translation from="Save Files To ..." to="ファイルの保存先 ..."/>
 	<translation from="Save History To ..." to="履歴の保存先 ..."/>
-	<translation from="Save account on this computer" to="Save account on this computer"/>
+	<translation from="Save account on this computer" to="アカウントをこのコンピュータに保存"/>
 	<translation from="Save password on this computer" to="パスワードをこのコンピューターに保存"/>
 	<translation from="Search" to="検索"/>
 	<translation from="Security &amp; Privacy" to="セキュリティとプライバシー"/>
@@ -570,7 +570,7 @@
 	<translation from="Set Icon" to="Set Icon"/>
 	<translation from="Set Icon..." to="アイコンセット..."/>
 	<translation from="Set Invisible" to="不可視"/>
-	<translation from="Set Status as:" to="Set Status as:"/>
+	<translation from="Set Status as:" to="状態設定:"/>
 	<translation from="Set Up Instant Messaging" to="Set Up Instant Messaging"/>
 	<translation from="Set Up Mail" to="Set Up Mail"/>
 	<translation from="Set Up Social Networks" to="Set Up Social Networks"/>
@@ -604,7 +604,7 @@
 	<translation from="Social" to="ソーシャル"/>
 	<translation from="Socialize!" to="Socialize!"/>
 	<translation from="Some Social Networks" to="Some Social Networks"/>
-	<translation from="Someone Else" to="Someone Else"/>
+	<translation from="Someone Else" to="他のユーザー"/>
 	<translation from="Sounds" to="サウンド"/>
 	<translation from="Sounds &amp; Notifications" to="サウンド &amp; 通知"/>
 	<translation from="Special Message" to="Special Message"/>
@@ -702,7 +702,7 @@
 	<translation from="Trillian activity history is initializing" to="Trillian activity history is initializing"/>
 	<translation from="Trillian brings all the major IM and social networks together in a single interface and on many different platforms.  Your Trillian account allows you to sign in from any device or location and maintain your contacts and settings everywhere!" to="Trillian brings all the major IM and social networks together in a single interface and on many different platforms.  Your Trillian account allows you to sign in from any device or location and maintain your contacts and settings everywhere!"/>
 	<translation from="Trillian can connect to your IMAP and POP3 email accounts to notify you of new mail.  If you&apos;ve already configured AOL, Windows Live, Yahoo!, or Google Talk, your email notifications have already been set up." to="Trillian can connect to your IMAP and POP3 email accounts to notify you of new mail.  If you&apos;ve already configured AOL, Windows Live, Yahoo!, or Google Talk, your email notifications have already been set up."/>
-	<translation from="Trillian has been successfully updated.  Click here to view the list of changes in this version." to="Trillian has been successfully updated.  Click here to view the list of changes in this version."/>
+	<translation from="Trillian has been successfully updated.  Click here to view the list of changes in this version." to="Trillianは正常にアップデートされました。このバージョンの変更履歴をみるにはここをクリック"/>
 	<translation from="Trillian is currently in offline mode and not connected to the Trillian network.  Any changes to your connections will not be saved to the server." to="Trillian is currently in offline mode and not connected to the Trillian network.  Any changes to your connections will not be saved to the server."/>
 	<translation from="Trillian is currently in offline mode and not connected to the Trillian network.  Any changes to your contact list will not be saved to the server." to="Trillian is currently in offline mode and not connected to the Trillian network.  Any changes to your contact list will not be saved to the server."/>
 	<translation from="Trillian(tm) Preferences" to="Trillian™ 環境設定"/>
@@ -715,7 +715,7 @@
 	<translation from="Try Again" to="再試行"/>
 	<translation from="Tuesday" to="火曜日"/>
 	<translation from="Tweet about Trillian on Twitter" to="ツイッターでTrillianについてをつぶやく"/>
-	<translation from="Tweet now!" to="Tweet now!"/>
+	<translation from="Tweet now!" to="ツイートする"/>
 	<translation from="Type the &lt;b&gt;letters&lt;/b&gt;:" to="Type the &lt;b&gt;letters&lt;/b&gt;:"/>
 	<translation from="Type the &lt;b&gt;two words&lt;/b&gt;:" to="Type the &lt;b&gt;two words&lt;/b&gt;:"/>
 	<translation from="Type the name for the new Identity here" to="Type the name for the new Identity here"/>
@@ -996,10 +996,10 @@
 	<translation from="prefsContactListSort" to="コンタクトの並び順:"/>
 	<translation from="prefsContactListSortSearch" to="sort;abc;status;alphabetically"/>
 	<translation from="prefsContactListSortTypeSearch" to="sort;abc;status;alphabetically"/>
-	<translation from="prefsContactListSystray" to="Show contact list in the system tray"/>
+	<translation from="prefsContactListSystray" to="コンタクトリストをシステムトレイに表示する"/>
 	<translation from="prefsContactListSystraySearch" to="task bar;taskbar;systray"/>
 	<translation from="prefsContactListSystrayTaskbarWarning" to="Unable to uncheck this item.  You must choose a location to show the Contact List."/>
-	<translation from="prefsContactListTaskbar" to="Show contact list in the Windows taskbar when not docked"/>
+	<translation from="prefsContactListTaskbar" to="ドッキング中でない場合、Windowsタスクバーにコンタクトリストを表示する"/>
 	<translation from="prefsContactListTaskbarSearch" to="task bar;taskbar;systray"/>
 	<translation from="prefsContactListTooltipIcon" to="Constrain icon size in tooltips:"/>
 	<translation from="prefsContactListTooltipIconSearch" to="icon;buddy icon;picture size;icon size;picture;contact tooltips;tooltips;tooltip"/>
@@ -1113,7 +1113,7 @@
 	<translation from="prefsLicensingUsernameManage" to="管理..."/>
 	<translation from="prefsMessageAppearanceDescription" to="Display your chats in many unique and interesting ways."/>
 	<translation from="prefsMessageAppearanceName" to="Chat Views"/>
-	<translation from="prefsMessageWindowsActionsToolbar" to="Show actions toolbar on top of chat windows"/>
+	<translation from="prefsMessageWindowsActionsToolbar" to="アクションツールバーをチャットウィンドウの上部へ表示する"/>
 	<translation from="prefsMessageWindowsAllTab" to="1ウィンドウ内にタブでグループする"/>
 	<translation from="prefsMessageWindowsAllTabSearch" to="window creation;container;tabbed;tabs;autotab;smart tabs"/>
 	<translation from="prefsMessageWindowsAlwaysOnTop" to="Trillianのウィンドウは、常に他のウィンドウより前面に表示する"/>
@@ -1159,7 +1159,7 @@
 	<translation from="prefsMessageWindowsInstantSearchTagSearch" to="search;instant search;smart tags;underline;instant lookup;memory;memory usage"/>
 	<translation from="prefsMessageWindowsInstantSearchToolbar" to="Show search toolbar within my Message Windows"/>
 	<translation from="prefsMessageWindowsInstantSearchToolbarSearch" to="search;toolbar;instant search;instant lookup"/>
-	<translation from="prefsMessageWindowsInstantSearchWarning" to="The above setting is performance intensive and may slow down older PCs."/>
+	<translation from="prefsMessageWindowsInstantSearchWarning" to="上の設定は、古いPCの場合パフォーマンス低下を招く場合があります。"/>
 	<translation from="prefsMessageWindowsMetaWindows" to="Combine windows from the same metacontact"/>
 	<translation from="prefsMessageWindowsMetaWindowsSearch" to="merge;combine;metacontact"/>
 	<translation from="prefsMessageWindowsName" to="チャットウィンドウ"/>
@@ -1304,9 +1304,9 @@
 	<translation from="prefsSkinsName" to="スキン"/>
 	<translation from="prefsSkinsPacksDescription" to="Change your emoticons, icons, sounds and interface right here."/>
 	<translation from="prefsSkinsPacksName" to="絵文字, アイコン, その他"/>
-	<translation from="prefsSkinsSettingsAlpha" to="Use alpha-blending transparency for main windows within the skin (if available)"/>
+	<translation from="prefsSkinsSettingsAlpha" to="メインウィンドウを透過表示する (利用可能な場合)"/>
 	<translation from="prefsSkinsSettingsAlphaSearch" to="alpha;layered;speed;performance"/>
-	<translation from="prefsSkinsSettingsAlphaWarning" to="The above setting is performance intensive and may slow down older PCs."/>
+	<translation from="prefsSkinsSettingsAlphaWarning" to="上の設定は、古いPCの場合パフォーマンス低下を招く場合があります。"/>
 	<translation from="prefsStatusMessagesAddButton" to="追加..."/>
 	<translation from="prefsStatusMessagesAddButtonSearch" to="add;available message;status message;away message;group"/>
 	<translation from="prefsStatusMessagesAwayState" to="Show Trillian as away when this message is set"/>
@@ -1328,7 +1328,7 @@
 	<translation from="prefsTextConversationsColorChoose" to="文字色..."/>
 	<translation from="prefsTextConversationsColorChooseSearch" to="font;text color;font color;color"/>
 	<translation from="prefsTextConversationsDescription" to="Customize your basic window functions, colors, and fonts to fit your style of messaging."/>
-	<translation from="prefsTextConversationsEditToolbar" to="Show text editing toolbar on bottom of chat windows"/>
+	<translation from="prefsTextConversationsEditToolbar" to="チャットウィンドウの下部にテキスト編集ツールバーを表示する"/>
 	<translation from="prefsTextConversationsEmoticonSpaceRequired" to="空白文字に囲まれた場合に絵文字を表示する"/>
 	<translation from="prefsTextConversationsEmoticonSpaceRequiredSearch" to="絵文字"/>
 	<translation from="prefsTextConversationsEmoticons" to="絵文字を表示する"/>

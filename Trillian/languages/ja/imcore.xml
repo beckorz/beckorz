@@ -12,13 +12,13 @@
 	<translation from="Allow a Contact..." to="コンタクトを許可..."/>
 	<translation from="Allow a User..." to="ユーザーを許可..."/>
 	<translation from="Allow and Block List" to="許可/ブロックリスト"/>
-	<translation from="Appear Offline" to="Appear Offline"/>
-	<translation from="Appear Online Always" to="Appear Online Always"/>
+	<translation from="Appear Offline" to="オフライン状態に見せる"/>
+	<translation from="Appear Online Always" to="常にオンライン状態に見せる"/>
 	<translation from="Auto-response: " to="自動返信:"/>
 	<translation from="Automatically approve all incoming add requests" to="Automatically approve all incoming add requests"/>
 	<translation from="Automatically log me into mail when possible" to="Automatically log me into mail when possible"/>
 	<translation from="Away" to="退席中"/>
-	<translation from="Block" to="ブロック"/>
+	<translation from="Block" to="ブロックする"/>
 	<translation from="Block List" to="ブロックリスト"/>
 	<translation from="Block User" to="ユーザーをブロック"/>
 	<translation from="Block a Contact..." to="コンタクトをブロック..."/>
@@ -113,7 +113,7 @@
 	<translation from="day" to="日"/>
 	<translation from="days" to="日"/>
 	<translation from="ftBeginIncoming" to="*** Attempting to receive %filename% from %username%."/>
-	<translation from="ftBeginOutgoing" to="*** Attempting to send %filename% to %username%."/>
+	<translation from="ftBeginOutgoing" to="*** %username% へ %filename% をファイル送信中..."/>
 	<translation from="ftConnectInfoServer" to="*** Notice: %username% has requested a server-proxied file transfer.  We are attempting to connect to %ip%:%port%."/>
 	<translation from="ftEnd" to="*** The file transfer has ended."/>
 	<translation from="ftErrorCapability" to="*** Error: %username% is running a client that does not support file transfers."/>

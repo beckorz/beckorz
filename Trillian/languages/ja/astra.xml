@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
 	<translation from="A required codec could not be located on your computer, and is required for conferencing." to="チャットに必要なコーデックがインストールされていません。"/>
-	<translation from="Appear Offline and Block" to="オフラインまたは、ブロックされています"/>
+	<translation from="Appear Offline and Block" to="オフラインまたは、ブロックする"/>
 	<translation from="Astra support." to="Astra support."/>
 	<translation from="Default" to="デフォルト"/>
 	<translation from="Latitude" to="緯度"/>
@@ -22,7 +22,7 @@
 	<translation from="infoErrorVersion" to="このバージョンの Trillian はもう利用できません。アップデートが必要です。"/>
 	<translation from="infoMsgLenExceeded" to="メッセージが長すぎるため、送信に失敗しました。"/>
 	<translation from="infoMsgLost" to="あなたのメッセージを相手に届けることができませんでした。再度送信して下さい。"/>
-	<translation from="infoMsgPermissions" to="ブロックされた人にメッセージを送信することはできません。"/>
+	<translation from="infoMsgPermissions" to="ブロック中の人にメッセージを送信することはできません。"/>
 	<translation from="infoOtherComputer" to="他のコンピュータからあなたのIDでログインしたため、ログアウトされました。"/>
 	<translation from="systraySelfDisconnect" to="Another device under your control, &quot;%resource%&quot;, has forcefully disconnected you by request."/>
 	<translation from="systraySelfOffline" to="&quot;%resource&quot;はオフラインになりました。"/>

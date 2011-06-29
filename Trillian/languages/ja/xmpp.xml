@@ -13,7 +13,7 @@
 	<translation from="Extended Away" to="Extended Away"/>
 	<translation from="Force use of bytestream proxy: %prefsXMPPS5BProxyName%" to="Force use of bytestream proxy: %prefsXMPPS5BProxyName%"/>
 	<translation from="Force use of port for bytestreams: %prefsXMPPS5BPortName%" to="Force use of port for bytestreams: %prefsXMPPS5BPortName%"/>
-	<translation from="Go Off The Record" to="Go Off The Record"/>
+	<translation from="Go Off The Record" to="記録しない"/>
 	<translation from="Google: New Mail" to="Google: 新着メール"/>
 	<translation from="Join a Conference..." to="Join a Conference..."/>
 	<translation from="Kick" to="キック"/>

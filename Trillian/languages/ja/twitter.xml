@@ -22,7 +22,7 @@
 	<translation from="Location" to="場所"/>
 	<translation from="Manage options for this account" to="このアカウントのオプションを変更する"/>
 	<translation from="Manage the organization settings for this account" to="このアカウントの表示設定を変更する"/>
-	<translation from="Mentions" to="Mentions"/>
+	<translation from="Mentions" to="＠"/>
 	<translation from="MessageEditCountRelative" to="メッセージ (%edit.count_relative%)"/>
 	<translation from="Miscellaneous" to="その他"/>
 	<translation from="New Twitter Trend" to="新しい Twitter トレンド"/>
@@ -101,7 +101,7 @@
 	<translation from="menuConnectionReconnect" to="再接続"/>
 	<translation from="menuCopy" to="コピー"/>
 	<translation from="menuDelete" to="削除"/>
-	<translation from="menuDirectMessageContact" to="%contact% へダイレクトメッセージを送る"/>
+	<translation from="menuDirectMessageContact" to="ダイレクトメッセージを送る"/>
 	<translation from="menuEdit" to="編集"/>
 	<translation from="menuFollow" to="フォロー"/>
 	<translation from="menuFollowLinks" to="フォローリンク"/>

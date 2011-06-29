@@ -57,7 +57,7 @@
 	<translation from="Add Bookmark..." to="ブックマーク追加..."/>
 	<translation from="Add Contact" to="コンタクト追加"/>
 	<translation from="Add Emotiblip..." to="Add Emotiblip..."/>
-	<translation from="Advanced" to="Advanced"/>
+	<translation from="Advanced" to="拡張設定"/>
 	<translation from="After Asking Me" to="After Asking Me"/>
 	<translation from="All" to="全て"/>
 	<translation from="Already on Contact List" to="Already on Contact List"/>
@@ -107,7 +107,7 @@
 	<translation from="Clear History" to="履歴をクリア"/>
 	<translation from="Clear Log..." to="ログをクリア..."/>
 	<translation from="Click for Options" to="オプションをクリック"/>
-	<translation from="Click to change your icon." to="Click to change your icon."/>
+	<translation from="Click to change your icon." to="アイコン変更"/>
 	<translation from="Close" to="閉じる"/>
 	<translation from="Close Connection" to="Close Connection"/>
 	<translation from="Close File Transfer" to="Close File Transfer"/>
@@ -163,7 +163,7 @@
 	<translation from="End Call" to="通話を終了する"/>
 	<translation from="End call and close" to="通話を終了して閉じる"/>
 	<translation from="Enter" to="Enter"/>
-	<translation from="Eraser" to="Eraser"/>
+	<translation from="Eraser" to="消しゴムサイズを変更します"/>
 	<translation from="Fast Forward" to="Fast Forward"/>
 	<translation from="February" to="2月"/>
 	<translation from="File" to="ファイル"/>
@@ -198,7 +198,7 @@
 	<translation from="Hide Local" to="Hide Local"/>
 	<translation from="Hide Transfer" to="Hide Transfer"/>
 	<translation from="Hide Window" to="ウィンドウを隠す"/>
-	<translation from="Highlighter" to="Highlighter"/>
+	<translation from="Highlighter" to="強調表示"/>
 	<translation from="History" to="履歴"/>
 	<translation from="Hyperlink..." to="ハイパーリンク..."/>
 	<translation from="Icon" to="アイコン"/>
@@ -210,18 +210,18 @@
 	<translation from="Important!" to="重要!"/>
 	<translation from="Importing (%percent%%%)..." to="Importing (%percent%%%)..."/>
 	<translation from="Importing history (%percent%%%)..." to="Importing history (%percent%%%)..."/>
-	<translation from="Incoming File from %contact% (%medium%)..." to="Incoming File from %contact% (%medium%)..."/>
+	<translation from="Incoming File from %contact% (%medium%)..." to="%contact% (%medium%)からファイル受信..."/>
 	<translation from="Incoming file transfer status..." to="Incoming file transfer status..."/>
 	<translation from="Increase Font Size" to="フォントの大きさを拡大する"/>
 	<translation from="Insert" to="挿入"/>
-	<translation from="Insert Bookmark at &quot;%description%&quot;" to="Insert Bookmark at &quot;%description%&quot;"/>
-	<translation from="Insert Current URL" to="Insert Current URL"/>
+	<translation from="Insert Bookmark at &quot;%description%&quot;" to="ブックマークへ &quot;%description%&quot; を追加する"/>
+	<translation from="Insert Current URL" to="現在のURLを挿入"/>
 	<translation from="Insert Emotiblip" to="Insert Emotiblip"/>
 	<translation from="Insert Picture..." to="画像挿入..."/>
 	<translation from="Insert Screen Capture..." to="画面キャプチャー挿入..."/>
 	<translation from="Insert URL" to="URL挿入"/>
 	<translation from="Insert URL..." to="URL挿入..."/>
-	<translation from="Insert Video Capture..." to="Insert Video Capture..."/>
+	<translation from="Insert Video Capture..." to="ビデオキャプチャーを挿入..."/>
 	<translation from="Instant Video Capture Mode" to="Instant Video Capture Mode"/>
 	<translation from="Invalid video format." to="Invalid video format."/>
 	<translation from="Inverse" to="Inverse"/>
@@ -338,7 +338,7 @@
 	<translation from="Pause Broadcast" to="Pause Broadcast"/>
 	<translation from="Paused." to="Paused."/>
 	<translation from="Pen Color" to="線の色"/>
-	<translation from="Pencil" to="Pencil"/>
+	<translation from="Pencil" to="手書きのサイズを変更します"/>
 	<translation from="Permanently delete the message &quot;%message%&quot;?" to="Permanently delete the message &quot;%message%&quot;?"/>
 	<translation from="Picture in Picture" to="Picture in Picture"/>
 	<translation from="Picture..." to="画像..."/>
@@ -365,7 +365,7 @@
 	<translation from="Saturday" to="土曜日"/>
 	<translation from="Save As..." to="名前を付けて保存..."/>
 	<translation from="Save Image As..." to="名前を付けて画像を保存..."/>
-	<translation from="Screen Capture..." to="Screen Capture..."/>
+	<translation from="Screen Capture..." to="画面キャプチャー..."/>
 	<translation from="Scroll Down" to="下にスクロール"/>
 	<translation from="Scroll Up" to="上にスクロール"/>
 	<translation from="Search" to="検索"/>
@@ -429,8 +429,8 @@
 	<translation from="The Future" to="The Future"/>
 	<translation from="The active contact for this window has changed to &quot;%name%&quot; on %medium%." to="The active contact for this window has changed to &quot;%name%&quot; on %medium%."/>
 	<translation from="There was an error while loading the preview for this item.  Sorry for the inconvenience." to="There was an error while loading the preview for this item.  Sorry for the inconvenience."/>
-	<translation from="Thick" to="Thick"/>
-	<translation from="Thin" to="Thin"/>
+	<translation from="Thick" to="太字"/>
+	<translation from="Thin" to="細字"/>
 	<translation from="Thursday" to="土曜日"/>
 	<translation from="Time" to="時間"/>
 	<translation from="Time Online" to="Time Online"/>
@@ -486,13 +486,13 @@
 	<translation from="You are not connected to %medium%." to="You are not connected to %medium%."/>
 	<translation from="You have received %filename%." to="You have received %filename%."/>
 	<translation from="Zoom" to="拡大"/>
-	<translation from="after I send a message" to="after I send a message"/>
+	<translation from="after I send a message" to="メッセージを送った時"/>
 	<translation from="alertBuzz" to="&lt;b&gt;%name%&lt;/b&gt; has buzzed you!"/>
 	<translation from="alertMessageChat" to="&lt;b&gt;%name%&lt;/b&gt; (%channel%) says: %message%"/>
 	<translation from="alertMessageHeader" to="&lt;b&gt;%name%&lt;/b&gt; has written %total% messages"/>
 	<translation from="alertMessagePrivate" to="&lt;b&gt;%name%&lt;/b&gt; says: %message%"/>
 	<translation from="alertTyping" to="&lt;b&gt;%name%&lt;/b&gt; がメッセージを入力中..."/>
-	<translation from="anytime" to="anytime"/>
+	<translation from="anytime" to="常に"/>
 	<translation from="attempting to send audio..." to="attempting to send audio..."/>
 	<translation from="attempting to send video..." to="attempting to send video..."/>
 	<translation from="buzzes %name%!" to="%name% にシェイクを送りました"/>
