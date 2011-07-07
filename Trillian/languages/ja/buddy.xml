@@ -101,8 +101,8 @@
 	<translation from="Disconnected" to="切断しました"/>
 	<translation from="Docking" to="ドッキング"/>
 	<translation from="E&amp;xit" to="終了(&amp;X)"/>
-	<translation from="Edit Contact Notes..." to="Edit Contact Notes..."/>
-	<translation from="Edit Group Notes..." to="Edit Group Notes..."/>
+	<translation from="Edit Contact Notes..." to="コンタクトメモを編集..."/>
+	<translation from="Edit Group Notes..." to="グループメモを編集..."/>
 	<translation from="Edit Previous Messages..." to="Edit Previous Messages..."/>
 	<translation from="Extra Information" to="Extra InformationProfiles"/>
 	<translation from="Follow Links" to="Follow Links"/>
@@ -177,7 +177,7 @@
 	<translation from="Search" to="検索"/>
 	<translation from="Searching for %search%" to="今%search%を検索しています"/>
 	<translation from="Send Message to" to="Send Message to"/>
-	<translation from="Send Message to All..." to="Send Message to All..."/>
+	<translation from="Send Message to All..." to="全員にメッセージを送信..."/>
 	<translation from="Send Message..." to="メッセージを送信"/>
 	<translation from="Service Not Loaded" to="Service Not Loaded"/>
 	<translation from="Set Default Source..." to="Set Default Source..."/>

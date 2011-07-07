@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
 	<translation from="Ban" to="禁止"/>
-	<translation from="Browse for Conferences..." to="Browse for Conferences..."/>
+	<translation from="Browse for Conferences..." to="会議を参照..."/>
 	<translation from="Bytestreams" to="Bytestreams"/>
 	<translation from="Change Role" to="権限を変更する"/>
 	<translation from="Configure Room" to="ルーム設定"/>
@@ -21,13 +21,13 @@
 	<translation from="Moderators" to="モデレータ"/>
 	<translation from="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%" to="Offer an additional bytestream with an external IP of: %prefsXMPPS5BExternalIPName%"/>
 	<translation from="Override default resource name with: %prefsXMPPResourceName%" to="Override default resource name with: %prefsXMPPResourceName%"/>
-	<translation from="Participant" to="Participant"/>
+	<translation from="Participant" to="参加者"/>
 	<translation from="Set priority for this connection to: %prefsXMPPPriorityValue%" to="Set priority for this connection to: %prefsXMPPPriorityValue%"/>
 	<translation from="Standards-based XMPP support, including all Jabber/XMPP networks, Google Talk, VZ, and more." to="Standards-based XMPP support, including all Jabber/XMPP networks, Google Talk, VZ, and more."/>
 	<translation from="Unknown Error" to="不明なエラー"/>
 	<translation from="Use legacy SSL for connection" to="古いSSL(ポート:5223)を強制的に使用する"/>
-	<translation from="Visitor" to="Visitor"/>
-	<translation from="Visitors" to="Visitors"/>
+	<translation from="Visitor" to="閲覧者"/>
+	<translation from="Visitors" to="閲覧者"/>
 	<translation from="ftStreamFail" to="*** We were unable to connect to the streamhost at &quot;%hostname%:%port%&quot;."/>
 	<translation from="ftStreamInfo" to="*** Offering streamhost &quot;%hostname%:%port%&quot;."/>
 	<translation from="ftStreamInfoRemote" to="*** Received streamhost &quot;%hostname%:%port%&quot;."/>
@@ -50,7 +50,7 @@
 	<translation from="infoMUC407" to="There was an error when joining the chat room: you are not on the member list for this room."/>
 	<translation from="infoMUC409" to="There was an error when joining the chat room: your desired nickname is already in use."/>
 	<translation from="infoMUC503" to="There was an error when joining the chat room: the maximum number of occupants has been reached."/>
-	<translation from="infoMUCAdminError" to="You do not have permission to perform the requested administrative action within this room."/>
+	<translation from="infoMUCAdminError" to="あなたには、この部屋に対して要求された管理動作を実行する権限がありません。"/>
 	<translation from="infoMUCRoleChange" to="%username% は今 %role% です"/>
 	<translation from="infoMUCUnknownError" to="There was an error when joining the chat room: &quot;%error%&quot;"/>
 	<translation from="infoNos" to="This conversation is off the record."/>

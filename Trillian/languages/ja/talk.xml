@@ -28,7 +28,7 @@
 	<translation from="%percentage%%% - Received %file% from %name%" to="%percentage%%% - Received %file% from %name%"/>
 	<translation from="%percentage%%% - Receiving %file% from %name%" to="%percentage%%% - Receiving %file% from %name%"/>
 	<translation from="%percentage%%% - Sending %file% to %name%" to="%percentage%%% - Sending %file% to %name%"/>
-	<translation from="%percentage%%% - Sent %file% to %name%" to="%percentage%%% - %file% へ %name% 送信しました"/>
+	<translation from="%percentage%%% - Sent %file% to %name%" to="%percentage%%% - %name% へ %file% を送信しました"/>
 	<translation from="%reltime% at %time%" to="%reltime% at %time%"/>
 	<translation from="%user% user connected." to="%user% user connected."/>
 	<translation from="%user% users connected." to="%user% users connected."/>
@@ -110,7 +110,7 @@
 	<translation from="Click to change your icon." to="アイコン変更"/>
 	<translation from="Close" to="閉じる"/>
 	<translation from="Close Connection" to="Close Connection"/>
-	<translation from="Close File Transfer" to="Close File Transfer"/>
+	<translation from="Close File Transfer" to="ファイル転送を閉じる"/>
 	<translation from="Close after send" to="送信後に閉じる"/>
 	<translation from="Code" to="コード"/>
 	<translation from="Color" to="色"/>
@@ -152,7 +152,7 @@
 	<translation from="Direct Connect" to="Direct Connect"/>
 	<translation from="Disconnect" to="切断"/>
 	<translation from="Downloading %month% %year%..." to="Downloading %month% %year%..."/>
-	<translation from="Draw your message here" to="Draw your message here"/>
+	<translation from="Draw your message here" to="ここに絵を描いて下さい"/>
 	<translation from="Duration" to="接続時間"/>
 	<translation from="Editbox is locked, please wait..." to="Editbox is locked, please wait..."/>
 	<translation from="EmotiSounds" to="EmotiSounds"/>
@@ -282,7 +282,7 @@
 	<translation from="Message: Typing (no window)" to="Message: Typing (no window)"/>
 	<translation from="Message: URL" to="メッセージ: URL"/>
 	<translation from="Messages" to="メッセージ"/>
-	<translation from="Messages typed here are sent from %from% to %contact%" to="Messages typed here are sent from %from% to %contact%"/>
+	<translation from="Messages typed here are sent from %from% to %contact%" to="ここで入力したメッセージは %from% から %contact% に送信されます。"/>
 	<translation from="Microphone" to="Microphone"/>
 	<translation from="Minimize" to="最小化"/>
 	<translation from="Monday" to="月曜日"/>

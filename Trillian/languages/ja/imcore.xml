@@ -55,7 +55,7 @@
 	<translation from="Hostname:" to="ホスト名:"/>
 	<translation from="Idle" to="アイドル"/>
 	<translation from="Invisible" to="不可視"/>
-	<translation from="Invite to Conference..." to="Invite to Conference..."/>
+	<translation from="Invite to Conference..." to="会議へ招待する..."/>
 	<translation from="Invited" to="招待済み"/>
 	<translation from="Join a Chat..." to="チャットに招待..."/>
 	<translation from="Local machine" to="Local machine"/>
@@ -73,7 +73,7 @@
 	<translation from="Only accept messages from users on my contact list" to="コンタクトリストにいるユーザーだけからメッセージを許可"/>
 	<translation from="Out To Lunch" to="昼休み中"/>
 	<translation from="Override my display name for this account with: %prefsMiscOverrideDisplayNameName%" to="Override my display name for this account with: %prefsMiscOverrideDisplayNameName%"/>
-	<translation from="Participants" to="Participants"/>
+	<translation from="Participants" to="参加者"/>
 	<translation from="Password" to="パスワード"/>
 	<translation from="Password:" to="パスワード:"/>
 	<translation from="Permissions" to="権限"/>
@@ -115,7 +115,7 @@
 	<translation from="ftBeginIncoming" to="*** Attempting to receive %filename% from %username%."/>
 	<translation from="ftBeginOutgoing" to="*** %username% へ %filename% をファイル送信中..."/>
 	<translation from="ftConnectInfoServer" to="*** Notice: %username% has requested a server-proxied file transfer.  We are attempting to connect to %ip%:%port%."/>
-	<translation from="ftEnd" to="*** The file transfer has ended."/>
+	<translation from="ftEnd" to="*** ファイル転送は終了しました。"/>
 	<translation from="ftErrorCapability" to="*** Error: %username% is running a client that does not support file transfers."/>
 	<translation from="ftErrorContact" to="*** Error: You cannot send files to users who are not on your contact list."/>
 	<translation from="ftErrorSelf" to="*** Error: You cannot send files to yourself."/>
@@ -137,8 +137,8 @@
 	<translation from="infoCalling" to="is calling %username%."/>
 	<translation from="infoChatCreating" to="Creating conference..."/>
 	<translation from="infoChatInvite" to="%username% is inviting you to join a conference."/>
-	<translation from="infoChatJoin" to="%username% has joined the conversation."/>
-	<translation from="infoChatLeave" to="%username% has left the conversation."/>
+	<translation from="infoChatJoin" to="%username% は会話に参加しました"/>
+	<translation from="infoChatLeave" to="%username% は退室しました"/>
 	<translation from="infoConfirmAccountRemove" to="Permanently remove account &quot;%username%&quot; from your list?"/>
 	<translation from="infoConnProxy" to="We are using a proxy of type &quot;%protocol%&quot; at &quot;%hostname%:%port%&quot; to connect."/>
 	<translation from="infoConnReconnecting" to="Attempting to reconnect in %seconds% seconds..."/>
