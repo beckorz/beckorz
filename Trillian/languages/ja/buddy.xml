@@ -3,7 +3,7 @@
 	<translation from="%medium% (%num% connection)" to="%medium% (%num% 個の接続)"/>
 	<translation from="%medium% (%num% connections)" to="%medium% (%num% 個の接続)"/>
 	<translation from="%medium% (No connections)" to="%medium% (接続はありません)"/>
-	<translation from="%medium% (click here to connect)" to="%medium% (接続するにはここにクリック)"/>
+	<translation from="%medium% (click here to connect)" to="%medium% (接続するにはここをクリック)"/>
 	<translation from="%name% on %medium%" to="%name% on %medium%"/>
 	<translation from="%num% %time_unit%" to="%num% %time_unit%"/>
 	<translation from="%service% is disconnected." to="%service% は切断しました。"/>
@@ -35,7 +35,7 @@
 	<translation from="Add to Contact List" to="コンタクトリストに追加"/>
 	<translation from="Add..." to="追加..."/>
 	<translation from="Adding..." to="追加しています..."/>
-	<translation from="Advanced..." to="Advanced..."/>
+	<translation from="Advanced..." to="拡張設定..."/>
 	<translation from="All" to="全て"/>
 	<translation from="Alphabetically" to="名前順に整理"/>
 	<translation from="Always On Top" to="常に手前に表示"/>
@@ -209,8 +209,8 @@
 	<translation from="Top" to="Top"/>
 	<translation from="Turn Autohide Off" to="自動表示Off"/>
 	<translation from="Turn Autohide On" to="自動表示On"/>
-	<translation from="Turn Off" to="Turn Off"/>
-	<translation from="Turn On" to="Turn On"/>
+	<translation from="Turn Off" to="オフにする"/>
+	<translation from="Turn On" to="オンにする"/>
 	<translation from="Uncombine Metacontact" to="Uncombine Metacontact"/>
 	<translation from="Unknown" to="不明"/>
 	<translation from="Upgrade to Trillian Pro" to="Trillian Proへアップグレード"/>

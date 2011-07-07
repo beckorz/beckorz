@@ -24,7 +24,7 @@
 	<translation from="Block a Contact..." to="コンタクトをブロック..."/>
 	<translation from="Block a User..." to="ユーザーをブロック..."/>
 	<translation from="Busy" to="取り込み中"/>
-	<translation from="Call" to="Call"/>
+	<translation from="Call" to="通話"/>
 	<translation from="Cancel" to="キャンセル"/>
 	<translation from="Change Password" to="パスワードを変更"/>
 	<translation from="Check Mail" to="メールをチェック"/>
@@ -56,7 +56,7 @@
 	<translation from="Idle" to="アイドル"/>
 	<translation from="Invisible" to="不可視"/>
 	<translation from="Invite to Conference..." to="Invite to Conference..."/>
-	<translation from="Invited" to="Invited"/>
+	<translation from="Invited" to="招待済み"/>
 	<translation from="Join a Chat..." to="チャットに招待..."/>
 	<translation from="Local machine" to="Local machine"/>
 	<translation from="Mail" to="メール"/>
@@ -107,7 +107,7 @@
 	<translation from="User:" to="ユーザー:"/>
 	<translation from="Username" to="ユーザー名"/>
 	<translation from="Username:" to="ユーザー名:"/>
-	<translation from="Video Call" to="Video Call"/>
+	<translation from="Video Call" to="ビデオ通話"/>
 	<translation from="View User Information" to="ユーザー情報を表示"/>
 	<translation from="When this account is not active, hide its icon from the identity panel" to="When this account is not active, hide its icon from the identity panel"/>
 	<translation from="day" to="日"/>
@@ -149,10 +149,10 @@
 	<translation from="infoContactInvisible" to="&quot;%displayname% (%username%)&quot; went invisible at %time%."/>
 	<translation from="infoContactMarked" to="&quot;%displayname% (%username%)&quot; was marked &quot;%status%&quot; on %time%."/>
 	<translation from="infoContactOffline" to="&quot;%displayname% (%username%)&quot; は %time% にオフラインになりました。"/>
-	<translation from="infoContactOfflineAt" to="%name% signed off at %time%."/>
+	<translation from="infoContactOfflineAt" to="%name% は %time% にサインアウトしました"/>
 	<translation from="infoContactOfflineAtFrom" to="%name% signed off from &quot;%from%&quot; at %time%."/>
 	<translation from="infoContactOnline" to="&quot;%displayname% (%username%)&quot; は %time% にオンラインになりました。"/>
-	<translation from="infoContactOnlineAt" to="%name% signed on at %time%."/>
+	<translation from="infoContactOnlineAt" to="%name% は %time% にサインインしました"/>
 	<translation from="infoContactOnlineAtFrom" to="%name% signed on from &quot;%from%&quot; at %time%."/>
 	<translation from="infoContactReturn" to="&quot;%displayname% (%username%)&quot; は %time% に退席ステータスから戻りました。"/>
 	<translation from="infoContactReturnIdle" to="&quot;%displayname% (%username%)&quot; は %time% にIdleステータスから戻りました。"/>

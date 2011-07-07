@@ -133,7 +133,7 @@
 	<translation from="Change your password" to="パスワードの変更"/>
 	<translation from="Change..." to="変更..."/>
 	<translation from="Chat Activities" to="Chat Activities"/>
-	<translation from="Chat Everywhere!" to="Chat Everywhere!"/>
+	<translation from="Chat Everywhere!" to="どこでもチャットを!"/>
 	<translation from="Chat Room Windows" to="チャットルームウィンドウ"/>
 	<translation from="Chat Views" to="Chat Views"/>
 	<translation from="Chat Windows" to="チャットウィンドウ"/>
@@ -184,7 +184,7 @@
 	<translation from="Create a secure password" to="Create a secure password"/>
 	<translation from="Creating account..." to="アカウントを作成しています..."/>
 	<translation from="Credits" to="クレジット"/>
-	<translation from="Current" to="Current"/>
+	<translation from="Current" to="現在"/>
 	<translation from="Current (%section%)" to="Current (%section%)"/>
 	<translation from="Current (Primary)" to="Current (Primary)"/>
 	<translation from="Current Device" to="現在のデバイス"/>
@@ -567,7 +567,7 @@
 	<translation from="Set &amp;Status" to="ステータスセット (&amp;S)"/>
 	<translation from="Set Background Color" to="背景色セット"/>
 	<translation from="Set Foreground Color" to="文字色"/>
-	<translation from="Set Icon" to="Set Icon"/>
+	<translation from="Set Icon" to="アイコンをセット"/>
 	<translation from="Set Icon..." to="アイコンセット..."/>
 	<translation from="Set Invisible" to="不可視"/>
 	<translation from="Set Status as:" to="状態設定:"/>

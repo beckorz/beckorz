@@ -17,7 +17,7 @@
 	<translation from="Approve" to="Approve"/>
 	<translation from="Attach" to="付ける"/>
 	<translation from="Block" to="Block"/>
-	<translation from="Call" to="Call"/>
+	<translation from="Call" to="通話"/>
 	<translation from="Cancel" to="キャンセル"/>
 	<translation from="Cascade Windows" to="重ねて表示"/>
 	<translation from="Chat Room Window" to="Chat Room Window"/>
@@ -68,19 +68,19 @@
 	<translation from="Profile" to="プロフィール"/>
 	<translation from="Progress:" to="進捗状況:"/>
 	<translation from="Purge List" to="Purge List"/>
-	<translation from="Quick Reply..." to="Quick Reply..."/>
+	<translation from="Quick Reply..." to="即返信..."/>
 	<translation from="Reason:" to="理由:"/>
 	<translation from="Recent Containers" to="Recent Containers"/>
 	<translation from="Rename..." to="Rename..."/>
-	<translation from="Reply" to="Reply"/>
+	<translation from="Reply" to="返信"/>
 	<translation from="Reset" to="置き直す"/>
 	<translation from="Save Settings" to="設定を保存"/>
 	<translation from="Search Contact List" to="Search Contact List"/>
 	<translation from="Search Results" to="Search Results"/>
-	<translation from="Send" to="Send"/>
-	<translation from="Send File" to="Send File"/>
-	<translation from="Server" to="Server"/>
-	<translation from="Set Icon" to="Set Icon"/>
+	<translation from="Send" to="送信"/>
+	<translation from="Send File" to="ファイル送信"/>
+	<translation from="Server" to="サーバー"/>
+	<translation from="Set Icon" to="アイコンをセット"/>
 	<translation from="Set Status" to="Set Status"/>
 	<translation from="Set Status for" to="Set Status for"/>
 	<translation from="Set as Default Container" to="Set as Default Container"/>

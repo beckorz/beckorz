@@ -540,7 +540,7 @@
 	<translation from="textNoticeLogRemove" to="Are you sure you want to remove the log file associated with this user permanently?"/>
 	<translation from="textNoticeVideo" to="You are currently within a video call.  Do you wish to close this window and end this call?"/>
 	<translation from="textNoticeVideoInstructions" to="You are currently within a video call.  By closing the window, it will end this call."/>
-	<translation from="textTrillianIM" to="Hey, you should check out this cool IM program I use, Trillian.  It allows me to talk to people on all the major IM networks.  You can find out more about it at http://www.trillian.im/"/>
+	<translation from="textTrillianIM" to="私が使用中のTrillian(IMプログラム)をチェックして下さい。このソフトは、多くの有名なIMネットワークと話す事が可能です。もっと知りたい場合はここ(http://www.trillian.im/)でチェックできます。"/>
 	<translation from="titleError" to="Trillian"/>
 	<translation from="titleNotice" to="Trillian"/>
 	<translation from="up / down" to="up / down"/>
