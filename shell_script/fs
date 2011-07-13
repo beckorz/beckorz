@@ -1,0 +1,50 @@
+#!/bin/sh
+# 指定ディレクトリ内のファイル一覧を表示して選択されたファイル名を出力するシェルスクリプト
+# 「less `fs /hoge/piyo`」などのように使うと吉？
+
+# 引数チェック
+PARAM=${1:-$PWD}
+if [ -f "$PARAM" ]; then
+	echo "$PARAM"
+	exit
+fi
+
+# ファイル選択関数
+FileSelectMain() {
+	# 指定ディレクトリの絶対パスを取得
+	cd "$1"
+	DIR=`pwd`
+
+	# ファイル選択
+	echo "$DIR" 1>&2
+	PS3='Select file(Q:cancel)> '
+	_IFS=$IFS
+	IFS='
+'
+	QUIT=
+	select SEL in `ls -a "$DIR"`; do
+		if [ "$REPLY" = "q" -o "$REPLY" = "Q" ]; then
+			QUIT=1
+			break
+		fi
+		if [ -n "$SEL" ]; then
+			break
+		fi
+	done
+	IFS="$_IFS"
+
+	# 選択判定
+	if [ "$QUIT" ]; then
+		echo "User canceled." 1>&2
+		return 1
+	fi
+	FULLPATH="${DIR%/}/$SEL"
+	if [ -f "$FULLPATH" ]; then
+		echo "$FULLPATH"
+		return 0
+	fi
+	FileSelectMain "$FULLPATH"
+	return
+}
+
+FileSelectMain "$PARAM"
