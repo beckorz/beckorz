@@ -107,22 +107,39 @@ echo /var/log/messages{,.1,.2}
 # /var/log/messages /var/log/messages.1 /var/log/messages.2
 
 # 配列展開
-V18=(A B 'C D' E)
+V18=(/bin /usr/bin /usr/local/bin 'A B C')
 
 # 配列の特定要素を取得
-echo "\${V18[2]}=${V18[2]}"
-# ${V18[2]}=C D
+echo "\${V18[3]}=${V18[3]}"
+# ${V18[3]}=A B C
 
 # 配列の要素数を返す
 echo "\${#V18[@]}=${#V18[@]}"
 # ${#V18[@]}=4
 
+# 配列スライス
+echo "\${V18[@]:1:2}=${V18[@]:1:2}"
+# ${V18[@]:1:2}=/usr/bin /usr/local/bin
+
+# 配列の各要素一括置換
+echo "\${V18[@]/bin/lib}=${V18[@]/bin/lib}"
+# ${V18[@]/bin/lib}=/lib /usr/lib /usr/local/lib A B C
+
+# 配列をループで処理
+for V in "${V18[@]}"; do
+	echo "$V"
+done
+# /bin
+# /usr/bin
+# /usr/local/bin
+# A B C
+
 # CSVを簡易配列展開(フィールドセパレータを変更)
 V19='a,b,c,d,e'
-_IFS="$IFS"
+_IFS=$IFS
 IFS=,
 CSV=($V19)
-IFS="$_IFS"
+IFS=$_IFS
 echo "\${CSV[2]}=${CSV[2]}"
 echo "\${#CSV[*]}=${#CSV[*]}"
 # ${CSV[2]}=c
@@ -173,12 +190,12 @@ echo "$V22"
 
 # 位置パラメータの展開
 set -- sample1 'sample 2' sample3
-for V23 in "$*"; do
-	echo $V23
+for V in "$*"; do
+	echo $V
 done
 # sample1 sample 2 sample 3
-for V23 in "$@"; do
-	echo $V23
+for V in "$@"; do
+	echo $V
 done
 # sample1
 # sample 2
@@ -198,5 +215,5 @@ echo "\$#=$#"
 # 標準出力をファイルに出力しつつ、標準エラー出力を変数に取得する
 TEMP=`mktemp -t ${0##*/}.XXXXXXXXXX`
 trap 'rm -f $TEMP' 0 1 2 3 15
-V24=`expr 1 / 0 3>&1 >$TEMP 2>&3`
-echo "Error: $V24"
+V23=`expr 1 / 0 3>&1 >$TEMP 2>&3`
+echo "Error: $V23"
