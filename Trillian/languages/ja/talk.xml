@@ -10,7 +10,7 @@
 	<translation from="%month% %day%" to="%month% %day%"/>
 	<translation from="%month% %day%, %year%" to="%month% %day%, %year%"/>
 	<translation from="%month% %year%" to="%month% %year%"/>
-	<translation from="%name% appears to be offline.  Messages you send will be delivered when they sign in." to="%name% appears to be offline.  Messages you send will be delivered when they sign in."/>
+	<translation from="%name% appears to be offline.  Messages you send will be delivered when they sign in." to="%name% はオフラインのようです。入力したメッセージは、サインインされた時に届けられます。"/>
 	<translation from="%name% appears to be offline.  Messages you send will most likely &lt;b&gt;not&lt;/b&gt; be delivered when they sign in" to="%name% appears to be offline.  Messages you send will most likely &lt;b&gt;not&lt;/b&gt; be delivered when they sign in"/>
 	<translation from="%num% %word_hour% ago at %time%" to="%num% %word_hour%前 (%time%)"/>
 	<translation from="%num% %word_minute% ago at %time%" to="%num% %word_minute%前 (%time%)"/>
@@ -32,7 +32,7 @@
 	<translation from="%reltime% at %time%" to="%reltime% at %time%"/>
 	<translation from="%user% user connected." to="%user% user connected."/>
 	<translation from="%user% users connected." to="%user% users connected."/>
-	<translation from="%username% has received %filename%." to="%username% has received %filename%."/>
+	<translation from="%username% has received %filename%." to="%username% は %filename% を受信しました。"/>
 	<translation from="%username% is trying to send you &quot;%filename%&quot;." to="%username% is trying to send you &quot;%filename%&quot;."/>
 	<translation from="&amp;Close" to="閉じる(&amp;C)"/>
 	<translation from="&amp;Edit" to="編集(&amp;E)"/>
@@ -282,7 +282,7 @@
 	<translation from="Message: Typing (no window)" to="Message: Typing (no window)"/>
 	<translation from="Message: URL" to="メッセージ: URL"/>
 	<translation from="Messages" to="メッセージ"/>
-	<translation from="Messages typed here are sent from %from% to %contact%" to="ここで入力したメッセージは %from% から %contact% に送信されます。"/>
+	<translation from="Messages typed here are sent from %from% to %contact%" to="ここで入力したメッセージは %from% から%contact% へ送信されます。"/>
 	<translation from="Microphone" to="Microphone"/>
 	<translation from="Minimize" to="最小化"/>
 	<translation from="Monday" to="月曜日"/>
