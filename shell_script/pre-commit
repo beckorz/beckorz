@@ -1,0 +1,28 @@
+#!/bin/sh
+#	git commit前処理
+#	「$Date$」または「$Date: yyyy/mm/dd hh:mm:ss $」をコミット日時に置換します。
+
+# 更新チェックの比較対象を取得
+git rev-parse --verify HEAD >/dev/null 2>&1
+if [ $? -eq 0 ]; then
+	against='HEAD'
+else
+	# 最初はHEADがないので初期値を使用
+	against='4b825dc642cb6eb9a060e54bf8d69288fbee4904'
+fi
+
+# 埋め込む日付
+datestr=`date '+%Y/%m/%d %H:%M:%S'`
+# sedの正規表現置換コマンド
+# 先頭に「1,5」などを追加すればファイル先頭の10行のみが置換対象となるため
+# ソースファイル中のキーワードが不意に置換されるのを防ぐことができます。
+sedcmd='s#\$Date\(: [0-9]\{4\}/[01][0-9]/[0-3][0-9] [012][0-9]:[0-5][0-9]:[0-5][0-9] \)\{0,1\}\$#$Date: '$datestr' $#g'
+
+# 各更新ファイルのキーワード置換
+for file in `git diff-index --cached --name-only $against`; do
+	# ファイル形式がtextの場合のみ置換
+	if [ 0 -lt `file "$file" | grep -c 'text'` ]; then
+		sed -i "$sedcmd" "$file"
+		git add -f "$file"
+	fi
+done
