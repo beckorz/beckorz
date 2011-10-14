@@ -211,5 +211,13 @@ vnoremap ( "zdi(<C-R>z)<ESC>
 "vnoremap " "zdi"<C-R>z"<ESC>
 "vnoremap ' "zdi'<C-R>z'<ESC>
 
+" 全角空白をハイライト(好みで有効にする)
+if &background ==# 'dark'
+	hi WideSpace ctermbg=DarkCyan
+else
+	hi WideSpace ctermbg=Cyan
+endif
+match WideSpace /　/
+
 " vimウィンドウ内でmanページ表示
 ru ftplugin/man.vim
