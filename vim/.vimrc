@@ -1,3 +1,13 @@
+" vim: fdm=marker
+
+" 分割設定ファイルの読み込み
+if filereadable(expand('~/.vim/vundle.vim'))
+	source ~/.vim/vundle.vim
+endif
+"if filereadable(expand('~/.vim/neobundle.vim'))
+"	source ~/.vim/neobundle.vim
+"endif
+
 " 新しい行を開始したときに、新しい行のインデントを現在行と同じ量にする(autoindent)
 set ai
 
@@ -88,6 +98,10 @@ set pt=<F11>
 
 " オムニ補完を有効にする(omnifunc) なぜかftpluginに書かれてない？
 autocmd FileType php setlocal ofu=phpcomplete#CompletePHP
+"let php_sql_query=1
+"let php_htmlInStrings=1
+"let php_folding=1
+"autocmd Syntax php set fdm=syntax
 
 " 自動インデントの各段階に使われる空白の数(shiftwidth)
 set sw=4
@@ -137,7 +151,7 @@ filetype plugin on
 " 強調表示(色付け)のON/OFF設定(syntax)
 sy on
 
-" 文字コードの自動認識
+" 文字コードの自動認識 {{{
 if &encoding !=# 'utf-8'
 	set encoding=japan
 	set fileencoding=japan
@@ -192,6 +206,7 @@ if has('autocmd')
 	endfunction
 	autocmd BufReadPost * call AU_ReCheck_FENC()
 endif
+
 " 改行コードの自動認識
 set fileformats=unix,dos,mac
 " □とか○の文字があってもカーソル位置がずれないようにする
@@ -199,7 +214,13 @@ if exists('&ambiwidth')
 	set ambiwidth=double
 endif
 
-" 括弧自動補完(好みで有効にする)
+" 文字化けした場合に開き直すためのキー割り当て
+nnoremap <Leader>fe :e ++enc=eucjp-ms<CR>
+nnoremap <Leader>fs :e ++enc=cp932<CR>
+nnoremap <Leader>fu :e ++enc=utf-8<CR>
+" }}}
+
+" 括弧自動補完(好みで有効にする) {{{
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
@@ -210,14 +231,17 @@ vnoremap [ "zdi[<C-R>z]<ESC>
 vnoremap ( "zdi(<C-R>z)<ESC>
 "vnoremap " "zdi"<C-R>z"<ESC>
 "vnoremap ' "zdi'<C-R>z'<ESC>
+" }}}
 
-" 全角空白をハイライト(好みで有効にする)
+" 全角空白をハイライト(好みで有効にする) {{{
 if &background ==# 'dark'
 	hi WideSpace ctermbg=DarkCyan
 else
 	hi WideSpace ctermbg=Cyan
 endif
 match WideSpace /　/
+" }}}
 
-" vimウィンドウ内でmanページ表示
+" vimウィンドウ内でmanページ表示 {{{
 ru ftplugin/man.vim
+" }}}
