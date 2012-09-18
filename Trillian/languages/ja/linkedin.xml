@@ -84,5 +84,6 @@
 	<translation from="prefsNotificationsNotifyMeWhenProfileUpdates" to="First degree connection has updated his profile"/>
 	<translation from="prefsNotificationsNotifyMeWhenRecommendationUpdates" to="First degree connection recommended another LinkedIn member"/>
 	<translation from="prefsNotificationsNotifyMeWhenStatusUpdates" to="First degree connection updated his status"/>
+	<translation from="recommends" to="recommends"/>
 	<translation from="was recommended by" to="was recommended by"/>
 </language>

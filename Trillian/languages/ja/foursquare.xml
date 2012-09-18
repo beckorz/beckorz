@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
-	<translation from="AddressStr" to="アドレス"/>
+	<translation from="AddressStr" to="住所"/>
 	<translation from="AllFriendsGroupEmptyStr" to="No friends found"/>
-	<translation from="AllFriendsStr" to="All Friends"/>
+	<translation from="AllFriendsStr" to="全友達"/>
 	<translation from="CheckinsStr" to="Checkins"/>
 	<translation from="CityStr" to="City"/>
 	<translation from="Connection Settings" to="接続設定"/>
@@ -19,49 +19,49 @@
 	<translation from="ErrorRetrievingNearbyTipsStr" to="Error retrieving list of nearby tips"/>
 	<translation from="FacebookStr" to="Facebook"/>
 	<translation from="FriendCheckinsGroupEmptyStr" to="No checkins from friends found"/>
-	<translation from="FriendCheckinsStr" to="Checkins"/>
+	<translation from="FriendCheckinsStr" to="チェックイン"/>
 	<translation from="FriendRequestsGroupEmptyStr" to="No friend requests found"/>
 	<translation from="FriendRequestsStr" to="Friend Requests"/>
 	<translation from="HerenowStr" to="Here now"/>
-	<translation from="LoadingAllFriendsStr" to="Loading list of friends"/>
+	<translation from="LoadingAllFriendsStr" to="友達リストを読込中"/>
 	<translation from="LoadingFriendCheckinsStr" to="Loading checkins from friends"/>
 	<translation from="LoadingFriendRequestsStr" to="Loading list of friend requests"/>
-	<translation from="LoadingMyBadgesStr" to="Loading my badges"/>
-	<translation from="LoadingMyHistoryStr" to="Loading my checkins"/>
+	<translation from="LoadingMyBadgesStr" to="自分のバッジを読込中"/>
+	<translation from="LoadingMyHistoryStr" to="自分のチェックインを読込中"/>
 	<translation from="LoadingNearbyPlacesStr" to="Loading list of nearby places"/>
-	<translation from="LoadingNearbyTipsStr" to="Loading list of nearby tips"/>
-	<translation from="Miscellaneous" to="Miscellaneous"/>
+	<translation from="LoadingNearbyTipsStr" to="近いチップリストを読込中"/>
+	<translation from="Miscellaneous" to="その他"/>
 	<translation from="MyBadgesGroupEmptyStr" to="No my badges found"/>
-	<translation from="MyBadgesStr" to="My Badges"/>
+	<translation from="MyBadgesStr" to="自分のバッジ"/>
 	<translation from="MyHistoryGroupEmptyStr" to="No my checkins found"/>
 	<translation from="MyHistoryStr" to="My History"/>
-	<translation from="NearbyPlacesGroupEmptyStr" to="No nearby places found"/>
-	<translation from="NearbyPlacesStr" to="Nearby Places"/>
-	<translation from="NearbyTipsGroupEmptyStr" to="No nearby tips found"/>
-	<translation from="NearbyTipsStr" to="Nearby Tips"/>
+	<translation from="NearbyPlacesGroupEmptyStr" to="近い場所が見つかりませんでした。"/>
+	<translation from="NearbyPlacesStr" to="近い場所"/>
+	<translation from="NearbyTipsGroupEmptyStr" to="近いチップが見つかりませんでした。"/>
+	<translation from="NearbyTipsStr" to="近いチップ"/>
 	<translation from="NewsFeed" to="ニュースフィード"/>
 	<translation from="Notifications" to="通知"/>
 	<translation from="Organization" to="Organization"/>
-	<translation from="PhoneStr" to="電話"/>
-	<translation from="RefreshingAllFriendsStr" to="Refreshing list of friends"/>
+	<translation from="PhoneStr" to="電話番号"/>
+	<translation from="RefreshingAllFriendsStr" to="友達リストを再読込中"/>
 	<translation from="RefreshingFriendCheckinsStr" to="Refreshing checkins from friends"/>
 	<translation from="RefreshingFriendRequestsStr" to="Refreshing list of friend requests"/>
-	<translation from="RefreshingMyBadgesStr" to="Refreshing my badges"/>
-	<translation from="RefreshingMyHistoryStr" to="Refreshing my checkins"/>
-	<translation from="RefreshingNearbyPlacesStr" to="Refreshing list of nearby places"/>
-	<translation from="RefreshingNearbyTipsStr" to="Refreshing list of nearby tips"/>
+	<translation from="RefreshingMyBadgesStr" to="自分のバッジを再読込中"/>
+	<translation from="RefreshingMyHistoryStr" to="自分のチェックインを再読込中"/>
+	<translation from="RefreshingNearbyPlacesStr" to="近い場所を再読込中"/>
+	<translation from="RefreshingNearbyTipsStr" to="近いチップリストを再読込中"/>
 	<translation from="RequestsStr" to="Requests"/>
 	<translation from="ShoutStr" to="Shout"/>
 	<translation from="StateStr" to="ステータス"/>
 	<translation from="TextStr" to="Text"/>
 	<translation from="TwitterStr" to="Twitter"/>
-	<translation from="ZipStr" to="Zip"/>
+	<translation from="ZipStr" to="郵便番号"/>
 	<translation from="infoAccountRemoveDialogCaption" to="Trillian"/>
 	<translation from="infoAccountRemoveDialogText" to="Permanently remove account &quot;%username%&quot; from your list?"/>
 	<translation from="infoConnSucceed" to="You have successfully connected to %medium%."/>
 	<translation from="infoConnect" to="Connecting to %medium% as &quot;%username%&quot;."/>
-	<translation from="infoCreateConn" to="Creating connection &quot;%username%&quot;"/>
-	<translation from="infoDisconnected" to="You have been disconnected."/>
+	<translation from="infoCreateConn" to="&quot;%username%&quot;のコネクションを作成中"/>
+	<translation from="infoDisconnected" to="切断されました。"/>
 	<translation from="infoReconn" to="Reconnecting to %medium% as &quot;%username%&quot;."/>
 	<translation from="infoSystrayAlertThereAreNumNewCheckins" to="There are %num% new checkins."/>
 	<translation from="infoSystrayAlertThereAreNumNewPlaces" to="There are %num% new places."/>
@@ -76,16 +76,16 @@
 	<translation from="menuPinToContactList" to="Pin to Contact List"/>
 	<translation from="menuPrivateCheckin" to="Private Check-in"/>
 	<translation from="menuReconnect" to="再接続"/>
-	<translation from="menuRefresh" to="再更新"/>
-	<translation from="menuViewPlace" to="View Place"/>
-	<translation from="menuViewProfile" to="View Profile"/>
+	<translation from="menuRefresh" to="再読込"/>
+	<translation from="menuViewPlace" to="場所を表示"/>
+	<translation from="menuViewProfile" to="プロフィールを表示"/>
 	<translation from="meterStr" to="meter"/>
 	<translation from="metersStr" to="meters"/>
 	<translation from="onFoursquare" to="on Foursquare"/>
 	<translation from="postButtonShoutHelperStr" to="Shout ..."/>
 	<translation from="postButtonShoutStr" to="Shout (%edit.count_relative%)"/>
-	<translation from="prefsConnectionAutoConnect" to="Automatically connect to this account at startup"/>
-	<translation from="prefsConnectionInvitation" to="Enter your Foursquare username below, and click connect"/>
+	<translation from="prefsConnectionAutoConnect" to="起動時にこのアカウントの自動接続にします。"/>
+	<translation from="prefsConnectionInvitation" to="以下にFoursqure名を入力して、接続をクリックします。"/>
 	<translation from="prefsConnectionSettingsProxyHeader" to="プロキシ"/>
 	<translation from="prefsConnectionSettingsProxyHost" to="ホスト:"/>
 	<translation from="prefsConnectionSettingsProxyPassword" to="パスワード:"/>
@@ -108,15 +108,15 @@
 	<translation from="prefsMiscellaneousSettingsTitle" to="Manage options for this account."/>
 	<translation from="prefsMiscellaneousShowMyAccountInContactList" to="Show my account in the contact list"/>
 	<translation from="prefsNewsFeedFeedItems" to="Feed Items"/>
-	<translation from="prefsNewsFeedPinBadges" to="Badges"/>
+	<translation from="prefsNewsFeedPinBadges" to="バッジ"/>
 	<translation from="prefsNewsFeedPinCheckinsFromFriends" to="Checkins from friends"/>
 	<translation from="prefsNewsFeedPinListOfFriendRequests" to="List of Friend Requests"/>
-	<translation from="prefsNewsFeedPinListOfFriends" to="List of Friends"/>
-	<translation from="prefsNewsFeedPinMyCheckins" to="My Checkins"/>
-	<translation from="prefsNewsFeedPinNearbyPlaces" to="Nearby Places"/>
-	<translation from="prefsNewsFeedPinNearbyTips" to="Nearby Tips"/>
+	<translation from="prefsNewsFeedPinListOfFriends" to="友達リスト"/>
+	<translation from="prefsNewsFeedPinMyCheckins" to="自分のチェックイン"/>
+	<translation from="prefsNewsFeedPinNearbyPlaces" to="近い場所"/>
+	<translation from="prefsNewsFeedPinNearbyTips" to="近いチップ"/>
 	<translation from="prefsNewsFeedSettingsTitle" to="Configure how the news feed will appear in the Contact List."/>
-	<translation from="prefsNotificationsNotifyMeWhen" to="Notify me when:"/>
+	<translation from="prefsNotificationsNotifyMeWhen" to="通知時:"/>
 	<translation from="prefsNotificationsNotifyMeWhenSomeonePostsNewCheckin" to="Someone posts a new checkin"/>
 	<translation from="prefsNotificationsSettingsTitle" to="Pick which events you want to receive a notifications for."/>
 	<translation from="prefsOrganizationOnlyShowOneItemPerUser" to="Only show one item per user"/>

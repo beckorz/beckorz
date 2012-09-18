@@ -26,7 +26,6 @@
 	<translation from="MessageEditCountRelative" to="メッセージ (%edit.count_relative%)"/>
 	<translation from="Miscellaneous" to="その他"/>
 	<translation from="New Twitter Trend" to="新しい Twitter トレンド"/>
-	<translation from="Newsbots" to="ニュース BOT"/>
 	<translation from="NoTweetsFoundStr" to="ツイートはありません"/>
 	<translation from="Organization" to="表示設定"/>
 	<translation from="Recent tweets" to="最近のつぶやき"/>
@@ -87,12 +86,14 @@
 	<translation from="infoSystrayAlertThereAreNumNewDirectMessages" to="%num% 件の新着ダイレクトメッセージがあります。"/>
 	<translation from="infoSystrayAlertThereAreNumNewTweets" to="%num% 件の新着のツイートがあります。"/>
 	<translation from="infoSystrayAlertThereAreNumNewTweetsRelatedToTheList" to="There are %num% new tweets related to the list: %list%"/>
-	<translation from="infoSystrayAlertThereIsNewTwitterTrend" to="There is a new Twitter Trend: "/>
+	<translation from="infoSystrayAlertThereIsNewTwitterTrend" to="New trending topic: "/>
+	<translation from="infoSystrayAlertTwitterNeedsToReauthToGetRightsToAccessToDM" to="Twitter needs you to reauthorize in order to receive direct messages in Trillian"/>
 	<translation from="infoTweet" to="ツイート"/>
 	<translation from="infoTweetRemoveDialogCaption" to="Twitter"/>
 	<translation from="infoTweetRemoveDialogText" to="本当にこのツイートを削除しますか?"/>
 	<translation from="infoTweets" to="ツイート: "/>
 	<translation from="menuAddAsASearch" to="Add as a search"/>
+	<translation from="menuAddContactToTwitterLists" to="Add %contact% to"/>
 	<translation from="menuAddToSearch" to="検索へ追加"/>
 	<translation from="menuConnectionDisconnect" to="切断"/>
 	<translation from="menuConnectionGoToMyTwitterFavoritesPage" to="お気に入り"/>
@@ -108,15 +109,17 @@
 	<translation from="menuHide" to="隠す"/>
 	<translation from="menuIgnoreContact" to="無視"/>
 	<translation from="menuMarkAsFavorite" to="お気に入りに登録する"/>
-	<translation from="menuMarkContactAsANewsbot" to="Mark as a Newsbot"/>
 	<translation from="menuMoreSettings" to="詳細設定"/>
 	<translation from="menuNewSearch" to="新しい検索..."/>
+	<translation from="menuNewTwitterList" to="New Twitter List..."/>
 	<translation from="menuNoThanks" to="キャンセル"/>
 	<translation from="menuOpenInBrowser" to="ブラウザで開く"/>
 	<translation from="menuPinFriendsTweetsToContactList" to="友達のツイートをコンタクトリストに表示する"/>
-	<translation from="menuPinNewsbotsTweetsToContactList" to="ニュース BOT のツイートをコンタクトリストに表示する"/>
 	<translation from="menuPinToContactList" to="コンタクトリストに表示する"/>
+	<translation from="menuPrivate" to="Private"/>
+	<translation from="menuReauthorize" to="Reauthorize"/>
 	<translation from="menuReply" to="返信..."/>
+	<translation from="menuReplyToAll" to="Reply to all..."/>
 	<translation from="menuRetweet" to="リツイート"/>
 	<translation from="menuRetweetModification" to="リツイートする..."/>
 	<translation from="menuStopReplying" to="このメッセージを返信として登録しない"/>
@@ -131,7 +134,6 @@
 	<translation from="minutes ago at" to="分前"/>
 	<translation from="on Twitter" to="Twitter で"/>
 	<translation from="on Twitter (Friends)" to="on Twitter (Friends)"/>
-	<translation from="on Twitter (Newsbots)" to="on Twitter (Newsbots)"/>
 	<translation from="prefsButtonVarAddLabelAdd" to="追加"/>
 	<translation from="prefsButtonVarHideLabelCancel" to="キャンセル"/>
 	<translation from="prefsButtonVarRemoveLabelRemove" to="削除"/>
@@ -159,7 +161,6 @@
 	<translation from="prefsMiscellaneousNotifyMeWhen" to="通知設定:"/>
 	<translation from="prefsMiscellaneousNotifyMeWhenNewTrendEmerges" to="A new trend emerges"/>
 	<translation from="prefsMiscellaneousNotifyMeWhenNewTweetsMatchASearchItem" to="新しいツイートが検索にマッチした時"/>
-	<translation from="prefsMiscellaneousNotifyMeWhenNewsbotPostsNewTweet" to="ニュース BOT の新しいツイートがあった時"/>
 	<translation from="prefsMiscellaneousNotifyMeWhenSomeonePostsNewTweet" to="新しいツイートがあった時"/>
 	<translation from="prefsMiscellaneousOptions" to="オプション"/>
 	<translation from="prefsMiscellaneousReplies" to="返信"/>
@@ -179,21 +180,24 @@
 	<translation from="prefsMiscellaneousUrlShorteningUsingBitLy" to="bit.ly"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsingTinyURL" to="TinyURL"/>
 	<translation from="prefsMiscellaneousUseRetweetWithModifying" to="リツイートの変更を許可"/>
+	<translation from="prefsMiscellaneousUseUserStream" to="Instantly stream updates when they become available"/>
+	<translation from="prefsOrganizationIgnoreKeywordList" to="Ignore Keyword List"/>
 	<translation from="prefsOrganizationIgnoreList" to="無視リスト"/>
+	<translation from="prefsOrganizationListsVarItemLabelKeyword" to="Keyword:"/>
+	<translation from="prefsOrganizationListsVarItemLabelListName" to="List name:"/>
 	<translation from="prefsOrganizationListsVarItemLabelNickName" to="ニックネーム"/>
 	<translation from="prefsOrganizationListsVarItemLabelSearchTerm" to="検索単語"/>
-	<translation from="prefsOrganizationNewsbotsList" to="ニュース BOT リスト"/>
 	<translation from="prefsOrganizationOnlyShowOneItemPerUser" to="ユーザー 1 人あたり 1 つのみ表示"/>
 	<translation from="prefsOrganizationOrganization" to="表示設定"/>
 	<translation from="prefsOrganizationPinDirectMessages" to="ダイレクトメッセージ"/>
 	<translation from="prefsOrganizationPinFavorites" to="お気に入り"/>
 	<translation from="prefsOrganizationPinFriendsTweets" to="友達のツイート"/>
-	<translation from="prefsOrganizationPinNewsbotsTweets" to="ニュース BOT のツイート"/>
 	<translation from="prefsOrganizationPinReplies" to="返信"/>
 	<translation from="prefsOrganizationPinTheFollowingToMyContactList" to="Pin the following to my Contact List:"/>
 	<translation from="prefsOrganizationPinTwitterList" to="%name% リスト"/>
 	<translation from="prefsOrganizationSearchList" to="検索リスト"/>
 	<translation from="prefsOrganizationShowTwitterTrends" to="Twitter トレンドを表示する"/>
+	<translation from="prefsOrganizationTwitterLists" to="Twitter Lists"/>
 	<translation from="second ago at" to="秒前"/>
 	<translation from="seconds ago at" to="秒前"/>
 </language>

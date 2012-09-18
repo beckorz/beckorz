@@ -39,11 +39,11 @@
 	<translation from="Email" to="Eメール"/>
 	<translation from="Error during file transfer." to="Error during file transfer."/>
 	<translation from="Establishing call..." to="Establishing call..."/>
-	<translation from="File transfer active." to="File transfer active."/>
+	<translation from="File transfer active." to="ファイル転送中"/>
 	<translation from="File transfer cancelled by remote." to="ファイル転送が相手からキャンセルされました。"/>
 	<translation from="File transfer cancelled." to="ファイル転送がキャンセルされました。"/>
 	<translation from="File transfer closed." to="ファイル転送が終了しました。"/>
-	<translation from="File transfer completed successfully." to="ファイル転送は正常に終了しました。"/>
+	<translation from="File transfer completed successfully." to="ファイル転送が成功しました。"/>
 	<translation from="File transfer declined." to="ファイル転送が拒否されました。"/>
 	<translation from="File transfer was accepted at another location." to="File transfer was accepted at another location."/>
 	<translation from="Fine tune the server and proxy settings for this connection." to="Fine tune the server and proxy settings for this connection."/>
@@ -89,7 +89,7 @@
 	<translation from="Reset" to="リセット"/>
 	<translation from="Resolve at:" to="Resolve at:"/>
 	<translation from="Resource" to="リソース"/>
-	<translation from="Ringing..." to="Ringing..."/>
+	<translation from="Ringing..." to="呼び出し中…"/>
 	<translation from="Send File..." to="ファイルを送る..."/>
 	<translation from="Send Message..." to="メッセージを送る..."/>
 	<translation from="Send a Message..." to="メッセージを送る..."/>
@@ -150,10 +150,10 @@
 	<translation from="infoContactMarked" to="&quot;%displayname% (%username%)&quot; was marked &quot;%status%&quot; on %time%."/>
 	<translation from="infoContactOffline" to="&quot;%displayname% (%username%)&quot; は %time% にオフラインになりました。"/>
 	<translation from="infoContactOfflineAt" to="%name% は %time% にサインアウトしました"/>
-	<translation from="infoContactOfflineAtFrom" to="%name% signed off from &quot;%from%&quot; at %time%."/>
+	<translation from="infoContactOfflineAtFrom" to="%name% が &quot;%from%&quot; から %time% にサインアウトしました。"/>
 	<translation from="infoContactOnline" to="&quot;%displayname% (%username%)&quot; は %time% にオンラインになりました。"/>
 	<translation from="infoContactOnlineAt" to="%name% は %time% にサインインしました"/>
-	<translation from="infoContactOnlineAtFrom" to="%name% signed on from &quot;%from%&quot; at %time%."/>
+	<translation from="infoContactOnlineAtFrom" to="%name% が &quot;%from%&quot; から %time% にサインインしました。"/>
 	<translation from="infoContactReturn" to="&quot;%displayname% (%username%)&quot; は %time% に退席ステータスから戻りました。"/>
 	<translation from="infoContactReturnIdle" to="&quot;%displayname% (%username%)&quot; は %time% にIdleステータスから戻りました。"/>
 	<translation from="infoCreateConn" to="接続 &quot;%username%&quot; 作成しています。"/>
@@ -169,13 +169,13 @@
 	<translation from="infoMsgNAK" to="下記のメッセージは相手に送ることはできませんでした: %message%"/>
 	<translation from="infoPluginInUse" to="This plugin is currently being used externally by the %plugin% plugin and cannot be unloaded."/>
 	<translation from="infoReconnect" to="&quot;%username%&quot; として %medium% に 再接続しています。"/>
-	<translation from="infoReconnectedAt" to="You were reconnected to %medium% at %at%."/>
+	<translation from="infoReconnectedAt" to="あなたは、%at% に %medium% へ再接続しました。"/>
 	<translation from="infoResourceChange" to="The active resource for this window has changed to &quot;%resource%&quot;."/>
 	<translation from="infoStatusChange" to="&quot;%status&quot; にセットしています。"/>
 	<translation from="infoTLSType" to="TLS established using %description%."/>
 	<translation from="infoUsernameInvalid" to="%username% は有効な %medium% のユーザー名ではありません。"/>
 	<translation from="is calling you." to="is calling you."/>
-	<translation from="is currently unavailable." to="is currently unavailable."/>
+	<translation from="is currently unavailable." to="は、現在利用出来ません。"/>
 	<translation from="is inviting you to join a conference." to="is inviting you to join a conference."/>
 	<translation from="minute" to="分"/>
 	<translation from="minutes" to="分"/>

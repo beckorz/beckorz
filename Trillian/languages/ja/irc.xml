@@ -31,7 +31,7 @@
 	<translation from="-&gt; Server: %command%" to="-&gt; Server: %command%"/>
 	<translation from="-to %name% (notice)-: %msg%" to="-to %name% (notice)-: %msg%"/>
 	<translation from="-to %name%-: %msg%" to="-to %name%-: %msg%"/>
-	<translation from="Account name" to="アカウント名"/>
+	<translation from="Account name" to="Account name"/>
 	<translation from="Active channel" to="Active channel"/>
 	<translation from="Active network/server" to="Active network/server"/>
 	<translation from="Add" to="追加"/>

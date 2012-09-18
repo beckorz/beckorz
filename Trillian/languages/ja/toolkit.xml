@@ -13,7 +13,7 @@
 	<translation from="90%" to="90%"/>
 	<translation from="Accept" to="Accept"/>
 	<translation from="Account:" to="アカウント:"/>
-	<translation from="Add Contact" to="Add Contact"/>
+	<translation from="Add Contact" to="コンタクトを追加"/>
 	<translation from="Approve" to="Approve"/>
 	<translation from="Attach" to="付ける"/>
 	<translation from="Block" to="Block"/>
@@ -21,7 +21,7 @@
 	<translation from="Cancel" to="キャンセル"/>
 	<translation from="Cascade Windows" to="重ねて表示"/>
 	<translation from="Chat Room Window" to="Chat Room Window"/>
-	<translation from="Choose a server:" to="Choose a server:"/>
+	<translation from="Choose a server:" to="サーバーを選択："/>
 	<translation from="Click to show more items" to="Click to show more items"/>
 	<translation from="Close" to="閉じる"/>
 	<translation from="Close All But This" to="他のタブを全て閉じる"/>
@@ -51,7 +51,7 @@
 	<translation from="Invite" to="招待する"/>
 	<translation from="Layout" to="レイアウト"/>
 	<translation from="Less details" to="詳細を閉じる"/>
-	<translation from="Loading..." to="ロード中..."/>
+	<translation from="Loading..." to="読み込み中..."/>
 	<translation from="Maximize" to="最大化"/>
 	<translation from="Minimize" to="最小化"/>
 	<translation from="More" to="その他"/>
@@ -75,7 +75,7 @@
 	<translation from="Reply" to="返信"/>
 	<translation from="Reset" to="置き直す"/>
 	<translation from="Save Settings" to="設定を保存"/>
-	<translation from="Search Contact List" to="Search Contact List"/>
+	<translation from="Search Contact List" to="コンタクトリストを検索"/>
 	<translation from="Search Results" to="Search Results"/>
 	<translation from="Send" to="送信"/>
 	<translation from="Send File" to="ファイル送信"/>
@@ -90,12 +90,13 @@
 	<translation from="Start!" to="Start!"/>
 	<translation from="Theme" to="テーマ"/>
 	<translation from="Themes" to="テーマ"/>
+	<translation from="This user is not on your contact list.  Be careful when disclosing personal information or clicking links." to="This user is not on your contact list.  Be careful when disclosing personal information or clicking links."/>
 	<translation from="Tile Windows" to="並べて表示"/>
 	<translation from="Time remaining:" to="残り時間:"/>
 	<translation from="To:" to="送信先:"/>
 	<translation from="Transparency" to="透明度"/>
 	<translation from="Trillian" to="Trillian"/>
-	<translation from="Trillian is changing skins." to="Trillianはスキンを変えています。&lt;!-- translation needed --&gt;"/>
+	<translation from="Trillian is changing skins." to="Trillianはスキンを変えています。"/>
 	<translation from="Turn it black and white" to="白黒に変える"/>
 	<translation from="Turn it semi-transparent" to="半透明に戻す"/>
 	<translation from="Type" to="Type"/>
