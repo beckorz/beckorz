@@ -5,7 +5,7 @@
 	<translation from="%bytes% of %total% (%percentage%)" to="%total% 中 %bytes% (%percentage%)"/>
 	<translation from="%channel% on %server%" to="%channel% on %server%"/>
 	<translation from="%contact% - %date%" to="%contact% - %date%"/>
-	<translation from="%contact% - Chat History" to="%contact% - Chat History"/>
+	<translation from="%contact% - Chat History" to="%contact% - ログ"/>
 	<translation from="%date% %time% for %duration%" to="%date% %time% for %duration%"/>
 	<translation from="%from% to %contact%" to="%from% to %contact%"/>
 	<translation from="%month% %day%" to="%month% %day%"/>
@@ -33,7 +33,7 @@
 	<translation from="%percentage%%% - Receiving %file% from %name%" to="%percentage%%% - Receiving %file% from %name%"/>
 	<translation from="%percentage%%% - Sending %file% to %name%" to="%percentage%%% - Sending %file% to %name%"/>
 	<translation from="%percentage%%% - Sent %file% to %name%" to="%percentage%%% - %name% へ %file% を送信しました"/>
-	<translation from="%reltime% at %time%" to="%reltime% at %time%"/>
+	<translation from="%reltime% at %time%" to="%reltime% の %time%"/>
 	<translation from="%user% user connected." to="%user% user connected."/>
 	<translation from="%user% users connected." to="%user% users connected."/>
 	<translation from="%username% has received %filename%." to="%username% は %filename% を受信しました。"/>
@@ -104,8 +104,8 @@
 	<translation from="Change Search Provider" to="Change Search Provider"/>
 	<translation from="Change view" to="Change view"/>
 	<translation from="Chat" to="チャット"/>
-	<translation from="Chat History" to="Chat History"/>
-	<translation from="Chat History with %contact%" to="Chat History with %contact%"/>
+	<translation from="Chat History" to="チャットログ"/>
+	<translation from="Chat History with %contact%" to="チャットログ with %contact%"/>
 	<translation from="Chat Request from %contact% (%medium%)..." to="Chat Request from %contact% (%medium%)..."/>
 	<translation from="Chat first..." to="Chat first..."/>
 	<translation from="Choose..." to="変更..."/>
@@ -113,7 +113,7 @@
 	<translation from="Clear All" to="全てクリア"/>
 	<translation from="Clear History" to="履歴をクリア"/>
 	<translation from="Clear Log..." to="ログをクリアしています..."/>
-	<translation from="Click and drag your left mouse button to grab a screen clip" to="Click and drag your left mouse button to grab a screen clip"/>
+	<translation from="Click and drag your left mouse button to grab a screen clip" to="画面上をドラッグして下さい"/>
 	<translation from="Click for Options" to="オプションをクリック"/>
 	<translation from="Click to change your icon." to="アイコン変更"/>
 	<translation from="Close" to="閉じる"/>
@@ -257,14 +257,14 @@
 	<translation from="Large" to="大"/>
 	<translation from="Large Icons" to="Large Icons"/>
 	<translation from="Larger" to="大きく"/>
-	<translation from="Last Friday" to="Last Friday"/>
-	<translation from="Last Monday" to="Last Monday"/>
+	<translation from="Last Friday" to="先週の金曜日"/>
+	<translation from="Last Monday" to="先週の月曜日"/>
 	<translation from="Last Month" to="先月"/>
-	<translation from="Last Saturday" to="Last Saturday"/>
-	<translation from="Last Sunday" to="Last Sunday"/>
-	<translation from="Last Thursday" to="Last Thursday"/>
-	<translation from="Last Tuesday" to="Last Tuesday"/>
-	<translation from="Last Wednesday" to="Last Wednesday"/>
+	<translation from="Last Saturday" to="先週の土曜日"/>
+	<translation from="Last Sunday" to="先週の日曜日"/>
+	<translation from="Last Thursday" to="先週木曜日"/>
+	<translation from="Last Tuesday" to="先週の火曜日"/>
+	<translation from="Last Wednesday" to="先週の水曜日"/>
 	<translation from="Last Week" to="先週"/>
 	<translation from="Last image at (%time%)" to="Last image at (%time%)"/>
 	<translation from="Last message received on %date% at %time%." to="Last message received on %date% at %time%."/>
@@ -505,7 +505,7 @@
 	<translation from="Video: Capture" to="ビデオ: Capture"/>
 	<translation from="View" to="表示"/>
 	<translation from="View Captured Images..." to="View Captured Images..."/>
-	<translation from="View Chat History" to="View Chat History"/>
+	<translation from="View Chat History" to="ログを表示する"/>
 	<translation from="View as text" to="View as text"/>
 	<translation from="View on Wikipedia" to="View on Wikipedia"/>
 	<translation from="Waiting for accept/deny to establish connection" to="Waiting for accept/deny to establish connection"/>

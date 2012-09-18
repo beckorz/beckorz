@@ -10,11 +10,15 @@
 	<translation from="Block all users" to="すべてのユーザーをブロック"/>
 	<translation from="Block only the users below" to="以下のユーザーだけをブロック"/>
 	<translation from="Contacts require my authorization before they can add me to their contact list" to="Contacts require my authorization before they can add me to their contact list"/>
+	<translation from="Disable HTML in outgoing messages" to="Disable HTML in outgoing messages"/>
 	<translation from="Do not display messages from AOLSystemMsg" to="AOLSystemMsgからのメッセージを表示しない"/>
 	<translation from="Enter your AIM Screen Name and password below and click connect." to="Enter your AIM Screen Name and password below and click connect."/>
 	<translation from="Enter your ICQ UIN and password below and click connect." to="Enter your ICQ UIN and password below and click connect."/>
 	<translation from="File transfer timed out." to="File transfer timed out."/>
+	<translation from="Idle Time" to="Idle Time"/>
 	<translation from="Manage the visibility settings for this account." to="Manage the visibility settings for this account."/>
+	<translation from="Online Time" to="Online Time"/>
+	<translation from="Override outgoing file transfer port with: %prefsOSCAROFTPort%" to="Override outgoing file transfer port with: %prefsOSCAROFTPort%"/>
 	<translation from="Screen Name" to="Screen Name"/>
 	<translation from="UIN" to="UIN"/>
 	<translation from="Validate UINs before rendering authorization requests" to="Validate UINs before rendering authorization requests"/>

@@ -101,9 +101,9 @@
 	<translation from="Turn it semi-transparent" to="半透明に戻す"/>
 	<translation from="Type" to="Type"/>
 	<translation from="Use the panel above to configure your basic information and control your IM, social networking, and mail accounts." to="Use the panel above to configure your basic information and control your IM, social networking, and mail accounts."/>
-	<translation from="Video" to="Video"/>
+	<translation from="Video" to="ビデオ"/>
 	<translation from="Visible" to="表示"/>
-	<translation from="Welcome to Trillian 5!" to="Welcome to Trillian 5!"/>
+	<translation from="Welcome to Trillian 5!" to="Trillian 5へようこそ！"/>
 	<translation from="Window Options" to="ウィンドウオプション"/>
 	<translation from="dialogInitialInstructions" to="Configure your window to the desired positions, sizes, and interiors; then click Save Settings or Cancel below to go back to Trillian Preferences."/>
 	<translation from="dialogInitialWarning" to="Alert: Your windows are set to remember their previous state.  This means that some windows may not reflect the changes you are making here unless you choose to &apos;reset&apos; their previous state in preferences."/>

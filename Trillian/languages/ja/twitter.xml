@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language type="Japanese">
 	<translation from="Connection Settings" to="接続設定"/>
-	<translation from="Contacts" to="コンタクト"/>
 	<translation from="Current Tweet" to="最新のツイート"/>
 	<translation from="Direct Messages" to="ダイレクトメッセージ"/>
 	<translation from="DirectMessagesGroupEmptyStr" to="ダイレクトメッセージは見つかりませんでした"/>
@@ -9,8 +8,10 @@
 	<translation from="ErrorRetrievingFollowersStr" to="フォロワー一覧を取得できませんでした"/>
 	<translation from="ErrorRetrievingFollowingStr" to="フォロー一覧を取得できませんでした"/>
 	<translation from="ErrorRetrievingLastTweetsStr" to="最新のツイートを取得できませんでした"/>
+	<translation from="ErrorRetrievingPendingRequestsStr" to="Error retrieving list of pending requests"/>
 	<translation from="Favorites" to="お気に入り"/>
 	<translation from="Follow trillianastra on Twitter" to="Trillianastra を Twitter でフォローする"/>
+	<translation from="FollowConversation" to="Follow Conversation"/>
 	<translation from="Followers" to="フォロワー"/>
 	<translation from="FollowersGroupEmptyStr" to="フォローされている人はいません"/>
 	<translation from="Following" to="フォロー中"/>
@@ -28,11 +29,15 @@
 	<translation from="New Twitter Trend" to="新しい Twitter トレンド"/>
 	<translation from="NoTweetsFoundStr" to="ツイートはありません"/>
 	<translation from="Organization" to="表示設定"/>
+	<translation from="PendingRequestsGroupEmptyStr" to="保留中のリクエストは見つかりませんでした"/>
 	<translation from="Recent tweets" to="最近のつぶやき"/>
 	<translation from="RefreshingStr" to="更新中..."/>
 	<translation from="ReplyEditCountRelative" to="返信 (%edit.count_relative%)"/>
+	<translation from="Requests" to="リクエスト"/>
 	<translation from="RetweetEditCountRelative" to="リツイート (%edit.count_relative%)"/>
+	<translation from="Retweets" to="リツイート"/>
 	<translation from="Saved Searches" to="検索結果"/>
+	<translation from="Timeline" to="タイムライン"/>
 	<translation from="Trending topics" to="流行のトピック"/>
 	<translation from="TweetEditCountRelative" to="ツイート (%edit.count_relative%)"/>
 	<translation from="Twitter" to="Twitter"/>
@@ -41,9 +46,11 @@
 	<translation from="Type here for quick reply" to="クイック返信"/>
 	<translation from="Type here for quick retweet" to="クイック RT"/>
 	<translation from="Type here to answer" to="返信する"/>
-	<translation from="Type to Quick Tweet" to="Tweet ..."/>
+	<translation from="Type to Quick Tweet" to="ツイートする..."/>
+	<translation from="UserTweets" to="自分のツイート"/>
 	<translation from="ViewMore" to="もっと見る (%num%件)"/>
 	<translation from="ViewMoreNoNum" to="Twitter で見る"/>
+	<translation from="WantsToFollowYou" to="wants to follow you"/>
 	<translation from="buttonFavoriteTooltip" to="このツイートをお気に入りに追加"/>
 	<translation from="buttonRetweetTooltip" to="リツイート"/>
 	<translation from="buttonUnfavoriteTooltip" to="このツイートをお気に入りから外す"/>
@@ -57,6 +64,7 @@
 	<translation from="infoChangeTweet" to="You are now set as"/>
 	<translation from="infoConnSucceed" to="%medium% への接続に成功しました。"/>
 	<translation from="infoConnect" to="&quot;%username%&quot;として %medium% へ接続しました。"/>
+	<translation from="infoConnectionSettingsAlertSettingsDisabled" to="Some of these settings have been disabled because this connection is offline"/>
 	<translation from="infoConnectionSettingsProxyHeader" to="プロクシ"/>
 	<translation from="infoConnectionSettingsTitle" to="Fine tune connection with the Twitter server"/>
 	<translation from="infoCreateConn" to="Creating connection &quot;%username%&quot;"/>
@@ -80,6 +88,7 @@
 	<translation from="infoReplies" to="への返信"/>
 	<translation from="infoReplyToContact" to="This is a public reply to %contact%"/>
 	<translation from="infoReplyToContactToTheFollowingTweet" to="This is a public reply to %contact% to the following tweet &quot;%tweet%&quot;"/>
+	<translation from="infoSystrayAlertContactIsRequestingToFollowYouOnTwitter" to="is requesting to follow you on Twitter"/>
 	<translation from="infoSystrayAlertRegardingTheSearchTerm" to="Regarding the search term: "/>
 	<translation from="infoSystrayAlertThereAreNewTweetsRelatedToTheSearchTerm" to="&quot;%term%&quot; に関連する新着ツイートが %num% 件あります。"/>
 	<translation from="infoSystrayAlertThereAreNewTwitterTrends" to="新しい Twitter トレンドがあります。"/>
@@ -88,6 +97,9 @@
 	<translation from="infoSystrayAlertThereAreNumNewTweetsRelatedToTheList" to="There are %num% new tweets related to the list: %list%"/>
 	<translation from="infoSystrayAlertThereIsNewTwitterTrend" to="New trending topic: "/>
 	<translation from="infoSystrayAlertTwitterNeedsToReauthToGetRightsToAccessToDM" to="Twitter needs you to reauthorize in order to receive direct messages in Trillian"/>
+	<translation from="infoSystrayAlertYourTweetHasBeenRetweetedByContact" to="Your tweet &quot;%tweet%&quot; has been retweeted by %contact%."/>
+	<translation from="infoSystrayAlertYourTweetHasNewRetweet" to="Your tweet &quot;%tweet%&quot; has a new retweet"/>
+	<translation from="infoSystrayAlertYourTweetHasNewRetweets" to="Your tweet &quot;%tweet%&quot; has %num% new retweets"/>
 	<translation from="infoTweet" to="ツイート"/>
 	<translation from="infoTweetRemoveDialogCaption" to="Twitter"/>
 	<translation from="infoTweetRemoveDialogText" to="本当にこのツイートを削除しますか?"/>
@@ -95,6 +107,7 @@
 	<translation from="menuAddAsASearch" to="Add as a search"/>
 	<translation from="menuAddContactToTwitterLists" to="Add %contact% to"/>
 	<translation from="menuAddToSearch" to="検索へ追加"/>
+	<translation from="menuApprove" to="Approve"/>
 	<translation from="menuConnectionDisconnect" to="切断"/>
 	<translation from="menuConnectionGoToMyTwitterFavoritesPage" to="お気に入り"/>
 	<translation from="menuConnectionGoToMyTwitterPage" to="Twitter ホーム"/>
@@ -102,9 +115,11 @@
 	<translation from="menuConnectionReconnect" to="再接続"/>
 	<translation from="menuCopy" to="コピー"/>
 	<translation from="menuDelete" to="削除"/>
+	<translation from="menuDeny" to="Deny"/>
 	<translation from="menuDirectMessageContact" to="ダイレクトメッセージを送る"/>
 	<translation from="menuEdit" to="編集"/>
 	<translation from="menuFollow" to="フォロー"/>
+	<translation from="menuFollowConversation" to="フォローワーとの会話"/>
 	<translation from="menuFollowLinks" to="フォローリンク"/>
 	<translation from="menuHide" to="隠す"/>
 	<translation from="menuIgnoreContact" to="無視"/>
@@ -116,12 +131,14 @@
 	<translation from="menuOpenInBrowser" to="ブラウザで開く"/>
 	<translation from="menuPinFriendsTweetsToContactList" to="友達のツイートをコンタクトリストに表示する"/>
 	<translation from="menuPinToContactList" to="コンタクトリストに表示する"/>
+	<translation from="menuPostNewTweet" to="ツイートする..."/>
 	<translation from="menuPrivate" to="Private"/>
 	<translation from="menuReauthorize" to="Reauthorize"/>
 	<translation from="menuReply" to="返信..."/>
-	<translation from="menuReplyToAll" to="Reply to all..."/>
+	<translation from="menuReplyToAll" to="全員に返信..."/>
 	<translation from="menuRetweet" to="リツイート"/>
 	<translation from="menuRetweetModification" to="リツイートする..."/>
+	<translation from="menuShowRetweets" to="Show Retweets"/>
 	<translation from="menuStopReplying" to="このメッセージを返信として登録しない"/>
 	<translation from="menuSwitchToDirectMessage" to="ダイレクトメッセージへ切り替え"/>
 	<translation from="menuSwitchToPublicReply" to="Twitter 公式の返信へ切り替え"/>
@@ -153,22 +170,20 @@
 	<translation from="prefsConnectionSettingsUseManualProxyChoice" to="手動プロキシー設定"/>
 	<translation from="prefsConnectionUsername" to="ユーザー名"/>
 	<translation from="prefsMiscellaneousAdvanced" to="高度な設定"/>
-	<translation from="prefsMiscellaneousAllReplies" to="すべての返信"/>
-	<translation from="prefsMiscellaneousFollowingReplies" to="フォローしている人への返信"/>
 	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="このアカウントがアクティブでないとき、コンタクトリストにアイコンを表示しない"/>
-	<translation from="prefsMiscellaneousMaxTweetNumberOnContactList" to="コンタクトリストに %prefsMiscellaneousMaxTweetNumberOnContactList% 件のツイートを表示する"/>
-	<translation from="prefsMiscellaneousNoReplies" to="返信は表示しない"/>
+	<translation from="prefsMiscellaneousImages" to="Images"/>
+	<translation from="prefsMiscellaneousIncludeImagesUsing" to="Include images in my tweets using"/>
+	<translation from="prefsMiscellaneousIncludeImagesUsingNativeTwitterImageUploader" to="Twitterの既定アップローダー"/>
+	<translation from="prefsMiscellaneousIncludeImagesUsingTwitpic" to="Twitpic"/>
 	<translation from="prefsMiscellaneousNotifyMeWhen" to="通知設定:"/>
 	<translation from="prefsMiscellaneousNotifyMeWhenNewTrendEmerges" to="A new trend emerges"/>
 	<translation from="prefsMiscellaneousNotifyMeWhenNewTweetsMatchASearchItem" to="新しいツイートが検索にマッチした時"/>
 	<translation from="prefsMiscellaneousNotifyMeWhenSomeonePostsNewTweet" to="新しいツイートがあった時"/>
-	<translation from="prefsMiscellaneousOptions" to="オプション"/>
-	<translation from="prefsMiscellaneousReplies" to="返信"/>
-	<translation from="prefsMiscellaneousRetweets" to="リツイート"/>
-	<translation from="prefsMiscellaneousShowMyAccountInContactList" to="自分のアカウントをコンタクトリストに表示する"/>
+	<translation from="prefsMiscellaneousNotifyMeWhenSomeoneRetweetsMyTweets" to="リツイートされた時"/>
+	<translation from="prefsMiscellaneousStreamOptionShowAllReplies" to="Show all reply tweets from friends including users you don&apos;t follow"/>
 	<translation from="prefsMiscellaneousTweets" to="ツイート"/>
 	<translation from="prefsMiscellaneousTweetsUpdate" to="%prefsMiscellaneousTweetsUpdate% 分毎にツイートを更新する"/>
-	<translation from="prefsMiscellaneousTwitpic" to="Twitpic を使ってツイートにイメージを含める"/>
+	<translation from="prefsMiscellaneousTwitterAPI" to="Twitter API"/>
 	<translation from="prefsMiscellaneousUrl" to="URL"/>
 	<translation from="prefsMiscellaneousUrlShorteningPassword" to="API キー:"/>
 	<translation from="prefsMiscellaneousUrlShorteningShorten" to="Shorten web addresses"/>
@@ -178,25 +193,30 @@
 	<translation from="prefsMiscellaneousUrlShorteningUsername" to="ユーザー名 (bit.ly only):"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsing" to="When shortening web addresses, use"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsingBitLy" to="bit.ly"/>
+	<translation from="prefsMiscellaneousUrlShorteningUsingNativeTwitterUrlShortening" to="既定"/>
 	<translation from="prefsMiscellaneousUrlShorteningUsingTinyURL" to="TinyURL"/>
-	<translation from="prefsMiscellaneousUseRetweetWithModifying" to="リツイートの変更を許可"/>
 	<translation from="prefsMiscellaneousUseUserStream" to="Instantly stream updates when they become available"/>
-	<translation from="prefsOrganizationIgnoreKeywordList" to="Ignore Keyword List"/>
+	<translation from="prefsMiscellaneousXRateLimitRemaining" to="API calls left this session: "/>
+	<translation from="prefsMiscellaneousXRateLimitReset" to="API calls reset at: "/>
+	<translation from="prefsOrganizationIgnoreKeywordList" to="無視キーワードリスト"/>
 	<translation from="prefsOrganizationIgnoreList" to="無視リスト"/>
-	<translation from="prefsOrganizationListsVarItemLabelKeyword" to="Keyword:"/>
-	<translation from="prefsOrganizationListsVarItemLabelListName" to="List name:"/>
+	<translation from="prefsOrganizationListsVarItemLabelKeyword" to="キーワード:"/>
+	<translation from="prefsOrganizationListsVarItemLabelListName" to="リスト名:"/>
 	<translation from="prefsOrganizationListsVarItemLabelNickName" to="ニックネーム"/>
 	<translation from="prefsOrganizationListsVarItemLabelSearchTerm" to="検索単語"/>
+	<translation from="prefsOrganizationMaxTweetNumberOnContactList" to="Show %prefsOrganizationMaxTweetNumberOnContactList% Tweets per group on Contact List"/>
 	<translation from="prefsOrganizationOnlyShowOneItemPerUser" to="ユーザー 1 人あたり 1 つのみ表示"/>
 	<translation from="prefsOrganizationOrganization" to="表示設定"/>
 	<translation from="prefsOrganizationPinDirectMessages" to="ダイレクトメッセージ"/>
 	<translation from="prefsOrganizationPinFavorites" to="お気に入り"/>
 	<translation from="prefsOrganizationPinFriendsTweets" to="友達のツイート"/>
 	<translation from="prefsOrganizationPinReplies" to="返信"/>
-	<translation from="prefsOrganizationPinTheFollowingToMyContactList" to="Pin the following to my Contact List:"/>
+	<translation from="prefsOrganizationPinTheFollowingToMyContactList" to="コンタクトリストに表示する:"/>
 	<translation from="prefsOrganizationPinTwitterList" to="%name% リスト"/>
+	<translation from="prefsOrganizationPinUserTweets" to="自分のツイート"/>
 	<translation from="prefsOrganizationSearchList" to="検索リスト"/>
-	<translation from="prefsOrganizationShowTwitterTrends" to="Twitter トレンドを表示する"/>
+	<translation from="prefsOrganizationShowMyAccountInContactList" to="コンタクトリスト内に自分のアカウントを表示する"/>
+	<translation from="prefsOrganizationShowTwitterTrends" to="トレンドを表示する %prefsOrganizationUseTwitterTrendsLocation%"/>
 	<translation from="prefsOrganizationTwitterLists" to="Twitter Lists"/>
 	<translation from="second ago at" to="秒前"/>
 	<translation from="seconds ago at" to="秒前"/>

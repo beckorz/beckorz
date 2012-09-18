@@ -144,10 +144,12 @@
 	<translation from="infoConnReconnecting" to="Attempting to reconnect in %seconds% seconds..."/>
 	<translation from="infoConnSucceed" to="%medium% に接続できました。"/>
 	<translation from="infoContactAway" to="&quot;%displayname% (%username%)&quot; は %time% に退席中になりました。"/>
+	<translation from="infoContactDnd" to="&quot;%displayname% (%username%)&quot; went dnd at %time%."/>
 	<translation from="infoContactFFC" to="&quot;%displayname% (%username%)&quot; is free for chat as of %time%."/>
 	<translation from="infoContactIdle" to="&quot;%displayname% (%username%)&quot; は %time% にIdleになりました。"/>
 	<translation from="infoContactInvisible" to="&quot;%displayname% (%username%)&quot; went invisible at %time%."/>
 	<translation from="infoContactMarked" to="&quot;%displayname% (%username%)&quot; was marked &quot;%status%&quot; on %time%."/>
+	<translation from="infoContactMobile" to="&quot;%displayname% (%username%)&quot; went mobile at %time%."/>
 	<translation from="infoContactOffline" to="&quot;%displayname% (%username%)&quot; は %time% にオフラインになりました。"/>
 	<translation from="infoContactOfflineAt" to="%name% は %time% にサインアウトしました"/>
 	<translation from="infoContactOfflineAtFrom" to="%name% が &quot;%from%&quot; から %time% にサインアウトしました。"/>
@@ -193,6 +195,7 @@
 	<translation from="systrayStatus" to="%medium% にの接続は失敗しました.  詳細を表示するにはここにクリックしてください。"/>
 	<translation from="textApprove" to="同意"/>
 	<translation from="textApproveAndAdd" to="同意&amp;追加"/>
+	<translation from="textDecideLater" to="Decide Later"/>
 	<translation from="textDeny" to="拒否"/>
 	<translation from="textIgnore" to="無視"/>
 	<translation from="textReEnterPassword" to="Re-enter Password"/>

@@ -70,13 +70,13 @@
 	<translation from="Contact List: Contact Bulk Signoff" to="コンタクトリスト: Contact Bulk Signoff"/>
 	<translation from="Contact List: Contact Bulk Signon" to="コンタクトリスト: Contact Bulk Signon"/>
 	<translation from="Contact List: Contact Bulk Status Change" to="コンタクトリスト: Contact Bulk Status Change"/>
+	<translation from="Contact List: Contact Bulk Status Message Change" to="Contact List: Contact Bulk Status Message Change"/>
 	<translation from="Contact List: Contact Signoff" to="コンタクトリスト: Contact Signoff"/>
 	<translation from="Contact List: Contact Signon" to="コンタクトリスト: Contact Signon"/>
 	<translation from="Contact List: Contact Status Change" to="コンタクトリスト: Contact Status Change"/>
+	<translation from="Contact List: Contact Status Message Change" to="Contact List: Contact Status Message Change"/>
 	<translation from="Contact List: Contact wall status change" to="コンタクトリスト: Contact wall status change"/>
 	<translation from="Contact List: File Change" to="コンタクトリスト: File Change"/>
-	<translation from="Contact List: Contact wall status change" to="Contact List: Contact wall status change"/>
-	<translation from="Contact List: File Change" to="Contact List: File Change"/>
 	<translation from="Contact List: Hide" to="コンタクトリスト: 隠す"/>
 	<translation from="Contact List: MetaContact Bulk Status Message Change" to="Contact List: MetaContact Bulk Status Message Change"/>
 	<translation from="Contact List: MetaContact Status Message Change" to="Contact List: MetaContact Status Message Change"/>
@@ -90,10 +90,10 @@
 	<translation from="Contact List: Subcontact Bulk Signoff" to="コンタクトリスト: Subcontact Bulk Signoff"/>
 	<translation from="Contact List: Subcontact Bulk Signon" to="コンタクトリスト: Subcontact Bulk Signon"/>
 	<translation from="Contact List: Subcontact Bulk Status Change" to="コンタクトリスト: Subcontact Bulk Status Change"/>
+	<translation from="Contact List: Subcontact Bulk Status Message Change" to="Contact List: Subcontact Bulk Status Message Change"/>
 	<translation from="Contact List: Subcontact Signoff" to="コンタクトリスト: Subcontact Signoff"/>
 	<translation from="Contact List: Subcontact Signon" to="コンタクトリスト: Subcontact Signon"/>
 	<translation from="Contact List: Subcontact Status Change" to="コンタクトリスト: Subcontact Status Change"/>
-	<translation from="Contact List: Subcontact Status Change" to="Contact List: Subcontact Status Change"/>
 	<translation from="Contact List: Subcontact Status Message Change" to="Contact List: Subcontact Status Message Change"/>
 	<translation from="Contact List: Toggle Visible" to="コンタクトリスト: Toggle Visible"/>
 	<translation from="Contacts" to="コンタクト"/>
@@ -111,11 +111,12 @@
 	<translation from="Edit Group Notes..." to="グループメモを編集..."/>
 	<translation from="Edit Previous Messages..." to="Edit Previous Messages..."/>
 	<translation from="Extra Information" to="Extra InformationProfiles"/>
+	<translation from="Favorite" to="お気に入り"/>
 	<translation from="Follow Links" to="Follow Links"/>
 	<translation from="From %username%" to="From %username%"/>
 	<translation from="Global Connection" to="All Connections"/>
 	<translation from="Group" to="グループ"/>
-	<translation from="Group Only" to="Group Only"/>
+	<translation from="Group Only" to="グループのみ"/>
 	<translation from="Groups" to="グループ"/>
 	<translation from="Help" to="ヘルプ"/>
 	<translation from="Hide" to="隠す"/>
@@ -125,7 +126,7 @@
 	<translation from="Invisible" to="不可視"/>
 	<translation from="Large Size" to="大"/>
 	<translation from="Last Seen On" to="最後見たのは"/>
-	<translation from="Last seen %time% ago" to="%time%前見ました"/>
+	<translation from="Last seen %time% ago" to="%time%前に見ました"/>
 	<translation from="Learn about Trillian Pro" to="Trillian Pro について"/>
 	<translation from="Left" to="左"/>
 	<translation from="List" to="リスト"/>
@@ -211,7 +212,7 @@
 	<translation from="Tile View" to="並べて表示"/>
 	<translation from="Tiled" to="Tiled"/>
 	<translation from="Tiny Size" to="最小表示"/>
-	<translation from="To see the status of this contact, please enable the %plugin% plugin in Preferences." to="To see the status of this contact, please enable the %plugin% plugin in Preferences."/>
+	<translation from="To see the status of this contact, please enable the %plugin% plugin in Preferences." to="このコンタクトの状況を見ると、設定で%plugin%というプラグインを使用可能にしてください"/>
 	<translation from="Top" to="Top"/>
 	<translation from="Turn Autohide Off" to="自動表示Off"/>
 	<translation from="Turn Autohide On" to="自動表示On"/>
@@ -222,7 +223,7 @@
 	<translation from="Upgrade to Trillian Pro" to="Trillian Proへアップグレード"/>
 	<translation from="User: Default Message Send" to="User: Default Message Send"/>
 	<translation from="View" to="表示"/>
-	<translation from="View Chat History" to="View Chat History"/>
+	<translation from="View Chat History" to="ログを表示する"/>
 	<translation from="View Contact Information" to="コンタクト情報を表示"/>
 	<translation from="alert" to="アラート"/>
 	<translation from="alertHeaderSignOff" to="%num% of %total% signed off"/>
@@ -283,12 +284,12 @@
 	<translation from="dialogWizardStartName" to="コンタクト追加ウィザード"/>
 	<translation from="downwards" to="downwards"/>
 	<translation from="hour" to="時"/>
-	<translation from="hours" to="時"/>
+	<translation from="hours" to="時間"/>
 	<translation from="less than a minute" to="1分未満"/>
 	<translation from="minute" to="分"/>
 	<translation from="minutes" to="分"/>
 	<translation from="month" to="月"/>
-	<translation from="months" to="月"/>
+	<translation from="months" to="ヶ月"/>
 	<translation from="reverse alphabet" to="名前の逆順"/>
 	<translation from="second" to="秒"/>
 	<translation from="seconds" to="秒"/>

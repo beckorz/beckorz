@@ -24,6 +24,7 @@
 	<translation from="infoMsgOfflineSize" to="本文が長すぎるため、このメッセージは送信されませんでした。: %message%"/>
 	<translation from="infoMsgResourceChange" to="The active resource has changed to &quot;%resource%&quot;."/>
 	<translation from="infoProtocolInvalid" to="警告: サーバープロトコル &quot;%protocol%&quot; は要求したプロトコルと一致しませんでした。　- 切断します。"/>
+	<translation from="systrayAccountLocked" to="Your account may have been temporarily locked.  Please sign into Hotmail and verify your credentials, then try again."/>
 	<translation from="systrayNotVerified" to="メールアドレスをWindows Live Messengerに認証させる必要があります。クリックすると認証します。"/>
 	<translation from="systrayProtocolInvalid" to="We could not sign you into Windows Live Messenger because the server&apos;s protocol does not match ours.  This can happen during times of server upgrade or if you are running incompatible firewall/anti-virus software; please try adding Trillian to your security software&apos;s whitelist or exception list and try again."/>
 </language>

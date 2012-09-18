@@ -134,7 +134,7 @@
 	<translation from="Change..." to="変更..."/>
 	<translation from="Chat Activities" to="Chat Activities"/>
 	<translation from="Chat Everywhere!" to="どこでもチャットを!"/>
-	<translation from="Chat History" to="Chat History"/>
+	<translation from="Chat History" to="ログ"/>
 	<translation from="Chat Room Windows" to="チャットルームウィンドウ"/>
 	<translation from="Chat Views" to="Chat Views"/>
 	<translation from="Chat Windows" to="チャットウィンドウ"/>
@@ -261,10 +261,12 @@
 	<translation from="Error loading verification image." to="Error loading verification image."/>
 	<translation from="Error while connecting.  Please check your account name and connection, then try again." to="Error while connecting.  Please check your account name and connection, then try again."/>
 	<translation from="Error, cleaning up..." to="Error, cleaning up..."/>
+	<translation from="Events" to="イベント"/>
 	<translation from="Everyone" to="皆"/>
 	<translation from="Exit" to="終了"/>
 	<translation from="Export vCard" to="vCardをエキスポート"/>
 	<translation from="Fabric" to="Fabric"/>
+	<translation from="Favorites" to="お気に入り"/>
 	<translation from="February" to="2月"/>
 	<translation from="Female" to="女性"/>
 	<translation from="File Transfers" to="ファイルの受信と転送"/>
@@ -282,6 +284,7 @@
 	<translation from="Forgot your password?" to="パスワードが忘れてしまいましたか？"/>
 	<translation from="Forward" to="進む"/>
 	<translation from="Free" to="Free"/>
+	<translation from="Frequent" to="Frequent"/>
 	<translation from="Friday" to="金曜日"/>
 	<translation from="Friend" to="友達"/>
 	<translation from="Frog" to="蛙"/>
@@ -369,7 +372,7 @@
 	<translation from="Kick" to="Kick"/>
 	<translation from="Knowledge Bar" to="情報バー"/>
 	<translation from="Language" to="言語"/>
-	<translation from="Language &amp; Startup" to="Language &amp; Startup"/>
+	<translation from="Language &amp; Startup" to="言語 &amp; スタートアップ"/>
 	<translation from="Large" to="大"/>
 	<translation from="Large Icon" to="大きいアイコン"/>
 	<translation from="Large List" to="大きいリスト"/>
@@ -452,6 +455,7 @@
 	<translation from="No Emotiblips found." to="No Emotiblips found."/>
 	<translation from="No Other Services Found" to="No Other Services Found"/>
 	<translation from="No Proxy Server" to="プロキシサーバーがありません"/>
+	<translation from="No Skin (Default)" to="No Skin (Default)"/>
 	<translation from="No Status Messages found." to="No Status Messages found."/>
 	<translation from="No custom windows found." to="No custom windows found."/>
 	<translation from="No new messages" to="新着メールはありません"/>
@@ -530,6 +534,7 @@
 	<translation from="Radio" to="ラジオ"/>
 	<translation from="Readme" to="読んで下さい"/>
 	<translation from="Received" to="受信しました"/>
+	<translation from="Recent" to="Recent"/>
 	<translation from="Reconnect" to="再接続"/>
 	<translation from="Reconnecting..." to="再接続中..."/>
 	<translation from="Record" to="Record"/>
@@ -611,6 +616,7 @@
 	<translation from="Sounds" to="サウンド"/>
 	<translation from="Sounds &amp; Notifications" to="サウンド &amp; 通知"/>
 	<translation from="Special Message" to="Special Message"/>
+	<translation from="Spell Check" to="スペルチェック"/>
 	<translation from="Sports" to="スポーツ"/>
 	<translation from="Spread the word!" to="Spread the word!"/>
 	<translation from="Stairs" to="Stairs"/>
@@ -774,8 +780,8 @@
 	<translation from="What to Record" to="記録対象"/>
 	<translation from="What was your first phone number?" to="What was your first phone number?"/>
 	<translation from="What was your first teacher&apos;s name?" to="What was your first teacher&apos;s name?"/>
-	<translation from="When I&apos;m Away ..." to="When I&apos;m Away ..."/>
-	<translation from="When Trillian Starts Up ..." to="When Trillian Starts Up ..."/>
+	<translation from="When I&apos;m Away ..." to="退席時 ..."/>
+	<translation from="When Trillian Starts Up ..." to="Trillianの起動時 ..."/>
 	<translation from="When a New Window is Created ..." to="新規ウィンドウ作成時 ..."/>
 	<translation from="Where did you hear about us?" to="Where did you hear about us?"/>
 	<translation from="Which graphic would you like used to represent you?" to="Which graphic would you like used to represent you?"/>
@@ -878,9 +884,10 @@
 	<translation from="or" to="or"/>
 	<translation from="prefsActivityHistoryAuto" to="チャットウィンドウ内に最新の %num% 件の会話ログを表示する"/>
 	<translation from="prefsActivityHistoryAutoSearch" to="auto history;autohistory;previous conversation"/>
-	<translation from="prefsActivityHistoryCloud" to="Also backup my history online"/>
+	<translation from="prefsActivityHistoryCloud" to="オンライン上にもバックアップする"/>
 	<translation from="prefsActivityHistoryCloudWarning" to="This feature requires conversations for contacts to be logged."/>
 	<translation from="prefsActivityHistoryContinuous" to="Synchronize my chats in realtime between devices"/>
+	<translation from="prefsActivityHistoryContinuousImages" to="Synchronize my images in realtime between devices"/>
 	<translation from="prefsActivityHistoryDescription" to="Change how Trillian archives all of your messages and activities."/>
 	<translation from="prefsActivityHistoryDirectoryBrowse" to="参照..."/>
 	<translation from="prefsActivityHistoryLogAudio" to="音声チャット"/>
@@ -895,7 +902,7 @@
 	<translation from="prefsActivityHistoryLogVideo" to="ビデオチャット"/>
 	<translation from="prefsActivityHistoryName" to="ログ"/>
 	<translation from="prefsActivityHistoryNameSearch" to="history;activity history;conversation history;chat history;chat log;logging;logs"/>
-	<translation from="prefsActivityHistoryPro" to="&lt;b&gt;Trillian Pro&lt;/b&gt; users can save history online, ensuring messages are never lost!"/>
+	<translation from="prefsActivityHistoryPro" to="&lt;b&gt;Trillian Pro&lt;/b&gt; ユーザーはオンライン上にログを保存可能です。データ損失も保証されます!"/>
 	<translation from="prefsAudioDescription" to="Select sound sources and fine-tune quality settings here."/>
 	<translation from="prefsAudioName" to="音声"/>
 	<translation from="prefsAudioVideoQualityHighDescription" to="Delivers high quality sound.  Uses as much available Internet bandwidth as possible."/>
@@ -1161,6 +1168,10 @@
 	<translation from="prefsMessageWindowsFocusedSearch" to="window focus;focus;transparent;transparency;black and white;fade window;window fade"/>
 	<translation from="prefsMessageWindowsFocusedTypeSearch" to="window focus;focus;transparent;transparency;black and white;fade window;window fade"/>
 	<translation from="prefsMessageWindowsFocusedWarning" to="The above setting is performance intensive and may slow down older PCs.  Certain skins which support enhanced alpha effects may not turn semi-transparent."/>
+	<translation from="prefsMessageWindowsFrequent" to="Show frequently chatted with contacts in Jump List"/>
+	<translation from="prefsMessageWindowsFrequentClear" to="Clear"/>
+	<translation from="prefsMessageWindowsFrequentClearSearch" to="frequent;jump list"/>
+	<translation from="prefsMessageWindowsFrequentSearch" to="frequent;jump list"/>
 	<translation from="prefsMessageWindowsHiddenAllow" to="Allow chat windows to be hidden"/>
 	<translation from="prefsMessageWindowsHiddenAllowSearch" to="隠す"/>
 	<translation from="prefsMessageWindowsInstantLookupURL" to="Automatically display additional URL information on mouseover"/>
@@ -1185,6 +1196,8 @@
 	<translation from="prefsMessageWindowsTabSingleSearch" to="tabs;old method;container;single window"/>
 	<translation from="prefsMessageWindowsTaskbarEnhanced" to="Show chat activity in the taskbar"/>
 	<translation from="prefsMessageWindowsTaskbarEnhancedSearch" to="taskbar;title;event;count"/>
+	<translation from="prefsMessageWindowsWebPreviews" to="Show image previews of certain web links"/>
+	<translation from="prefsMessageWindowsWebPreviewsSearch" to="youtube;preview;image;web;"/>
 	<translation from="prefsMyIconComputer" to="I&apos;d like to use an icon from my computer:"/>
 	<translation from="prefsMyIconComputerSearch" to="My Icon;icons;buddy icons;avatars;display pictures;display icons;photos"/>
 	<translation from="prefsMyIconDescription" to="Choose an icon from the list below or locate a picture on your computer; your friends will be able to see this icon alongside your name on their contact list."/>
@@ -1196,11 +1209,11 @@
 	<translation from="prefsMyIconWindows" to="I&apos;d like to use the same icon I use for Microsoft Windows."/>
 	<translation from="prefsMyIconWindowsSearch" to="My Icon;icons;buddy icons;avatars;display pictures;display icons;photos;xp;windows;windows xp"/>
 	<translation from="prefsNotificationsAlert" to="通知時:"/>
-	<translation from="prefsNotificationsAlertGroup" to="Combine notifications after %num% of the same kind"/>
+	<translation from="prefsNotificationsAlertGroup" to="%num% 個以上の同じ通知を結合する"/>
 	<translation from="prefsNotificationsAlertGroupSearch" to="group;systray;alert;notifications;"/>
 	<translation from="prefsNotificationsAlertGroupWarning" to="The current skin does not support grouping of notification alerts."/>
 	<translation from="prefsNotificationsAlertLocation" to="通知ウィンドウの表示位置 %location%"/>
-	<translation from="prefsNotificationsAlertLocationMonitor" to="Show notification windows %location% of monitor %monitor%"/>
+	<translation from="prefsNotificationsAlertLocationMonitor" to="%monitor% 番目のディスプレイの %location% へ通知ウィンドウを表示する"/>
 	<translation from="prefsNotificationsAlertMessageBuzz" to="相手が自分にメッセージを送った時"/>
 	<translation from="prefsNotificationsAlertMessageBuzzSearch" to="sound;sounds;buzz;alert;spazz"/>
 	<translation from="prefsNotificationsAlertMessageGroup" to="新規メッセージがチャットルームウィンドウに来た時"/>
@@ -1227,9 +1240,9 @@
 	<translation from="prefsNotificationsDescription" to="Pick when and how you want sounds, icons and popup-windows to tell you when something is happening."/>
 	<translation from="prefsNotificationsName" to="音と通知"/>
 	<translation from="prefsNotificationsSounds" to="サウンド再生"/>
-	<translation from="prefsNotificationsSoundsAway" to="Do not play sounds while I am away"/>
+	<translation from="prefsNotificationsSoundsAway" to="退席中は音を鳴らさない"/>
 	<translation from="prefsNotificationsSoundsAwaySearch" to="sounds;mute sounds;away sounds"/>
-	<translation from="prefsNotificationsSoundsFocus" to="Only play sounds for unfocused chat windows"/>
+	<translation from="prefsNotificationsSoundsFocus" to="フォーカスされていないウィンドウだけ音を鳴らす"/>
 	<translation from="prefsNotificationsSoundsFocusSearch" to="sound;sounds;incoming sounds;focus"/>
 	<translation from="prefsNotificationsSoundsMail" to="新着メールの受信"/>
 	<translation from="prefsNotificationsSoundsMessageIn" to="メッセージの受信時"/>
@@ -1361,11 +1374,15 @@
 	<translation from="prefsTextConversationsName" to="Fonts &amp; Chats"/>
 	<translation from="prefsTextConversationsNewLine" to="改行"/>
 	<translation from="prefsTextConversationsNewLineSearch" to="newline;enter;insert new line;edit"/>
-	<translation from="prefsTextConversationsPro" to="&lt;b&gt;Trillian Pro&lt;/b&gt; users are treated to an ad-free experience!"/>
+	<translation from="prefsTextConversationsPro" to="&lt;b&gt;Trillian Pro&lt;/b&gt; ユーザーは広告表示はされません!"/>
 	<translation from="prefsTextConversationsRecentItems" to="自分が最近送った行にアクセス"/>n from="prefsTextConversationsRecentItems" to="To access lines I&apos;ve recently sent"/>
 	<translation from="prefsTextConversationsRecentItemsSearch" to="history;edit history;up;recent;edit"/>
 	<translation from="prefsTextConversationsSendMessage" to="メッセージ送信"/>
 	<translation from="prefsTextConversationsSendMessageSearch" to="send message;message;send;message send;edit"/>
+	<translation from="prefsTextConversationsSpellCheck" to="Spell check messages"/>
+	<translation from="prefsTextConversationsSpellCheckAutoCorrect" to="Automatically correct messages as I type"/>
+	<translation from="prefsTextConversationsSpellCheckAutoCorrectSearch" to="autocorrect"/>
+	<translation from="prefsTextConversationsSpellCheckSearch" to="spell"/>
 	<translation from="prefsTextConversationsTimestampInstructions" to="%h - hour (24hr)&#09;&#09;%H - hour (12hr)&#09;%a - AM/PM&#13;&#10;%m - minutes&#09;&#09;%s - seconds&#09;%y - year&#13;&#10;%N - month number&#09;%n- month&#09;%d - day (ie: Mon.)&#13;&#10;%D - day number"/>
 	<translation from="prefsTextConversationsTimestamps" to="メッセージ毎のタイムスタンプを表示する"/>
 	<translation from="prefsTextConversationsTimestampsCustomEditSearch" to="display;timestamp;time;time stamp"/>

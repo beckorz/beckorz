@@ -64,6 +64,7 @@
 	<translation from="prefsConnectionUsername" to="メール"/>
 	<translation from="prefsMiscellaneousAdvanced" to="拡張"/>
 	<translation from="prefsMiscellaneousHideConnectionOfInactiveAccount" to="When this account is not active, hide its icon from the identity panel"/>
+	<translation from="prefsMiscellaneousIMAPGmailShowDeleteInsteadOfArchiveForAlerts" to="Show delete instead of archive for alerts"/>
 	<translation from="prefsMiscellaneousIMAPSearchInSubfolders" to="Search in subfolders for new mail"/>
 	<translation from="prefsMiscellaneousMailArriveAlert" to="新着メールを通知する"/>
 	<translation from="prefsMiscellaneousMailCheckTimeout" to="%prefsMiscellaneousMailCheckTimeout% 分毎にメールをチェックする"/>

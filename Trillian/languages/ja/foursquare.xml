@@ -3,8 +3,8 @@
 	<translation from="AddressStr" to="住所"/>
 	<translation from="AllFriendsGroupEmptyStr" to="No friends found"/>
 	<translation from="AllFriendsStr" to="全友達"/>
-	<translation from="CheckinsStr" to="Checkins"/>
-	<translation from="CityStr" to="City"/>
+	<translation from="CheckinsStr" to="チェックイン"/>
+	<translation from="CityStr" to="市"/>
 	<translation from="Connection Settings" to="接続設定"/>
 	<translation from="CreatedByStr" to="Created by"/>
 	<translation from="DescriptionStr" to="詳細"/>
@@ -28,7 +28,7 @@
 	<translation from="LoadingFriendRequestsStr" to="Loading list of friend requests"/>
 	<translation from="LoadingMyBadgesStr" to="自分のバッジを読込中"/>
 	<translation from="LoadingMyHistoryStr" to="自分のチェックインを読込中"/>
-	<translation from="LoadingNearbyPlacesStr" to="Loading list of nearby places"/>
+	<translation from="LoadingNearbyPlacesStr" to="近所リストを読みこみ中"/>
 	<translation from="LoadingNearbyTipsStr" to="近いチップリストを読込中"/>
 	<translation from="Miscellaneous" to="その他"/>
 	<translation from="MyBadgesGroupEmptyStr" to="No my badges found"/>
@@ -52,21 +52,21 @@
 	<translation from="RefreshingNearbyTipsStr" to="近いチップリストを再読込中"/>
 	<translation from="RequestsStr" to="Requests"/>
 	<translation from="ShoutStr" to="Shout"/>
-	<translation from="StateStr" to="ステータス"/>
-	<translation from="TextStr" to="Text"/>
+	<translation from="StateStr" to="州"/>
+	<translation from="TextStr" to="テキスト"/>
 	<translation from="TwitterStr" to="Twitter"/>
 	<translation from="ZipStr" to="郵便番号"/>
 	<translation from="infoAccountRemoveDialogCaption" to="Trillian"/>
 	<translation from="infoAccountRemoveDialogText" to="Permanently remove account &quot;%username%&quot; from your list?"/>
 	<translation from="infoConnSucceed" to="You have successfully connected to %medium%."/>
-	<translation from="infoConnect" to="Connecting to %medium% as &quot;%username%&quot;."/>
+	<translation from="infoConnect" to="&quot;%username%&quot;として%medium%に接続中"/>
 	<translation from="infoCreateConn" to="&quot;%username%&quot;のコネクションを作成中"/>
 	<translation from="infoDisconnected" to="切断されました。"/>
-	<translation from="infoReconn" to="Reconnecting to %medium% as &quot;%username%&quot;."/>
-	<translation from="infoSystrayAlertThereAreNumNewCheckins" to="There are %num% new checkins."/>
-	<translation from="infoSystrayAlertThereAreNumNewPlaces" to="There are %num% new places."/>
+	<translation from="infoReconn" to="&quot;%username%&quot;として%medium%に再接続中"/>
+	<translation from="infoSystrayAlertThereAreNumNewCheckins" to="新規チェックインが%num%つあります。"/>
+	<translation from="infoSystrayAlertThereAreNumNewPlaces" to="新規場所が%num%つあります。"/>
 	<translation from="menuApprove" to="Approve"/>
-	<translation from="menuCheckin" to="Check-in"/>
+	<translation from="menuCheckin" to="チェックインする"/>
 	<translation from="menuDeny" to="拒否"/>
 	<translation from="menuDisconnect" to="切断"/>
 	<translation from="menuGoToFoursquareHome" to="Foursquareホーム"/>
@@ -79,12 +79,12 @@
 	<translation from="menuRefresh" to="再読込"/>
 	<translation from="menuViewPlace" to="場所を表示"/>
 	<translation from="menuViewProfile" to="プロフィールを表示"/>
-	<translation from="meterStr" to="meter"/>
-	<translation from="metersStr" to="meters"/>
+	<translation from="meterStr" to="メートル"/>
+	<translation from="metersStr" to="メートル"/>
 	<translation from="onFoursquare" to="on Foursquare"/>
 	<translation from="postButtonShoutHelperStr" to="Shout ..."/>
 	<translation from="postButtonShoutStr" to="Shout (%edit.count_relative%)"/>
-	<translation from="prefsConnectionAutoConnect" to="起動時にこのアカウントの自動接続にします。"/>
+	<translation from="prefsConnectionAutoConnect" to="起動時にこのアカウントを自動接続にします。"/>
 	<translation from="prefsConnectionInvitation" to="以下にFoursqure名を入力して、接続をクリックします。"/>
 	<translation from="prefsConnectionSettingsProxyHeader" to="プロキシ"/>
 	<translation from="prefsConnectionSettingsProxyHost" to="ホスト:"/>
@@ -113,7 +113,7 @@
 	<translation from="prefsNewsFeedPinListOfFriendRequests" to="List of Friend Requests"/>
 	<translation from="prefsNewsFeedPinListOfFriends" to="友達リスト"/>
 	<translation from="prefsNewsFeedPinMyCheckins" to="自分のチェックイン"/>
-	<translation from="prefsNewsFeedPinNearbyPlaces" to="近い場所"/>
+	<translation from="prefsNewsFeedPinNearbyPlaces" to="近所"/>
 	<translation from="prefsNewsFeedPinNearbyTips" to="近いチップ"/>
 	<translation from="prefsNewsFeedSettingsTitle" to="Configure how the news feed will appear in the Contact List."/>
 	<translation from="prefsNotificationsNotifyMeWhen" to="通知時:"/>
