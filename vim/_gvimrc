@@ -47,6 +47,14 @@ set cino+=:0,g0
 "set enc=utf-8
 set enc=japan
 
+"メニューの文字化け対応
+" メニュー再作成している為、メニューを追加するタイプの Plugin を入れた際に、エラーとなってしまう為、要考慮
+" @see:http://cl.pocari.org/2006-04-26-10.html
+source $VIMRUNTIME/delmenu.vim
+set langmenu=ja_jp.utf-8
+source $VIMRUNTIME/menu.vim
+
+
 " ウィンドウ分割時にサイズを初期化しない(equalalways)
 set noea
 
@@ -82,10 +90,14 @@ set is
 set ls=2
 
 " タブ文字、行末など不可視文字を表示する
-"set list
+set list
 
 " listで表示される文字のフォーマットを指定する(listchars)
 set lcs=tab:>-,eol:$,extends:>
+" utf-8の場合、特殊文字列をらしく設定する。(他のエンコード時エラーになる可能性ある為if分岐
+if &encoding ==# 'utf-8'
+	set listchars=tab:»_,trail:_,eol:↲,extends:»,precedes:«,nbsp:%
+endif
 
 " Ctrl+A、Ctrl+Xの加減算コマンドで認識する基数(nrformats)
 set nf=alpha,hex
@@ -151,6 +163,7 @@ colorscheme ron
 if has('win32')
   " Windows用
   set guifont=MS_Gothic:h9:cSHIFTJIS
+  "set guifont=Consolas:h9:cSHIFTJIS
   "set guifont=MS_Mincho:h12:cSHIFTJIS
   " 行間隔の設定
   set linespace=1
@@ -160,6 +173,8 @@ if has('win32')
   endif
 elseif has('mac')
   set guifont=Osaka－等幅:h14
+  "set guifont=Menlo Regular:h12
+  "set guifont=Source Code Pro:h12
 elseif has('xfontset')
   " UNIX用 (xfontsetを使用)
   set guifontset=a14,r14,k14
@@ -200,3 +215,50 @@ if has('printer')
     set printfont=MS_Gothic:h9:cSHIFTJIS
   endif
 endif
+
+" タブを表示 1:2つ以上だったら表示 2:常に表示
+set showtabline=2
+
+"---------------------------------------------------------------------------
+"全角スペースを表示
+"
+"コメント以外で全角スペースを指定しているので、scriptencodingと、
+"このファイルのエンコードが一致するよう注意！
+"強調表示されない場合、ここでscriptencodingを指定するとうまくいく事があります。
+scriptencoding utf-8
+
+"デフォルトのZenkakuSpaceを定義
+function! ZenkakuSpace()
+  highlight ZenkakuSpace cterm=underline ctermfg=darkgrey gui=underline guifg=darkgrey
+endfunction
+
+if has('syntax')
+  augroup ZenkakuSpace
+    autocmd!
+    " ZenkakuSpaceをカラーファイルで設定するなら次の行は削除
+    autocmd ColorScheme       * call ZenkakuSpace()
+    " 全角スペースのハイライト指定
+    autocmd VimEnter,WinEnter * match ZenkakuSpace /　/
+  augroup END
+  call ZenkakuSpace()
+endif
+
+"---------------------------------------------------------------------------
+" ronベースのオレオレ仕様 ronのファイルに以下を適用しても良し
+" 通常文字
+hi Normal		guifg=white	guibg=black
+hi statement	guifg=white	gui=NONE
+" 文字列
+hi constant		guifg=magenta	gui=none
+" 
+hi preproc		guifg=red
+" 検索文字列の背景色
+hi Search		guibg=yellow
+" 特殊キー
+hi SpecialKey guibg=NONE guifg=Gray20
+hi type			guifg=lightblue	gui=NONE
+
+" 入力モードの自動的に日本語入力を使わない
+set iminsert=0
+" 検索時自動的に日本語入力を使わない
+set imsearch=-1

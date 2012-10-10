@@ -245,3 +245,23 @@ match WideSpace /　/
 " vimウィンドウ内でmanページ表示 {{{
 ru ftplugin/man.vim
 " }}}
+
+"---------------------------------------------------------------------------
+" ronベースのオレオレ仕様 ronのファイルに以下を適用しても良し
+" 通常文字
+hi Normal		guifg=white	guibg=black
+hi statement	guifg=white	gui=NONE
+" 文字列
+hi constant		guifg=magenta	gui=none
+" 
+hi preproc		guifg=red
+" 検索文字列の背景色
+hi Search		guibg=yellow
+" 特殊キー
+hi SpecialKey guibg=NONE guifg=Gray20
+hi type			guifg=lightblue	gui=NONE
+
+" 入力モードの自動的に日本語入力を使わない
+set iminsert=0
+" 検索時自動的に日本語入力を使わない
+set imsearch=-1
