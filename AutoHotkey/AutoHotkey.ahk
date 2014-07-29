@@ -10,7 +10,7 @@
 ;       Apple Wireless Keyboard Helper for Windows?? KeySwap??
 ;
 ; see:http://sites.google.com/site/autohotkeyjp
-;/
+;
 ;_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 #UseHook on
@@ -40,30 +40,68 @@ vk1Csc079 & f::Send,{Blind}{PgDn}
 ; Undo
 vk1Csc079 & u::Send ^z
 ; ESCキー用 from Viから
-vk1Csc079 & ^[::Send {ESC}
+;vk1Csc079 & ^[::Send {ESC}
 ; Paste
 vk1Csc079 & p::Send ^v
 
 ;-----------------------------
 ; Vi Like With RightWindowsKey(vkFFsc079)
+;
 ;   (USキーボード用)
 ;   ※ 要レジストリで、RightWidnowsKey→変換キー
+;      RWin + Lで Windowsにロックがかかるショートカットとダブっている為回避
 ;-----------------------------
 vkFFsc079 & h::Send,{Blind}{Left}
 vkFFsc079 & j::Send,{Blind}{Down}
 vkFFsc079 & k::Send,{Blind}{Up}
 vkFFsc079 & l::Send,{Blind}{Right}
 vkFFsc079 & x::Send,{Blind}{Del}
-vkFFsc079 & a::Send,{Blind}{Home}
+vkFFsc079 & ^::Send,{Blind}{Home}
 vkFFsc079 & 4::Send,{Blind}{End}
 vkFFsc079 & b::Send,{Blind}{PgUp}
 vkFFsc079 & f::Send,{Blind}{PgDn}
 ; Undo
 vkFFsc079 & u::Send ^z
 ; ESCキー用 from Viから
-vkFFsc079 & ^[::Send {ESC}
+;vkFFsc079 & ^[::Send {ESC}
+^[::Send {ESC}
 ; Paste
 vkFFsc079 & p::Send ^v
+; Vim Paste(Insert利用)
+;Numpad0::Send ^v
+
+;-----------------------------
+;Logitech Wireless Solar Keyboard K760
+;-----------------------------
+;vkACsc132::Send,{F5}
+;vk91sc046::Send,{F6}
+;vk13sc045::Send,{F7}
+;vkB3sc122::Send,{F9}
+;vkADsc120::Send {Volume_Mute}
+;vkAEsc12E::
+ Send {Volume_Down 5}
+ SoundBeep
+ return
+;vkAFsc130::
+ Send {Volume_Up 5}
+ SoundBeep
+ return
+
+;-----------------------------
+; ELECOM TK-FBM036
+;   (USキーボード用)
+;-----------------------------
+;vkACsc132::Send,{F1}
+;vkAAsc165::Send,{F2}
+;vkAAsc165::Send,{F3}
+;vkB1sc110::Send,{F4}
+;vkB3sc122::Send,{F5}
+;vkB0sc119::Send,{F6}
+;vkADsc120::Send,{F7}
+;vkAEsc12E::Send,{F8}
+;vkAFsc130::Send,{F9}
+;vkAFsc130::Send,{F10}
+
 
 ;-----------------------------
 ; Windows + Mac Command Key
@@ -135,6 +173,16 @@ RAlt::AppsKey
 ;-----------------------------
 LWin & LButton::Send,{Ctrl}{LButton}
 
+
+;-----------------------------
+; PrintScreen(Mac風PrintScreen)(Macキーボード用)
+; LWin+Shift+3 = PrintScreen
+; LWin+Shift+4 = Alt+PrintScreen
+;-----------------------------
+LWin & +3::Send,{PrintScreen}
+LWin & +4::Send,!{PrintScreen}
+
+
 ;=============================
 ; Functions
 ;=============================
@@ -149,13 +197,4 @@ IME_IsON(hWindow)
 	Return buf
 }
 
-IME_ON(hWindow, IsON)
-{
-	; WM_IME_CONTROL    = 0x0283
-	; IMC_SETOPENSTATUS = 0x0006
-	bufCurrentDetectMode := A_DetectHiddenWindows
-	DetectHiddenWindows, On
-	buf := DllCall("user32.dll\SendMessageA", "UInt", DllCall("imm32.dll\ImmGetDefaultIMEWnd", "Uint",hWindow), "UInt", 0x0283, "Int", 0x0006, "Int", IsON)
-	DetectHiddenWindows, %bufCurrentDetectMode%
-	Return buf
 }
