@@ -1,95 +1,98 @@
-;_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+ï»¿;_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 ; AutoHotkey Configuration
-;  İ’è“à—e
+;  è¨­å®šå†…å®¹
 ;  - Macintosh
 ;  - Vi Like
-;  - USƒL[ƒ{[ƒh(101”z—ñ)
-;  - JISƒL[ƒ{[ƒh(106”z—ñ)
+;  - USã‚­ãƒ¼ãƒœãƒ¼ãƒ‰(101é…åˆ—)
+;  - JISã‚­ãƒ¼ãƒœãƒ¼ãƒ‰(106é…åˆ—)
 ;
-; NOTE: FnƒL[Šˆ—p‚µ‚ÄFn+Backspace¨Delete‚âACapsLockƒL[Šˆ—p‚ÍAutoHotkey‚Å‚Í–³—
+; NOTE: Fnã‚­ãƒ¼æ´»ç”¨ã—ã¦Fn+Backspaceâ†’Deleteã‚„ã€CapsLockã‚­ãƒ¼æ´»ç”¨ã¯AutoHotkeyã§ã¯ç„¡ç†
 ;       Apple Wireless Keyboard Helper for Windows?? KeySwap??
 ;
 ; see:http://sites.google.com/site/autohotkeyjp
-;
+;/
 ;_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 #UseHook on
-; Key‚Ì’x‰„‘¬“x
+; Keyã®é…å»¶é€Ÿåº¦
 SetKeyDelay, -1
 
 ;-----------------------------
-; Common(‹¤’Ê)
+; Common(å…±é€š)
 ;-----------------------------
-;Ctrl+H (IME‚ÌŠî–{‚¾‚ª‚·‚×‚Ä‚ÅŒø‚­‚æ‚¤‚É‹­§)
+;Ctrl+H (IMEã®åŸºæœ¬ã ãŒã™ã¹ã¦ã§åŠ¹ãã‚ˆã†ã«å¼·åˆ¶)
 ^h::send {BackSpace}
-; ‰EWin•sg—p
+; ESCãƒ¼ç”¨ CTRL+[
+LCTRL & [::Send, {ESC}
+; å³Winä¸ä½¿ç”¨ > ãƒ¬ã‚¸ã‚¹ãƒˆãƒªã§è¡Œã†äº‹ãŒæ¨å¥¨
 ;RWin::return
 
 ;-----------------------------
-; Vi Like With –³•ÏŠ·(vk1Csc079)(JISƒL[ƒ{[ƒh—p)
+; Vi Like With å¤‰æ›/ç„¡å¤‰æ›(vk1Csc079)(JISã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ç”¨)
 ;-----------------------------
-vk1Csc079 & h::Send,{Blind}{Left}
-vk1Csc079 & j::Send,{Blind}{Down}
-vk1Csc079 & k::Send,{Blind}{Up}
-vk1Csc079 & l::Send,{Blind}{Right}
-vk1Csc079 & x::Send,{Blind}{Del}
-vk1Csc079 & a::Send,{Blind}{Home}
-vk1Csc079 & 4::Send,{Blind}{End}
-vk1Csc079 & b::Send,{Blind}{PgUp}
-vk1Csc079 & f::Send,{Blind}{PgDn}
+vk1C & h::Send,{Blind}{Left}
+vk1C & j::Send,{Blind}{Down}
+vk1C & k::Send,{Blind}{Up}
+vk1C & l::Send,{Blind}{Right}
+vk1C & x::Send,{Blind}{Del}
+vk1C & a::Send,{Blind}{Home}
+vk1C & 4::Send,{Blind}{End}
+vk1C & b::Send,{Blind}{PgUp}
+vk1C & f::Send,{Blind}{PgDn}
 ; Undo
-vk1Csc079 & u::Send ^z
-; ESCƒL[—p from Vi‚©‚ç
-;vk1Csc079 & ^[::Send {ESC}
+vk1C & u::Send, ^z
+; ESCã‚­ãƒ¼ç”¨ from Viã‹ã‚‰
+vk1C & [::Send, {ESC}
 ; Paste
-vk1Csc079 & p::Send ^v
+vk1C & p::Send, ^v
 
 ;-----------------------------
 ; Vi Like With RightWindowsKey(vkFFsc079)
-;
-;   (USƒL[ƒ{[ƒh—p)
-;   ¦ —vƒŒƒWƒXƒgƒŠ‚ÅARightWidnowsKey¨•ÏŠ·ƒL[
-;      RWin + L‚Å Windows‚ÉƒƒbƒN‚ª‚©‚©‚éƒVƒ‡[ƒgƒJƒbƒg‚Æƒ_ƒu‚Á‚Ä‚¢‚éˆ×‰ñ”ğ
+;   (USã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ç”¨)
+;   â€» è¦ãƒ¬ã‚¸ã‚¹ãƒˆãƒªã§ã€RightWidnowsKeyâ†’å¤‰æ›ã‚­ãƒ¼
 ;-----------------------------
-vkFFsc079 & h::Send,{Blind}{Left}
-vkFFsc079 & j::Send,{Blind}{Down}
-vkFFsc079 & k::Send,{Blind}{Up}
-vkFFsc079 & l::Send,{Blind}{Right}
-vkFFsc079 & x::Send,{Blind}{Del}
-vkFFsc079 & ^::Send,{Blind}{Home}
-vkFFsc079 & 4::Send,{Blind}{End}
-vkFFsc079 & b::Send,{Blind}{PgUp}
-vkFFsc079 & f::Send,{Blind}{PgDn}
+vkFF & h::Send,{Blind}{Left}
+vkFF & j::Send,{Blind}{Down}
+vkFF & k::Send,{Blind}{Up}
+vkFF & l::Send,{Blind}{Right}
+vkFF & x::Send,{Blind}{Del}
+vkFF & a::Send,{Blind}{Home}
+vkFF & 4::Send,{Blind}{End}
+vkFF & b::Send,{Blind}{PgUp}
+vkFF & f::Send,{Blind}{PgDn}
 ; Undo
-vkFFsc079 & u::Send ^z
-; ESCƒL[—p from Vi‚©‚ç
-;vkFFsc079 & ^[::Send {ESC}
-^[::Send {ESC}
+vkFF & u::Send ^z
+; ESCã‚­ãƒ¼ç”¨ from Viã‹ã‚‰
+vkFF & [::Send {ESC}
 ; Paste
-vkFFsc079 & p::Send ^v
-; Vim Paste(Insert—˜—p)
+vkFF & p::Send ^v
+; Vim Paste(Insertåˆ©ç”¨)
 ;Numpad0::Send ^v
 
-;-----------------------------
 ;Logitech Wireless Solar Keyboard K760
-;-----------------------------
-;vkACsc132::Send,{F5}
-;vk91sc046::Send,{F6}
-;vk13sc045::Send,{F7}
-;vkB3sc122::Send,{F9}
-;vkADsc120::Send {Volume_Mute}
-;vkAEsc12E::
+;vkAC::Send,{F5}
+;vk91::Send,{F6}
+;vk13::Send,{F7}
+;vkB3::Send,{F9}
+vkAD::Send {Volume_Mute}
+vkAE::
  Send {Volume_Down 5}
  SoundBeep
  return
-;vkAFsc130::
+vkAF::
  Send {Volume_Up 5}
  SoundBeep
  return
 
 ;-----------------------------
+; Vi Like With RAlt(vkFFsc079)
+;   (Surface book USã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ç”¨)
+;    â€» è¦registryã§ã€RAlt â†’ å¤‰æ›ã‚­ãƒ¼
+;-----------------------------
+
+;-----------------------------
 ; ELECOM TK-FBM036
-;   (USƒL[ƒ{[ƒh—p)
+;   (USã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ç”¨)
 ;-----------------------------
 ;vkACsc132::Send,{F1}
 ;vkAAsc165::Send,{F2}
@@ -105,7 +108,7 @@ vkFFsc079 & p::Send ^v
 
 ;-----------------------------
 ; Windows + Mac Command Key
-;  (Windows‚ÅMac‚ÌƒL[ƒoƒCƒ“ƒhŒİŠ·—p)
+;  (Windowsã§Macã®ã‚­ãƒ¼ãƒã‚¤ãƒ³ãƒ‰äº’æ›ç”¨)
 ;-----------------------------
 ; Undo
 LWIN & z::Send ^z
@@ -122,19 +125,19 @@ LWIN & s::Send ^s
 LWIN & y::Send ^y
 ; TabNew
 LWIN & t::Send ^t
-; CloseTask(Windows‚ÌAlt+F4)
+; CloseTask(Windowsã®Alt+F4)
 LWin & q::WinClose,A
 LWin & h::WinMinimize,A
 
 ;-----------------------------
 ; IME Switcher
 ;-----------------------------
-; LeftWindows+` ... USƒL[ƒ{[ƒh—pØ‚è‘Ö‚¦
-LWIN & vkC0sc029::Send {vk19}
-; LeftWindows+Space ... MacŒİŠ·IMEØ‚è‘Ö‚¦
+; LeftWindows+` ... USã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ç”¨åˆ‡ã‚Šæ›¿ãˆ
+LWIN & vkC0::Send {vk19}
+; LeftWindows+Space ... Macäº’æ›IMEåˆ‡ã‚Šæ›¿ãˆ
 LWIN & space::Send {vk19}
 
-;¡Ctrl+Shift+j‚ÆCtrl+Shift+: ‚ÌMac•W€IMEØ‚è‘Ö‚¦ŒİŠ·—p
+;â– Ctrl+Shift+jã¨Ctrl+Shift+: ã®Macæ¨™æº–IMEåˆ‡ã‚Šæ›¿ãˆäº’æ›ç”¨
 ^+j::
 If IME_IsON(WinExist("A")) == 0{
 Send {vk19}
@@ -142,7 +145,7 @@ Send {vk19}
 }
 return
 ; Ctrl + : (US:027,JIS:028)
-^+vkBAsc027::
+^+vkBA::
 If IME_IsON(WinExist("A")) == 1{
 Send {vk19}
 }else{
@@ -158,43 +161,49 @@ return
 ;LWin & +Tab::ShiftAltTab
 
 ;-----------------------------
-; AppKey(USƒL[—p)
+; AppKey(USã‚­ãƒ¼ç”¨)
+;   Surfaceã®æ™‚ã ã‚
 ;-----------------------------
-RAlt::AppsKey
+;RAlt::AppsKey
 
 ;-----------------------------
-; Memo,Test,etc 
-;-----------------------------
-;eisu - vkf0sc03A
-;vkf0sc03A::Send vk19
-
-;-----------------------------
-; Firefox Tab‚ÅŠJ‚­
-;-----------------------------
-LWin & LButton::Send,{Ctrl}{LButton}
-
-
-;-----------------------------
-; PrintScreen(Mac•—PrintScreen)(MacƒL[ƒ{[ƒh—p)
+; PrintScreen(Macé¢¨PrintScreen)(Macã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ç”¨)
 ; LWin+Shift+3 = PrintScreen
 ; LWin+Shift+4 = Alt+PrintScreen
 ;-----------------------------
-LWin & +3::Send,{PrintScreen}
-LWin & +4::Send,!{PrintScreen}
+LWin & 3::
+GetKeyState, state, Shift
+if state = D
+    Send,{PrintScreen}
+Return
 
+LWin & 4::
+GetKeyState, state, Shift
+if state = D
+    Send,!{PrintScreen}
+Return
 
 ;=============================
 ; Functions
 ;=============================
 IME_IsON(hWindow)
 {
-	; WM_IME_CONTROL    = 0x0283
-	; IMC_GETOPENSTATUS = 0x0005
-	bufCurrentDetectMode := A_DetectHiddenWindows
-	DetectHiddenWindows, On
-	buf := DllCall("user32.dll\SendMessageA", "UInt", DllCall("imm32.dll\ImmGetDefaultIMEWnd", "Uint",hWindow), "UInt", 0x0283, "Int", 0x0005, "Int", 0)
-	DetectHiddenWindows, %bufCurrentDetectMode%
-	Return buf
+    ; WM_IME_CONTROL    = 0x0283
+    ; IMC_GETOPENSTATUS = 0x0005
+    bufCurrentDetectMode := A_DetectHiddenWindows
+    DetectHiddenWindows, On
+    buf := DllCall("user32.dll\SendMessageA", "UInt", DllCall("imm32.dll\ImmGetDefaultIMEWnd", "Uint",hWindow), "UInt", 0x0283, "Int", 0x0005, "Int", 0)
+    DetectHiddenWindows, %bufCurrentDetectMode%
+    Return buf
 }
 
+IME_ON(hWindow, IsON)
+{
+    ; WM_IME_CONTROL    = 0x0283
+    ; IMC_SETOPENSTATUS = 0x0006
+    bufCurrentDetectMode := A_DetectHiddenWindows
+    DetectHiddenWindows, On
+    buf := DllCall("user32.dll\SendMessageA", "UInt", DllCall("imm32.dll\ImmGetDefaultIMEWnd", "Uint",hWindow), "UInt", 0x0283, "Int", 0x0006, "Int", IsON)
+    DetectHiddenWindows, %bufCurrentDetectMode%
+    Return buf
 }
