@@ -137,18 +137,19 @@ LWIN & vkC0::Send {vk19}
 ; LeftWindows+Space ... Mac互換IME切り替え
 LWIN & space::Send {vk19}
 
+;-----------------------------
 ;■Ctrl+Shift+jとCtrl+Shift+: のMac標準IME切り替え互換用
+;-----------------------------
 ^+j::
 If IME_IsON(WinExist("A")) == 0{
-Send {vk19}
-}else{
+    Send, {vk19}
 }
 return
 ; Ctrl + : (US:027,JIS:028)
-^+vkBA::
+;^+vkBA::
+^+;::
 If IME_IsON(WinExist("A")) == 1{
-Send {vk19}
-}else{
+    Send, {vk19}
 }
 return
 ;-----------------------------
@@ -162,9 +163,9 @@ return
 
 ;-----------------------------
 ; AppKey(USキー用)
-;   Surfaceの時だめ
+;   TODO: Surfaceの時だめなので、引数等で変更か？
 ;-----------------------------
-;RAlt::AppsKey
+RAlt::AppsKey
 
 ;-----------------------------
 ; PrintScreen(Mac風PrintScreen)(Macキーボード用)
@@ -207,3 +208,20 @@ IME_ON(hWindow, IsON)
     DetectHiddenWindows, %bufCurrentDetectMode%
     Return buf
 }
+
+;-----------------------------
+; RDP Active window screenshot
+;  (通常テンキーの-キーだが、通常の-キーでもスクリーンショットとれるように)
+;-----------------------------
+#IfWinActive,ahk_class TscShellContainerClass
+^!-::Send, ^!{NumpadSub}
+#IfWinActive
+
+;-----------------------------
+; コマンドプロンプトでCtrl+P, Ctrl+Nの履歴表示
+;-----------------------------
+#IfWinActive,ahk_class ConsoleWindowClass
+^P::Send, {Up}
+^N::Send, {Down}
+#IfWinActive
+
