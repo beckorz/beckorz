@@ -225,3 +225,10 @@ IME_ON(hWindow, IsON)
 ^N::Send, {Down}
 #IfWinActive
 
+;-----------------------------
+; Windows TerminalでCtrl+P, Ctrl+Nの履歴表示
+;-----------------------------
+#IfWinActive,ahk_class CASCADIA_HOSTING_WINDOW_CLASS
+^P::Send, {Up}
+^N::Send, {Down}
+#IfWinActive
