@@ -232,3 +232,19 @@ IME_ON(hWindow, IsON)
 ^P::Send, {Up}
 ^N::Send, {Down}
 #IfWinActive
+
+;-----------------------------
+; 変換キーの2連打でAutoHotkeyの設定をReload
+;-----------------------------
+vk1C::
+If (A_PriorHotKey == A_ThisHotKey and A_TimeSincePriorHotkey < 200)
+{
+    Reload
+    MsgBox "Reloaded"
+}
+Return
+
+;-----------------------------
+; 上の変換キー連打設定リロード機能を入れるとIME Onの時だけ、カーソル移動しようとして、Ctrl+変換を押すとコントロールメニューが出てしまうのを無効化
+;-----------------------------
+LCTRL & vk1C::Return
