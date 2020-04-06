@@ -4,18 +4,89 @@
 ;  - Macintosh
 ;  - Vi Like
 ;  - USキーボード(101配列)
-;  - JISキーボード(106配列)
+;  - JPキーボード(106配列)
 ;
 ; NOTE: Fnキー活用してFn+Backspace→Deleteや、CapsLockキー活用はAutoHotkeyでは無理
 ;       Apple Wireless Keyboard Helper for Windows?? KeySwap??
 ;
-; see:http://sites.google.com/site/autohotkeyjp
-;/
+; @see: http://sites.google.com/site/autohotkeyjp
+;
+; @param: {string} キーボード種類を指定(キーボード種類名の最後にjpかusを付与すること)
+;                  e.g.) surfaceus      ... Microsoft Surface の USキーボード
+;                  e.g.) k760us         ... Logicool k760 USキーボード
+;                  e.g.) thinkpadx280jp ... Thinkpad X280 JP キーボード
+;
 ;_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 #UseHook on
 ; Keyの遅延速度
 SetKeyDelay, -1
+
+;-----------------------------
+; 定数(定数値は小文字で統一)
+;-----------------------------
+
+; 汎用キーボード
+keyboardJP := "jp"                   ; JPキーボード(一般的な106キーボード)
+keyboardUS := "us"                   ; USキーボード(101キーボード等で、変換キー等無い物)
+
+isKeyboardJP = false
+isKeyboardUS = false
+
+; キーボード個別種別名(種類が増えてきたらここに列挙すること)
+keyboardSurfaceUS := "surfaceus"     ; Surface USキーボード
+keyboardK760US := "k760us"           ; Logicool(Logitech K760) USキーボード
+keyboardX280US := "thinkpadx280jp"   ; Thinkpad X280(JPキーボード)
+
+currentKeyboard := "jp"
+
+; 引数でキーボード指定された場合
+ArgCount=%0%
+if (ArgCount == 1) {
+    ; キーボード指定
+    currentKeyboard = %1%
+    StringLower, currentKeyboard, currentKeyboard
+
+    ; 汎用キーボード名があれば取得
+    isKeyboardJP := (RegexMatch(currentKeyboard, "jp$", _) > 0)
+    isKeyboardUS := (RegexMatch(currentKeyboard, "us$", _) > 0)
+}
+MsgBox, JP?: %isKeyboardJP%
+MsgBox, US?: %isKeyboardUS%
+
+;-----------------------------
+; 関数
+;-----------------------------
+
+; 引数対応のリロード関数(通常のReloadは引数に非対応な為)
+ReloadWithArgs() { ;retains the exact arg structure except for ensuring /r is present
+    RegexMatch(DllCall("GetCommandLineW", "Str") ;parse out path to autohotkey.exe and "/r" if already present
+        , "^([^\s""]+|""[^""]+?"")(\s+/[rR])?\s+(?<args>.*)$", _)
+    Run "%A_AhkPath%" /r %_args%
+}
+
+; IMEがONになっているか
+IME_IsON(hWindow) {
+    ; WM_IME_CONTROL    = 0x0283
+    ; IMC_GETOPENSTATUS = 0x0005
+    bufCurrentDetectMode := A_DetectHiddenWindows
+    DetectHiddenWindows, On
+    buf := DllCall("user32.dll\SendMessageA", "UInt", DllCall("imm32.dll\ImmGetDefaultIMEWnd", "Uint", hWindow), "UInt", 0x0283, "Int", 0x0005, "Int", 0)
+    DetectHiddenWindows, %bufCurrentDetectMode%
+    Return buf
+}
+
+; IMEをONにする
+IME_ON(hWindow, IsON) {
+    ; WM_IME_CONTROL    = 0x0283
+    ; IMC_SETOPENSTATUS = 0x0006
+    bufCurrentDetectMode := A_DetectHiddenWindows
+    DetectHiddenWindows, On
+    buf := DllCall("user32.dll\SendMessageA", "UInt", DllCall("imm32.dll\ImmGetDefaultIMEWnd", "Uint", hWindow), "UInt", 0x0283, "Int", 0x0006, "Int", IsON)
+    DetectHiddenWindows, %bufCurrentDetectMode%
+    Return buf
+}
+
 
 ;-----------------------------
 ; Common(共通)
@@ -28,7 +99,7 @@ LCTRL & [::Send, {ESC}
 ;RWin::return
 
 ;-----------------------------
-; Vi Like With 変換/無変換(vk1Csc079)(JISキーボード用)
+; Vi Like With 変換/無変換(vk1Csc079)(JPキーボード用)
 ;-----------------------------
 vk1C & h::Send,{Blind}{Left}
 vk1C & j::Send,{Blind}{Down}
@@ -76,13 +147,13 @@ vkFF & p::Send ^v
 ;vkB3::Send,{F9}
 vkAD::Send {Volume_Mute}
 vkAE::
- Send {Volume_Down 5}
- SoundBeep
- return
+    Send {Volume_Down 5}
+    SoundBeep
+    return
 vkAF::
- Send {Volume_Up 5}
- SoundBeep
- return
+    Send {Volume_Up 5}
+    SoundBeep
+    return
 
 ;-----------------------------
 ; Vi Like With RAlt(vkFFsc079)
@@ -133,7 +204,11 @@ LWin & h::WinMinimize,A
 ; IME Switcher
 ;-----------------------------
 ; LeftWindows+` ... USキーボード用切り替え
-LWIN & vkC0::Send {vk19}
+LWIN & vkC0::
+    if (isKeyboardUS) {
+        MsgBox, hoge
+    }
+    return
 ; LeftWindows+Space ... Mac互換IME切り替え
 LWIN & space::Send {vk19}
 
@@ -141,31 +216,26 @@ LWIN & space::Send {vk19}
 ;■Ctrl+Shift+jとCtrl+Shift+: のMac標準IME切り替え互換用
 ;-----------------------------
 ^+j::
-If IME_IsON(WinExist("A")) == 0{
+if (IME_IsON(WinExist("A")) == 0) {
     Send, {vk19}
 }
 return
-; Ctrl + : (US:027,JIS:028)
+; Ctrl + : (US:027,JP:028)
 ;^+vkBA::
 ^+;::
-If IME_IsON(WinExist("A")) == 1{
+if (IME_IsON(WinExist("A")) == 1) {
     Send, {vk19}
 }
 return
-;-----------------------------
-; Alt + Tab Task Switch
-;-----------------------------
-;Windows - vkFFsc079 - LWin
-;Windows - vk5Csc15C - RWin
-;LWin & Tab::Send,{Blind}{Alt}{vk09sc00F}
-;LWin & Tab::AltTab
-;LWin & +Tab::ShiftAltTab
 
 ;-----------------------------
-; AppKey(USキー用)
-;   TODO: Surfaceの時だめなので、引数等で変更か？
+; AppsKey(AppsKey無し用)
 ;-----------------------------
-RAlt::AppsKey
+if (currentKeyboard == keyboardSurfaceUS) {
+    ; Surface USはキー数が足りなくAltを潰してしまうと、Vimキーバインドが出来ないので除外
+} else {
+    RAlt::AppsKey
+}
 
 ;-----------------------------
 ; PrintScreen(Mac風PrintScreen)(Macキーボード用)
@@ -173,42 +243,20 @@ RAlt::AppsKey
 ; LWin+Shift+4 = Alt+PrintScreen
 ;-----------------------------
 LWin & 3::
-GetKeyState, state, Shift
-if state = D
-    Send,{PrintScreen}
-Return
+    GetKeyState, state, Shift
+    if state == D
+        Send,{PrintScreen}
+    Return
 
 LWin & 4::
-GetKeyState, state, Shift
-if state = D
-    Send,!{PrintScreen}
-Return
+    GetKeyState, state, Shift
+    if state == D
+        Send,!{PrintScreen}
+    Return
 
 ;=============================
 ; Functions
 ;=============================
-IME_IsON(hWindow)
-{
-    ; WM_IME_CONTROL    = 0x0283
-    ; IMC_GETOPENSTATUS = 0x0005
-    bufCurrentDetectMode := A_DetectHiddenWindows
-    DetectHiddenWindows, On
-    buf := DllCall("user32.dll\SendMessageA", "UInt", DllCall("imm32.dll\ImmGetDefaultIMEWnd", "Uint",hWindow), "UInt", 0x0283, "Int", 0x0005, "Int", 0)
-    DetectHiddenWindows, %bufCurrentDetectMode%
-    Return buf
-}
-
-IME_ON(hWindow, IsON)
-{
-    ; WM_IME_CONTROL    = 0x0283
-    ; IMC_SETOPENSTATUS = 0x0006
-    bufCurrentDetectMode := A_DetectHiddenWindows
-    DetectHiddenWindows, On
-    buf := DllCall("user32.dll\SendMessageA", "UInt", DllCall("imm32.dll\ImmGetDefaultIMEWnd", "Uint",hWindow), "UInt", 0x0283, "Int", 0x0006, "Int", IsON)
-    DetectHiddenWindows, %bufCurrentDetectMode%
-    Return buf
-}
-
 ;-----------------------------
 ; RDP Active window screenshot
 ;  (通常テンキーの-キーだが、通常の-キーでもスクリーンショットとれるように)
@@ -237,14 +285,17 @@ IME_ON(hWindow, IsON)
 ; 変換キーの2連打でAutoHotkeyの設定をReload
 ;-----------------------------
 vk1C::
-If (A_PriorHotKey == A_ThisHotKey and A_TimeSincePriorHotkey < 200)
-{
-    Reload
-    MsgBox "Reloaded"
-}
-Return
+    if (isKeyboardJP) {
+        If (A_PriorHotKey == A_ThisHotKey and A_TimeSincePriorHotkey < 200) {
+            ; Reload
+            ReloadWithArgs()
+            MsgBox "Reloaded"
+        }
 
-;-----------------------------
-; 上の変換キー連打設定リロード機能を入れるとIME Onの時だけ、カーソル移動しようとして、Ctrl+変換を押すとコントロールメニューが出てしまうのを無効化
-;-----------------------------
-LCTRL & vk1C::Return
+        ;-----------------------------
+        ; 上の変換キー連打設定リロード機能を入れるとIME Onの時だけ、カーソル移動しようとして、Ctrl+変換を押すとコントロールメニューが出てしまうのを無効化
+        ;-----------------------------
+        LCTRL & vk1C::Return
+    }
+    Return
+
