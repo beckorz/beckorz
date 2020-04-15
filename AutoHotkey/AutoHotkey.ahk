@@ -216,17 +216,17 @@ LWIN & space::Send {vk19}
 ;■Ctrl+Shift+jとCtrl+Shift+: のMac標準IME切り替え互換用
 ;-----------------------------
 ^+j::
-if (IME_IsON(WinExist("A")) == 0) {
-    Send, {vk19}
-}
-return
+    if (IME_IsON(WinExist("A")) == 0) {
+        Send, {vk19}
+    }
+    return
 ; Ctrl + : (US:027,JP:028)
 ;^+vkBA::
 ^+;::
-if (IME_IsON(WinExist("A")) == 1) {
-    Send, {vk19}
-}
-return
+    if (IME_IsON(WinExist("A")) == 1) {
+        Send, {vk19}
+    }
+    return
 
 ;-----------------------------
 ; AppsKey(AppsKey無し用)
@@ -235,6 +235,7 @@ if (currentKeyboard == keyboardSurfaceUS) {
     ; Surface USはキー数が足りなくAltを潰してしまうと、Vimキーバインドが出来ないので除外
 } else {
     RAlt::AppsKey
+    return
 }
 
 ;-----------------------------
@@ -244,13 +245,13 @@ if (currentKeyboard == keyboardSurfaceUS) {
 ;-----------------------------
 LWin & 3::
     GetKeyState, state, Shift
-    if state == D
+    if state = D
         Send,{PrintScreen}
     Return
 
 LWin & 4::
     GetKeyState, state, Shift
-    if state == D
+    if state = D
         Send,!{PrintScreen}
     Return
 
