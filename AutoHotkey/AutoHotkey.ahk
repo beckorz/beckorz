@@ -260,6 +260,7 @@ LWin & 4::
 ;=============================
 ;-----------------------------
 ; RDP Active window screenshot
+;  Ctrl+Alt+-
 ;  (通常テンキーの-キーだが、通常の-キーでもスクリーンショットとれるように)
 ;-----------------------------
 #IfWinActive,ahk_class TscShellContainerClass
