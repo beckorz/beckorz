@@ -198,7 +198,26 @@ LWIN & y::Send ^y
 LWIN & t::Send ^t
 ; CloseTask(WindowsのAlt+F4)
 LWin & q::WinClose,A
-LWin & h::WinMinimize,A
+
+LWin & h::
+    ; 仮想デスクトップ移動 ←
+    if GetKeyState("vk1C", "P") && GetKeyState("LWin", "P") && GetKeyState("LCtrl", "P") {
+        SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+    } else if GetKeyState("LWin", "P") && GetKeyState("LCtrl", "P") {
+        SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+    } else if GetKeyState("LWin", "P") {
+        ; Minimize Window
+        WinMinimize,A
+    }
+    return
+LWin & l::
+    ; 仮想デスクトップ移動 →
+    if GetKeyState("vk1C", "P") && GetKeyState("LWin", "P") && GetKeyState("LCtrl", "P") {
+        SendEvent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+    } else if GetKeyState("LWin", "P") && GetKeyState("LCtrl", "P") {
+        SendEvent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+    }
+    return
 
 ;-----------------------------
 ; IME Switcher
