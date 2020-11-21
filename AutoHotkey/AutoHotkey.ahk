@@ -51,8 +51,7 @@ if (ArgCount == 1) {
     isKeyboardJP := (RegexMatch(currentKeyboard, "jp$", _) > 0)
     isKeyboardUS := (RegexMatch(currentKeyboard, "us$", _) > 0)
 }
-MsgBox, JP?: %isKeyboardJP%
-MsgBox, US?: %isKeyboardUS%
+MsgBox, CurrentKeyboard: %currentKeyboard%
 
 ;-----------------------------
 ; 関数
@@ -119,8 +118,9 @@ vk1C & p::Send, ^v
 
 ;-----------------------------
 ; Vi Like With RightWindowsKey(vkFFsc079)
+;   K760us
 ;   (USキーボード用)
-;   ※ 要レジストリで、RightWidnowsKey→変換キー
+;   ※ 要レジストリで、RightWidnowsKey→変換キー(vkFFsc079)
 ;-----------------------------
 vkFF & h::Send,{Blind}{Left}
 vkFF & j::Send,{Blind}{Down}
@@ -191,8 +191,15 @@ LWIN & c::Send ^c
 LWIN & v::Send ^v 
 ; Close
 LWIN & w::Send ^w
-; Save
-LWIN & s::Send ^s
+LWIN & s::
+    if (GetKeyState("shift", "P")) {
+        ; Win+Shift+s > Native windows screen shot
+        Send #+s
+    } else {
+        ; Save
+        Send ^s
+    }
+
 LWIN & y::Send ^y
 ; TabNew
 LWIN & t::Send ^t
@@ -226,6 +233,7 @@ LWin & l::
 LWIN & vkC0::
     if (isKeyboardUS) {
         MsgBox, hoge
+        Send {vk19}
     }
     return
 ; LeftWindows+Space ... Mac互換IME切り替え
@@ -246,16 +254,6 @@ LWIN & space::Send {vk19}
         Send, {vk19}
     }
     return
-
-;-----------------------------
-; AppsKey(AppsKey無し用)
-;-----------------------------
-if (currentKeyboard == keyboardSurfaceUS) {
-    ; Surface USはキー数が足りなくAltを潰してしまうと、Vimキーバインドが出来ないので除外
-} else {
-    RAlt::AppsKey
-    return
-}
 
 ;-----------------------------
 ; PrintScreen(Mac風PrintScreen)(Macキーボード用)
@@ -320,3 +318,32 @@ vk1C::
     }
     Return
 
+vkFF::
+    if (currentKeyboard == keyboardK760US) {
+        ; K760US向け
+        If (A_PriorHotKey == A_ThisHotKey and A_TimeSincePriorHotkey < 200) {
+            ; Reload
+            ReloadWithArgs()
+            MsgBox "Reloaded"
+        }
+    }
+    Return
+
+;-----------------------------
+; AppsKey(AppsKey無し用)
+;-----------------------------
+RAlt::
+    if (currentKeyboard == keyboardSurfaceUS) {
+        ; SurfaceUS向け
+        ; Surface USはキー数が足りなくAltを潰してしまうと、Vimキーバインドが出来ないので除外
+        ; 設定リロード
+        ; TODO: 動作確認
+        If (A_PriorHotKey == A_ThisHotKey and A_TimeSincePriorHotkey < 200) {
+            ; Reload
+            ReloadWithArgs()
+            MsgBox "Reloaded"
+        }
+    } else {
+        Send, {AppsKey}
+    }
+    Return
