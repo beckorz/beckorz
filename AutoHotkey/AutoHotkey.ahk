@@ -199,6 +199,7 @@ LWIN & s::
         ; Save
         Send ^s
     }
+    return
 
 LWIN & y::Send ^y
 ; TabNew
