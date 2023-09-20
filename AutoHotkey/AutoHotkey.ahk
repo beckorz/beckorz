@@ -182,15 +182,50 @@ vkAF::
 ;  (WindowsでMacのキーバインド互換用)
 ;-----------------------------
 ; Undo
-LWIN & z::Send ^z
+LWIN & z::
+    if (GetKeyState("shift", "P")) {
+        ; native key
+        Send #+z
+    } else {
+        Send ^z
+    }
+    return
 ; Cut
-LWIN & x::Send ^x
+LWIN & x::
+    if (GetKeyState("shift", "P")) {
+        ; native key
+        Send #+x
+    } else {
+        Send ^x
+    }
+    return
 ; Copy
-LWIN & c::Send ^c
+LWIN & c::
+    if (GetKeyState("shift", "P")) {
+        ; native key
+        Send #+c
+    } else {
+        Send ^c
+    }
+    return
 ; Paste
-LWIN & v::Send ^v 
+LWIN & v:: 
+    if (GetKeyState("shift", "P")) {
+        ; native key
+        Send #+v
+    } else {
+        Send ^v
+    }
+    return
 ; Close
-LWIN & w::Send ^w
+LWIN & w::
+    if (GetKeyState("shift", "P")) {
+        ; native key
+        Send #+w
+    } else {
+        Send ^w
+    }
+    return
 LWIN & s::
     if (GetKeyState("shift", "P")) {
         ; Win+Shift+s > Native windows screen shot
@@ -201,9 +236,26 @@ LWIN & s::
     }
     return
 
-LWIN & y::Send ^y
+LWIN & y::
+    if (GetKeyState("shift", "P")) {
+        ; native key
+        Send #+y
+    } else {
+        ; TabNew
+        Send ^y
+    }
+    return
 ; TabNew
-LWIN & t::Send ^t
+LWIN & t::
+    if (GetKeyState("shift", "P")) {
+        ; Win+Shift+t > native key
+        Send #+t
+    } else {
+        ; TabNew
+        Send ^t
+    }
+    return
+
 ; CloseTask(WindowsのAlt+F4)
 LWin & q::WinClose,A
 
