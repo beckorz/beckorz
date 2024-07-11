@@ -30,8 +30,8 @@ SetKeyDelay, -1
 keyboardJP := "jp"                   ; JPキーボード(一般的な106キーボード)
 keyboardUS := "us"                   ; USキーボード(101キーボード等で、変換キー等無い物)
 
-isKeyboardJP = false
-isKeyboardUS = false
+isKeyboardJP := false
+isKeyboardUS := false
 
 ; キーボード個別種別名(種類が増えてきたらここに列挙すること)
 keyboardSurfaceUS := "surfaceus"     ; Surface USキーボード
@@ -86,6 +86,47 @@ IME_ON(hWindow, IsON) {
     Return buf
 }
 
+; Modifiersキー状態の取得
+; @usage: modifiers := GetModifiers()
+;         Send, %modifiers%{%key_name%}
+; @see: AutoHotkeyで修飾キー(Ctrl,Shift,Alt,Win)の状態(^!+#)を取得する関数を作る方法 - 情報科学屋さんを目指す人のメモ（FC2ブログ版）
+;       http://did2.blog64.fc2.com/blog-entry-355.html
+; @return ^ = Ctrl
+;         + = Shift
+;         ! = Alt
+;         # = Win(LWin or RWin)
+GetModifiers() {
+    modifiers := ""
+    if (GetKeyState("Ctrl", "P")) {
+        modifiers = %modifiers%^
+    }
+    if (GetKeyState("Shift", "P")) {
+        modifiers = %modifiers%+
+    }
+    if (GetKeyState("Alt", "P")) {
+        modifiers = %modifiers%!
+    }
+    if (GetKeyState("RWin","P") || GetKeyState("LWin","P")) {
+        modifiers = %modifiers%`#
+    }
+    return %modifiers%
+}
+
+; Windowsキーとの装飾キーの組み合わせ送信用関数
+; @param baseKey = キー
+;        modifiers = 装飾キー文字列
+; 
+SendWindowsKeysAndModifiers(baseKey, modifiers)
+{
+    ; Win + Ctrl + key
+    if not InStr(modifiers, "^") && InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
+        Send +#%baseKey%
+    }
+    ; Win + key
+    if not InStr(modifiers, "^") && not InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
+        Send ^%baseKey%
+    }
+}
 
 ;-----------------------------
 ; Common(共通)
@@ -183,79 +224,51 @@ vkAF::
 ;-----------------------------
 ; Undo
 LWIN & z::
-    if (GetKeyState("shift", "P")) {
-        ; native key
-        Send #+z
-    } else {
-        Send ^z
-    }
+    key = z
+    modifiers := GetModifiers()
+    SendWindowsKeysAndModifiers(key, modifiers)
     return
 ; Cut
 LWIN & x::
-    if (GetKeyState("shift", "P")) {
-        ; native key
-        Send #+x
-    } else {
-        Send ^x
-    }
+    key = x
+    modifiers := GetModifiers()
+    SendWindowsKeysAndModifiers(key, modifiers)
     return
 ; Copy
 LWIN & c::
-    if (GetKeyState("shift", "P")) {
-        ; native key
-        Send #+c
-    } else {
-        Send ^c
-    }
+    key = c
+    modifiers := GetModifiers()
+    SendWindowsKeysAndModifiers(key, modifiers)
     return
 ; Paste
 LWIN & v:: 
-    if (GetKeyState("shift", "P")) {
-        ; native key
-        Send #+v
-    } else {
-        Send ^v
-    }
+    key = v
+    modifiers := GetModifiers()
+    SendWindowsKeysAndModifiers(key, modifiers)
     return
 ; Close
 LWIN & w::
-    if (GetKeyState("shift", "P")) {
-        ; native key
-        Send #+w
-    } else {
-        Send ^w
-    }
+    key = w
+    modifiers := GetModifiers()
+    SendWindowsKeysAndModifiers(key, modifiers)
     return
 LWIN & s::
-    if (GetKeyState("shift", "P")) {
-        ; Win+Shift+s > Native windows screen shot
-        Send #+s
-    } else {
-        ; Save
-        Send ^s
-    }
+    key = s
+    modifiers := GetModifiers()
+    ; Win+Shift+s > Native windows screen shot
+    SendWindowsKeysAndModifiers(key, modifiers)
     return
-
 LWIN & y::
-    if (GetKeyState("shift", "P")) {
-        ; native key
-        Send #+y
-    } else {
-        ; TabNew
-        Send ^y
-    }
+    key = y
+    modifiers := GetModifiers()
+    SendWindowsKeysAndModifiers(key, modifiers)
     return
-; TabNew
 LWIN & t::
-    if (GetKeyState("shift", "P")) {
-        ; Win+Shift+t > native key
-        Send #+t
-    } else {
-        ; TabNew
-        Send ^t
-    }
+    key = t
+    modifiers := GetModifiers()
+    ; Ctrl+t = TabNew
+    SendWindowsKeysAndModifiers(key, modifiers)
     return
-
 ; CloseTask(WindowsのAlt+F4)
 LWin & q::WinClose,A
 
@@ -285,12 +298,13 @@ LWin & l::
 ; LeftWindows+` ... USキーボード用切り替え
 LWIN & vkC0::
     if (isKeyboardUS) {
-        MsgBox, hoge
         Send {vk19}
     }
     return
 ; LeftWindows+Space ... Mac互換IME切り替え
-LWIN & space::Send {vk19}
+LWIN & space::
+    Send {vk19}
+    return
 
 ;-----------------------------
 ;■Ctrl+Shift+jとCtrl+Shift+: のMac標準IME切り替え互換用
@@ -314,16 +328,17 @@ LWIN & space::Send {vk19}
 ; LWin+Shift+4 = Alt+PrintScreen
 ;-----------------------------
 LWin & 3::
-    GetKeyState, state, Shift
-    if state = D
+    modifiers := GetModifiers()
+    if not InStr(modifiers, "^") && InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
         Send,{PrintScreen}
-    Return
-
+    }
+    return
 LWin & 4::
-    GetKeyState, state, Shift
-    if state = D
+    modifiers := GetModifiers()
+    if not InStr(modifiers, "^") && InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
         Send,!{PrintScreen}
-    Return
+    }
+    return
 
 ;=============================
 ; Functions
