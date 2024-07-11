@@ -273,21 +273,27 @@ LWIN & t::
 LWin & q::WinClose,A
 
 LWin & h::
-    ; 仮想デスクトップ移動 ←
-    if GetKeyState("vk1C", "P") && GetKeyState("LWin", "P") && GetKeyState("LCtrl", "P") {
+    modifiers := GetModifiers()
+    if GetKeyState("vk1C", "P") && InStr(modifiers, "^") && not InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
+        ; 仮想デスクトップ移動 ←
+        ; 変換 + Ctrl + Win + h = 仮想デスクトップ移動
         SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-    } else if GetKeyState("LWin", "P") && GetKeyState("LCtrl", "P") {
+    } else if not InStr(modifiers, "^") && InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
+        ; Win + Shift + h
+        Send +#h
+    } else if InStr(modifiers, "^") && not InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
         SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-    } else if GetKeyState("LWin", "P") {
-        ; Minimize Window
+    } else if not InStr(modifiers, "^") && not InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
+        ; Win + h = Minimize Window
         WinMinimize,A
     }
     return
 LWin & l::
     ; 仮想デスクトップ移動 →
-    if GetKeyState("vk1C", "P") && GetKeyState("LWin", "P") && GetKeyState("LCtrl", "P") {
+    modifiers := GetModifiers()
+    if GetKeyState("vk1C", "P") && InStr(modifiers, "^") && not InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
         SendEvent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-    } else if GetKeyState("LWin", "P") && GetKeyState("LCtrl", "P") {
+    } else if InStr(modifiers, "^") && not InStr(modifiers, "+") && not InStr(modifiers, "!") && InStr(modifiers, "#") {
         SendEvent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
     }
     return
